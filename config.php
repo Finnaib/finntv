@@ -98,27 +98,22 @@ function parseMoviesAndSeries()
                 // Rule: vod.m3u is ALWAYS VOD or Series.
 
                 if (stripos($filename, 'xtream.m3u') !== false) {
-                    // Force Live
                     $is_vod = false;
                     $is_series = false;
                 } elseif (stripos($filename, 'vod.m3u') !== false) {
-                    // Force VOD/Series Check
+                    // Check Series keywords
                     $group_lower = strtolower($current_group);
-
-                    // Check Series
                     foreach ($server_config['series_keywords'] as $kw) {
                         if (strpos($group_lower, $kw) !== false) {
                             $is_series = true;
                             break;
                         }
                     }
-
-                    // If not series, must be movie (since file is vod.m3u)
                     if (!$is_series) {
                         $is_vod = true;
-                    }
+                    } // Default to VOD if not series
                 } else {
-                    // Legacy/Other Files: Auto-Detect
+                    // Auto-Detect for other files
                     $group_lower = strtolower($current_group);
                     foreach ($server_config['series_keywords'] as $kw) {
                         if (strpos($group_lower, $kw) !== false) {
@@ -136,30 +131,38 @@ function parseMoviesAndSeries()
                     }
                 }
 
-                // Store metadata for next URL line
+                // Determine Type
+                $type = $is_series ? 'series' : ($is_vod ? 'movie' : 'live');
+
+                // --- Category ID Generation ---
+                // Use CRC32 hash of "Type_GroupName" to ensure unique, persistent Integer IDs
+                // strict prevention of ID collision between Live "Action" and Movie "Action"
+                $unique_group_str = ($type === 'live' ? 'L_' : ($type === 'movie' ? 'M_' : 'S_')) . $current_group;
+                $cat_id = sprintf("%u", crc32($unique_group_str)); // Unsigned integer
+
+                // Store metadata
                 $meta = [
                     'id' => $stream_index++,
                     'name' => $name,
                     'logo' => $current_logo,
                     'group' => $current_group,
-                    'type' => $is_series ? 'series' : ($is_vod ? 'movie' : 'live')
+                    'type' => $type,
+                    'cat_id' => $cat_id
                 ];
 
-            } else if (strpos($line, 'http') === 0) {
-                // It's a URL
-                if (empty($meta))
-                    continue;
+            } else if (strpos($line, 'http') === 0 && !empty($meta)) {
 
-                $type = $meta['type']; // live, movie, series
+                // --- Add Category if new ---
+                $type = $meta['type'];
+                $cat_key = $meta['cat_id'];
 
-                // Handle Category ID
-                if (!isset($cat_map[$type][$current_group])) {
-                    $cat_map[$type][$current_group] = count($cat_map[$type]) + 1;
+                // We use a temporary array to track unique categories to avoid duplication
+                if (!isset($cat_map[$type][$cat_key])) {
+                    $cat_map[$type][$cat_key] = true;
 
-                    // Add to main category list
                     $cat_entry = [
-                        'category_id' => (string) $cat_map[$type][$current_group],
-                        'category_name' => $current_group,
+                        'category_id' => (string) $cat_key,
+                        'category_name' => $meta['group'],
                         'parent_id' => 0
                     ];
 
@@ -171,17 +174,15 @@ function parseMoviesAndSeries()
                         $data['series_categories'][] = $cat_entry;
                 }
 
-                $cat_id = $cat_map[$type][$current_group];
-
-                // Build Stream Object
+                // --- Build Stream Object ---
                 $stream = [
                     'num' => $meta['id'],
                     'name' => $meta['name'],
                     'stream_id' => $meta['id'],
                     'stream_icon' => $meta['logo'],
-                    'category_id' => (string) $cat_id,
+                    'category_id' => (string) $meta['cat_id'],
                     'container_extension' => ($type == 'live') ? 'ts' : 'mp4',
-                    'direct_source' => $line // Important: Store upstream URL
+                    'direct_source' => $line
                 ];
 
                 // Add to specific arrays
@@ -194,17 +195,12 @@ function parseMoviesAndSeries()
                     $stream['added'] = (string) time();
                     $data['vod_streams'][] = $stream;
                 } elseif ($type == 'series') {
-                    // Series needs simplified "Series" entry, not individual episodes in this list usually, 
-                    // but for M3U gateway, we treat them as VOD streams or grouped series.
-                    // For simplicity in V1 of this re-write, treating Series as VOD Files
-                    // mapped to a "Series" category for generic players.
                     $stream['series_id'] = $meta['id'];
                     $stream['cover'] = $meta['logo'];
-                    // Logic hack: Many players accept series as VOD if configured this way
                     $data['series'][] = $stream;
                 }
 
-                $meta = []; // Clear
+                $meta = []; // Clear pair
             }
         }
     }
