@@ -79,122 +79,186 @@ $server_info = [
 
 // --- Action Router ---
 
-switch ($action) {
+if ($action === '' || $action === 'get_panel_info') {
     // 1. Login / Handshake
-    case '':
-    case 'get_panel_info':
-        json_out([
-            'user_info' => $user_info,
-            'server_info' => $server_info
-        ]);
-        break;
+    json_out([
+        'user_info' => $user_info,
+        'server_info' => $server_info
+    ]);
 
-    // 2. Live TV
-    case 'get_live_categories':
-        json_out($data['live_categories']);
-        break;
+} elseif ($action === 'get_live_categories') {
+    // 2. Live Categories
+    json_out($data['live_categories']);
 
-    case 'get_live_streams':
-        $cat_id = $_GET['category_id'] ?? null;
-        $out = [];
-        foreach ($data['live_streams'] as $s) {
-            if ($cat_id && $s['category_id'] != $cat_id)
-                continue;
-            $out[] = $s;
+} elseif ($action === 'get_live_streams') {
+    // 3. Live Streams
+    $cat_id = $_GET['category_id'] ?? null;
+    $out = [];
+    foreach ($data['live_streams'] as $s) {
+        if ($cat_id && $s['category_id'] != $cat_id)
+            continue;
+        $out[] = $s;
+    }
+    json_out($out);
+
+} elseif ($action === 'get_vod_categories') {
+    // 4. VOD Categories
+    json_out($data['vod_categories']);
+
+} elseif ($action === 'get_vod_streams') {
+    // 5. VOD Streams
+    $cat_id = $_GET['category_id'] ?? null;
+    $out = [];
+    foreach ($data['vod_streams'] as $s) {
+        if ($cat_id && $s['category_id'] != $cat_id)
+            continue;
+        $out[] = $s;
+    }
+    json_out($out);
+
+} elseif ($action === 'get_series_categories') {
+    // 6. Series Categories
+    json_out($data['series_categories']);
+
+} elseif ($action === 'get_series') {
+    // 7. Series List
+    $cat_id = $_GET['category_id'] ?? null;
+    $out = [];
+    foreach ($data['series'] as $s) {
+        if ($cat_id && $s['category_id'] != $cat_id)
+            continue;
+
+        // Return series format
+        $out[] = [
+            'num' => $s['num'],
+            'name' => $s['name'],
+            'series_id' => $s['num'],
+            'cover' => $s['cover'],
+            'plot' => '',
+            'cast' => '',
+            'director' => '',
+            'genre' => '',
+            'releaseDate' => '',
+            'last_modified' => (string) time(),
+            'rating' => '5',
+            'rating_5based' => '5',
+            'backdrop_path' => [],
+            'youtube_trailer' => '',
+            'episode_run_time' => '0',
+            'category_id' => $s['category_id']
+        ];
+    }
+    json_out($out);
+
+} elseif ($action === 'get_series_info') {
+    // 8. Series Info (Episodes)
+    // Fake 1 Season / 1 Episode mapping
+    $id = $_GET['series_id'] ?? 0;
+
+    // Find Series
+    $found = null;
+    foreach ($data['series'] as $s) {
+        if ($s['num'] == $id) {
+            $found = $s;
+            break;
         }
-        json_out($out);
-        break;
+    }
 
-    // 3. Movies (VOD)
-    case 'get_vod_categories':
-        json_out($data['vod_categories']);
-        break;
+    $episodes = [];
+    if ($found) {
+        $episodes[] = [
+            'id' => $found['num'],
+            'episode_num' => 1,
+            'title' => $found['name'],
+            'container_extension' => 'mp4',
+            'info' => [],
+            'custom_sid' => '',
+            'added' => (string) time(),
+            'season' => 1,
+            'direct_source' => ''
+        ];
+    }
 
-    case 'get_vod_streams':
-        $cat_id = $_GET['category_id'] ?? null;
-        $out = [];
-        foreach ($data['vod_streams'] as $s) {
-            if ($cat_id && $s['category_id'] != $cat_id)
-        $cat_id = $_GET['category_id'] ?? null;
-        $out = [];
-        foreach ($data['series'] as $s) {
-            if ($cat_id && $s['category_id'] != $cat_id)
-                continue;
-            // Simplify data for series list
-            $out[] = [
-                'num' => $s['num'],
-                'name' => $s['name'],
-                'series_id' => $s['num'],
-                'cover' => $s['stream_icon'],
-                'plot' => '',
-                'cast' => '',
-                'director' => '',
-                'genre' => '',
-                'releaseDate' => '',
-                'last_modified' => (string) time(),
-                'rating' => '5',
-                'rating_5based' => '5',
-                'backdrop_path' => [],
-                'youtube_trailer' => '',
-                'episode_run_time' => '0',
-                'category_id' => $s['category_id']
-            ];
-        }
-        json_out($out);
-        break;
-
-    case 'get_series_info':
-        // When user clicks a series, player asks for episodes.
-        // Since we parsed them as flat streams in 'series', we need to fake an episode.
-        // Real implementation would group S01E01 etc.
-        $id = $_GET['series_id'] ?? 0;
-
-        // Find the stream source again (inefficient lookup but works for simple parsing)
-        $found = null;
-        foreach ($data['series'] as $s) {
-            if ($s['num'] == $id) {
-                $found = $s;
-                break;
-            }
-        }
-
-        $episodes = [];
-        if ($found) {
-            $episodes[] = [
-                'id' => $found['num'],
-                'episode_num' => 1,
-                'title' => $found['name'],
-                'container_extension' => 'mp4',
-                'info' => [],
-                'custom_sid' => '',
-                'added' => (string) time(),
-                'season' => 1,
-                'direct_source' => ''
-            ];
-        }
-
-        json_out([
-            'seasons' => [
-                [
-                    'air_date' => '2023-01-01',
-                    'episode_count' => 1,
-                    'id' => 1,
-                    'name' => 'Season 1',
-                    'overview' => '',
-                    'season_number' => 1,
-                    'cover' => $found['cover'] ?? '',
-                    'cover_big' => $found['cover'] ?? ''
-                ]
-            ],
-            'episodes' => [
-                "1" => $episodes
+    json_out([
+        'seasons' => [
+            [
+                'air_date' => '2023-01-01',
+                'episode_count' => 1,
+                'id' => 1,
+                'name' => 'Season 1',
+                'overview' => '',
+                'season_number' => 1,
+                'cover' => $found['cover'] ?? '',
+                'cover_big' => $found['cover'] ?? ''
             ]
-        ]);
-        break;
+        ],
+        'episodes' => ["1" => $episodes]
+    ]);
 
+} elseif ($action === 'get_vod_info') {
+    // 9. VOD Info (Dummy)
+    $vod_id = $_GET['vod_id'] ?? 0;
+    json_out([
+        'info' => [
+            'name' => 'Unknown Movie',
+            'description' => 'No description available.',
+            'director' => '',
+            'releasedate' => '',
+            'genre' => '',
+            'cast' => '',
+            'rating' => '5',
+            'duration' => '',
+            'poster_url' => ''
+        ],
+        'movie_data' => [
+            'stream_id' => $vod_id,
+            'container_extension' => 'mp4',
+            'name' => 'Unknown Movie'
+        ]
+    ]);
+
+} elseif ($action === 'get_stats') {
+    // 10. Admin Stats
+    if ($username !== 'admin') {
+        json_out(['error' => 'Unauthorized']);
+        return;
+    }
+
+    json_out([
+        'live_streams' => count($data['live_streams']),
+        'vod_streams' => count($data['vod_streams']),
+        'series' => count($data['series']),
+        'users' => count($users_db),
+        'uptime' => 'Running on Vercel'
+    ]);
+
+} elseif ($action === 'get_users') {
+    // 11. Admin Users
+    if ($username !== 'admin') {
+        json_out(['error' => 'Unauthorized']);
+        return;
+    }
+
+    $display_users = [];
+    foreach ($users_db as $u => $p) {
+        $pass = is_array($p) ? $p['password'] : $p;
+        $created = (is_array($p) && !empty($p['created_at'])) ? date("Y-m-d", $p['created_at']) : "Dynamic";
+        $exp = (is_array($p) && empty($p['created_at'])) ? "Dynamic (+1 Year)" : date("Y-m-d", strtotime('+1 year', $p['created_at']));
+
+        $display_users[] = [
+            'username' => $u,
+            'password' => $pass,
+            'created' => $created,
+            'exp' => $exp,
+            'max_connections' => 5,
+            'status' => 'Active'
+        ];
+    }
+    json_out($display_users);
+
+} else {
     // Default
-    default:
-        json_out(['error' => 'Unknown Action']);
+    json_out(['error' => 'Unknown Action']);
 }
 
 // End of file
