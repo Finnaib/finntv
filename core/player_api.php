@@ -10,7 +10,7 @@ ini_set('display_errors', 0);
 set_time_limit(0);
 
 // Load config
-require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/../config.php';
 
 // CORS headers for all apps
 header('Access-Control-Allow-Origin: *');

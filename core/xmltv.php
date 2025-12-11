@@ -13,7 +13,7 @@ header('Content-Type: application/xml; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Cache-Control: max-age=3600'); // Cache for 1 hour
 
-require_once 'config.php';
+require_once __DIR__ . '/../config.php';
 
 // Optional authentication
 $username = $_GET['username'] ?? '';

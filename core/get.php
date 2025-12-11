@@ -19,7 +19,7 @@ header('Cache-Control: no-cache, no-store, must-revalidate');
 header('Pragma: no-cache');
 header('Expires: 0');
 
-require_once 'config.php';
+require_once __DIR__ . '/../config.php';
 
 $username = $_GET['username'] ?? '';
 $password = $_GET['password'] ?? '';

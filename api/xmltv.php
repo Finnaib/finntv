@@ -1,3 +1,3 @@
 <?php
 chdir(__DIR__ . '/..');
-require_once __DIR__ . '/../xmltv.php';
+require_once __DIR__ . '/../core/xmltv.php';
