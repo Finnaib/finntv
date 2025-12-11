@@ -1,44 +1,43 @@
 {
-    "buildCommand": "echo 'No build required'",
-    "outputDirectory": ".",
-    "installCommand": "echo 'No dependencies to install'",
-    "functions": {
-        "api/*.php": {
-            "runtime": "vercel-php@0.7.1"
+    "version": 2,
+    "builds": [
+        {
+            "src": "api/*.php",
+            "use": "vercel-php@0.6.0"
         }
-    },
-    "rewrites": [
+    ],
+    "routes": [
         {
-            "source": "/player_api.php",
-            "destination": "/api/player_api.php"
+            "src": "/player_api.php",
+            "dest": "/api/player_api.php"
         },
         {
-            "source": "/get.php",
-            "destination": "/api/get.php"
+            "src": "/get.php",
+            "dest": "/api/get.php"
         },
         {
-            "source": "/live/:path*",
-            "destination": "/api/live.php"
+            "src": "/live/(.*)",
+            "dest": "/api/live.php"
         },
         {
-            "source": "/movie/:path*",
-            "destination": "/api/live.php"
+            "src": "/movie/(.*)",
+            "dest": "/api/live.php"
         },
         {
-            "source": "/series/:path*",
-            "destination": "/api/live.php"
+            "src": "/series/(.*)",
+            "dest": "/api/live.php"
         },
         {
-            "source": "/panel_api.php",
-            "destination": "/api/panel_api.php"
+            "src": "/panel_api.php",
+            "dest": "/api/panel_api.php"
         },
         {
-            "source": "/xmltv.php",
-            "destination": "/api/xmltv.php"
+            "src": "/xmltv.php",
+            "dest": "/api/xmltv.php"
         },
         {
-            "source": "/",
-            "destination": "/index.html"
+            "src": "/",
+            "dest": "/index.html"
         }
     ]
 }

@@ -184,7 +184,7 @@ switch ($action) {
         $cats = [];
         foreach ($categories as $cat) {
             $cats[] = [
-                'category_id' => (int) $cat['category_id'], // Cast to int for client compatibility
+                'category_id' => (string) $cat['category_id'], // Match reference: String
                 'category_name' => $cat['category_name'],
                 'parent_id' => (int) $cat['parent_id']
             ];
@@ -226,8 +226,8 @@ switch ($action) {
                 'epg_channel_id' => $ch['tvg_id'] ?? '',
                 'added' => (string) (time() - 604800),
                 'is_adult' => '0',
-                'category_id' => (string) $ch['category'], // Xtream spec says string, but some clients map strict types.
-                'category_ids' => [(int) $ch['category']],
+                'category_id' => (string) $ch['category'],
+                'category_ids' => [(string) $ch['category']], // Match reference: String array
                 'custom_sid' => '',
                 'tv_archive' => 0,
                 'direct_source' => '',
