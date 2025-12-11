@@ -76,8 +76,9 @@ if (
     $is_smart_app = true;
 }
 
-// "Old Box" Logic: Rewrite HLS to TS if requested AND NOT smart app
-if (!$is_smart_app && $ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
+// Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
+// This helps all apps (Smarters, Boxes) if they expect TS from an Xtream API.
+if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
     // Attempt standard Xtream upstream rewrite
     // upstream/live/u/p/123.m3u8 -> upstream/live/u/p/123.ts
     // OR upstream/index.m3u8 -> upstream/index.ts (rare)
