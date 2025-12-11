@@ -222,6 +222,7 @@ switch ($action) {
                 'stream_type' => 'live',
                 'stream_id' => $ch['id'],
                 'stream_icon' => $ch['logo'] ?? '',
+                'thumbnail' => $ch['logo'] ?? '',
                 'epg_channel_id' => $ch['tvg_id'] ?? '',
                 'added' => (string) (time() - 604800),
                 'is_adult' => '0',
@@ -236,6 +237,21 @@ switch ($action) {
         }
 
         error_log("Filtered streams for user: " . count($streams));
+
+        // Pagination support
+        $page = isset($_GET['page']) ? (int) $_GET['page'] : 0;
+        if ($page < 1)
+            $page = isset($_POST['page']) ? (int) $_POST['page'] : 0;
+
+        if ($page > 0) {
+            $limit = isset($_GET['limit']) ? (int) $_GET['limit'] : 100000; // Default high limit if not set
+            if ($limit < 1)
+                $limit = 100000;
+
+            $offset = ($page - 1) * $limit;
+            $streams = array_slice($streams, $offset, $limit);
+        }
+
         outputJSON($streams);
         break;
 
