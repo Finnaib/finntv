@@ -4,12 +4,6 @@
             "runtime": "vercel-php@0.6.0"
         }
     },
-    "rewrites": [
-        {
-            "source": "/",
-            "destination": "/index.html"
-        }
-    ],
     "routes": [
         {
             "src": "/player_api.php",
@@ -34,6 +28,10 @@
         {
             "src": "/m3u/(.*)",
             "dest": "/m3u/$1"
+        },
+        {
+            "src": "/",
+            "dest": "/index.html"
         }
     ],
     "cleanUrls": true,
