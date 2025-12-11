@@ -17,36 +17,43 @@
         },
         "api/xmltv.php": {
             "runtime": "vercel-php@0.7.1"
+        },
+        "api/debug.php": {
+            "runtime": "vercel-php@0.7.1"
         }
     },
-    "routes": [
+    "rewrites": [
         {
-            "src": "/player_api.php",
-            "dest": "/api/player_api.php"
+            "source": "/player_api.php",
+            "destination": "/api/player_api"
         },
         {
-            "src": "/get.php",
-            "dest": "/api/get.php"
+            "source": "/get.php",
+            "destination": "/api/get"
         },
         {
-            "src": "/live/(.*)",
-            "dest": "/api/live.php"
+            "source": "/live/:path*",
+            "destination": "/api/live"
         },
         {
-            "src": "/panel_api.php",
-            "dest": "/api/panel_api.php"
+            "source": "/movie/:path*",
+            "destination": "/api/live"
         },
         {
-            "src": "/xmltv.php",
-            "dest": "/api/xmltv.php"
+            "source": "/series/:path*",
+            "destination": "/api/live"
         },
         {
-            "src": "/m3u/(.*)",
-            "dest": "/m3u/$1"
+            "source": "/panel_api.php",
+            "destination": "/api/panel_api"
         },
         {
-            "src": "/",
-            "dest": "/index.html"
+            "source": "/xmltv.php",
+            "destination": "/api/xmltv"
+        },
+        {
+            "source": "/",
+            "destination": "/index.html"
         }
     ]
 }

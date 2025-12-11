@@ -226,7 +226,7 @@ switch ($action) {
                 'added' => (string) (time() - 604800),
                 'is_adult' => '0',
                 'category_id' => (string) $ch['category'],
-                'category_ids' => [(string) $ch['category']],
+                'category_ids' => [(int) $ch['category']],
                 'custom_sid' => '',
                 'tv_archive' => 0,
                 'direct_source' => '',

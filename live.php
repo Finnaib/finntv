@@ -47,21 +47,23 @@ $extension = '';
 
 // Method 1: PATH_INFO (Standard Xtream format)
 if (isset($_SERVER['PATH_INFO'])) {
-    if (preg_match('#/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?$#', $_SERVER['PATH_INFO'], $m)) {
-        $username = $m[1];
-        $password = $m[2];
-        $streamId = (int) $m[3];
-        $extension = isset($m[5]) ? $m[5] : '';
+    if (preg_match('#/(live|movie|series)/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?$#', $_SERVER['PATH_INFO'], $m)) {
+        // $m[1] is type (live/movie/series) -> ignored for now as ID is unique
+        $username = $m[2];
+        $password = $m[3];
+        $streamId = (int) $m[4];
+        $extension = isset($m[6]) ? $m[6] : '';
     }
 }
 
 // Method 2: REQUEST_URI (Fallback for rewrite rules)
 if (empty($username) && isset($_SERVER['REQUEST_URI'])) {
-    if (preg_match('#/live/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?(\?|$)#', $_SERVER['REQUEST_URI'], $m)) {
-        $username = $m[1];
-        $password = $m[2];
-        $streamId = (int) $m[3];
-        $extension = isset($m[5]) ? $m[5] : '';
+    if (preg_match('#/(live|movie|series)/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?(\?|$)#', $_SERVER['REQUEST_URI'], $m)) {
+        // $m[1] is type
+        $username = $m[2];
+        $password = $m[3];
+        $streamId = (int) $m[4];
+        $extension = isset($m[6]) ? $m[6] : '';
     }
 }
 
