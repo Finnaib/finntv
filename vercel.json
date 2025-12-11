@@ -11,51 +11,52 @@
                     "config.php"
                 ]
             }
+        },
         {
-                "src": "*.html",
-                "use": "@vercel/static"
-            }
-        ],
-        "routes": [
-            {
-                "src": "/player_api.php",
-                "dest": "/api/player_api.php"
-            },
-            {
-                "src": "/get.php",
-                "dest": "/api/get.php"
-            },
-            {
-                "src": "/live/(.*)",
-                "dest": "/api/live.php"
-            },
-            {
-                "src": "/movie/(.*)",
-                "dest": "/api/live.php"
-            },
-            {
-                "src": "/series/(.*)",
-                "dest": "/api/live.php"
-            },
-            {
-                "src": "/panel_api.php",
-                "dest": "/api/panel_api.php"
-            },
-            {
-                "src": "/xmltv.php",
-                "dest": "/api/xmltv.php"
-            },
-            {
-                "src": "/user_portal.html",
-                "dest": "/user_portal.html"
-            },
-            {
-                "src": "/admin.html",
-                "dest": "/admin.html"
-            },
-            {
-                "src": "/",
-                "dest": "/index.html"
-            }
-        ]
-    }
+            "src": "*.html",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/player_api.php",
+            "dest": "/api/player_api.php"
+        },
+        {
+            "src": "/get.php",
+            "dest": "/api/get.php"
+        },
+        {
+            "src": "/live/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/movie/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/series/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/panel_api.php",
+            "dest": "/api/panel_api.php"
+        },
+        {
+            "src": "/xmltv.php",
+            "dest": "/api/xmltv.php"
+        },
+        {
+            "src": "/user_portal.html",
+            "dest": "/user_portal.html"
+        },
+        {
+            "src": "/admin.html",
+            "dest": "/admin.html"
+        },
+        {
+            "src": "/",
+            "dest": "/index.html"
+        }
+    ]
+}
