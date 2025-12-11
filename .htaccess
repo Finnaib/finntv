@@ -1,0 +1,117 @@
+# Enhanced .htaccess for Universal IPTV Compatibility
+# Supports all Xtream Codes formats and old TV box compatibility
+
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /xtream_server/
+
+# Allow PATH_INFO for proper URL parsing
+AcceptPathInfo On
+
+# Set proper MIME types for streaming
+AddType video/mp2t .ts
+AddType application/vnd.apple.mpegurl .m3u8
+AddType audio/x-mpegurl .m3u
+
+# Enable compression for API responses (faster loading)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# CORS headers for all files (IPTV app compatibility)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "*"
+</IfModule>
+
+# ============================================
+# LIVE STREAM URL REWRITING
+# ============================================
+
+# Format 1: /live/username/password/streamID.ts (Standard)
+RewriteRule ^live/([^/]+)/([^/]+)/([0-9]+)\.(m3u8|ts)$ live.php/$1/$2/$3.$4 [L,QSA]
+
+# Format 2: /live/username/password/streamID (No extension)
+RewriteRule ^live/([^/]+)/([^/]+)/([0-9]+)$ live.php/$1/$2/$3 [L,QSA]
+
+# Format 3: Legacy format with stream.php
+RewriteRule ^stream/([^/]+)/([^/]+)/([0-9]+)$ live.php/$1/$2/$3 [L,QSA]
+
+# ============================================
+# VOD & SERIES URL REWRITING (Future support)
+# ============================================
+
+# VOD: /movie/username/password/movieID.ext
+RewriteRule ^movie/([^/]+)/([^/]+)/([0-9]+)\.(mkv|mp4|avi)$ movie.php/$1/$2/$3.$4 [L,QSA]
+
+# Series: /series/username/password/seriesID.ext
+RewriteRule ^series/([^/]+)/([^/]+)/([0-9]+)\.(mkv|mp4|avi)$ series.php/$1/$2/$3.$4 [L,QSA]
+
+# ============================================
+# API ENDPOINT ROUTING
+# ============================================
+
+# Panel API (for advanced apps)
+RewriteRule ^panel_api\.php$ panel_api.php [L,QSA]
+
+# EPG/XMLTV
+RewriteRule ^xmltv\.php$ xmltv.php [L,QSA]
+
+# Player API - main endpoint
+RewriteRule ^player_api\.php$ player_api.php [L,QSA]
+
+# M3U Playlist generator
+RewriteRule ^get\.php$ get.php [L,QSA]
+
+# ============================================
+# LEGACY COMPATIBILITY
+# ============================================
+
+# Old panel.php routes (redirect to player_api)
+RewriteRule ^panel\.php$ player_api.php [QSA,L]
+
+# Enigma2 format support
+RewriteRule ^enigma2\.php$ get.php [QSA,L]
+
+# ============================================
+# SECURITY
+# ============================================
+
+# Protect data folder
+RewriteRule ^data/ - [F,L]
+
+# Protect config file
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Protect m3u source files (access only through API)
+<FilesMatch "\.(m3u)$">
+    Order Allow,Deny
+    Allow from 127.0.0.1
+    Deny from all
+</FilesMatch>
+
+# ============================================
+# PERFORMANCE
+# ============================================
+
+# Disable directory browsing
+Options -Indexes
+
+# Enable KeepAlive for better streaming
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+</IfModule>
+
+# ============================================
+# ERROR HANDLING
+# ============================================
+
+# Custom error pages (optional)
+# ErrorDocument 404 /xtream_server/error404.php
+# ErrorDocument 403 /xtream_server/error403.php

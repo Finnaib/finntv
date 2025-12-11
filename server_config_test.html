@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Verification</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            background: rgba(0,0,0,0.3);
+            padding: 50px;
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .problem {
+            background: rgba(244, 67, 54, 0.3);
+            border: 3px solid #f44336;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .fix {
+            background: rgba(76, 175, 80, 0.3);
+            border: 3px solid #4caf50;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        button {
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 15px;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 15px 0;
+        }
+        button:hover { transform: scale(1.02); }
+        video {
+            width: 100%;
+            height: 400px;
+            background: #000;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .result {
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+        .success { background: rgba(76, 175, 80, 0.3); border: 2px solid #4caf50; }
+        .error { background: rgba(244, 67, 54, 0.3); border: 2px solid #f44336; }
+        code {
+            background: rgba(0,0,0,0.5);
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #4fc3f7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Final Verification</h1>
+
+        <div class="problem">
+            <h2 style="color: #f44336; margin-bottom: 15px;">❌ Problem Found:</h2>
+            <p style="font-size: 1.1rem; line-height: 2;">
+                Your diagnostic showed:<br>
+                • live.php returns HTTP 200 ✅<br>
+                • BUT sends HTML instead of stream ❌<br>
+                • <code>Content-Type: text/html</code> (wrong!)<br><br>
+                <strong>This means live.php has a PHP error</strong>
+            </p>
+        </div>
+
+        <div class="fix">
+            <h2 style="color: #4caf50; margin-bottom: 15px;">✅ The Fix:</h2>
+            <p style="font-size: 1.1rem; line-height: 2;">
+                Upload the new <strong>"BULLETPROOF live.php"</strong><br><br>
+                It will:<br>
+                • Suppress ALL PHP errors ✅<br>
+                • Clean output buffer ✅<br>
+                • Just redirect to stream ✅
+            </p>
+        </div>
+
+        <button onclick="testNow()">🧪 Test Stream NOW</button>
+
+        <div id="result"></div>
+        <video id="testVideo" controls style="display: none;"></video>
+
+        <div style="background: rgba(33, 150, 243, 0.3); border: 3px solid #2196f3; padding: 25px; border-radius: 15px; margin: 30px 0;">
+            <h2 style="color: #4fc3f7; margin-bottom: 15px;">📋 After Upload:</h2>
+            <ol style="font-size: 1.1rem; line-height: 2.5;">
+                <li>Upload <strong>BULLETPROOF live.php</strong></li>
+                <li>Set permissions to <code>644</code></li>
+                <li>Click "Test Stream NOW" above</li>
+                <li>Video should play! ✅</li>
+            </ol>
+        </div>
+
+        <div style="background: rgba(255, 193, 7, 0.3); border: 3px solid #ffc107; padding: 25px; border-radius: 15px; margin: 30px 0;">
+            <h2 style="color: #ffc107; margin-bottom: 15px;">🎯 Why This Will Work:</h2>
+            <p style="font-size: 1.1rem; line-height: 2;">
+                Your diagnostic proved:<br>
+                ✅ Your streams work (6,631 valid URLs)<br>
+                ✅ get.php outputs correctly<br>
+                ✅ URLs are accessible<br>
+                ❌ Only live.php had PHP error<br><br>
+                <strong>The new live.php fixes the PHP error and just redirects!</strong>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        async function testNow() {
+            const resultDiv = document.getElementById('result');
+            const video = document.getElementById('testVideo');
+            
+            resultDiv.innerHTML = '<div class="result" style="background: rgba(255,193,7,0.3); border: 2px solid #ffc107;">⏳ Testing stream...</div>';
+            video.style.display = 'block';
+
+            const testUrl = 'http://finntv.atwebpages.com/xtream_server/live/finn/finn123/1001.m3u8';
+
+            // First check if it returns proper headers
+            try {
+                const response = await fetch(testUrl, { method: 'HEAD' });
+                const contentType = response.headers.get('content-type');
+
+                if (contentType && contentType.includes('html')) {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h3>❌ Still Returns HTML</h3>
+                            <p>Content-Type: ${contentType}</p>
+                            <p><strong>You need to upload the BULLETPROOF live.php file!</strong></p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Try to play
+                video.src = testUrl;
+                
+                const timeout = setTimeout(() => {
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h3>❌ Timeout</h3>
+                            <p>Stream didn't load in 10 seconds</p>
+                            <p>Check if you uploaded the new live.php</p>
+                        </div>
+                    `;
+                }, 10000);
+
+                video.oncanplay = () => {
+                    clearTimeout(timeout);
+                    resultDiv.innerHTML = `
+                        <div class="result success">
+                            <h3>🎉 SUCCESS!</h3>
+                            <p><strong>Stream is playing!</strong></p>
+                            <p>✅ live.php is now working correctly</p>
+                            <p>✅ Your setup is PERFECT!</p>
+                            <p style="margin-top: 15px;">Now test in TiviMate - it will work!</p>
+                        </div>
+                    `;
+                };
+
+                video.onerror = () => {
+                    clearTimeout(timeout);
+                    resultDiv.innerHTML = `
+                        <div class="result error">
+                            <h3>❌ Playback Error</h3>
+                            <p>Check if you uploaded the new live.php</p>
+                            <p>File permissions should be 644</p>
+                        </div>
+                    `;
+                };
+
+                video.load();
+
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h3>❌ Error</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

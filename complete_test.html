@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete System Test</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(0,0,0,0.3);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { text-align: center; font-size: 2.5rem; margin-bottom: 30px; }
+        button {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: #fff;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 1.3rem;
+            font-weight: bold;
+            display: block;
+            margin: 30px auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        button:hover { transform: scale(1.05); }
+        .test-result {
+            background: rgba(255,255,255,0.1);
+            border: 3px solid rgba(255,255,255,0.3);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 15px;
+        }
+        .test-result.pass {
+            border-color: #4caf50;
+            background: rgba(76, 175, 80, 0.2);
+        }
+        .test-result.fail {
+            border-color: #f44336;
+            background: rgba(244, 67, 54, 0.2);
+        }
+        .test-result h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .test-result.pass h3 { color: #4caf50; }
+        .test-result.fail h3 { color: #f44336; }
+        .url-box {
+            background: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 8px;
+            word-break: break-all;
+            font-family: monospace;
+            margin: 10px 0;
+            font-size: 0.9rem;
+        }
+        pre {
+            background: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9rem;
+        }
+        .summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            border-radius: 20px;
+            margin: 30px 0;
+            text-align: center;
+            font-size: 1.3rem;
+            display: none;
+        }
+        .summary.show { display: block; }
+        video {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            background: #000;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 Complete System Test</h1>
+        <p style="text-align: center; font-size: 1.2rem; margin-bottom: 30px;">
+            This will run ALL tests and tell you EXACTLY what's wrong
+        </p>
+
+        <button onclick="runAllTests()">🚀 RUN COMPLETE TEST</button>
+
+        <div id="results"></div>
+        <div id="summary" class="summary"></div>
+    </div>
+
+    <script>
+        const baseUrl = window.location.origin + '/xtream_server';
+        const username = 'finn';
+        const password = 'finn123';
+
+        const testStreams = [
+            {
+                name: 'Known Working Test Stream',
+                url: 'https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8',
+                type: 'control'
+            }
+        ];
+
+        async function runAllTests() {
+            const results = document.getElementById('results');
+            const summary = document.getElementById('summary');
+            results.innerHTML = '';
+            summary.classList.remove('show');
+
+            const testResults = {
+                passed: 0,
+                failed: 0,
+                issues: []
+            };
+
+            // Test 1: API Authentication
+            await testAuthentication(results, testResults);
+
+            // Test 2: Get Channels
+            const channels = await testGetChannels(results, testResults);
+
+            // Test 3: Test Known Working Stream
+            await testKnownStream(results, testResults);
+
+            // Test 4: Test Your Stream URLs
+            if (channels && channels.length > 0) {
+                await testYourStreams(results, testResults, channels);
+            }
+
+            // Test 5: Test Live.php Response
+            if (channels && channels.length > 0) {
+                await testLivePhp(results, testResults, channels[0]);
+            }
+
+            // Show Summary
+            showSummary(summary, testResults);
+        }
+
+        async function testAuthentication(container, testResults) {
+            const div = document.createElement('div');
+            div.className = 'test-result';
+            div.innerHTML = '<h3>⏳ Test 1: API Authentication</h3><p>Testing...</p>';
+            container.appendChild(div);
+
+            try {
+                const url = `${baseUrl}/player_api.php?username=${username}&password=${password}`;
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.user_info && data.user_info.auth == 1) {
+                    div.className = 'test-result pass';
+                    div.innerHTML = `
+                        <h3>✅ Test 1: API Authentication - PASS</h3>
+                        <p>Authentication successful</p>
+                        <p>Server: ${data.server_info.url}</p>
+                        <p>Max Connections: ${data.user_info.max_connections}</p>
+                    `;
+                    testResults.passed++;
+                } else {
+                    throw new Error('Auth failed');
+                }
+            } catch (error) {
+                div.className = 'test-result fail';
+                div.innerHTML = `
+                    <h3>❌ Test 1: API Authentication - FAIL</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+                testResults.failed++;
+                testResults.issues.push('API Authentication Failed');
+            }
+        }
+
+        async function testGetChannels(container, testResults) {
+            const div = document.createElement('div');
+            div.className = 'test-result';
+            div.innerHTML = '<h3>⏳ Test 2: Get Channels</h3><p>Loading channels...</p>';
+            container.appendChild(div);
+
+            try {
+                const url = `${baseUrl}/player_api.php?username=${username}&password=${password}&action=get_live_streams`;
+                const response = await fetch(url);
+                const channels = await response.json();
+
+                if (Array.isArray(channels) && channels.length > 0) {
+                    div.className = 'test-result pass';
+                    div.innerHTML = `
+                        <h3>✅ Test 2: Get Channels - PASS</h3>
+                        <p>Found ${channels.length} channels</p>
+                        <p>First channel: ${channels[0].name}</p>
+                        <p>Stream format: ${channels[0].container_extension}</p>
+                    `;
+                    testResults.passed++;
+                    return channels;
+                } else {
+                    throw new Error('No channels');
+                }
+            } catch (error) {
+                div.className = 'test-result fail';
+                div.innerHTML = `
+                    <h3>❌ Test 2: Get Channels - FAIL</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+                testResults.failed++;
+                testResults.issues.push('Cannot load channels');
+                return null;
+            }
+        }
+
+        async function testKnownStream(container, testResults) {
+            const div = document.createElement('div');
+            div.className = 'test-result';
+            div.innerHTML = `
+                <h3>⏳ Test 3: Known Working Stream</h3>
+                <p>Testing external stream to verify browser can play streams...</p>
+                <div class="url-box">${testStreams[0].url}</div>
+                <video id="testVideo" controls></video>
+                <p id="testVideoStatus">Loading...</p>
+            `;
+            container.appendChild(div);
+
+            const video = document.getElementById('testVideo');
+            const status = document.getElementById('testVideoStatus');
+
+            return new Promise((resolve) => {
+                const timeout = setTimeout(() => {
+                    div.className = 'test-result fail';
+                    status.innerHTML = '<strong style="color: #f44336;">❌ FAILED - Your browser/connection cannot play streams</strong>';
+                    testResults.failed++;
+                    testResults.issues.push('Browser cannot play streams (network/firewall issue)');
+                    resolve();
+                }, 10000);
+
+                video.oncanplay = () => {
+                    clearTimeout(timeout);
+                    div.className = 'test-result pass';
+                    status.innerHTML = '<strong style="color: #4caf50;">✅ SUCCESS - Browser CAN play streams</strong><br>Problem is with YOUR stream URLs, not the browser.';
+                    testResults.passed++;
+                    resolve();
+                };
+
+                video.onerror = () => {
+                    clearTimeout(timeout);
+                    div.className = 'test-result fail';
+                    status.innerHTML = '<strong style="color: #f44336;">❌ FAILED - Browser cannot play this stream</strong>';
+                    testResults.failed++;
+                    testResults.issues.push('Browser playback issue');
+                    resolve();
+                };
+
+                video.src = testStreams[0].url;
+                video.load();
+            });
+        }
+
+        async function testYourStreams(container, testResults, channels) {
+            const div = document.createElement('div');
+            div.className = 'test-result';
+            div.innerHTML = '<h3>⏳ Test 4: Your Stream URLs</h3><p>Testing first 3 streams from your M3U files...</p>';
+            container.appendChild(div);
+
+            let workingCount = 0;
+            let deadCount = 0;
+            let html = '<h3>Test 4: Your Stream URLs</h3>';
+
+            const testChannels = channels.slice(0, 3);
+
+            for (const channel of testChannels) {
+                const works = await testSingleStream(channel.direct_source);
+                
+                if (works) {
+                    workingCount++;
+                    html += `<p style="color: #4caf50;">✅ ${channel.name} - WORKING</p>`;
+                } else {
+                    deadCount++;
+                    html += `<p style="color: #f44336;">❌ ${channel.name} - DEAD</p>`;
+                    html += `<div class="url-box">${channel.direct_source}</div>`;
+                }
+            }
+
+            if (workingCount > 0) {
+                div.className = 'test-result pass';
+                html += `<p style="margin-top: 15px;"><strong>${workingCount} working, ${deadCount} dead</strong></p>`;
+                testResults.passed++;
+            } else {
+                div.className = 'test-result fail';
+                html += `<p style="margin-top: 15px; color: #f44336;"><strong>ALL STREAMS DEAD!</strong></p>`;
+                html += `<p>Your M3U file URLs are expired/invalid.</p>`;
+                testResults.failed++;
+                testResults.issues.push('All stream URLs are dead - need to update M3U files');
+            }
+
+            div.innerHTML = html;
+        }
+
+        function testSingleStream(url) {
+            return new Promise((resolve) => {
+                const video = document.createElement('video');
+                const timeout = setTimeout(() => {
+                    video.src = '';
+                    resolve(false);
+                }, 5000);
+
+                video.oncanplay = () => {
+                    clearTimeout(timeout);
+                    video.src = '';
+                    resolve(true);
+                };
+
+                video.onerror = () => {
+                    clearTimeout(timeout);
+                    resolve(false);
+                };
+
+                video.src = url;
+                video.load();
+            });
+        }
+
+        async function testLivePhp(container, testResults, channel) {
+            const div = document.createElement('div');
+            div.className = 'test-result';
+            
+            const liveUrl = `${baseUrl}/live/${username}/${password}/${channel.stream_id}.${channel.container_extension}`;
+            
+            div.innerHTML = `
+                <h3>⏳ Test 5: live.php Response</h3>
+                <p>Testing what TiviMate sees...</p>
+                <div class="url-box">${liveUrl}</div>
+            `;
+            container.appendChild(div);
+
+            try {
+                const response = await fetch(liveUrl);
+                const status = response.status;
+
+                if (status === 200) {
+                    div.className = 'test-result pass';
+                    div.innerHTML = `
+                        <h3>✅ Test 5: live.php Response - PASS</h3>
+                        <p>HTTP ${status} - live.php is responding</p>
+                        <div class="url-box">${liveUrl}</div>
+                    `;
+                    testResults.passed++;
+                } else if (status === 302 || status === 301) {
+                    div.className = 'test-result pass';
+                    div.innerHTML = `
+                        <h3>✅ Test 5: live.php Response - PASS (Redirect)</h3>
+                        <p>HTTP ${status} - Redirecting to source</p>
+                    `;
+                    testResults.passed++;
+                } else {
+                    throw new Error(`HTTP ${status}`);
+                }
+            } catch (error) {
+                div.className = 'test-result fail';
+                div.innerHTML = `
+                    <h3>❌ Test 5: live.php Response - FAIL</h3>
+                    <p>Error: ${error.message}</p>
+                    <p>live.php is not working correctly</p>
+                `;
+                testResults.failed++;
+                testResults.issues.push('live.php not responding correctly');
+            }
+        }
+
+        function showSummary(container, results) {
+            container.classList.add('show');
+            
+            let diagnosis = '';
+            let solution = '';
+
+            if (results.issues.includes('All stream URLs are dead - need to update M3U files')) {
+                diagnosis = '🎯 <strong>DIAGNOSIS: Your stream URLs are DEAD</strong>';
+                solution = `
+                    <h3 style="margin-top: 20px;">✅ SOLUTION:</h3>
+                    <p style="font-size: 1.1rem; line-height: 2;">
+                        1. Your API, authentication, and server are working PERFECTLY<br>
+                        2. The problem is the URLs in your M3U files are expired/dead<br>
+                        3. You need to find fresh M3U playlists and update your files<br>
+                        4. Or add the test stream to verify your setup works
+                    </p>
+                    <h3 style="margin-top: 20px;">Quick Test:</h3>
+                    <p>Add this to m3u/india.m3u:</p>
+                    <pre style="text-align: left; font-size: 0.9rem;">
+#EXTINF:-1,TEST CHANNEL
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+</pre>
+                    <p>If this plays in TiviMate, your setup is perfect!</p>
+                `;
+            } else if (results.issues.includes('Browser cannot play streams (network/firewall issue)')) {
+                diagnosis = '🎯 <strong>DIAGNOSIS: Browser/Network Issue</strong>';
+                solution = `
+                    <p style="font-size: 1.1rem; line-height: 2;">
+                        Your browser or network is blocking stream playback.<br>
+                        This might be a firewall, proxy, or network restriction.<br><br>
+                        Try testing on a different network or device.
+                    </p>
+                `;
+            } else if (results.passed === results.passed + results.failed) {
+                diagnosis = '🎉 <strong>ALL TESTS PASSED!</strong>';
+                solution = `
+                    <p style="font-size: 1.1rem;">
+                        Your system is working correctly!<br>
+                        If TiviMate still doesn't play, double-check your TiviMate configuration.
+                    </p>
+                `;
+            } else {
+                diagnosis = '⚠️ <strong>MULTIPLE ISSUES DETECTED</strong>';
+                solution = `
+                    <p>Issues found:</p>
+                    <ul style="text-align: left; line-height: 2;">
+                        ${results.issues.map(issue => `<li>${issue}</li>`).join('')}
+                    </ul>
+                `;
+            }
+
+            container.innerHTML = `
+                <h2>📊 TEST SUMMARY</h2>
+                <p style="font-size: 1.5rem; margin: 20px 0;">
+                    ✅ Passed: ${results.passed} / ${results.passed + results.failed}<br>
+                    ❌ Failed: ${results.failed} / ${results.passed + results.failed}
+                </p>
+                <div style="margin-top: 30px;">
+                    ${diagnosis}
+                    ${solution}
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

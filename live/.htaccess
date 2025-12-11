@@ -1,0 +1,2 @@
+# Disable mod_rewrite (since it doesn't work on this hosting)
+# Live streams will use PHP routing via /live/index.php
