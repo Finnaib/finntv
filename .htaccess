@@ -3,7 +3,7 @@
 
 # Enable Rewrite Engine
 RewriteEngine On
-RewriteBase /xtream_server/
+RewriteBase /
 
 # Allow PATH_INFO for proper URL parsing
 AcceptPathInfo On

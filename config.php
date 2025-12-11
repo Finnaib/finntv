@@ -55,9 +55,9 @@ $categories = [
 
 // Server configuration
 $server_config = [
-    'base_url' => 'http://finntv.atwebpages.com/xtream_server',
-    'domain' => 'finntv.atwebpages.com',
-    'port' => '80',
+    'base_url' => 'https://finntv.vercel.app',
+    'domain' => 'finntv.vercel.app',
+    'port' => '443',
     'https_port' => '443',
     'use_proxy' => true,
     'proxy_user_agent' => 'IPTVSmartersPro/3.1.5 (iPad; iOS 16.6; Scale/2.00)',
