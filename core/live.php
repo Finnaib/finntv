@@ -156,76 +156,11 @@ if (stripos($userAgent, 'Smarters') !== false) {
     $spoofAgent = 'Kodi/20.1 (Linux; Android)';
 }
 
-// --- PROXY LOGIC ---
+// --- REDIRECT LOGIC ---
+// Vercel Serverless cannot proxy long-lived connections (streams).
+// We MUST redirect the client to the upstream source directly.
 
-// Check if proxy is disabled or if we should use direct redirect
-$useProxy = $server_config['use_proxy'] ?? true;
-
-// For certain apps or stream types, prefer redirect
-if ($clientApp === 'vlc' || $clientApp === 'kodi' || !$useProxy) {
-    ob_end_clean();
-    header('Location: ' . $upstreamUrl);
-    exit;
-}
-
-// Proxy mode with User-Agent spoofing
 ob_end_clean();
-
-// Context options with spoofed User-Agent
-$opts = [
-    'http' => [
-        'method' => 'GET',
-        'header' => "User-Agent: " . $spoofAgent . "\r\n" .
-            "Accept: */*\r\n" .
-            "Connection: keep-alive\r\n",
-        'follow_location' => 1,
-        'max_redirects' => 5,
-        'timeout' => 30,
-        'ignore_errors' => true
-    ],
-    'ssl' => [
-        'verify_peer' => false,
-        'verify_peer_name' => false
-    ]
-];
-
-$ctx = stream_context_create($opts);
-$fp = @fopen($upstreamUrl, 'rb', false, $ctx);
-
-if ($fp === false) {
-    error_log("Stream proxy failed for: $upstreamUrl (Client: $clientApp)");
-    // Fallback to redirect
-    header('Location: ' . $upstreamUrl);
-    exit;
-}
-
-// Forward important headers
-if (isset($http_response_header)) {
-    foreach ($http_response_header as $h) {
-        if (stripos($h, 'Content-Type:') === 0) {
-            header($h);
-        } elseif (stripos($h, 'Content-Length:') === 0) {
-            header($h);
-        } elseif (stripos($h, 'Content-Disposition:') === 0) {
-            header($h);
-        }
-    }
-}
-
-// Set default content type if not set
-if (!headers_sent()) {
-    header('Content-Type: video/mp2t');
-}
-
-// Stream content to client
-while (!feof($fp)) {
-    echo fread($fp, 8192);
-    if (connection_aborted()) {
-        break;
-    }
-    @flush();
-}
-
-fclose($fp);
+header("Location: " . $upstreamUrl);
 exit;
 // End of file
