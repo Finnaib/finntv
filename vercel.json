@@ -3,30 +3,42 @@
     "outputDirectory": ".",
     "installCommand": "echo 'No dependencies to install'",
     "functions": {
-        "*.php": {
-            "runtime": "vercel-php@0.6.0"
+        "api/player_api.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+        "api/get.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+        "api/live.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+        "api/panel_api.php": {
+            "runtime": "vercel-php@0.7.1"
+        },
+        "api/xmltv.php": {
+            "runtime": "vercel-php@0.7.1"
         }
     },
     "routes": [
         {
             "src": "/player_api.php",
-            "dest": "/player_api.php"
+            "dest": "/api/player_api.php"
         },
         {
             "src": "/get.php",
-            "dest": "/get.php"
+            "dest": "/api/get.php"
         },
         {
             "src": "/live/(.*)",
-            "dest": "/live.php"
+            "dest": "/api/live.php"
         },
         {
             "src": "/panel_api.php",
-            "dest": "/panel_api.php"
+            "dest": "/api/panel_api.php"
         },
         {
             "src": "/xmltv.php",
-            "dest": "/xmltv.php"
+            "dest": "/api/xmltv.php"
         },
         {
             "src": "/m3u/(.*)",
@@ -36,7 +48,5 @@
             "src": "/",
             "dest": "/index.html"
         }
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
+    ]
 }
