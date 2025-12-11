@@ -160,6 +160,25 @@ if (stripos($userAgent, 'Smarters') !== false) {
 // Vercel Serverless cannot proxy long-lived connections (streams).
 // We MUST redirect the client to the upstream source directly.
 
+// "Old Box" Fix:
+// If the client requested .ts (MPEG-TS) but the upstream is .m3u8 (HLS),
+// try to rewrite the upstream URL to a TS format if possible.
+if ($extension === 'ts' && stripos($upstreamUrl, '.m3u8') !== false) {
+    // Common HLS->TS patterns:
+    // 1. /index.m3u8 -> /tracks-v1a1/mono.ts (Requires deep knowledge of upstream)
+    // 2. /play/a008/index.m3u8 -> /play/a008 (Some servers treat directory as TS source)
+
+    // Attempt 1: Strip standard "index.m3u8" to let server decide
+    $newUrl = str_replace('/index.m3u8', '', $upstreamUrl);
+
+    // Attempt 2: If it's a generic .m3u8, try changing extension
+    if ($newUrl === $upstreamUrl) {
+        $newUrl = str_replace('.m3u8', '.ts', $upstreamUrl);
+    }
+
+    $upstreamUrl = $newUrl;
+}
+
 ob_end_clean();
 header("Location: " . $upstreamUrl);
 exit;
