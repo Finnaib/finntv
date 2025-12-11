@@ -1,0 +1,41 @@
+{
+    "functions": {
+        "*.php": {
+            "runtime": "vercel-php@0.6.0"
+        }
+    },
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/player_api.php",
+            "dest": "/player_api.php"
+        },
+        {
+            "src": "/get.php",
+            "dest": "/get.php"
+        },
+        {
+            "src": "/live/(.*)",
+            "dest": "/live.php"
+        },
+        {
+            "src": "/panel_api.php",
+            "dest": "/panel_api.php"
+        },
+        {
+            "src": "/xmltv.php",
+            "dest": "/xmltv.php"
+        },
+        {
+            "src": "/m3u/(.*)",
+            "dest": "/m3u/$1"
+        }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+}
