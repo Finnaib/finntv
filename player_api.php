@@ -204,6 +204,11 @@ switch ($action) {
             }
         }
 
+        // Debug logging
+        error_log("User categories: " . implode(', ', $user['categories']));
+        error_log("Allowed category IDs: " . implode(', ', $allowed));
+        error_log("Total channels in system: " . count($channels));
+
         $streams = [];
         foreach ($channels as $ch) {
             if (!in_array($ch['category'], $allowed))
@@ -229,6 +234,8 @@ switch ($action) {
                 'container_extension' => 'ts'
             ];
         }
+
+        error_log("Filtered streams for user: " . count($streams));
         outputJSON($streams);
         break;
 
@@ -266,14 +273,14 @@ switch ($action) {
     case 'get_short_epg':
         $streamId = $_GET['stream_id'] ?? $_POST['stream_id'] ?? null;
         $limit = (int) ($_GET['limit'] ?? $_POST['limit'] ?? 4);
-        
+
         outputJSON(['epg_listings' => []]);
         break;
 
     // Get simple data table (EPG table format)
     case 'get_simple_data_table':
         $streamId = $_GET['stream_id'] ?? $_POST['stream_id'] ?? null;
-        
+
         outputJSON(['epg_listings' => []]);
         break;
 

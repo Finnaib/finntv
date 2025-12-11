@@ -61,7 +61,7 @@ $server_config = [
     'https_port' => '443',
     'use_proxy' => true,
     'proxy_user_agent' => 'IPTVSmartersPro/3.1.5 (iPad; iOS 16.6; Scale/2.00)',
-    'm3u_folder' => __DIR__ . '/m3u/',
+    'm3u_folder' => __DIR__ . DIRECTORY_SEPARATOR . 'm3u' . DIRECTORY_SEPARATOR,
 
     // Authentication tokens (optional - for premium features)
     'auth_tokens' => [
@@ -98,6 +98,7 @@ if (php_sapi_name() !== 'cli' && isset($_SERVER['HTTP_HOST'])) {
 function parseM3U($filepath, $categoryId)
 {
     if (!file_exists($filepath)) {
+        error_log("M3U file not found: $filepath");
         return [];
     }
 
@@ -162,9 +163,13 @@ function loadAllChannels($category_map, $server_config)
     foreach ($category_map as $catName => $catInfo) {
         $filepath = $server_config['m3u_folder'] . $catInfo['file'];
         $channels = parseM3U($filepath, $catInfo['id']);
+        if (count($channels) > 0) {
+            error_log("Loaded " . count($channels) . " channels from $catName (ID: {$catInfo['id']})");
+        }
         $allChannels = array_merge($allChannels, $channels);
     }
 
+    error_log("Total channels loaded: " . count($allChannels));
     return $allChannels;
 }
 
