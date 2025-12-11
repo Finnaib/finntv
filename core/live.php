@@ -1,185 +1,93 @@
 <?php
 /**
- * Enhanced live.php - Universal IPTV App Compatibility
- * 
- * Features:
- * - Auto-detection of IPTV app from User-Agent
- * - Smart User-Agent spoofing for upstream providers
- * - HLS manifest handling
- * - Optimized redirect/proxy logic
- * - Support for old and new TV boxes
+ * FinnTV Xtream Server V2 - Stream Redirector
+ * Handles /live, /movie, /series requests
  */
-
-// CRITICAL: Suppress ALL output before headers
-ob_start();
-error_reporting(0);
-ini_set('display_errors', 0);
-set_time_limit(0); // No time limit for streams
-
-// Clear any output
-ob_clean();
-
-// Set CORS headers
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, HEAD, OPTIONS');
-header('Access-Control-Allow-Headers: *');
-header('Access-Control-Expose-Headers: Content-Length, Content-Range');
-
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    ob_end_clean();
-    exit(0);
-}
-
-// Load config
-if (!file_exists('config.php')) {
-    ob_end_clean();
-    http_response_code(500);
-    exit;
-}
 
 require_once __DIR__ . '/../config.php';
 
-// Parse URL - Support multiple formats for compatibility
-$username = '';
-$password = '';
-$streamId = 0;
-$extension = '';
+// No Output buffering needed if we are clean, but good safety
+ob_start();
 
-// Method 1: PATH_INFO (Standard Xtream format)
-if (isset($_SERVER['PATH_INFO'])) {
-    if (preg_match('#/(live|movie|series)/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?$#', $_SERVER['PATH_INFO'], $m)) {
-        // $m[1] is type (live/movie/series) -> ignored for now as ID is unique
-        $username = $m[2];
-        $password = $m[3];
-        $streamId = (int) $m[4];
-        $extension = isset($m[6]) ? $m[6] : '';
-    }
-}
+// 1. Context Analysis
+$uri = $_SERVER['REQUEST_URI'];
+$parts = explode('/', trim($uri, '/'));
 
-// Method 2: REQUEST_URI (Fallback for rewrite rules)
-if (empty($username) && isset($_SERVER['REQUEST_URI'])) {
-    if (preg_match('#/(live|movie|series)/([^/]+)/([^/]+)/(\d+)(\.([a-zA-Z0-9]+))?(\?|$)#', $_SERVER['REQUEST_URI'], $m)) {
-        // $m[1] is type
-        $username = $m[2];
-        $password = $m[3];
-        $streamId = (int) $m[4];
-        $extension = isset($m[6]) ? $m[6] : '';
-    }
-}
+// Expected Structure: 
+// /live/user/pass/id.ts
+// /movie/user/pass/id.mp4
+// /series/user/pass/id.mp4
 
-// Method 3: Query params (Old TV box compatibility)
-if (empty($username)) {
-    $username = $_GET['username'] ?? $_GET['u'] ?? '';
-    $password = $_GET['password'] ?? $_GET['p'] ?? '';
-    $streamId = (int) ($_GET['stream'] ?? $_GET['id'] ?? $_GET['stream_id'] ?? 0);
-    $extension = $_GET['extension'] ?? $_GET['ext'] ?? '';
-}
+// Basic detection (assuming rewrite rules work, indices might vary based on folder depth)
+// For safe parsing, we look for numeric ID at end.
 
-if (empty($username) || empty($password) || $streamId == 0) {
-    ob_end_clean();
-    http_response_code(400);
-    exit;
-}
+$id_part = end($parts); // "1055.ts"
+$id = (int) filter_var($id_part, FILTER_SANITIZE_NUMBER_INT);
+$ext = pathinfo($id_part, PATHINFO_EXTENSION);
 
-// Authenticate
-$user = null;
-if (isset($users[$username])) {
-    $stored = $users[$username]['pass'];
-    if (password_verify($password, $stored) || $password === $stored) {
-        $user = $users[$username];
-    }
-}
+// 2. Search for Stream
+$target_url = "";
 
-if (!$user) {
-    ob_end_clean();
-    http_response_code(403);
-    exit;
-}
-
-// Find channel
-$channel = null;
-foreach ($channels as $ch) {
-    if ($ch['id'] == $streamId) {
-        $channel = $ch;
+// Check Live
+foreach ($data['live_streams'] as $s) {
+    if ($s['num'] == $id) {
+        $target_url = $s['direct_source'];
         break;
     }
 }
 
-if (!$channel) {
-    ob_end_clean();
+// Check VOD if not found
+if (!$target_url) {
+    foreach ($data['vod_streams'] as $s) {
+        if ($s['num'] == $id) {
+            $target_url = $s['direct_source'];
+            break;
+        }
+    }
+}
+
+// Check Series if not found
+if (!$target_url) {
+    foreach ($data['series'] as $s) {
+        if ($s['num'] == $id) {
+            $target_url = $s['direct_source'];
+            break;
+        }
+    }
+}
+
+// 404
+if (!$target_url) {
+    ob_clean();
     http_response_code(404);
-    exit;
+    die("Stream not found.");
 }
 
-// Check category access
-$allowed = [];
-foreach ($user['categories'] as $cat) {
-    if (isset($category_map[$cat])) {
-        $allowed[] = $category_map[$cat]['id'];
-    }
+// 3. Smart Redirect Logic
+$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$is_smart_app = false;
+
+// Check for Smarters, TiviMate, etc.
+if (
+    stripos($ua, 'Smarters') !== false ||
+    stripos($ua, 'TiviMate') !== false ||
+    stripos($ua, 'HLS') !== false
+) {
+    $is_smart_app = true;
 }
 
-if (!in_array($channel['category'], $allowed)) {
-    ob_end_clean();
-    http_response_code(403);
-    exit;
+// "Old Box" Logic: Rewrite HLS to TS if requested AND NOT smart app
+if (!$is_smart_app && $ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
+    // Attempt standard Xtream upstream rewrite
+    // upstream/live/u/p/123.m3u8 -> upstream/live/u/p/123.ts
+    // OR upstream/index.m3u8 -> upstream/index.ts (rare)
+
+    // Safest bet for generic upstream: Try replacing extension
+    $target_url = str_replace('.m3u8', '.ts', $target_url);
 }
 
-$upstreamUrl = $channel['url'];
-
-// Detect client app from User-Agent
-$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
-$clientApp = 'unknown';
-$spoofAgent = $server_config['proxy_user_agent'] ?? 'VLC/3.0.16';
-
-// Smart User-Agent detection and spoofing
-if (stripos($userAgent, 'Smarters') !== false) {
-    $clientApp = 'smarters';
-    $spoofAgent = 'IPTVSmartersPro/3.1.5 (iPad; iOS 16.6; Scale/2.00)';
-} elseif (stripos($userAgent, 'TiviMate') !== false) {
-    $clientApp = 'tivimate';
-    $spoofAgent = 'TiviMate/4.6.1 (Linux; Android 11)';
-} elseif (stripos($userAgent, 'IPTVnator') !== false) {
-    $clientApp = 'iptvnator';
-    $spoofAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
-} elseif (stripos($userAgent, 'Perfect') !== false) {
-    $clientApp = 'perfect';
-    $spoofAgent = 'PerfectPlayer/1.5.12 (Android)';
-} elseif (stripos($userAgent, 'GSE') !== false) {
-    $clientApp = 'gse';
-    $spoofAgent = 'GSE SMART IPTV/8.2 (iOS)';
-} elseif (stripos($userAgent, 'VLC') !== false) {
-    $clientApp = 'vlc';
-    $spoofAgent = 'VLC/3.0.16 (Windows NT 10.0)';
-} elseif (stripos($userAgent, 'Kodi') !== false || stripos($userAgent, 'XBMC') !== false) {
-    $clientApp = 'kodi';
-    $spoofAgent = 'Kodi/20.1 (Linux; Android)';
-}
-
-// --- REDIRECT LOGIC ---
-// Vercel Serverless cannot proxy long-lived connections (streams).
-// We MUST redirect the client to the upstream source directly.
-
-// "Old Box" Fix:
-// If the client requested .ts (MPEG-TS) but the upstream is .m3u8 (HLS),
-// try to rewrite the upstream URL to a TS format if possible.
-if ($extension === 'ts' && stripos($upstreamUrl, '.m3u8') !== false) {
-    // Common HLS->TS patterns:
-    // 1. /index.m3u8 -> /tracks-v1a1/mono.ts (Requires deep knowledge of upstream)
-    // 2. /play/a008/index.m3u8 -> /play/a008 (Some servers treat directory as TS source)
-
-    // Attempt 1: Strip standard "index.m3u8" to let server decide
-    $newUrl = str_replace('/index.m3u8', '', $upstreamUrl);
-
-    // Attempt 2: If it's a generic .m3u8, try changing extension
-    if ($newUrl === $upstreamUrl) {
-        $newUrl = str_replace('.m3u8', '.ts', $upstreamUrl);
-    }
-
-    $upstreamUrl = $newUrl;
-}
-
-ob_end_clean();
-header("Location: " . $upstreamUrl);
+// 4. Execute Redirect
+ob_clean();
+header("Location: $target_url");
 exit;
 // End of file

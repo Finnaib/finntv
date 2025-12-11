@@ -43,10 +43,6 @@
             "dest": "/api/xmltv.php"
         },
         {
-            "src": "/debug",
-            "dest": "/api/debug.php"
-        },
-        {
             "src": "/",
             "dest": "/index.html"
         }

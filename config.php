@@ -1,178 +1,189 @@
 <?php
-// Users database with plain text passwords (simple version)
-$users = [
-    "finn" => [
-        "pass" => "finn123",
-        "categories" => ["india", "asia", "usa", "egypt", "sport", "xtream"],
-        "max_conn" => 10,
-        "exp_date" => strtotime('+1 year')
-    ],
-    "tabby" => [
-        "pass" => "tabby123",
-        "categories" => ["asia", "sport"],
-        "max_conn" => 10,
-        "exp_date" => strtotime('+1 year')
-    ],
-    "fatima" => [
-        "pass" => "fatima123",
-        "categories" => ["india", "egypt", "sport"],
-        "max_conn" => 10,
-        "exp_date" => strtotime('+1 year')
-    ],
-    "devz" => [
-        "pass" => "devz123",
-        "categories" => ["india", "usa", "sport"],
-        "max_conn" => 10,
-        "exp_date" => strtotime('+1 year')
-    ],
-    "test" => [
-        "pass" => "test123",
-        "categories" => ["xtream"],
-        "max_conn" => 10,
-        "exp_date" => strtotime('+1 year')
-    ]
-];
+/**
+ * FinnTV Xtream Server V2 - Config & Parser
+ * 
+ * - Auto-detects M3U files in /m3u/
+ * - Categorizes content into Live, Movies, and Series base on keywords
+ * - Central configuration
+ */
 
-// Category mapping to M3U files
-$category_map = [
-    "india" => ["id" => 1, "file" => "india.m3u"],
-    "asia" => ["id" => 2, "file" => "asia.m3u"],
-    "usa" => ["id" => 3, "file" => "usa.m3u"],
-    "egypt" => ["id" => 4, "file" => "egypt.m3u"],
-    "sport" => ["id" => 5, "file" => "sport.m3u"],
-    "xtream" => ["id" => 6, "file" => "xtream.m3u"]
-];
+// Basic Security & Headers
+error_reporting(0);
+ini_set('display_errors', 0);
+header("Access-Control-Allow-Origin: *");
 
-// Live TV Categories
-$categories = [
-    1 => ["category_id" => "1", "category_name" => "India", "parent_id" => 0],
-    2 => ["category_id" => "2", "category_name" => "Asia", "parent_id" => 0],
-    3 => ["category_id" => "3", "category_name" => "USA", "parent_id" => 0],
-    4 => ["category_id" => "4", "category_name" => "Egypt", "parent_id" => 0],
-    5 => ["category_id" => "5", "category_name" => "Sport", "parent_id" => 0],
-    6 => ["category_id" => "6", "category_name" => "xtream", "parent_id" => 0]
-];
+// --- Configuration ---
 
-// Server configuration
 $server_config = [
-    'base_url' => 'https://finntv.vercel.app',
-    'domain' => 'finntv.vercel.app',
-    'port' => '443',
-    'https_port' => '443',
-    'use_proxy' => true,
-    'proxy_user_agent' => 'IPTVSmartersPro/3.1.5 (iPad; iOS 16.6; Scale/2.00)',
-    'm3u_folder' => __DIR__ . DIRECTORY_SEPARATOR . 'm3u' . DIRECTORY_SEPARATOR,
+    'server_name' => 'FinnTV V2',
+    'timezone' => 'UTC',
+    'm3u_dir' => __DIR__ . '/m3u',
 
-    // Authentication tokens (optional - for premium features)
-    'auth_tokens' => [
-        // 'token123' => 'finn',
-        // Add tokens here if needed
-    ],
+    // Keywords to detect Movies (VOD)
+    'vod_keywords' => ['movie', 'film', 'cinema', 'vod', '4k movie', 'vip'],
 
-    // EPG settings
-    'epg_enabled' => true,
-    'epg_cache_hours' => 6,
+    // Keywords to detect Series
+    'series_keywords' => ['series', 'season', 'episodes', 'netflix'],
 
-    // App-specific optimizations
-    'app_detection_enabled' => true,
-
-    // Stream delivery preferences
-    'prefer_redirect_for' => ['vlc', 'kodi'], // Apps that work better with direct redirect
-    'force_proxy_for' => ['smarters', 'tivimate'], // Apps that require proxy
+    // Base URL determination
+    'base_url' => (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]"
 ];
 
-// If running through a web request, prefer a runtime-derived base_url so
-// returned `stream_url` values match the host the client used to reach us.
-if (php_sapi_name() !== 'cli' && isset($_SERVER['HTTP_HOST'])) {
-    $proto = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-    $host = $_SERVER['HTTP_HOST'];
-    // Derive path portion from script location (e.g. '/xtream_server')
-    $scriptDir = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
-    $server_config['base_url'] = rtrim($proto . '://' . $host . $scriptDir, '/');
-    // Also update domain/port for consistency
-    $server_config['domain'] = $host;
-    $server_config['port'] = ($proto === 'https') ? $server_config['https_port'] : '80';
-}
+// --- Users Database ---
+// Username => Password
+$users_db = [
+    "finn" => "finn123",
+    "tabby" => "tabby123",
+    "test" => "test",
+    "admin" => "admin"
+];
 
-// Function to parse M3U file
-function parseM3U($filepath, $categoryId)
+// --- Data Store (InMemory) ---
+// In a real DB app this would be SQL. Here we parse on the fly (Vercel caches somewhat).
+$data = [
+    'live_streams' => [],
+    'live_categories' => [],
+    'vod_streams' => [],
+    'vod_categories' => [],
+    'series' => [],
+    'series_categories' => []
+];
+
+// --- Parser Logic ---
+
+function parseMoviesAndSeries()
 {
-    if (!file_exists($filepath)) {
-        error_log("M3U file not found: $filepath");
-        return [];
-    }
+    global $server_config, $data;
 
-    $channels = [];
-    $content = file_get_contents($filepath);
-    $lines = explode("\n", $content);
+    if (!is_dir($server_config['m3u_dir']))
+        return;
 
-    $currentChannel = null;
-    $streamId = $categoryId * 1000 + 1;
+    $files = glob($server_config['m3u_dir'] . '/*.m3u');
+    $category_index = 1;
+    $stream_index = 1;
 
-    foreach ($lines as $line) {
-        $line = trim($line);
+    // Track unique category names to assign IDs
+    $cat_map = [
+        'live' => [],
+        'movie' => [],
+        'series' => []
+    ];
 
-        // Parse #EXTINF line
-        if (strpos($line, '#EXTINF:') === 0) {
-            $currentChannel = [];
+    foreach ($files as $file) {
+        $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $current_group = "Uncategorized";
+        $current_logo = "";
 
-            // Extract channel name (after the comma)
-            if (preg_match('/,(.+)$/', $line, $matches)) {
-                $currentChannel['name'] = trim($matches[1]);
+        foreach ($lines as $line) {
+            if (strpos($line, '#EXTINF') === 0) {
+                // reset
+                $is_vod = false;
+                $is_series = false;
+
+                // Extract Attributes
+                preg_match('/group-title="([^"]*)"/', $line, $gMatch);
+                $current_group = $gMatch[1] ?? 'Uncategorized';
+
+                preg_match('/tvg-logo="([^"]*)"/', $line, $lMatch);
+                $current_logo = $lMatch[1] ?? '';
+
+                preg_match('/,(.*)$/', $line, $nMatch);
+                $name = $nMatch[1] ?? 'Unknown Channel';
+
+                // Classification
+                $group_lower = strtolower($current_group);
+
+                foreach ($server_config['series_keywords'] as $kw) {
+                    if (strpos($group_lower, $kw) !== false) {
+                        $is_series = true;
+                        break;
+                    }
+                }
+
+                if (!$is_series) {
+                    foreach ($server_config['vod_keywords'] as $kw) {
+                        if (strpos($group_lower, $kw) !== false) {
+                            $is_vod = true;
+                            break;
+                        }
+                    }
+                }
+
+                // Store metadata for next URL line
+                $meta = [
+                    'id' => $stream_index++,
+                    'name' => $name,
+                    'logo' => $current_logo,
+                    'group' => $current_group,
+                    'type' => $is_series ? 'series' : ($is_vod ? 'movie' : 'live')
+                ];
+
+            } else if (strpos($line, 'http') === 0) {
+                // It's a URL
+                if (empty($meta))
+                    continue;
+
+                $type = $meta['type']; // live, movie, series
+
+                // Handle Category ID
+                if (!isset($cat_map[$type][$current_group])) {
+                    $cat_map[$type][$current_group] = count($cat_map[$type]) + 1;
+
+                    // Add to main category list
+                    $cat_entry = [
+                        'category_id' => (string) $cat_map[$type][$current_group],
+                        'category_name' => $current_group,
+                        'parent_id' => 0
+                    ];
+
+                    if ($type == 'live')
+                        $data['live_categories'][] = $cat_entry;
+                    if ($type == 'movie')
+                        $data['vod_categories'][] = $cat_entry;
+                    if ($type == 'series')
+                        $data['series_categories'][] = $cat_entry;
+                }
+
+                $cat_id = $cat_map[$type][$current_group];
+
+                // Build Stream Object
+                $stream = [
+                    'num' => $meta['id'],
+                    'name' => $meta['name'],
+                    'stream_id' => $meta['id'],
+                    'stream_icon' => $meta['logo'],
+                    'category_id' => (string) $cat_id,
+                    'container_extension' => ($type == 'live') ? 'ts' : 'mp4',
+                    'direct_source' => $line // Important: Store upstream URL
+                ];
+
+                // Add to specific arrays
+                if ($type == 'live') {
+                    $stream['stream_type'] = 'live';
+                    $data['live_streams'][] = $stream;
+                } elseif ($type == 'movie') {
+                    $stream['stream_type'] = 'movie';
+                    $stream['rating'] = '5';
+                    $stream['added'] = (string) time();
+                    $data['vod_streams'][] = $stream;
+                } elseif ($type == 'series') {
+                    // Series needs simplified "Series" entry, not individual episodes in this list usually, 
+                    // but for M3U gateway, we treat them as VOD streams or grouped series.
+                    // For simplicity in V1 of this re-write, treating Series as VOD Files
+                    // mapped to a "Series" category for generic players.
+                    $stream['series_id'] = $meta['id'];
+                    $stream['cover'] = $meta['logo'];
+                    // Logic hack: Many players accept series as VOD if configured this way
+                    $data['series'][] = $stream;
+                }
+
+                $meta = []; // Clear
             }
-
-            // Extract tvg-logo
-            if (preg_match('/tvg-logo="([^"]+)"/', $line, $matches)) {
-                $currentChannel['logo'] = $matches[1];
-            } else {
-                $currentChannel['logo'] = 'https://via.placeholder.com/150';
-            }
-
-            // Extract tvg-id
-            if (preg_match('/tvg-id="([^"]+)"/', $line, $matches)) {
-                $currentChannel['tvg_id'] = $matches[1];
-            } else {
-                $currentChannel['tvg_id'] = '';
-            }
-
-            // Extract group-title
-            if (preg_match('/group-title="([^"]+)"/', $line, $matches)) {
-                $currentChannel['group'] = $matches[1];
-            }
-
-            $currentChannel['id'] = $streamId++;
-            $currentChannel['category'] = $categoryId;
-
         }
-        // Parse stream URL
-        else if (!empty($line) && strpos($line, '#') !== 0 && $currentChannel !== null) {
-            $currentChannel['url'] = $line;
-            $channels[] = $currentChannel;
-            $currentChannel = null;
-        }
     }
-
-    return $channels;
 }
 
-// Function to load all channels from M3U files
-function loadAllChannels($category_map, $server_config)
-{
-    $allChannels = [];
+// Run Parser
+parseMoviesAndSeries();
 
-    foreach ($category_map as $catName => $catInfo) {
-        $filepath = $server_config['m3u_folder'] . $catInfo['file'];
-        $channels = parseM3U($filepath, $catInfo['id']);
-        if (count($channels) > 0) {
-            error_log("Loaded " . count($channels) . " channels from $catName (ID: {$catInfo['id']})");
-        }
-        $allChannels = array_merge($allChannels, $channels);
-    }
-
-    error_log("Total channels loaded: " . count($allChannels));
-    return $allChannels;
-}
-
-// Load channels from M3U files
-$channels = loadAllChannels($category_map, $server_config);
-// End of file (Omitted closing tag to prevent whitespace)
+// End of file

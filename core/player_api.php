@@ -1,335 +1,210 @@
 <?php
 /**
- * Xtream Codes API v2 - player_api.php
- * Enhanced for Universal IPTV App Compatibility
- * Supports: IPTV Smarters Pro, TiviMate, IPTVnator, Perfect Player, GSE, MAG, Formuler, and all old/new TV boxes
+ * FinnTV Xtream Server V2 - Player API
+ * Implements Xtream Codes API Actions
  */
 
-error_reporting(0);
-ini_set('display_errors', 0);
-set_time_limit(0);
-
-// Load config
 require_once __DIR__ . '/../config.php';
 
-// CORS headers for all apps
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
-header('Access-Control-Allow-Headers: *');
-header('Access-Control-Max-Age: 86400');
+// --- Helpers ---
 
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    exit(0);
+function json_out($data)
+{
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+    exit;
 }
 
-// Get parameters (support both GET and POST)
+// --- Auth ---
+
 $username = $_GET['username'] ?? $_POST['username'] ?? '';
 $password = $_GET['password'] ?? $_POST['password'] ?? '';
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
-// Support token-based auth (for modern apps)
-$token = $_GET['token'] ?? $_POST['token'] ?? '';
-
-// Authenticate
-$authenticated = false;
-$user = null;
-
-// Token auth (if provided)
-if (!empty($token) && isset($server_config['auth_tokens'][$token])) {
-    $username = $server_config['auth_tokens'][$token];
+$is_auth = false;
+if (isset($users_db[$username]) && $users_db[$username] === $password) {
+    $is_auth = true;
 }
 
-// Standard auth
-if (!empty($username) && !empty($password) && isset($users[$username])) {
-    $user = $users[$username];
-    if ($user['pass'] === $password || password_verify($password, $user['pass'])) {
-        $authenticated = true;
-    }
+// --- Login Failure ---
+if (!$is_auth) {
+    json_out(['user_info' => ['auth' => 0]]);
 }
 
-// Check expiration
-$expired = false;
-if ($authenticated && isset($user['exp_date']) && time() > $user['exp_date']) {
-    $expired = true;
-}
+// --- Define User Info Structure ---
+$user_info = [
+    'username' => $username,
+    'password' => $password,
+    'status' => 'Active',
+    'auth' => 1,
+    'active_cons' => 0,
+    'max_connections' => 10,
+    'created_at' => '1600000000',
+    'exp_date' => '1900000000', // Far future
+    'is_trial' => '0',
+    'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
+];
 
-// Helper function
-function outputJSON($data)
-{
-    header('Content-Type: application/json; charset=utf-8');
-    // Verify data array is valid
-    if ($data === null) {
-        $data = ['error' => 'No data found'];
-    }
+$server_info = [
+    'url' => $server_config['base_url'],
+    'port' => '80',
+    'https_port' => '443',
+    'server_protocol' => 'https',
+    'rtmp_port' => '88',
+    'timezone' => $server_config['timezone'],
+    'timestamp_now' => time(),
+    'time_now' => date("Y-m-d H:i:s", time()),
+    'process' => true
+];
 
-    // Force UTF-8 conversion if needed to prevent JSON errors
-    // JSON_INVALID_UTF8_IGNORE is PHP 7.2+
-    $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+// --- Action Router ---
 
-    if ($json === false) {
-        $json = json_encode(['error' => 'JSON encoding failed: ' . json_last_error_msg()]);
-    }
-
-    echo $json;
-    exit;
-}
-
-// Build server URL
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-$serverUrl = $server_config['base_url'] ?? ($protocol . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/'));
-
-// Detect app from User-Agent for optimizations
-$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
-$detectedApp = 'unknown';
-if (stripos($userAgent, 'Smarters') !== false) {
-    $detectedApp = 'smarters';
-} elseif (stripos($userAgent, 'TiviMate') !== false) {
-    $detectedApp = 'tivimate';
-} elseif (stripos($userAgent, 'IPTVnator') !== false) {
-    $detectedApp = 'iptvnator';
-} elseif (stripos($userAgent, 'Perfect') !== false) {
-    $detectedApp = 'perfect';
-} elseif (stripos($userAgent, 'GSE') !== false) {
-    $detectedApp = 'gse';
-}
-
-// Handle unauthenticated
-if (!$authenticated) {
-    outputJSON([
-        'user_info' => [
-            'username' => '',
-            'password' => '',
-            'message' => 'Invalid username or password',
-            'auth' => 0,
-            'status' => 'Disabled',
-            'exp_date' => null,
-            'is_trial' => '0',
-            'active_cons' => '0',
-            'created_at' => null,
-            'max_connections' => '0',
-            'allowed_output_formats' => []
-        ],
-        'server_info' => [
-            'url' => $serverUrl,
-            'port' => '80',
-            'https_port' => '443',
-            'server_protocol' => $protocol,
-            'rtmp_port' => '1935',
-            'timezone' => 'UTC',
-            'timestamp_now' => time(),
-            'time_now' => date('Y-m-d H:i:s')
-        ]
-    ]);
-}
-
-// Process action
 switch ($action) {
-
-    // Default - Get account info (compatibility with all apps)
+    // 1. Login / Handshake
     case '':
-        outputJSON([
-            'user_info' => [
-                'username' => $username,
-                'password' => $password,
-                'message' => $expired ? 'Your account has expired' : '',
-                'auth' => $expired ? 0 : 1,
-                'status' => $expired ? 'Expired' : 'Active',
-                'exp_date' => isset($user['exp_date']) ? (string) $user['exp_date'] : null,
-                'is_trial' => '0',
-                'active_cons' => '0',
-                'created_at' => (string) (time() - 2592000),
-                'max_connections' => (string) ($user['max_conn'] ?? 10),
-                'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
-            ],
-            'server_info' => [
-                'xui' => true,
-                'version' => '2.0.0',
-                'revision' => 5,
-                'url' => $serverUrl,
-                'port' => '80',
-                'https_port' => '443',
-                'server_protocol' => $protocol,
-                'rtmp_port' => '1935',
-                'timezone' => 'UTC',
-                'timestamp_now' => time(),
-                'time_now' => date('Y-m-d H:i:s'),
-                'process' => true
-            ]
-        ]);
-        break;
-
-    // Panel info (required by IPTV Smarters Pro and similar apps)
     case 'get_panel_info':
-    case 'panel_api':
-        outputJSON([
-            'user_info' => [
-                'username' => $username,
-                'password' => $password,
-                'message' => '',
-                'auth' => $expired ? 0 : 1,
-                'status' => $expired ? 'Expired' : 'Active',
-                'exp_date' => isset($user['exp_date']) ? (string) $user['exp_date'] : null,
-                'is_trial' => '0',
-                'active_cons' => '0',
-                'created_at' => (string) (time() - 2592000),
-                'max_connections' => (string) ($user['max_conn'] ?? 10),
-                'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
-            ],
-            'server_info' => [
-                'xui' => true,
-                'version' => '2.0.0',
-                'revision' => 5,
-                'url' => $serverUrl,
-                'port' => '80',
-                'https_port' => '443',
-                'server_protocol' => $protocol,
-                'rtmp_port' => '1935',
-                'timezone' => 'UTC',
-                'timestamp_now' => time(),
-                'time_now' => date('Y-m-d H:i:s'),
-                'process' => true
-            ]
+        json_out([
+            'user_info' => $user_info,
+            'server_info' => $server_info
         ]);
         break;
 
-    // Get live categories
+    // 2. Live TV
     case 'get_live_categories':
-        $cats = [];
-        foreach ($categories as $cat) {
-            $cats[] = [
-                'category_id' => (string) $cat['category_id'], // Match reference: String
-                'category_name' => $cat['category_name'],
-                'parent_id' => (int) $cat['parent_id']
+        json_out($data['live_categories']);
+        break;
+
+    case 'get_live_streams':
+        $cat_id = $_GET['category_id'] ?? null;
+        $out = [];
+        foreach ($data['live_streams'] as $s) {
+            if ($cat_id && $s['category_id'] != $cat_id)
+                continue;
+            $out[] = $s;
+        }
+        json_out($out);
+        break;
+
+    // 3. Movies (VOD)
+    case 'get_vod_categories':
+        json_out($data['vod_categories']);
+        break;
+
+    case 'get_vod_streams':
+        $cat_id = $_GET['category_id'] ?? null;
+        $out = [];
+        foreach ($data['vod_streams'] as $s) {
+            if ($cat_id && $s['category_id'] != $cat_id)
+                continue;
+            $out[] = $s;
+        }
+        json_out($out);
+        break;
+
+    case 'get_vod_info':
+        // Return dummy info to prevent errors on details page
+        json_out([
+            'info' => [
+                'name' => 'Unknown Movie',
+                'description' => 'No description available',
+                'director' => '',
+                'releasedate' => '',
+                'rating' => '5',
+                'movie_image' => '',
+            ],
+            'movie_data' => []
+        ]);
+        break;
+
+    // 4. Series
+    // Note: Parsing Series from M3U is complex.
+    // Here we treat them as VOD categories for simplicity based on the Parser.
+    // Some players check 'get_series' separate from VOD.
+    case 'get_series_categories':
+        json_out($data['series_categories']);
+        break;
+
+    case 'get_series':
+        $cat_id = $_GET['category_id'] ?? null;
+        $out = [];
+        foreach ($data['series'] as $s) {
+            if ($cat_id && $s['category_id'] != $cat_id)
+                continue;
+            // Simplify data for series list
+            $out[] = [
+                'num' => $s['num'],
+                'name' => $s['name'],
+                'series_id' => $s['num'],
+                'cover' => $s['stream_icon'],
+                'plot' => '',
+                'cast' => '',
+                'director' => '',
+                'genre' => '',
+                'releaseDate' => '',
+                'last_modified' => (string) time(),
+                'rating' => '5',
+                'rating_5based' => '5',
+                'backdrop_path' => [],
+                'youtube_trailer' => '',
+                'episode_run_time' => '0',
+                'category_id' => $s['category_id']
             ];
         }
-        outputJSON($cats);
+        json_out($out);
         break;
 
-    // Get live streams (with pagination support)
-    case 'get_live_streams':
-        $catId = $_GET['category_id'] ?? $_POST['category_id'] ?? null;
+    case 'get_series_info':
+        // When user clicks a series, player asks for episodes.
+        // Since we parsed them as flat streams in 'series', we need to fake an episode.
+        // Real implementation would group S01E01 etc.
+        $id = $_GET['series_id'] ?? 0;
 
-        // Get allowed categories
-        $allowed = [];
-        foreach ($user['categories'] as $c) {
-            if (isset($category_map[$c])) {
-                $allowed[] = $category_map[$c]['id'];
+        // Find the stream source again (inefficient lookup but works for simple parsing)
+        $found = null;
+        foreach ($data['series'] as $s) {
+            if ($s['num'] == $id) {
+                $found = $s;
+                break;
             }
         }
 
-        // Debug logging
-        error_log("User categories: " . implode(', ', $user['categories']));
-        error_log("Allowed category IDs: " . implode(', ', $allowed));
-        error_log("Total channels in system: " . count($channels));
-
-        $streams = [];
-        foreach ($channels as $ch) {
-            if (!in_array($ch['category'], $allowed))
-                continue;
-            if ($catId !== null && $ch['category'] != $catId)
-                continue;
-
-            $streams[] = [
-                'num' => $ch['id'],
-                'name' => $ch['name'],
-                'stream_type' => 'live',
-                'stream_id' => $ch['id'],
-                'stream_icon' => $ch['logo'] ?? '',
-                'thumbnail' => $ch['logo'] ?? '',
-                'epg_channel_id' => $ch['tvg_id'] ?? '',
-                'added' => (string) (time() - 604800),
-                'is_adult' => '0',
-                'category_id' => (string) $ch['category'],
-                'category_ids' => [(string) $ch['category']], // Match reference: String array
+        $episodes = [];
+        if ($found) {
+            $episodes[] = [
+                'id' => $found['num'],
+                'episode_num' => 1,
+                'title' => $found['name'],
+                'container_extension' => 'mp4',
+                'info' => [],
                 'custom_sid' => '',
-                'tv_archive' => 0,
-                'direct_source' => '',
-                'tv_archive_duration' => 0,
-                'container_extension' => 'ts'
+                'added' => (string) time(),
+                'season' => 1,
+                'direct_source' => ''
             ];
         }
 
-        error_log("Filtered streams for user: " . count($streams));
-
-        // Pagination support
-        $page = isset($_GET['page']) ? (int) $_GET['page'] : 0;
-        if ($page < 1)
-            $page = isset($_POST['page']) ? (int) $_POST['page'] : 0;
-
-        if ($page > 0) {
-            $limit = isset($_GET['limit']) ? (int) $_GET['limit'] : 100000; // Default high limit if not set
-            if ($limit < 1)
-                $limit = 100000;
-
-            $offset = ($page - 1) * $limit;
-            $streams = array_slice($streams, $offset, $limit);
-        }
-
-        outputJSON($streams);
+        json_out([
+            'seasons' => [
+                [
+                    'air_date' => '2023-01-01',
+                    'episode_count' => 1,
+                    'id' => 1,
+                    'name' => 'Season 1',
+                    'overview' => '',
+                    'season_number' => 1,
+                    'cover' => $found['cover'] ?? '',
+                    'cover_big' => $found['cover'] ?? ''
+                ]
+            ],
+            'episodes' => [
+                "1" => $episodes
+            ]
+        ]);
         break;
 
-    // Get VOD categories
-    case 'get_vod_categories':
-        outputJSON([]);
-        break;
-
-    // Get VOD streams
-    case 'get_vod_streams':
-        outputJSON([]);
-        break;
-
-    // Get VOD info
-    case 'get_vod_info':
-        outputJSON(['info' => [], 'movie_data' => []]);
-        break;
-
-    // Get series categories
-    case 'get_series_categories':
-        outputJSON([]);
-        break;
-
-    // Get series
-    case 'get_series':
-        outputJSON([]);
-        break;
-
-    // Get series info
-    case 'get_series_info':
-        outputJSON(['info' => [], 'episodes' => [], 'seasons' => []]);
-        break;
-
-    // Get short EPG (for apps that support it)
-    case 'get_short_epg':
-        $streamId = $_GET['stream_id'] ?? $_POST['stream_id'] ?? null;
-        $limit = (int) ($_GET['limit'] ?? $_POST['limit'] ?? 4);
-
-        outputJSON(['epg_listings' => []]);
-        break;
-
-    // Get simple data table (EPG table format)
-    case 'get_simple_data_table':
-        $streamId = $_GET['stream_id'] ?? $_POST['stream_id'] ?? null;
-
-        outputJSON(['epg_listings' => []]);
-        break;
-
-    // Get all EPG
-    case 'get_epg':
-        outputJSON(['epg_listings' => []]);
-        break;
-
-    // XMLtv EPG
-    case 'xmltv.php':
-    case 'xmltv':
-        header('Content-Type: application/xml; charset=utf-8');
-        echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-        echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' . "\n";
-        echo '<tv generator-info-name="FinnTV IPTV" generator-info-url="' . $serverUrl . '">' . "\n";
-        echo '</tv>' . "\n";
-        exit;
-        break;
-
+    // Default
     default:
-        outputJSON(['error' => 'Unknown action']);
+        json_out(['error' => 'Unknown Action']);
 }
+
 // End of file
