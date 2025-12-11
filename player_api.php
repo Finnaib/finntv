@@ -184,7 +184,7 @@ switch ($action) {
         $cats = [];
         foreach ($categories as $cat) {
             $cats[] = [
-                'category_id' => (string) $cat['category_id'],
+                'category_id' => (int) $cat['category_id'], // Cast to int for client compatibility
                 'category_name' => $cat['category_name'],
                 'parent_id' => (int) $cat['parent_id']
             ];
