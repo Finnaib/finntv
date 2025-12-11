@@ -35,6 +35,10 @@
             "destination": "/api/xmltv.php"
         },
         {
+            "source": "/debug",
+            "destination": "/api/debug.php"
+        },
+        {
             "source": "/",
             "destination": "/index.html"
         }
