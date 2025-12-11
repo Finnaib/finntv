@@ -72,6 +72,7 @@ function parseMoviesAndSeries()
     ];
 
     foreach ($files as $file) {
+        $filename = basename($file);
         $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         $current_group = "Uncategorized";
         $current_logo = "";
@@ -92,21 +93,45 @@ function parseMoviesAndSeries()
                 preg_match('/,(.*)$/', $line, $nMatch);
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
-                // Classification
-                $group_lower = strtolower($current_group);
+                // --- Classification Logic ---
+                // Rule: xtream.m3u is ALWAYS Live.
+                // Rule: vod.m3u is ALWAYS VOD or Series.
 
-                foreach ($server_config['series_keywords'] as $kw) {
-                    if (strpos($group_lower, $kw) !== false) {
-                        $is_series = true;
-                        break;
-                    }
-                }
+                if (stripos($filename, 'xtream.m3u') !== false) {
+                    // Force Live
+                    $is_vod = false;
+                    $is_series = false;
+                } elseif (stripos($filename, 'vod.m3u') !== false) {
+                    // Force VOD/Series Check
+                    $group_lower = strtolower($current_group);
 
-                if (!$is_series) {
-                    foreach ($server_config['vod_keywords'] as $kw) {
+                    // Check Series
+                    foreach ($server_config['series_keywords'] as $kw) {
                         if (strpos($group_lower, $kw) !== false) {
-                            $is_vod = true;
+                            $is_series = true;
                             break;
+                        }
+                    }
+
+                    // If not series, must be movie (since file is vod.m3u)
+                    if (!$is_series) {
+                        $is_vod = true;
+                    }
+                } else {
+                    // Legacy/Other Files: Auto-Detect
+                    $group_lower = strtolower($current_group);
+                    foreach ($server_config['series_keywords'] as $kw) {
+                        if (strpos($group_lower, $kw) !== false) {
+                            $is_series = true;
+                            break;
+                        }
+                    }
+                    if (!$is_series) {
+                        foreach ($server_config['vod_keywords'] as $kw) {
+                            if (strpos($group_lower, $kw) !== false) {
+                                $is_vod = true;
+                                break;
+                            }
                         }
                     }
                 }
