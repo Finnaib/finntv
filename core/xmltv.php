@@ -59,4 +59,4 @@ foreach ($channels as $ch) {
 }
 
 echo '</tv>' . "\n";
-?>
+// End of file

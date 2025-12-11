@@ -319,4 +319,4 @@ switch ($action) {
     default:
         outputJSON(['error' => 'Unknown action']);
 }
-?>
+// End of file

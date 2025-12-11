@@ -228,4 +228,4 @@ while (!feof($fp)) {
 
 fclose($fp);
 exit;
-?>
+// End of file

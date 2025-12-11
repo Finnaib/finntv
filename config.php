@@ -175,4 +175,4 @@ function loadAllChannels($category_map, $server_config)
 
 // Load channels from M3U files
 $channels = loadAllChannels($category_map, $server_config);
-?>
+// End of file (Omitted closing tag to prevent whitespace)

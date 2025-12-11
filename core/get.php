@@ -107,4 +107,4 @@ foreach ($channels as $ch) {
     // Output stream URL
     echo "{$streamUrl}\n";
 }
-?>
+// End of file
