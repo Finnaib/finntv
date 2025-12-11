@@ -1,0 +1,8 @@
+{
+    "name": "xtream-server",
+    "version": "1.0.0",
+    "description": "IPTV Xtream Codes API Server",
+    "scripts": {
+        "build": "echo 'No build required for PHP project'"
+    }
+}
