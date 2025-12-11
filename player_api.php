@@ -226,7 +226,7 @@ switch ($action) {
                 'epg_channel_id' => $ch['tvg_id'] ?? '',
                 'added' => (string) (time() - 604800),
                 'is_adult' => '0',
-                'category_id' => (string) $ch['category'],
+                'category_id' => (string) $ch['category'], // Xtream spec says string, but some clients map strict types.
                 'category_ids' => [(int) $ch['category']],
                 'custom_sid' => '',
                 'tv_archive' => 0,
