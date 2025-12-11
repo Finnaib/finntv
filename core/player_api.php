@@ -115,36 +115,6 @@ switch ($action) {
         $out = [];
         foreach ($data['vod_streams'] as $s) {
             if ($cat_id && $s['category_id'] != $cat_id)
-                continue;
-            $out[] = $s;
-        }
-        json_out($out);
-        break;
-
-    case 'get_vod_info':
-        // Return dummy info to prevent errors on details page
-        json_out([
-            'info' => [
-                'name' => 'Unknown Movie',
-                'description' => 'No description available',
-                'director' => '',
-                'releasedate' => '',
-                'rating' => '5',
-                'movie_image' => '',
-            ],
-            'movie_data' => []
-        ]);
-        break;
-
-    // 4. Series
-    // Note: Parsing Series from M3U is complex.
-    // Here we treat them as VOD categories for simplicity based on the Parser.
-    // Some players check 'get_series' separate from VOD.
-    case 'get_series_categories':
-        json_out($data['series_categories']);
-        break;
-
-    case 'get_series':
         $cat_id = $_GET['category_id'] ?? null;
         $out = [];
         foreach ($data['series'] as $s) {
