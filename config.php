@@ -31,11 +31,13 @@ $server_config = [
 
 // --- Users Database ---
 // Username => Password
+// Username => [Password, Created_At (Optional Timestamp)]
+// "1672531200" = Jan 1, 2023. If empty, defaults to Dynamic.
 $users_db = [
-    "finn" => "finn123",
-    "tabby" => "tabby123",
-    "test" => "test",
-    "admin" => "admin"
+    "finn" => ["password" => "finn123", "created_at" => 1704067200], // Example: Jan 1 2024
+    "tabby" => ["password" => "tabby123", "created_at" => null],       // Dynamic (Always 1 year from now)
+    "test" => ["password" => "test", "created_at" => null],
+    "admin" => ["password" => "admin", "created_at" => null]
 ];
 
 // --- Data Store (InMemory) ---

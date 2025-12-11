@@ -22,8 +22,28 @@ $password = $_GET['password'] ?? $_POST['password'] ?? '';
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
 $is_auth = false;
-if (isset($users_db[$username]) && $users_db[$username] === $password) {
-    $is_auth = true;
+$user_data = [];
+
+if (isset($users_db[$username])) {
+    $u = $users_db[$username];
+    // Handle both old string format and new array format for backward compatibility
+    $stored_pass = is_array($u) ? $u['password'] : $u;
+
+    if ($stored_pass === $password) {
+        $is_auth = true;
+        // Parse metadata
+        $created_at = (is_array($u) && !empty($u['created_at'])) ? $u['created_at'] : time();
+        // If created_at is dynamic (null), exp is 1 year from NOW. 
+        // If fixed, exp is 1 year from THEN.
+        $exp_date = (is_array($u) && !empty($u['created_at']))
+            ? strtotime('+1 year', $created_at)
+            : strtotime('+1 year');
+
+        $user_data = [
+            'created_at' => $created_at,
+            'exp_date' => $exp_date
+        ];
+    }
 }
 
 // --- Login Failure ---
@@ -38,9 +58,9 @@ $user_info = [
     'status' => 'Active',
     'auth' => 1,
     'active_cons' => 0,
-    'max_connections' => 10,
-    'created_at' => '1600000000',
-    'exp_date' => '1900000000', // Far future
+    'max_connections' => 5, // Hardcoded Limit: 5 Devices
+    'created_at' => (string) $user_data['created_at'],
+    'exp_date' => (string) $user_data['exp_date'],
     'is_trial' => '0',
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
