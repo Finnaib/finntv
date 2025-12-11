@@ -57,7 +57,20 @@ if ($authenticated && isset($user['exp_date']) && time() > $user['exp_date']) {
 function outputJSON($data)
 {
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    // Verify data array is valid
+    if ($data === null) {
+        $data = ['error' => 'No data found'];
+    }
+
+    // Force UTF-8 conversion if needed to prevent JSON errors
+    // JSON_INVALID_UTF8_IGNORE is PHP 7.2+
+    $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+
+    if ($json === false) {
+        $json = json_encode(['error' => 'JSON encoding failed: ' . json_last_error_msg()]);
+    }
+
+    echo $json;
     exit;
 }
 
