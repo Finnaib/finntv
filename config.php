@@ -53,8 +53,14 @@ $data = [
 ];
 
 // Optimization: Load pre-built data.json if available (Fast Mode)
-if (file_exists(__DIR__ . '/data.json')) {
-    $json = file_get_contents(__DIR__ . '/data.json');
+$json_path = __DIR__ . '/data.json';
+if (!file_exists($json_path) && isset($_SERVER['DOCUMENT_ROOT'])) {
+    // Fallback for some hosting envs
+    $json_path = $_SERVER['DOCUMENT_ROOT'] . '/data.json';
+}
+
+if (file_exists($json_path)) {
+    $json = file_get_contents($json_path);
     $decoded = json_decode($json, true);
     if ($decoded) {
         $data = $decoded;
