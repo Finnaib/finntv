@@ -84,9 +84,11 @@ echo "#EXTM3U x-tvg-url=\"{$baseUrl}/xmltv.php?username={$username}&password={$p
 
 // Get allowed categories
 $allowed = [];
-foreach ($user['categories'] as $cat) {
-    if (isset($category_map[$cat])) {
-        $allowed[] = $category_map[$cat]['id'];
+if (isset($user['categories']) && is_array($user['categories'])) {
+    foreach ($user['categories'] as $cat) {
+        if (isset($category_map[$cat])) {
+            $allowed[] = $category_map[$cat]['id'];
+        }
     }
 }
 
@@ -110,11 +112,10 @@ foreach ($channels as $ch) {
     // Filter by User Category (if restricted)
     // Note: If user has NO categories defined, assume ALL are allowed (or NONE depending on policy)
     // For this simple server, we might skip strict category checking if not implemented in user DB
-    /* 
-    if (!in_array($categoryId, $allowed)) {
+
+    if (!empty($allowed) && !in_array($categoryId, $allowed)) {
         continue;
     }
-    */
 
     // Get category name
     foreach ($categories as $cat) {
