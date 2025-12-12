@@ -17,12 +17,20 @@
         {
             "src": "*.html",
             "use": "@vercel/static"
+        },
+        {
+            "src": "id_map.json",
+            "use": "@vercel/static"
         }
     ],
     "routes": [
         {
             "src": "/player_api.php",
             "dest": "/api/player_api.php"
+        },
+        {
+            "src": "/id_map.json",
+            "dest": "/id_map.json"
         },
         {
             "src": "/get.php",
