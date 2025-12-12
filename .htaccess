@@ -55,26 +55,24 @@ RewriteRule ^series/([^/]+)/([^/]+)/([0-9]+)\.(mkv|mp4|avi)$ series.php/$1/$2/$3
 # ============================================
 
 # Panel API (for advanced apps)
-RewriteRule ^panel_api\.php$ panel_api.php [L,QSA]
-
-# EPG/XMLTV
-RewriteRule ^xmltv\.php$ xmltv.php [L,QSA]
+RewriteRule ^panel_api\.php$ api/panel_api.php [L,QSA]
+RewriteRule ^xmltv\.php$ api/xmltv.php [L,QSA]
 
 # Player API - main endpoint
-RewriteRule ^player_api\.php$ player_api.php [L,QSA]
+RewriteRule ^player_api\.php$ api/player_api.php [L,QSA]
 
 # M3U Playlist generator
-RewriteRule ^get\.php$ get.php [L,QSA]
+RewriteRule ^get\.php$ api/get.php [L,QSA]
 
 # ============================================
 # LEGACY COMPATIBILITY
 # ============================================
 
 # Old panel.php routes (redirect to player_api)
-RewriteRule ^panel\.php$ player_api.php [QSA,L]
+RewriteRule ^panel\.php$ api/player_api.php [QSA,L]
 
 # Enigma2 format support
-RewriteRule ^enigma2\.php$ get.php [QSA,L]
+RewriteRule ^enigma2\.php$ api/get.php [QSA,L]
 
 # ============================================
 # SECURITY

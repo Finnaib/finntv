@@ -6,7 +6,7 @@
 
 // If accessed directly via /live.php, handle query params
 if (isset($_GET['username']) || isset($_SERVER['PATH_INFO'])) {
-    require_once __DIR__ . '/live.php';
+    require_once __DIR__ . '/../core/live.php';
     exit;
 }
 

@@ -25,7 +25,8 @@ $server_config = [
     // Keywords to detect Series
     'series_keywords' => ['series', 'season', 'episode', 'show'],
 
-    'base_url' => 'https://finntv.vercel.app/', // Change this to your VPS IP if using Docker!
+    // Dynamic Base URL Detection
+    'base_url' => (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/",
     'stream_mode' => 'redirect', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
@@ -51,11 +52,25 @@ $data = [
     'series_categories' => []
 ];
 
+// Optimization: Load pre-built data.json if available (Fast Mode)
+if (file_exists(__DIR__ . '/data.json')) {
+    $json = file_get_contents(__DIR__ . '/data.json');
+    $decoded = json_decode($json, true);
+    if ($decoded) {
+        $data = $decoded;
+    }
+}
+
 // --- Parser Logic ---
 
 function parseMoviesAndSeries()
 {
     global $server_config, $data;
+
+    // If data already loaded from JSON, skip parsing!
+    if (!empty($data['live_streams']) || !empty($data['vod_streams'])) {
+        return;
+    }
 
     if (!is_dir($server_config['m3u_dir']))
         return;

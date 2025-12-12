@@ -8,7 +8,8 @@
                 "includeFiles": [
                     "m3u/**",
                     "core/**",
-                    "config.php"
+                    "config.php",
+                    "data.json"
                 ]
             }
         },
