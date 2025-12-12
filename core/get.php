@@ -131,8 +131,8 @@ foreach ($channels as $ch) {
         // Xtream format
         $streamUrl = "{$baseUrl}/live/{$username}/{$password}/{$streamId}.ts";
     } else {
-        // Direct URL from M3U
-        $streamUrl = $ch['url'];
+        // Direct URL from M3U (Fix: use direct_source from config parser)
+        $streamUrl = $ch['direct_source'] ?? $ch['url'] ?? '';
     }
 
     // Output EXTINF line with all attributes
