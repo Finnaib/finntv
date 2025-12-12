@@ -166,7 +166,8 @@ if ($action === '' || $action === 'get_panel_info') {
     $cat_id = $_GET['category_id'] ?? null;
     $out = [];
     foreach ($data['live_streams'] as $s) {
-        if ($cat_id && $s['category_id'] != $cat_id)
+        // String-safe comparison
+        if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
         $out[] = $s;
     }
@@ -181,7 +182,8 @@ if ($action === '' || $action === 'get_panel_info') {
     $cat_id = $_GET['category_id'] ?? null;
     $out = [];
     foreach ($data['vod_streams'] as $s) {
-        if ($cat_id && $s['category_id'] != $cat_id)
+        // String-safe comparison
+        if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
         // Optimize: Always remove large internal fields
@@ -206,7 +208,8 @@ if ($action === '' || $action === 'get_panel_info') {
     $cat_id = $_GET['category_id'] ?? null;
     $out = [];
     foreach ($data['series'] as $s) {
-        if ($cat_id && $s['category_id'] != $cat_id)
+        // String-safe comparison
+        if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
         // Return series format
