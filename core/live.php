@@ -117,17 +117,43 @@ if (isset($server_config['stream_mode']) && $server_config['stream_mode'] === 'p
  * - Zero CPU usage.
  * - Mixed Content Warnings.
  */
+
 // Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
 if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
     // Safest bet for generic upstream: Try replacing extension
     $target_url = str_replace('.m3u8', '.ts', $target_url);
 }
 
-// 3. User Agent Logic (Optional Spoofing)
-if ($is_smart_app) {
-    // If it's a "Smart" app, we can maybe trust it to handle the redirect
+// Enhanced Headers for IPTV Pro and Smarters Compatibility
+// These players are strict about redirects and need proper headers
+
+// 1. Clear any buffered output
+if (ob_get_length())
+    ob_clean();
+
+// 2. Set proper status code (302 for temporary redirect)
+http_response_code(302);
+
+// 3. CORS headers (already set above but reinforce)
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, HEAD, OPTIONS");
+header("Access-Control-Allow-Headers: *");
+
+// 4. Cache control to prevent stale redirects
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+// 5. Content type hint for video
+if ($ext === 'ts') {
+    header("Content-Type: video/mp2t");
+} elseif ($ext === 'm3u8') {
+    header("Content-Type: application/vnd.apple.mpegurl");
+} else {
+    header("Content-Type: video/mp4");
 }
 
+// 6. Redirect
 header("Location: " . $target_url);
 exit;
 // End of file
