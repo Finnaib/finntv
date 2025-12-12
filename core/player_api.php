@@ -37,19 +37,48 @@ if (isset($users_db[$username])) {
     $stored_pass = is_array($u) ? $u['password'] : $u;
 
     if ($stored_pass === $password) {
-        $is_auth = true;
-        // Parse metadata
-        $created_at = (is_array($u) && !empty($u['created_at'])) ? $u['created_at'] : time();
-        // If created_at is dynamic (null), exp is 1 year from NOW. 
-        // If fixed, exp is 1 year from THEN.
-        $exp_date = (is_array($u) && !empty($u['created_at']))
-            ? strtotime('+1 year', $created_at)
-            : strtotime('+1 year');
+        // Logic: First-Login Persistence for Dynamic Users
+        $created_at = null;
 
-        $user_data = [
-            'created_at' => $created_at,
-            'exp_date' => $exp_date
-        ];
+        if (is_array($u) && !empty($u['created_at'])) {
+            // Case A: Fixed Date in Config
+            $created_at = $u['created_at'];
+        } else {
+            // Case B: Dynamic User (First Login Detection)
+            $dyn_file = __DIR__ . '/../data/users_dynamic.json';
+            $dyn_db = [];
+
+            // Try to read existing DB
+            if (file_exists($dyn_file)) {
+                $json = file_get_contents($dyn_file);
+                $dyn_db = json_decode($json, true) ?? [];
+            }
+
+            if (isset($dyn_db[$username])) {
+                // User has logged in before, retrieve original date
+                $created_at = $dyn_db[$username];
+            } else {
+                // First time login! Save NOW as start date.
+                $created_at = time();
+                $dyn_db[$username] = $created_at;
+                // Attempt to save (Note: Ephemeral on Serverless/Vercel)
+                @file_put_contents($dyn_file, json_encode($dyn_db));
+            }
+        }
+
+        // Calculate Expiration (1 Year from Created Date)
+        $exp_date = strtotime('+1 year', $created_at);
+
+        // Check Expiration
+        if (time() > $exp_date) {
+            $is_auth = false;
+        } else {
+            $is_auth = true;
+            $user_data = [
+                'created_at' => $created_at,
+                'exp_date' => $exp_date
+            ];
+        }
     }
 }
 

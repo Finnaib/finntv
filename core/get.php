@@ -21,6 +21,9 @@ header('Expires: 0');
 
 require_once __DIR__ . '/../config.php';
 
+// Optimization: Call parser explicitly since auto-run is disabled
+parseMoviesAndSeries();
+
 $username = $_GET['username'] ?? '';
 $password = $_GET['password'] ?? '';
 $type = $_GET['type'] ?? 'm3u'; // m3u, m3u_plus, or xtream
