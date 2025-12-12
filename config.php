@@ -82,8 +82,8 @@ function parseMoviesAndSeries()
         $current_group = "Uncategorized";
         $current_logo = "";
 
-        // Optimizations
-        $is_xtream = (stripos($filename, 'xtream.m3u') !== false);
+        // Optimizations: Broaden 'xtream' detection to any file containing 'xtream'
+        $is_xtream = (stripos($filename, 'xtream') !== false);
         $is_vod_file = (stripos($filename, 'vod.m3u') !== false);
 
         while (($line = fgets($handle)) !== false) {
