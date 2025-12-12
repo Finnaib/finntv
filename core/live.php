@@ -12,6 +12,9 @@ ob_start();
 // 1. Context Analysis
 header("Access-Control-Allow-Origin: *");
 $uri = $_SERVER['REQUEST_URI'];
+// DEBUG LOGGING
+file_put_contents(__DIR__ . '/../debug_live_log.txt', date('Y-m-d H:i:s') . " - Request: $uri\n", FILE_APPEND);
+
 $parts = explode('/', trim($uri, '/'));
 
 // Expected Structure: 

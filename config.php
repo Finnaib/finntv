@@ -26,7 +26,7 @@ $server_config = [
     'series_keywords' => ['series', 'season', 'episode', 'show'],
 
     // Dynamic Base URL Detection
-    'base_url' => (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/",
+    'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . "/",
     'stream_mode' => 'redirect', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 

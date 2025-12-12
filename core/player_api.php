@@ -121,11 +121,20 @@ $user_info = [
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
+// Detect Protocol from Base URL
+$p_parts = parse_url($server_config['base_url']);
+$scheme = $p_parts['scheme'] ?? 'http';
+$host = $p_parts['host'] ?? 'localhost';
+$port = $p_parts['port'] ?? ($scheme === 'https' ? '443' : '80');
+
 $server_info = [
+    // 'url' => $host, // Some players expect just host here, others full URL. Standard is usually Host or URL with port.
+    // Xtream often sends just the host/ip in 'url' and port separately, OR full url.
+    // Let's stick to full URL but ensure ports match.
     'url' => $server_config['base_url'],
-    'port' => '80',
-    'https_port' => '443',
-    'server_protocol' => 'https',
+    'port' => (string) $port,
+    'https_port' => (string) ($scheme === 'https' ? $port : '443'),
+    'server_protocol' => $scheme,
     'rtmp_port' => '88',
     'timezone' => $server_config['timezone'],
     'timestamp_now' => time(),
