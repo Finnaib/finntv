@@ -119,6 +119,16 @@ if ($action === '' || $action === 'get_panel_info') {
     foreach ($data['vod_streams'] as $s) {
         if ($cat_id && $s['category_id'] != $cat_id)
             continue;
+
+        // Optimize: Always remove large internal fields
+        unset($s['direct_source']);
+        unset($s['uniq_id']);
+
+        // Smart Optimization: If requesting ALL streams, remove icons to prevent >4.5MB payload
+        if (!$cat_id) {
+            unset($s['stream_icon']);
+        }
+
         $out[] = $s;
     }
     json_out($out);
