@@ -4,12 +4,18 @@
  * Implements Xtream Codes API Actions
  */
 
+ob_start();
+
 require_once __DIR__ . '/../config.php';
 
 // --- Helpers ---
 
 function json_out($data)
 {
+    // Clear any previous output (whitespace, warnings)
+    if (ob_get_length())
+        ob_clean();
+
     header('Content-Type: application/json; charset=utf-8');
     $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
 
@@ -43,28 +49,33 @@ if (isset($users_db[$username])) {
         if (is_array($u) && !empty($u['created_at'])) {
             // Case A: Fixed Date in Config
             $created_at = $u['created_at'];
-        } else {
-            // Case B: Dynamic User (First Login Detection)
-            $dyn_file = __DIR__ . '/../data/users_dynamic.json';
-            $dyn_db = [];
-
-            // Try to read existing DB
-            if (file_exists($dyn_file)) {
-                $json = file_get_contents($dyn_file);
-                $dyn_db = json_decode($json, true) ?? [];
-            }
-
-            if (isset($dyn_db[$username])) {
-                // User has logged in before, retrieve original date
-                $created_at = $dyn_db[$username];
-            } else {
-                // First time login! Save NOW as start date.
-                $created_at = time();
-                $dyn_db[$username] = $created_at;
-                // Attempt to save (Note: Ephemeral on Serverless/Vercel)
-                @file_put_contents($dyn_file, json_encode($dyn_db));
-            }
         }
+
+        // Case B: Dynamic User (First Login Detection)
+        // Fix for Vercel/Serverless: Use /tmp if local data dir is not writable
+        $local_data_dir = __DIR__ . '/../data';
+        $dyn_file = is_writable($local_data_dir)
+            ? $local_data_dir . '/users_dynamic.json'
+            : sys_get_temp_dir() . '/users_dynamic.json';
+
+        $dyn_db = [];
+
+        // Try to read existing DB
+        if (file_exists($dyn_file)) {
+            $json = file_get_contents($dyn_file);
+            $dyn_db = json_decode($json, true) ?? [];
+        }
+
+        if (isset($dyn_db[$username])) {
+            // User has logged in before, retrieve original date
+            $created_at = $dyn_db[$username];
+        } else {
+            // First time login! Save NOW as start date.
+            $created_at = time();
+            $dyn_db[$username] = $created_at;
+            @file_put_contents($dyn_file, json_encode($dyn_db));
+        }
+
 
         // Calculate Expiration (1 Year from Created Date)
         $exp_date = strtotime('+1 year', $created_at);
