@@ -29,22 +29,38 @@ $password = $_GET['password'] ?? '';
 $type = $_GET['type'] ?? 'm3u'; // m3u, m3u_plus, or xtream
 
 // Authenticate
+// Authenticate
 function authenticateUser($username, $password, $users)
 {
     if (!isset($users[$username]))
         return false;
-    $user = $users[$username];
-    $storedPass = $user['pass'];
-    if (strlen($storedPass) === 60 && substr($storedPass, 0, 4) === '$2y$') {
-        if (password_verify($password, $storedPass))
-            return $user;
-    }
-    if ($password === $storedPass)
-        return $user;
-    return false;
-}
 
-$user = authenticateUser($username, $password, $users);
+    $u = $users[$username];
+    $storedPass = is_array($u) ? $u['password'] : $u;
+
+    // 1. Check Password
+    if ($storedPass !== $password) {
+        return false;
+    }
+
+    // 2. Check Expiration (Consistent with player_api.php)
+    $created_at = (is_array($u) && !empty($u['created_at'])) ? $u['created_at'] : time();
+    $exp_date = (is_array($u) && !empty($u['created_at']))
+        ? strtotime('+1 year', $created_at)
+        : strtotime('+1 year'); // Note: dynamic logic simplified here for read-only safety
+
+    if (time() > $exp_date) {
+        return false;
+    }
+
+    return $u;
+}
+/* 
+    Legacy Bcrypt Logic Removed for simplicity/speed as Config uses plain text for now. 
+    If you need hash support, restore the password_verify block.
+*/
+
+$user = authenticateUser($username, $password, $users_db);
 
 if (!$user) {
     echo "#EXTM3U\n";
