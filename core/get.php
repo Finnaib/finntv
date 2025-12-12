@@ -93,11 +93,15 @@ if (isset($user['categories']) && is_array($user['categories'])) {
 }
 
 // Aggregate all streams for the playlist
+// User requested Strict Separation: ONLY Live Streams in this M3U.
+$channels = $data['live_streams'] ?? [];
+/* 
+// Previous logic merged everything, causing VODs to appear as Live Channels
 $channels = array_merge(
     $data['live_streams'] ?? [],
     $data['vod_streams'] ?? []
-    // Series are usually not in simple M3U, but we could add them if needed
-);
+); 
+*/
 
 // Output channels
 foreach ($channels as $ch) {
