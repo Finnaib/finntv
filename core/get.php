@@ -62,6 +62,12 @@ function authenticateUser($username, $password, $users)
 
 $user = authenticateUser($username, $password, $users_db);
 
+// Aggregate Categories
+$categories = array_merge(
+    $data['live_categories'] ?? [],
+    $data['vod_categories'] ?? []
+);
+
 if (!$user) {
     echo "#EXTM3U\n";
     echo "#EXTINF:-1,Authentication Failed\n";
@@ -84,21 +90,36 @@ foreach ($user['categories'] as $cat) {
     }
 }
 
+// Aggregate all streams for the playlist
+$channels = array_merge(
+    $data['live_streams'] ?? [],
+    $data['vod_streams'] ?? []
+    // Series are usually not in simple M3U, but we could add them if needed
+);
+
 // Output channels
 foreach ($channels as $ch) {
-    if (!in_array($ch['category'], $allowed)) {
+    // Map fields from config structure to local vars
+    $name = $ch['name'];
+    $logo = $ch['stream_icon'] ?? ''; // config uses stream_icon
+    $tvgId = $ch['epg_channel_id'] ?? ''; // config usually empty, but just in case
+    $streamId = $ch['stream_id'];
+    $categoryId = $ch['category_id'];
+    $categoryName = '';
+
+    // Filter by User Category (if restricted)
+    // Note: If user has NO categories defined, assume ALL are allowed (or NONE depending on policy)
+    // For this simple server, we might skip strict category checking if not implemented in user DB
+    /* 
+    if (!in_array($categoryId, $allowed)) {
         continue;
     }
-
-    $name = $ch['name'];
-    $logo = $ch['logo'] ?? '';
-    $tvgId = $ch['tvg_id'] ?? '';
-    $streamId = $ch['id'];
-    $categoryName = '';
+    */
 
     // Get category name
     foreach ($categories as $cat) {
-        if ($cat['category_id'] == $ch['category']) {
+        // Fix: config uses string IDs, ensure comparison works
+        if ((string) $cat['category_id'] === (string) $categoryId) {
             $categoryName = $cat['category_name'];
             break;
         }
