@@ -86,6 +86,12 @@ $server_info = [
 
 // --- Action Router ---
 
+// Optimization: Only parse M3U files if we are NOT logging in. 
+// This prevents timeouts during the handshake phase.
+if ($action !== '' && $action !== 'get_panel_info') {
+    parseMoviesAndSeries();
+}
+
 if ($action === '' || $action === 'get_panel_info') {
     // 1. Login / Handshake
     json_out([

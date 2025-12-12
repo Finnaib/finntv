@@ -205,6 +205,7 @@ function parseMoviesAndSeries()
 }
 
 // Run Parser
-parseMoviesAndSeries();
+// Run Parser (Optimized: Execution moved to player_api.php)
+// parseMoviesAndSeries();
 
 // End of file
