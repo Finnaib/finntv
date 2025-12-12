@@ -77,19 +77,57 @@ if (
     $is_smart_app = true;
 }
 
-// Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
-// This helps all apps (Smarters, Boxes) if they expect TS from an Xtream API.
-if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
-    // Attempt standard Xtream upstream rewrite
-    // upstream/live/u/p/123.m3u8 -> upstream/live/u/p/123.ts
-    // OR upstream/index.m3u8 -> upstream/index.ts (rare)
+// --- 3. Stream Handoff Logic ---
 
+/*
+ * MODE: PROXY (Secure)
+ * - Hides the provider URL.
+ * - Fixes Mixed Content (HTTP source on HTTPS server).
+ * - Uses Server CPU/Bandwidth.
+ */
+if (isset($server_config['stream_mode']) && $server_config['stream_mode'] === 'proxy') {
+    // Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
+    if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
+        $target_url = str_replace('.m3u8', '.ts', $target_url);
+    }
+
+    // Open Connection to Provider
+    $fp = fopen($target_url, 'rb');
+    if (!$fp) {
+        http_response_code(502); // Bad Gateway
+        die("Error: Could not connect to stream provider.");
+    }
+
+    // Forward Headers (Minimal)
+    header("Content-Type: video/mp2t"); // Assume MPEG-TS for Xtream
+    header("Access-Control-Allow-Origin: *");
+
+    // Pump Data
+    while (!feof($fp)) {
+        echo fread($fp, 8192); // 8KB chunks
+        flush();
+    }
+    fclose($fp);
+    exit;
+}
+
+/*
+ * MODE: REDIRECT (Legacy/Fast)
+ * - Exposes provider URL.
+ * - Zero CPU usage.
+ * - Mixed Content Warnings.
+ */
+// Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
+if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
     // Safest bet for generic upstream: Try replacing extension
     $target_url = str_replace('.m3u8', '.ts', $target_url);
 }
 
-// 4. Execute Redirect
-ob_clean();
-header("Location: $target_url");
+// 3. User Agent Logic (Optional Spoofing)
+if ($is_smart_app) {
+    // If it's a "Smart" app, we can maybe trust it to handle the redirect
+}
+
+header("Location: " . $target_url);
 exit;
 // End of file

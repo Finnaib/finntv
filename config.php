@@ -20,13 +20,13 @@ $server_config = [
     'm3u_dir' => __DIR__ . '/m3u',
 
     // Keywords to detect Movies (VOD)
-    'vod_keywords' => ['movie', 'film', 'cinema', 'vod', '4k movie', 'vip'],
+    'vod_keywords' => ['movie', 'vod', 'film', 'cinema'], // Not used in strict mode
 
     // Keywords to detect Series
-    'series_keywords' => ['series', 'season', 'episodes', 'netflix'],
+    'series_keywords' => ['series', 'season', 'episode', 'show'],
 
-    // Base URL determination
-    'base_url' => (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]"
+    'base_url' => 'https://finntv.vercel.app/', // Change this to your VPS IP if using Docker!
+    'stream_mode' => 'proxy', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
 // --- Users Database ---
