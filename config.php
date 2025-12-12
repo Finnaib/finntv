@@ -10,7 +10,7 @@
 // Basic Security & Headers
 error_reporting(0);
 ini_set('display_errors', 0);
-header("Access-Control-Allow-Origin: *");
+// header("Access-Control-Allow-Origin: *"); // Moved to player_api.php
 
 // --- Configuration ---
 
