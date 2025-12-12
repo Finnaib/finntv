@@ -61,6 +61,9 @@ function parseMoviesAndSeries()
         return;
 
     $files = glob($server_config['m3u_dir'] . '/*.m3u');
+    if ($files) {
+        sort($files); // Ensure deterministic order across different OS/Deployments
+    }
     $category_index = 1;
     $stream_index = 1;
 
@@ -84,7 +87,8 @@ function parseMoviesAndSeries()
 
         // Optimizations: Broaden 'xtream' detection to any file containing 'xtream' OR 'live'
         $is_xtream = (stripos($filename, 'xtream') !== false || stripos($filename, 'live') !== false);
-        $is_vod_file = (stripos($filename, 'vod.m3u') !== false);
+        $is_vod_file = (stripos($filename, 'vod') !== false || stripos($filename, 'movie') !== false);
+        $is_series_file = (stripos($filename, 'series') !== false);
 
         while (($line = fgets($handle)) !== false) {
             $line = trim($line);
@@ -108,25 +112,21 @@ function parseMoviesAndSeries()
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
                 // --- Classification Logic ---
+                // STRICT SEPARATION as requested:
+                // Live -> Live Only
+                // Series -> Series Only
+                // VOD -> Movies Only
                 if ($is_xtream) {
                     $is_vod = false;
                     $is_series = false;
+                } elseif ($is_series_file) {
+                    $is_series = true;
+                    $is_vod = false;
                 } elseif ($is_vod_file) {
-                    // Check Series keywords
-                    $group_lower = strtolower($current_group);
+                    $is_vod = true;
                     $is_series = false;
-                    foreach ($server_config['series_keywords'] as $kw) {
-                        if (strpos($group_lower, $kw) !== false) {
-                            $is_series = true;
-                            break;
-                        }
-                    }
-                    if (!$is_series) {
-                        $is_vod = true;
-                    }
                 } else {
-                    // Auto-Detect: DISABLED. Treat all other files as Live.
-                    // To enable VOD scanning for a file, rename it to include 'vod' or 'movies'.
+                    // Default for generic files (asia.m3u etc) -> Live
                     $is_vod = false;
                     $is_series = false;
                 }

@@ -10,6 +10,7 @@ require_once __DIR__ . '/../config.php';
 ob_start();
 
 // 1. Context Analysis
+header("Access-Control-Allow-Origin: *");
 $uri = $_SERVER['REQUEST_URI'];
 $parts = explode('/', trim($uri, '/'));
 
