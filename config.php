@@ -37,7 +37,7 @@ $users_db = [
     "finn" => ["password" => "finn123", "created_at" => 1704067200], // Example: Jan 1 2024
     "tabby" => ["password" => "tabby123", "created_at" => null],       // Dynamic (Always 1 year from now)
     "test" => ["password" => "test", "created_at" => null],
-    "admin" => ["password" => "admin", "created_at" => null]
+    "shoaibwwe01@gmail.com" => ["password" => "Fatima786@", "created_at" => null] // Admin Account
 ];
 
 // --- Data Store (InMemory) ---
@@ -73,17 +73,31 @@ function parseMoviesAndSeries()
 
     foreach ($files as $file) {
         $filename = basename($file);
-        $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+
+        $handle = fopen($file, "r");
+        if (!$handle)
+            continue;
+
         $current_group = "Uncategorized";
         $current_logo = "";
 
-        foreach ($lines as $line) {
+        // Optimizations
+        $is_xtream = (stripos($filename, 'xtream.m3u') !== false);
+        $is_vod_file = (stripos($filename, 'vod.m3u') !== false);
+
+        while (($line = fgets($handle)) !== false) {
+            $line = trim($line);
+            if (empty($line))
+                continue;
+
             if (strpos($line, '#EXTINF') === 0) {
                 // reset
                 $is_vod = false;
                 $is_series = false;
 
                 // Extract Attributes
+                // Optimize: Simple string parsing or keep regex if robust
                 preg_match('/group-title="([^"]*)"/', $line, $gMatch);
                 $current_group = $gMatch[1] ?? 'Uncategorized';
 
@@ -94,15 +108,13 @@ function parseMoviesAndSeries()
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
                 // --- Classification Logic ---
-                // Rule: xtream.m3u is ALWAYS Live.
-                // Rule: vod.m3u is ALWAYS VOD or Series.
-
-                if (stripos($filename, 'xtream.m3u') !== false) {
+                if ($is_xtream) {
                     $is_vod = false;
                     $is_series = false;
-                } elseif (stripos($filename, 'vod.m3u') !== false) {
+                } elseif ($is_vod_file) {
                     // Check Series keywords
                     $group_lower = strtolower($current_group);
+                    $is_series = false;
                     foreach ($server_config['series_keywords'] as $kw) {
                         if (strpos($group_lower, $kw) !== false) {
                             $is_series = true;
@@ -111,10 +123,11 @@ function parseMoviesAndSeries()
                     }
                     if (!$is_series) {
                         $is_vod = true;
-                    } // Default to VOD if not series
+                    }
                 } else {
-                    // Auto-Detect for other files
+                    // Auto-Detect
                     $group_lower = strtolower($current_group);
+                    $is_series = false;
                     foreach ($server_config['series_keywords'] as $kw) {
                         if (strpos($group_lower, $kw) !== false) {
                             $is_series = true;
@@ -135,10 +148,8 @@ function parseMoviesAndSeries()
                 $type = $is_series ? 'series' : ($is_vod ? 'movie' : 'live');
 
                 // --- Category ID Generation ---
-                // Use CRC32 hash of "Type_GroupName" to ensure unique, persistent Integer IDs
-                // strict prevention of ID collision between Live "Action" and Movie "Action"
                 $unique_group_str = ($type === 'live' ? 'L_' : ($type === 'movie' ? 'M_' : 'S_')) . $current_group;
-                $cat_id = sprintf("%u", crc32($unique_group_str)); // Unsigned integer
+                $cat_id = sprintf("%u", crc32($unique_group_str));
 
                 // Store metadata
                 $meta = [
@@ -156,7 +167,6 @@ function parseMoviesAndSeries()
                 $type = $meta['type'];
                 $cat_key = $meta['cat_id'];
 
-                // We use a temporary array to track unique categories to avoid duplication
                 if (!isset($cat_map[$type][$cat_key])) {
                     $cat_map[$type][$cat_key] = true;
 
@@ -203,6 +213,7 @@ function parseMoviesAndSeries()
                 $meta = []; // Clear pair
             }
         }
+        fclose($handle);
     }
 }
 

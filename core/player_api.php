@@ -11,7 +11,14 @@ require_once __DIR__ . '/../config.php';
 function json_out($data)
 {
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+    $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+
+    if ($json === false) {
+        // Fallback for encoding errors
+        echo json_encode(['error' => 'JSON Encoding Failed: ' . json_last_error_msg()]);
+    } else {
+        echo $json;
+    }
     exit;
 }
 
@@ -219,7 +226,7 @@ if ($action === '' || $action === 'get_panel_info') {
 
 } elseif ($action === 'get_stats') {
     // 10. Admin Stats
-    if ($username !== 'admin') {
+    if ($username !== 'shoaibwwe01@gmail.com') {
         json_out(['error' => 'Unauthorized']);
         return;
     }
@@ -234,7 +241,7 @@ if ($action === '' || $action === 'get_panel_info') {
 
 } elseif ($action === 'get_users') {
     // 11. Admin Users
-    if ($username !== 'admin') {
+    if ($username !== 'shoaibwwe01@gmail.com') {
         json_out(['error' => 'Unauthorized']);
         return;
     }
