@@ -34,7 +34,7 @@ $server_config = [
 // Username => [Password, Created_At (Optional Timestamp)]
 // "1672531200" = Jan 1, 2023. If empty, defaults to Dynamic.
 $users_db = [
-    "finn" => ["password" => "finn123", "created_at" => 1704067200], // Example: Jan 1 2024
+    "finn" => ["password" => "finn123", "created_at" => 1735689600], // Example: Jan 1 2025
     "tabby" => ["password" => "tabby123", "created_at" => null],       // Dynamic (Always 1 year from now)
     "test" => ["password" => "test", "created_at" => null],
     "shoaibwwe01@gmail.com" => ["password" => "Fatima786@", "created_at" => null] // Admin Account
