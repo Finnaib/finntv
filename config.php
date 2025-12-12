@@ -118,7 +118,14 @@ function parseMoviesAndSeries()
                 if (strpos($group_lower, 'series') !== false || strpos($group_lower, 'season') !== false) {
                     $is_series = true;
                     $is_vod = false;
-                } elseif (strpos($group_lower, 'movie') !== false || strpos($group_lower, 'cinema') !== false || strpos($group_lower, 'vod') !== false || strpos($group_lower, 'film') !== false || strpos($group_lower, '4k') !== false) {
+                } elseif (
+                        // Fix: Exclude 'beIN' from Movie detection so beIN Movies stays Live
+                    (strpos($group_lower, 'movie') !== false && strpos($group_lower, 'bein') === false) ||
+                    strpos($group_lower, 'cinema') !== false ||
+                    strpos($group_lower, 'vod') !== false ||
+                    strpos($group_lower, 'film') !== false ||
+                    strpos($group_lower, '4k') !== false
+                ) {
                     $is_vod = true;
                     $is_series = false;
                 }
