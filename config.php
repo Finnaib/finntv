@@ -112,11 +112,18 @@ function parseMoviesAndSeries()
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
                 // --- Classification Logic ---
-                // STRICT SEPARATION as requested:
-                // Live -> Live Only
-                // Series -> Series Only
-                // VOD -> Movies Only
-                if ($is_xtream) {
+                // 1. Content-Based Detection (Group Title Keywords)
+                // This overrides filename detection to ensure mixed files are split correctly.
+                $group_lower = strtolower($current_group);
+                if (strpos($group_lower, 'series') !== false || strpos($group_lower, 'season') !== false) {
+                    $is_series = true;
+                    $is_vod = false;
+                } elseif (strpos($group_lower, 'movie') !== false || strpos($group_lower, 'cinema') !== false || strpos($group_lower, 'vod') !== false || strpos($group_lower, 'film') !== false || strpos($group_lower, '4k') !== false) {
+                    $is_vod = true;
+                    $is_series = false;
+                }
+                // 2. File-Based Detection (Fallback)
+                elseif ($is_xtream) {
                     $is_vod = false;
                     $is_series = false;
                 } elseif ($is_series_file) {
@@ -127,6 +134,7 @@ function parseMoviesAndSeries()
                     $is_series = false;
                 } else {
                     // Default for generic files (asia.m3u etc) -> Live
+                    // But since we checked content above, this is truly just unrecognized Live content
                     $is_vod = false;
                     $is_series = false;
                 }
