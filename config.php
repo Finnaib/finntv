@@ -26,7 +26,7 @@ $server_config = [
     'series_keywords' => ['series', 'season', 'episode', 'show'],
 
     'base_url' => 'https://finntv.vercel.app/', // Change this to your VPS IP if using Docker!
-    'stream_mode' => 'proxy', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
+    'stream_mode' => 'redirect', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
 // --- Users Database ---
@@ -187,13 +187,20 @@ function parseMoviesAndSeries()
                 }
 
                 // --- Build Stream Object ---
+
+                // Detect Extension
+                $ext = 'ts'; // Default
+                if (preg_match('/\.([a-zA-Z0-9]{2,4})$/', $line, $eMatch)) {
+                    $ext = $eMatch[1];
+                }
+
                 $stream = [
                     'num' => $meta['id'],
                     'name' => $meta['name'],
                     'stream_id' => $meta['id'],
                     'stream_icon' => $meta['logo'],
                     'category_id' => (string) $meta['cat_id'],
-                    'container_extension' => ($type == 'live') ? 'ts' : 'mp4',
+                    'container_extension' => $ext,
                     'direct_source' => $line
                 ];
 
