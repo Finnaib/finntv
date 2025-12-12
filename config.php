@@ -125,23 +125,10 @@ function parseMoviesAndSeries()
                         $is_vod = true;
                     }
                 } else {
-                    // Auto-Detect
-                    $group_lower = strtolower($current_group);
+                    // Auto-Detect: DISABLED. Treat all other files as Live.
+                    // To enable VOD scanning for a file, rename it to include 'vod' or 'movies'.
+                    $is_vod = false;
                     $is_series = false;
-                    foreach ($server_config['series_keywords'] as $kw) {
-                        if (strpos($group_lower, $kw) !== false) {
-                            $is_series = true;
-                            break;
-                        }
-                    }
-                    if (!$is_series) {
-                        foreach ($server_config['vod_keywords'] as $kw) {
-                            if (strpos($group_lower, $kw) !== false) {
-                                $is_vod = true;
-                                break;
-                            }
-                        }
-                    }
                 }
 
                 // Determine Type
