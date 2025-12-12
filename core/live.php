@@ -26,33 +26,41 @@ $id_part = end($parts); // "1055.ts"
 $id = (int) filter_var($id_part, FILTER_SANITIZE_NUMBER_INT);
 $ext = pathinfo($id_part, PATHINFO_EXTENSION);
 
-// 2. Search for Stream
+// 2. Search for Stream (Optimized)
 $target_url = "";
 
-// Check Live
-foreach ($data['live_streams'] as $s) {
-    if ($s['num'] == $id) {
-        $target_url = $s['direct_source'];
-        break;
+// Try to load optimized ID Map (Fastest)
+$map_file = __DIR__ . '/../id_map.json';
+if (file_exists($map_file)) {
+    $id_map = json_decode(file_get_contents($map_file), true);
+    if (isset($id_map[$id])) {
+        $target_url = $id_map[$id];
     }
-}
-
-// Check VOD if not found
-if (!$target_url) {
-    foreach ($data['vod_streams'] as $s) {
+} else {
+    // Fallback to legacy linear search (Slow)
+    // Check Live
+    foreach ($data['live_streams'] as $s) {
         if ($s['num'] == $id) {
             $target_url = $s['direct_source'];
             break;
         }
     }
-}
-
-// Check Series if not found
-if (!$target_url) {
-    foreach ($data['series'] as $s) {
-        if ($s['num'] == $id) {
-            $target_url = $s['direct_source'];
-            break;
+    // Check VOD
+    if (!$target_url) {
+        foreach ($data['vod_streams'] as $s) {
+            if ($s['num'] == $id) {
+                $target_url = $s['direct_source'];
+                break;
+            }
+        }
+    }
+    // Check Series
+    if (!$target_url) {
+        foreach ($data['series'] as $s) {
+            if ($s['num'] == $id) {
+                $target_url = $s['direct_source'];
+                break;
+            }
         }
     }
 }

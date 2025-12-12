@@ -9,7 +9,8 @@
                     "m3u/**",
                     "core/**",
                     "config.php",
-                    "data.json"
+                    "data.json",
+                    "id_map.json"
                 ]
             }
         },
