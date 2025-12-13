@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const glob = require('glob');
+// const glob = require('glob'); // Not used, using fs.readdir
 
 // Since we don't want external dependencies if possible, we'll implement simple glob
 // or just readdir since we know the structure.
@@ -39,13 +39,13 @@ function parseM3uFiles() {
     }
 
     const files = fs.readdirSync(M3U_DIR).filter(f => f.endsWith('.m3u')).sort();
-    
+
     console.log(`Found ${files.length} M3U files.`);
 
     for (const file of files) {
         const fullPath = path.join(M3U_DIR, file);
         console.log(`Parsing ${file}...`);
-        
+
         const content = fs.readFileSync(fullPath, 'utf8');
         const lines = content.split(/\r?\n/);
 
@@ -67,7 +67,7 @@ function parseM3uFiles() {
                 // Parsing Attributes
                 const groupMatch = trimmed.match(/group-title="([^"]*)"/);
                 currentGroup = groupMatch ? groupMatch[1] : "Uncategorized";
-                
+
                 const logoMatch = trimmed.match(/tvg-logo="([^"]*)"/);
                 currentLogo = logoMatch ? logoMatch[1] : "";
 
@@ -79,7 +79,7 @@ function parseM3uFiles() {
                 let isSeries = false;
 
                 const groupLower = currentGroup.toLowerCase();
-                
+
                 if (groupLower.includes('series') || groupLower.includes('season')) {
                     isSeries = true;
                 } else if (
@@ -97,7 +97,7 @@ function parseM3uFiles() {
                 }
 
                 const type = isSeries ? 'series' : (isVod ? 'movie' : 'live');
-                
+
                 // CRC32ish for Cat ID (simple hash)
                 const uniqueGroupStr = (type === 'live' ? 'L_' : (type === 'movie' ? 'M_' : 'S_')) + currentGroup;
                 const catId = stringHash(uniqueGroupStr);
@@ -155,7 +155,7 @@ function parseM3uFiles() {
                     stream.cover = meta.logo;
                     data.series.push(stream);
                     // Series ID Map Logic (Optional, usually episode based handling)
-                    idMap[stream.num] = stream.direct_source; 
+                    idMap[stream.num] = stream.direct_source;
                 }
 
                 meta = null;
@@ -172,7 +172,7 @@ function parseM3uFiles() {
     console.log(`VOD: ${data.vod_streams.length}`);
     console.log(`Series: ${data.series.length}`);
 
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data)); 
+    fs.writeFileSync(DATA_FILE, JSON.stringify(data));
     fs.writeFileSync(ID_MAP_FILE, JSON.stringify(idMap));
     console.log(`Saved to ${DATA_FILE} and ${ID_MAP_FILE}`);
 }
