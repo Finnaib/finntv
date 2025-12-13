@@ -20,8 +20,9 @@ if ($json === false) {
     die("Error: JSON Encoding failed! " . json_last_error_msg() . "\n");
 }
 
-$bytes = file_put_contents('data.json', $json);
-echo "Saved data.json (" . round($bytes / 1024 / 1024, 2) . " MB)\n";
+// Write to data/ subdirectory (Writable by Docker)
+$bytes = file_put_contents(__DIR__ . '/data/data.json', $json);
+echo "Saved data/data.json (" . round($bytes / 1024 / 1024, 2) . " MB)\n";
 
 // --- Build ID Map ---
 echo "Building ID Map...\n";
@@ -37,7 +38,7 @@ foreach ($data['series'] as $s) { // Series often don't have direct_source here 
         $id_map[$s['num']] = $s['direct_source'];
 }
 
-file_put_contents('id_map.json', json_encode($id_map, JSON_UNESCAPED_SLASHES));
-echo "Saved id_map.json\n";
+file_put_contents(__DIR__ . '/data/id_map.json', json_encode($id_map, JSON_UNESCAPED_SLASHES));
+echo "Saved data/id_map.json\n";
 
 echo "Success.\n";

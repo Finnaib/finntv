@@ -32,7 +32,7 @@ $target_url = "";
 // file_put_contents(__DIR__ . '/../debug_live_log.txt', "Request: ID=$id, EXT=$ext\n", FILE_APPEND);
 
 // Try to load optimized ID Map (Fastest)
-$map_file = __DIR__ . '/../id_map.json';
+$map_file = __DIR__ . '/../data/id_map.json';
 if (file_exists($map_file)) {
     $id_map = json_decode(file_get_contents($map_file), true);
     if (isset($id_map[$id])) {
