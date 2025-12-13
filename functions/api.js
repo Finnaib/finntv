@@ -1,22 +1,23 @@
-const fs = require('fs');
 const path = require('path');
 
 // Load Data ONCE (Cold Start Optimization)
-// Netlify bundles this file if it's in the same directory (functions/data.json)
-const DATA_FILE = path.join(__dirname, 'data.json');
+// Load Data ONCE (Cold Start Optimization)
 let CACHED_DATA = null;
+let LOAD_ERROR = null;
 
 function loadData() {
     if (CACHED_DATA) return CACHED_DATA;
-    if (fs.existsSync(DATA_FILE)) {
-        try {
-            CACHED_DATA = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-            return CACHED_DATA;
-        } catch (e) {
-            console.error("Failed to load data.json", e);
-        }
+    try {
+        // Force Bundler to include it by using require
+        // Note: This file must exist at build time (created by build_data.js)
+        CACHED_DATA = require('./data.json');
+        return CACHED_DATA;
+    } catch (e) {
+        console.error("Failed to load data.json", e);
+        LOAD_ERROR = e.message;
+        // Fallback or empty
+        return { live_categories: [], live_streams: [], vod_categories: [], vod_streams: [], series: [], series_categories: [] };
     }
-    return { live_categories: [], live_streams: [], vod_categories: [], vod_streams: [], series: [], series_categories: [] };
 }
 
 // Users DB (Hardcoded matching PHP config)
@@ -107,7 +108,13 @@ exports.handler = async (event, context) => {
     let responseBody = {};
 
     if (!action || action === 'get_panel_info') {
-        responseBody = { user_info: userInfo, server_info: serverInfo };
+        responseBody = {
+            user_info: userInfo,
+            server_info: serverInfo
+        };
+        if (LOAD_ERROR) {
+            responseBody.debug_error = "Data Load Failed: " + LOAD_ERROR;
+        }
 
     } else if (action === 'get_live_categories') {
         responseBody = data.live_categories;
