@@ -1,20 +1,18 @@
-const fs = require('fs');
 const path = require('path');
 
-const ID_MAP_FILE = path.join(__dirname, 'id_map.json');
+// Load Map ONCE
 let ID_MAP = null;
 
 function loadMap() {
     if (ID_MAP) return ID_MAP;
-    if (fs.existsSync(ID_MAP_FILE)) {
-        try {
-            ID_MAP = JSON.parse(fs.readFileSync(ID_MAP_FILE, 'utf8'));
-            return ID_MAP;
-        } catch (e) {
-            console.error("Failed to load id_map.json", e);
-        }
+    try {
+        // Force Bundler to include it
+        ID_MAP = require('./id_map.json');
+        return ID_MAP;
+    } catch (e) {
+        console.error("Failed to load id_map.json", e);
+        return {};
     }
-    return {};
 }
 
 exports.handler = async (event, context) => {
