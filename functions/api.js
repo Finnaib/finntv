@@ -102,74 +102,82 @@ exports.handler = async (event, context) => {
         server_name: 'FinnTV Netlify'
     };
 
-    const data = loadData();
-
     // 5. Action Routing
     let responseBody = {};
 
     if (!action || action === 'get_panel_info') {
+        // Login does NOT need data.json (Huge Optimization)
         responseBody = {
             user_info: userInfo,
             server_info: serverInfo
         };
-        if (LOAD_ERROR) {
-            responseBody.debug_error = "Data Load Failed: " + LOAD_ERROR;
-        }
-
-    } else if (action === 'get_live_categories') {
-        responseBody = data.live_categories;
-
-    } else if (action === 'get_live_streams') {
-        const catId = params.category_id;
-        if (catId) {
-            responseBody = data.live_streams.filter(s => String(s.category_id) === String(catId));
-        } else {
-            responseBody = data.live_streams;
-        }
-
-    } else if (action === 'get_vod_categories') {
-        responseBody = data.vod_categories;
-
-    } else if (action === 'get_vod_streams') {
-        const catId = params.category_id;
-        if (catId) {
-            responseBody = data.vod_streams.filter(s => String(s.category_id) === String(catId));
-        } else {
-            responseBody = data.vod_streams.map(s => {
-                const copy = { ...s };
-                delete copy.stream_icon; // Optimization
-                return copy;
-            });
-        }
-    } else if (action === 'get_series_categories') {
-        responseBody = data.series_categories;
-
-    } else if (action === 'get_series') {
-        const catId = params.category_id;
-        let list = data.series;
-        if (catId) {
-            list = list.filter(s => String(s.category_id) === String(catId));
-        }
-        responseBody = list.map(s => ({
-            num: s.num,
-            name: s.name,
-            series_id: s.series_id,
-            cover: s.cover,
-            plot: '',
-            cast: '',
-            director: '',
-            genre: '',
-            releaseDate: '',
-            last_modified: String(Math.floor(Date.now() / 1000)),
-            rating: '5',
-            rating_5based: '5',
-            backdrop_path: [],
-            youtube_trailer: '',
-            episode_run_time: '0',
-            category_id: s.category_id
-        }));
     } else {
-        responseBody = []; // Unknown action return empty in stricter IPTV apps
+        // Only load massive data if we actually need it
+        const data = loadData();
+
+        if (LOAD_ERROR) {
+            return {
+                statusCode: 500,
+                headers,
+                body: JSON.stringify({ error: "Server Data Error", debug: LOAD_ERROR })
+            };
+        }
+
+        if (action === 'get_live_categories') {
+            responseBody = data.live_categories;
+
+        } else if (action === 'get_live_streams') {
+            const catId = params.category_id;
+            if (catId) {
+                responseBody = data.live_streams.filter(s => String(s.category_id) === String(catId));
+            } else {
+                responseBody = data.live_streams;
+            }
+
+        } else if (action === 'get_vod_categories') {
+            responseBody = data.vod_categories;
+
+        } else if (action === 'get_vod_streams') {
+            const catId = params.category_id;
+            if (catId) {
+                responseBody = data.vod_streams.filter(s => String(s.category_id) === String(catId));
+            } else {
+                responseBody = data.vod_streams.map(s => {
+                    const copy = { ...s };
+                    delete copy.stream_icon; // Optimization
+                    return copy;
+                });
+            }
+        } else if (action === 'get_series_categories') {
+            responseBody = data.series_categories;
+
+        } else if (action === 'get_series') {
+            const catId = params.category_id;
+            let list = data.series;
+            if (catId) {
+                list = list.filter(s => String(s.category_id) === String(catId));
+            }
+            responseBody = list.map(s => ({
+                num: s.num,
+                name: s.name,
+                series_id: s.series_id,
+                cover: s.cover,
+                plot: '',
+                cast: '',
+                director: '',
+                genre: '',
+                releaseDate: '',
+                last_modified: String(Math.floor(Date.now() / 1000)),
+                rating: '5',
+                rating_5based: '5',
+                backdrop_path: [],
+                youtube_trailer: '',
+                episode_run_time: '0',
+                category_id: s.category_id
+            }));
+        } else {
+            responseBody = [];
+        }
     }
 
     return {
