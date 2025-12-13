@@ -1,0 +1,28 @@
+[build]
+  command = "node scripts/build_data.js"
+  publish = "data"
+  functions = "functions"
+
+[[redirects]]
+  from = "/player_api.php"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/live/*"
+  to = "/.netlify/functions/live"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/movie/*"
+  to = "/.netlify/functions/live"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/series/*"
+  to = "/.netlify/functions/live"
+  status = 200
+  force = true
