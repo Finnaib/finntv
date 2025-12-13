@@ -155,10 +155,12 @@ header("Pragma: no-cache");
 header("Expires: 0");
 
 // 5. Content type hint for video
-if ($ext === 'ts') {
-    header("Content-Type: video/mp2t");
-} elseif ($ext === 'm3u8') {
+// Fix: Check TARGET content type, not just requested extension.
+// If target is m3u8, we MUST say it is m3u8, otherwise players like TiviMate fail.
+if (strpos($target_url, '.m3u8') !== false) {
     header("Content-Type: application/vnd.apple.mpegurl");
+} elseif ($ext === 'ts') {
+    header("Content-Type: video/mp2t");
 } else {
     header("Content-Type: video/mp4");
 }
