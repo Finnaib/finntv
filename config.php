@@ -111,8 +111,14 @@ function parseMoviesAndSeries()
 
         // Optimizations: Broaden 'xtream' detection to any file containing 'xtream' OR 'live'
         $is_xtream = (stripos($filename, 'xtream') !== false || stripos($filename, 'live') !== false);
-        $is_vod_file = (stripos($filename, 'vod') !== false || stripos($filename, 'movie') !== false);
-        $is_series_file = (stripos($filename, 'series') !== false);
+
+        // Strict File Detection
+        $strict_type = null;
+        if (strtolower($filename) === 'vod.m3u') {
+            $strict_type = 'movie';
+        } elseif (strtolower($filename) === 'series.m3u') {
+            $strict_type = 'series';
+        }
 
         while (($line = fgets($handle)) !== false) {
             $line = trim($line);
@@ -139,38 +145,37 @@ function parseMoviesAndSeries()
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
                 // --- Classification Logic ---
-                // 1. Content-Based Detection (Group Title Keywords)
-                // This overrides filename detection to ensure mixed files are split correctly.
-                $group_lower = strtolower($current_group);
-                if (strpos($group_lower, 'series') !== false || strpos($group_lower, 'season') !== false) {
-                    $is_series = true;
-                    $is_vod = false;
-                } elseif (
-                        // Fix: Exclude 'beIN' from Movie detection so beIN Movies stays Live
-                    (strpos($group_lower, 'movie') !== false && strpos($group_lower, 'bein') === false) ||
-                    strpos($group_lower, 'cinema') !== false ||
-                    strpos($group_lower, 'vod') !== false ||
-                    strpos($group_lower, 'film') !== false ||
-                    strpos($group_lower, '4k') !== false
-                ) {
-                    $is_vod = true;
-                    $is_series = false;
-                }
-                // 2. File-Based Detection (Fallback)
-                elseif ($is_xtream) {
-                    $is_vod = false;
-                    $is_series = false;
-                } elseif ($is_series_file) {
-                    $is_series = true;
-                    $is_vod = false;
-                } elseif ($is_vod_file) {
-                    $is_vod = true;
-                    $is_series = false;
+
+                if ($strict_type) {
+                    // Rule 0: Strict Filename Enforcement
+                    if ($strict_type === 'movie') {
+                        $is_vod = true;
+                        $is_series = false;
+                    } else {
+                        $is_series = true;
+                        $is_vod = false;
+                    }
                 } else {
-                    // Default for generic files (asia.m3u etc) -> Live
-                    // But since we checked content above, this is truly just unrecognized Live content
-                    $is_vod = false;
-                    $is_series = false;
+                    // 1. Content-Based Detection (Group Title Keywords)
+                    // Only applies to non-strict files (e.g. live.m3u, asia.m3u)
+                    $group_lower = strtolower($current_group);
+                    if (strpos($group_lower, 'series') !== false || strpos($group_lower, 'season') !== false) {
+                        $is_series = true;
+                        $is_vod = false;
+                    } elseif (
+                        (strpos($group_lower, 'movie') !== false && strpos($group_lower, 'bein') === false) ||
+                        strpos($group_lower, 'cinema') !== false ||
+                        strpos($group_lower, 'vod') !== false ||
+                        strpos($group_lower, 'film') !== false ||
+                        strpos($group_lower, '4k') !== false
+                    ) {
+                        $is_vod = true;
+                        $is_series = false;
+                    } else {
+                        // Default to Live
+                        $is_vod = false;
+                        $is_series = false;
+                    }
                 }
 
                 // Determine Type
