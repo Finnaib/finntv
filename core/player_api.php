@@ -120,16 +120,16 @@ if (!$is_auth) {
 
 // --- Define User Info Structure ---
 $user_info = [
-    'username' => $username,
-    'password' => $password,
+    'username' => (string) $username,
+    'password' => (string) $password,
     'message' => 'Login Successful',
-    'status' => 'Active',
     'auth' => 1,
-    'active_cons' => '0',
-    'max_connections' => '5',
-    'created_at' => (string) ($user_data['created_at'] ?? time()),
+    'status' => 'Active',
     'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
     'is_trial' => '0',
+    'active_cons' => '0',
+    'created_at' => (string) ($user_data['created_at'] ?? time()),
+    'max_connections' => '5',
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
@@ -140,7 +140,7 @@ $host = $p_parts['host'] ?? 'localhost';
 $port = $p_parts['port'] ?? ($scheme === 'https' ? '443' : '80');
 
 $server_info = [
-    'url' => $server_config['base_url'], // Full URL expected by some
+    'url' => $host, // Strict Hostname
     'port' => (string) $port,
     'https_port' => (string) ($scheme === 'https' ? $port : '443'),
     'server_protocol' => $scheme,
@@ -148,7 +148,8 @@ $server_info = [
     'timezone' => $server_config['timezone'],
     'timestamp_now' => time(),
     'time_now' => date("Y-m-d H:i:s", time()),
-    'process' => true
+    'process' => true,
+    'server_name' => $server_config['server_name'] ?? 'Xtream Server' // Required by some
 ];
 
 // --- Action Router ---
