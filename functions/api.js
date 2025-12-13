@@ -87,11 +87,14 @@ exports.handler = async (event, context) => {
 
     const host = event.headers.host || 'localhost';
     const proto = event.headers['x-forwarded-proto'] || 'http';
+
+    // Netlify is standard ports (80/443)
+    const port = proto === 'https' ? '443' : '80';
     const baseUrl = `${proto}://${host}/`;
 
     const serverInfo = {
         url: baseUrl,
-        port: '80', // Virtual
+        port: port, // Match the actual protocol
         https_port: '443',
         server_protocol: proto,
         rtmp_port: '88',

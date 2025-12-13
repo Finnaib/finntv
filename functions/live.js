@@ -47,12 +47,20 @@ exports.handler = async (event, context) => {
     }
 
     // 4. Redirect
+    const headersOut = { ...headers, 'Location': targetUrl };
+
+    // Hint Content-Type (Good for players before they follow redirect)
+    if (targetUrl.endsWith('.m3u8')) {
+        headersOut['Content-Type'] = 'application/vnd.apple.mpegurl';
+    } else if (targetUrl.endsWith('.ts')) {
+        headersOut['Content-Type'] = 'video/mp2t';
+    } else {
+        headersOut['Content-Type'] = 'video/mp4';
+    }
+
     return {
         statusCode: 302,
-        headers: {
-            ...headers,
-            'Location': targetUrl
-        },
+        headers: headersOut,
         body: ''
     };
 };
