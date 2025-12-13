@@ -29,6 +29,8 @@ $ext = pathinfo($id_part, PATHINFO_EXTENSION);
 // 2. Search for Stream (Optimized)
 $target_url = "";
 
+// file_put_contents(__DIR__ . '/../debug_live_log.txt', "Request: ID=$id, EXT=$ext\n", FILE_APPEND);
+
 // Try to load optimized ID Map (Fastest)
 $map_file = __DIR__ . '/../id_map.json';
 if (file_exists($map_file)) {
@@ -127,10 +129,10 @@ if (isset($server_config['stream_mode']) && $server_config['stream_mode'] === 'p
  */
 
 // Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
-if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
-    // Safest bet for generic upstream: Try replacing extension
-    $target_url = str_replace('.m3u8', '.ts', $target_url);
-}
+// if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
+// Safest bet for generic upstream: Try replacing extension
+// $target_url = str_replace('.m3u8', '.ts', $target_url);
+// }
 
 // Enhanced Headers for IPTV Pro and Smarters Compatibility
 // These players are strict about redirects and need proper headers
@@ -162,6 +164,7 @@ if ($ext === 'ts') {
 }
 
 // 6. Redirect
+// file_put_contents(__DIR__ . '/../debug_live_log.txt', "Redirecting to: $target_url\n", FILE_APPEND);
 header("Location: " . $target_url);
 exit;
 // End of file

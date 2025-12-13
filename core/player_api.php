@@ -21,16 +21,27 @@ require_once __DIR__ . '/../config.php';
 
 function json_out($data)
 {
+    // Debug Logging (Commented out)
+    // file_put_contents(__DIR__ . '/../debug_json_in.txt', print_r($data, true));
+
     // Clear any previous output (whitespace, warnings)
     if (ob_get_length())
         ob_clean();
 
+    // CORS Headers
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+    header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+
     header('Content-Type: application/json; charset=utf-8');
     $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
 
+    // file_put_contents(__DIR__ . '/../debug_json_out.txt', $json);
+
     if ($json === false) {
-        // Fallback for encoding errors
-        echo json_encode(['error' => 'JSON Encoding Failed: ' . json_last_error_msg()]);
+        $err = 'JSON Encoding Failed: ' . json_last_error_msg();
+        file_put_contents(__DIR__ . '/../debug_json_error.txt', $err);
+        echo json_encode(['error' => $err]);
     } else {
         echo $json;
     }

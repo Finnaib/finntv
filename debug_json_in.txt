@@ -1,0 +1,36 @@
+Array
+(
+    [user_info] => Array
+        (
+            [username] => finn
+            [password] => finn123
+            [status] => Active
+            [auth] => 1
+            [active_cons] => 0
+            [max_connections] => 5
+            [created_at] => 1765594925
+            [exp_date] => 1797130925
+            [is_trial] => 0
+            [allowed_output_formats] => Array
+                (
+                    [0] => m3u8
+                    [1] => ts
+                    [2] => rtmp
+                )
+
+        )
+
+    [server_info] => Array
+        (
+            [url] => http://localhost:8080/
+            [port] => 8080
+            [https_port] => 443
+            [server_protocol] => http
+            [rtmp_port] => 88
+            [timezone] => UTC
+            [timestamp_now] => 1765595187
+            [time_now] => 2025-12-13 03:06:27
+            [process] => 1
+        )
+
+)
