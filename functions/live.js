@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ID_MAP_FILE = path.resolve(__dirname, '../id_map.json');
+const ID_MAP_FILE = path.join(__dirname, 'id_map.json');
 let ID_MAP = null;
 
 function loadMap() {

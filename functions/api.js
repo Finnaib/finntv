@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Load Data ONCE (Cold Start Optimization)
-const DATA_FILE = path.resolve(__dirname, '../data/data.json');
+// Netlify bundles this file if it's in the same directory (functions/data.json)
+const DATA_FILE = path.join(__dirname, 'data.json');
 let CACHED_DATA = null;
 
 function loadData() {

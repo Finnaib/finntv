@@ -6,13 +6,18 @@ const path = require('path');
 // or just readdir since we know the structure.
 
 const M3U_DIR = path.join(__dirname, '../m3u');
+// Static Publish Dir
 const DATA_FILE = path.join(__dirname, '../data/data.json');
 const ID_MAP_FILE = path.join(__dirname, '../id_map.json');
 
-// Ensure data dir exists
-if (!fs.existsSync(path.dirname(DATA_FILE))) {
-    fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
-}
+// Function Bundled Dir (Critical for Netlify)
+const FUNC_DATA_FILE = path.join(__dirname, '../functions/data.json');
+const FUNC_ID_MAP_FILE = path.join(__dirname, '../functions/id_map.json');
+
+// Ensure dirs exist
+if (!fs.existsSync(path.dirname(DATA_FILE))) fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
+// Functions dir should exist from repo structure, but to be safe:
+if (!fs.existsSync(path.dirname(FUNC_DATA_FILE))) fs.mkdirSync(path.dirname(FUNC_DATA_FILE), { recursive: true });
 
 const data = {
     live_streams: [],
@@ -174,7 +179,12 @@ function parseM3uFiles() {
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(data));
     fs.writeFileSync(ID_MAP_FILE, JSON.stringify(idMap));
-    console.log(`Saved to ${DATA_FILE} and ${ID_MAP_FILE}`);
+
+    // Write copies for Functions (Bundling)
+    fs.writeFileSync(FUNC_DATA_FILE, JSON.stringify(data));
+    fs.writeFileSync(FUNC_ID_MAP_FILE, JSON.stringify(idMap));
+
+    console.log(`Saved to ${DATA_FILE} and ${FUNC_DATA_FILE}`);
 }
 
 // Simple Hash Function (DJB2 variant) for numeric ID
