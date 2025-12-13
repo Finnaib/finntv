@@ -4,7 +4,7 @@ $_SERVER['REQUEST_METHOD'] = 'GET';
 $_SERVER['HTTP_HOST'] = 'localhost';
 $_GET['username'] = 'finn';
 $_GET['password'] = 'finn123';
-$_GET['action'] = 'get_live_streams';
+$_GET['action'] = '';
 // $_GET['category_id'] = '...'; 
 
 // Define __DIR__ relative to where we run it

@@ -122,12 +122,13 @@ if (!$is_auth) {
 $user_info = [
     'username' => $username,
     'password' => $password,
+    'message' => 'Login Successful',
     'status' => 'Active',
     'auth' => 1,
-    'active_cons' => 0,
-    'max_connections' => 5, // Hardcoded Limit: 5 Devices
-    'created_at' => (string) $user_data['created_at'],
-    'exp_date' => (string) $user_data['exp_date'],
+    'active_cons' => '0',
+    'max_connections' => '5',
+    'created_at' => (string) ($user_data['created_at'] ?? time()),
+    'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
     'is_trial' => '0',
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
@@ -139,10 +140,7 @@ $host = $p_parts['host'] ?? 'localhost';
 $port = $p_parts['port'] ?? ($scheme === 'https' ? '443' : '80');
 
 $server_info = [
-    // 'url' => $host, // Some players expect just host here, others full URL. Standard is usually Host or URL with port.
-    // Xtream often sends just the host/ip in 'url' and port separately, OR full url.
-    // Let's stick to full URL but ensure ports match.
-    'url' => $server_config['base_url'],
+    'url' => $server_config['base_url'], // Full URL expected by some
     'port' => (string) $port,
     'https_port' => (string) ($scheme === 'https' ? $port : '443'),
     'server_protocol' => $scheme,
