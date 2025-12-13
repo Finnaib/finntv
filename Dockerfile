@@ -16,3 +16,8 @@ RUN mkdir -p data && chown -R www-data:www-data data && chmod -R 755 data
 
 # Expose port 80
 EXPOSE 80
+
+# Configure Apache to allow .htaccess
+RUN echo '<Directory /var/www/html/>' >> /etc/apache2/apache2.conf && \
+    echo '    AllowOverride All' >> /etc/apache2/apache2.conf && \
+    echo '</Directory>' >> /etc/apache2/apache2.conf
