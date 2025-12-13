@@ -28,6 +28,8 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         // Print keys to verify structure
         echo "Keys in first item: " . implode(", ", array_keys($first)) . "\n";
 
+        echo "container_extension: " . $first['container_extension'] . "\n";
+
         // Print tv_archive and added
         echo "tv_archive: " . $first['tv_archive'] . "\n";
         echo "added: " . $first['added'] . "\n";

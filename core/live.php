@@ -97,9 +97,11 @@ if (
  */
 if (isset($server_config['stream_mode']) && $server_config['stream_mode'] === 'proxy') {
     // Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
-    if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
-        $target_url = str_replace('.m3u8', '.ts', $target_url);
-    }
+    // Universal Logic: Rewrite HLS to TS if requested (and it looks like HLS)
+    // DISABLED: Upstream does not support .ts
+    // if ($ext === 'ts' && stripos($target_url, '.m3u8') !== false) {
+    //     $target_url = str_replace('.m3u8', '.ts', $target_url);
+    // }
 
     // Open Connection to Provider
     $fp = fopen($target_url, 'rb');
