@@ -11,6 +11,12 @@ if %errorlevel% neq 0 (
     pause
     exit /b %errorlevel%
 )
+)
+echo.
+
+echo [1.5/3] Organizing VOD and Series playlists...
+python m3u/organize_playlists.py
+
 echo.
 echo [2/3] Building data cache (Optimizing for Vercel)...
 php build_data.php
