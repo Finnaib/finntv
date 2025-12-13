@@ -103,20 +103,46 @@ if (isset($server_config['stream_mode']) && $server_config['stream_mode'] === 'p
     //     $target_url = str_replace('.m3u8', '.ts', $target_url);
     // }
 
-    // Open Connection to Provider
-    $fp = fopen($target_url, 'rb');
+    // Open Connection to Provider with User-Agent to bypass blocks
+    $opts = [
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: VLC/3.0.16 LibVLC/3.0.16\r\n" .
+                "Accept: */*\r\n" .
+                "Connection: close\r\n" .
+                "Icy-MetaData: 1\r\n" // Request metadata if supported
+        ]
+    ];
+    $context = stream_context_create($opts);
+
+    // Suppress warnings with @ and handle manually
+    $fp = @fopen($target_url, 'rb', false, $context);
+
     if (!$fp) {
+        $error = error_get_last();
+        // Log error for debugging (optional)
+        // file_put_contents(__DIR__ . '/../debug_error.log', "Stream Fail: " . $error['message'] . "\n", FILE_APPEND);
+
         http_response_code(502); // Bad Gateway
-        die("Error: Could not connect to stream provider.");
+        die("Error: Could not connect to stream provider. Provider might be blocking or offline.");
     }
 
-    // Forward Headers (Minimal)
-    header("Content-Type: video/mp2t"); // Assume MPEG-TS for Xtream
-    header("Access-Control-Allow-Origin: *");
+    // Forward Headers (Respected)
+    // We already set Access-Control-Allow-Origin globally, but good to reinforce
+    if (!headers_sent()) {
+        header("Content-Type: video/mp2t"); // Force TS content type for best compatibility
+        header("Access-Control-Allow-Origin: *");
+    }
 
-    // Pump Data
+    // Pump Data (Optimized Chunk Size)
+    // 8KB is standard, but 64KB might be better for high bitrate streams on VPS
+    $chunk_size = 8192;
+
     while (!feof($fp)) {
-        echo fread($fp, 8192); // 8KB chunks
+        echo fread($fp, $chunk_size);
+        // Flush buffer to prevent lag
+        if (ob_get_level() > 0)
+            ob_flush();
         flush();
     }
     fclose($fp);
