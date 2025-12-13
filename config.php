@@ -132,6 +132,9 @@ function parseMoviesAndSeries()
                 preg_match('/tvg-logo="([^"]*)"/', $line, $lMatch);
                 $current_logo = $lMatch[1] ?? '';
 
+                preg_match('/tvg-id="([^"]*)"/', $line, $idMatch);
+                $current_epg_id = $idMatch[1] ?? null;
+
                 preg_match('/,(.*)$/', $line, $nMatch);
                 $name = $nMatch[1] ?? 'Unknown Channel';
 
@@ -184,7 +187,8 @@ function parseMoviesAndSeries()
                     'logo' => $current_logo,
                     'group' => $current_group,
                     'type' => $type,
-                    'cat_id' => $cat_id
+                    'cat_id' => $cat_id,
+                    'epg_id' => $current_epg_id
                 ];
 
             } else if (strpos($line, 'http') === 0 && !empty($meta)) {
@@ -225,8 +229,17 @@ function parseMoviesAndSeries()
                     'stream_icon' => $meta['logo'],
                     'category_id' => (string) $meta['cat_id'],
                     'container_extension' => $ext,
-                    'direct_source' => $line
+
+                    'direct_source' => $line,
+                    'added' => (string) time(),
+                    'custom_sid' => null,
+                    'tv_archive' => 0,
+                    'tv_archive_duration' => 0
                 ];
+
+                if (!empty($meta['epg_id'])) {
+                    $stream['epg_channel_id'] = $meta['epg_id'];
+                }
 
                 // Add to specific arrays
                 if ($type == 'live') {
