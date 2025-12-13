@@ -22,4 +22,22 @@ if ($json === false) {
 
 $bytes = file_put_contents('data.json', $json);
 echo "Saved data.json (" . round($bytes / 1024 / 1024, 2) . " MB)\n";
+
+// --- Build ID Map ---
+echo "Building ID Map...\n";
+$id_map = [];
+foreach ($data['live_streams'] as $s) {
+    $id_map[$s['num']] = $s['direct_source'];
+}
+foreach ($data['vod_streams'] as $s) {
+    $id_map[$s['num']] = $s['direct_source'];
+}
+foreach ($data['series'] as $s) { // Series often don't have direct_source here but let's check structure
+    if (isset($s['direct_source']))
+        $id_map[$s['num']] = $s['direct_source'];
+}
+
+file_put_contents('id_map.json', json_encode($id_map, JSON_UNESCAPED_SLASHES));
+echo "Saved id_map.json\n";
+
 echo "Success.\n";

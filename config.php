@@ -53,10 +53,13 @@ $data = [
 ];
 
 // Optimization: Load pre-built data.json if available (Fast Mode)
-$json_path = __DIR__ . '/data.json';
+// Optimization: Load pre-built data.json if available (Fast Mode)
+$json_path = __DIR__ . '/data/data.json'; // Default: in data subdir
+if (!file_exists($json_path)) {
+    $json_path = __DIR__ . '/data.json'; // Fallback: in root
+}
 if (!file_exists($json_path) && isset($_SERVER['DOCUMENT_ROOT'])) {
-    // Fallback for some hosting envs
-    $json_path = $_SERVER['DOCUMENT_ROOT'] . '/data.json';
+    $json_path = $_SERVER['DOCUMENT_ROOT'] . '/data/data.json';
 }
 
 if (file_exists($json_path)) {
