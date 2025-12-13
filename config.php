@@ -232,14 +232,15 @@ function parseMoviesAndSeries()
 
                     'direct_source' => $line,
                     'added' => (string) time(),
-                    'custom_sid' => null,
+                    'custom_sid' => "",
                     'tv_archive' => 0,
-                    'tv_archive_duration' => 0
+                    'tv_archive_duration' => 0,
+                    'epg_channel_id' => $current_epg_id ?? ""
                 ];
 
-                if (!empty($meta['epg_id'])) {
-                    $stream['epg_channel_id'] = $meta['epg_id'];
-                }
+                // if (!empty($meta['epg_id'])) {
+                //    $stream['epg_channel_id'] = $meta['epg_id'];
+                // }
 
                 // Add to specific arrays
                 if ($type == 'live') {

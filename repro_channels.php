@@ -31,6 +31,7 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         // Print tv_archive and added
         echo "tv_archive: " . $first['tv_archive'] . "\n";
         echo "added: " . $first['added'] . "\n";
+        echo "epg_channel_id: " . ($first['epg_channel_id'] ?? "MISSING") . "\n";
 
         // Print category_id type and value
         echo "Category ID Type: " . gettype($first['category_id']) . " Value: " . $first['category_id'] . "\n";
