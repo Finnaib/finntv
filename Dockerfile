@@ -1,28 +1,18 @@
-FROM php:8.2-fpm
+FROM php:8.0-apache
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    curl \
-    libonig-dev \
-    libxml2-dev \
-    zip \
-    unzip
+# Install dependencies (if any)
+# Enable mod_rewrite for .htaccess support
+RUN a2enmod rewrite
 
-# Install extensions
-RUN docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath opcache
-
-# Optimize configuration
-RUN echo "opcache.memory_consumption=128" >> /usr/local/etc/php/conf.d/opcache-recommended.ini \
-    && echo "opcache.interned_strings_buffer=8" >> /usr/local/etc/php/conf.d/opcache-recommended.ini \
-    && echo "opcache.max_accelerated_files=4000" >> /usr/local/etc/php/conf.d/opcache-recommended.ini \
-    && echo "opcache.revalidate_freq=60" >> /usr/local/etc/php/conf.d/opcache-recommended.ini \
-    && echo "opcache.enable_cli=1" >> /usr/local/etc/php/conf.d/opcache-recommended.ini
+# Copy local code to the container image
+COPY . /var/www/html/
 
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy project (optional if binding volume)
-# COPY . /var/www/html
-
 # Permissions
-RUN chown -R www-data:www-data /var/www/html
+# Apache needs write access to data/ directory for cache generation
+RUN mkdir -p data && chown -R www-data:www-data data && chmod -R 755 data
+
+# Expose port 80
+EXPOSE 80
