@@ -9,7 +9,8 @@ You can run this on **any Linux server** (GCP, AWS, DigitalOcean, or your local 
 ## Installation Steps
 1.  **Upload Files**: Copy all files in the `xtream_server` folder to your server (e.g., `/opt/finntv`).
 2.  **Permission Check**: Ensure `config.php` and `m3u/` folder are readable.
-    - `chmod -R 755 .`
+    - Run: `chmod -R 777 data` (Essential for cache generation!)
+    - Run: `chmod -R 755 .`
 3.  **Start Server**:
     - Run: `docker-compose up -d --build`
 4.  **Verify**:
