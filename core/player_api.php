@@ -179,6 +179,11 @@ if ($action === '' || $action === 'get_panel_info') {
         // String-safe comparison
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
+
+        // Remove direct_source for TiviMate compatibility
+        // TiviMate builds stream URLs itself using the Xtream format
+        unset($s['direct_source']);
+
         $out[] = $s;
     }
     json_out($out);

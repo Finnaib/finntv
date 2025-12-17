@@ -15,23 +15,23 @@ NC='\033[0m' # No Color
 
 # Check if Docker is running
 echo "1. Checking Docker status..."
-if docker ps > /dev/null 2>&1; then
+if sudo docker ps > /dev/null 2>&1; then
     echo -e "${GREEN}✓ Docker is running${NC}"
 else
-    echo -e "${RED}✗ Docker is not running or you need sudo${NC}"
-    echo "Try: sudo docker ps"
+    echo -e "${RED}✗ Docker is not running${NC}"
     exit 1
 fi
 echo ""
 
 # Check if container is running
 echo "2. Checking xtream_server container..."
-if docker ps | grep -q xtream_server; then
-    echo -e "${GREEN}✓ Container 'xtream_server' is running${NC}"
-    docker ps | grep xtream_server
+CONTAINER_NAME=$(sudo docker ps --format '{{.Names}}' | grep -E 'xtream_server|finntv')
+if [ -n "$CONTAINER_NAME" ]; then
+    echo -e "${GREEN}✓ Container '$CONTAINER_NAME' is running${NC}"
+    sudo docker ps | grep -E 'xtream_server|finntv'
 else
-    echo -e "${RED}✗ Container 'xtream_server' is not running${NC}"
-    echo "Try: docker-compose up -d"
+    echo -e "${RED}✗ No xtream_server or finntv container is running${NC}"
+    echo "Try: sudo docker-compose up -d"
     exit 1
 fi
 echo ""
@@ -39,7 +39,7 @@ echo ""
 # Check container logs for errors
 echo "3. Checking recent container logs..."
 echo -e "${YELLOW}Last 10 log lines:${NC}"
-docker logs --tail 10 xtream_server
+sudo docker logs --tail 10 $CONTAINER_NAME
 echo ""
 
 # Check if port 80 is accessible
@@ -97,12 +97,12 @@ echo ""
 
 # Check data.json
 echo "7. Checking data.json file..."
-if docker exec xtream_server test -f /var/www/html/data/data.json; then
-    FILE_SIZE=$(docker exec xtream_server stat -f%z /var/www/html/data/data.json 2>/dev/null || docker exec xtream_server stat -c%s /var/www/html/data/data.json)
+if sudo docker exec $CONTAINER_NAME test -f /var/www/html/data/data.json; then
+    FILE_SIZE=$(sudo docker exec $CONTAINER_NAME stat -c%s /var/www/html/data/data.json 2>/dev/null)
     echo -e "${GREEN}✓ data.json exists (Size: $FILE_SIZE bytes)${NC}"
 else
     echo -e "${RED}✗ data.json not found${NC}"
-    echo "Run: docker exec xtream_server php /var/www/html/build_data.php"
+    echo "Run: sudo docker exec $CONTAINER_NAME php /var/www/html/build_data.php"
 fi
 echo ""
 
