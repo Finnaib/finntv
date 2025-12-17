@@ -156,26 +156,11 @@ function parseMoviesAndSeries()
                         $is_vod = false;
                     }
                 } else {
-                    // 1. Content-Based Detection (Group Title Keywords)
-                    // Only applies to non-strict files (e.g. live.m3u, asia.m3u)
-                    $group_lower = strtolower($current_group);
-                    if (strpos($group_lower, 'series') !== false || strpos($group_lower, 'season') !== false) {
-                        $is_series = true;
-                        $is_vod = false;
-                    } elseif (
-                        (strpos($group_lower, 'movie') !== false && strpos($group_lower, 'bein') === false) ||
-                        strpos($group_lower, 'cinema') !== false ||
-                        strpos($group_lower, 'vod') !== false ||
-                        strpos($group_lower, 'film') !== false ||
-                        strpos($group_lower, '4k') !== false
-                    ) {
-                        $is_vod = true;
-                        $is_series = false;
-                    } else {
-                        // Default to Live
-                        $is_vod = false;
-                        $is_series = false;
-                    }
+                    // For non-strict files (live.m3u, asia.m3u, sport.m3u, etc.)
+                    // ALWAYS treat as LIVE TV - ignore category keywords
+                    // This prevents channels like "beIN Movies" or "AMC电影台" from being classified as VOD
+                    $is_vod = false;
+                    $is_series = false;
                 }
 
                 // Determine Type
