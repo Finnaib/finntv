@@ -25,8 +25,9 @@ $server_config = [
     // Keywords to detect Series
     'series_keywords' => ['series', 'season', 'episode', 'show'],
 
-    // Dynamic Base URL Detection
-    'base_url' => ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . "/",
+    // Base URL - Use actual server IP for TiviMate compatibility
+    // TiviMate needs the real IP to build stream URLs
+    'base_url' => 'http://35.223.81.47/',
     'stream_mode' => 'proxy', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
@@ -38,7 +39,9 @@ $users_db = [
     "finn" => ["password" => "finn123", "created_at" => 1735689600], // Example: Jan 1 2025
     "tabby" => ["password" => "tabby123", "created_at" => null],       // Dynamic (Always 1 year from now)
     "test" => ["password" => "test", "created_at" => null],
-    "shoaibwwe01@gmail.com" => ["password" => "Fatima786@", "created_at" => null] // Admin Account
+    "shoaibwwe01@gmail.com" => ["password" => "Fatima786@", "created_at" => null], // Admin Account
+    "devz" => ["password" => "devz123", "created_at" => null],
+    "aayush787" => ["password" => "aayush@1091", "created_at" => null]
 ];
 
 // --- Data Store (InMemory) ---
