@@ -8480,7 +8480,7 @@ http://mhav1.com:80/live/ht2990/742579548/4238.ts
 #EXTINF:-1 tvg-id="" tvg-name="LBC 2 [LB]" tvg-logo="" group-title="Lebanon - لبنان",LBC 2 [LB]
 http://mhav1.com:80/live/ht2990/742579548/126662.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LBCI International [LB] " tvg-logo="" group-title="Lebanon - لبنان",LBCI International [LB]
+#EXTINF:-1 tvg-id="" tvg-name="LBCI International [LB] " tvg-logo="" group-title="Lebanon - لبنان",LBCI International [LB] 
 http://mhav1.com:80/live/ht2990/742579548/4618.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="LBC[LB]" tvg-logo="" group-title="Lebanon - لبنان",LBC[LB]
@@ -8804,7 +8804,7 @@ http://mhav1.com:80/live/ht2990/742579548/4610.ts
 #EXTINF:-1 tvg-id="" tvg-name="MBC VARIETY FHD" tvg-logo="" group-title="MBC ام بى سى",MBC VARIETY FHD
 http://mhav1.com:80/live/ht2990/742579548/32402.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC WANASH FHD " tvg-logo="" group-title="MBC ام بى سى",MBC WANASH FHD
+#EXTINF:-1 tvg-id="" tvg-name="MBC WANASH FHD " tvg-logo="" group-title="MBC ام بى سى",MBC WANASH FHD 
 http://mhav1.com:80/live/ht2990/742579548/32405.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC_DERAMA_FHD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/25.jpg" group-title="MBC ام بى سى",MBC_DERAMA_FHD
@@ -9029,7 +9029,7 @@ http://mhav1.com:80/live/ht2990/742579548/22843.ts
 #EXTINF:-1 tvg-id="" tvg-name="VIP Avengers" tvg-logo="" group-title="MH Stars ام اتش استارز",VIP Avengers
 http://mhav1.com:80/live/ht2990/742579548/47927.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="VIP Batman " tvg-logo="" group-title="MH Stars ام اتش استارز",VIP Batman
+#EXTINF:-1 tvg-id="" tvg-name="VIP Batman " tvg-logo="" group-title="MH Stars ام اتش استارز",VIP Batman 
 http://mhav1.com:80/live/ht2990/742579548/47926.ts
 
 
@@ -9164,7 +9164,7 @@ http://mhav1.com:80/live/ht2990/742579548/15741.ts
 #EXTINF:-1 tvg-id="" tvg-name="NETFLIX ACTION 2" tvg-logo="" group-title="NETFLIX Club نتفلكس",NETFLIX ACTION 2
 http://mhav1.com:80/live/ht2990/742579548/12262.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NETFLIX ACTION 2 SD " tvg-logo="" group-title="NETFLIX Club نتفلكس",NETFLIX ACTION 2 SD
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX ACTION 2 SD " tvg-logo="" group-title="NETFLIX Club نتفلكس",NETFLIX ACTION 2 SD 
 http://mhav1.com:80/live/ht2990/742579548/15742.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="NETFLIX ARABIC 1" tvg-logo="" group-title="NETFLIX Club نتفلكس",NETFLIX ARABIC 1
@@ -9602,6 +9602,9 @@ http://mhav1.com:80/live/ht2990/742579548/121522.ts
 
 ##### [News - اخبار] #####
 
+#EXTINF:-1 tvg-id="" tvg-name=" EuroNews [NEWS]" tvg-logo="" group-title="News - اخبار", EuroNews [NEWS]
+http://mhav1.com:80/live/ht2990/742579548/3587.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Aan [News]" tvg-logo="" group-title="News - اخبار",Al Aan [News]
 http://mhav1.com:80/live/ht2990/742579548/4719.ts
 
@@ -9670,9 +9673,6 @@ http://mhav1.com:80/live/ht2990/742579548/4048.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Elsharq TV [NEWS]" tvg-logo="" group-title="News - اخبار",Elsharq TV [NEWS]
 http://mhav1.com:80/live/ht2990/742579548/3932.ts
-
-#EXTINF:-1 tvg-id="" tvg-name=" EuroNews [NEWS]" tvg-logo="" group-title="News - اخبار", EuroNews [NEWS]
-http://mhav1.com:80/live/ht2990/742579548/3587.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FRANCE 24 [NEWS]" tvg-logo="" group-title="News - اخبار",FRANCE 24 [NEWS]
 http://mhav1.com:80/live/ht2990/742579548/3887.ts
@@ -9833,7 +9833,7 @@ http://mhav1.com:80/live/ht2990/742579548/123117.ts
 #EXTINF:-1 tvg-id="" tvg-name="V Sport 3 HD [NO]" tvg-logo="" group-title="Norway",V Sport 3 HD [NO]
 http://mhav1.com:80/live/ht2990/742579548/123118.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="VG TV HD " tvg-logo="" group-title="Norway",VG TV HD
+#EXTINF:-1 tvg-id="" tvg-name="VG TV HD " tvg-logo="" group-title="Norway",VG TV HD 
 http://mhav1.com:80/live/ht2990/742579548/123095.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Explore HD [NO]" tvg-logo="" group-title="Norway",Viasat Explore HD [NO]
@@ -10271,6 +10271,9 @@ http://mhav1.com:80/live/ht2990/742579548/4649.ts
 
 ##### [Pakistani] #####
 
+#EXTINF:-1 tvg-id="" tvg-name=" TORONTO 360 HD  [PK]" tvg-logo="" group-title="Pakistani", TORONTO 360 HD  [PK]
+http://mhav1.com:80/live/ht2990/742579548/121422.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="92 HD [PK]" tvg-logo="" group-title="Pakistani",92 HD [PK]
 http://mhav1.com:80/live/ht2990/742579548/121396.ts
 
@@ -10364,7 +10367,7 @@ http://mhav1.com:80/live/ht2990/742579548/121405.ts
 #EXTINF:-1 tvg-id="" tvg-name="Geo News [PK]" tvg-logo="" group-title="Pakistani",Geo News [PK]
 http://mhav1.com:80/live/ht2990/742579548/121380.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Geo Super " tvg-logo="" group-title="Pakistani",Geo Super
+#EXTINF:-1 tvg-id="" tvg-name="Geo Super " tvg-logo="" group-title="Pakistani",Geo Super 
 http://mhav1.com:80/live/ht2990/742579548/121406.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Geo TV [PK]" tvg-logo="" group-title="Pakistani",Geo TV [PK]
@@ -10442,7 +10445,7 @@ http://mhav1.com:80/live/ht2990/742579548/121404.ts
 #EXTINF:-1 tvg-id="" tvg-name="PTV News [PK]" tvg-logo="" group-title="Pakistani",PTV News [PK]
 http://mhav1.com:80/live/ht2990/742579548/121444.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Pakistani",PTV Sports HD
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Pakistani",PTV Sports HD 
 http://mhav1.com:80/live/ht2990/742579548/121403.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PTV World [PK]" tvg-logo="" group-title="Pakistani",PTV World [PK]
@@ -10474,9 +10477,6 @@ http://mhav1.com:80/live/ht2990/742579548/121431.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Pakistani",TEN Sports [PK]
 http://mhav1.com:80/live/ht2990/742579548/121449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name=" TORONTO 360 HD  [PK]" tvg-logo="" group-title="Pakistani", TORONTO 360 HD  [PK]
-http://mhav1.com:80/live/ht2990/742579548/121422.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV One [PK]" tvg-logo="" group-title="Pakistani",TV One [PK]
 http://mhav1.com:80/live/ht2990/742579548/121433.ts
@@ -12569,7 +12569,7 @@ http://mhav1.com:80/live/ht2990/742579548/15348.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid Horror" tvg-logo="" group-title="Shahid Club شاهد",Shahid Horror
 http://mhav1.com:80/live/ht2990/742579548/15355.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid Horror " tvg-logo="" group-title="Shahid Club شاهد",Shahid Horror
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Horror " tvg-logo="" group-title="Shahid Club شاهد",Shahid Horror 
 http://mhav1.com:80/live/ht2990/742579548/25721.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shahid Kids" tvg-logo="" group-title="Shahid Club شاهد",Shahid Kids
@@ -12586,6 +12586,12 @@ http://mhav1.com:80/live/ht2990/742579548/12273.ts
 
 
 ##### [Shahid Live شاهد لايف] #####
+
+#EXTINF:-1 tvg-id="" tvg-name=" MBC 5" tvg-logo="" group-title="Shahid Live شاهد لايف", MBC 5
+http://mhav1.com:80/live/ht2990/742579548/168135.ts
+
+#EXTINF:-1 tvg-id="" tvg-name=" MBC Persia" tvg-logo="" group-title="Shahid Live شاهد لايف", MBC Persia
+http://mhav1.com:80/live/ht2990/742579548/168132.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Aflam" tvg-logo="" group-title="Shahid Live شاهد لايف",Aflam
 http://mhav1.com:80/live/ht2990/742579548/168109.ts
@@ -12617,9 +12623,6 @@ http://mhav1.com:80/live/ht2990/742579548/168105.ts
 #EXTINF:-1 tvg-id="" tvg-name="MBC 4" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC 4
 http://mhav1.com:80/live/ht2990/742579548/168137.ts
 
-#EXTINF:-1 tvg-id="" tvg-name=" MBC 5" tvg-logo="" group-title="Shahid Live شاهد لايف", MBC 5
-http://mhav1.com:80/live/ht2990/742579548/168135.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Bollywood
 http://mhav1.com:80/live/ht2990/742579548/168133.ts
 
@@ -12634,9 +12637,6 @@ http://mhav1.com:80/live/ht2990/742579548/168142.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Masr2 1080" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Masr2 1080
 http://mhav1.com:80/live/ht2990/742579548/168092.ts
-
-#EXTINF:-1 tvg-id="" tvg-name=" MBC Persia" tvg-logo="" group-title="Shahid Live شاهد لايف", MBC Persia
-http://mhav1.com:80/live/ht2990/742579548/168132.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Plus Drama" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Plus Drama
 http://mhav1.com:80/live/ht2990/742579548/168138.ts
@@ -12869,7 +12869,7 @@ http://mhav1.com:80/live/ht2990/742579548/74194.ts
 
 ##### [Sudan - السودان] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="Al Shamalia [SD] " tvg-logo="" group-title="Sudan - السودان",Al Shamalia [SD]
+#EXTINF:-1 tvg-id="" tvg-name="Al Shamalia [SD] " tvg-logo="" group-title="Sudan - السودان",Al Shamalia [SD] 
 http://mhav1.com:80/live/ht2990/742579548/29344.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alzrga TV [SD]" tvg-logo="" group-title="Sudan - السودان",Alzrga TV [SD]
@@ -13580,6 +13580,12 @@ http://mhav1.com:80/live/ht2990/742579548/4593.ts
 
 ##### [Turkish] #####
 
+#EXTINF:-1 tvg-id="" tvg-name=" Kral Pop HD [TR]" tvg-logo="" group-title="Turkish", Kral Pop HD [TR]
+http://mhav1.com:80/live/ht2990/742579548/3927.ts
+
+#EXTINF:-1 tvg-id="" tvg-name=" Kral TV HD [TR]" tvg-logo="" group-title="Turkish", Kral TV HD [TR]
+http://mhav1.com:80/live/ht2990/742579548/4052.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="24 HD [TR]" tvg-logo="" group-title="Turkish",24 HD [TR]
 http://mhav1.com:80/live/ht2990/742579548/121163.ts
 
@@ -13808,12 +13814,6 @@ http://mhav1.com:80/live/ht2990/742579548/121108.ts
 #EXTINF:-1 tvg-id="" tvg-name="Koy TV  [TR]" tvg-logo="" group-title="Turkish",Koy TV  [TR]
 http://mhav1.com:80/live/ht2990/742579548/121186.ts
 
-#EXTINF:-1 tvg-id="" tvg-name=" Kral Pop HD [TR]" tvg-logo="" group-title="Turkish", Kral Pop HD [TR]
-http://mhav1.com:80/live/ht2990/742579548/3927.ts
-
-#EXTINF:-1 tvg-id="" tvg-name=" Kral TV HD [TR]" tvg-logo="" group-title="Turkish", Kral TV HD [TR]
-http://mhav1.com:80/live/ht2990/742579548/4052.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Krt TV HD [TR]" tvg-logo="" group-title="Turkish",Krt TV HD [TR]
 http://mhav1.com:80/live/ht2990/742579548/121129.ts
 
@@ -13829,7 +13829,7 @@ http://mhav1.com:80/live/ht2990/742579548/121109.ts
 #EXTINF:-1 tvg-id="" tvg-name="Mavi Karadeniz [TR]" tvg-logo="" group-title="Turkish",Mavi Karadeniz [TR]
 http://mhav1.com:80/live/ht2990/742579548/121110.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Meltem TV " tvg-logo="" group-title="Turkish",Meltem TV
+#EXTINF:-1 tvg-id="" tvg-name="Meltem TV " tvg-logo="" group-title="Turkish",Meltem TV 
 http://mhav1.com:80/live/ht2990/742579548/121142.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Minika Cocuk [TR]" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/cd6373e1045f15e3cb8f3b5afd4c7987.png" group-title="Turkish",Minika Cocuk [TR]
@@ -14237,7 +14237,7 @@ http://mhav1.com:80/live/ht2990/742579548/123411.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nicktoons |UK|" tvg-logo="" group-title="U K",Nicktoons |UK|
 http://mhav1.com:80/live/ht2990/742579548/123410.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PBS America |UK| " tvg-logo="" group-title="U K",PBS America |UK|
+#EXTINF:-1 tvg-id="" tvg-name="PBS America |UK| " tvg-logo="" group-title="U K",PBS America |UK| 
 http://mhav1.com:80/live/ht2990/742579548/123481.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PICK TV [UK]" tvg-logo="" group-title="U K",PICK TV [UK]
@@ -14441,6 +14441,9 @@ http://mhav1.com:80/live/ht2990/742579548/123405.ts
 
 ##### [U S A] #####
 
+#EXTINF:-1 tvg-id="" tvg-name=" BABY TV [US]" tvg-logo="" group-title="U S A", BABY TV [US]
+http://mhav1.com:80/live/ht2990/742579548/12381.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="30A TV [US]" tvg-logo="" group-title="U S A",30A TV [US]
 http://mhav1.com:80/live/ht2990/742579548/119393.ts
 
@@ -14479,9 +14482,6 @@ http://mhav1.com:80/live/ht2990/742579548/5008.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AWE  [US]" tvg-logo="" group-title="U S A",AWE  [US]
 http://mhav1.com:80/live/ht2990/742579548/68440.ts
-
-#EXTINF:-1 tvg-id="" tvg-name=" BABY TV [US]" tvg-logo="" group-title="U S A", BABY TV [US]
-http://mhav1.com:80/live/ht2990/742579548/12381.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="BBC America [US]" tvg-logo="" group-title="U S A",BBC America [US]
 http://mhav1.com:80/live/ht2990/742579548/12370.ts
@@ -14915,7 +14915,7 @@ http://mhav1.com:80/live/ht2990/742579548/51419.ts
 #EXTINF:-1 tvg-id="" tvg-name="USA WWE" tvg-logo="" group-title="WWE LIVE مصارعه",USA WWE
 http://mhav1.com:80/live/ht2990/742579548/51418.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="WWE Channel " tvg-logo="" group-title="WWE LIVE مصارعه",WWE Channel
+#EXTINF:-1 tvg-id="" tvg-name="WWE Channel " tvg-logo="" group-title="WWE LIVE مصارعه",WWE Channel 
 http://mhav1.com:80/live/ht2990/742579548/123270.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="WWE HD" tvg-logo="" group-title="WWE LIVE مصارعه",WWE HD
@@ -15425,7 +15425,7 @@ http://mhav1.com:80/live/ht2990/742579548/7053.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_2_H265" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN H-265 -8M",beIN_Sport_2_H265
 http://mhav1.com:80/live/ht2990/742579548/9384.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_3_H265  " tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN H-265 -8M",beIN_Sport_3_H265
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_3_H265  " tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN H-265 -8M",beIN_Sport_3_H265  
 http://mhav1.com:80/live/ht2990/742579548/9383.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_4_H265" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN H-265 -8M",beIN_Sport_4_H265
