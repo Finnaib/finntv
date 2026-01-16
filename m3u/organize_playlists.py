@@ -136,7 +136,10 @@ def main():
     save_m3u(new_vod, VOD_FILE)
     save_m3u(new_series, SERIES_FILE)
     
-    # 2. General Handling for All Other M3U Files (Sort and Format)
+    # 2. General Handling for All Other M3U Files (DISABLED)
+    # The user wants to manually manage other playlists like india.m3u
+    # So we skip reformatting them.
+    """
     print("\nProcessing other playlists...")
     for filename in os.listdir(BASE_DIR):
         if not filename.lower().endswith(".m3u"):
@@ -163,8 +166,9 @@ def main():
         # Save (This sorts and adds headers)
         save_m3u(entries, filepath, header=header_line)
         print(f"    Saved {filename}")
+    """
         
-    print("\nDone! All playlists organized.")
+    print("\nDone! VOD and Series organized. Other playlists left untouched.")
 
 if __name__ == "__main__":
     main()
