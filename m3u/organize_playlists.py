@@ -3,7 +3,6 @@ import os
 import shutil
 
 # Paths
-# Paths
 # Get the directory where this script is located (m3u/)
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # BASE_DIR is the same directory
@@ -11,7 +10,6 @@ BASE_DIR = SCRIPT_DIR
 
 VOD_FILE = os.path.join(BASE_DIR, "vod.m3u")
 SERIES_FILE = os.path.join(BASE_DIR, "series.m3u")
-ASIA_FILE = os.path.join(BASE_DIR, "asia.m3u")
 
 def parse_m3u(filepath):
     entries = []
@@ -67,14 +65,12 @@ def classify_entry(entry):
     if '/movie/' in url: return 'VOD'
     
     # Rule 2: Title Heuristics
-    # Series indicators: S01E01, S1 E1, Season 1, Temporada 1, Episode 1
     if re.search(r'(?i)S\d+\s*E\d+|Season\s*\d+|Temporada\s*\d+|Capitulo\s*\d+|Episode\s*\d+', title):
         return 'SERIES'
         
     # Rule 3: Playlist files acting as Series containers
     is_playlist = re.search(r'(?i)\.(m3u|m3u8)$', url)
     if is_playlist:
-        # Heuristic: M3U links in VOD/Series files are usually Series wrappers.
         return 'SERIES'
         
     # Rule 4: File extension
@@ -104,8 +100,6 @@ def save_m3u(entries, filepath, header="#EXTM3U"):
             f.write(f"{entry['url']}\n")
             f.write("\n") # Add spacing between entries
 
-# ... (imports and other functions remain same)
-
 def main():
     print("Reading playlists...")
     
@@ -128,9 +122,7 @@ def main():
             
     print(f"  Classified: {len(new_vod)} Movies, {len(new_series)} Series.")
     
-    # Backup VOD/Series
-    if os.path.exists(VOD_FILE): shutil.copy(VOD_FILE, VOD_FILE + ".bak")
-    if os.path.exists(SERIES_FILE): shutil.copy(SERIES_FILE, SERIES_FILE + ".bak")
+    # NO BACKUPS CREATED (User Request)
     
     print("  Saving organized vod.m3u and series.m3u...")
     save_m3u(new_vod, VOD_FILE)
