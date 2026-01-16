@@ -5138,9 +5138,6 @@ http://mhav1.com:80/live/ht2990/742579548/1885.ts
 #EXTINF:-1 tvg-id="" tvg-name="Bibel TV [DE]" tvg-logo="" group-title="Germany",Bibel TV [DE]
 http://mhav1.com:80/live/ht2990/742579548/3543.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Boomerang |DE|" tvg-logo="" group-title="Germany",Boomerang |DE|
-http://mhav1.com:80/live/ht2990/742579548/24396.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Cartoon Network HD  |DE|" tvg-logo="" group-title="Germany",Cartoon Network HD  |DE|
 http://mhav1.com:80/live/ht2990/742579548/24397.ts
 
@@ -5180,7 +5177,7 @@ http://mhav1.com:80/live/ht2990/742579548/23959.ts
 #EXTINF:-1 tvg-id="" tvg-name="History HD [DE]" tvg-logo="" group-title="Germany",History HD [DE]
 http://mhav1.com:80/live/ht2990/742579548/3528.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="KABEL 1 [DE]" tvg-logo="" group-title="Germany",KABEL 1 [DE]
+#EXTINF:-1 tvg-id="" tvg-name="KABEL [DE]" tvg-logo="" group-title="Germany",KABEL [DE]
 http://mhav1.com:80/live/ht2990/742579548/3551.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Kabel Eins Classics HD |DE|" tvg-logo="" group-title="Germany",Kabel Eins Classics HD |DE|
@@ -5215,6 +5212,9 @@ http://mhav1.com:80/live/ht2990/742579548/3285.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ORF 3 [DE]" tvg-logo="" group-title="Germany",ORF 3 [DE]
 http://mhav1.com:80/live/ht2990/742579548/3286.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="One HD |DE|" tvg-logo="" group-title="Germany",One HD |DE|
+http://mhav1.com:80/live/ht2990/742579548/24396.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PRO 7  [DE]" tvg-logo="" group-title="Germany",PRO 7  [DE]
 http://mhav1.com:80/live/ht2990/742579548/3735.ts
@@ -5332,12 +5332,6 @@ http://mhav1.com:80/live/ht2990/742579548/3293.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sky Select 6 [DE]" tvg-logo="" group-title="Germany",Sky Select 6 [DE]
 http://mhav1.com:80/live/ht2990/742579548/3294.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sky Select 7 [DE]" tvg-logo="" group-title="Germany",Sky Select 7 [DE]
-http://mhav1.com:80/live/ht2990/742579548/3295.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sky Select 8 [DE]" tvg-logo="" group-title="Germany",Sky Select 8 [DE]
-http://mhav1.com:80/live/ht2990/742579548/3296.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport 1 [DE]" tvg-logo="" group-title="Germany",Sky Sport 1 [DE]
 http://mhav1.com:80/live/ht2990/742579548/9274.ts
@@ -8534,6 +8528,9 @@ http://mhav1.com:80/live/ht2990/742579548/12175.ts
 #EXTINF:-1 tvg-id="" tvg-name="Libya TANASUH [AR]" tvg-logo="" group-title="Libya - ليبيا",Libya TANASUH [AR]
 http://mhav1.com:80/live/ht2990/742579548/12176.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Libya TV [AR]" tvg-logo="" group-title="Libya - ليبيا",Libya TV [AR]
+http://mhav1.com:80/live/ht2990/742579548/5123.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Libya_Sport 2 [AR]" tvg-logo="" group-title="Libya - ليبيا",Libya_Sport 2 [AR]
 http://mhav1.com:80/live/ht2990/742579548/32217.ts
 
@@ -8647,12 +8644,6 @@ http://mhav1.com:80/live/ht2990/742579548/4688.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[FR]_RMC_SPORT_HD1" tvg-logo="" group-title="Live Sport",[FR]_RMC_SPORT_HD1
 http://mhav1.com:80/live/ht2990/742579548/4686.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 1 | Event Only |" tvg-logo="" group-title="Live Sport",|US-Vip| MLS LIVE 1 | Event Only |
-http://mhav1.com:80/live/ht2990/742579548/111524.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 2 | Event Only |" tvg-logo="" group-title="Live Sport",|US-Vip| MLS LIVE 2 | Event Only |
-http://mhav1.com:80/live/ht2990/742579548/111525.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 3 | Event Only |" tvg-logo="" group-title="Live Sport",|US-Vip| MLS LIVE 3 | Event Only |
 http://mhav1.com:80/live/ht2990/742579548/673.ts
@@ -8956,9 +8947,6 @@ http://mhav1.com:80/live/ht2990/742579548/5376.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sultan Aflam" tvg-logo="" group-title="MH Club ام اتش ",Sultan Aflam
 http://mhav1.com:80/live/ht2990/742579548/30663.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TIME_AFLAM" tvg-logo="" group-title="MH Club ام اتش ",TIME_AFLAM
-http://mhav1.com:80/live/ht2990/742579548/10826.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="showtime 1" tvg-logo="" group-title="MH Club ام اتش ",showtime 1
 http://mhav1.com:80/live/ht2990/742579548/21573.ts
@@ -11600,9 +11588,6 @@ http://mhav1.com:80/live/ht2990/742579548/69926.ts
 #EXTINF:-1 tvg-id="" tvg-name="Rotana Aflam" tvg-logo="" group-title="Rotana - روتانا",Rotana Aflam
 http://mhav1.com:80/live/ht2990/742579548/2018.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Aflam 4K" tvg-logo="" group-title="Rotana - روتانا",Rotana Aflam 4K
-http://mhav1.com:80/live/ht2990/742579548/69918.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema EG 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/48.jpg" group-title="Rotana - روتانا",Rotana Cinema EG 4K
 http://mhav1.com:80/live/ht2990/742579548/69923.ts
 
@@ -12336,45 +12321,45 @@ http://mhav1.com:80/live/ht2990/742579548/189033.ts
 http://mhav1.com:80/live/ht2990/742579548/188834.ts
 
 
-##### [SHAHID الدورى الالمانى] #####
+##### [SHAHID VIP] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 1 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 1 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 1 HD
 http://mhav1.com:80/live/ht2990/742579548/242209.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 10 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 10 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 10 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 10 HD
 http://mhav1.com:80/live/ht2990/742579548/242218.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 11 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 11 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 11 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 11 HD
 http://mhav1.com:80/live/ht2990/742579548/242219.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 12 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 12 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 12 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 12 HD
 http://mhav1.com:80/live/ht2990/742579548/242220.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 2 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 2 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 2 HD
 http://mhav1.com:80/live/ht2990/742579548/242210.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 3 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 3 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 3 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 3 HD
 http://mhav1.com:80/live/ht2990/742579548/242211.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 4 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 4 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 4 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 4 HD
 http://mhav1.com:80/live/ht2990/742579548/242212.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 5 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 5 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 5 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 5 HD
 http://mhav1.com:80/live/ht2990/742579548/242213.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 6 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 6 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 6 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 6 HD
 http://mhav1.com:80/live/ht2990/742579548/242214.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 7 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 7 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 7 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 7 HD
 http://mhav1.com:80/live/ht2990/742579548/242215.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 8 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 8 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 8 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 8 HD
 http://mhav1.com:80/live/ht2990/742579548/242216.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 9 HD" tvg-logo="" group-title="SHAHID الدورى الالمانى",BUNDESLIGA 9 HD
+#EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 9 HD" tvg-logo="" group-title="SHAHID VIP",BUNDESLIGA 9 HD
 http://mhav1.com:80/live/ht2990/742579548/242217.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LIVE EVENT 2" tvg-logo="" group-title="SHAHID الدورى الالمانى",LIVE EVENT 2
+#EXTINF:-1 tvg-id="" tvg-name="LIVE EVENT" tvg-logo="" group-title="SHAHID VIP",LIVE EVENT
 http://mhav1.com:80/live/ht2990/742579548/242207.ts
 
 
@@ -12427,6 +12412,9 @@ http://mhav1.com:80/live/ht2990/742579548/170194.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:80/live/ht2990/742579548/243882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 4 TV" tvg-logo="" group-title="STC TV",Stc Sport 4 TV
+http://mhav1.com:80/live/ht2990/742579548/259480.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TRACE SPORT STARTS [GOBX]" tvg-logo="" group-title="STC TV",TRACE SPORT STARTS [GOBX]
 http://mhav1.com:80/live/ht2990/742579548/30541.ts
@@ -12721,9 +12709,6 @@ http://mhav1.com:80/live/ht2990/742579548/79414.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-logo="" group-title="Shahid Live شاهد لايف",Spacetoon
 http://mhav1.com:80/live/ht2990/742579548/168087.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Top  Chef Channel" tvg-logo="" group-title="Shahid Live شاهد لايف",Top  Chef Channel
-http://mhav1.com:80/live/ht2990/742579548/168117.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Wanasa" tvg-logo="" group-title="Shahid Live شاهد لايف",Wanasa
 http://mhav1.com:80/live/ht2990/742579548/168082.ts
@@ -14453,12 +14438,6 @@ http://mhav1.com:80/live/ht2990/742579548/123401.ts
 #EXTINF:-1 tvg-id="" tvg-name="|UK| Tiny Pop" tvg-logo="" group-title="U K",|UK| Tiny Pop
 http://mhav1.com:80/live/ht2990/742579548/123405.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="|UK| Viaplay Sports 1 HD 1080P" tvg-logo="" group-title="U K",|UK| Viaplay Sports 1 HD 1080P
-http://mhav1.com:80/live/ht2990/742579548/123419.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|UK| Viaplay Sports 2 HD 1080P" tvg-logo="" group-title="U K",|UK| Viaplay Sports 2 HD 1080P
-http://mhav1.com:80/live/ht2990/742579548/123418.ts
-
 
 ##### [U S A] #####
 
@@ -15495,78 +15474,78 @@ http://mhav1.com:80/live/ht2990/742579548/22994.ts
 http://mhav1.com:80/live/ht2990/742579548/22995.ts
 
 
-##### [beIN MAX بن ماكس] #####
+##### [beIN MAX كاس امم افريقيا ] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_1080p" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_1080p" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_1080p
 http://mhav1.com:80/live/ht2990/742579548/40807.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_H265
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_H265
 http://mhav1.com:80/live/ht2990/742579548/40811.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_HD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_HD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_HD
 http://mhav1.com:80/live/ht2990/742579548/3607.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Low" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Low" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_Low
 http://mhav1.com:80/live/ht2990/742579548/5952.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_SD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_SD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_SD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_SD
 http://mhav1.com:80/live/ht2990/742579548/5467.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Ultra_4K" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_Ultra_4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Ultra_4K" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_Ultra_4K
 http://mhav1.com:80/live/ht2990/742579548/83077.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_VEGA" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_1_VEGA
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_VEGA" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_1_VEGA
 http://mhav1.com:80/live/ht2990/742579548/40801.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_1080p" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_1080p" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_1080p
 http://mhav1.com:80/live/ht2990/742579548/40808.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_H265" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_H265
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_H265" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_H265
 http://mhav1.com:80/live/ht2990/742579548/40812.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_HD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_HD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_HD
 http://mhav1.com:80/live/ht2990/742579548/3608.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Low" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Low" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_Low
 http://mhav1.com:80/live/ht2990/742579548/5953.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_SD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_SD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_SD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_SD
 http://mhav1.com:80/live/ht2990/742579548/5468.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Ultra_4K" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_Ultra_4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Ultra_4K" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_Ultra_4K
 http://mhav1.com:80/live/ht2990/742579548/83078.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_VEGA" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_2_VEGA
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_VEGA" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_2_VEGA
 http://mhav1.com:80/live/ht2990/742579548/40802.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_1080p" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_3_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_1080p" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_3_1080p
 http://mhav1.com:80/live/ht2990/742579548/40809.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_3_HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_3_HD
 http://mhav1.com:80/live/ht2990/742579548/11213.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Low" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_3_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Low" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_3_Low
 http://mhav1.com:80/live/ht2990/742579548/40805.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_SD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_3_SD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_SD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_3_SD
 http://mhav1.com:80/live/ht2990/742579548/40815.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_VEGA" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_3_VEGA
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_VEGA" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_3_VEGA
 http://mhav1.com:80/live/ht2990/742579548/40803.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_1080p" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_4_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_1080p" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_4_1080p
 http://mhav1.com:80/live/ht2990/742579548/40810.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_4_HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_4_HD
 http://mhav1.com:80/live/ht2990/742579548/11214.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Low" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_4_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Low" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_4_Low
 http://mhav1.com:80/live/ht2990/742579548/40806.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_SD" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_4_SD
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_SD" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_4_SD
 http://mhav1.com:80/live/ht2990/742579548/40816.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_VEGA" tvg-logo="" group-title="beIN MAX بن ماكس",beIN_Max_4_VEGA
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_VEGA" tvg-logo="" group-title="beIN MAX كاس امم افريقيا ",beIN_Max_4_VEGA
 http://mhav1.com:80/live/ht2990/742579548/40804.ts
 
 
@@ -16735,64 +16714,4 @@ http://mhav1.com:80/live/ht2990/742579548/77956.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="" group-title="polish",Polsat Sport Premium 2
 http://mhav1.com:80/live/ht2990/742579548/77958.ts
-
-
-##### [كاس العرب] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="AD SPORT 1" tvg-logo="" group-title="كاس العرب",AD SPORT 1
-http://mhav1.com:80/live/ht2990/742579548/254221.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD SPORT 2" tvg-logo="" group-title="كاس العرب",AD SPORT 2
-http://mhav1.com:80/live/ht2990/742579548/254222.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 1 HD" tvg-logo="" group-title="كاس العرب",Alkass 1 HD
-http://mhav1.com:80/live/ht2990/742579548/254209.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 1 SD" tvg-logo="" group-title="كاس العرب",Alkass 1 SD
-http://mhav1.com:80/live/ht2990/742579548/254213.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 2 HD" tvg-logo="" group-title="كاس العرب",Alkass 2 HD
-http://mhav1.com:80/live/ht2990/742579548/254210.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 2 SD" tvg-logo="" group-title="كاس العرب",Alkass 2 SD
-http://mhav1.com:80/live/ht2990/742579548/254214.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 3 HD" tvg-logo="" group-title="كاس العرب",Alkass 3 HD
-http://mhav1.com:80/live/ht2990/742579548/254211.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 3 SD" tvg-logo="" group-title="كاس العرب",Alkass 3 SD
-http://mhav1.com:80/live/ht2990/742579548/254215.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 4 HD" tvg-logo="" group-title="كاس العرب",Alkass 4 HD
-http://mhav1.com:80/live/ht2990/742579548/254212.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass 4 SD" tvg-logo="" group-title="كاس العرب",Alkass 4 SD
-http://mhav1.com:80/live/ht2990/742579548/254216.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai Sports 1 HD" tvg-logo="" group-title="كاس العرب",Dubai Sports 1 HD
-http://mhav1.com:80/live/ht2990/742579548/254223.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai Sports 2 HD" tvg-logo="" group-title="كاس العرب",Dubai Sports 2 HD
-http://mhav1.com:80/live/ht2990/742579548/254224.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SHASHA SPORT 1HD" tvg-logo="" group-title="كاس العرب",SHASHA SPORT 1HD
-http://mhav1.com:80/live/ht2990/742579548/254225.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SHASHA SPORT 2HD" tvg-logo="" group-title="كاس العرب",SHASHA SPORT 2HD
-http://mhav1.com:80/live/ht2990/742579548/254226.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS HD" tvg-logo="" group-title="كاس العرب",beIN SPORTS HD
-http://mhav1.com:80/live/ht2990/742579548/254220.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS SD" tvg-logo="" group-title="كاس العرب",beIN SPORTS SD
-http://mhav1.com:80/live/ht2990/742579548/254585.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 HD" tvg-logo="" group-title="كاس العرب",beIN SPORTS XTRA 1 HD
-http://mhav1.com:80/live/ht2990/742579548/254217.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 HD" tvg-logo="" group-title="كاس العرب",beIN SPORTS XTRA 2 HD
-http://mhav1.com:80/live/ht2990/742579548/254218.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3 HD" tvg-logo="" group-title="كاس العرب",beIN SPORTS XTRA 3 HD
-http://mhav1.com:80/live/ht2990/742579548/254219.ts
 
