@@ -122,7 +122,9 @@ def main():
             
     print(f"  Classified: {len(new_vod)} Movies, {len(new_series)} Series.")
     
-    # NO BACKUPS CREATED (User Request)
+    # Backup VOD/Series
+    if os.path.exists(VOD_FILE): shutil.copy(VOD_FILE, VOD_FILE + ".bak")
+    if os.path.exists(SERIES_FILE): shutil.copy(SERIES_FILE, SERIES_FILE + ".bak")
     
     print("  Saving organized vod.m3u and series.m3u...")
     save_m3u(new_vod, VOD_FILE)
