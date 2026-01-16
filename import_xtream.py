@@ -106,12 +106,10 @@ def main():
     fetch_and_save("get_live_streams", "live.m3u", "live", live_cats)
     
     # 2. VOD
-    # print("Skipping VOD...")
-    # fetch_and_save("get_vod_streams", "vod.m3u", "vod", vod_cats)
+    fetch_and_save("get_vod_streams", "vod.m3u", "vod", vod_cats)
     
     # 3. SERIES
-    # print("Skipping Series...")
-    # fetch_and_save("get_series", "series.m3u", "series", series_cats)
+    fetch_and_save("get_series", "series.m3u", "series", series_cats)
     
     print("\nAll imports finished.")
 
