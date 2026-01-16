@@ -1,0 +1,83 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "api/*.php",
+            "use": "vercel-php@0.7.1",
+            "config": {
+                "includeFiles": [
+                    "m3u/**",
+                    "core/**",
+                    "config.php",
+                    "data.json",
+                    "id_map.json"
+                ]
+            }
+        },
+        {
+            "src": "*.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "id_map.json",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "m3u/*.m3u",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/m3u/(.*\\.m3u)",
+            "dest": "/m3u/$1",
+            "headers": {
+                "Content-Type": "application/x-mpegurl"
+            }
+        },
+        {
+            "src": "/player_api.php",
+            "dest": "/api/player_api.php"
+        },
+        {
+            "src": "/id_map.json",
+            "dest": "/id_map.json"
+        },
+        {
+            "src": "/get.php",
+            "dest": "/api/get.php"
+        },
+        {
+            "src": "/live/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/movie/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/series/(.*)",
+            "dest": "/api/live.php"
+        },
+        {
+            "src": "/panel_api.php",
+            "dest": "/api/panel_api.php"
+        },
+        {
+            "src": "/xmltv.php",
+            "dest": "/api/xmltv.php"
+        },
+        {
+            "src": "/user_portal.html",
+            "dest": "/user_portal.html"
+        },
+        {
+            "src": "/admin.html",
+            "dest": "/admin.html"
+        },
+        {
+            "src": "/",
+            "dest": "/index.html"
+        }
+    ]
+}

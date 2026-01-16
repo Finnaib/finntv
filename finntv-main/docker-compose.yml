@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: xtream_server
+    ports:
+      - "80:80"
+    volumes:
+      # Mount data directory to persist cache (and allow easy editing)
+      - ./data:/var/www/html/data
+    restart: always
