@@ -3,7 +3,12 @@ import os
 import shutil
 
 # Paths
-BASE_DIR = r"c:\Users\Administrator\Downloads\finntv.atwebpages.com (3)\xtream_server\m3u"
+# Paths
+# Get the directory where this script is located (m3u/)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# BASE_DIR is the same directory
+BASE_DIR = SCRIPT_DIR
+
 VOD_FILE = os.path.join(BASE_DIR, "vod.m3u")
 SERIES_FILE = os.path.join(BASE_DIR, "series.m3u")
 ASIA_FILE = os.path.join(BASE_DIR, "asia.m3u")

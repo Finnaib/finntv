@@ -18,7 +18,7 @@ python m3u/organize_playlists.py
 echo.
 
 echo [3/4] Building data cache (Optimizing for Vercel)...
-php build_data.php
+python build_data.py
 if %errorlevel% neq 0 (
     echo Error: Failed to build data cache!
     pause
