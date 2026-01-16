@@ -21,9 +21,27 @@
         {
             "src": "id_map.json",
             "use": "@vercel/static"
+        },
+        {
+            "src": "m3u/**",
+            "use": "@vercel/static"
         }
     ],
     "routes": [
+        {
+            "src": "/api/m3u.php",
+            "dest": "/api/m3u.php"
+        },
+        {
+            "src": "/m3u/(.*\\.m3u)",
+            "dest": "/m3u/$1",
+            "headers": {
+                "Content-Type": "application/x-mpegurl",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "GET, OPTIONS",
+                "Access-Control-Allow-Headers": "Content-Type"
+            }
+        },
         {
             "src": "/player_api.php",
             "dest": "/api/player_api.php"
