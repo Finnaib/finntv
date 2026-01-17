@@ -129,15 +129,20 @@ def main():
         return result
 
     # 1. LIVE
-    print("Parsing Live...")
-    live_files = [f for f in os.listdir(base_dir) if f.endswith(".m3u") and f not in ["vod.m3u", "series.m3u", "series_test.m3u"]]
+    print("Parsing Live (Strict: live.m3u only)...")
+    
+    # STRICT MODE: Only load live.m3u (from Xtream import), ignore custom files like asia.m3u
+    target_live = "live.m3u"
+    live_path = os.path.join(base_dir, target_live)
     
     all_live_cats = {}
-    for fname in live_files:
-        path = os.path.join(base_dir, fname)
-        streams, cats = parse_m3u_with_categories(path, 'live')
+    
+    if os.path.exists(live_path):
+        streams, cats = parse_m3u_with_categories(live_path, 'live')
         data['live_streams'].extend(streams)
         all_live_cats.update(cats)
+    else:
+        print(f"Warning: {target_live} not found. Live streams will be empty.")
     
     data['live_categories'] = format_categories(all_live_cats)
 
