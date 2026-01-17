@@ -8,6 +8,7 @@
                 "includeFiles": [
                     "m3u/**",
                     "core/**",
+                    "data/**",
                     "config.php",
                     "data.json",
                     "id_map.json"
