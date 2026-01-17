@@ -28,7 +28,7 @@ $server_config = [
     // Base URL - Use actual server IP for TiviMate compatibility
     // TiviMate needs the real IP to build stream URLs
     'base_url' => 'https://finntv.vercel.app/',
-    'stream_mode' => 'proxy', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
+    'stream_mode' => 'redirect', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
 // --- Users Database ---

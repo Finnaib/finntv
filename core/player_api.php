@@ -250,14 +250,45 @@ if ($action === '' || $action === 'get_panel_info') {
     json_out($out);
 
 } elseif ($action === 'get_series_info') {
-    // 8. Series Info (Episodes)
-    // Fake 1 Season / 1 Episode mapping
-    $id = $_GET['series_id'] ?? 0;
+    // 8. Series Info (Episodes) - PROXY TO UPSTREAM
+    $series_id = $_GET['series_id'] ?? 0;
 
+    // Load Upstream Credentials
+    $conf_file = __DIR__ . '/../xtream_config.json';
+    if (file_exists($conf_file)) {
+        $c = json_decode(file_get_contents($conf_file), true);
+        $u_host = $c['host'] ?? '';
+        $u_user = $c['username'] ?? '';
+        $u_pass = $c['password'] ?? '';
+
+        if ($u_host && $u_user && $u_pass) {
+            // Build Upstream URL
+            $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_series_info&series_id={$series_id}";
+
+            // Fetch from Upstream
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            $resp = curl_exec($ch);
+            curl_close($ch);
+
+            if ($resp) {
+                // Return upstream response directly
+                // We don't cache this as it's dynamic
+                header('Content-Type: application/json');
+                echo $resp;
+                exit;
+            }
+        }
+    }
+
+    // Fallback if upstream fails (Original Logic)
     // Find Series
     $found = null;
     foreach ($data['series'] as $s) {
-        if ($s['num'] == $id) {
+        if ($s['num'] == $series_id) {
             $found = $s;
             break;
         }
@@ -295,8 +326,35 @@ if ($action === '' || $action === 'get_panel_info') {
     ]);
 
 } elseif ($action === 'get_vod_info') {
-    // 9. VOD Info (Dummy)
+    // 9. VOD Info - PROXY TO UPSTREAM
     $vod_id = $_GET['vod_id'] ?? 0;
+
+    // Load Upstream Credentials
+    $conf_file = __DIR__ . '/../xtream_config.json';
+    if (file_exists($conf_file)) {
+        $c = json_decode(file_get_contents($conf_file), true);
+        $u_host = $c['host'] ?? '';
+        $u_user = $c['username'] ?? '';
+        $u_pass = $c['password'] ?? '';
+
+        if ($u_host && $u_user && $u_pass) {
+             $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_vod_info&vod_id={$vod_id}";
+             $ch = curl_init();
+             curl_setopt($ch, CURLOPT_URL, $url);
+             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+             $resp = curl_exec($ch);
+             curl_close($ch);
+             if ($resp) {
+                 header('Content-Type: application/json');
+                 echo $resp;
+                 exit;
+             }
+        }
+    }
+
+    // Fallback
     json_out([
         'info' => [
             'name' => 'Unknown Movie',
