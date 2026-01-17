@@ -2,122 +2,173 @@
 import os
 import json
 import re
+import zlib
 
-def parse_m3u(filepath):
+def crc32_id(string):
+    """Generates a positive integer ID from a string using CRC32."""
+    return str(zlib.crc32(string.encode('utf-8')) & 0xffffffff)
+
+def parse_m3u_with_categories(filepath, stream_type='live'):
     """
-    Parses an M3U file and returns a list of stream dictionaries.
-    Compatible with the PHP logic: extracts num (stream_id), name, logo, group, url.
+    Parses an M3U file and returns:
+    1. List of streams
+    2. Dictionary of categories {name: id}
     """
     streams = []
+    categories = {} # name -> id
+    
     if not os.path.exists(filepath):
-        return streams
+        return streams, categories
 
     with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
         lines = f.readlines()
 
     current_entry = {}
+    
+    # Track existing stream IDs to prevent duplicates if needed
+    
     for line in lines:
         line = line.strip()
         if not line: continue
+        
         if line.startswith("#EXTINF"):
-            # Example: #EXTINF:-1 tvg-id="" tvg-name="Movie Name" tvg-logo="..." group-title="Action",Movie Name
-            
-            # Reset current entry
             current_entry = {}
             
-            # Extract Name (last part after comma)
+            # 1. Extract Name
             try:
                 name_part = line.rsplit(',', 1)[1].strip()
                 current_entry['name'] = name_part
             except:
                 current_entry['name'] = "Unknown"
 
-            # Extract Logo
+            # 2. Extract Logo
             logo_match = re.search(r'tvg-logo="([^"]+)"', line)
             current_entry['stream_icon'] = logo_match.group(1) if logo_match else ""
 
-            # Extract Group
+            # 3. Extract Group (Category)
             group_match = re.search(r'group-title="([^"]+)"', line)
-            current_entry['category_id'] = group_match.group(1) if group_match else "Uncategorized" # Using name as ID for simplicity like php
+            group_name = group_match.group(1) if group_match else "Uncategorized"
+            current_entry['group_title'] = group_name # Temp storage
+
+            # 4. Generate Category ID (Numeric)
+            # Prefix with type to ensure unique IDs across types if needed, 
+            # though players usually query types separately.
+            failed_safe_group = f"{stream_type}_{group_name}"
+            cat_id = crc32_id(failed_safe_group)
             
-            # Extract tvg-name or tvg-id if needed, but primary Logic uses URL for ID in next step
+            # Add to categories dict
+            if group_name not in categories:
+                categories[group_name] = cat_id
             
+            current_entry['category_id'] = cat_id
+
         elif not line.startswith("#"):
-            # This is the URL
             if current_entry:
                 url = line
                 current_entry['direct_source'] = url
                 
                 # Extract Stream ID / Num from URL
-                # Formats: 
-                # .../live/user/pass/123.ts
-                # .../movie/user/pass/123.mp4
                 try:
-                    # Get the filename: 123.ts or 123.mp4
                     filename = url.split('/')[-1]
-                    # Remove extension to get ID
                     stream_id = filename.rsplit('.', 1)[0]
                     current_entry['num'] = stream_id
                     current_entry['stream_id'] = stream_id
                 except:
-                    current_entry['num'] = "0"
-                    current_entry['stream_id'] = "0"
+                    current_entry['num'] = crc32_id(url) # Fallback
+                    current_entry['stream_id'] = current_entry['num']
 
-                # Check container extension
+                # Extension
                 try:
                     current_entry['container_extension'] = filename.rsplit('.', 1)[1]
                 except:
                      current_entry['container_extension'] = "ts"
-
+                
+                # Default Properties
+                if stream_type == 'live':
+                     current_entry['stream_type'] = 'live'
+                     current_entry['epg_channel_id'] = ""
+                     current_entry['tv_archive'] = 0
+                     current_entry['tv_archive_duration'] = 0
+                elif stream_type == 'movie':
+                     current_entry['stream_type'] = 'movie'
+                     current_entry['rating'] = "5"
+                     current_entry['added'] = "1"
+                     current_entry['container_extension'] = "mp4" # Default for vod
+                elif stream_type == 'series':
+                     current_entry['cover'] = current_entry.get('stream_icon', '')
+                     current_entry['series_id'] = current_entry['num']
+                     
                 streams.append(current_entry)
-                current_entry = {} # Reset
+                current_entry = {} 
 
-    return streams
+    return streams, categories
 
 def main():
-    print("Building Data Cache (Python Version)...")
+    print("Building Data Cache (Python Improved)...")
     
     base_dir = "m3u"
     
-    # Initialize Data Structure
     data = {
         "live_streams": [],
+        "live_categories": [],
         "vod_streams": [],
-        "series": []
+        "vod_categories": [],
+        "series": [],
+        "series_categories": []
     }
+    
+    # --- Helper to format categories list ---
+    def format_categories(cat_dict):
+        result = []
+        for name, cid in cat_dict.items():
+            result.append({
+                "category_id": cid,
+                "category_name": name,
+                "parent_id": 0
+            })
+        return result
 
-    # 1. Parse LIVE streams (live.m3u + others)
+    # 1. LIVE
+    print("Parsing Live...")
     live_files = [f for f in os.listdir(base_dir) if f.endswith(".m3u") and f not in ["vod.m3u", "series.m3u", "series_test.m3u"]]
     
-    print(f"Parsing {len(live_files)} Live M3U files...")
+    all_live_cats = {}
     for fname in live_files:
         path = os.path.join(base_dir, fname)
-        streams = parse_m3u(path)
+        streams, cats = parse_m3u_with_categories(path, 'live')
         data['live_streams'].extend(streams)
+        all_live_cats.update(cats)
+    
+    data['live_categories'] = format_categories(all_live_cats)
 
-    # 2. Parse VOD
-    print("Parsing VOD (vod.m3u)...")
+    # 2. VOD
+    print("Parsing VOD...")
     vod_path = os.path.join(base_dir, "vod.m3u")
-    data['vod_streams'] = parse_m3u(vod_path)
+    if os.path.exists(vod_path):
+        streams, cats = parse_m3u_with_categories(vod_path, 'movie')
+        data['vod_streams'] = streams
+        data['vod_categories'] = format_categories(cats)
 
-    # 3. Parse Series
-    print("Parsing Series (series.m3u)...")
+    # 3. SERIES
+    print("Parsing Series...")
     series_path = os.path.join(base_dir, "series.m3u")
-    data['series'] = parse_m3u(series_path)
+    if os.path.exists(series_path):
+         streams, cats = parse_m3u_with_categories(series_path, 'series')
+         data['series'] = streams
+         data['series_categories'] = format_categories(cats)
 
     # Stats
     print("Stats:")
-    print(f"  Live:   {len(data['live_streams'])}")
-    print(f"  VOD:    {len(data['vod_streams'])}")
-    print(f"  Series: {len(data['series'])}")
+    print(f"  Live Streams: {len(data['live_streams'])} | Categories: {len(data['live_categories'])}")
+    print(f"  VOD Streams:  {len(data['vod_streams'])} | Categories: {len(data['vod_categories'])}")
+    print(f"  Series:       {len(data['series'])} | Categories: {len(data['series_categories'])}")
 
-    # Ensure output directory exists
+    # Save
     os.makedirs("data", exist_ok=True)
-
-    # Save data.json
     json_path = os.path.join("data", "data.json")
+    
     with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, separators=(',', ':')) # Minified
+        json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     
     size_mb = os.path.getsize(json_path) / (1024 * 1024)
     print(f"Saved data/data.json ({round(size_mb, 2)} MB)")
@@ -125,28 +176,17 @@ def main():
     # Build ID Map
     print("Building ID Map...")
     id_map = {}
-    
-    for s in data['live_streams']:
+    for s in data['live_streams'] + data['vod_streams'] + data['series']:
         if 'num' in s: id_map[str(s['num'])] = s.get('direct_source', '')
             
-    for s in data['vod_streams']:
-        if 'num' in s: id_map[str(s['num'])] = s.get('direct_source', '')
-            
-    for s in data['series']:
-        if 'num' in s: id_map[str(s['num'])] = s.get('direct_source', '')
-
-    # Save id_map.json (Root and Data dir for compatibility)
     id_map_path = "id_map.json"
     with open(id_map_path, 'w', encoding='utf-8') as f:
         json.dump(id_map, f, ensure_ascii=False, separators=(',', ':'))
         
-    # Also save copy in data/ for good measure if needed logic expects it there
+    import shutil
     shutil.copy(id_map_path, os.path.join("data", "id_map.json"))
         
-    print("Saved id_map.json")
     print("Success.")
-
-import shutil
 
 if __name__ == "__main__":
     main()
