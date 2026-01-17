@@ -27,7 +27,7 @@ $server_config = [
 
     // Base URL - Use actual server IP for TiviMate compatibility
     // TiviMate needs the real IP to build stream URLs
-    'base_url' => 'http://35.223.81.47/',
+    'base_url' => 'https://finntv.vercel.app/',
     'stream_mode' => 'proxy', // Options: 'redirect' (faster), 'proxy' (secure/hidden)
 ];
 
@@ -40,6 +40,11 @@ $users_db = [
     "tabby" => ["password" => "tabby123", "created_at" => null],       // Dynamic (Always 1 year from now)
     "test" => ["password" => "test", "created_at" => null],
     "shoaibwwe01@gmail.com" => ["password" => "Fatima786@", "created_at" => null], // Admin Account
+
+    // --- YOUR CUSTOM USER ---
+    // Change "myuser" and "mypassword" to whatever you want
+    "myuser" => ["password" => "mypassword", "created_at" => null],
+
     "devz" => ["password" => "devz123", "created_at" => null],
     "aayush787" => ["password" => "aayush@1091", "created_at" => null]
 ];

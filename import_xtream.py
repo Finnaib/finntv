@@ -7,10 +7,25 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def main():
     print("=== Xtream Codes Importer (API Mode) ===")
     
-    # Hardcoded credentials
-    host = "http://mhav1.com:80"
-    username = "ht2990"
-    password = "742579548"
+    # Load credentials from config file
+    import json
+    import os
+    
+    config_path = "xtream_config.json"
+    if not os.path.exists(config_path):
+        print(f"Error: {config_path} not found!")
+        return
+
+    with open(config_path, 'r') as f:
+        config = json.load(f)
+        
+    host = config.get("host", "")
+    username = config.get("username", "")
+    password = config.get("password", "")
+    
+    if not host or not username or not password:
+        print("Error: Missing host, username, or password in config!")
+        return
     
     base_api = f"{host}/player_api.php?username={username}&password={password}"
     
