@@ -34,22 +34,29 @@ def main():
     }
 
     def get_category_map(action):
-        print(f"Fetching categories: {action}...")
-        try:
-            url = f"{base_api}&action={action}"
-            r = requests.get(url, headers=headers, verify=False, timeout=30)
-            if r.status_code != 200: return {}
-            data = r.json()
-            # Map category_id -> category_name
-            mapping = {}
-            for cat in data:
-                cid = cat.get('category_id')
-                cname = cat.get('category_name', 'Unknown')
-                if cid:
-                    mapping[cid] = cname
-            return mapping
-        except:
-            return {}
+        for attempt in range(3):
+            try:
+                print(f"Fetching categories: {action} (Attempt {attempt+1})...")
+                url = f"{base_api}&action={action}"
+                r = requests.get(url, headers=headers, verify=False, timeout=60)
+                if r.status_code != 200: 
+                    time.sleep(2)
+                    continue
+                    
+                data = r.json()
+                # Map category_id -> category_name
+                mapping = {}
+                for cat in data:
+                    cid = cat.get('category_id')
+                    cname = cat.get('category_name', 'Unknown')
+                    if cid:
+                        mapping[cid] = cname
+                return mapping
+            except Exception as e:
+                print(f"  Error fetching categories: {e}")
+                time.sleep(2)
+        
+        return {}
 
     # Fetch maps first
     live_cats = get_category_map("get_live_categories")
@@ -89,7 +96,14 @@ def main():
                     
                     # Resolve Category Name
                     cat_id = item.get('category_id') # Some use category_id
-                    cat_name = cat_map.get(cat_id, "Uncategorized")
+                    
+                    if cat_id in cat_map:
+                        cat_name = cat_map[cat_id]
+                    elif cat_id:
+                        # Fallback to ID if name missing
+                        cat_name = f"Category {cat_id}"
+                    else:
+                        cat_name = "All Movies" if type_code == "vod" else "Uncategorized"
                     
                     # Add Visual Headers for new groups
                     if cat_name != current_group:
