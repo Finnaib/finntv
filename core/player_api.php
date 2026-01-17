@@ -201,17 +201,15 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimization: Reduce payload size to stay under Vercel's 4.5MB limit
+        // Optimization: Remove only the largest non-essential fields
         unset($s['direct_source']);
         unset($s['uniq_id']);
         unset($s['group_title']);
-        unset($s['stream_type']);
-        unset($s['rating']);
-        unset($s['added']);
 
-        // Smart Optimization: If requesting ALL streams, remove icons to prevent >4.5MB payload
+        // Smart Optimization: If requesting ALL streams, blank the icons to save ~3MB
+        // But keep the key so the player doesn't think the data is broken
         if (!$cat_id) {
-            unset($s['stream_icon']);
+            $s['stream_icon'] = "";
         }
 
         $out[] = $s;
@@ -236,9 +234,18 @@ if ($action === '' || $action === 'get_panel_info') {
             'num' => $s['num'],
             'name' => $s['name'],
             'series_id' => $s['num'],
-            'cover' => $cat_id ? $s['cover'] : '', // Strip cover if requesting ALL
+            'cover' => $cat_id ? ($s['cover'] ?? $s['stream_icon'] ?? "") : '',
+            'plot' => '',
+            'cast' => '',
+            'director' => '',
+            'genre' => '',
+            'releaseDate' => '',
             'last_modified' => (string) time(),
             'rating' => '5',
+            'rating_5based' => '5',
+            'backdrop_path' => [],
+            'youtube_trailer' => '',
+            'episode_run_time' => '0',
             'category_id' => $s['category_id']
         ];
     }
