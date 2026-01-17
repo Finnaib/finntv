@@ -34,7 +34,7 @@ function json_out($data)
     header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 
     header('Content-Type: application/json; charset=utf-8');
-    $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_IGNORE);
+    $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_INVALID_UTF8_IGNORE);
 
     // file_put_contents(__DIR__ . '/../debug_json_out.txt', $json);
 
@@ -201,14 +201,18 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimize: Always remove large internal fields
+        // Optimization: Reduce payload size to stay under Vercel's 4.5MB limit
         unset($s['direct_source']);
         unset($s['uniq_id']);
+        unset($s['group_title']);
+        unset($s['stream_type']);
+        unset($s['rating']);
+        unset($s['added']);
 
         // Smart Optimization: If requesting ALL streams, remove icons to prevent >4.5MB payload
-        // if (!$cat_id) {
-        //    unset($s['stream_icon']);
-        // }
+        if (!$cat_id) {
+            unset($s['stream_icon']);
+        }
 
         $out[] = $s;
     }
@@ -232,18 +236,9 @@ if ($action === '' || $action === 'get_panel_info') {
             'num' => $s['num'],
             'name' => $s['name'],
             'series_id' => $s['num'],
-            'cover' => $s['cover'],
-            'plot' => '',
-            'cast' => '',
-            'director' => '',
-            'genre' => '',
-            'releaseDate' => '',
+            'cover' => $cat_id ? $s['cover'] : '', // Strip cover if requesting ALL
             'last_modified' => (string) time(),
             'rating' => '5',
-            'rating_5based' => '5',
-            'backdrop_path' => [],
-            'youtube_trailer' => '',
-            'episode_run_time' => '0',
             'category_id' => $s['category_id']
         ];
     }
@@ -338,19 +333,19 @@ if ($action === '' || $action === 'get_panel_info') {
         $u_pass = $c['password'] ?? '';
 
         if ($u_host && $u_user && $u_pass) {
-             $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_vod_info&vod_id={$vod_id}";
-             $ch = curl_init();
-             curl_setopt($ch, CURLOPT_URL, $url);
-             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-             $resp = curl_exec($ch);
-             curl_close($ch);
-             if ($resp) {
-                 header('Content-Type: application/json');
-                 echo $resp;
-                 exit;
-             }
+            $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_vod_info&vod_id={$vod_id}";
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            $resp = curl_exec($ch);
+            curl_close($ch);
+            if ($resp) {
+                header('Content-Type: application/json');
+                echo $resp;
+                exit;
+            }
         }
     }
 
