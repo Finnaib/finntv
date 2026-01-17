@@ -3,6 +3,7 @@ import os
 import json
 import re
 import zlib
+import time
 
 def crc32_id(string):
     """Generates a positive integer ID from a string using CRC32."""
@@ -91,8 +92,8 @@ def parse_m3u_with_categories(filepath, stream_type='live'):
                      current_entry['tv_archive_duration'] = 0
                 elif stream_type == 'movie':
                      current_entry['stream_type'] = 'movie'
-                     current_entry['rating'] = "5"
-                     current_entry['added'] = "1"
+                     current_entry['rating'] = "5.0"
+                     current_entry['added'] = str(int(time.time()))
                      current_entry['container_extension'] = "mp4" # Default for vod
                 elif stream_type == 'series':
                      current_entry['cover'] = current_entry.get('stream_icon', '')
