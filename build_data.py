@@ -42,8 +42,8 @@ def parse_m3u_with_categories(filepath, stream_type='live'):
             except:
                 current_entry['name'] = "Unknown"
 
-            # 2. Extract Logo
-            logo_match = re.search(r'tvg-logo="([^"]+)"', line)
+            # 2. Extract Logo (Robust Regex)
+            logo_match = re.search(r'tvg-logo=["\']([^"\']*)["\']', line)
             current_entry['stream_icon'] = logo_match.group(1) if logo_match else ""
 
             # 3. Extract Group (Category)

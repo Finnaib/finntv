@@ -48,18 +48,29 @@ if (file_exists($map_file)) {
     if (isset($id_map[$map_key])) {
         $target_url = $id_map[$map_key];
     }
-} else {
-    // Fallback to legacy linear search (Slow)
-    // Select the correct list based on type
-    $search_list = [];
-    if ($type === 'live')
-        $search_list = $data['live_streams'];
-    elseif ($type === 'movie')
-        $search_list = $data['vod_streams'];
-    elseif ($type === 'series')
-        $search_list = $data['series'];
+}
 
-    foreach ($search_list as $s) {
+// 2.a Fallback Constructor for Movies and Series (Smart Constructor)
+// If not found in map, we build it directly using upstream host and credentials
+if (!$target_url && ($type === 'movie' || $type === 'series')) {
+    global $provider_config;
+    if (!empty($provider_config['host'])) {
+        $u_host = $provider_config['host'];
+        $u_user = $provider_config['username'];
+        $u_pass = $provider_config['password'];
+
+        $v_ext = $ext ? $ext : "mp4";
+        if ($type === 'movie') {
+            $target_url = "{$u_host}/movie/{$u_user}/{$u_pass}/{$id}.{$v_ext}";
+        } else {
+            $target_url = "{$u_host}/series/{$u_user}/{$u_pass}/{$id}.{$v_ext}";
+        }
+    }
+}
+
+// Fallback to legacy linear search (Slowest - only for Live if map fails)
+if (!$target_url && $type === 'live') {
+    foreach ($data['live_streams'] as $s) {
         if ($s['num'] == $id) {
             $target_url = $s['direct_source'];
             break;

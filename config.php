@@ -12,6 +12,19 @@ error_reporting(0);
 ini_set('display_errors', 0);
 // header("Access-Control-Allow-Origin: *"); // Moved to player_api.php
 
+// --- Provider Context (Loaded from xtream_config.json) ---
+$provider_config = [
+    'host' => '',
+    'username' => '',
+    'password' => ''
+];
+$cfg_p = __DIR__ . '/xtream_config.json';
+if (file_exists($cfg_p)) {
+    $c = json_decode(file_get_contents($cfg_p), true);
+    if ($c)
+        $provider_config = array_merge($provider_config, $c);
+}
+
 // --- Configuration ---
 
 $server_config = [

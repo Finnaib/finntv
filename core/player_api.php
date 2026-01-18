@@ -201,15 +201,18 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimization: Remove only the largest non-essential fields
+        // Optimization: Reduce payload size to stay under Vercel's 4.5MB limit
         unset($s['direct_source']);
         unset($s['uniq_id']);
         unset($s['group_title']);
 
-        // Smart Optimization: If requesting ALL streams, blank the icons to save ~3MB
-        // But keep the key so the player doesn't think the data is broken
+        // Strip extremely redundant fields in FULL SYNC (no cat_id requested)
+        // This is safe because players usually only need id, name, and icon for the main list
         if (!$cat_id) {
-            $s['stream_icon'] = "";
+            unset($s['container_extension']);
+            unset($s['rating']);
+            unset($s['added']);
+            unset($s['stream_type']);
         }
 
         $out[] = $s;
@@ -234,7 +237,7 @@ if ($action === '' || $action === 'get_panel_info') {
             'num' => $s['num'],
             'name' => $s['name'],
             'series_id' => $s['num'],
-            'cover' => $cat_id ? ($s['cover'] ?? $s['stream_icon'] ?? "") : '',
+            'cover' => $s['cover'] ?? $s['stream_icon'] ?? "",
             'plot' => '',
             'cast' => '',
             'director' => '',

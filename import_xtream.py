@@ -92,7 +92,9 @@ def main():
                 
                 for item in data:
                     name = item.get('name', 'Unknown')
-                    logo = item.get('stream_icon', '')
+                    
+                    # Improved Logo Extraction
+                    logo = item.get('stream_icon') or item.get('icon_url') or item.get('icon') or item.get('cover') or ""
                     
                     # Resolve Category Name
                     cat_id = item.get('category_id') # Some use category_id
