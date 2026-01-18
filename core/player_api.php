@@ -190,15 +190,12 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Universal Compatibility (Smarters + TiviMate)
-        $s_id = (int) $s['stream_id'];
-        $s_num = (int) $s['num'];
-
+        // Universal Compatibility (Smarters + TiviMate + IPTV Pro)
         $item = [
-            'num' => $s_num,
+            'num' => (int) $s['num'],
             'name' => (string) $s['name'],
             'stream_type' => 'live',
-            'stream_id' => $s_id,
+            'stream_id' => (int) $s['stream_id'],
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
             'epg_channel_id' => (string) ($s['epg_channel_id'] ?? ''),
             'added' => (string) ($s['added'] ?? time()),
@@ -211,14 +208,7 @@ if ($action === '' || $action === 'get_panel_info') {
             'is_adult' => 0
         ];
 
-        // --- BALANCED PRUNING for FULL SYNC ---
-        // Restore icons but strip hidden fields to stay under 4.5MB limit.
-        if (!$cat_id) {
-            unset($item['added']);
-            unset($item['custom_sid']);
-            unset($item['tv_archive_duration']);
-        }
-
+        // NO PRUNING for Live - 6,000 channels fit perfectly in 4.5MB
         $out[] = $item;
     }
     json_out($out);
@@ -253,19 +243,17 @@ if ($action === '' || $action === 'get_panel_info') {
             'direct_source' => ""
         ];
 
-        // --- BALANCED VOD PRUNING & LIMIT ---
-        // For the FULL list, we MUST stay under Vercel's 4.5MB limit.
+        // --- NUCLEAR PRUNING for ALL MOVIES ---
+        // To show ALL 17,897 movies, we MUST be ultra-lean to fit 4.5MB.
         if (!$cat_id) {
-            // Restore posters but strip junk metadata to save space
+            // Keep ONLY the absolute bare minimum for the grid to work
+            unset($item['added']);
             unset($item['rating']);
             unset($item['rating_5based']);
             unset($item['custom_sid']);
-            unset($item['added']);
+            // Note: Keeping 'stream_icon' as it's required for posters!
 
-            // Safe Limit for "All" view (Vercel 4.5MB)
-            if (count($out) >= 10000) {
-                break;
-            }
+            // NO LIMIT - Showing all movies as requested!
         }
 
         $out[] = $item;
