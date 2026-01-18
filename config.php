@@ -190,13 +190,7 @@ function parseMoviesAndSeries()
                 $unique_group_str = ($type === 'live' ? 'L_' : ($type === 'movie' ? 'M_' : 'S_')) . $current_group;
 
                 // --- Category ID Generation ---
-                static $cat_name_to_id = [];
-                static $next_cat_id = 1;
-
-                if (!isset($cat_name_to_id[$unique_group_str])) {
-                    $cat_name_to_id[$unique_group_str] = (string) $next_cat_id++;
-                }
-                $cat_id = $cat_name_to_id[$unique_group_str];
+                $cat_id = (string) sprintf("%u", crc32($unique_group_str));
 
                 // Store metadata
                 $meta = [

@@ -241,6 +241,7 @@ if ($action === '' || $action === 'get_panel_info') {
         $item = [
             'num' => (int) $s['num'],
             'name' => (string) $s['name'],
+            'stream_type' => 'movie',
             'stream_id' => (int) $s['stream_id'],
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
             'added' => (string) ($s['added'] ?? time()),
@@ -262,8 +263,8 @@ if ($action === '' || $action === 'get_panel_info') {
             unset($item['rating_5based']);
             unset($item['custom_sid']);
 
-            // Hard Limit for stability in "All" view
-            if (count($out) >= 16000) {
+            // Safe Limit for stability in "All" view (Vercel 4.5MB)
+            if (count($out) >= 18000) {
                 break;
             }
         }
