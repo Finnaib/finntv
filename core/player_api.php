@@ -208,9 +208,7 @@ if ($action === '' || $action === 'get_panel_info') {
         if (!$cat_id) {
             if ($count >= $max_full_sync)
                 break;
-            unset($s['added']);
             unset($s['rating']);
-            unset($s['num']); // Keep stream_id, it's more important
             $count++;
         }
 
