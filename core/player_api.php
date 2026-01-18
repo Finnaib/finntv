@@ -125,27 +125,32 @@ $user_info = [
     'message' => 'Login Successful',
     'auth' => 1,
     'status' => 'Active',
-    'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
-    'is_trial' => '0',
-    'active_cons' => '0',
-    'created_at' => (string) ($user_data['created_at'] ?? time()),
-    'max_connections' => '5',
+    'exp_date' => (int) ($user_data['exp_date'] ?? strtotime('+1 year')),
+    'is_trial' => 0,
+    'active_cons' => 0,
+    'created_at' => (int) ($user_data['created_at'] ?? time()),
+    'max_connections' => 5,
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
-// Detect Protocol, Host and Port dynamically from request
+// Detect Protocol, Host and Port dynamically
 $scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
-// Remove port from host if present
-if (strpos($host, ':') !== false) {
-    list($host, $port_from_host) = explode(':', $host);
-} else {
-    $port_from_host = ($scheme === 'https') ? '443' : '80';
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO'])) {
+    $scheme = $_SERVER['HTTP_X_FORWARDED_PROTO'];
 }
-$port = $_SERVER['SERVER_PORT'] ?? $port_from_host;
+
+// Extract hostname and port safely
+if (preg_match('/^([^:]+):(\d+)$/', $host, $matches)) {
+    $host_only = $matches[1];
+    $port = $matches[2];
+} else {
+    $host_only = $host;
+    $port = $_SERVER['SERVER_PORT'] ?? ($scheme === 'https' ? '443' : '80');
+}
 
 $server_info = [
-    'url' => (string) $host,
+    'url' => (string) $host_only,
     'port' => (string) $port,
     'https_port' => '443',
     'server_protocol' => (string) $scheme,
@@ -154,7 +159,7 @@ $server_info = [
     'timestamp_now' => time(),
     'time_now' => date("Y-m-d H:i:s"),
     'process' => true,
-    'server_name' => (string) ($server_config['server_name'] ?? 'Xtream Server')
+    'server_name' => (string) ($server_config['server_name'] ?? 'FinnTV')
 ];
 
 // --- Action Router ---
@@ -185,29 +190,36 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimization: Limit results in full sync to stay under Vercel's 4.5MB limit
-        if (!$cat_id && count($out) >= 5000) {
-            break;
-        }
+        // Universal Compatibility (Smarters + TiviMate)
+        $s_id = (int) $s['stream_id'];
+        $s_num = (int) $s['num'];
 
-        // TiviMate/IPTV Pro Compatibility: Ensure mandatory fields are present
-        // and IDs are integers for stricter parsers.
-        $out[] = [
-            'num' => (int) $s['num'],
+        $item = [
+            'num' => $s_num,
             'name' => (string) $s['name'],
             'stream_type' => 'live',
-            'stream_id' => (int) $s['stream_id'],
+            'stream_id' => $s_id,
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
             'epg_channel_id' => (string) ($s['epg_channel_id'] ?? ''),
             'added' => (string) ($s['added'] ?? time()),
             'category_id' => (string) $s['category_id'],
             'custom_sid' => (string) ($s['custom_sid'] ?? ""),
             'tv_archive' => (int) ($s['tv_archive'] ?? 0),
-            'direct_source' => null, // Explicit null for structure
+            'direct_source' => "",
             'tv_archive_duration' => (int) ($s['tv_archive_duration'] ?? 0),
             'thumbnail' => (string) ($s['stream_icon'] ?? ''),
             'is_adult' => 0
         ];
+
+        // Optimization: In FULL SYNC (no category_id), prune large fields
+        // to stay within Vercel's 4.5MB payload limit for the entire list.
+        if (!$cat_id) {
+            // Keep bare minimum to ensure all 6000+ items fit.
+            unset($item['thumbnail']);
+            unset($item['tv_archive_duration']);
+        }
+
+        $out[] = $item;
     }
     json_out($out);
 
@@ -225,13 +237,8 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimization: Stay under Vercel's limit
-        if (!$cat_id && count($out) >= 4000) {
-            break;
-        }
-
         // Compliance Fixes
-        $out[] = [
+        $item = [
             'num' => (int) $s['num'],
             'name' => (string) $s['name'],
             'stream_id' => (int) $s['stream_id'],
@@ -242,8 +249,15 @@ if ($action === '' || $action === 'get_panel_info') {
             'rating' => (string) ($s['rating'] ?? '5'),
             'rating_5based' => 5,
             'custom_sid' => (string) ($s['custom_sid'] ?? ""),
-            'direct_source' => ''
+            'direct_source' => ""
         ];
+
+        if (!$cat_id) {
+            unset($item['rating']);
+            unset($item['rating_5based']);
+        }
+
+        $out[] = $item;
     }
     json_out($out);
 
