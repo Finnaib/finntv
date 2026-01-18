@@ -94,7 +94,9 @@ def parse_m3u_with_categories(filepath, stream_type='live'):
                      current_entry['stream_type'] = 'movie'
                      current_entry['rating'] = "5.0"
                      current_entry['added'] = str(int(time.time()))
-                     current_entry['container_extension'] = "mp4" # Default for vod
+                     # DO NOT overwrite container_extension if already parsed
+                     if 'container_extension' not in current_entry:
+                         current_entry['container_extension'] = "mp4"
                 elif stream_type == 'series':
                      current_entry['cover'] = current_entry.get('stream_icon', '')
                      current_entry['series_id'] = current_entry['num']

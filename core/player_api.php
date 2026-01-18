@@ -208,7 +208,7 @@ if ($action === '' || $action === 'get_panel_info') {
 
         // Optimize FULL SYNC (no cat_id requested) to stay under Vercel's 4.5MB limit
         if (!$cat_id) {
-            unset($s['stream_id']); // Identical to 'num', saves ~0.4MB
+            unset($s['num']); // Redundant with 'stream_id'
             unset($s['added']);
             unset($s['rating']);
         }
