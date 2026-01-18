@@ -196,21 +196,22 @@ if ($action === '' || $action === 'get_panel_info') {
     // 5. VOD Streams
     $cat_id = $_GET['category_id'] ?? null;
     $out = [];
+    $count = 0;
+    $max_full_sync = 8000; // Safe limit for full sync to prevent crashes/timeouts
+
     foreach ($data['vod_streams'] as $s) {
-        // String-safe comparison
+        // Filter by category if requested
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Strip largest non-essential fields for ALL responses
-        unset($s['direct_source']);
-        unset($s['uniq_id']);
-        unset($s['group_title']);
-
-        // Optimize FULL SYNC (no cat_id requested) to stay under Vercel's 4.5MB limit
+        // Strip non-essential fields in FULL SYNC to stay under Vercel's limit
         if (!$cat_id) {
-            unset($s['num']); // Redundant with 'stream_id'
+            if ($count >= $max_full_sync)
+                break;
             unset($s['added']);
             unset($s['rating']);
+            unset($s['num']); // Keep stream_id, it's more important
+            $count++;
         }
 
         $out[] = $s;

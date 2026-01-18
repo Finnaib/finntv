@@ -101,7 +101,12 @@ def parse_m3u_with_categories(filepath, stream_type='live'):
                      current_entry['cover'] = current_entry.get('stream_icon', '')
                      current_entry['series_id'] = current_entry['num']
                      
-                streams.append(current_entry)
+                # Optimization: Don't store large/redundant fields in the main data.json list
+                # This saves MBs of file size and memory. 
+                # id_map.json will still have the URLs.
+                exclude = ['direct_source', 'group_title', 'uniq_id']
+                entry_copy = {k:v for k,v in current_entry.items() if k not in exclude}
+                streams.append(entry_copy)
                 current_entry = {} 
 
     return streams, categories
