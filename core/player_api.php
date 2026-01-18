@@ -180,11 +180,28 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Remove direct_source for TiviMate compatibility
-        // TiviMate builds stream URLs itself using the Xtream format
-        unset($s['direct_source']);
+        // Optimization: Limit results in full sync to stay under Vercel's 4.5MB limit
+        if (!$cat_id && count($out) >= 5000) {
+            break;
+        }
 
-        $out[] = $s;
+        // TiviMate/IPTV Pro Compatibility: Ensure mandatory fields are present
+        // and IDs are integers for stricter parsers.
+        $out[] = [
+            'num' => (int) $s['num'],
+            'name' => (string) $s['name'],
+            'stream_type' => 'live',
+            'stream_id' => (int) $s['stream_id'],
+            'stream_icon' => (string) ($s['stream_icon'] ?? ''),
+            'epg_channel_id' => (string) ($s['epg_channel_id'] ?? ''),
+            'added' => (string) ($s['added'] ?? time()),
+            'category_id' => (string) $s['category_id'],
+            'custom_sid' => (string) ($s['custom_sid'] ?? ""),
+            'tv_archive' => (int) ($s['tv_archive'] ?? 0),
+            'direct_source' => '', // Hide but keep field for structure
+            'tv_archive_duration' => (int) ($s['tv_archive_duration'] ?? 0),
+            'thumbnail' => (string) ($s['stream_icon'] ?? '')
+        ];
     }
     json_out($out);
 
@@ -196,23 +213,31 @@ if ($action === '' || $action === 'get_panel_info') {
     // 5. VOD Streams
     $cat_id = $_GET['category_id'] ?? null;
     $out = [];
-    $count = 0;
-    $max_full_sync = 8000; // Safe limit for full sync to prevent crashes/timeouts
 
     foreach ($data['vod_streams'] as $s) {
         // Filter by category if requested
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Strip non-essential fields in FULL SYNC to stay under Vercel's limit
-        if (!$cat_id) {
-            if ($count >= $max_full_sync)
-                break;
-            unset($s['rating']);
-            $count++;
+        // Optimization: Stay under Vercel's limit
+        if (!$cat_id && count($out) >= 4000) {
+            break;
         }
 
-        $out[] = $s;
+        // Compliance Fixes
+        $out[] = [
+            'num' => (int) $s['num'],
+            'name' => (string) $s['name'],
+            'stream_id' => (int) $s['stream_id'],
+            'stream_icon' => (string) ($s['stream_icon'] ?? ''),
+            'added' => (string) ($s['added'] ?? time()),
+            'category_id' => (string) $s['category_id'],
+            'container_extension' => (string) ($s['container_extension'] ?? 'mp4'),
+            'rating' => (string) ($s['rating'] ?? '5'),
+            'rating_5based' => 5,
+            'custom_sid' => (string) ($s['custom_sid'] ?? ""),
+            'direct_source' => ''
+        ];
     }
     json_out($out);
 
