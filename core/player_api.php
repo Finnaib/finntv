@@ -211,11 +211,9 @@ if ($action === '' || $action === 'get_panel_info') {
             'is_adult' => 0
         ];
 
-        // --- EXTREME PRUNING for FULL SYNC ---
-        // Strip icons/meta when loading ALL 5,000+ channels to stay under 4.5MB limit.
+        // --- BALANCED PRUNING for FULL SYNC ---
+        // Restore icons but strip hidden fields to stay under 4.5MB limit.
         if (!$cat_id) {
-            unset($item['stream_icon']);
-            unset($item['thumbnail']);
             unset($item['added']);
             unset($item['custom_sid']);
             unset($item['tv_archive_duration']);
@@ -254,13 +252,20 @@ if ($action === '' || $action === 'get_panel_info') {
             'direct_source' => ""
         ];
 
-        // --- EXTREME PRUNING for VOD FULL SYNC ---
-        // Strip info-heavy fields when loading all 17,897 movies.
+        // --- BALANCED VOD PRUNING & LIMIT ---
+        // For the FULL list, we MUST stay under Vercel's 4.5MB limit.
+        // 16,000 items * ~250 bytes = 4.0MB (Safe Buffer).
         if (!$cat_id) {
-            unset($item['stream_icon']);
+            // Restore icons so Smarters shows the movie posters!
+            unset($item['added']);
             unset($item['rating']);
             unset($item['rating_5based']);
             unset($item['custom_sid']);
+
+            // Hard Limit for stability in "All" view
+            if (count($out) >= 16000) {
+                break;
+            }
         }
 
         $out[] = $item;
