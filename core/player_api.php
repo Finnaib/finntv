@@ -125,11 +125,11 @@ $user_info = [
     'message' => 'Login Successful',
     'auth' => 1,
     'status' => 'Active',
-    'exp_date' => (int) ($user_data['exp_date'] ?? strtotime('+1 year')),
-    'is_trial' => 0,
-    'active_cons' => 0,
-    'created_at' => (int) ($user_data['created_at'] ?? time()),
-    'max_connections' => 5,
+    'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
+    'is_trial' => '0',
+    'active_cons' => '0',
+    'created_at' => (string) ($user_data['created_at'] ?? time()),
+    'max_connections' => '5',
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
@@ -171,15 +171,10 @@ if ($action !== '' && $action !== 'get_panel_info') {
 }
 
 if ($action === '' || $action === 'get_panel_info') {
-    // 1. Login / Handshake - Include Categories for content discovery
+    // 1. Login / Handshake - Standard Pure Xtream Format
     json_out([
         'user_info' => $user_info,
-        'server_info' => $server_info,
-        'categories' => [
-            'live' => $data['live_categories'],
-            'movie' => $data['vod_categories'],
-            'series' => $data['series_categories']
-        ]
+        'server_info' => $server_info
     ]);
 
 } elseif ($action === 'get_live_categories') {
@@ -237,10 +232,10 @@ if ($action === '' || $action === 'get_panel_info') {
             continue;
 
         // Compliance Fixes
+        // Compliance Fixes - Pure VOD Metadata
         $item = [
             'num' => (int) $s['num'],
             'name' => (string) $s['name'],
-            'stream_type' => 'movie',
             'stream_id' => (int) $s['stream_id'],
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
             'added' => (string) ($s['added'] ?? time()),
