@@ -4,20 +4,16 @@ echo   FinnTV - Auto Update and Deploy Tool
 echo ==============================================
 echo.
 
-echo [1/4] Fetching latest playlists ^& categories...
+echo [1/3] Syncing with Provider (M3U Import)...
 python import_xtream.py
 if %errorlevel% neq 0 (
-    echo Error: Failed to update playlists!
+    echo Error: Failed to fetch data from provider!
     pause
     exit /b %errorlevel%
 )
 echo.
 
-echo [2/4] Organizing VOD and Series playlists...
-python m3u/organize_playlists.py
-echo.
-
-echo [3/4] Building data cache (Optimizing for Vercel)...
+echo [2/3] Building Optimized Data Cache ^& ID Map...
 python build_data.py
 if %errorlevel% neq 0 (
     echo Error: Failed to build data cache!
@@ -39,7 +35,7 @@ if /i "%deploy%" neq "Y" (
 )
 
 echo.
-echo [4/4] Committing and pushing to GitHub...
+echo [3/3] Committing and pushing to GitHub...
 echo.
 
 REM Get current date and time for commit message
