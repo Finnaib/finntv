@@ -14,22 +14,23 @@ header("Access-Control-Allow-Origin: *");
 $uri = $_SERVER['REQUEST_URI'];
 $parts = explode('/', trim(parse_url($uri, PHP_URL_PATH), '/'));
 
-// Expected Structure: 
-// /live/user/pass/id.ts
-// /movie/user/pass/id.mp4
-// /series/user/pass/id.mp4
-
-// Detect Type from URI path
-$type = "live"; // Default
-if (in_array('movie', $parts))
-    $type = "movie";
-if (in_array('series', $parts))
-    $type = "series";
+// Detect Type from Query Param OR URI path
+$type = $_GET['type'] ?? "live"; // Priority to query param from vercel.json
+if ($type === "live") {
+    if (in_array('movie', $parts))
+        $type = "movie";
+    if (in_array('series', $parts))
+        $type = "series";
+}
 
 $id_part = end($parts); // "1055.ts" or "1055.ts?token=..."
 // Robust ID extraction: get everything before the first dot or question mark
 $id = 0;
-if (preg_match('/^(\d+)/', $id_part, $matches)) {
+// Strip extension and query if present in the last part
+$leaf = explode('?', $id_part)[0];
+$leaf = explode('.', $leaf)[0];
+
+if (preg_match('/^(\d+)/', $leaf, $matches)) {
     $id = $matches[1];
 }
 
@@ -47,6 +48,11 @@ if (file_exists($map_file)) {
     $id_map = json_decode(file_get_contents($map_file), true);
     if (isset($id_map[$map_key])) {
         $target_url = $id_map[$map_key];
+    } else {
+        // Legacy Fallback: Try without prefix if prefixed lookup fails
+        if (isset($id_map[$id])) {
+            $target_url = $id_map[$id];
+        }
     }
 }
 

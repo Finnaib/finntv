@@ -57,15 +57,15 @@
         },
         {
             "src": "/live/(.*)",
-            "dest": "/api/live.php"
+            "dest": "/api/live.php?type=live"
         },
         {
             "src": "/movie/(.*)",
-            "dest": "/api/live.php"
+            "dest": "/api/live.php?type=movie"
         },
         {
             "src": "/series/(.*)",
-            "dest": "/api/live.php"
+            "dest": "/api/live.php?type=series"
         },
         {
             "src": "/panel_api.php",
