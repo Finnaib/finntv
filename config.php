@@ -10,6 +10,7 @@
 // Basic Security & Headers
 error_reporting(0);
 ini_set('display_errors', 0);
+ini_set('memory_limit', '256M'); // Increase for 23,000+ items
 // header("Access-Control-Allow-Origin: *"); // Moved to player_api.php
 
 // --- Provider Context (Loaded from xtream_config.json) ---
@@ -190,8 +191,12 @@ function parseMoviesAndSeries()
                 $unique_group_str = ($type === 'live' ? 'L_' : ($type === 'movie' ? 'M_' : 'S_')) . $current_group;
 
                 // --- Category ID Generation ---
-                $cat_id = (string) sprintf("%u", crc32($unique_group_str));
-
+                static $cat_map_gen = []; // Renamed to avoid conflict with $cat_map for tracking added categories
+                static $cat_next = 1;
+                if (!isset($cat_map_gen[$unique_group_str])) {
+                    $cat_map_gen[$unique_group_str] = (string) ($cat_next++);
+                }
+                $cat_id = $cat_map_gen[$unique_group_str];
                 // Store metadata
                 $meta = [
                     'id' => $stream_index++,

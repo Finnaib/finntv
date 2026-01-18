@@ -8,7 +8,7 @@ def crc32_id(string):
     """Generates a positive integer ID from a string using CRC32."""
     return str(zlib.crc32(string.encode('utf-8')) & 0xffffffff)
 
-def parse_m3u(filepath, stream_type='live', id_map=None):
+def parse_m3u(filepath, stream_type='live', id_map=None, cat_counter=None):
     """
     Parses an M3U file and returns:
     1. List of streams (optimized)
@@ -18,6 +18,7 @@ def parse_m3u(filepath, stream_type='live', id_map=None):
     categories = {} # name -> id
     
     if id_map is None: id_map = {}
+    if cat_counter is None: cat_counter = [1] # Mutable counter
 
     if not os.path.exists(filepath):
         return streams, categories
@@ -48,16 +49,14 @@ def parse_m3u(filepath, stream_type='live', id_map=None):
             # 3. Extract Group (Category)
             group_match = re.search(r'group-title="([^"]+)"', line)
             group_name = group_match.group(1) if group_match else "Uncategorized"
-            current_entry['group_title'] = group_name
-
-            # 4. Generate Category ID
-            failed_safe_group = f"{stream_type}_{group_name}"
-            cat_id = crc32_id(failed_safe_group)
             
+            # 4. Generate Category ID (Safe Incremental Integer)
             if group_name not in categories:
-                categories[group_name] = cat_id
+                categories[group_name] = str(cat_counter[0])
+                cat_counter[0] += 1
             
-            current_entry['category_id'] = cat_id
+            current_entry['category_id'] = categories[group_name]
+            current_entry['group_title'] = group_name
 
         elif not line.startswith("#"):
             if current_entry:
@@ -68,10 +67,14 @@ def parse_m3u(filepath, stream_type='live', id_map=None):
                 try:
                     filename = url.split('/')[-1]
                     stream_id = filename.rsplit('.', 1)[0]
+                    # Ensure it's a numeric ID, or fallback to CRC
+                    if not stream_id.isdigit():
+                        raise ValueError
                     current_entry['num'] = stream_id
                     current_entry['stream_id'] = stream_id
                 except:
-                    current_entry['num'] = crc32_id(url)
+                    # Fallback to a safe positive ID
+                    current_entry['num'] = str(zlib.crc32(url.encode()) & 0x7fffffff)
                     current_entry['stream_id'] = current_entry['num']
 
                 # Extension
@@ -88,18 +91,16 @@ def parse_m3u(filepath, stream_type='live', id_map=None):
                      current_entry['stream_type'] = 'movie'
                      current_entry['rating'] = "5.0"
                      current_entry['added'] = str(int(time.time()))
-                     if 'container_extension' not in current_entry:
-                         current_entry['container_extension'] = "mp4"
                 elif stream_type == 'series':
                      current_entry['cover'] = current_entry.get('stream_icon', '')
                      current_entry['series_id'] = current_entry['num']
                      
-                # POPULATE ID MAP while we have full data
+                # POPULATE ID MAP
                 cid = current_entry['num']
                 id_map[str(cid)] = url
                 id_map[f"{stream_type}_{cid}"] = url
 
-                # Optimization: Strip fields for data.json
+                # Optimization: Strip fields for data.json (Vercel payload limits)
                 exclude = ['direct_source', 'group_title', 'uniq_id']
                 entry_copy = {k:v for k,v in current_entry.items() if k not in exclude}
                 streams.append(entry_copy)
@@ -108,7 +109,7 @@ def parse_m3u(filepath, stream_type='live', id_map=None):
     return streams, categories
 
 def main():
-    print("Building Data Cache (Python Improved)...")
+    print("Building Data Cache (Definitive Fix: Small IDs)...")
     base_dir = "m3u"
     
     data = {
@@ -117,6 +118,7 @@ def main():
         'series': [], 'series_categories': []
     }
     id_map = {}
+    cat_counter = [1] # Shared across files
 
     def format_categories(cat_dict):
         return [{"category_id": cid, "category_name": name, "parent_id": 0} 
@@ -126,7 +128,7 @@ def main():
     print("Parsing Live...")
     live_path = os.path.join(base_dir, "live.m3u")
     if os.path.exists(live_path):
-        s, c = parse_m3u(live_path, 'live', id_map)
+        s, c = parse_m3u(live_path, 'live', id_map, cat_counter)
         data['live_streams'] = s
         data['live_categories'] = format_categories(c)
 
@@ -134,7 +136,7 @@ def main():
     print("Parsing VOD...")
     vod_path = os.path.join(base_dir, "vod.m3u")
     if os.path.exists(vod_path):
-        s, c = parse_m3u(vod_path, 'movie', id_map)
+        s, c = parse_m3u(vod_path, 'movie', id_map, cat_counter)
         data['vod_streams'] = s
         data['vod_categories'] = format_categories(c)
 
@@ -142,7 +144,7 @@ def main():
     print("Parsing Series...")
     series_path = os.path.join(base_dir, "series.m3u")
     if os.path.exists(series_path):
-        s, c = parse_m3u(series_path, 'series', id_map)
+        s, c = parse_m3u(series_path, 'series', id_map, cat_counter)
         data['series'] = s
         data['series_categories'] = format_categories(c)
 

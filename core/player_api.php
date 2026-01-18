@@ -255,16 +255,15 @@ if ($action === '' || $action === 'get_panel_info') {
 
         // --- BALANCED VOD PRUNING & LIMIT ---
         // For the FULL list, we MUST stay under Vercel's 4.5MB limit.
-        // 16,000 items * ~250 bytes = 4.0MB (Safe Buffer).
         if (!$cat_id) {
-            // Restore icons so Smarters shows the movie posters!
-            unset($item['added']);
+            // Restore posters but strip junk metadata to save space
             unset($item['rating']);
             unset($item['rating_5based']);
             unset($item['custom_sid']);
+            unset($item['added']);
 
-            // Safe Limit for stability in "All" view (Vercel 4.5MB)
-            if (count($out) >= 18000) {
+            // Safe Limit for "All" view (Vercel 4.5MB)
+            if (count($out) >= 10000) {
                 break;
             }
         }
