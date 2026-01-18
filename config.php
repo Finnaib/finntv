@@ -187,9 +187,16 @@ function parseMoviesAndSeries()
                 // Determine Type
                 $type = $is_series ? 'series' : ($is_vod ? 'movie' : 'live');
 
-                // --- Category ID Generation ---
                 $unique_group_str = ($type === 'live' ? 'L_' : ($type === 'movie' ? 'M_' : 'S_')) . $current_group;
-                $cat_id = sprintf("%u", crc32($unique_group_str));
+
+                // --- Category ID Generation ---
+                static $cat_name_to_id = [];
+                static $next_cat_id = 1;
+
+                if (!isset($cat_name_to_id[$unique_group_str])) {
+                    $cat_name_to_id[$unique_group_str] = (string) $next_cat_id++;
+                }
+                $cat_id = $cat_name_to_id[$unique_group_str];
 
                 // Store metadata
                 $meta = [

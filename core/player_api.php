@@ -171,10 +171,15 @@ if ($action !== '' && $action !== 'get_panel_info') {
 }
 
 if ($action === '' || $action === 'get_panel_info') {
-    // 1. Login / Handshake
+    // 1. Login / Handshake - Include Categories for content discovery
     json_out([
         'user_info' => $user_info,
-        'server_info' => $server_info
+        'server_info' => $server_info,
+        'categories' => [
+            'live' => $data['live_categories'],
+            'movie' => $data['vod_categories'],
+            'series' => $data['series_categories']
+        ]
     ]);
 
 } elseif ($action === 'get_live_categories') {
@@ -211,14 +216,8 @@ if ($action === '' || $action === 'get_panel_info') {
             'is_adult' => 0
         ];
 
-        // Optimization: In FULL SYNC (no category_id), prune large fields
-        // to stay within Vercel's 4.5MB payload limit for the entire list.
-        if (!$cat_id) {
-            // Keep bare minimum to ensure all 6000+ items fit.
-            unset($item['thumbnail']);
-            unset($item['tv_archive_duration']);
-        }
-
+        // Optimization: No pruning needed as we refactored Category IDs
+        // and stayed under Vercel's 4.5MB limit (~1.7MB total)
         $out[] = $item;
     }
     json_out($out);
@@ -241,6 +240,7 @@ if ($action === '' || $action === 'get_panel_info') {
         $item = [
             'num' => (int) $s['num'],
             'name' => (string) $s['name'],
+            'stream_type' => 'movie',
             'stream_id' => (int) $s['stream_id'],
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
             'added' => (string) ($s['added'] ?? time()),
@@ -252,11 +252,7 @@ if ($action === '' || $action === 'get_panel_info') {
             'direct_source' => ""
         ];
 
-        if (!$cat_id) {
-            unset($item['rating']);
-            unset($item['rating_5based']);
-        }
-
+        // Restore Full Metadata
         $out[] = $item;
     }
     json_out($out);
