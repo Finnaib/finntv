@@ -201,18 +201,16 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Optimization: Reduce payload size to stay under Vercel's 4.5MB limit
+        // Strip largest non-essential fields for ALL responses
         unset($s['direct_source']);
         unset($s['uniq_id']);
         unset($s['group_title']);
 
-        // Strip extremely redundant fields in FULL SYNC (no cat_id requested)
-        // This is safe because players usually only need id, name, and icon for the main list
+        // Optimize FULL SYNC (no cat_id requested) to stay under Vercel's 4.5MB limit
         if (!$cat_id) {
-            unset($s['container_extension']);
-            unset($s['rating']);
+            unset($s['stream_id']); // Identical to 'num', saves ~0.4MB
             unset($s['added']);
-            unset($s['stream_type']);
+            unset($s['rating']);
         }
 
         $out[] = $s;
