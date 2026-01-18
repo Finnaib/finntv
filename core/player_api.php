@@ -211,8 +211,16 @@ if ($action === '' || $action === 'get_panel_info') {
             'is_adult' => 0
         ];
 
-        // Optimization: No pruning needed as we refactored Category IDs
-        // and stayed under Vercel's 4.5MB limit (~1.7MB total)
+        // --- EXTREME PRUNING for FULL SYNC ---
+        // Strip icons/meta when loading ALL 5,000+ channels to stay under 4.5MB limit.
+        if (!$cat_id) {
+            unset($item['stream_icon']);
+            unset($item['thumbnail']);
+            unset($item['added']);
+            unset($item['custom_sid']);
+            unset($item['tv_archive_duration']);
+        }
+
         $out[] = $item;
     }
     json_out($out);
@@ -231,7 +239,6 @@ if ($action === '' || $action === 'get_panel_info') {
         if ($cat_id && (string) $s['category_id'] !== (string) $cat_id)
             continue;
 
-        // Compliance Fixes
         // Compliance Fixes - Pure VOD Metadata
         $item = [
             'num' => (int) $s['num'],
@@ -247,7 +254,15 @@ if ($action === '' || $action === 'get_panel_info') {
             'direct_source' => ""
         ];
 
-        // Restore Full Metadata
+        // --- EXTREME PRUNING for VOD FULL SYNC ---
+        // Strip info-heavy fields when loading all 17,897 movies.
+        if (!$cat_id) {
+            unset($item['stream_icon']);
+            unset($item['rating']);
+            unset($item['rating_5based']);
+            unset($item['custom_sid']);
+        }
+
         $out[] = $item;
     }
     json_out($out);
