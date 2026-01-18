@@ -133,23 +133,28 @@ $user_info = [
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
-// Detect Protocol from Base URL
-$p_parts = parse_url($server_config['base_url']);
-$scheme = $p_parts['scheme'] ?? 'http';
-$host = $p_parts['host'] ?? 'localhost';
-$port = $p_parts['port'] ?? ($scheme === 'https' ? '443' : '80');
+// Detect Protocol, Host and Port dynamically from request
+$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+// Remove port from host if present
+if (strpos($host, ':') !== false) {
+    list($host, $port_from_host) = explode(':', $host);
+} else {
+    $port_from_host = ($scheme === 'https') ? '443' : '80';
+}
+$port = $_SERVER['SERVER_PORT'] ?? $port_from_host;
 
 $server_info = [
-    'url' => $host, // Strict Hostname
+    'url' => (string) $host,
     'port' => (string) $port,
-    'https_port' => (string) ($scheme === 'https' ? $port : '443'),
-    'server_protocol' => $scheme,
+    'https_port' => '443',
+    'server_protocol' => (string) $scheme,
     'rtmp_port' => '88',
-    'timezone' => $server_config['timezone'],
+    'timezone' => (string) ($server_config['timezone'] ?? 'UTC'),
     'timestamp_now' => time(),
-    'time_now' => date("Y-m-d H:i:s", time()),
+    'time_now' => date("Y-m-d H:i:s"),
     'process' => true,
-    'server_name' => $server_config['server_name'] ?? 'Xtream Server' // Required by some
+    'server_name' => (string) ($server_config['server_name'] ?? 'Xtream Server')
 ];
 
 // --- Action Router ---
@@ -198,9 +203,10 @@ if ($action === '' || $action === 'get_panel_info') {
             'category_id' => (string) $s['category_id'],
             'custom_sid' => (string) ($s['custom_sid'] ?? ""),
             'tv_archive' => (int) ($s['tv_archive'] ?? 0),
-            'direct_source' => '', // Hide but keep field for structure
+            'direct_source' => null, // Explicit null for structure
             'tv_archive_duration' => (int) ($s['tv_archive_duration'] ?? 0),
-            'thumbnail' => (string) ($s['stream_icon'] ?? '')
+            'thumbnail' => (string) ($s['stream_icon'] ?? ''),
+            'is_adult' => 0
         ];
     }
     json_out($out);
