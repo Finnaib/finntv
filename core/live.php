@@ -12,19 +12,29 @@ ob_start();
 // 1. Context Analysis
 header("Access-Control-Allow-Origin: *");
 $uri = $_SERVER['REQUEST_URI'];
-$parts = explode('/', trim($uri, '/'));
+$parts = explode('/', trim(parse_url($uri, PHP_URL_PATH), '/'));
 
 // Expected Structure: 
 // /live/user/pass/id.ts
 // /movie/user/pass/id.mp4
 // /series/user/pass/id.mp4
 
-// Basic detection (assuming rewrite rules work, indices might vary based on folder depth)
-// For safe parsing, we look for numeric ID at end.
+// Detect Type from URI path
+$type = "live"; // Default
+if (in_array('movie', $parts))
+    $type = "movie";
+if (in_array('series', $parts))
+    $type = "series";
 
-$id_part = end($parts); // "1055.ts"
-$id = (int) filter_var($id_part, FILTER_SANITIZE_NUMBER_INT);
-$ext = pathinfo($id_part, PATHINFO_EXTENSION);
+$id_part = end($parts); // "1055.ts" or "1055.ts?token=..."
+// Robust ID extraction: get everything before the first dot or question mark
+$id = 0;
+if (preg_match('/^(\d+)/', $id_part, $matches)) {
+    $id = $matches[1];
+}
+
+$ext = pathinfo(parse_url($id_part, PHP_URL_PATH), PATHINFO_EXTENSION);
+$map_key = $type . "_" . $id;
 
 // 2. Search for Stream (Optimized)
 $target_url = "";
@@ -35,34 +45,24 @@ $target_url = "";
 $map_file = __DIR__ . '/../data/id_map.json';
 if (file_exists($map_file)) {
     $id_map = json_decode(file_get_contents($map_file), true);
-    if (isset($id_map[$id])) {
-        $target_url = $id_map[$id];
+    if (isset($id_map[$map_key])) {
+        $target_url = $id_map[$map_key];
     }
 } else {
     // Fallback to legacy linear search (Slow)
-    // Check Live
-    foreach ($data['live_streams'] as $s) {
+    // Select the correct list based on type
+    $search_list = [];
+    if ($type === 'live')
+        $search_list = $data['live_streams'];
+    elseif ($type === 'movie')
+        $search_list = $data['vod_streams'];
+    elseif ($type === 'series')
+        $search_list = $data['series'];
+
+    foreach ($search_list as $s) {
         if ($s['num'] == $id) {
             $target_url = $s['direct_source'];
             break;
-        }
-    }
-    // Check VOD
-    if (!$target_url) {
-        foreach ($data['vod_streams'] as $s) {
-            if ($s['num'] == $id) {
-                $target_url = $s['direct_source'];
-                break;
-            }
-        }
-    }
-    // Check Series
-    if (!$target_url) {
-        foreach ($data['series'] as $s) {
-            if ($s['num'] == $id) {
-                $target_url = $s['direct_source'];
-                break;
-            }
         }
     }
 }

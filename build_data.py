@@ -179,11 +179,15 @@ def main():
     size_mb = os.path.getsize(json_path) / (1024 * 1024)
     print(f"Saved data/data.json ({round(size_mb, 2)} MB)")
 
-    # Build ID Map
+    # Build ID Map (Prefixed to prevent collisions)
     print("Building ID Map...")
     id_map = {}
-    for s in data['live_streams'] + data['vod_streams'] + data['series']:
-        if 'num' in s: id_map[str(s['num'])] = s.get('direct_source', '')
+    for s in data['live_streams']:
+        if 'num' in s: id_map[f"live_{s['num']}"] = s.get('direct_source', '')
+    for s in data['vod_streams']:
+        if 'num' in s: id_map[f"movie_{s['num']}"] = s.get('direct_source', '')
+    for s in data['series']:
+        if 'num' in s: id_map[f"series_{s['num']}"] = s.get('direct_source', '')
             
     id_map_path = "id_map.json"
     with open(id_map_path, 'w', encoding='utf-8') as f:
