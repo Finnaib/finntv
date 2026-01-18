@@ -126,10 +126,10 @@ $user_info = [
     'auth' => 1,
     'status' => 'Active',
     'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
-    'is_trial' => '0',
-    'active_cons' => '0',
+    'is_trial' => 0,
+    'active_cons' => 0,
     'created_at' => (string) ($user_data['created_at'] ?? time()),
-    'max_connections' => '5',
+    'max_connections' => 5,
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
@@ -243,19 +243,16 @@ if ($action === '' || $action === 'get_panel_info') {
             'direct_source' => ""
         ];
 
-        // --- NUCLEAR PRUNING for ALL MOVIES ---
-        // To show ALL 17,897 movies, we MUST be ultra-lean to fit 4.5MB.
+        // --- ULTRA-NUCLEAR PRUNING for ALL MOVIES ---
+        // To show ALL 17,897 movies on Vercel, we MUST be ultra-light.
         if (!$cat_id) {
-            // Keep ONLY the absolute bare minimum for the grid to work
             unset($item['added']);
             unset($item['rating']);
             unset($item['rating_5based']);
             unset($item['custom_sid']);
-            // Note: Keeping 'stream_icon' as it's required for posters!
-
-            // NO LIMIT - Showing all movies as requested!
+            unset($item['container_extension']);
+            unset($item['direct_source']);
         }
-
         $out[] = $item;
     }
     json_out($out);

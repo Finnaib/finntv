@@ -10,7 +10,7 @@
 // Basic Security & Headers
 error_reporting(0);
 ini_set('display_errors', 0);
-ini_set('memory_limit', '256M'); // Increase for 23,000+ items
+ini_set('memory_limit', '512M'); // Heavy lifting for 23,000+ items
 // header("Access-Control-Allow-Origin: *"); // Moved to player_api.php
 
 // --- Provider Context (Loaded from xtream_config.json) ---
