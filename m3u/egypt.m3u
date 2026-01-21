@@ -25,19 +25,19 @@ http://mhav1.com:80/live/ht2990/742579548/3249.ts
 
 
 ################################################################################
-# beIN Max 
+# beIN MAX
 ################################################################################
 
-#EXTINF:-1 tvg-id="5952" tvg-name="beIN_Max_1_Low" group-title="beIN Max ",beIN_Max_1_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_1_Low
 http://mhav1.com:80/live/ht2990/742579548/5952.ts
 
-#EXTINF:-1 tvg-id="5953" tvg-name="beIN_Max_2_Low" group-title="beIN Max ",beIN_Max_2_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_2_Low
 http://mhav1.com:80/live/ht2990/742579548/5953.ts
 
-#EXTINF:-1 tvg-id="40805" tvg-name="beIN_Max_3_Low" group-title="beIN MAX ",beIN_Max_3_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_3_Low
 http://mhav1.com:80/live/ht2990/742579548/40805.ts
 
-#EXTINF:-1 tvg-id="40806" tvg-name="beIN_Max_4_Low" group-title="beIN MAX ",beIN_Max_4_Low
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_4_Low
 http://mhav1.com:80/live/ht2990/742579548/40806.ts
 
 
