@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 
 
 ################################################################################
@@ -622,4 +622,3 @@ http://38.143.48.212:9981/stream/channelid/619256485?profile=pass
 
 #EXTINF:-1 tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/28055/s32356_ll_h15_ac.png" tvg-chno="72" group-title="US Local",PBS East Boston GBH2
 http://38.143.48.212:9981/stream/channelid/976873156?profile=pass
-

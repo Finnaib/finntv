@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 
 
 ################################################################################
@@ -472,5 +472,3 @@ http://mhav1.com:80/live/ht2990/742579548/212415.ts
 
 #EXTINF:-1 group-title="Others" tvg-id="" tvg-name="IN: History TV 18 FHD" tvg-logo="https://i.imgur.com/zNJKdRf.png",IN: History TV 18 FHD
 https://atemecdnbalancer-voe.sysln.id/live/eds/HistoryHD/mediampd/HistoryHD.mpd
-
-

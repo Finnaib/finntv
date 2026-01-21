@@ -4,6 +4,10 @@ echo   FinnTV - Auto Update and Deploy Tool
 echo ==============================================
 echo.
 
+echo [Step 0] Reorganizing M3U Files by Categories...
+call reorganize_all_m3u.bat
+echo.
+
 echo [1/3] Syncing with Provider (M3U Import)...
 python import_xtream.py
 if %errorlevel% neq 0 (
