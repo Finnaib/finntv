@@ -14,6 +14,9 @@ http://mhav1.com:80/series/ht2990/742579548/5984.ts
 #EXTINF:-1 tvg-id="" tvg-name="الاراضى المباركة" tvg-logo="http://images.vega-xt-mh.com:80/images/31zn3jriMaSAx9oflfn3ER5JRbn_big.jpg" group-title=" يعرض الان تركي",الاراضى المباركة
 http://mhav1.com:80/series/ht2990/742579548/6112.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="الاطار الأخير" tvg-logo="http://images.vega-xt-mh.com:80/images/jwVRYnc6IwReY9bURd2svzJezP6_big.jpg" group-title=" يعرض الان تركي",الاطار الأخير
+http://mhav1.com:80/series/ht2990/742579548/6454.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الاعراف" tvg-logo="http://images.vega-xt-mh.com:80/images/4yYZoYgeNshoS2aODwUvCXIa8yn_big.jpg" group-title=" يعرض الان تركي",الاعراف
 http://mhav1.com:80/series/ht2990/742579548/6192.ts
 
@@ -52,6 +55,9 @@ http://mhav1.com:80/series/ht2990/742579548/6029.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="باهار" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/u28XMjRU7i0xdqlplNE080uD4Gj.jpg" group-title=" يعرض الان تركي",باهار
 http://mhav1.com:80/series/ht2990/742579548/3434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="تحت الارض" tvg-logo="http://images.vega-xt-mh.com:80/images/bu8ks983hBPEzyAH8gSATW5aPJ7_big.jpg" group-title=" يعرض الان تركي",تحت الارض
+http://mhav1.com:80/series/ht2990/742579548/6447.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حب و دموع" tvg-logo="http://images.vega-xt-mh.com:80/images/8sflFc0FmTSbITrhcVGaWaCuUrD_big.jpg" group-title=" يعرض الان تركي",حب و دموع
 http://mhav1.com:80/series/ht2990/742579548/5991.ts
@@ -185,6 +191,9 @@ http://mhav1.com:80/series/ht2990/742579548/1418.ts
 #EXTINF:-1 tvg-id="" tvg-name="Arthdal Chronicles" tvg-logo="http://images.vega-xt-mh.com:80/images/k5bKj5U2Z7AgkK3Mekji8xDHOuD_big.jpg" group-title="Asian Series",Arthdal Chronicles
 http://mhav1.com:80/series/ht2990/742579548/3254.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="As Husband As Wife" tvg-logo="http://images.vega-xt-mh.com:80/images/oDrp6kHORmo1D6mIyBj17Jl6DEC_big.jpg" group-title="Asian Series",As Husband As Wife
+http://mhav1.com:80/series/ht2990/742579548/6430.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="As You Stood By" tvg-logo="http://images.vega-xt-mh.com:80/images/3ciqsMz21p8xp5udriFjRGM5OYs_big.jpg" group-title="Asian Series",As You Stood By
 http://mhav1.com:80/series/ht2990/742579548/6172.ts
 
@@ -241,9 +250,6 @@ http://mhav1.com:80/series/ht2990/742579548/4898.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Between Him and Her" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2d21xgbJeUOjhHtJbEtOJzwXgQG.jpg" group-title="Asian Series",Between Him and Her
 http://mhav1.com:80/series/ht2990/742579548/3319.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Beyond Evil" tvg-logo="http://images.vega-xt-mh.com:80/images/khgMdk2ctVdk5KWaSJjVHRa2Use_big.jpg" group-title="Asian Series",Beyond Evil
-http://mhav1.com:80/series/ht2990/742579548/5596.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Beyond Goodbye" tvg-logo="http://images.vega-xt-mh.com:80/images/tJxfVRzKveiPrULbZ3PIqV1S8Pp_big.jpg" group-title="Asian Series",Beyond Goodbye
 http://mhav1.com:80/series/ht2990/742579548/4837.ts
@@ -737,6 +743,9 @@ http://mhav1.com:80/series/ht2990/742579548/4885.ts
 #EXTINF:-1 tvg-id="" tvg-name="Informa" tvg-logo="http://images.vega-xt-mh.com:80/images/yvfpfe6hugNY7v7t6U0CSsxo6en_big.jpg" group-title="Asian Series",Informa
 http://mhav1.com:80/series/ht2990/742579548/2124.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Insider" tvg-logo="http://images.vega-xt-mh.com:80/images/aX0zuXAnlixiyzS5S2F1E4eaGYz_big.jpg" group-title="Asian Series",Insider
+http://mhav1.com:80/series/ht2990/742579548/6441.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Inspector Koo" tvg-logo="http://images.vega-xt-mh.com:80/images/4FImpkzYmQqvZJSpWSY3NiHMx8R_big.jpg" group-title="Asian Series",Inspector Koo
 http://mhav1.com:80/series/ht2990/742579548/4794.ts
 
@@ -970,9 +979,6 @@ http://mhav1.com:80/series/ht2990/742579548/6218.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="My Boss" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.phgQlQnQ0nnYElnJ9yAA9gHaD4?rs=1&pid=ImgDetMain" group-title="Asian Series",My Boss
 http://mhav1.com:80/series/ht2990/742579548/5659.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="My Coach" tvg-logo="http://images.vega-xt-mh.com:80/images/pgk7u8r579QwqvRfhZCCQBnlKnm_big.jpg" group-title="Asian Series",My Coach
-http://mhav1.com:80/series/ht2990/742579548/1527.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="My Dearest Nemesis" tvg-logo="http://images.vega-xt-mh.com:80/images/obxTkvATqU8a65XDOFOQeZKd3PF_big.jpg" group-title="Asian Series",My Dearest Nemesis
 http://mhav1.com:80/series/ht2990/742579548/5712.ts
@@ -1445,9 +1451,6 @@ http://mhav1.com:80/series/ht2990/742579548/2458.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Good Detective" tvg-logo="http://images.vega-xt-mh.com:80/images/oj9zTCRn8tfuXTcqa0UbOCO2DZX_big.jpg" group-title="Asian Series",The Good Detective
 http://mhav1.com:80/series/ht2990/742579548/1966.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Haunted Palace" tvg-logo="http://images.vega-xt-mh.com:80/images/nR1cuxMOPqHHapEzORa8RESKrWG_big.jpg" group-title="Asian Series",The Haunted Palace
-http://mhav1.com:80/series/ht2990/742579548/5508.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="The Heavenly Idol" tvg-logo="http://images.vega-xt-mh.com:80/images/glbtrvaluqaybHnQ7GV3ckHWmpt_big.jpg" group-title="Asian Series",The Heavenly Idol
 http://mhav1.com:80/series/ht2990/742579548/2344.ts
 
@@ -1468,6 +1471,9 @@ http://mhav1.com:80/series/ht2990/742579548/3684.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Journalist 2022" tvg-logo="http://images.vega-xt-mh.com:80/images/fo9CuO19jPjikgU7dzMEFYqNGPj_big.jpg" group-title="Asian Series",The Journalist 2022
 http://mhav1.com:80/series/ht2990/742579548/1054.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Judge Returns" tvg-logo="http://images.vega-xt-mh.com:80/images/AjLnvyKlbTPS9DnX8exBqF2RTIU_big.jpg" group-title="Asian Series",The Judge Returns
+http://mhav1.com:80/series/ht2990/742579548/6419.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Judge from Hell" tvg-logo="http://images.vega-xt-mh.com:80/images/9vhLHbUiiP9HiXfJw5OUC7KoaJG_big.jpg" group-title="Asian Series",The Judge from Hell
 http://mhav1.com:80/series/ht2990/742579548/4616.ts
@@ -1543,9 +1549,6 @@ http://mhav1.com:80/series/ht2990/742579548/1436.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Sound of Your Heart: Reboot" tvg-logo="http://images.vega-xt-mh.com:80/images/dhTwOmHvwa3vgM6FiSVYmWtcnkh_big.jpg" group-title="Asian Series",The Sound of Your Heart: Reboot
 http://mhav1.com:80/series/ht2990/742579548/4332.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Spies Who Loved Me" tvg-logo="http://images.vega-xt-mh.com:80/images/mIeDVXWrGkMEm2wUe6FfSJWd61v_big.jpg" group-title="Asian Series",The Spies Who Loved Me
-http://mhav1.com:80/series/ht2990/742579548/1525.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Story of Park s Marriage Contract" tvg-logo="http://images.vega-xt-mh.com:80/images/c3IKOXfdRVYN1BH97rWC7U0BI1L_big.jpg" group-title="Asian Series",The Story of Park s Marriage Contract
 http://mhav1.com:80/series/ht2990/742579548/3215.ts
@@ -2015,6 +2018,9 @@ http://mhav1.com:80/series/ht2990/742579548/2355.ts
 #EXTINF:-1 tvg-id="" tvg-name="World Cup Qatar " tvg-logo="https://i.pinimg.com/originals/31/c7/99/31c7994179309c1ea3df9135abe627a3.jpg" group-title="Documentary  Series",World Cup Qatar 
 http://mhav1.com:80/series/ht2990/742579548/1868.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="World's Most Wanted" tvg-logo="http://images.vega-xt-mh.com:80/images/dDaIGQvHHP4xixwqwhgwn8WMZx_big.jpg" group-title="Documentary  Series",World's Most Wanted
+http://mhav1.com:80/series/ht2990/742579548/6452.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="eko eko eko" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2RiYTZlNjgtMmExZi00MmY1LTllNzMtNzQ1Yjg3ZTJkZDE2XkEyXkFqcGc@._V1_.jpg" group-title="Documentary  Series",eko eko eko
 http://mhav1.com:80/series/ht2990/742579548/6208.ts
 
@@ -2024,9 +2030,6 @@ http://mhav1.com:80/series/ht2990/742579548/991.ts
 #EXTINF:-1 tvg-id="" tvg-name="الآثار في السعودية" tvg-logo="https://modo3.com/thumbs/fit630x300/84098/1471971134/%D8%A7%D9%84%D8%A2%D8%AB%D8%A7%D8%B1_%D9%81%D9%8A_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.jpg" group-title="Documentary  Series",الآثار في السعودية
 http://mhav1.com:80/series/ht2990/742579548/6301.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الإنقاذ" tvg-logo="http://images.vega-xt-mh.com:80/images/eWcbTGOFJPTPO740vyIdgDcbpxG_big.jpg" group-title="Documentary  Series",الإنقاذ
-http://mhav1.com:80/series/ht2990/742579548/265.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="الخليفة الراشد التاسع عمربن عبد العزيز" tvg-logo="https://tse4.mm.bing.net/th/id/OIP.dI8SUH-zo3fZd11eGqs_VAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Documentary  Series",الخليفة الراشد التاسع عمربن عبد العزيز
 http://mhav1.com:80/series/ht2990/742579548/6213.ts
 
@@ -2035,6 +2038,9 @@ http://mhav1.com:80/series/ht2990/742579548/6212.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="براري المكسيك" tvg-logo="http://images.vega-xt-mh.com:80/images/5f2a8ed2bd89bd63e0cecb1c65e161ee.jpg" group-title="Documentary  Series",براري المكسيك
 http://mhav1.com:80/series/ht2990/742579548/263.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="حفل توزيع جوائز صناع الترفيه" tvg-logo="https://tse3.mm.bing.net/th/id/OIP.xiy7r740OTpfszb45T4ctQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Documentary  Series",حفل توزيع جوائز صناع الترفيه
+http://mhav1.com:80/series/ht2990/742579548/6420.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حقائق عن هارون الرشيد" tvg-logo="https://tse2.mm.bing.net/th/id/OIP.pKlVZMDopuYL0S_7-pV8FAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Documentary  Series",حقائق عن هارون الرشيد
 http://mhav1.com:80/series/ht2990/742579548/6211.ts
@@ -2141,9 +2147,6 @@ http://mhav1.com:80/series/ht2990/742579548/2804.ts
 #EXTINF:-1 tvg-id="" tvg-name=" Electric Dreams " tvg-logo="http://images.vega-xt-mh.com:80/images/tyaNrGepu4HbkjLFkK6vgua1vgn_big.jpg" group-title="English Series", Electric Dreams 
 http://mhav1.com:80/series/ht2990/742579548/4101.ts
 
-#EXTINF:-1 tvg-id="" tvg-name=" Forever " tvg-logo="https://i.ytimg.com/vi/X9HW1Us9a3s/maxresdefault.jpg" group-title="English Series", Forever 
-http://mhav1.com:80/series/ht2990/742579548/4168.ts
-
 #EXTINF:-1 tvg-id="" tvg-name=" Inhumans" tvg-logo="https://th.bing.com/th/id/OIP.zNoWgQYlEu-Z7Nf4giEhmAHaEK?rs=1&pid=ImgDetMain" group-title="English Series", Inhumans
 http://mhav1.com:80/series/ht2990/742579548/5495.ts
 
@@ -2169,7 +2172,7 @@ http://mhav1.com:80/series/ht2990/742579548/3163.ts
 http://mhav1.com:80/series/ht2990/742579548/1032.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="24" tvg-logo="http://images.vega-xt-mh.com:80/images/iq6yrZ5LEDXf1ArCOYLq8PIUBpV_big.jpg" group-title="English Series",24
-http://mhav1.com:80/series/ht2990/742579548/1512.ts
+http://mhav1.com:80/series/ht2990/742579548/6461.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="30 Rock" tvg-logo="http://images.vega-xt-mh.com:80/images/eYYQWACx7ttUzRwTNYuo6zveqpE_big.jpg" group-title="English Series",30 Rock
 http://mhav1.com:80/series/ht2990/742579548/5117.ts
@@ -2210,9 +2213,6 @@ http://mhav1.com:80/series/ht2990/742579548/1021.ts
 #EXTINF:-1 tvg-id="" tvg-name="Arrested Development" tvg-logo="http://images.vega-xt-mh.com:80/images/qMzwO952hMWQSCfHkp7IL20s4K7_big.jpg" group-title="English Series",Arrested Development
 http://mhav1.com:80/series/ht2990/742579548/4627.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Arrow" tvg-logo="http://images.vega-xt-mh.com:80/images/gKG5QGz5Ngf8fgWpBsWtlg5L2SF_big.jpg" group-title="English Series",Arrow
-http://mhav1.com:80/series/ht2990/742579548/2171.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Atlanta" tvg-logo="http://images.vega-xt-mh.com:80/images/8HZyGMnPLVVb00rmrh6A2SbK9NX_big.jpg" group-title="English Series",Atlanta
 http://mhav1.com:80/series/ht2990/742579548/3909.ts
 
@@ -2251,9 +2251,6 @@ http://mhav1.com:80/series/ht2990/742579548/1603.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Black Sails" tvg-logo="http://images.vega-xt-mh.com:80/images/mZcSwrDdw6cdOVgXm496DgwrQcQ_big.jpg" group-title="English Series",Black Sails
 http://mhav1.com:80/series/ht2990/742579548/694.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Blindspot" tvg-logo="http://images.vega-xt-mh.com:80/images/4AeYzamQmd9Fa6hawDmYKbdvBSe_big.jpg" group-title="English Series",Blindspot
-http://mhav1.com:80/series/ht2990/742579548/309.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Blood &amp; Treasure" tvg-logo="http://images.vega-xt-mh.com:80/images/xbWqfPKBhqOZQEGq7HdDkX0Bjib_big.jpg" group-title="English Series",Blood &amp; Treasure
 http://mhav1.com:80/series/ht2990/742579548/1640.ts
@@ -2305,9 +2302,6 @@ http://mhav1.com:80/series/ht2990/742579548/2857.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Channel Zero" tvg-logo="http://images.vega-xt-mh.com:80/images/oCutmhFznao1Pzy6wM1C32kxAEu_big.jpg" group-title="English Series",Channel Zero
 http://mhav1.com:80/series/ht2990/742579548/5148.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Charmed (1998)" tvg-logo="http://images.vega-xt-mh.com:80/images/z4bPJ1BWU2EtV69NII2GVvsugQ2_big.jpg" group-title="English Series",Charmed (1998)
-http://mhav1.com:80/series/ht2990/742579548/478.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Chernobyl" tvg-logo="http://images.vega-xt-mh.com:80/images/hlLXt2tOPT6RRnjiUmoxyG1LTFi_big.jpg" group-title="English Series",Chernobyl
 http://mhav1.com:80/series/ht2990/742579548/71.ts
@@ -2573,6 +2567,9 @@ http://mhav1.com:80/series/ht2990/742579548/4628.ts
 #EXTINF:-1 tvg-id="" tvg-name="Jericho" tvg-logo="https://th.bing.com/th/id/OIP.RTeez-TH1yOxY110RFdF4wHaKU?rs=1&pid=ImgDetMain" group-title="English Series",Jericho
 http://mhav1.com:80/series/ht2990/742579548/5150.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Joey" tvg-logo="http://images.vega-xt-mh.com:80/images/bU5yBQsmt0CnIpi9z8zB3iL7ZHP_big.jpg" group-title="English Series",Joey
+http://mhav1.com:80/series/ht2990/742579548/6426.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Justice Served" tvg-logo="http://images.vega-xt-mh.com:80/images/gOXZns3CxiPh5DN6CxWEKtML3Yw_big.jpg" group-title="English Series",Justice Served
 http://mhav1.com:80/series/ht2990/742579548/1656.ts
 
@@ -2713,9 +2710,6 @@ http://mhav1.com:80/series/ht2990/742579548/2845.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Modern Love" tvg-logo="http://images.vega-xt-mh.com:80/images/cP9CJ9nvPT3cnnBSlGFgwq7odIR_big.jpg" group-title="English Series",Modern Love
 http://mhav1.com:80/series/ht2990/742579548/6008.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Monk" tvg-logo="http://images.vega-xt-mh.com:80/images/3axGMbUecXXOPSeG47v2i9wK5y5_big.jpg" group-title="English Series",Monk
-http://mhav1.com:80/series/ht2990/742579548/3805.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Moonhaven" tvg-logo="http://images.vega-xt-mh.com:80/images/nvEkr0zhe4DKdgf2ylcwFxyEFok_big.jpg" group-title="English Series",Moonhaven
 http://mhav1.com:80/series/ht2990/742579548/1606.ts
@@ -3326,6 +3320,9 @@ http://mhav1.com:80/series/ht2990/742579548/5025.ts
 #EXTINF:-1 tvg-id="" tvg-name="Boston Blue" tvg-logo="http://images.vega-xt-mh.com:80/images/8pyxutHxpgBt8ZwbIG2TZWCW394_big.jpg" group-title="English Series [2025]",Boston Blue
 http://mhav1.com:80/series/ht2990/742579548/6070.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Brilliant Minds" tvg-logo="http://images.vega-xt-mh.com:80/images/vG6Bw2IwDf1DVkPd7nZwMExp0U5_big.jpg" group-title="English Series [2025]",Brilliant Minds
+http://mhav1.com:80/series/ht2990/742579548/6442.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Butterfly" tvg-logo="http://images.vega-xt-mh.com:80/images/fTpD8cg1xkxO17iCSWFAxUBWdCV_big.jpg" group-title="English Series [2025]",Butterfly
 http://mhav1.com:80/series/ht2990/742579548/5872.ts
 
@@ -3635,6 +3632,9 @@ http://mhav1.com:80/series/ht2990/742579548/6101.ts
 #EXTINF:-1 tvg-id="" tvg-name="Spartacus: House of Ashur" tvg-logo="http://images.vega-xt-mh.com:80/images/vNByuzy60v31nmUVPMA8oAtneUK_big.jpg" group-title="English Series [2025]",Spartacus: House of Ashur
 http://mhav1.com:80/series/ht2990/742579548/6258.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="St. Denis Medical" tvg-logo="http://images.vega-xt-mh.com:80/images/8tUjI21ZcfSynLCk3Zr0Gs5BQwz_big.jpg" group-title="English Series [2025]",St. Denis Medical
+http://mhav1.com:80/series/ht2990/742579548/6444.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Stick" tvg-logo="http://images.vega-xt-mh.com:80/images/y8EWrf5Ry1WmYksWT7MOPWexvr5_big.jpg" group-title="English Series [2025]",Stick
 http://mhav1.com:80/series/ht2990/742579548/5646.ts
 
@@ -3878,11 +3878,23 @@ http://mhav1.com:80/series/ht2990/742579548/6404.ts
 #EXTINF:-1 tvg-id="" tvg-name="Best Medicine" tvg-logo="http://images.vega-xt-mh.com:80/images/q7SCSZfDaNDRPL3Xt4TiGSZQQht_big.jpg" group-title="English Series [2026]",Best Medicine
 http://mhav1.com:80/series/ht2990/742579548/6381.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Finding Her Edge" tvg-logo="http://images.vega-xt-mh.com:80/images/rundKWddXHke82ee8Sv9KJmuGhn_big.jpg" group-title="English Series [2026]",Finding Her Edge
+http://mhav1.com:80/series/ht2990/742579548/6427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Free Bert" tvg-logo="http://images.vega-xt-mh.com:80/images/18jsL1sUIDL3ice67KoNkq22K6m_big.jpg" group-title="English Series [2026]",Free Bert
+http://mhav1.com:80/series/ht2990/742579548/6428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Girl Taken" tvg-logo="http://images.vega-xt-mh.com:80/images/upUOfPAMhjWDPu8R31r9YvYDfum_big.jpg" group-title="English Series [2026]",Girl Taken
+http://mhav1.com:80/series/ht2990/742579548/6448.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="HIS & HERS" tvg-logo="http://images.vega-xt-mh.com:80/images/cDSXLVQLkCSBIpBx3UW04TsfZ5c_big.jpg" group-title="English Series [2026]",HIS & HERS
 http://mhav1.com:80/series/ht2990/742579548/6389.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Hijack" tvg-logo="http://images.vega-xt-mh.com:80/images/2C51clnxQdiqPDeqQlXcUx70hse_big.jpg" group-title="English Series [2026]",Hijack
 http://mhav1.com:80/series/ht2990/742579548/6399.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Memory of a Killer" tvg-logo="http://images.vega-xt-mh.com:80/images/3kpXrWW6gmlngwgSa52IhBpjPuz_big.jpg" group-title="English Series [2026]",Memory of a Killer
+http://mhav1.com:80/series/ht2990/742579548/6431.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PONIES" tvg-logo="http://images.vega-xt-mh.com:80/images/rwKS6rSAqMGnXwBVteYkHxeDLWX_big.jpg" group-title="English Series [2026]",PONIES
 http://mhav1.com:80/series/ht2990/742579548/6410.ts
@@ -3890,11 +3902,23 @@ http://mhav1.com:80/series/ht2990/742579548/6410.ts
 #EXTINF:-1 tvg-id="" tvg-name="Star Trek: Starfleet Academy" tvg-logo="http://images.vega-xt-mh.com:80/images/8vbue190HMhQk1N7AViAQUxXHxE_big.jpg" group-title="English Series [2026]",Star Trek: Starfleet Academy
 http://mhav1.com:80/series/ht2990/742579548/6400.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Steal" tvg-logo="http://images.vega-xt-mh.com:80/images/6KmlaPhsohh3Ki9XJUq0jiUYbf3_big.jpg" group-title="English Series [2026]",Steal
+http://mhav1.com:80/series/ht2990/742579548/6425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Beauty" tvg-logo="http://images.vega-xt-mh.com:80/images/qKOoFawE4fdzNPNdGRWtI2qsFib_big.jpg" group-title="English Series [2026]",The Beauty
+http://mhav1.com:80/series/ht2990/742579548/6429.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The Night Manager" tvg-logo="http://images.vega-xt-mh.com:80/images/f99GnEDXsfF3sicqZzSqjzQutAB_big.jpg" group-title="English Series [2026]",The Night Manager
 http://mhav1.com:80/series/ht2990/742579548/6377.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Pendragon Cycle: Rise of the Merlin" tvg-logo="http://images.vega-xt-mh.com:80/images/jJfk8NXauN4UgFQ1qn9lFzEk7ib_big.jpg" group-title="English Series [2026]",The Pendragon Cycle: Rise of the Merlin
 http://mhav1.com:80/series/ht2990/742579548/6382.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Vanished" tvg-logo="http://images.vega-xt-mh.com:80/images/KVyfJoW4nO1CATxHrD7oR8rRJH_big.jpg" group-title="English Series [2026]",Vanished
+http://mhav1.com:80/series/ht2990/742579548/6456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Wonder Man" tvg-logo="http://images.vega-xt-mh.com:80/images/6yy9nQlFt2l6UVWzrfhszFCaZ5C_big.jpg" group-title="English Series [2026]",Wonder Man
+http://mhav1.com:80/series/ht2990/742579548/6446.ts
 
 
 ##### [English Series [حديثه]] #####
@@ -3949,9 +3973,6 @@ http://mhav1.com:80/series/ht2990/742579548/4770.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Abbott Elementary" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9rAlwh2rLarYyu9o9uksAGhrum6.jpg" group-title="English Series [حديثه]",Abbott Elementary
 http://mhav1.com:80/series/ht2990/742579548/3417.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Accused" tvg-logo="http://images.vega-xt-mh.com:80/images/aNkYvln58BJoNyBUvig417HJWZQ_big.jpg" group-title="English Series [حديثه]",Accused
-http://mhav1.com:80/series/ht2990/742579548/2121.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="After Life" tvg-logo="http://images.vega-xt-mh.com:80/images/6eJf4h9XcvqK64vbx27EFlLVURm_big.jpg" group-title="English Series [حديثه]",After Life
 http://mhav1.com:80/series/ht2990/742579548/2561.ts
@@ -4123,9 +4144,6 @@ http://mhav1.com:80/series/ht2990/742579548/3292.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Bridgerton" tvg-logo="http://images.vega-xt-mh.com:80/images/luoKpgVwi1E5nQsi7W0UuKHu2Rq_big.jpg" group-title="English Series [حديثه]",Bridgerton
 http://mhav1.com:80/series/ht2990/742579548/1218.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Brilliant Minds" tvg-logo="http://images.vega-xt-mh.com:80/images/znM3g9r3woCbQUJhWnOWOamNqUy_big.jpg" group-title="English Series [حديثه]",Brilliant Minds
-http://mhav1.com:80/series/ht2990/742579548/4567.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Bupkis" tvg-logo="http://images.vega-xt-mh.com:80/images/y2hAQhAwE9fRe4cpq2OrcPLRxNO_big.jpg" group-title="English Series [حديثه]",Bupkis
 http://mhav1.com:80/series/ht2990/742579548/2472.ts
@@ -4460,9 +4478,6 @@ http://mhav1.com:80/series/ht2990/742579548/1882.ts
 #EXTINF:-1 tvg-id="" tvg-name="Full Circle" tvg-logo="http://images.vega-xt-mh.com:80/images/mXjyayWXwALW9hRiJj4TLzlilaZ_big.jpg" group-title="English Series [حديثه]",Full Circle
 http://mhav1.com:80/series/ht2990/742579548/2736.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Full House" tvg-logo="http://images.vega-xt-mh.com:80/images/7g0EyKsIaYjYw3gCIBKMHHE0Kcu_big.jpg" group-title="English Series [حديثه]",Full House
-http://mhav1.com:80/series/ht2990/742579548/1455.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Funny Woman" tvg-logo="http://images.vega-xt-mh.com:80/images/7Oh4tGraCM7UgnmzCcSKeuXC8f8_big.jpg" group-title="English Series [حديثه]",Funny Woman
 http://mhav1.com:80/series/ht2990/742579548/3170.ts
 
@@ -4564,9 +4579,6 @@ http://mhav1.com:80/series/ht2990/742579548/1988.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Holidazed" tvg-logo="http://images.vega-xt-mh.com:80/images/tAMKR1rWykwqJOjzSXEKMDD3yq3_big.jpg" group-title="English Series [حديثه]",Holidazed
 http://mhav1.com:80/series/ht2990/742579548/4997.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Home Before Dark" tvg-logo="http://images.vega-xt-mh.com:80/images/mt4P2epJrSaqrlkMP9fTUKLP9OE_big.jpg" group-title="English Series [حديثه]",Home Before Dark
-http://mhav1.com:80/series/ht2990/742579548/809.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Homeland" tvg-logo="http://images.vega-xt-mh.com:80/images/6GAvS2e6VIRsms9FpVt33PsCoEW_big.jpg" group-title="English Series [حديثه]",Homeland
 http://mhav1.com:80/series/ht2990/742579548/262.ts
@@ -5167,9 +5179,6 @@ http://mhav1.com:80/series/ht2990/742579548/1109.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Squid Game  The Challenge" tvg-logo="http://images.vega-xt-mh.com:80/images/eAjXAgdjPMZH9Ugub7XYPowFoS1_big.jpg" group-title="English Series [حديثه]",Squid Game  The Challenge
 http://mhav1.com:80/series/ht2990/742579548/3160.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="St. Denis Medical" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2LVXrQVsEzLlekzNmxZqKa06CV3.jpg" group-title="English Series [حديثه]",St. Denis Medical
-http://mhav1.com:80/series/ht2990/742579548/4831.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stags" tvg-logo="http://images.vega-xt-mh.com:80/images/zCH2UYQP0XX6bPzQMfhUBxZMLor_big.jpg" group-title="English Series [حديثه]",Stags
 http://mhav1.com:80/series/ht2990/742579548/4270.ts
@@ -5885,9 +5894,6 @@ http://mhav1.com:80/series/ht2990/742579548/6196.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Rookie: Feds" tvg-logo="http://images.vega-xt-mh.com:80/images/sxNKjLrqUDlRzyu4LwLGDUvtUxw_big.jpg" group-title="Family Series",The Rookie: Feds
 http://mhav1.com:80/series/ht2990/742579548/6242.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="When Calls the Heart" tvg-logo="http://images.vega-xt-mh.com:80/images/w1oVxe3DJBJ1vJakFg7UUiTIByJ_big.jpg" group-title="Family Series",When Calls the Heart
-http://mhav1.com:80/series/ht2990/742579548/847.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Zero Chill" tvg-logo="http://images.vega-xt-mh.com:80/images/y369iTgAG9oP0ffheGM83wNUJFC_big.jpg" group-title="Family Series",Zero Chill
 http://mhav1.com:80/series/ht2990/742579548/4349.ts
 
@@ -6004,12 +6010,6 @@ http://mhav1.com:80/series/ht2990/742579548/5504.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Devilman Crybaby" tvg-logo="http://images.vega-xt-mh.com:80/images/2pQ9xfgDa3L3QpoXfkNhISby2R4_big.jpg" group-title="Kides Series",Devilman Crybaby
 http://mhav1.com:80/series/ht2990/742579548/5623.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Digimon Ghost Game" tvg-logo="http://images.vega-xt-mh.com:80/images/tFI1gE0idyh4E1bvRbHhL3M96tz_big.jpg" group-title="Kides Series",Digimon Ghost Game
-http://mhav1.com:80/series/ht2990/742579548/1404.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Disenchantment" tvg-logo="http://images.vega-xt-mh.com:80/images/1WynayCqKRzrl4cFZR8NOfiDwd6_big.jpg" group-title="Kides Series",Disenchantment
-http://mhav1.com:80/series/ht2990/742579548/474.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Twisted-Wonderland: The Animation" tvg-logo="http://images.vega-xt-mh.com:80/images/4hT2pA7J7uvdlNZzYIHQzapXCY6_big.jpg" group-title="Kides Series",Disney Twisted-Wonderland: The Animation
 http://mhav1.com:80/series/ht2990/742579548/6206.ts
@@ -6179,6 +6179,9 @@ http://mhav1.com:80/series/ht2990/742579548/2546.ts
 #EXTINF:-1 tvg-id="" tvg-name="Monsters at Work" tvg-logo="http://images.vega-xt-mh.com:80/images/2gxgwhcuSmI5xtexb0t9zGj43FS_big.jpg" group-title="Kides Series",Monsters at Work
 http://mhav1.com:80/series/ht2990/742579548/754.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Ms. Rachel" tvg-logo="http://images.vega-xt-mh.com:80/images/bylLFLb56ZJsZTgvFC6D1EH4xU9_big.jpg" group-title="Kides Series",Ms. Rachel
+http://mhav1.com:80/series/ht2990/742579548/6449.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="My Hero Academia مترجم" tvg-logo="http://images.vega-xt-mh.com:80/images/phuYuzqWW9ru8EA3HVjE9W2Rr3M_big.jpg" group-title="Kides Series",My Hero Academia مترجم
 http://mhav1.com:80/series/ht2990/742579548/5230.ts
 
@@ -6226,9 +6229,6 @@ http://mhav1.com:80/series/ht2990/742579548/4433.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Rick and Morty" tvg-logo="http://images.vega-xt-mh.com:80/images/8kOWDBK6XlPUzckuHDo3wwVRFwt_big.jpg" group-title="Kides Series",Rick and Morty
 http://mhav1.com:80/series/ht2990/742579548/39.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Rilakkuma and Kaoru" tvg-logo="http://images.vega-xt-mh.com:80/images/lzohWj8xtowSXJVN9PsJjZAf1B2_big.jpg" group-title="Kides Series",Rilakkuma and Kaoru
-http://mhav1.com:80/series/ht2990/742579548/516.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SAKAMOTO DAYS" tvg-logo="https://tse1.mm.bing.net/th/id/OIP.Vlnm2rl4J1tuEuQlWbE8sgHaGL?rs=1&pid=ImgDetMain&o=7&rm=3" group-title="Kides Series",SAKAMOTO DAYS
 http://mhav1.com:80/series/ht2990/742579548/5439.ts
@@ -6653,9 +6653,6 @@ http://mhav1.com:80/series/ht2990/742579548/1072.ts
 #EXTINF:-1 tvg-id="" tvg-name="This Is a Robbery: The World s Biggest Art Heist" tvg-logo="http://images.vega-xt-mh.com:80/images/bB6pGUAAyI41SMuD08Wk9YQ8Yac_big.jpg" group-title="NetFilx Series",This Is a Robbery: The World s Biggest Art Heist
 http://mhav1.com:80/series/ht2990/742579548/4261.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="To the Lake" tvg-logo="http://images.vega-xt-mh.com:80/images/pQoCwUATqX3j8CThnc0ukiQ2fWU_big.jpg" group-title="NetFilx Series",To the Lake
-http://mhav1.com:80/series/ht2990/742579548/379.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Top Boy" tvg-logo="http://images.vega-xt-mh.com:80/images/cfqHWQQDwvKT8Xoe0AXzHBXcF1u_big.jpg" group-title="NetFilx Series",Top Boy
 http://mhav1.com:80/series/ht2990/742579548/1542.ts
 
@@ -6820,9 +6817,6 @@ http://mhav1.com:80/series/ht2990/742579548/5331.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="طريق اجبارى" tvg-logo="https://i.ibb.co/pskCnS7/28f3d.jpg" group-title="Ramadan Arabic 2025",طريق اجبارى
 http://mhav1.com:80/series/ht2990/742579548/5358.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="عابر سبيل" tvg-logo="https://i.ibb.co/F4qM2Jj4/8832f2ce.jpg" group-title="Ramadan Arabic 2025",عابر سبيل
-http://mhav1.com:80/series/ht2990/742579548/5353.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عدالة الصحراء" tvg-logo="https://i.ibb.co/wNHYLHZL/43e0d.jpg" group-title="Ramadan Arabic 2025",عدالة الصحراء
 http://mhav1.com:80/series/ht2990/742579548/5394.ts
@@ -7157,9 +7151,6 @@ http://mhav1.com:80/series/ht2990/742579548/1388.ts
 #EXTINF:-1 tvg-id="" tvg-name="3 وطن ع وتر" tvg-logo="http://images.vega-xt-mh.com:80/images/2Dp06PWLfpHexe1xtd5WHnSnnPj_big.jpg" group-title="Ramdan Arabic",3 وطن ع وتر
 http://mhav1.com:80/series/ht2990/742579548/2299.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Aysha Show" tvg-logo="https://i.imgur.com/FbTTFfD.jpg" group-title="Ramdan Arabic",Aysha Show
-http://mhav1.com:80/series/ht2990/742579548/2360.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Super Tounsi - سوبر تونسي" tvg-logo="http://images.vega-xt-mh.com:80/images/8nPzbP75EoLV43KLzaeO7MepQKN_big.jpg" group-title="Ramdan Arabic",Super Tounsi - سوبر تونسي
 http://mhav1.com:80/series/ht2990/742579548/3587.ts
 
@@ -7193,9 +7184,6 @@ http://mhav1.com:80/series/ht2990/742579548/1257.ts
 #EXTINF:-1 tvg-id="" tvg-name="اغمض عينيك ترانى" tvg-logo="http://images.vega-xt-mh.com:80/images/jkuOiVoz0fb2bbSlet3EbP3dmHr_big.jpg" group-title="Ramdan Arabic",اغمض عينيك ترانى
 http://mhav1.com:80/series/ht2990/742579548/3538.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="اقتحام" tvg-logo="http://images.vega-xt-mh.com:80/images/hpgWCj5UwgYV6zbIGS4ZoO2F83H_big.jpg" group-title="Ramdan Arabic",اقتحام
-http://mhav1.com:80/series/ht2990/742579548/2365.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="اكباد المهاجرة" tvg-logo="https://media0018.elcinema.com/uploads/_640x_6e273154c106578d5ba6019286223a192ef3f8a26de069d7c2ee1cd30161bd54.jpg" group-title="Ramdan Arabic",اكباد المهاجرة
 http://mhav1.com:80/series/ht2990/742579548/2372.ts
 
@@ -7216,9 +7204,6 @@ http://mhav1.com:80/series/ht2990/742579548/2351.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الجذوع" tvg-logo="http://images.vega-xt-mh.com:80/images/3mLDuUkKgJFlRVDu6vTluj5ouUe_big.jpg" group-title="Ramdan Arabic",الجذوع
 http://mhav1.com:80/series/ht2990/742579548/3602.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الحريقة" tvg-logo="https://i.ibb.co/pjCHxng/R1.jpg" group-title="Ramdan Arabic",الحريقة
-http://mhav1.com:80/series/ht2990/742579548/3462.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الخطة ب" tvg-logo="http://images.vega-xt-mh.com:80/images/uqmhZOEVCKwOHnpgyP18pVHoYY0_big.jpg" group-title="Ramdan Arabic",الخطة ب
 http://mhav1.com:80/series/ht2990/742579548/3595.ts
@@ -7270,9 +7255,6 @@ http://mhav1.com:80/series/ht2990/742579548/2330.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="العربجي 2" tvg-logo="http://images.web2023.work/Ramdan/33.png" group-title="Ramdan Arabic",العربجي 2
 http://mhav1.com:80/series/ht2990/742579548/3457.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="العيدروس" tvg-logo="https://i.ibb.co/sPwG1FL/9a3.jpg" group-title="Ramdan Arabic",العيدروس
-http://mhav1.com:80/series/ht2990/742579548/3455.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الفرج بعد الشدة" tvg-logo="http://images.vega-xt-mh.com:80/images/3cKT5ZPyxCQsgSgJUrrtJ2WYIrO_big.jpg" group-title="Ramdan Arabic",الفرج بعد الشدة
 http://mhav1.com:80/series/ht2990/742579548/3594.ts
@@ -7454,9 +7436,6 @@ http://mhav1.com:80/series/ht2990/742579548/3583.ts
 #EXTINF:-1 tvg-id="" tvg-name="خريف عمر" tvg-logo="http://images.vega-xt-mh.com:80/images/xu5oN4MJTGKUGCMbmGSQutKo46O_big.jpg" group-title="Ramdan Arabic",خريف عمر
 http://mhav1.com:80/series/ht2990/742579548/2378.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="خيوط المعازيب" tvg-logo="http://images.vega-xt-mh.com:80/images/7JVNuKt6MkCebGBkzxroGu1F4AC_big.jpg" group-title="Ramdan Arabic",خيوط المعازيب
-http://mhav1.com:80/series/ht2990/742579548/3613.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="دار لفشوش" tvg-logo="https://i.postimg.cc/pTtQmZJs/376160731.jpg" group-title="Ramdan Arabic",دار لفشوش
 http://mhav1.com:80/series/ht2990/742579548/2407.ts
 
@@ -7468,12 +7447,6 @@ http://mhav1.com:80/series/ht2990/742579548/3631.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="دفعة لندن" tvg-logo="http://images.vega-xt-mh.com:80/images/qYuf5P1BwLnF8uVpgeCPxqn9wVq_big.jpg" group-title="Ramdan Arabic",دفعة لندن
 http://mhav1.com:80/series/ht2990/742579548/2244.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="دكان جميلة" tvg-logo="http://images.vega-xt-mh.com:80/images/o6JyVg5goTzVN1MpBvijdO1aCdc_big.jpg" group-title="Ramdan Arabic",دكان جميلة
-http://mhav1.com:80/series/ht2990/742579548/2377.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="دهن حُر" tvg-logo="http://images.vega-xt-mh.com:80/images/t2jGIuE9KC18NMwt3yt8R9PsI28_big.jpg" group-title="Ramdan Arabic",دهن حُر
-http://mhav1.com:80/series/ht2990/742579548/2394.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ذئاب الليل" tvg-logo="https://media0018.elcinema.com/uploads/_640x_905d2e2b95c40327fd4c11e7f18a946179599e7446cdb2c2deee6e8849b1670d.jpg" group-title="Ramdan Arabic",ذئاب الليل
 http://mhav1.com:80/series/ht2990/742579548/2315.ts
@@ -7552,9 +7525,6 @@ http://mhav1.com:80/series/ht2990/742579548/2379.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="شباب البومب 12" tvg-logo="https://i.ibb.co/YNytRtY/b9f66bae1.jpg" group-title="Ramdan Arabic",شباب البومب 12
 http://mhav1.com:80/series/ht2990/742579548/3450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="شط الحرية 5" tvg-logo="https://th.bing.com/th/id/OIP.yF73RkrfCV4yC3BphjDhgQHaEK?w=282&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Ramdan Arabic",شط الحرية 5
-http://mhav1.com:80/series/ht2990/742579548/2396.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="صبايا 6" tvg-logo="http://images.vega-xt-mh.com:80/images/5I3DU11Z5nelQMO1FUkN6dReaVK_big.jpg" group-title="Ramdan Arabic",صبايا 6
 http://mhav1.com:80/series/ht2990/742579548/2310.ts
@@ -8423,12 +8393,6 @@ http://mhav1.com:80/series/ht2990/742579548/3639.ts
 #EXTINF:-1 tvg-id="" tvg-name="الو رمضان" tvg-logo="https://th.bing.com/th/id/OIP.GeqSQYiFfog1XpdWXiC-PgHaEd?pid=ImgDet&rs=1" group-title="Ramdan Tv",الو رمضان
 http://mhav1.com:80/series/ht2990/742579548/1348.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="انا و القناع" tvg-logo="https://media0018.elcinema.com/uploads/_315x420_3af049bba3329729ae9e6bd5e9e0400ed35dc12378159182e068ef3d19ee2f5a.jpg" group-title="Ramdan Tv",انا و القناع
-http://mhav1.com:80/series/ht2990/742579548/2437.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="انبياء الله" tvg-logo="https://i.pinimg.com/736x/81/10/65/811065ec2b2a23351eeef52f211f6d14.jpg" group-title="Ramdan Tv",انبياء الله
-http://mhav1.com:80/series/ht2990/742579548/2288.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ايه و دعاء" tvg-logo="https://i.postimg.cc/ZYxrqXdn/Aya.jpg" group-title="Ramdan Tv",ايه و دعاء
 http://mhav1.com:80/series/ht2990/742579548/1398.ts
 
@@ -8555,9 +8519,6 @@ http://mhav1.com:80/series/ht2990/742579548/2416.ts
 #EXTINF:-1 tvg-id="" tvg-name="كريزي ومان" tvg-logo="https://postimg.cc/hfrxD907" group-title="Ramdan Tv",كريزي ومان
 http://mhav1.com:80/series/ht2990/742579548/1392.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="كفو" tvg-logo="https://i.postimg.cc/fLY25Tzj/kafo.jpg" group-title="Ramdan Tv",كفو
-http://mhav1.com:80/series/ht2990/742579548/2419.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ليك لوك" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wyLkKao5KPbogYT0ZsJfpxWspYw.jpg" group-title="Ramdan Tv",ليك لوك
 http://mhav1.com:80/series/ht2990/742579548/3581.ts
 
@@ -8647,6 +8608,9 @@ http://mhav1.com:80/series/ht2990/742579548/2566.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="All you need is crime" tvg-logo="http://images.vega-xt-mh.com:80/images/rbWboRaVKbrMmY7TwicixBBOJPp_big.jpg" group-title="Series Variety Vip",All you need is crime
 http://mhav1.com:80/series/ht2990/742579548/5089.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alpha Males" tvg-logo="http://images.vega-xt-mh.com:80/images/NqID21yImku6B7kq0oCQTxX2rm_big.jpg" group-title="Series Variety Vip",Alpha Males
+http://mhav1.com:80/series/ht2990/742579548/6443.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Amsterdam Empire" tvg-logo="http://images.vega-xt-mh.com:80/images/26SiShdhcZto61SQxVuxHqysF1f_big.jpg" group-title="Series Variety Vip",Amsterdam Empire
 http://mhav1.com:80/series/ht2990/742579548/6102.ts
@@ -8858,6 +8822,9 @@ http://mhav1.com:80/series/ht2990/742579548/5318.ts
 #EXTINF:-1 tvg-id="" tvg-name="Dahaad" tvg-logo="http://images.vega-xt-mh.com:80/images/4cyGbcwBCYYs9lup5sFwtHzpIcF_big.jpg" group-title="Series Variety Vip",Dahaad
 http://mhav1.com:80/series/ht2990/742579548/2496.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Daldal" tvg-logo="http://images.vega-xt-mh.com:80/images/q42lzp1dS8dRo7wUwtFz24Z7TaA_big.jpg" group-title="Series Variety Vip",Daldal
+http://mhav1.com:80/series/ht2990/742579548/6455.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Dark" tvg-logo="http://images.vega-xt-mh.com:80/images/7CFCzWIZZcnxHke3yAQiGPWXHwF_big.jpg" group-title="Series Variety Vip",Dark
 http://mhav1.com:80/series/ht2990/742579548/4289.ts
 
@@ -8908,9 +8875,6 @@ http://mhav1.com:80/series/ht2990/742579548/3709.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Donkerbos" tvg-logo="http://images.vega-xt-mh.com:80/images/quc8QRqmeHL5KZItsjZ3SOwJLKF_big.jpg" group-title="Series Variety Vip",Donkerbos
 http://mhav1.com:80/series/ht2990/742579548/3479.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Double Crossed: Sooner or Later, You ll Pay the Price" tvg-logo="http://images.vega-xt-mh.com:80/images/xLpVWmlk7EEeghxVEx12dSlH7UI_big.jpg" group-title="Series Variety Vip",Double Crossed: Sooner or Later, You ll Pay the Price
-http://mhav1.com:80/series/ht2990/742579548/4506.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Drops of God" tvg-logo="http://images.vega-xt-mh.com:80/images/9VxIqKXkgVWTZ1y5c3sKQQi6NvO_big.jpg" group-title="Series Variety Vip",Drops of God
 http://mhav1.com:80/series/ht2990/742579548/2451.ts
@@ -9449,6 +9413,9 @@ http://mhav1.com:80/series/ht2990/742579548/2631.ts
 #EXTINF:-1 tvg-id="" tvg-name="Snabba Cash" tvg-logo="http://images.vega-xt-mh.com:80/images/2euUp19voQVYaPVJZ2XRrXfl0sj_big.jpg" group-title="Series Variety Vip",Snabba Cash
 http://mhav1.com:80/series/ht2990/742579548/1757.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Snake Killer" tvg-logo="http://images.vega-xt-mh.com:80/images/vYDbSXtjrMAZedjUNQAVKVYO5BV_big.jpg" group-title="Series Variety Vip",Snake Killer
+http://mhav1.com:80/series/ht2990/742579548/6440.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Snakes and Ladders" tvg-logo="http://images.vega-xt-mh.com:80/images/zWZ5SJznlfmT4QVGAFTnG3vIR3d_big.jpg" group-title="Series Variety Vip",Snakes and Ladders
 http://mhav1.com:80/series/ht2990/742579548/5575.ts
 
@@ -9830,9 +9797,6 @@ http://mhav1.com:80/series/ht2990/742579548/1029.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ada Twist, Scientist" tvg-logo="http://images.vega-xt-mh.com:80/images/vHoHuYdtCkQlj8UtqePjnvUZf80_big.jpg" group-title="Spacetoon",Ada Twist, Scientist
 http://mhav1.com:80/series/ht2990/742579548/901.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Beyblade Burst بي باتل" tvg-logo="http://images.vega-xt-mh.com:80/images/fG7BHxDlntPyB57UuNo9sXmAmLV_big.jpg" group-title="Spacetoon",Beyblade Burst بي باتل
-http://mhav1.com:80/series/ht2990/742579548/800.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Blazing Team: Masters of Yo Kwon Do بليزينغ تيم" tvg-logo="http://images.vega-xt-mh.com:80/images/s9Xu9Hu81ri1eKFoVUF06liXOoI_big.jpg" group-title="Spacetoon",Blazing Team: Masters of Yo Kwon Do بليزينغ تيم
 http://mhav1.com:80/series/ht2990/742579548/801.ts
 
@@ -9847,9 +9811,6 @@ http://mhav1.com:80/series/ht2990/742579548/777.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Flame of Recca (شعلة ريكا)" tvg-logo="http://images.vega-xt-mh.com:80/images/vywtHxLB4CnB2hVrevZ9eEqh33s_big.jpg" group-title="Spacetoon",Flame of Recca (شعلة ريكا)
 http://mhav1.com:80/series/ht2990/742579548/763.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Franklin (مغامرات فريد)" tvg-logo="http://images.vega-xt-mh.com:80/images/rkUNucXagKjXXcIykQfrQgPgbVb_big.jpg" group-title="Spacetoon",Franklin (مغامرات فريد)
-http://mhav1.com:80/series/ht2990/742579548/740.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Franklin and Friends فرانكلين والأصدقاء" tvg-logo="http://images.vega-xt-mh.com:80/images/3DC57pU3VcDp1uDo1q9Emco1tkY_big.jpg" group-title="Spacetoon",Franklin and Friends فرانكلين والأصدقاء
 http://mhav1.com:80/series/ht2990/742579548/761.ts
@@ -9871,9 +9832,6 @@ http://mhav1.com:80/series/ht2990/742579548/806.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Maya and the Three" tvg-logo="http://images.vega-xt-mh.com:80/images/zUBixNeHU0cbSUH7JMktl9OMEMV_big.jpg" group-title="Spacetoon",Maya and the Three
 http://mhav1.com:80/series/ht2990/742579548/924.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Om Nom Stories مغامرات أوم نم" tvg-logo="http://images.vega-xt-mh.com:80/images/cN0ayhAfJNar17WzoxHbV4ykZZk_big.jpg" group-title="Spacetoon",Om Nom Stories مغامرات أوم نم
-http://mhav1.com:80/series/ht2990/742579548/773.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Pandalian (كوكب الباندا)" tvg-logo="http://images.vega-xt-mh.com:80/images/4z3VcPpOgFlrgNFrTI24ODlhKF7_big.jpg" group-title="Spacetoon",Pandalian (كوكب الباندا)
 http://mhav1.com:80/series/ht2990/742579548/775.ts
@@ -9958,6 +9916,9 @@ http://mhav1.com:80/series/ht2990/742579548/465.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Come Dine with Me (AR)يلا نتعشى" tvg-logo="http://images.vega-xt-mh.com:80/images/1FQC2OtTA8fygsau0eKc5wn6qvx_big.jpg" group-title="TV Shows",Come Dine with Me (AR)يلا نتعشى
 http://mhav1.com:80/series/ht2990/742579548/3258.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Confashion" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy0Zp_y-UXdOAlXK209HQ-fPceAVDFigsCw&s" group-title="TV Shows",Confashion
+http://mhav1.com:80/series/ht2990/742579548/6435.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DATE الحب من أول " tvg-logo="https://tse3.mm.bing.net/th/id/OIP.3dPZ2QwH1J9-CP4cw1blqgAAAA?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="TV Shows",DATE الحب من أول 
 http://mhav1.com:80/series/ht2990/742579548/6166.ts
@@ -10376,9 +10337,6 @@ http://mhav1.com:80/series/ht2990/742579548/5682.ts
 #EXTINF:-1 tvg-id="" tvg-name="Back To Back" tvg-logo="https://i.ibb.co/SD5GW00B/K4u79f.jpg" group-title="أطفال عربى",Back To Back
 http://mhav1.com:80/series/ht2990/742579548/5688.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Beat Bugs مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/eVC1dtvG9CqWSkxixoj8R5X7w1b_big.jpg" group-title="أطفال عربى",Beat Bugs مدبلج
-http://mhav1.com:80/series/ht2990/742579548/1143.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Ben 10" tvg-logo="http://images.vega-xt-mh.com:80/images/pT0NlYVIkwM2zAw9oUkePwrOlxW_big.jpg" group-title="أطفال عربى",Ben 10
 http://mhav1.com:80/series/ht2990/742579548/3763.ts
 
@@ -10489,6 +10447,9 @@ http://mhav1.com:80/series/ht2990/742579548/5726.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Kung Fu Panda: The Dragon Knight مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/cr7ow6T0kKIuDPQYmyh8U2kpair_big.jpg" group-title="أطفال عربى",Kung Fu Panda: The Dragon Knight مدبلج
 http://mhav1.com:80/series/ht2990/742579548/1614.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="LEGO Marvel Avengers: Strange Tails" tvg-logo="http://images.vega-xt-mh.com:80/images/6MhzH93izyEvVO15qgM8UJNvY4z_big.jpg" group-title="أطفال عربى",LEGO Marvel Avengers: Strange Tails
+http://mhav1.com:80/series/ht2990/742579548/6458.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="LEGO Ninjago: Dragons Rising" tvg-logo="http://images.vega-xt-mh.com:80/images/aUOgcqXVy7tSus5u6OJeB1pB8uL_big.jpg" group-title="أطفال عربى",LEGO Ninjago: Dragons Rising
 http://mhav1.com:80/series/ht2990/742579548/4201.ts
@@ -10607,9 +10568,6 @@ http://mhav1.com:80/series/ht2990/742579548/5728.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Adventures of Tintin" tvg-logo="http://images.vega-xt-mh.com:80/images/nsdVuFcjB9ahhBUlkJyzXo0Pudq_big.jpg" group-title="أطفال عربى",The Adventures of Tintin
 http://mhav1.com:80/series/ht2990/742579548/2894.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Boss Baby: Back in Business عودة الطفل الزعيم" tvg-logo="http://images.vega-xt-mh.com:80/images/mUVZHkJPKDYgDy1dbDdi0Esj9eB_big.jpg" group-title="أطفال عربى",The Boss Baby: Back in Business عودة الطفل الزعيم
-http://mhav1.com:80/series/ht2990/742579548/384.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="The Creature Cases" tvg-logo="http://images.vega-xt-mh.com:80/images/tFi3nx53Dfwa5YOd4J2VnIXpqBk_big.jpg" group-title="أطفال عربى",The Creature Cases
 http://mhav1.com:80/series/ht2990/742579548/6291.ts
 
@@ -10636,6 +10594,9 @@ http://mhav1.com:80/series/ht2990/742579548/5680.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="True: Terrific Tales" tvg-logo="http://images.vega-xt-mh.com:80/images/97zzdYwoQUYJmtk0vz4hnG7Xpzx_big.jpg" group-title="أطفال عربى",True: Terrific Tales
 http://mhav1.com:80/series/ht2990/742579548/1959.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Tyler Perry's Young Dylan" tvg-logo="http://images.vega-xt-mh.com:80/images/gch0Y3uJTsHhbEgMdmpDx9Wippc_big.jpg" group-title="أطفال عربى",Tyler Perry's Young Dylan
+http://mhav1.com:80/series/ht2990/742579548/6424.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ultimate Alien" tvg-logo="http://images.vega-xt-mh.com:80/images/4mk8iFUbTyUtjeYZDU5zgPm2o1s_big.jpg" group-title="أطفال عربى",Ultimate Alien
 http://mhav1.com:80/series/ht2990/742579548/4786.ts
@@ -10697,9 +10658,6 @@ http://mhav1.com:80/series/ht2990/742579548/2489.ts
 #EXTINF:-1 tvg-id="" tvg-name="اللى فات سات" tvg-logo="https://tse3.mm.bing.net/th?id=OIP.0CF5sg2IhyRYyYxFomhDugHaFj&pid=Api&P=0&h=220" group-title="أطفال عربى",اللى فات سات
 http://mhav1.com:80/series/ht2990/742579548/2802.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="المحقق كونان" tvg-logo="http://images.vega-xt-mh.com:80/images/9ve6LW4ltMMpp9WjoR4MGViOp9V_big.jpg" group-title="أطفال عربى",المحقق كونان
-http://mhav1.com:80/series/ht2990/742579548/3139.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="المدبرة والبوكيمون" tvg-logo="http://images.vega-xt-mh.com:80/images/2k53AsWsLrMtcbFyH0nVOqQjj2x_big.jpg" group-title="أطفال عربى",المدبرة والبوكيمون
 http://mhav1.com:80/series/ht2990/742579548/3255.ts
 
@@ -10715,8 +10673,8 @@ http://mhav1.com:80/series/ht2990/742579548/2848.ts
 #EXTINF:-1 tvg-id="" tvg-name="باتمان مدبلج " tvg-logo="http://images.vega-xt-mh.com:80/images/lBomQFW1vlm1yUYMNSbFZ45R4Ox_big.jpg" group-title="أطفال عربى",باتمان مدبلج 
 http://mhav1.com:80/series/ht2990/742579548/2892.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="بكار" tvg-logo="http://images.vega-xt-mh.com:80/images/jgKYimBNIi1cKHRud8ammTCSO4m_big.jpg" group-title="أطفال عربى",بكار
-http://mhav1.com:80/series/ht2990/742579548/223.ts
+#EXTINF:-1 tvg-id="" tvg-name="بكار" tvg-logo="http://images.vega-xt-mh.com:80/images/ee7c4VpYhujNVgZ0n88ASB8rGdM_big.jpg" group-title="أطفال عربى",بكار
+http://mhav1.com:80/series/ht2990/742579548/6451.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بليتش حرب الألف سنة الدموية" tvg-logo="http://images.vega-xt-mh.com:80/images/2EewmxXe72ogD0EaWM8gqa0ccIw_big.jpg" group-title="أطفال عربى",بليتش حرب الألف سنة الدموية
 http://mhav1.com:80/series/ht2990/742579548/2488.ts
@@ -10802,6 +10760,9 @@ http://mhav1.com:80/series/ht2990/742579548/1751.ts
 #EXTINF:-1 tvg-id="" tvg-name="فريق الخارقات الأربعة مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/dFVLutawn0Xo2gUx2LSGPPGuzlE_big.jpg" group-title="أطفال عربى",فريق الخارقات الأربعة مدبلج
 http://mhav1.com:80/series/ht2990/742579548/3677.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="فوازير اطفال" tvg-logo="https://shahid.mbc.net/mediaObject/2024/RAMADAN_OFFICIAL/Thump_clean_Fawazir_2024/original/Thump_clean_Fawazir_2024.jpg?height=1152&width=2048&croppingPoint=tc&version=1&type=webp" group-title="أطفال عربى",فوازير اطفال
+http://mhav1.com:80/series/ht2990/742579548/6469.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="فولانيا" tvg-logo="http://images.vega-xt-mh.com:80/images/33b9a3e7ac16c2d4fd9dad38d589932f.jpg" group-title="أطفال عربى",فولانيا
 http://mhav1.com:80/series/ht2990/742579548/213.ts
 
@@ -10847,6 +10808,9 @@ http://mhav1.com:80/series/ht2990/742579548/3199.ts
 #EXTINF:-1 tvg-id="" tvg-name="مغامرات نيلز" tvg-logo="http://images.vega-xt-mh.com:80/images/eoCxhDHMGx2i3qUBWu3N6tBRxbx_big.jpg" group-title="أطفال عربى",مغامرات نيلز
 http://mhav1.com:80/series/ht2990/742579548/4557.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="منصور " tvg-logo="https://th.bing.com/th/id/R.5ad20569eeefac12a5eb010c815be007?rik=HwYF930%2b3NfRew&pid=ImgRaw&r=0" group-title="أطفال عربى",منصور 
+http://mhav1.com:80/series/ht2990/742579548/6423.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="مهمة الأسطورة" tvg-logo="http://images.vega-xt-mh.com:80/images/cRDAtSmrMFiooCAL41AsBBqzpRJ_big.jpg" group-title="أطفال عربى",مهمة الأسطورة
 http://mhav1.com:80/series/ht2990/742579548/553.ts
 
@@ -10886,9 +10850,6 @@ http://mhav1.com:80/series/ht2990/742579548/4803.ts
 #EXTINF:-1 tvg-id="" tvg-name="إبراهيم الأخضر " tvg-logo="https://th.bing.com/th/id/OIP.0jKumgWl1agUS04mqeeANgHaHa?rs=1&pid=ImgDetMain" group-title="اسلاميات",إبراهيم الأخضر 
 http://mhav1.com:80/series/ht2990/742579548/4076.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ابن بطوطه" tvg-logo="https://media0011.elcinema.comx/uploads/_640x_a5bc352a6d3df430ffbe00626378359340e56d1abb55404162b0326f6f712c59.jpg" group-title="اسلاميات",ابن بطوطه
-http://mhav1.com:80/series/ht2990/742579548/998.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="اعظم سجين فى التاريخ" tvg-logo="https://i.ibb.co/DrBcSnk/71be-KM4n-Hk-L-SL1500.jpg" group-title="اسلاميات",اعظم سجين فى التاريخ
 http://mhav1.com:80/series/ht2990/742579548/4718.ts
 
@@ -10918,6 +10879,9 @@ http://mhav1.com:80/series/ht2990/742579548/4504.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="النبى الانسان" tvg-logo="https://i.ibb.co/VHK54G6/4548425.jpg" group-title="اسلاميات",النبى الانسان
 http://mhav1.com:80/series/ht2990/742579548/4559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="برنامج نور" tvg-logo="https://th.bing.com/th/id/R.19d74fdd95cf16b95e8655f5d8c2b66e?rik=8z7bAXiOCcHkJg&riu=http%3a%2f%2falmicrophone.net%2fwp-content%2fuploads%2f2025%2f02%2f-e1741025996905.jpeg&ehk=PPwV3ZamqBbOKe1FrPw%2buJ%2fdIws5wRH1fYzVuk%2fsiTE%3d&risl=&pid=ImgRaw&r=0" group-title="اسلاميات",برنامج نور
+http://mhav1.com:80/series/ht2990/742579548/6437.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بلقيس" tvg-logo="http://images.vega-xt-mh.com:80/images/tXwOYZ0KImaWIUw8RtzvyPAtUH9_big.jpg" group-title="اسلاميات",بلقيس
 http://mhav1.com:80/series/ht2990/742579548/3734.ts
@@ -11039,6 +11003,9 @@ http://mhav1.com:80/series/ht2990/742579548/3661.ts
 #EXTINF:-1 tvg-id="" tvg-name="ألف ليلة وليلة وردشان وماندو" tvg-logo="http://images.vega-xt-mh.com:80/images/nxMCoFQD3sbU6Iw5snOtmuenr6W_big.jpg" group-title="فوازيرمصريه",ألف ليلة وليلة وردشان وماندو
 http://mhav1.com:80/series/ht2990/742579548/3660.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="الخاطبة" tvg-logo="http://images.vega-xt-mh.com:80/images/7Wz8Yn0TRAqYEQZIrwb3TOwdLl7_big.jpg" group-title="فوازيرمصريه",الخاطبة
+http://mhav1.com:80/series/ht2990/742579548/6464.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الدليل الوحيد" tvg-logo="http://images.vega-xt-mh.com:80/images/rip1GqXL5Xylf5CV7GRwLSxf0Q3_big.jpg" group-title="فوازيرمصريه",الدليل الوحيد
 http://mhav1.com:80/series/ht2990/742579548/452.ts
 
@@ -11047,6 +11014,9 @@ http://mhav1.com:80/series/ht2990/742579548/453.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الف ليلة وليلة - شريهان 85 " tvg-logo="https://th.bing.com/th/id/OIP.5kr4I8mvg1Z5Ox9wmV6FjAHaFj?rs=1&pid=ImgDetMain" group-title="فوازيرمصريه",الف ليلة وليلة - شريهان 85 
 http://mhav1.com:80/series/ht2990/742579548/4940.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="عمو فؤاد" tvg-logo="http://images.vega-xt-mh.com:80/images/rip1GqXL5Xylf5CV7GRwLSxf0Q3_big.jpg" group-title="فوازيرمصريه",عمو فؤاد
+http://mhav1.com:80/series/ht2990/742579548/6467.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عمو فؤاد وصناع الحضارة" tvg-logo="http://images.vega-xt-mh.com:80/images/rip1GqXL5Xylf5CV7GRwLSxf0Q3_big.jpg" group-title="فوازيرمصريه",عمو فؤاد وصناع الحضارة
 http://mhav1.com:80/series/ht2990/742579548/450.ts
@@ -11068,6 +11038,12 @@ http://mhav1.com:80/series/ht2990/742579548/454.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فوازير نيللي  زي النهارده" tvg-logo="https://d2tn925r7e3ka1.cloudfront.net/imgs/Series/front-thumb/41592419540247.jpg" group-title="فوازيرمصريه",فوازير نيللي  زي النهارده
 http://mhav1.com:80/series/ht2990/742579548/455.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="فوازير: المناسبات" tvg-logo="http://images.vega-xt-mh.com:80/images/qm5g4oOfdZK51nbbeHUBTPcN5H2_big.jpg" group-title="فوازيرمصريه",فوازير: المناسبات
+http://mhav1.com:80/series/ht2990/742579548/6465.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="فوزايز نيلى" tvg-logo="http://images.vega-xt-mh.com:80/images/_big.jpg" group-title="فوازيرمصريه",فوزايز نيلى
+http://mhav1.com:80/series/ht2990/742579548/6468.ts
 
 
 ##### [مسرح مصر] #####
@@ -11197,9 +11173,6 @@ http://mhav1.com:80/series/ht2990/742579548/470.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Aleph" tvg-logo="http://images.vega-xt-mh.com:80/images/k8kkhYmrbg8Mw6CWGfZmZwYQF3J_big.jpg" group-title="مسلسلات تركيه",Aleph
 http://mhav1.com:80/series/ht2990/742579548/1013.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ask Mantik Intikam" tvg-logo="http://images.vega-xt-mh.com:80/images/rGWIOEHTm0B56MYreSSmVm21ult_big.jpg" group-title="مسلسلات تركيه",Ask Mantik Intikam
-http://mhav1.com:80/series/ht2990/742579548/724.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Atesbocegi سراج الليل" tvg-logo="http://images.vega-xt-mh.com:80/images/jsbpJXeROUCTXNo2fpidLhEqIrq_big.jpg" group-title="مسلسلات تركيه",Atesbocegi سراج الليل
 http://mhav1.com:80/series/ht2990/742579548/5901.ts
@@ -11333,9 +11306,6 @@ http://mhav1.com:80/series/ht2990/742579548/2680.ts
 #EXTINF:-1 tvg-id="" tvg-name="الأزهار الحزينة" tvg-logo="http://images.vega-xt-mh.com:80/images/oAmL6JoFB5sW96V7O5yVC5zRB9N_big.jpg" group-title="مسلسلات تركيه",الأزهار الحزينة
 http://mhav1.com:80/series/ht2990/742579548/5675.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الأسطورة" tvg-logo="http://images.vega-xt-mh.com:80/images/9iddnF4PiyzodSFnJ0dNeMl4NJm_big.jpg" group-title="مسلسلات تركيه",الأسطورة
-http://mhav1.com:80/series/ht2990/742579548/1463.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="الاحترام" tvg-logo="http://images.vega-xt-mh.com:80/images/bodj54gMffzzC0LVVZ8vwuwHrnO_big.jpg" group-title="مسلسلات تركيه",الاحترام
 http://mhav1.com:80/series/ht2990/742579548/404.ts
 
@@ -11377,9 +11347,6 @@ http://mhav1.com:80/series/ht2990/742579548/3133.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الحب لا يفهم الكلام" tvg-logo="http://images.vega-xt-mh.com:80/images/krSdiuUrsqka7FFtaqjxEqC0bE9_big.jpg" group-title="مسلسلات تركيه",الحب لا يفهم الكلام
 http://mhav1.com:80/series/ht2990/742579548/5170.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الحب ورطة" tvg-logo="http://images.vega-xt-mh.com:80/images/6p3rWulvjNx1bP2xgqGxUh9bOCY_big.jpg" group-title="مسلسلات تركيه",الحب ورطة
-http://mhav1.com:80/series/ht2990/742579548/30.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الحب يجعلنا نبكى" tvg-logo="http://images.vega-xt-mh.com:80/images/oUZTOftDBESb4jAKwe1PUVVhojA_big.jpg" group-title="مسلسلات تركيه",الحب يجعلنا نبكى
 http://mhav1.com:80/series/ht2990/742579548/4109.ts
@@ -11681,9 +11648,6 @@ http://mhav1.com:80/series/ht2990/742579548/497.ts
 #EXTINF:-1 tvg-id="" tvg-name="حاله إجتماعيه" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/o0DJC4ji05DuT7fJ6jpbYaIouww.jpg" group-title="مسلسلات تركيه",حاله إجتماعيه
 http://mhav1.com:80/series/ht2990/742579548/2484.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="حب أبيض أسود" tvg-logo="http://images.vega-xt-mh.com:80/images/eO6C0NFLDpdnKnltEhKvkvUjIpk_big.jpg" group-title="مسلسلات تركيه",حب أبيض أسود
-http://mhav1.com:80/series/ht2990/742579548/5903.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="حب بالصدفة." tvg-logo="http://images.vega-xt-mh.com:80/images/zUgXTbQiVoeWELxEeFWd4sWTHMo_big.jpg" group-title="مسلسلات تركيه",حب بالصدفة.
 http://mhav1.com:80/series/ht2990/742579548/722.ts
 
@@ -11843,14 +11807,14 @@ http://mhav1.com:80/series/ht2990/742579548/101.ts
 #EXTINF:-1 tvg-id="" tvg-name="علاقات معقدة " tvg-logo="https://th.bing.com/th/id/OIP.PuRB6iOHpiQBsuB05O68eQHaJF?rs=1&pid=ImgDetMain" group-title="مسلسلات تركيه",علاقات معقدة 
 http://mhav1.com:80/series/ht2990/742579548/4218.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="على مر الزمان" tvg-logo="http://images.vega-xt-mh.com:80/images/9EdummL201K7rYtcZ5z08yX8NKm_big.jpg" group-title="مسلسلات تركيه",على مر الزمان
+http://mhav1.com:80/series/ht2990/742579548/6438.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="على مشارف الليل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tXhEy9MLTjGbSC7Yi8CmBTlUZ8F.jpg" group-title="مسلسلات تركيه",على مشارف الليل
 http://mhav1.com:80/series/ht2990/742579548/1832.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="علي رضا" tvg-logo="http://images.vega-xt-mh.com:80/images/xINgk79vqkfYeHIq6oVd6Y853R2_big.jpg" group-title="مسلسلات تركيه",علي رضا
 http://mhav1.com:80/series/ht2990/742579548/387.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="علي مر الزمان" tvg-logo="http://images.vega-xt-mh.com:80/images/9EdummL201K7rYtcZ5z08yX8NKm_big.jpg" group-title="مسلسلات تركيه",علي مر الزمان
-http://mhav1.com:80/series/ht2990/742579548/341.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عندما تختبئ أمنا" tvg-logo="http://images.vega-xt-mh.com:80/images/c3pUGgHQudc5KxMxfvJxGYC6zoK_big.jpg" group-title="مسلسلات تركيه",عندما تختبئ أمنا
 http://mhav1.com:80/series/ht2990/742579548/995.ts
@@ -11860,9 +11824,6 @@ http://mhav1.com:80/series/ht2990/742579548/3230.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فاتح حربية مترجم " tvg-logo="http://images.vega-xt-mh.com:80/images/vMZU01GPWbygK94EajHG1lMgs0x_big.jpg" group-title="مسلسلات تركيه",فاتح حربية مترجم 
 http://mhav1.com:80/series/ht2990/742579548/4657.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="فاطمة" tvg-logo="http://images.vega-xt-mh.com:80/images/37W4B61RGnRMYfcsLsK17UOtzL6_big.jpg" group-title="مسلسلات تركيه",فاطمة
-http://mhav1.com:80/series/ht2990/742579548/498.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فتاه النافذة" tvg-logo="http://images.vega-xt-mh.com:80/images/rOxinGhIF8iuwwM28FX24VAIqbk_big.jpg" group-title="مسلسلات تركيه",فتاه النافذة
 http://mhav1.com:80/series/ht2990/742579548/28.ts
@@ -11941,9 +11902,6 @@ http://mhav1.com:80/series/ht2990/742579548/2611.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ما بعد القضبان" tvg-logo="http://images.vega-xt-mh.com:80/images/ractMJmoMyt2WGmKZOwvWjHfjSR_big.jpg" group-title="مسلسلات تركيه",ما بعد القضبان
 http://mhav1.com:80/series/ht2990/742579548/5013.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ما هو ذنب فاطمة جول ؟" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ0MDYwNDMxOV5BMl5BanBnXkFtZTcwNjI0OTgxOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg" group-title="مسلسلات تركيه",ما هو ذنب فاطمة جول ؟
-http://mhav1.com:80/series/ht2990/742579548/823.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ماذا لو أحببت كثيراً" tvg-logo="http://images.vega-xt-mh.com:80/images/oMXe1FC5oVtnjutwW2Na4fu0HK7_big.jpg" group-title="مسلسلات تركيه",ماذا لو أحببت كثيراً
 http://mhav1.com:80/series/ht2990/742579548/2670.ts
@@ -12304,6 +12262,9 @@ http://mhav1.com:80/series/ht2990/742579548/5085.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فرحة حياتى" tvg-logo="http://images.vega-xt-mh.com:80/images/4iiMiam1380LqoRiutgu7IZJEmy_big.jpg" group-title="مسلسلات تركيه حديثه",فرحة حياتى
 http://mhav1.com:80/series/ht2990/742579548/5987.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="قصر رمضان بك" tvg-logo="http://images.vega-xt-mh.com:80/images/qIbWkAO35hUgBHc665JfLwt5iIl_big.jpg" group-title="مسلسلات تركيه حديثه",قصر رمضان بك
+http://mhav1.com:80/series/ht2990/742579548/6462.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قطرات الثلج" tvg-logo="http://images.vega-xt-mh.com:80/images/gxS9bwbxVo4rfhiQswkgCLYX6Zo_big.jpg" group-title="مسلسلات تركيه حديثه",قطرات الثلج
 http://mhav1.com:80/series/ht2990/742579548/5162.ts
@@ -12706,6 +12667,9 @@ http://mhav1.com:80/series/ht2990/742579548/3219.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بلا غمد " tvg-logo="http://images.vega-xt-mh.com:80/images/ngdXEZ8rwmO1I3KbSxmuTLpLO8c_big.jpg" group-title="مسلسلات عربيه",بلا غمد 
 http://mhav1.com:80/series/ht2990/742579548/4798.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="بلحظة" tvg-logo="http://images.vega-xt-mh.com:80/images/4bOwpck8yuBHj8DS2TGyrAGrfO6_big.jpg" group-title="مسلسلات عربيه",بلحظة
+http://mhav1.com:80/series/ht2990/742579548/6422.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بيت طاهر" tvg-logo="http://images.vega-xt-mh.com:80/images/en9sTMuE4FKVKBVnNow2eFey4gx_big.jpg" group-title="مسلسلات عربيه",بيت طاهر
 http://mhav1.com:80/series/ht2990/742579548/2905.ts
@@ -14450,9 +14414,6 @@ http://mhav1.com:80/series/ht2990/742579548/3262.ts
 #EXTINF:-1 tvg-id="" tvg-name="اسمى فرح مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/ba89dV0VI1FBEPwrzuM8e8PVxNM_big.jpg" group-title="مسلسلات مدبلجه",اسمى فرح مدبلج
 http://mhav1.com:80/series/ht2990/742579548/2490.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="اسمي ملك  مدبلج" tvg-logo="https://3isk.club/wp-content/uploads/2020/08/1-8.jpg" group-title="مسلسلات مدبلجه",اسمي ملك  مدبلج
-http://mhav1.com:80/series/ht2990/742579548/4029.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="اصدقاء العمر" tvg-logo="http://images.vega-xt-mh.com:80/images/3Fe4MMlydVQ3o5eYA4AVKjLMSPb_big.jpg" group-title="مسلسلات مدبلجه",اصدقاء العمر
 http://mhav1.com:80/series/ht2990/742579548/2015.ts
 
@@ -14482,6 +14443,9 @@ http://mhav1.com:80/series/ht2990/742579548/4351.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الاسيره" tvg-logo="http://images.vega-xt-mh.com:80/images/2lUypzrIpZ87Crg2yrJKIJ5N5Z9_big.jpg" group-title="مسلسلات مدبلجه",الاسيره
 http://mhav1.com:80/series/ht2990/742579548/5576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="الاعراف مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/4yYZoYgeNshoS2aODwUvCXIa8yn_big.jpg" group-title="مسلسلات مدبلجه",الاعراف مدبلج
+http://mhav1.com:80/series/ht2990/742579548/6436.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الامل مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/9CKuVyt6eJmGUwEq6AOn2jvLP1f_big.jpg" group-title="مسلسلات مدبلجه",الامل مدبلج
 http://mhav1.com:80/series/ht2990/742579548/4661.ts
@@ -14756,9 +14720,6 @@ http://mhav1.com:80/series/ht2990/742579548/2500.ts
 #EXTINF:-1 tvg-id="" tvg-name="الممثله مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/2q42KuJvCu5CVwRRIRizFikwEay_big.jpg" group-title="مسلسلات مدبلجه",الممثله مدبلج
 http://mhav1.com:80/series/ht2990/742579548/2548.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="المنظمة مدبلح" tvg-logo="http://images.vega-xt-mh.com:80/images/d9deRu03wbPIokp4qveLzrlUTLW_big.jpg" group-title="مسلسلات مدبلجه",المنظمة مدبلح
-http://mhav1.com:80/series/ht2990/742579548/5601.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="المنفى الأزرق مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/cCwUOWj28riFRtI2npCRl7AJQaJ_big.jpg" group-title="مسلسلات مدبلجه",المنفى الأزرق مدبلج
 http://mhav1.com:80/series/ht2990/742579548/2741.ts
 
@@ -14810,9 +14771,6 @@ http://mhav1.com:80/series/ht2990/742579548/3722.ts
 #EXTINF:-1 tvg-id="" tvg-name="بربروس مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/5I4Fjzutzek42X1JvlETrhvcL1r_big.jpg" group-title="مسلسلات مدبلجه",بربروس مدبلج
 http://mhav1.com:80/series/ht2990/742579548/2886.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="بريق الأمل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tagumvER5tRwgzlMVXAb6ZwpIqz.jpg" group-title="مسلسلات مدبلجه",بريق الأمل
-http://mhav1.com:80/series/ht2990/742579548/1633.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="بنات الشمس" tvg-logo="http://images.vega-xt-mh.com:80/images/kVJbUlcWGyLp0H1xXLo1OicmU8x_big.jpg" group-title="مسلسلات مدبلجه",بنات الشمس
 http://mhav1.com:80/series/ht2990/742579548/1716.ts
 
@@ -14824,9 +14782,6 @@ http://mhav1.com:80/series/ht2990/742579548/4124.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بيرنا وبلجين" tvg-logo="http://images.vega-xt-mh.com:80/images/tqq5vCxQMAvUn9gcCCimnsV8Xme_big.jpg" group-title="مسلسلات مدبلجه",بيرنا وبلجين
 http://mhav1.com:80/series/ht2990/742579548/4780.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="تحت المطر" tvg-logo="http://images.vega-xt-mh.com:80/images/gZzm4OdD0BWbyR2ZTqz1okXWpg1_big.jpg" group-title="مسلسلات مدبلجه",تحت المطر
-http://mhav1.com:80/series/ht2990/742579548/2422.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="تذكر الحب مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/aID893ooBbZ4fxy2rQvb7MYIlv8_big.jpg" group-title="مسلسلات مدبلجه",تذكر الحب مدبلج
 http://mhav1.com:80/series/ht2990/742579548/5700.ts
@@ -15059,6 +15014,9 @@ http://mhav1.com:80/series/ht2990/742579548/3028.ts
 #EXTINF:-1 tvg-id="" tvg-name="عطر الامس" tvg-logo="http://images.vega-xt-mh.com:80/images/vlhILfRVpaTqYM0ToyT9iJlGiSa_big.jpg" group-title="مسلسلات مدبلجه",عطر الامس
 http://mhav1.com:80/series/ht2990/742579548/4677.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="على مر الزمان مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/9EdummL201K7rYtcZ5z08yX8NKm_big.jpg" group-title="مسلسلات مدبلجه",على مر الزمان مدبلج
+http://mhav1.com:80/series/ht2990/742579548/6432.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="علي رضا" tvg-logo="http://images.vega-xt-mh.com:80/images/xINgk79vqkfYeHIq6oVd6Y853R2_big.jpg" group-title="مسلسلات مدبلجه",علي رضا
 http://mhav1.com:80/series/ht2990/742579548/1497.ts
 
@@ -15098,14 +15056,14 @@ http://mhav1.com:80/series/ht2990/742579548/4126.ts
 #EXTINF:-1 tvg-id="" tvg-name="فى السراء و الضراء" tvg-logo="http://images.vega-xt-mh.com:80/images/xvYt2H3WoCaOjj7Jc8BOpMDiT4T_big.jpg" group-title="مسلسلات مدبلجه",فى السراء و الضراء
 http://mhav1.com:80/series/ht2990/742579548/2559.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="في السر والخفاء مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/rH88tJY5pzicwvrdiP3Omg6hBqq_big.jpg" group-title="مسلسلات مدبلجه",في السر والخفاء مدبلج
-http://mhav1.com:80/series/ht2990/742579548/3769.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="فيلينتا" tvg-logo="http://images.vega-xt-mh.com:80/images/v2WXNBzsXcL21s5V76cBI0uKKlp_big.jpg" group-title="مسلسلات مدبلجه",فيلينتا
 http://mhav1.com:80/series/ht2990/742579548/5103.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قبول" tvg-logo="http://images.vega-xt-mh.com:80/images/j6eaCe8a59K24EeWarawlvvF1eZ_big.jpg" group-title="مسلسلات مدبلجه",قبول
 http://mhav1.com:80/series/ht2990/742579548/1552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="قصر رمضان بك مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/qIbWkAO35hUgBHc665JfLwt5iIl_big.jpg" group-title="مسلسلات مدبلجه",قصر رمضان بك مدبلج
+http://mhav1.com:80/series/ht2990/742579548/6463.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قصر روز مدبلج" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/uUJPWtRgA5z1zxS55OGJULESSr4.jpg" group-title="مسلسلات مدبلجه",قصر روز مدبلج
 http://mhav1.com:80/series/ht2990/742579548/3325.ts
@@ -15290,6 +15248,9 @@ http://mhav1.com:80/series/ht2990/742579548/3963.ts
 #EXTINF:-1 tvg-id="" tvg-name="وقت الحب مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/oJyuqx79z1YxoGLxz1CmHeRmuF8_big.jpg" group-title="مسلسلات مدبلجه",وقت الحب مدبلج
 http://mhav1.com:80/series/ht2990/742579548/2518.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ولى العهد مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/Aq1ZBgTSaVDhiMT42XaVpU92nAH_big.jpg" group-title="مسلسلات مدبلجه",ولى العهد مدبلج
+http://mhav1.com:80/series/ht2990/742579548/6445.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="وماذا بعد" tvg-logo="http://images.vega-xt-mh.com:80/images/1edqCYM98UelU1xDgptRua7BpbS_big.jpg" group-title="مسلسلات مدبلجه",وماذا بعد
 http://mhav1.com:80/series/ht2990/742579548/4700.ts
 
@@ -15422,9 +15383,6 @@ http://mhav1.com:80/series/ht2990/742579548/5847.ts
 #EXTINF:-1 tvg-id="" tvg-name="الإخوة الأعداء" tvg-logo="https://media0029.elcinema.com/uploads/_640x_2007eaffd73aa387b9b4084367ee8b425a6f0eda55d6f4f626a5aef8c817cd6e.jpg" group-title="مسلسلات مصريه",الإخوة الأعداء
 http://mhav1.com:80/series/ht2990/742579548/2992.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الاب الروحي" tvg-logo="http://images.vega-xt-mh.com:80/images/30sj5yki6lcIvj0BU6WFW3w1qVq_big.jpg" group-title="مسلسلات مصريه",الاب الروحي
-http://mhav1.com:80/series/ht2990/742579548/116.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="الاخ الكبير" tvg-logo="http://images.vega-xt-mh.com:80/images/p5OhJnjjKrqMBcEG9krhktqElsX_big.jpg" group-title="مسلسلات مصريه",الاخ الكبير
 http://mhav1.com:80/series/ht2990/742579548/5690.ts
 
@@ -15434,8 +15392,8 @@ http://mhav1.com:80/series/ht2990/742579548/541.ts
 #EXTINF:-1 tvg-id="" tvg-name="الاكسلانس" tvg-logo="http://images.vega-xt-mh.com:80/images/kZcNSq49TwfPgwnOBxrQQGf5uxN_big.jpg" group-title="مسلسلات مصريه",الاكسلانس
 http://mhav1.com:80/series/ht2990/742579548/1818.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الباب في الباب" tvg-logo="https://media0026.elcinema.com/uploads/_640x_17add3118a40266e373bb2ed3943f3b6ba1bf1eadffe76cb35486c23d0637cc2.jpg" group-title="مسلسلات مصريه",الباب في الباب
-http://mhav1.com:80/series/ht2990/742579548/1553.ts
+#EXTINF:-1 tvg-id="" tvg-name="الباب في الباب" tvg-logo="http://images.vega-xt-mh.com:80/images/9DOcTYvmYLRW1wgAU8WJgUmEw3C_big.jpg" group-title="مسلسلات مصريه",الباب في الباب
+http://mhav1.com:80/series/ht2990/742579548/6434.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الباطنية" tvg-logo="http://images.vega-xt-mh.com:80/images/mkgou5tK3tjidMWl25Jx0g56bTv_big.jpg" group-title="مسلسلات مصريه",الباطنية
 http://mhav1.com:80/series/ht2990/742579548/3189.ts
@@ -16140,7 +16098,7 @@ http://mhav1.com:80/series/ht2990/742579548/6277.ts
 http://mhav1.com:80/series/ht2990/742579548/6045.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ما تراه ليس كما يبدو" tvg-logo="http://images.vega-xt-mh.com:80/images/53MAEv6mfAzlMqon4x3gidACoar_big.jpg" group-title="مسلسلات مصريه 2025",ما تراه ليس كما يبدو
-http://mhav1.com:80/series/ht2990/742579548/5850.ts
+http://mhav1.com:80/series/ht2990/742579548/6433.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="مليونير في غمضه عين" tvg-logo="https://th.bing.com/th?id=OIF.JyGG0ctUtMY3v0r%2bd4RhpA&rs=1&pid=ImgDetMain" group-title="مسلسلات مصريه 2025",مليونير في غمضه عين
 http://mhav1.com:80/series/ht2990/742579548/4591.ts
@@ -16394,9 +16352,6 @@ http://mhav1.com:80/series/ht2990/742579548/4549.ts
 #EXTINF:-1 tvg-id="" tvg-name="جمال الحريم" tvg-logo="http://images.vega-xt-mh.com:80/images/izYDq7SKBZzkMU6xWxz2faBsub6_big.jpg" group-title="مسلسلات مصريه حديثه",جمال الحريم
 http://mhav1.com:80/series/ht2990/742579548/402.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="جمجوم و بمبم" tvg-logo="http://images.vega-xt-mh.com:80/images/6AfwET53xIlaCGaQEZAWcw8lFlV_big.jpg" group-title="مسلسلات مصريه حديثه",جمجوم و بمبم
-http://mhav1.com:80/series/ht2990/742579548/254.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="جمع سالم" tvg-logo="http://images.vega-xt-mh.com:80/images/zBQfgPg6xnMwi0IbsSNgm76XTGz_big.jpg" group-title="مسلسلات مصريه حديثه",جمع سالم
 http://mhav1.com:80/series/ht2990/742579548/180.ts
 
@@ -16420,9 +16375,6 @@ http://mhav1.com:80/series/ht2990/742579548/3957.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حشمت في البيت الأبيض" tvg-logo="http://images.vega-xt-mh.com:80/images/6f6rl9ZkxyY2yfCLzJVffP4fYfe_big.jpg" group-title="مسلسلات مصريه حديثه",حشمت في البيت الأبيض
 http://mhav1.com:80/series/ht2990/742579548/287.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="حكايات بنات" tvg-logo="http://images.vega-xt-mh.com:80/images/9qANFuM0TtukC4zjl9PaK1unsm9_big.jpg" group-title="مسلسلات مصريه حديثه",حكايات بنات
-http://mhav1.com:80/series/ht2990/742579548/298.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حكايات جروب الدفعة" tvg-logo="http://images.vega-xt-mh.com:80/images/sk3aMRSv0pHCHkbnxhW3KP7GlJA_big.jpg" group-title="مسلسلات مصريه حديثه",حكايات جروب الدفعة
 http://mhav1.com:80/series/ht2990/742579548/2145.ts
@@ -16503,7 +16455,7 @@ http://mhav1.com:80/series/ht2990/742579548/190.ts
 http://mhav1.com:80/series/ht2990/742579548/378.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سلسال الدم" tvg-logo="http://images.vega-xt-mh.com:80/images/h4nN561cniZL7cs5pvXNhfYJjx9_big.jpg" group-title="مسلسلات مصريه حديثه",سلسال الدم
-http://mhav1.com:80/series/ht2990/742579548/396.ts
+http://mhav1.com:80/series/ht2990/742579548/6450.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سلطانة المعز" tvg-logo="http://images.vega-xt-mh.com:80/images/_big.jpg" group-title="مسلسلات مصريه حديثه",سلطانة المعز
 http://mhav1.com:80/series/ht2990/742579548/185.ts
@@ -16658,9 +16610,6 @@ http://mhav1.com:80/series/ht2990/742579548/1567.ts
 #EXTINF:-1 tvg-id="" tvg-name="وعد ابليس" tvg-logo="http://images.vega-xt-mh.com:80/images/2uwEuNjC8XERBkHQBeogHNrEdZV_big.jpg" group-title="مسلسلات مصريه حديثه",وعد ابليس
 http://mhav1.com:80/series/ht2990/742579548/1774.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ولاد إمبابة" tvg-logo="http://images.vega-xt-mh.com:80/images/5vwL8MtvvTQaj1MERIYhZN3MP3Y_big.jpg" group-title="مسلسلات مصريه حديثه",ولاد إمبابة
-http://mhav1.com:80/series/ht2990/742579548/167.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ولاد تسعة" tvg-logo="http://images.vega-xt-mh.com:80/images/qVv9BAsQMpoLHJOmpjHbQegETff_big.jpg" group-title="مسلسلات مصريه حديثه",ولاد تسعة
 http://mhav1.com:80/series/ht2990/742579548/316.ts
 
@@ -16691,6 +16640,9 @@ http://mhav1.com:80/series/ht2990/742579548/6306.ts
 #EXTINF:-1 tvg-id="" tvg-name="Dayaa" tvg-logo="http://images.vega-xt-mh.com:80/images/3MbRfa8EyibVYriL6Wc1ck9eDwM_big.jpg" group-title="مسلسلات هنديه",Dayaa
 http://mhav1.com:80/series/ht2990/742579548/3699.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Mein الأنانية" tvg-logo="http://images.vega-xt-mh.com:80/images/nD2XvhADFOmVWsR8rtcIPSbwIHE_big.jpg" group-title="مسلسلات هنديه",Mein الأنانية
+http://mhav1.com:80/series/ht2990/742579548/6460.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="أبن الأصول" tvg-logo="http://images.vega-xt-mh.com:80/images/qn9frbpPsatzVDq6TdqMfDZktO_big.jpg" group-title="مسلسلات هنديه",أبن الأصول
 http://mhav1.com:80/series/ht2990/742579548/5757.ts
 
@@ -16705,6 +16657,9 @@ http://mhav1.com:80/series/ht2990/742579548/6188.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="أمنية وإن تحققت" tvg-logo="http://images.vega-xt-mh.com:80/images/g6DQP5G2ivVgYpIvNaRJFcqCC8c_big.jpg" group-title="مسلسلات هنديه",أمنية وإن تحققت
 http://mhav1.com:80/series/ht2990/742579548/3685.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="أنا معك" tvg-logo="http://images.vega-xt-mh.com:80/images/g0GiImg9HNfcIjHzxWfuugSkD9P_big.jpg" group-title="مسلسلات هنديه",أنا معك
+http://mhav1.com:80/series/ht2990/742579548/6439.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="أنتي حياتي" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcSwJq7MroBfEy9ap99PY7HwnhS4SqE4OkR8pcFL87BA&s" group-title="مسلسلات هنديه",أنتي حياتي
 http://mhav1.com:80/series/ht2990/742579548/3704.ts
@@ -16759,9 +16714,6 @@ http://mhav1.com:80/series/ht2990/742579548/6376.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="خفايا القلوب" tvg-logo="http://images.vega-xt-mh.com:80/images/9X7FovF5n8NQUHUPJYYfxRlF3yp_big.jpg" group-title="مسلسلات هنديه",خفايا القلوب
 http://mhav1.com:80/series/ht2990/742579548/3686.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="خيوط الماضى" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tXsBLslP0f3B1zaqtKExXEChHjyHrgqzsg&s" group-title="مسلسلات هنديه",خيوط الماضى
-http://mhav1.com:80/series/ht2990/742579548/6151.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="دروب العاشقين" tvg-logo="http://images.vega-xt-mh.com:80/images/cGUF4aT3GCmCy3f84KKIpWS3kty_big.jpg" group-title="مسلسلات هنديه",دروب العاشقين
 http://mhav1.com:80/series/ht2990/742579548/3700.ts

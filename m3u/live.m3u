@@ -8729,6 +8729,9 @@ http://mhav1.com:80/live/ht2990/742579548/2746.ts
 #EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood HEVC" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/20.png?62419" group-title="MBC ام بى سى",MBC Bollywood HEVC
 http://mhav1.com:80/live/ht2990/742579548/64410.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="MBC CLOUD TV" tvg-logo="" group-title="MBC ام بى سى",MBC CLOUD TV
+http://mhav1.com:80/live/ht2990/742579548/261599.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="MBC DERAMA HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/25.jpg" group-title="MBC ام بى سى",MBC DERAMA HD
 http://mhav1.com:80/live/ht2990/742579548/3660.ts
 
@@ -8747,8 +8750,20 @@ http://mhav1.com:80/live/ht2990/742579548/4991.ts
 #EXTINF:-1 tvg-id="" tvg-name="MBC Drama+ HEVC" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/25.jpg" group-title="MBC ام بى سى",MBC Drama+ HEVC
 http://mhav1.com:80/live/ht2990/742579548/64409.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="MBC EIGHT" tvg-logo="" group-title="MBC ام بى سى",MBC EIGHT
+http://mhav1.com:80/live/ht2990/742579548/261606.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC FAMILY" tvg-logo="" group-title="MBC ام بى سى",MBC FAMILY
+http://mhav1.com:80/live/ht2990/742579548/261595.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="MBC FM FHD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/191.png?ver=24565" group-title="MBC ام بى سى",MBC FM FHD
 http://mhav1.com:80/live/ht2990/742579548/32406.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC GEO 1" tvg-logo="" group-title="MBC ام بى سى",MBC GEO 1
+http://mhav1.com:80/live/ht2990/742579548/261605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC GEO 2" tvg-logo="" group-title="MBC ام بى سى",MBC GEO 2
+http://mhav1.com:80/live/ht2990/742579548/261603.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC IRAQ" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/23.jpg" group-title="MBC ام بى سى",MBC IRAQ
 http://mhav1.com:80/live/ht2990/742579548/3501.ts
@@ -8764,6 +8779,9 @@ http://mhav1.com:80/live/ht2990/742579548/2742.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC MAX FHD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/17.jpg" group-title="MBC ام بى سى",MBC MAX FHD
 http://mhav1.com:80/live/ht2990/742579548/32401.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC MOVIES" tvg-logo="" group-title="MBC ام بى سى",MBC MOVIES
+http://mhav1.com:80/live/ht2990/742579548/261601.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Masr" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1176.jpg" group-title="MBC ام بى سى",MBC Masr
 http://mhav1.com:80/live/ht2990/742579548/2003.ts
@@ -8801,11 +8819,32 @@ http://mhav1.com:80/live/ht2990/742579548/32403.ts
 #EXTINF:-1 tvg-id="" tvg-name="MBC PANORAMA HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/191.jpg?ver=80969" group-title="MBC ام بى سى",MBC PANORAMA HD
 http://mhav1.com:80/live/ht2990/742579548/4610.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="MBC PLUS" tvg-logo="" group-title="MBC ام بى سى",MBC PLUS
+http://mhav1.com:80/live/ht2990/742579548/261597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC POWER" tvg-logo="" group-title="MBC ام بى سى",MBC POWER
+http://mhav1.com:80/live/ht2990/742579548/261600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC POWER +" tvg-logo="" group-title="MBC ام بى سى",MBC POWER +
+http://mhav1.com:80/live/ht2990/742579548/261607.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC PREMIUM" tvg-logo="" group-title="MBC ام بى سى",MBC PREMIUM
+http://mhav1.com:80/live/ht2990/742579548/261598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC SEVEN HD" tvg-logo="" group-title="MBC ام بى سى",MBC SEVEN HD
+http://mhav1.com:80/live/ht2990/742579548/261602.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC TOONS" tvg-logo="" group-title="MBC ام بى سى",MBC TOONS
+http://mhav1.com:80/live/ht2990/742579548/261596.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="MBC VARIETY FHD" tvg-logo="" group-title="MBC ام بى سى",MBC VARIETY FHD
 http://mhav1.com:80/live/ht2990/742579548/32402.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC WANASH FHD " tvg-logo="" group-title="MBC ام بى سى",MBC WANASH FHD 
 http://mhav1.com:80/live/ht2990/742579548/32405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC ZOOM" tvg-logo="" group-title="MBC ام بى سى",MBC ZOOM
+http://mhav1.com:80/live/ht2990/742579548/261604.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC_DERAMA_FHD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/25.jpg" group-title="MBC ام بى سى",MBC_DERAMA_FHD
 http://mhav1.com:80/live/ht2990/742579548/32399.ts
@@ -14159,6 +14198,9 @@ http://mhav1.com:80/live/ht2990/742579548/2857.ts
 #EXTINF:-1 tvg-id="" tvg-name="Dmax [UK]" tvg-logo="" group-title="U K",Dmax [UK]
 http://mhav1.com:80/live/ht2990/742579548/2862.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Drama [UK]" tvg-logo="" group-title="U K",Drama [UK]
+http://mhav1.com:80/live/ht2990/742579548/71358.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="E! [UK]" tvg-logo="" group-title="U K",E! [UK]
 http://mhav1.com:80/live/ht2990/742579548/4705.ts
 
@@ -14245,9 +14287,6 @@ http://mhav1.com:80/live/ht2990/742579548/72681.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="POP Max [UK]" tvg-logo="" group-title="U K",POP Max [UK]
 http://mhav1.com:80/live/ht2990/742579548/2817.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="POP [UK]" tvg-logo="" group-title="U K",POP [UK]
-http://mhav1.com:80/live/ht2990/742579548/71358.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PREMIER SPORT 1 [UK]" tvg-logo="" group-title="U K",PREMIER SPORT 1 [UK]
 http://mhav1.com:80/live/ht2990/742579548/2833.ts
