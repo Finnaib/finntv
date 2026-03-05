@@ -369,7 +369,7 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-icon">📱</div>
-                    <div class="stat-value" id="deviceCount">0 / 10</div>
+                    <div class="stat-value" id="cardDeviceCount">0 / 0</div>
                     <div class="stat-label">Max Devices</div>
                 </div>
                 <div class="stat-card">
@@ -396,7 +396,7 @@
                         <div class="info-item"><span class="info-label">Username:</span><span class="info-value"
                                 id="displayUsername">-</span></div>
                         <div class="info-item"><span class="info-label">Active Connections:</span><span
-                                class="info-value" id="deviceCount">0 / 5</span></div>
+                                class="info-value" id="tableDeviceCount">0 / 0</span></div>
                         <div class="info-item"><span class="info-label">Created:</span><span class="info-value"
                                 id="createDate">-</span></div>
                         <div class="info-item"><span class="info-label">Expires:</span><span class="info-value"
@@ -480,7 +480,7 @@
                     currentPass = password;
                     localStorage.setItem('finntv_user', username);
                     localStorage.setItem('finntv_pass', password);
-                    showDashboardFromServer(data.user_info);
+                    showDashboardFromServer(data);
                     startPolling();
                 } else {
                     errorMsg.textContent = 'Invalid username or password!';
@@ -505,7 +505,11 @@
             // Update dashboard info
             document.getElementById('welcomeUser').textContent = `Welcome, ${userInfo.username}! 👋`;
             document.getElementById('displayUsername').textContent = userInfo.username;
-            document.getElementById('deviceCount').textContent = `${userInfo.active_cons || 0} / ${userInfo.max_connections || 0}`;
+
+            const connStr = `${userInfo.active_cons || 0} / ${userInfo.max_connections || 0}`;
+            document.getElementById('cardDeviceCount').textContent = connStr;
+            document.getElementById('tableDeviceCount').textContent = connStr;
+
             document.getElementById('dispStatus').textContent = userInfo.status;
 
             // Format dates
@@ -549,7 +553,9 @@
                 const resp = await fetch(url);
                 const data = await resp.json();
                 if (data && data.user_info) {
-                    document.getElementById('deviceCount').textContent = `${data.user_info.active_cons || 0} / ${data.user_info.max_connections || 0}`;
+                    const connStr = `${data.user_info.active_cons || 0} / ${data.user_info.max_connections || 0}`;
+                    document.getElementById('cardDeviceCount').textContent = connStr;
+                    document.getElementById('tableDeviceCount').textContent = connStr;
                     document.getElementById('serverTime').textContent = data.server_info.server_time || data.server_info.time_now;
                 }
             } catch (e) {

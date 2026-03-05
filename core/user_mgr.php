@@ -5,14 +5,24 @@
 
 class UserMgr
 {
-    private static $sessions_file = __DIR__ . '/../data/sessions.json';
-    private static $users_file = __DIR__ . '/../data/users.json';
+    private static function getSessionsFile()
+    {
+        $dir = __DIR__ . '/../data';
+        return is_writable($dir) ? $dir . '/sessions.json' : sys_get_temp_dir() . '/sessions.json';
+    }
+
+    private static function getUsersFile()
+    {
+        $dir = __DIR__ . '/../data';
+        return is_writable($dir) ? $dir . '/users.json' : sys_get_temp_dir() . '/users.json';
+    }
 
     public static function loadUsers()
     {
         $users = [];
-        if (file_exists(self::$users_file)) {
-            $users = json_decode(file_get_contents(self::$users_file), true) ?: [];
+        $file = self::getUsersFile();
+        if (file_exists($file)) {
+            $users = json_decode(file_get_contents($file), true) ?: [];
         }
         return $users;
     }
@@ -27,7 +37,7 @@ class UserMgr
             'exp_date' => strtotime('+1 year'),
             'status' => 'Active'
         ], $data);
-        return file_put_contents(self::$users_file, json_encode($users, JSON_PRETTY_PRINT));
+        return file_put_contents(self::getUsersFile(), json_encode($users, JSON_PRETTY_PRINT));
     }
 
     public static function getActiveConnections($username)
@@ -57,13 +67,14 @@ class UserMgr
         $session_id = $ip . '_' . substr(md5($ip . $username), 0, 8);
         $sessions[$username][$session_id] = time();
 
-        file_put_contents(self::$sessions_file, json_encode($sessions));
+        @file_put_contents(self::getSessionsFile(), json_encode($sessions));
     }
 
     private static function getSessions()
     {
-        if (!file_exists(self::$sessions_file))
+        $file = self::getSessionsFile();
+        if (!file_exists($file))
             return [];
-        return json_decode(file_get_contents(self::$sessions_file), true) ?: [];
+        return json_decode(file_get_contents($file), true) ?: [];
     }
 }
