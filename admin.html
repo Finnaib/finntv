@@ -4,141 +4,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinnTV - Admin Panel</title>
+    <title>FinnTV Premium Admin</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
-            --bg: #0f172a;
-            --surface: #1e293b;
+            --bg: #030712;
+            /* Very dark blue */
+            --sidebar: #111827;
+            --surface: #1f2937;
             --primary: #6366f1;
-            --text: #f8fafc;
-            --text-muted: #94a3b8;
-            --danger: #f87171;
-            --success: #4ade80;
+            /* Indigo */
+            --primary-hover: #4f46e5;
+            --text: #f9fafb;
+            --text-muted: #9ca3af;
+            --danger: #ef4444;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --border: #374151;
+            --glass: rgba(31, 41, 55, 0.7);
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
         body {
             background-color: var(--bg);
             color: var(--text);
-            min-height: 100vh;
+            overflow: hidden;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar */
+        aside {
+            width: 260px;
+            background: var(--sidebar);
+            border-right: 1px solid var(--border);
             display: flex;
             flex-direction: column;
+            padding: 1.5rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
         }
 
-        .login-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9);
+        .logo {
             display: flex;
-            justify-content: center;
             align-items: center;
-            z-index: 1000;
+            gap: 0.75rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            color: var(--primary);
         }
 
-        .login-box {
-            background: var(--surface);
-            padding: 2rem;
-            border-radius: 1rem;
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            flex-grow: 1;
         }
 
-        input {
-            width: 100%;
-            padding: 0.75rem;
-            margin: 0.5rem 0;
-            background: #020617;
-            border: 1px solid #334155;
-            color: white;
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
             border-radius: 0.5rem;
-        }
-
-        button {
-            width: 100%;
-            padding: 0.75rem;
-            margin-top: 1rem;
-            background: var(--primary);
-            border: none;
-            color: white;
-            border-radius: 0.5rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: all 0.2s;
             cursor: pointer;
-            font-weight: bold;
-            transition: opacity 0.2s;
+            font-weight: 500;
         }
 
-        button:hover {
-            opacity: 0.9;
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
         }
 
-        .app {
-            display: none;
-            width: 100%;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 2rem;
+        .nav-item.active {
+            background: var(--primary);
+            color: white;
         }
 
-        .app.active {
-            display: block;
+        .sidebar-footer {
+            margin-top: auto;
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+        }
+
+        /* Main Content */
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
 
         header {
+            height: 70px;
+            border-bottom: 1px solid var(--border);
+            background: var(--sidebar);
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            margin-bottom: 2rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid var(--surface);
+            justify-content: space-between;
+            padding: 0 2rem;
+            z-index: 10;
         }
 
-        .grid {
+        .search-bar {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            width: 300px;
+        }
+
+        .search-bar input {
+            background: transparent;
+            border: none;
+            color: white;
+            outline: none;
+            width: 100%;
+            font-size: 0.875rem;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .sync-badge {
+            background: var(--warning);
+            color: black;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: none;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.6;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .view-container {
+            flex-grow: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .view-container.active {
+            display: block;
+        }
+
+        /* Dashboard View */
+        .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 1.5rem;
             margin-bottom: 2rem;
         }
 
-        .card {
+        .stat-card {
             background: var(--surface);
             padding: 1.5rem;
             border-radius: 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
         }
 
-        .card h3 {
+        .stat-card .label {
             color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
         }
 
-        .card .value {
-            font-size: 2rem;
-            font-weight: bold;
+        .stat-card .value {
+            font-size: 1.75rem;
+            font-weight: 700;
         }
 
-        .panel {
+        /* Users View */
+        .table-container {
             background: var(--surface);
             border-radius: 1rem;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
         }
 
-        .panel-header {
+        .table-header {
+            padding: 1.5rem;
             display: flex;
             justify-content: space-between;
-            margin-bottom: 1.5rem;
             align-items: center;
+            border-bottom: 1px solid var(--border);
         }
 
         table {
@@ -146,30 +235,159 @@
             border-collapse: collapse;
         }
 
-        th,
-        td {
+        th {
             text-align: left;
-            padding: 1rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 1rem 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: rgba(255, 255, 255, 0.02);
         }
 
-        th {
-            color: var(--text-muted);
+        td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.875rem;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .status-pill {
+            padding: 0.25rem 0.625rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
             font-weight: 600;
         }
 
-        .code-block {
-            background: #020617;
-            padding: 1rem;
-            border-radius: 0.5rem;
-            font-family: monospace;
-            white-space: pre-wrap;
-            margin-top: 1rem;
-            border: 1px solid #334155;
-            position: relative;
+        .status-pill.active {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
         }
 
-        .modal {
+        /* Buttons */
+        .btn {
+            padding: 0.625rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+        }
+
+        .btn-danger {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+        }
+
+        .btn-danger:hover {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-warning {
+            background: var(--warning);
+            color: black;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border-color: var(--border);
+            color: var(--text);
+        }
+
+        .btn-outline:hover {
+            background: var(--border);
+        }
+
+        /* M3U Editor View */
+        .editor-layout {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+            height: calc(100vh - 180px);
+        }
+
+        .file-list {
+            background: var(--surface);
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        .file-item {
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .file-item:hover {
+            background: var(--border);
+        }
+
+        .file-item.active {
+            background: var(--primary);
+        }
+
+        .file-item .info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .file-item .name {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .file-item .size {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .editor-main {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #m3uEditor {
+            flex-grow: 1;
+            background: #010409;
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            color: #d1d5db;
+            padding: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            resize: none;
+            outline: none;
+            line-height: 1.5;
+        }
+
+        /* Modals */
+        .modal-overlay {
             position: fixed;
             top: 0;
             left: 0;
@@ -179,31 +397,100 @@
             display: none;
             justify-content: center;
             align-items: center;
-            z-index: 2000;
+            z-index: 1000;
+            backdrop-filter: blur(4px);
         }
 
-        .modal.active {
+        .modal-overlay.active {
             display: flex;
         }
 
-        .modal-content {
-            background: var(--surface);
-            padding: 2rem;
-            border-radius: 1rem;
+        .modal {
+            background: var(--sidebar);
+            border: 1px solid var(--border);
+            border-radius: 1.5rem;
             width: 100%;
             max-width: 500px;
+            padding: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
 
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            color: white;
+            outline: none;
+        }
+
+        .form-group input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+        }
+
+        /* Login Overlay */
+        #loginOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-card {
+            background: var(--sidebar);
+            padding: 3rem;
+            border-radius: 2rem;
+            width: 400px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        /* Toast */
         .toast {
             position: fixed;
             bottom: 2rem;
             right: 2rem;
-            background: var(--success);
-            color: #000;
-            padding: 1rem 2rem;
-            border-radius: 0.5rem;
-            font-weight: bold;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1rem 1.5rem;
+            border-radius: 1rem;
             display: none;
+            align-items: center;
+            gap: 0.75rem;
+            animation: slideIn 0.3s ease-out;
+            z-index: 3000;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -211,248 +498,344 @@
 <body>
 
     <!-- Login -->
-    <div class="login-overlay" id="loginOverlay">
-        <div class="login-box">
-            <h2 style="margin-bottom:1rem">Admin Access</h2>
-            <div id="loginErr" style="color:var(--danger); margin-bottom:1rem; display:none">Access Denied</div>
-            <input type="text" id="admUser" placeholder="Username (admin)">
-            <input type="password" id="admPass" placeholder="Password">
-            <button onclick="doLogin()">Enter Panel</button>
+    <div id="loginOverlay">
+        <div class="login-card">
+            <div class="logo" style="justify-content:center">
+                <i data-lucide="zap"></i>
+                FinnTV Admin
+            </div>
+            <p style="color:var(--text-muted); margin-bottom:2rem">Secure Access Required</p>
+            <div id="loginErr" style="color:var(--danger); margin-bottom:1rem; display:none; font-size: 0.875rem;">
+                Invalid credentials.</div>
+            <div class="form-group">
+                <input type="text" id="admUser" placeholder="Admin Email" value="shoaibwwe01@gmail.com">
+            </div>
+            <div class="form-group">
+                <input type="password" id="admPass" placeholder="Password">
+            </div>
+            <button class="btn btn-primary" style="width:100%; justify-content:center" onclick="doLogin()">
+                Login to Dashboard
+            </button>
         </div>
     </div>
 
-    <!-- Main App -->
-    <div class="app" id="app">
+    <!-- Sidebar -->
+    <aside>
+        <div class="logo">
+            <i data-lucide="zap"></i>
+            FinnTV Admin
+        </div>
+        <nav>
+            <div class="nav-item active" onclick="showView('dashboard')" id="nav-dashboard">
+                <i data-lucide="layout-dashboard"></i> Dashboard
+            </div>
+            <div class="nav-item" onclick="showView('users')" id="nav-users">
+                <i data-lucide="users"></i> User Management
+            </div>
+            <div class="nav-item" onclick="showView('m3u')" id="nav-m3u">
+                <i data-lucide="file-text"></i> Playlist Editor
+            </div>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="nav-item" onclick="logout()">
+                <i data-lucide="log-out"></i> Logout
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
         <header>
-            <h1>⚡ FinnTV Admin</h1>
-            <button onclick="logout()" style="width:auto; margin:0; background:var(--danger)">Logout</button>
+            <div class="search-bar">
+                <i data-lucide="search" style="color:var(--text-muted); width: 16px;"></i>
+                <input type="text" placeholder="Search data...">
+            </div>
+            <div class="header-actions">
+                <div class="sync-badge" id="unsavedBadge">
+                    <i data-lucide="alert-circle" style="width: 12px; display:inline"></i>
+                    Unsaved Changes
+                </div>
+                <button class="btn btn-warning" id="gitSyncBtn" onclick="syncUsersToGit()" style="display:none">
+                    <i data-lucide="github"></i> Push to GitHub
+                </button>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <span id="userNameDisplay" style="font-size: 0.875rem; font-weight: 500">Admin</span>
+                    <div
+                        style="width:36px; height:36px; background:var(--primary); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700">
+                        A</div>
+                </div>
+            </div>
         </header>
 
-        <!-- Stats -->
-        <div class="grid" id="statsGrid">
-            <div class="card">
-                <h3>Active Users</h3>
-                <div class="value" id="statUsers">-</div>
+        <!-- Dashboard View -->
+        <div id="view-dashboard" class="view-container active">
+            <h2 style="margin-bottom: 2rem">Dashboard Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="label">Total Users</span>
+                    <span class="value" id="statUsers">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Live Channels</span>
+                    <span class="value" id="statLive">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">VOD Content</span>
+                    <span class="value" id="statVod">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Series</span>
+                    <span class="value" id="statSeries">...</span>
+                </div>
             </div>
-            <div class="card">
-                <h3>Live Channels</h3>
-                <div class="value" id="statLive">-</div>
-            </div>
-            <div class="card">
-                <h3>Movies</h3>
-                <div class="value" id="statVod">-</div>
-            </div>
-            <div class="card">
-                <h3>Series</h3>
-                <div class="value" id="statSeries">-</div>
+
+            <div class="table-container">
+                <div class="table-header">
+                    <h3>Recent Activity</h3>
+                </div>
+                <div style="padding: 3rem; text-align: center; color: var(--text-muted)">
+                    <i data-lucide="cloud" style="width: 48px; height: 48px; margin-bottom: 1rem"></i>
+                    <p>Vercel Proxy Active - All streams healthy</p>
+                </div>
             </div>
         </div>
 
-        <!-- Users -->
-        <div class="panel">
-            <div class="panel-header">
-                <h2>User Management</h2>
-                <button onclick="showAddUser()" style="width:auto; margin:0">➕ Add User Code</button>
+        <!-- Users View -->
+        <div id="view-users" class="view-container">
+            <h2 style="margin-bottom: 2rem">User Management</h2>
+            <div class="table-container">
+                <div class="table-header">
+                    <h3>Authenticated Users</h3>
+                    <button class="btn btn-primary" onclick="showAddUserModal()">
+                        <i data-lucide="user-plus"></i> Add New User
+                    </button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Created at</th>
+                            <th>Expiry</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userTableBody">
+                        <!-- Data injected here -->
+                    </tbody>
+                </table>
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Username</th>
-                        <th>Password</th>
-                        <th>Created</th>
-                        <th>Expires</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody id="userTable">
-                    <tr>
-                        <td colspan="5">Loading...</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
 
+        <!-- M3U View -->
+        <div id="view-m3u" class="view-container">
+            <h2 style="margin-bottom: 2rem">Playlist Editor (M3U)</h2>
+            <div class="editor-layout">
+                <div class="file-list">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+                        <h4 style="font-size: 0.875rem; color: var(--text-muted)">Project Files</h4>
+                        <button class="btn btn-outline" style="padding: 0.2rem 0.5rem"
+                            onclick="createNewM3U()">+</button>
+                    </div>
+                    <div id="m3uFileList">
+                        <!-- File items injected here -->
+                    </div>
+                </div>
+                <div class="editor-main">
+                    <div style="display:flex; justify-content:space-between; align-items:center">
+                        <div id="currentFileName" style="font-weight: 600; color: var(--text-muted)">Select a file to
+                            edit</div>
+                        <button class="btn btn-primary" id="saveM3UBtn" onclick="saveM3UToGit()" disabled>
+                            <i data-lucide="save"></i> Save File & Push
+                        </button>
+                    </div>
+                    <textarea id="m3uEditor" spellcheck="false" placeholder="#EXTM3U ..."></textarea>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal: Add User -->
+    <div class="modal-overlay" id="addUserModal">
+        <div class="modal">
+            <h2>New Subscription</h2>
+            <p style="color:var(--text-muted); font-size:0.875rem; margin-bottom: 1.5rem">Create a managed user account.
+            </p>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="newUsername" placeholder="e.g. john_doe">
+            </div>
+            <div class="form-group">
+                <label>Access Password</label>
+                <input type="text" id="newPassword" placeholder="e.g. secret123">
+            </div>
+            <div class="form-group">
+                <label>Connections Count</label>
+                <input type="number" id="newMaxConn" value="5">
+            </div>
+            <div class="form-group">
+                <label>Expiration Date</label>
+                <input type="date" id="newExpDate">
+            </div>
+            <div style="display:flex; gap:1rem; margin-top:2rem;">
+                <button class="btn btn-outline" style="flex:1; justify-content:center"
+                    onclick="closeModal('addUserModal')">Cancel</button>
+                <button class="btn btn-primary" style="flex:1; justify-content:center"
+                    onclick="saveUserStaged()">Staging Save</button>
+            </div>
+        </div>
     </div>
 
-
-
-    <!-- Add User Modal -->
-    <div class="modal" id="addUserModal">
-        <div class="modal-content">
-            <h2>Create New User</h2>
-            <div id="modalErr" style="color:var(--danger); margin:1rem 0; display:none"></div>
-
-            <label style="display:block; margin-top:1rem; font-size:0.8rem; color:var(--text-muted)">Username</label>
-            <input type="text" id="newUsername" placeholder="Username">
-
-            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Password</label>
-            <input type="text" id="newPassword" placeholder="Password">
-
-            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Max
-                Connections</label>
-            <input type="number" id="newMaxConn" value="5" min="1" max="100">
-
-            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Expiry
-                Date</label>
-            <input type="date" id="newExpDate">
-
-            <button onclick="saveUser()" id="saveBtn">Save User</button>
-            <button onclick="closeModal()"
-                style="background:transparent; border:1px solid #334155; margin-top:1rem">Cancel</button>
-        </div>
+    <!-- Toast -->
+    <div class="toast" id="mainToast">
+        <i data-lucide="check-circle" id="toastIcon"></i>
+        <span id="toastMsg">Action successful</span>
     </div>
-
-    <div class="toast" id="toast">Copied to clipboard!</div>
 
     <script>
-        const API_BASE = '/player_api.php';
+        const API = '/api/admin_actions.php';
+        const PROVIDER_API = '/player_api.php';
+
         let currentUser = null;
         let currentPass = null;
+        let usersBuffer = []; // Local staging of users
+        let originalUsers = []; // What's currently on Git
+        let currentEditingFile = null;
 
-        async function doLogin() {
+        // --- Auth & Startup ---
+        function doLogin() {
             const u = document.getElementById('admUser').value;
             const p = document.getElementById('admPass').value;
 
-            try {
-                // Verify by asking for stats
-                const res = await fetch(`${API_BASE}?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_stats&_t=${Date.now()}`);
-                const data = await res.json();
+            // Check credentials via get_stats
+            fetch(`${PROVIDER_API}?username=${u}&password=${p}&action=get_stats`)
+                .then(r => r.json())
+                .then(data => {
+                    if (data.error) throw new Error();
 
-                // DEBUG ALERT
-                // alert("DEBUG Stats: " + JSON.stringify(data));
-
-                if (data.error) {
-                    throw new Error('Unauthorized');
-                }
-
-                // Success
-                currentUser = u;
-                currentPass = p;
-                document.getElementById('loginOverlay').style.display = 'none';
-                document.getElementById('app').classList.add('active');
-
-                loadDashboard(data); // Load stats
-                loadUsers();         // Load users
-
-            } catch (err) {
-                document.getElementById('loginErr').style.display = 'block';
-            }
+                    currentUser = u;
+                    currentPass = p;
+                    document.getElementById('loginOverlay').style.display = 'none';
+                    initApp(data);
+                })
+                .catch(() => {
+                    document.getElementById('loginErr').style.display = 'block';
+                });
         }
 
+        function initApp(stats) {
+            lucide.createIcons();
+            loadDashboard(stats);
+            fetchUsersFromServer();
+            loadM3UFiles();
+        }
+
+        function logout() {
+            location.reload();
+        }
+
+        // --- Navigation ---
+        function showView(view) {
+            document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+            document.getElementById(`view-${view}`).classList.add('active');
+            document.getElementById(`nav-${view}`).classList.add('active');
+        }
+
+        // --- Data Fetching ---
         function loadDashboard(stats) {
-            alert("DASHBOARD DATA: " + JSON.stringify(stats));
-            console.log("Dashboard Stats received:", stats);
-            // Fallback if keys are missing
-            document.getElementById('statUsers').innerText = stats.users !== undefined ? stats.users : (stats[0] ? "Array Error" : "N/A");
-            document.getElementById('statLive').innerText = stats.live_streams !== undefined ? stats.live_streams : "-";
-            document.getElementById('statVod').innerText = stats.vod_streams !== undefined ? stats.vod_streams : "-";
-            document.getElementById('statSeries').innerText = stats.series !== undefined ? stats.series : "-";
+            document.getElementById('statUsers').innerText = stats.users;
+            document.getElementById('statLive').innerText = stats.live_streams;
+            document.getElementById('statVod').innerText = stats.vod_streams;
+            document.getElementById('statSeries').innerText = stats.series;
         }
 
-        async function loadUsers() {
-            const tbody = document.getElementById('userTable');
-            try {
-                const url = `${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_users&_t=${Date.now()}`;
-
-                const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
-
-                const res = await fetch(url, { signal: controller.signal });
-                clearTimeout(timeoutId);
-
-                if (!res.ok) {
-                    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
-                }
-
-                const text = await res.text();
-                console.log("Users API Raw Body:", text);
-
-                let users;
-                try {
-                    users = JSON.parse(text);
-                } catch (e) {
-                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">JSON Error: See Console. Raw: ${text.substring(0, 50)}...</td></tr>`;
-                    return;
-                }
-
-                tbody.innerHTML = '';
-
-                if (users.error) {
-                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Error: ${users.error}</td></tr>`;
-                    return;
-                }
-
-                if (!Array.isArray(users)) {
-                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Invalid data: Expected Array</td></tr>`;
-                    return;
-                }
-
-                users.forEach(u => {
-                    const tr = document.createElement('tr');
-                    tr.innerHTML = `
-                        <td>${u.username}</td>
-                        <td style="font-family:monospace">****</td> 
-                        <td>${u.created}</td>
-                        <td>${u.exp}</td>
-                        <td><span style="color:${u.status === 'Active' ? 'var(--success)' : 'var(--danger)'}">${u.status}</span></td>
-                        <td><button onclick="deleteUser('${u.username}')" style="padding:0.3rem 0.6rem; margin:0; font-size:0.8rem; background:var(--danger)">Delete</button></td>
-                    `;
-                    // Reveal pass on click
-                    tr.children[1].onclick = function () { this.innerText = u.password; };
-                    tr.children[1].style.cursor = 'pointer';
-                    tr.children[1].title = "Click to show password";
-
-                    tbody.appendChild(tr);
+        function fetchUsersFromServer() {
+            fetch(`${PROVIDER_API}?username=${currentUser}&password=${currentPass}&action=get_users`)
+                .then(r => r.json())
+                .then(data => {
+                    originalUsers = JSON.parse(JSON.stringify(data)); // Deep copy
+                    usersBuffer = JSON.parse(JSON.stringify(data));
+                    renderUserTable();
                 });
-            } catch (err) {
-                console.error("Failed to load users:", err);
-                if (tbody) tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Load Error: ${err.message}. Please Hard Refresh (Ctrl+F5).</td></tr>`;
+        }
+
+        function loadM3UFiles() {
+            fetch(`${API}?auth_user=${currentUser}&auth_pass=${currentPass}&action=get_m3us`)
+                .then(r => r.json())
+                .then(data => {
+                    const list = document.getElementById('m3uFileList');
+                    list.innerHTML = '';
+                    data.forEach(f => {
+                        const div = document.createElement('div');
+                        div.className = `file-item ${currentEditingFile === f.name ? 'active' : ''}`;
+                        div.onclick = () => loadM3UContent(f.name);
+                        div.innerHTML = `
+                            <div class="info">
+                                <span class="name">${f.name}</span>
+                                <span class="size">${(f.size / 1024).toFixed(1)} KB</span>
+                            </div>
+                            <i data-lucide="chevron-right" style="width:14px"></i>
+                        `;
+                        list.appendChild(div);
+                    });
+                    lucide.createIcons();
+                });
+        }
+
+        // --- User Actions (Staging) ---
+        function renderUserTable() {
+            const tbody = document.getElementById('userTableBody');
+            tbody.innerHTML = '';
+
+            usersBuffer.forEach((u, idx) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><b>${u.username}</b></td>
+                    <td style="font-family:monospace">••••••</td>
+                    <td>${u.created || 'N/A'}</td>
+                    <td>${u.exp || 'N/A'}</td>
+                    <td><span class="status-pill active">Active</span></td>
+                    <td>
+                        <button class="btn btn-danger btn-outline" style="padding: 0.3rem 0.6rem" onclick="deleteUserStaged(${idx})">
+                            <i data-lucide="trash-2" style="width:14px"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+            lucide.createIcons();
+            checkChanges();
+        }
+
+        function checkChanges() {
+            const hasChanges = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+            const badge = document.getElementById('unsavedBadge');
+            const syncBtn = document.getElementById('gitSyncBtn');
+
+            if (hasChanges) {
+                badge.style.display = 'inline-flex';
+                syncBtn.style.display = 'inline-flex';
+            } else {
+                badge.style.display = 'none';
+                syncBtn.style.display = 'none';
             }
         }
 
-        async function deleteUser(user) {
-            if (!confirm(`Delete user ${user}?`)) return;
-
-            const formData = new FormData();
-            formData.append('auth_user', currentUser);
-            formData.append('auth_pass', currentPass);
-            formData.append('action', 'delete_user');
-            formData.append('username', user);
-
-
-
-            try {
-                const res = await fetch('/api/admin_actions.php', {
-                    method: 'POST',
-                    body: formData
-                });
-                const data = await res.json();
-                if (data.success) {
-                    showToast(data.message || 'User deleted');
-                    loadUsers();
-                } else {
-                    alert(data.error || 'Failed to delete user');
-                }
-            } catch (err) {
-                console.error(err);
-            }
-        }
-
-        function showAddUser() {
+        function showAddUserModal() {
             document.getElementById('addUserModal').classList.add('active');
-            document.getElementById('modalErr').style.display = 'none';
-            // Set default date to +1 year
             const d = new Date();
             d.setFullYear(d.getFullYear() + 1);
             document.getElementById('newExpDate').value = d.toISOString().split('T')[0];
         }
 
-        function closeModal() {
-            document.getElementById('addUserModal').classList.remove('active');
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
         }
 
-        async function saveUser() {
+        function saveUserStaged() {
             const u = document.getElementById('newUsername').value;
             const p = document.getElementById('newPassword').value;
             const m = document.getElementById('newMaxConn').value;
@@ -460,72 +843,138 @@
 
             if (!u || !p) return;
 
-            const btn = document.getElementById('saveBtn');
+            usersBuffer.push({
+                username: u,
+                password: p,
+                max_connections: m,
+                exp_date: Math.floor(new Date(e).getTime() / 1000),
+                created_at: Math.floor(Date.now() / 1000),
+                created: new Date().toISOString().split('T')[0],
+                exp: e,
+                status: 'Active'
+            });
+
+            closeModal('addUserModal');
+            renderUserTable();
+            showToast("User added to staging area");
+        }
+
+        function deleteUserStaged(idx) {
+            if (!confirm("Remove this user?")) return;
+            usersBuffer.splice(idx, 1);
+            renderUserTable();
+        }
+
+        // --- Production Sync (GitHub) ---
+        async function syncUsersToGit() {
+            const btn = document.getElementById('gitSyncBtn');
+            const originalText = btn.innerHTML;
             btn.disabled = true;
-            btn.innerText = 'Saving...';
+            btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Syncing...';
+            lucide.createIcons();
+
+            try {
+                const res = await fetch(API + '?action=sync_users_git&auth_user=' + currentUser + '&auth_pass=' + currentPass, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ users: usersBuffer })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    showToast("GitHub Synchronized! Deployment started.", "success");
+                    originalUsers = JSON.parse(JSON.stringify(usersBuffer));
+                    checkChanges();
+                } else {
+                    alert("Error: " + data.error);
+                }
+            } catch (err) {
+                alert("Network error during sync");
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+                lucide.createIcons();
+            }
+        }
+
+        // --- M3U Editor Actions ---
+        function loadM3UContent(file) {
+            currentEditingFile = file;
+            document.getElementById('currentFileName').innerText = file;
+            document.getElementById('m3uEditor').value = "Loading content...";
+
+            fetch(`${API}?action=read_m3u&file=${file}&auth_user=${currentUser}&auth_pass=${currentPass}`)
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('m3uEditor').value = data.content || '';
+                    document.getElementById('saveM3UBtn').disabled = false;
+                    loadM3UFiles(); // Refresh active state
+                });
+        }
+
+        async function saveM3UToGit() {
+            const btn = document.getElementById('saveM3UBtn');
+            const content = document.getElementById('m3uEditor').value;
+
+            btn.disabled = true;
+            btn.innerHTML = "Saving to GitHub...";
 
             const formData = new FormData();
             formData.append('auth_user', currentUser);
             formData.append('auth_pass', currentPass);
-            formData.append('action', 'create_user');
-            formData.append('username', u);
-            formData.append('password', p);
-            formData.append('max_connections', m);
-            formData.append('exp_date', e);
-
-
+            formData.append('action', 'save_m3u_git');
+            formData.append('file', currentEditingFile);
+            formData.append('content', content);
 
             try {
-                const res = await fetch('/api/admin_actions.php', {
-                    method: 'POST',
-                    body: formData
-                });
+                const res = await fetch(API, { method: 'POST', body: formData });
                 const data = await res.json();
                 if (data.success) {
-                    showToast(data.message || 'User created successfully!');
-                    closeModal();
-                    loadUsers();
+                    showToast(`Updated ${currentEditingFile} successfully!`, "success");
                 } else {
-                    document.getElementById('modalErr').innerText = data.error || 'Failed to save user';
-                    document.getElementById('modalErr').style.display = 'block';
+                    alert(data.error);
                 }
-            } catch (err) {
-                console.error(err);
+            } catch (e) {
+                alert("Save failed");
             } finally {
                 btn.disabled = false;
-                btn.innerText = 'Save User';
+                btn.innerHTML = '<i data-lucide="save"></i> Save File & Push';
+                lucide.createIcons();
             }
         }
 
+        function createNewM3U() {
+            const name = prompt("Enter new filename (e.g. custom.m3u):");
+            if (!name || !name.endsWith('.m3u')) return;
 
+            const formData = new FormData();
+            formData.append('auth_user', currentUser);
+            formData.append('auth_pass', currentPass);
+            formData.append('action', 'create_m3u_git');
+            formData.append('file', name);
 
-        async function exportConfig() {
-            try {
-                const url = `${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_php_export`;
-                const res = await fetch(url);
-                const data = await res.json();
-                if (data.php) {
-                    document.getElementById('exportArea').style.display = 'block';
-                    document.getElementById('phpCodeExport').value = data.php;
-                    document.getElementById('phpCodeExport').scrollIntoView({ behavior: 'smooth' });
-                }
-            } catch (err) {
-                console.error(err);
-            }
+            fetch(API, { method: 'POST', body: formData })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        showToast(`File ${name} created!`, "success");
+                        loadM3UFiles();
+                    } else {
+                        alert(data.error);
+                    }
+                });
         }
 
-        function copyExportedCode() {
-            const code = document.getElementById('phpCodeExport').value;
-            navigator.clipboard.writeText(code).then(() => {
-                showToast('PHP Code Copied!');
-            });
+        // --- Helpers ---
+        function showToast(msg, type = "info") {
+            const t = document.getElementById('mainToast');
+            document.getElementById('toastMsg').innerText = msg;
+            t.style.display = 'flex';
+            setTimeout(() => t.style.display = 'none', 3000);
         }
 
-        function logout() {
-            localStorage.removeItem('finntv_admin_user');
-            localStorage.removeItem('finntv_admin_pass');
-            location.reload();
-        }
+        // Auto-refresh icons if changed
+        document.addEventListener('click', () => { setTimeout(() => lucide.createIcons(), 50); });
+
     </script>
 </body>
 
