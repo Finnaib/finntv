@@ -319,6 +319,9 @@
                 const res = await fetch(`${API_BASE}?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_stats&_t=${Date.now()}`);
                 const data = await res.json();
 
+                // DEBUG ALERT
+                // alert("DEBUG Stats: " + JSON.stringify(data));
+
                 if (data.error) {
                     throw new Error('Unauthorized');
                 }
@@ -338,10 +341,12 @@
         }
 
         function loadDashboard(stats) {
-            document.getElementById('statUsers').innerText = stats.users;
-            document.getElementById('statLive').innerText = stats.live_streams;
-            document.getElementById('statVod').innerText = stats.vod_streams;
-            document.getElementById('statSeries').innerText = stats.series;
+            console.log("Dashboard Stats received:", stats);
+            // Fallback if keys are missing
+            document.getElementById('statUsers').innerText = stats.users !== undefined ? stats.users : (stats[0] ? "Array Error" : "N/A");
+            document.getElementById('statLive').innerText = stats.live_streams !== undefined ? stats.live_streams : "-";
+            document.getElementById('statVod').innerText = stats.vod_streams !== undefined ? stats.vod_streams : "-";
+            document.getElementById('statSeries').innerText = stats.series !== undefined ? stats.series : "-";
         }
 
         async function loadUsers() {
@@ -360,6 +365,8 @@
                 }
 
                 const text = await res.text();
+                console.log("Users API Raw Body:", text);
+
                 let users;
                 try {
                     users = JSON.parse(text);
