@@ -20,47 +20,10 @@ if ($auth_user !== $admin_user || $auth_pass !== $admin_pass) {
 
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
-if ($action === 'create_user') {
-    $u = $_POST['username'] ?? '';
-    $p = $_POST['password'] ?? '';
-    $m = (int) ($_POST['max_connections'] ?? 5);
-    $e = $_POST['exp_date'] ?? ''; // YYYY-MM-DD
-
-    if (empty($u) || empty($p)) {
-        echo json_encode(['error' => 'Username and password required']);
-        exit;
-    }
-
-    $res = UserMgr::saveUser($u, [
-        'password' => $p,
-        'max_connections' => $m,
-        'exp_date' => $e ? strtotime($e) : strtotime('+1 year')
-    ]);
-
-    if ($res) {
-        echo json_encode(['success' => true, 'message' => "User $u created successfully"]);
-    } else {
-        echo json_encode(['error' => 'Failed to save user']);
-    }
-} elseif ($action === 'delete_user') {
-    $u = $_POST['username'] ?? '';
-    if (empty($u))
-        exit;
-    $res = UserMgr::deleteUser($u);
-    echo json_encode(['success' => (bool) $res]);
-
-} elseif ($action === 'sync_github') {
-    // SECURE: Hardcoded credentials removed after GitHub scan block.
-    // Use Vercel Environment Variables (GH_TOKEN, GH_REPO) or enter them in the Panel.
-    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
-    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
-
-    if (empty($token) || empty($repo)) {
-        echo json_encode(['error' => 'GitHub Token and Repo name required']);
-        exit;
-    }
-
-    // 1. Get current config.php
+// Helper function to push config.php directly to github
+function push_to_github($users_db, $token, $repo)
+{
+    // 1. Get current config.php from Github
     $path = "config.php";
     $apiUrl = "https://api.github.com/repos/$repo/contents/$path";
 
@@ -70,7 +33,9 @@ if ($action === 'create_user') {
         $pass = is_array($p) ? $p['password'] : $p;
         $created = (is_array($p) && !empty($p['created_at'])) ? $p['created_at'] : 'null';
         $max = (is_array($p) && !empty($p['max_connections'])) ? (int) $p['max_connections'] : 5;
-        $php_export .= "        \"$u\" => [\"password\" => \"$pass\", \"created_at\" => $created, \"max_connections\" => $max],\n";
+        $exp = (is_array($p) && !empty($p['exp_date'])) ? $p['exp_date'] : 'null';
+
+        $php_export .= "        \"$u\" => [\"password\" => \"$pass\", \"created_at\" => $created, \"max_connections\" => $max, \"exp_date\" => $exp],\n";
     }
     $php_export .= "    ];";
 
@@ -91,8 +56,7 @@ if ($action === 'create_user') {
 
     $sha = $resp['sha'] ?? null;
     if (!$sha) {
-        echo json_encode(['error' => 'Failed to find config.php in GitHub. Check repo name.']);
-        exit;
+        return ['error' => 'Failed to find config.php in GitHub. Check repo name.'];
     }
 
     // 3. Commit the change
@@ -115,11 +79,84 @@ if ($action === 'create_user') {
     curl_close($ch);
 
     if (isset($resp['content'])) {
-        echo json_encode(['success' => true, 'message' => 'Source code updated! Vercel will redeploy in 1-2 minutes.']);
+        return ['success' => true];
     } else {
-        echo json_encode(['error' => 'GitHub Commit Failed: ' . ($resp['message'] ?? 'Unknown error')]);
+        return ['error' => ($resp['message'] ?? 'Unknown error')];
+    }
+}
+
+if ($action === 'create_user') {
+    $u = $_POST['username'] ?? '';
+    $p = $_POST['password'] ?? '';
+    $m = (int) ($_POST['max_connections'] ?? 5);
+    $e = $_POST['exp_date'] ?? ''; // YYYY-MM-DD
+
+    if (empty($u) || empty($p)) {
+        echo json_encode(['error' => 'Username and password required']);
+        exit;
     }
 
+    // Update memory array
+    $users_db[$u] = [
+        'password' => $p,
+        'max_connections' => $m,
+        'exp_date' => $e ? strtotime($e) : strtotime('+1 year'),
+        'created_at' => time()
+    ];
+    $res = UserMgr::saveUser($u, $users_db[$u]);
+
+    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
+    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+
+    if ($token && $repo) {
+        $push = push_to_github($users_db, $token, $repo);
+        if (isset($push['success'])) {
+            echo json_encode(['success' => true, 'message' => "User $u created and pushed to GitHub!"]);
+        } else {
+            echo json_encode(['success' => true, 'message' => "User created locally. GitHub Push Failed: " . $push['error']]);
+        }
+    } else {
+        echo json_encode(['success' => true, 'message' => "User $u created temporarily. (Provide GitHub token for permanent save)"]);
+    }
+
+} elseif ($action === 'delete_user') {
+    $u = $_POST['username'] ?? '';
+    if (empty($u))
+        exit;
+
+    // Update memory
+    unset($users_db[$u]);
+    $res = UserMgr::deleteUser($u);
+
+    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
+    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+
+    if ($token && $repo) {
+        $push = push_to_github($users_db, $token, $repo);
+        if (isset($push['success'])) {
+            echo json_encode(['success' => true, 'message' => "User $u deleted and pushed to GitHub!"]);
+        } else {
+            echo json_encode(['success' => true, 'message' => "User deleted locally. GitHub Push Failed: " . $push['error']]);
+        }
+    } else {
+        echo json_encode(['success' => true, 'message' => "User $u deleted temporarily. (Provide GitHub token for permanent save)"]);
+    }
+
+} elseif ($action === 'sync_github') {
+    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
+    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+
+    if (empty($token) || empty($repo)) {
+        echo json_encode(['error' => 'GitHub Token and Repo name required']);
+        exit;
+    }
+
+    $push = push_to_github($users_db, $token, $repo);
+    if (isset($push['success'])) {
+        echo json_encode(['success' => true, 'message' => 'Source code updated! Vercel will redeploy in 1-2 minutes.']);
+    } else {
+        echo json_encode(['error' => 'GitHub Commit Failed: ' . $push['error']]);
+    }
 } else {
     echo json_encode(['error' => 'Unknown action']);
 }

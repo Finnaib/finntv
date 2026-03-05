@@ -408,6 +408,11 @@
             formData.append('action', 'delete_user');
             formData.append('username', user);
 
+            const token = document.getElementById('gh_token').value;
+            const repo = document.getElementById('gh_repo').value;
+            if (token) formData.append('gh_token', token);
+            if (repo) formData.append('gh_repo', repo);
+
             try {
                 const res = await fetch('/api/admin_actions.php', {
                     method: 'POST',
@@ -415,7 +420,7 @@
                 });
                 const data = await res.json();
                 if (data.success) {
-                    showToast('User deleted');
+                    showToast(data.message || 'User deleted');
                     loadUsers();
                 } else {
                     alert(data.error || 'Failed to delete user');
@@ -459,6 +464,11 @@
             formData.append('max_connections', m);
             formData.append('exp_date', e);
 
+            const token = document.getElementById('gh_token').value;
+            const repo = document.getElementById('gh_repo').value;
+            if (token) formData.append('gh_token', token);
+            if (repo) formData.append('gh_repo', repo);
+
             try {
                 const res = await fetch('/api/admin_actions.php', {
                     method: 'POST',
@@ -466,7 +476,7 @@
                 });
                 const data = await res.json();
                 if (data.success) {
-                    showToast('User created successfully!');
+                    showToast(data.message || 'User created successfully!');
                     closeModal();
                     loadUsers();
                 } else {
