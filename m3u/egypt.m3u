@@ -1,127 +1,4 @@
-﻿#EXTM3U
-
-
-################################################################################
-# Arabic Sports
-################################################################################
-
-#EXTINF:-1 tvg-id="49537" tvg-name="Al Ahly [SD]" group-title="Arabic Sports",Al Ahly [SD]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538644.ts
-
-#EXTINF:-1 tvg-id="3601" tvg-name="Al Ahly [HD]" group-title="Arabic Sports",Al Ahly [HD]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538644.ts
-
-#EXTINF:-1 tvg-id="2714" tvg-name="Zamalik Sport [EG]" group-title="Arabic Sports",Zamalik Sport [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/17352.ts
-
-#EXTINF:-1 tvg-id="49536" tvg-name="beIN_Global HD" group-title="Arabic Sports",beIN_Global HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/70359.ts
-
-#EXTINF:-1 tvg-id="2799" tvg-name="beIN_Sport_News" group-title="Arabic Sports",beIN_Sport_News
-http://aromatv.co:80//live/um-fahad-414/qatar123/414552.ts
-
-#EXTINF:-1 tvg-id="3249" tvg-name="BeIN Sport NBA HD" group-title="Arabic Sports",BeIN Sport NBA HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/9901.ts
-
-
-################################################################################
-# beIN MAX
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_1_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/5952.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_2_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/5953.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_3_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/40805.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_4_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/40806.ts
-
-
-################################################################################
-# beIN Movies
-################################################################################
-
-#EXTINF:-1 tvg-id="514" tvg-name="beIN_Movies_Premiere" group-title="beIN Movies",beIN_Movies_Premiere
-http://aromatv.co:80//live/um-fahad-414/qatar123/160.ts
-
-#EXTINF:-1 tvg-id="515" tvg-name="beIN_Movies_Action" group-title="beIN Movies",beIN_Movies_Action
-http://aromatv.co:80//live/um-fahad-414/qatar123/107576.ts
-
-#EXTINF:-1 tvg-id="516" tvg-name="beIN_Movies_Drama" group-title="beIN Movies",beIN_Movies_Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/162.ts
-
-#EXTINF:-1 tvg-id="4141" tvg-name="beIN_Star_Action" group-title="beIN Movies",beIN_Star_Action
-http://aromatv.co:80/live/um-fahad-414/qatar123/4141.ts
-
-#EXTINF:-1 tvg-id="4109" tvg-name="beIN_Star_FILMS" group-title="beIN Movies",beIN_Star_FILMS
-http://aromatv.co:80/live/um-fahad-414/qatar123/4109.ts
-
-#EXTINF:-1 tvg-id="4026" tvg-name="beIN_Star_Series" group-title="beIN Movies",beIN_Star_Series
-http://aromatv.co:80/live/um-fahad-414/qatar123/4026.ts
-
-#EXTINF:-1 tvg-id="4132" tvg-name="beIN_Star_LIFE" group-title="beIN Movies",beIN_Star_LIFE
-http://aromatv.co:80/live/um-fahad-414/qatar123/4132.ts
-
-#EXTINF:-1 tvg-id="3871" tvg-name="beIN FataFeat" group-title="beIN Movies",beIN FataFeat
-http://aromatv.co:80//live/um-fahad-414/qatar123/107580.ts
-
-#EXTINF:-1 tvg-id="4126" tvg-name="beIN_GURME" group-title="beIN Movies",beIN_GURME
-http://aromatv.co:80//live/um-fahad-414/qatar123/417493.ts
-
-#EXTINF:-1 tvg-id="3352" tvg-name="beIN_JEEM" group-title="beIN Movies",beIN_JEEM
-http://aromatv.co:80//live/um-fahad-414/qatar123/107584.ts
-
-#EXTINF:-1 tvg-id="12199" tvg-name="beIN_BBC Earth HD" group-title="beIN Movies",beIN_BBC Earth HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/107581.ts
-
-#EXTINF:-1 tvg-id="12201" tvg-name="beIN_Travel_HD" group-title="beIN Movies",beIN_Travel_HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/12201.ts
-
-#EXTINF:-1 tvg-id="12198" tvg-name="beIN HGTV HD" group-title="beIN Movies",beIN HGTV HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/12198.ts
-
-#EXTINF:-1 tvg-id="3655" tvg-name="Food Network" group-title="beIN Movies",Food Network
-http://aromatv.co:80//live/um-fahad-414/qatar123/519435.ts
-
-#EXTINF:-1 tvg-id="12202" tvg-name="beIN_Cartoonito" group-title="beIN Movies",beIN_Cartoonito
-http://aromatv.co:80/live/um-fahad-414/qatar123/12202.ts
-
-
-################################################################################
-# beIN Sports Low
-################################################################################
-
-#EXTINF:-1 tvg-id="22" tvg-name="beIN_1_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be1.png" group-title="beIN Sports Low",beIN_1_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/22.ts
-
-#EXTINF:-1 tvg-id="23" tvg-name="beIN_2_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be2.png" group-title="beIN Sports Low",beIN_2_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/23.ts
-
-#EXTINF:-1 tvg-id="24" tvg-name="beIN_3_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be3.png" group-title="beIN Sports Low",beIN_3_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/24.ts
-
-#EXTINF:-1 tvg-id="16" tvg-name="beIN_4_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be4.png" group-title="beIN Sports Low",beIN_4_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/16.ts
-
-#EXTINF:-1 tvg-id="17" tvg-name="beIN_5_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be5.png" group-title="beIN Sports Low",beIN_5_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/17.ts
-
-#EXTINF:-1 tvg-id="18" tvg-name="beIN_6_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be6.png" group-title="beIN Sports Low",beIN_6_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/18.ts
-
-#EXTINF:-1 tvg-id="2391" tvg-name="beIN_7_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be7.png" group-title="beIN Sports Low",beIN_7_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/2391.ts
-
-#EXTINF:-1 tvg-id="19" tvg-name="beIN_8_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be8.png" group-title="beIN Sports Low",beIN_8_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/19.ts
-
-#EXTINF:-1 tvg-id="20" tvg-name="beIN_9_Low" tvg-logo="http://images.vega-xt-mh.com:80/bein/be9.png" group-title="beIN Sports Low",beIN_9_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/20.ts
-
+#EXTM3U
 
 ################################################################################
 # Egypt
@@ -163,524 +40,564 @@ https://rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u
 #EXTINF:-1 tvg-name="Watan TV" tvg-logo="" tvg-id="WatanTV.eg" group-title="Egypt",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="61726" tvg-name="Egyptian [EG]" group-title="Egypt",Egyptian [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302616.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Al Hayat Plus HD" group-title="Egypt",AL Al Hayat Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538646.ts
 
-#EXTINF:-1 tvg-id="3840" tvg-name="Al Masriya ARB [EG]" group-title="Egypt",Al Masriya ARB [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/3840.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Saied Plus" group-title="Egypt",AL Saied Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538661.ts
 
-#EXTINF:-1 tvg-id="3860" tvg-name="Al Oula Masria [EG]" group-title="Egypt",Al Oula Masria [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/3860.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shams 2 Plus" group-title="Egypt",AL Shams 2 Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538662.ts
 
-#EXTINF:-1 tvg-id="4449" tvg-name="Al Thania [EG]" group-title="Egypt",Al Thania [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/4449.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shams TV Plus" group-title="Egypt",AL Shams TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538663.ts
 
-#EXTINF:-1 tvg-id="2752" tvg-name="AL Kahera [EG]" group-title="Egypt",AL Kahera [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538652.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Alwan Plus" group-title="Egypt",AL Shasha Alwan Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538664.ts
 
-#EXTINF:-1 tvg-id="30563" tvg-name="AL Askandria [EG]" group-title="Egypt",AL Askandria [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/30563.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Cinema Plus" group-title="Egypt",AL Shasha Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538665.ts
 
-#EXTINF:-1 tvg-id="30562" tvg-name="AL Sa3eed [EG]" group-title="Egypt",AL Sa3eed [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/30562.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Drama Plus" group-title="Egypt",AL Shasha Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538666.ts
 
-#EXTINF:-1 tvg-id="3974" tvg-name="ON E [EG]" group-title="Egypt",ON E [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302621.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Film Plus" group-title="Egypt",AL Shasha Film Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538667.ts
 
-#EXTINF:-1 tvg-id="3500" tvg-name="ON DRAMA[EG]" group-title="Egypt",ON DRAMA[EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302620.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Hekayat Plus" group-title="Egypt",AL Shasha Hekayat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538668.ts
 
-#EXTINF:-1 tvg-id="4013" tvg-name="DMC [EG]" group-title="Egypt",DMC [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538696.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Ahly Plus 4K" group-title="Egypt",Al Ahly Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538644.ts
 
-#EXTINF:-1 tvg-id="3687" tvg-name="DMC DRAMA [EG]" group-title="Egypt",DMC DRAMA [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538695.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Ahly Plus HD" group-title="Egypt",Al Ahly Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538645.ts
 
-#EXTINF:-1 tvg-id="2757" tvg-name="CBC [EG]" group-title="Egypt",CBC [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/282941.ts
-
-#EXTINF:-1 tvg-id="2753" tvg-name="CBC Sofra [EG]" group-title="Egypt",CBC Sofra [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538690.ts
-
-#EXTINF:-1 tvg-id="2755" tvg-name="CBC Drama [EG]" group-title="Egypt",CBC Drama [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538688.ts
-
-#EXTINF:-1 tvg-id="2754" tvg-name="Extra News [EG]" group-title="Egypt",Extra News [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538710.ts
-
-#EXTINF:-1 tvg-id="2775" tvg-name="AL Hayat Egypt [EG]" group-title="Egypt",AL Hayat Egypt [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538651.ts
-
-#EXTINF:-1 tvg-id="2773" tvg-name="Al Hayat Muslsalat [EG]" group-title="Egypt",Al Hayat Muslsalat [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/2773.ts
-
-#EXTINF:-1 tvg-id="2763" tvg-name="Al Nahar [EG]" group-title="Egypt",Al Nahar [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302610.ts
-
-#EXTINF:-1 tvg-id="2759" tvg-name="Al Nahar Drama [EG]" group-title="Egypt",Al Nahar Drama [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538675.ts
-
-#EXTINF:-1 tvg-id="2765" tvg-name="Al kahera Wa Lnas [EG]" group-title="Egypt",Al kahera Wa Lnas [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/2765.ts
-
-#EXTINF:-1 tvg-id="2764" tvg-name="Al kahera Wa Lnas 2 [EG]" group-title="Egypt",Al kahera Wa Lnas 2 [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/2764.ts
-
-#EXTINF:-1 tvg-id="2716" tvg-name="Sada El Balad  [EG]" group-title="Egypt",Sada El Balad  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302653.ts
-
-#EXTINF:-1 tvg-id="3937" tvg-name="Sada El Balad 2 [EG]" group-title="Egypt",Sada El Balad 2 [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302654.ts
-
-#EXTINF:-1 tvg-id="3593" tvg-name="Sada El Balad Drama [EG]" group-title="Egypt",Sada El Balad Drama [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302655.ts
-
-#EXTINF:-1 tvg-id="3599" tvg-name="Mehwar [EG]" group-title="Egypt",Mehwar [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538719.ts
-
-#EXTINF:-1 tvg-id="5340" tvg-name="Etc [EG]" group-title="Egypt",Etc [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/465418.ts
-
-#EXTINF:-1 tvg-id="5112" tvg-name="el shams [EG]" group-title="Egypt",el shams [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/449391.ts
-
-#EXTINF:-1 tvg-id="2715" tvg-name="Ten [EG]" group-title="Egypt",Ten [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302657.ts
-
-#EXTINF:-1 tvg-id="48828" tvg-name="Misr El Bald [EG]" group-title="Egypt",Misr El Bald [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/48828.ts
-
-#EXTINF:-1 tvg-id="2725" tvg-name="PNC Film [EG]" group-title="Egypt",PNC Film [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538749.ts
-
-#EXTINF:-1 tvg-id="2727" tvg-name="PNC Drama  [EG]" group-title="Egypt",PNC Drama  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538748.ts
-
-#EXTINF:-1 tvg-id="2726" tvg-name="PNC Drama 2  [EG]" group-title="Egypt",PNC Drama 2  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538747.ts
-
-#EXTINF:-1 tvg-id="2051" tvg-name="Panorama Foot  [EG]" group-title="Egypt",Panorama Foot  [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/2051.ts
-
-#EXTINF:-1 tvg-id="3931" tvg-name="Maspero Zaman [EG]" group-title="Egypt",Maspero Zaman [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302676.ts
-
-#EXTINF:-1 tvg-id="2741" tvg-name="Nile Cinema  [EG]" group-title="Egypt",Nile Cinema  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302628.ts
-
-#EXTINF:-1 tvg-id="2740" tvg-name="NILE COMEDY  [EG]" group-title="Egypt",NILE COMEDY  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302630.ts
-
-#EXTINF:-1 tvg-id="2738" tvg-name="Nile Drama [EG]" group-title="Egypt",Nile Drama [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302632.ts
-
-#EXTINF:-1 tvg-id="2034" tvg-name="Nile Family [EG]" group-title="Egypt",Nile Family [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302633.ts
-
-#EXTINF:-1 tvg-id="2739" tvg-name="Nile Culture  [EG]" group-title="Egypt",Nile Culture  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302631.ts
-
-#EXTINF:-1 tvg-id="2035" tvg-name="Nile Life [EG]" group-title="Egypt",Nile Life [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302626.ts
-
-#EXTINF:-1 tvg-id="2036" tvg-name="Nile News [EG]" group-title="Egypt",Nile News [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302625.ts
-
-#EXTINF:-1 tvg-id="61592" tvg-name="Mix  [EG]" group-title="Egypt",Mix  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302671.ts
-
-#EXTINF:-1 tvg-id="3672" tvg-name="Mix Hollywood[AR]" group-title="Egypt",Mix Hollywood[AR]
-http://aromatv.co:80//live/um-fahad-414/qatar123/302666.ts
-
-#EXTINF:-1 tvg-id="61593" tvg-name="Mix One [EG]" group-title="Egypt",Mix One [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/413593.ts
-
-#EXTINF:-1 tvg-id="61591" tvg-name="Mix Bel Araby  [EG]" group-title="Egypt",Mix Bel Araby  [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/466326.ts
-
-#EXTINF:-1 tvg-id="2020" tvg-name="Cima TV [EG]" group-title="Egypt",Cima TV [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538691.ts
-
-#EXTINF:-1 tvg-id="2760" tvg-name="Nile TV [EG]" group-title="Egypt",Nile TV [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/538739.ts
-
-#EXTINF:-1 tvg-id="22488" tvg-name="M Classic[EG]" group-title="Egypt",M Classic[EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/22488.ts
-
-#EXTINF:-1 tvg-id="4448" tvg-name="Hareem_Elsultan [EG]" group-title="Egypt",Hareem_Elsultan [EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/4448.ts
-
-#EXTINF:-1 tvg-id="3598" tvg-name="M Cinema[EG]" group-title="Egypt",M Cinema[EG]
-http://aromatv.co:80/live/um-fahad-414/qatar123/3598.ts
-
-#EXTINF:-1 tvg-id="75528" tvg-name="Madrastna 3" group-title="Egypt",Madrastna 3
-http://aromatv.co:80//live/um-fahad-414/qatar123/419539.ts
-
-#EXTINF:-1 tvg-id="5148" tvg-name="Madrastna" group-title="Egypt",Madrastna
-http://aromatv.co:80//live/um-fahad-414/qatar123/302659.ts
-
-#EXTINF:-1 tvg-id="759" tvg-name="Madrastna 2" group-title="Egypt",Madrastna 2
-http://aromatv.co:80//live/um-fahad-414/qatar123/302659.ts
-
-#EXTINF:-1 tvg-id="5133" tvg-name="Education Egypt" group-title="Egypt",Education Egypt
-http://aromatv.co:80//live/um-fahad-414/qatar123/465513.ts
-
-
-################################################################################
-# Kids
-################################################################################
-
-#EXTINF:-1 tvg-id="7095" tvg-name="beIN Baby" group-title="Kids",beIN Baby
-http://aromatv.co:80/live/um-fahad-414/qatar123/7095.ts
-
-#EXTINF:-1 tvg-id="3351" tvg-name="beIN_Baraem_HD" group-title="Kids",beIN_Baraem_HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/3351.ts
-
-#EXTINF:-1 tvg-id="69921" tvg-name="ROTANA KIDS" group-title="Kids",ROTANA KIDS
-http://aromatv.co:80//live/um-fahad-414/qatar123/93966.ts
-
-
-################################################################################
-# KSA AD Sport
-################################################################################
-
-#EXTINF:-1 tvg-id="120286" tvg-name="AD SPORT 1 SD" group-title="KSA AD Sport",AD SPORT 1 SD
-http://aromatv.co:80//live/um-fahad-414/qatar123/538598.ts
-
-#EXTINF:-1 tvg-id="120287" tvg-name="AD SPORT 2 SD" group-title="KSA AD Sport",AD SPORT 2 SD
-http://aromatv.co:80//live/um-fahad-414/qatar123/538599.ts
-
-#EXTINF:-1 tvg-id="4470" tvg-name="[AR]KSA_SPORTS1" group-title="KSA AD Sport",[AR]KSA_SPORTS1
-http://aromatv.co:80/live/um-fahad-414/qatar123/4470.ts
-
-#EXTINF:-1 tvg-id="4244" tvg-name="[AR]KSA_SPORTS2" group-title="KSA AD Sport",[AR]KSA_SPORTS2
-http://aromatv.co:80/live/um-fahad-414/qatar123/4244.ts
-
-
-################################################################################
-# MBC
-################################################################################
-
-#EXTINF:-1 tvg-id="2003" tvg-name="MBC Masr" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1176.jpg" group-title="MBC",MBC Masr
-http://aromatv.co:80//live/um-fahad-414/qatar123/536791.ts
-
-#EXTINF:-1 tvg-id="2005" tvg-name="MBC Masr 2" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/22.jpg" group-title="MBC",MBC Masr 2
-http://aromatv.co:80//live/um-fahad-414/qatar123/13244.ts
-
-#EXTINF:-1 tvg-id="2749" tvg-name="MBC 3" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/15.png" group-title="MBC",MBC 3
-http://aromatv.co:80//live/um-fahad-414/qatar123/444.ts
-
-#EXTINF:-1 tvg-id="2748" tvg-name="MBC 4" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/21.jpg" group-title="MBC",MBC 4
-http://aromatv.co:80//live/um-fahad-414/qatar123/445.ts
-
-#EXTINF:-1 tvg-id="5103" tvg-name="MBC 5" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13.jpg" group-title="MBC",MBC 5
-http://aromatv.co:80//live/um-fahad-414/qatar123/187446.ts
-
-#EXTINF:-1 tvg-id="2747" tvg-name="MBC Action" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/32.jpg" group-title="MBC",MBC Action
-http://aromatv.co:80//live/um-fahad-414/qatar123/37840.ts
-
-#EXTINF:-1 tvg-id="2745" tvg-name="MBC Drama" group-title="MBC",MBC Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/37842.ts
-
-#EXTINF:-1 tvg-id="4991" tvg-name="MBC Drama+ HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/12781.jpg?95656" group-title="MBC",MBC Drama+ HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/37842.ts
-
-#EXTINF:-1 tvg-id="4991" tvg-name="MBC Drama+ HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/12781.jpg?95656" group-title="MBC",MBC Drama+ HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/37842.ts
-
-#EXTINF:-1 tvg-id="32403" tvg-name="MBC PANORAMA FHD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/191.jpg?ver=80969" group-title="MBC",MBC PANORAMA FHD
-http://aromatv.co:80/live/um-fahad-414/qatar123/32403.ts
-
-#EXTINF:-1 tvg-id="32405" tvg-name="MBC WANASH FHD " group-title="MBC",MBC WANASH FHD
-http://aromatv.co:80/live/um-fahad-414/qatar123/32405.ts
-
-#EXTINF:-1 tvg-id="2746" tvg-name="MBC Bollywood" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/20.png?62419" group-title="MBC",MBC Bollywood
-http://aromatv.co:80//live/um-fahad-414/qatar123/37841.ts
-
-#EXTINF:-1 tvg-id="232126" tvg-name="MBC Masr 1 SD" group-title="MBC",MBC Masr 1 SD
-http://aromatv.co:80//live/um-fahad-414/qatar123/501742.ts
-
-#EXTINF:-1 tvg-id="232127" tvg-name="MBC Masr 2 SD" group-title="MBC",MBC Masr 2 SD
-http://aromatv.co:80//live/um-fahad-414/qatar123/501743.ts
-
-#EXTINF:-1 tvg-id="232128" tvg-name="MBC Action SD" group-title="MBC",MBC Action SD
-http://aromatv.co:80//live/um-fahad-414/qatar123/501738.ts
-
-#EXTINF:-1 tvg-id="168136" tvg-name="MBC Masr Drama" group-title="MBC",MBC Masr Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/448081.ts
-
-
-################################################################################
-# Others
-################################################################################
-
-#EXTINF:-1 tvg-id="25" tvg-name="beIN_SPORTS_1Xtra_Low" group-title="Others",beIN_SPORTS_1Xtra_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/25.ts
-
-#EXTINF:-1 tvg-id="89760" tvg-name="beIN_SPORTS_2Xtra_Low" group-title="Others",beIN_SPORTS_2Xtra_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/89760.ts
-
-#EXTINF:-1 tvg-id="115381" tvg-name="beIN_SPORTS_3Xtra_Low" group-title="Others",beIN_SPORTS_3Xtra_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/115381.ts
-
-#EXTINF:-1 tvg-id="26" tvg-name="beIN_SPORTS_1English_Low" group-title="Others",beIN_SPORTS_1English_Low
-http://aromatv.co:80/live/um-fahad-414/qatar123/26.ts
-
-#EXTINF:-1 tvg-id="244602" tvg-name="SHASHA SPORT 1 HD" group-title="Others",SHASHA SPORT 1 HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/244602.ts
-
-#EXTINF:-1 tvg-id="244603" tvg-name="SHASHA SPORT 2 HD" group-title="Others",SHASHA SPORT 2 HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/244603.ts
-
-#EXTINF:-1 tvg-id="244604" tvg-name="SHASHA SPORT 3 HD" group-title="Others",SHASHA SPORT 3 HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/244604.ts
-
-#EXTINF:-1 tvg-id="74848" tvg-name="StarzPlay 1 480P" group-title="Others",StarzPlay 1 480P
-http://aromatv.co:80/live/um-fahad-414/qatar123/74848.ts
-
-#EXTINF:-1 tvg-id="74849" tvg-name="StarzPlay 2 480P" group-title="Others",StarzPlay 2 480P
-http://aromatv.co:80/live/um-fahad-414/qatar123/74849.ts
-
-#EXTINF:-1 tvg-id="74195" tvg-name="StarzPlay 3 1080P" group-title="Others",StarzPlay 3 1080P
-http://aromatv.co:80/live/um-fahad-414/qatar123/74195.ts
-
-#EXTINF:-1 tvg-id="89776" tvg-name="[STRZ] AD SPORT ASIA 1 SD" group-title="Others",[STRZ] AD SPORT ASIA 1 SD
-http://aromatv.co:80/live/um-fahad-414/qatar123/89776.ts
-
-#EXTINF:-1 tvg-id="89777" tvg-name="[STRZ] AD SPORT ASIA 2 SD" group-title="Others",[STRZ] AD SPORT ASIA 2 SD
-http://aromatv.co:80/live/um-fahad-414/qatar123/89777.ts
-
-#EXTINF:-1 tvg-id="248961" tvg-name="ON Sport 1 LOW" group-title="Others",ON Sport 1 LOW
-http://aromatv.co:80//live/um-fahad-414/qatar123/15644.ts
-
-#EXTINF:-1 tvg-id="248962" tvg-name="ON Sport 2 LOW" group-title="Others",ON Sport 2 LOW
-http://aromatv.co:80//live/um-fahad-414/qatar123/16177.ts
-
-#EXTINF:-1 tvg-id="155830" tvg-name="MH TV Search" tvg-logo="http://search.webhypertv.xyz/search/images/506682076.png" group-title="Others",MH TV Search
-http://aromatv.co:80/live/um-fahad-414/qatar123/155830.ts
-
-#EXTINF:-1 tvg-id="4047" tvg-name="B4U Plus [AE]" group-title="Others",B4U Plus [AE]
-http://aromatv.co:80//live/um-fahad-414/qatar123/465459.ts
-
-#EXTINF:-1 tvg-id="4101" tvg-name="Zee Aflam [AE]" group-title="Others",Zee Aflam [AE]
-http://aromatv.co:80//live/um-fahad-414/qatar123/465308.ts
-
-#EXTINF:-1 tvg-id="4100" tvg-name="Zee Alwan [AE]" group-title="Others",Zee Alwan [AE]
-http://aromatv.co:80//live/um-fahad-414/qatar123/465309.ts
-
-#EXTINF:-1 tvg-id="48829" tvg-name="Almashhad HD" group-title="Others",Almashhad HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/48829.ts
-
-#EXTINF:-1 tvg-id="4506" tvg-name="Musawa TV [EG]" group-title="Others",Musawa TV [EG]
-http://aromatv.co:80//live/um-fahad-414/qatar123/465475.ts
-
-#EXTINF:-1 tvg-id="82270" tvg-name="On Sport FM" group-title="Others",On Sport FM
-http://aromatv.co:80/live/um-fahad-414/qatar123/82270.ts
-
-
-################################################################################
-# Rotana
-################################################################################
-
-#EXTINF:-1 tvg-id="2018" tvg-name="Rotana Aflam" group-title="Rotana",Rotana Aflam
-http://aromatv.co:80//live/um-fahad-414/qatar123/206378.ts
-
-#EXTINF:-1 tvg-id="2023" tvg-name="Rotana Music" group-title="Rotana",Rotana Music
-http://aromatv.co:80//live/um-fahad-414/qatar123/206388.ts
-
-#EXTINF:-1 tvg-id="2718" tvg-name="Rotana Khalijia" group-title="Rotana",Rotana Khalijia
-http://aromatv.co:80/live/um-fahad-414/qatar123/2718.ts
-
-#EXTINF:-1 tvg-id="2719" tvg-name="Rotana Clip" group-title="Rotana",Rotana Clip
-http://aromatv.co:80//live/um-fahad-414/qatar123/1356.ts
-
-#EXTINF:-1 tvg-id="2720" tvg-name="Rotana Classic" group-title="Rotana",Rotana Classic
-http://aromatv.co:80//live/um-fahad-414/qatar123/206384.ts
-
-#EXTINF:-1 tvg-id="2721" tvg-name="Rotana Cinema KSA" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/48.jpg" group-title="Rotana",Rotana Cinema KSA
-http://aromatv.co:80//live/um-fahad-414/qatar123/206382.ts
-
-#EXTINF:-1 tvg-id="2722" tvg-name="Rotana Plus" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/12952.png?ver=56861" group-title="Rotana",Rotana Plus
-http://aromatv.co:80//live/um-fahad-414/qatar123/206379.ts
-
-#EXTINF:-1 tvg-id="3326" tvg-name="Rotana Drama" group-title="Rotana",Rotana Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/206386.ts
-
-#EXTINF:-1 tvg-id="7099" tvg-name="Rotana Comedy" group-title="Rotana",Rotana Comedy
-http://aromatv.co:80//live/um-fahad-414/qatar123/206385.ts
-
-#EXTINF:-1 tvg-id="3668" tvg-name="Rotana Khalijia HD" group-title="Rotana",Rotana Khalijia HD
-http://aromatv.co:80/live/um-fahad-414/qatar123/3668.ts
-
-#EXTINF:-1 tvg-id="3669" tvg-name="Rotana Classic HD" group-title="Rotana",Rotana Classic HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/1357.ts
-
-#EXTINF:-1 tvg-id="3670" tvg-name="Rotana Cinema EG HD" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/48.jpg" group-title="Rotana",Rotana Cinema EG HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/536961.ts
-
-#EXTINF:-1 tvg-id="3671" tvg-name="Rotana Music HD" group-title="Rotana",Rotana Music HD
-http://aromatv.co:80//live/um-fahad-414/qatar123/1358.ts
-
-#EXTINF:-1 tvg-id="69918" tvg-name="Rotana Aflam 4K" group-title="Rotana",Rotana Aflam 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206378.ts
-
-#EXTINF:-1 tvg-id="69919" tvg-name="ROTANA + 4K" group-title="Rotana",ROTANA + 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206379.ts
-
-#EXTINF:-1 tvg-id="69922" tvg-name="Rotana Cinema KSA 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/48.jpg" group-title="Rotana",Rotana Cinema KSA 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206382.ts
-
-#EXTINF:-1 tvg-id="69923" tvg-name="Rotana Cinema EG 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/48.jpg" group-title="Rotana",Rotana Cinema EG 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/536961.ts
-
-#EXTINF:-1 tvg-id="69924" tvg-name="Rotana Classic 4K" group-title="Rotana",Rotana Classic 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206384.ts
-
-#EXTINF:-1 tvg-id="69925" tvg-name="Rotana Comedy 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/12790.jpg?ver=12761" group-title="Rotana",Rotana Comedy 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206385.ts
-
-#EXTINF:-1 tvg-id="69926" tvg-name="ROTANA DRAMA 4K" group-title="Rotana",ROTANA DRAMA 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206386.ts
-
-#EXTINF:-1 tvg-id="69927" tvg-name="Rotana Khalijia 4K" group-title="Rotana",Rotana Khalijia 4K
-http://aromatv.co:80/live/um-fahad-414/qatar123/69927.ts
-
-#EXTINF:-1 tvg-id="69928" tvg-name="Rotana Music 4K" group-title="Rotana",Rotana Music 4K
-http://aromatv.co:80//live/um-fahad-414/qatar123/206388.ts
-
-
-################################################################################
-# Shahid Live
-################################################################################
-
-#EXTINF:-1 tvg-id="79412" tvg-name="Shahid_MBC-Plus-Drama" group-title="Shahid Live",Shahid_MBC-Plus-Drama
-http://aromatv.co:80/live/um-fahad-414/qatar123/79412.ts
-
-#EXTINF:-1 tvg-id="79413" tvg-name="Shahid_Bollywood" group-title="Shahid Live",Shahid_Bollywood
-http://aromatv.co:80/live/um-fahad-414/qatar123/79413.ts
-
-#EXTINF:-1 tvg-id="79414" tvg-name="Shahid_masrah-misr" group-title="Shahid Live",Shahid_masrah-misr
-http://aromatv.co:80/live/um-fahad-414/qatar123/79414.ts
-
-#EXTINF:-1 tvg-id="79415" tvg-name="Shahid_MBC5" group-title="Shahid Live",Shahid_MBC5
-http://aromatv.co:80/live/um-fahad-414/qatar123/79415.ts
-
-#EXTINF:-1 tvg-id="79416" tvg-name="Shahid_Bab-Al-Hara" group-title="Shahid Live",Shahid_Bab-Al-Hara
-http://aromatv.co:80/live/um-fahad-414/qatar123/79416.ts
-
-#EXTINF:-1 tvg-id="79417" tvg-name="Shahid_aflam" group-title="Shahid Live",Shahid_aflam
-http://aromatv.co:80//live/um-fahad-414/qatar123/449345.ts
-
-#EXTINF:-1 tvg-id="79418" tvg-name="Shahid_Movies" group-title="Shahid Live",Shahid_Movies
-http://aromatv.co:80/live/um-fahad-414/qatar123/79418.ts
-
-#EXTINF:-1 tvg-id="79419" tvg-name="Shahid_Movies-Thriller" group-title="Shahid Live",Shahid_Movies-Thriller
-http://aromatv.co:80/live/um-fahad-414/qatar123/79419.ts
-
-#EXTINF:-1 tvg-id="79420" tvg-name="Shahid_Movies-Action" group-title="Shahid Live",Shahid_Movies-Action
-http://aromatv.co:80/live/um-fahad-414/qatar123/79420.ts
-
-#EXTINF:-1 tvg-id="79421" tvg-name="Shahid_TopChef" group-title="Shahid Live",Shahid_TopChef
-http://aromatv.co:80/live/um-fahad-414/qatar123/79421.ts
-
-#EXTINF:-1 tvg-id="79422" tvg-name="maraya" group-title="Shahid Live",maraya
-http://aromatv.co:80//live/um-fahad-414/qatar123/449337.ts
-
-#EXTINF:-1 tvg-id="79426" tvg-name="Shahid_ Turkish Drama" group-title="Shahid Live",Shahid_ Turkish Drama
-http://aromatv.co:80/live/um-fahad-414/qatar123/79426.ts
-
-#EXTINF:-1 tvg-id="79427" tvg-name="Shahid_Tash" group-title="Shahid Live",Shahid_Tash
-http://aromatv.co:80//live/um-fahad-414/qatar123/449327.ts
-
-#EXTINF:-1 tvg-id="79428" tvg-name="Shahid_alhufra" group-title="Shahid Live",Shahid_alhufra
-http://aromatv.co:80/live/um-fahad-414/qatar123/79428.ts
-
-#EXTINF:-1 tvg-id="79429" tvg-name="Shahid_Al_Leaba" group-title="Shahid Live",Shahid_Al_Leaba
-http://aromatv.co:80/live/um-fahad-414/qatar123/79429.ts
-
-#EXTINF:-1 tvg-id="168142" tvg-name="MBC Masr" group-title="Shahid Live",MBC Masr
-http://aromatv.co:80//live/um-fahad-414/qatar123/536791.ts
-
-#EXTINF:-1 tvg-id="168092" tvg-name="MBC Masr2 1080" group-title="Shahid Live",MBC Masr2 1080
-http://aromatv.co:80/live/um-fahad-414/qatar123/168092.ts
-
-#EXTINF:-1 tvg-id="168141" tvg-name="MBC1" group-title="Shahid Live",MBC1
-http://aromatv.co:80//live/um-fahad-414/qatar123/536773.ts
-
-#EXTINF:-1 tvg-id="168140" tvg-name="MBC2" group-title="Shahid Live",MBC2
-http://aromatv.co:80//live/um-fahad-414/qatar123/37837.ts
-
-#EXTINF:-1 tvg-id="168088" tvg-name="MBC3" group-title="Shahid Live",MBC3
-http://aromatv.co:80//live/um-fahad-414/qatar123/37838.ts
-
-#EXTINF:-1 tvg-id="168137" tvg-name="MBC 4" group-title="Shahid Live",MBC 4
-http://aromatv.co:80//live/um-fahad-414/qatar123/445.ts
-
-#EXTINF:-1 tvg-id="168135" tvg-name=" MBC 5" group-title="Shahid Live", MBC 5
-http://aromatv.co:80//live/um-fahad-414/qatar123/187446.ts
-
-#EXTINF:-1 tvg-id="168139" tvg-name="MBC Drama" group-title="Shahid Live",MBC Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/37842.ts
-
-#EXTINF:-1 tvg-id="168138" tvg-name="MBC Plus Drama" group-title="Shahid Live",MBC Plus Drama
-http://aromatv.co:80//live/um-fahad-414/qatar123/37842.ts
-
-#EXTINF:-1 tvg-id="168134" tvg-name="MBC Iraq" group-title="Shahid Live",MBC Iraq
-http://aromatv.co:80//live/um-fahad-414/qatar123/113810.ts
-
-#EXTINF:-1 tvg-id="168133" tvg-name="MBC Bollywood" group-title="Shahid Live",MBC Bollywood
-http://aromatv.co:80//live/um-fahad-414/qatar123/37841.ts
-
-#EXTINF:-1 tvg-id="168132" tvg-name=" MBC Persia" group-title="Shahid Live", MBC Persia
-http://aromatv.co:80//live/um-fahad-414/qatar123/324567.ts
-
-#EXTINF:-1 tvg-id="168131" tvg-name="Al Arabiya" group-title="Shahid Live",Al Arabiya
-http://aromatv.co:80//live/um-fahad-414/qatar123/28418.ts
-
-#EXTINF:-1 tvg-id="168130" tvg-name="Al Arabiya Business" group-title="Shahid Live",Al Arabiya Business
-http://aromatv.co:80//live/um-fahad-414/qatar123/538525.ts
-
-#EXTINF:-1 tvg-id="168129" tvg-name="Al Hadath" group-title="Shahid Live",Al Hadath
+#EXTINF:-1 tvg-id="" tvg-name="Al Hadath Alyoum Plus" group-title="Egypt",Al Hadath Alyoum Plus
 http://aromatv.co:80//live/um-fahad-414/qatar123/538649.ts
 
-#EXTINF:-1 tvg-id="168128" tvg-name="Alikhbariya" group-title="Shahid Live",Alikhbariya
-http://aromatv.co:80/live/um-fahad-414/qatar123/168128.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Hayat Drama Plus" group-title="Egypt",Al Hayat Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538650.ts
 
-#EXTINF:-1 tvg-id="168125" tvg-name="Asharq" group-title="Shahid Live",Asharq
-http://aromatv.co:80//live/um-fahad-414/qatar123/408559.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Hayat Plus 4K" group-title="Egypt",Al Hayat Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538651.ts
 
-#EXTINF:-1 tvg-id="168117" tvg-name="Top  Chef Channel" group-title="Shahid Live",Top  Chef Channel
-http://aromatv.co:80/live/um-fahad-414/qatar123/168117.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera Plus" group-title="Egypt",Al Kahera Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538652.ts
 
-#EXTINF:-1 tvg-id="168111" tvg-name="Movies Action" group-title="Shahid Live",Movies Action
-http://aromatv.co:80//live/um-fahad-414/qatar123/107576.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera Wal Nas 2 Plus" group-title="Egypt",Al Kahera Wal Nas 2 Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538653.ts
 
-#EXTINF:-1 tvg-id="168110" tvg-name="Movies Thriller" group-title="Shahid Live",Movies Thriller
-http://aromatv.co:80//live/um-fahad-414/qatar123/5120.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera Wal Nas Plus" group-title="Egypt",Al Kahera Wal Nas Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538654.ts
 
-#EXTINF:-1 tvg-id="168109" tvg-name="Aflam" group-title="Shahid Live",Aflam
-http://aromatv.co:80//live/um-fahad-414/qatar123/466614.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Masriyah Plus 4K" group-title="Egypt",Al Masriyah Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538656.ts
 
-#EXTINF:-1 tvg-id="168106" tvg-name="Maraya Channel" group-title="Shahid Live",Maraya Channel
-http://aromatv.co:80//live/um-fahad-414/qatar123/449337.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Masriyah Plus HD" group-title="Egypt",Al Masriyah Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538657.ts
 
-#EXTINF:-1 tvg-id="168105" tvg-name="El Leba Channel" group-title="Shahid Live",El Leba Channel
-http://aromatv.co:80/live/um-fahad-414/qatar123/168105.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Oula Plus 4K" group-title="Egypt",Al Oula Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538658.ts
 
-#EXTINF:-1 tvg-id="168103" tvg-name="Arabs-Got-Talent" group-title="Shahid Live",Arabs-Got-Talent
-http://aromatv.co:80//live/um-fahad-414/qatar123/429605.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Oula Plus HD" group-title="Egypt",Al Oula Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538659.ts
 
-#EXTINF:-1 tvg-id="168098" tvg-name="Masrah Masr Channel" group-title="Shahid Live",Masrah Masr Channel
-http://aromatv.co:80/live/um-fahad-414/qatar123/168098.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Qahera News Plus HD" group-title="Egypt",Al Qahera News Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538660.ts
 
-#EXTINF:-1 tvg-id="168096" tvg-name="Bab Al Hara Channel" group-title="Shahid Live",Bab Al Hara Channel
-http://aromatv.co:80/live/um-fahad-414/qatar123/168096.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Shasha Mosalsalat Plus" group-title="Egypt",Al Shasha Mosalsalat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538669.ts
 
-#EXTINF:-1 tvg-id="168087" tvg-name="Spacetoon" group-title="Shahid Live",Spacetoon
-http://aromatv.co:80//live/um-fahad-414/qatar123/1361.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Sukariya Cinema Plus" group-title="Egypt",Al Sukariya Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538670.ts
 
-#EXTINF:-1 tvg-id="168083" tvg-name="Panorama FM" group-title="Shahid Live",Panorama FM
-http://aromatv.co:80//live/um-fahad-414/qatar123/449307.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Sukariya Classic Plus" group-title="Egypt",Al Sukariya Classic Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538671.ts
 
-#EXTINF:-1 tvg-id="168082" tvg-name="Wanasa" group-title="Shahid Live",Wanasa
-http://aromatv.co:80//live/um-fahad-414/qatar123/353574.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Sukariya Drama Plus" group-title="Egypt",Al Sukariya Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538672.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Sukariya Hekayat Plus" group-title="Egypt",Al Sukariya Hekayat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538673.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Sukariya Zaman Plus" group-title="Egypt",Al Sukariya Zaman Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538674.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al-Nahar Drama Plus" group-title="Egypt",Al-Nahar Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538675.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al-Nahar Life Plus" group-title="Egypt",Al-Nahar Life Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538676.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al-Nahar One Plus" group-title="Egypt",Al-Nahar One Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alsa3yda Plus" group-title="Egypt",Alsa3yda Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538678.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Althanya Plus" group-title="Egypt",Althanya Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538679.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Aflam Plus" group-title="Egypt",Beirut Aflam Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538680.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Al Yoom Plus" group-title="Egypt",Beirut Al Yoom Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538681.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Cinema Plus" group-title="Egypt",Beirut Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538682.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Drama Plus" group-title="Egypt",Beirut Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538683.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBC Drama Plus" group-title="Egypt",CBC Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538688.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBC Plus" group-title="Egypt",CBC Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538689.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBC Sofra Plus" group-title="Egypt",CBC Sofra Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538690.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cairo Plus Alyoum Plus" group-title="Egypt",Cairo Plus Alyoum Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538684.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cairo Plus Cinema Plus" group-title="Egypt",Cairo Plus Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538685.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cairo Plus Classic Plus" group-title="Egypt",Cairo Plus Classic Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538686.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cairo Plus Drama Plus" group-title="Egypt",Cairo Plus Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538687.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cima TV Plus" group-title="Egypt",Cima TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538691.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DMC DRAMA Plus" group-title="Egypt",DMC DRAMA Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538695.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DMC Plus 4K" group-title="Egypt",DMC Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538696.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DMC Plus HD" group-title="Egypt",DMC Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538697.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dahab Drama TV Plus" group-title="Egypt",Dahab Drama TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538692.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dahab Mosalsalat Plus" group-title="Egypt",Dahab Mosalsalat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538693.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dahab TV Plus" group-title="Egypt",Dahab TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538694.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dolly Alyoom Plus" group-title="Egypt",Dolly Alyoom Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538698.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dolly Drama Plus" group-title="Egypt",Dolly Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538700.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dolly Mosalsalat Plus" group-title="Egypt",Dolly Mosalsalat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538701.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dolly cinema Plus" group-title="Egypt",Dolly cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538699.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dolly movies Plus" group-title="Egypt",Dolly movies Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538702.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EL Moleed Plus" group-title="Egypt",EL Moleed Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538703.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| ALSHAMS" group-title="Egypt",Eg| ALSHAMS
+http://aromatv.co:80//live/um-fahad-414/qatar123/434944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| ALSHAMS 2" group-title="Egypt",Eg| ALSHAMS 2
+http://aromatv.co:80//live/um-fahad-414/qatar123/434945.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Ahly TV ✦" group-title="Egypt",Eg| Al Ahly TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302618.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Askandaria TV 5 ✦" group-title="Egypt",Eg| Al Askandaria TV 5 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302638.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Delta TV 6 ✦" group-title="Egypt",Eg| Al Delta TV 6 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302639.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Fath Sonnah TV ✦" group-title="Egypt",Eg| Al Fath Sonnah TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Hadath Al Youm [ Al Hadath Today ] ✦" group-title="Egypt",Eg| Al Hadath Al Youm [ Al Hadath Today ] ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302656.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Hayat HD ✦" group-title="Egypt",Eg| Al Hayat HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302641.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Hhayat Drama ✦" group-title="Egypt",Eg| Al Hhayat Drama ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302642.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Kahera 3 ✦" group-title="Egypt",Eg| Al Kahera 3 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302636.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Kahera Wal Nas 1 ✦" group-title="Egypt",Eg| Al Kahera Wal Nas 1 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302643.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Kahera Wal Nas 2 ✦" group-title="Egypt",Eg| Al Kahera Wal Nas 2 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302644.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Kanal TV 4 ✦" group-title="Egypt",Eg| Al Kanal TV 4 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302637.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Masryia ✦" group-title="Egypt",Eg| Al Masryia ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302612.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Nahar Drama HD  ✦" group-title="Egypt",Eg| Al Nahar Drama HD  ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302611.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Nahar HD ✦" group-title="Egypt",Eg| Al Nahar HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302610.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Nas ✦" group-title="Egypt",Eg| Al Nas ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302647.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Saeed TV 5 ✦" group-title="Egypt",Eg| Al Saeed TV 5 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302640.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al Thanya ✦" group-title="Egypt",Eg| Al Thanya ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302614.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Al-Mehwar TV ✦" group-title="Egypt",Eg| Al-Mehwar TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302673.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Azhari TV ✦" group-title="Egypt",Eg| Azhari TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302674.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| CBC Drama TV ✦" group-title="Egypt",Eg| CBC Drama TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302650.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| CBC Extra News TV ✦" group-title="Egypt",Eg| CBC Extra News TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302651.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| CBC Sofra TV ✦" group-title="Egypt",Eg| CBC Sofra TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302652.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| CBC TV ✦" group-title="Egypt",Eg| CBC TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302649.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Cima ✦" group-title="Egypt",Eg| Cima ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302681.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| DMC Drama ✦" group-title="Egypt",Eg| DMC Drama ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302635.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| DMC HD ✦" group-title="Egypt",Eg| DMC HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302634.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Egyptian TV HD ✦" group-title="Egypt",Eg| Egyptian TV HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302616.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| El Mold ✦" group-title="Egypt",Eg| El Mold ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302678.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| El Sharq TV ✦" group-title="Egypt",Eg| El Sharq TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302675.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| MISR QURAN KAREEM" group-title="Egypt",Eg| MISR QURAN KAREEM
+http://aromatv.co:80//live/um-fahad-414/qatar123/412951.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| MIX BEL ARABY" group-title="Egypt",Eg| MIX BEL ARABY
+http://aromatv.co:80//live/um-fahad-414/qatar123/466326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| MIX ONE" group-title="Egypt",Eg| MIX ONE
+http://aromatv.co:80//live/um-fahad-414/qatar123/413593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| MIX TV ✦" group-title="Egypt",Eg| MIX TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302671.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Madrastna 2 ✦" group-title="Egypt",Eg| Madrastna 2 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302659.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Madrastna 3 ✦" group-title="Egypt",Eg| Madrastna 3 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/419539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Masir AL Oula HD ✦" group-title="Egypt",Eg| Masir AL Oula HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302613.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Maspero Zaman ✦" group-title="Egypt",Eg| Maspero Zaman ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302676.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Mekameleen TV ✦" group-title="Egypt",Eg| Mekameleen TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302617.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Misr Al Balad ✦" group-title="Egypt",Eg| Misr Al Balad ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302672.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Misr Al Zera3eya ✦" group-title="Egypt",Eg| Misr Al Zera3eya ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302669.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Mix Hollywood TV ✦" group-title="Egypt",Eg| Mix Hollywood TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302666.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Cinema ✦" group-title="Egypt",Eg| Nile Cinema ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302628.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Comedy ✦" group-title="Egypt",Eg| Nile Comedy ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302630.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Culture ✦" group-title="Egypt",Eg| Nile Culture ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302631.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Drama ✦" group-title="Egypt",Eg| Nile Drama ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302632.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Education ✦" group-title="Egypt",Eg| Nile Education ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302629.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Family ✦" group-title="Egypt",Eg| Nile Family ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302633.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Life ✦" group-title="Egypt",Eg| Nile Life ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302626.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile News ✦" group-title="Egypt",Eg| Nile News ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302625.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile Sport ✦" group-title="Egypt",Eg| Nile Sport ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302624.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nile TV International ✦" group-title="Egypt",Eg| Nile TV International ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302627.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Nogoum FM TV ✦" group-title="Egypt",Eg| Nogoum FM TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302667.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| ON Drama HD ✦" group-title="Egypt",Eg| ON Drama HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302620.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| ON E HD ✦" group-title="Egypt",Eg| ON E HD ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302621.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| ONE MOVIES" group-title="Egypt",Eg| ONE MOVIES
+http://aromatv.co:80//live/um-fahad-414/qatar123/535980.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| On Time Sport HD 1 ✦" group-title="Egypt",Eg| On Time Sport HD 1 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302622.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| On Time Sport HD 2 ✦" group-title="Egypt",Eg| On Time Sport HD 2 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302623.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Oscar TV ✦" group-title="Egypt",Eg| Oscar TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302679.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Panorama Drama PNC 1 ✦" group-title="Egypt",Eg| Panorama Drama PNC 1 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302660.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Panorama Drama PNC 2 ✦" group-title="Egypt",Eg| Panorama Drama PNC 2 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302661.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Panorama Film PNC ✦" group-title="Egypt",Eg| Panorama Film PNC ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302663.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Panorama Food PNC ✦" group-title="Egypt",Eg| Panorama Food PNC ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302664.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Sada El Balad Drama  ✦" group-title="Egypt",Eg| Sada El Balad Drama  ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302655.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Sada El Balad ✦" group-title="Egypt",Eg| Sada El Balad ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302653.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Sada El Balad+ 2 ✦" group-title="Egypt",Eg| Sada El Balad+ 2 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302654.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| TeN TV ✦" group-title="Egypt",Eg| TeN TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302657.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Teba TV8 ✦" group-title="Egypt",Eg| Teba TV8 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302668.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Watan TV ✦" group-title="Egypt",Eg| Watan TV ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302615.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eg| Zamalek Sports ✦" group-title="Egypt",Eg| Zamalek Sports ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302619.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="El Omda Aflam Plus" group-title="Egypt",El Omda Aflam Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538704.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="El Omda Al Yom Plus" group-title="Egypt",El Omda Al Yom Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538705.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="El Omda Drama Plus" group-title="Egypt",El Omda Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538706.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Elzaeem Cinema Plus" group-title="Egypt",Elzaeem Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538707.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Elzaeem Drama Plus" group-title="Egypt",Elzaeem Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538708.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Extra Live Plus" group-title="Egypt",Extra Live Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538709.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Extra News Plus HD" group-title="Egypt",Extra News Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eُg| Madrastna 1 ✦" group-title="Egypt",Eُg| Madrastna 1 ✦
+http://aromatv.co:80//live/um-fahad-414/qatar123/302658.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Be Elaraby TV Plus" group-title="Egypt",Fox Be Elaraby TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Hikayat Plus" group-title="Egypt",Fox Hikayat Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hya TV Plus HD" group-title="Egypt",Hya TV Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Madh Al nabi Plus" group-title="Egypt",Madh Al nabi Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Majestic Cinema Plus" group-title="Egypt",Majestic Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Maspero Zaman Plus" group-title="Egypt",Maspero Zaman Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538716.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mazzika Plus" group-title="Egypt",Mazzika Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538717.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mdeeh Plus" group-title="Egypt",Mdeeh Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538718.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mehwar Plus HD" group-title="Egypt",Mehwar Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538719.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mehwer Plus 4K" group-title="Egypt",Mehwer Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538720.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Melody Aflam Plus" group-title="Egypt",Melody Aflam Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538721.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Melody Drama Plus" group-title="Egypt",Melody Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538722.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Misr Quran Kareem Plus" group-title="Egypt",Misr Quran Kareem Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538723.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix Bel Araby Plus" group-title="Egypt",Mix Bel Araby Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538724.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix Hollywood Plus" group-title="Egypt",Mix Hollywood Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538725.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix One Plus" group-title="Egypt",Mix One Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538726.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Moga Cinema Plus" group-title="Egypt",Moga Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Moga Comedy Plus" group-title="Egypt",Moga Comedy Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538728.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Moga Drama Plus" group-title="Egypt",Moga Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538729.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Moga Today Plus" group-title="Egypt",Moga Today Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538730.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Cinema Plus" group-title="Egypt",Nile Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538731.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Comedy Plus" group-title="Egypt",Nile Comedy Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538732.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Culture Plus" group-title="Egypt",Nile Culture Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538733.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Drama Plus" group-title="Egypt",Nile Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538734.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Family Plus" group-title="Egypt",Nile Family Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538735.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Life Plus" group-title="Egypt",Nile Life Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538736.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile News Plus" group-title="Egypt",Nile News Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538737.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile News Plus HD" group-title="Egypt",Nile News Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538738.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile TV Plus" group-title="Egypt",Nile TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538739.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nogoum FM Plus" group-title="Egypt",Nogoum FM Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538740.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Drama Plus" group-title="Egypt",ON Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538741.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON E Plus 4K" group-title="Egypt",ON E Plus 4K
+http://aromatv.co:80//live/um-fahad-414/qatar123/538742.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON E Plus HD" group-title="Egypt",ON E Plus HD
+http://aromatv.co:80//live/um-fahad-414/qatar123/538743.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="One Drama Plus" group-title="Egypt",One Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538744.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="One Movies Plus" group-title="Egypt",One Movies Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538745.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Drama 2 Plus" group-title="Egypt",PNC Drama 2 Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538747.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Drama Plus" group-title="Egypt",PNC Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Film Plus" group-title="Egypt",PNC Film Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Food Plus" group-title="Egypt",PNC Food Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538750.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Today Plus" group-title="Egypt",PNC Today Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538751.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Play Cinema Plus" group-title="Egypt",Play Cinema Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538746.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada ALbalad 2 Plus" group-title="Egypt",Sada ALbalad 2 Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama Plus" group-title="Egypt",Sada El Balad Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Plus" group-title="Egypt",Sada El Balad Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538754.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ten Plus" group-title="Egypt",Ten Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538755.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Top Drama Plus" group-title="Egypt",Top Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538756.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Top Zaman Plus" group-title="Egypt",Top Zaman Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538757.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="West Elbalad Drama Plus" group-title="Egypt",West Elbalad Drama Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538758.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="West Elbalad Zaman Plus" group-title="Egypt",West Elbalad Zaman Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538759.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yalla Mosar3a Plus" group-title="Egypt",Yalla Mosar3a Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538760.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zamalik TV Plus" group-title="Egypt",Zamalik TV Plus
+http://aromatv.co:80//live/um-fahad-414/qatar123/538761.ts
+
