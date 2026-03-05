@@ -1,4 +1,9 @@
-#EXTM3U
+﻿#EXTM3U
+
+
+################################################################################
+# Uncategorized
+################################################################################
 
 #EXTINF:-1, МАТЧ! ФУТБOЛ 2HD 🇷🇺
 http://188.191.160.238:7780/udp/239.195.3.17:1234
@@ -969,11 +974,6 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1, TELETRAK 🇨🇱
 http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 
-
-
-
-
-
 #EXTINF:-1,Setanta Sport 2 🇬🇪
 http://94.43.1.138:8081/setanta2/index.m3u8
 
@@ -1036,7 +1036,3 @@ http://77.46.130.252:99/maxsport3
 
 #EXTINF:11,ESPN 2 🇦🇷
 http://45.228.234.30:16000/play/a01l/index.m3u8
-
-
-
-
