@@ -426,6 +426,7 @@ if ($action === '' || $action === 'get_panel_info') {
     ]);
 
 } elseif ($action === 'get_stats') {
+    header("X-Debug-Action: get_stats");
     // 10. Admin Stats
     if ($username !== 'shoaibwwe01@gmail.com') {
         json_out(['error' => 'Unauthorized']);
@@ -441,6 +442,7 @@ if ($action === '' || $action === 'get_panel_info') {
     ]);
 
 } elseif ($action === 'get_users') {
+    header("X-Debug-Action: get_users");
     // 11. Admin Users
     if ($username !== 'shoaibwwe01@gmail.com') {
         json_out(['error' => 'Unauthorized']);
