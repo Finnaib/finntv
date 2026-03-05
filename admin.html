@@ -592,10 +592,14 @@
             <div class="table-container">
                 <div class="table-header">
                     <h3>Recent Activity</h3>
+                    <button class="btn btn-outline" onclick="regenerateCache()" id="regenBtn">
+                        <i data-lucide="refresh-cw"></i> Refresh System Cache
+                    </button>
                 </div>
                 <div style="padding: 3rem; text-align: center; color: var(--text-muted)">
                     <i data-lucide="cloud" style="width: 48px; height: 48px; margin-bottom: 1rem"></i>
                     <p>Vercel Proxy Active - All streams healthy</p>
+                    <small id="lastRegen" style="opacity: 0.6"></small>
                 </div>
             </div>
         </div>
@@ -932,13 +936,45 @@
                     if (!data.success) throw new Error(`File Sync Failed (${path}): ` + data.error);
                 }
 
-                showToast("GitHub Synchronized Successfully!", "success");
+                // 3. Force Cache Regen
+                await regenerateCache(true);
+
+                showToast("GitHub Synchronized & Cache Updated!", "success");
                 originalUsers = JSON.parse(JSON.stringify(usersBuffer));
                 stagedFiles = {};
                 checkChanges();
 
             } catch (err) {
                 alert(err.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+                lucide.createIcons();
+            }
+        }
+
+        async function regenerateCache(silent = false) {
+            const btn = document.getElementById('regenBtn');
+            const originalText = btn.innerHTML;
+            if (!silent) {
+                btn.disabled = true;
+                btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Refreshing...';
+            }
+
+            try {
+                const res = await fetch(`${API}?action=regen_cache&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const data = await res.json();
+                if (data.success) {
+                    if (!silent) showToast(`Cache refreshed! ${data.count} channels detected.`, "success");
+                    document.getElementById('lastRegen').innerText = "Last update: " + new Date().toLocaleTimeString();
+                    // Refresh stats
+                    fetch(`${PROVIDER_API}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_stats`)
+                        .then(r => r.json()).then(d => loadDashboard(d));
+                } else {
+                    if (!silent) alert(data.error);
+                }
+            } catch (e) {
+                if (!silent) alert("Cache refresh failed. Probably Vercel permissions block.");
             } finally {
                 btn.disabled = false;
                 btn.innerHTML = originalText;

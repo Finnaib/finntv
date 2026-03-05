@@ -143,12 +143,18 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO'])) {
 }
 
 // Extract hostname and port safely
+// Extract hostname and port safely
 if (preg_match('/^([^:]+):(\d+)$/', $host, $matches)) {
     $host_only = $matches[1];
     $port = $matches[2];
 } else {
     $host_only = $host;
-    $port = $_SERVER['SERVER_PORT'] ?? ($scheme === 'https' ? '443' : '80');
+    // Hardfix for Vercel/Proxy: If HTTPS but port is internal (like 8000), force 443
+    if ($scheme === 'https') {
+        $port = '443';
+    } else {
+        $port = $_SERVER['SERVER_PORT'] ?? '80';
+    }
 }
 
 $server_info = [
@@ -170,11 +176,13 @@ $server_info = [
     'series' => count($data['series']),
 ];
 
-// --- Action Router ---
-
-// Optimization: Only parse M3U files if we are NOT logging in. 
-// This prevents timeouts during the handshake phase.
+// Optimization: Only parse M3U files if we are NOT logging in, 
+// OR if the data cache is empty.
 if ($action !== '' && $action !== 'get_panel_info') {
+    parseMoviesAndSeries();
+} elseif (empty($data['live_streams'])) {
+    // If handshake but no cached data.json, we MUST parse now 
+    // to give the app correct counts, otherwise it might show 0 channels.
     parseMoviesAndSeries();
 }
 

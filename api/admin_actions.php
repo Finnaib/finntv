@@ -136,11 +136,33 @@ if ($action === 'create_user') {
     $php_export .= "    ];";
 
     $local_cfg = file_get_contents(__DIR__ . '/../config.php');
-    $pattern = '/\$users_db\s*=\s*\[.*?\];/s';
+    $pattern = '/\$users_db\s*=\s*\[.*?\n\s*\];/s';
+    if (!preg_match($pattern, $local_cfg)) {
+        $pattern = '/\$users_db\s*=\s*\[.*?\];/s';
+    }
+
     $new_cfg = preg_replace($pattern, $php_export, $local_cfg);
+
+    if (!$new_cfg || $new_cfg === $local_cfg) {
+        echo json_encode(['success' => false, 'error' => 'Could not update config.php - database block not found.']);
+        exit;
+    }
 
     $res = push_any_to_github("config.php", $new_cfg, $hardcoded_token, $hardcoded_repo, "Admin Panel: Updated users database");
     echo json_encode($res);
+
+} elseif ($action === 'regen_cache') {
+    require_once __DIR__ . '/../config.php';
+    parseMoviesAndSeries();
+
+    $json_path = (is_dir(__DIR__ . '/../data')) ? __DIR__ . '/../data/data.json' : __DIR__ . '/../data.json';
+    $success = @file_put_contents($json_path, json_encode($data));
+
+    if ($success) {
+        echo json_encode(['success' => true, 'count' => count($data['live_streams'])]);
+    } else {
+        echo json_encode(['success' => false, 'error' => 'Failed to write cache. Check permissions on data/ directory.']);
+    }
 
 } elseif ($action === 'save_m3u_git') {
     $file = $_POST['file'] ?? '';
