@@ -1,9 +1,4 @@
-﻿#EXTM3U
-
-
-################################################################################
-# Uncategorized
-################################################################################
+#EXTM3U
 
 #EXTINF:-1, МАТЧ! ФУТБOЛ 2HD 🇷🇺
 http://188.191.160.238:7780/udp/239.195.3.17:1234
@@ -73,6 +68,9 @@ http://135.125.109.73:9000/beinsport1_.m3u8
 
 #EXTINF:-1, bein_sd_2 🇶🇦
 http://135.125.109.73:9000/beinsport2_.m3u8
+
+#EXTINF:-1,bein_sd_2 🇶🇦
+https://balance.footballii.ir/hls2/bein2.m3u8
 
 #EXTINF:-1, bein_sd_3 🇶🇦
 http://135.125.109.73:9000/beinsport3_.m3u8
@@ -299,6 +297,15 @@ http://169.150.223.25/ArenaPremium2HD/index.m3u8
 #EXTINF:-1, Arena Premium 3 HD 🇷🇸
 http://169.150.223.25/ArenaPremium3HD/index.m3u8
 
+#EXTINF:-1, Arena Premium 1 HD 🇷🇸
+http://79.127.207.193:80/ArenaPremium1HD/playlist.m3u8
+
+#EXTINF:-1, Arena Premium 2 HD 🇷🇸
+http://79.127.207.193:80/ArenaPremium2HD/playlist.m3u8
+
+#EXTINF:-1, Arena Premium 3 HD 🇷🇸
+http://79.127.207.193:80/ArenaPremium3HD/playlist.m3u8
+
 #EXTINF:-1, Arena Sport 1 HD 🇷🇸
 http://169.150.223.25/ArenaSport1HD/index.m3u8
 
@@ -387,6 +394,27 @@ http://23.88.66.93/Eurosport1/index.m3u8
 http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
 
 #EXTINF:-1, Super Sport 1 🇦🇱
+http://79.127.207.193:80/Supersport1/playlist.m3u8
+
+#EXTINF:-1, Super Sport 2 🇦🇱
+http://79.127.207.193:80/Supersport2/playlist.m3u8
+
+#EXTINF:-1, Super Sport 3 🇦🇱
+http://79.127.207.193:80/Supersport3/playlist.m3u8
+
+#EXTINF:-1, Super Sport 4 🇦🇱
+http://79.127.207.193:80/Supersport4/playlist.m3u8
+
+#EXTINF:-1, Super Sport 5 🇦🇱
+http://79.127.207.193:80/Supersport5/playlist.m3u8
+
+#EXTINF:-1, Super Sport 6 🇦🇱
+http://79.127.207.193:80/Supersport6/playlist.m3u8
+
+#EXTINF:-1, Super Sport 7 🇦🇱
+http://79.127.207.193:80/Supersport7/playlist.m3u8
+
+#EXTINF:-1, Super Sport 1 🇦🇱
 http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
 
 #EXTINF:-1, Super Sport 1 🇦🇱
@@ -458,6 +486,18 @@ http://195.181.169.152:8080/Tring_Sport_3_HD_AL/video.m3u8?token=test
 #EXTINF:-1, Tring Sport 4 🇦🇱
 http://195.181.169.152:8080/Tring_Sport_4_HD_AL/video.m3u8?token=test
 
+#EXTINF:-1, KSport 1 HD 🇦🇱
+http://79.127.207.193:80/KSport1/playlist.m3u8
+
+#EXTINF:-1, KSport 2 HD 🇦🇱
+http://79.127.207.193:80/KSport2/playlist.m3u8
+
+#EXTINF:-1, KSport 3 HD 🇦🇱
+http://79.127.207.193:80/KSport3/playlist.m3u8
+
+#EXTINF:-1, KSport 4 HD 🇦🇱
+http://79.127.207.193:80/KSport4/playlist.m3u8
+
 #EXTINF:-1, RTSH Sport 🇦🇱
 http://217.73.139.200:5443/play/a01d
 
@@ -478,6 +518,24 @@ http://169.150.223.25/ArtSport5/index.m3u8
 
 #EXTINF:-1, Art Sport 6 HD 🇽🇰
 http://169.150.223.25/ArtSport6/index.m3u8
+
+#EXTINF:-1, Art Sport 1 HD 🇽🇰
+http://79.127.207.193:80/ArtSport1HD/playlist.m3u8
+
+#EXTINF:-1, Art Sport 2 HD 🇽🇰
+http://79.127.207.193:80/ArtSport2/playlist.m3u8
+
+#EXTINF:-1, Art Sport 3 HD 🇽🇰
+http://79.127.207.193:80/ArtSport3/playlist.m3u8
+
+#EXTINF:-1, Art Sport 4 HD 🇽🇰
+http://79.127.207.193:80/ArtSport4/playlist.m3u8
+
+#EXTINF:-1, Art Sport 5 HD 🇽🇰
+http://79.127.207.193:80/ArtSport5/playlist.m3u8
+
+#EXTINF:-1, Art Sport 6 HD 🇽🇰
+http://79.127.207.193:80/ArtSport6/playlist.m3u8
 
 #EXTINF:-1, NOVA SPORT 1 HD 🇨🇿
 http://178.23.88.55/Nova_Sport/index.m3u8
@@ -911,6 +969,29 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1, TELETRAK 🇨🇱
 http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 
+
+
+
+
+
+#EXTINF:-1,Setanta Sport 2 🇬🇪
+http://94.43.1.138:8081/setanta2/index.m3u8
+
+#EXTINF:-1,5 SPORT 🇮🇱
+http://185.132.134.159:80/sport5/index.m3u8
+
+#EXTINF:-1,Arena Premium 1 HD 🇷🇸
+http://169.150.223.25/ArenaPremium1HD/index.m3u8
+
+#EXTINF:-1,bein_sd_1 🇶🇦
+http://135.125.109.73:9000/beinsport1_.m3u8
+
+#EXTINF:-1,bein 1 🇶🇦
+http://135.125.109.73:9000/beinsport1_.m3u8
+
+#EXTINF:-1,MAX SPORT 3 🇧🇬
+http://77.46.130.252:99/maxsport3
+
 #EXTINF:-1, Sport5 🇮🇱
 https://rgelive.akamaized.net/hls/live/2043151/radiolive/playlist.m3u8
 
@@ -955,3 +1036,7 @@ http://77.46.130.252:99/maxsport3
 
 #EXTINF:11,ESPN 2 🇦🇷
 http://45.228.234.30:16000/play/a01l/index.m3u8
+
+
+
+
