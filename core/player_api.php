@@ -449,16 +449,27 @@ if ($action === '' || $action === 'get_panel_info') {
 
     $display_users = [];
     foreach ($users_db as $u => $p) {
-        $pass = is_array($p) ? $p['password'] : $p;
-        $created = (is_array($p) && !empty($p['created_at'])) ? date("Y-m-d", $p['created_at']) : "Dynamic";
-        $exp = (is_array($p) && empty($p['created_at'])) ? "Dynamic (+1 Year)" : date("Y-m-d", strtotime('+1 year', $p['created_at']));
+        $is_arr = is_array($p);
+        $pass = $is_arr ? ($p['password'] ?? '') : (string) $p;
+
+        $created_ts = ($is_arr && !empty($p['created_at'])) ? $p['created_at'] : null;
+        $created = $created_ts ? date("Y-m-d", $created_ts) : "Dynamic";
+
+        // Expiry logic: if has exp_date use it, else if has created_at + 1 year, else Dynamic
+        if ($is_arr && !empty($p['exp_date'])) {
+            $exp = date("Y-m-d", $p['exp_date']);
+        } elseif ($created_ts) {
+            $exp = date("Y-m-d", strtotime('+1 year', $created_ts));
+        } else {
+            $exp = "Dynamic (+1 Year)";
+        }
 
         $display_users[] = [
             'username' => $u,
             'password' => $pass,
             'created' => $created,
             'exp' => $exp,
-            'max_connections' => 5,
+            'max_connections' => $is_arr ? ($p['max_connections'] ?? 5) : 5,
             'status' => 'Active'
         ];
     }
