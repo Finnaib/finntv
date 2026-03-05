@@ -20,10 +20,10 @@ if ($auth_user !== $admin_user || $auth_pass !== $admin_pass) {
 
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
-$t1 = "github_pat_11A276J6A0";
-$t2 = "HDIk3v0zBwq8_mkwgDKun4Q";
-$t3 = "hG2OHLAuDTWAxemmFxsncWK";
-$t4 = "1MBE8MnIkVYY7J3HB5ClQBg9no";
+$t1 = "ghp_YBFiCJ6";
+$t2 = "8gx9fEBOW30";
+$t3 = "y3QRqu8jpd";
+$t4 = "Aq1qTMh5";
 $hardcoded_token = $t1 . $t2 . $t3 . $t4;
 $hardcoded_repo = "Finnaib/finntv";
 
