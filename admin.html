@@ -341,6 +341,7 @@
         }
 
         function loadDashboard(stats) {
+            alert("DASHBOARD DATA: " + JSON.stringify(stats));
             console.log("Dashboard Stats received:", stats);
             // Fallback if keys are missing
             document.getElementById('statUsers').innerText = stats.users !== undefined ? stats.users : (stats[0] ? "Array Error" : "N/A");
