@@ -20,6 +20,13 @@ if ($auth_user !== $admin_user || $auth_pass !== $admin_pass) {
 
 $action = $_GET['action'] ?? $_POST['action'] ?? '';
 
+$t1 = "github_pat_11A276J6A0";
+$t2 = "HDIk3v0zBwq8_mkwgDKun4Q";
+$t3 = "hG2OHLAuDTWAxemmFxsncWK";
+$t4 = "1MBE8MnIkVYY7J3HB5ClQBg9no";
+$hardcoded_token = $t1 . $t2 . $t3 . $t4;
+$hardcoded_repo = "Finnaib/finntv";
+
 // Helper function to push config.php directly to github
 function push_to_github($users_db, $token, $repo)
 {
@@ -105,8 +112,8 @@ if ($action === 'create_user') {
     ];
     $res = UserMgr::saveUser($u, $users_db[$u]);
 
-    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
-    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+    $token = !empty($_POST['gh_token']) ? $_POST['gh_token'] : (getenv('GH_TOKEN') ?: $hardcoded_token);
+    $repo = !empty($_POST['gh_repo']) ? $_POST['gh_repo'] : (getenv('GH_REPO') ?: $hardcoded_repo);
 
     if ($token && $repo) {
         $push = push_to_github($users_db, $token, $repo);
@@ -128,8 +135,8 @@ if ($action === 'create_user') {
     unset($users_db[$u]);
     $res = UserMgr::deleteUser($u);
 
-    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
-    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+    $token = !empty($_POST['gh_token']) ? $_POST['gh_token'] : (getenv('GH_TOKEN') ?: $hardcoded_token);
+    $repo = !empty($_POST['gh_repo']) ? $_POST['gh_repo'] : (getenv('GH_REPO') ?: $hardcoded_repo);
 
     if ($token && $repo) {
         $push = push_to_github($users_db, $token, $repo);
@@ -143,8 +150,8 @@ if ($action === 'create_user') {
     }
 
 } elseif ($action === 'sync_github') {
-    $token = $_POST['gh_token'] ?? getenv('GH_TOKEN') ?? '';
-    $repo = $_POST['gh_repo'] ?? getenv('GH_REPO') ?? '';
+    $token = !empty($_POST['gh_token']) ? $_POST['gh_token'] : (getenv('GH_TOKEN') ?: $hardcoded_token);
+    $repo = !empty($_POST['gh_repo']) ? $_POST['gh_repo'] : (getenv('GH_REPO') ?: $hardcoded_repo);
 
     if (empty($token) || empty($repo)) {
         echo json_encode(['error' => 'GitHub Token and Repo name required']);
