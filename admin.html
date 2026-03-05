@@ -936,13 +936,19 @@
                     if (!data.success) throw new Error(`File Sync Failed (${path}): ` + data.error);
                 }
 
-                // 3. Force Cache Regen
-                await regenerateCache(true);
+                // 3. Force Cache Regen & Push to Git
+                const cacheRes = await fetch(`${API}?action=push_cache_git&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const cacheData = await cacheRes.json();
+                if (!cacheData.success) throw new Error("System Cache Sync Failed: " + cacheData.error);
 
                 showToast("GitHub Synchronized & Cache Updated!", "success");
                 originalUsers = JSON.parse(JSON.stringify(usersBuffer));
                 stagedFiles = {};
                 checkChanges();
+
+                // Refresh dashboard stats
+                fetch(`${PROVIDER_API}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_stats`)
+                    .then(r => r.json()).then(d => loadDashboard(d));
 
             } catch (err) {
                 alert(err.message);

@@ -155,14 +155,56 @@ if ($action === 'create_user') {
     require_once __DIR__ . '/../config.php';
     parseMoviesAndSeries();
 
-    $json_path = (is_dir(__DIR__ . '/../data')) ? __DIR__ . '/../data/data.json' : __DIR__ . '/../data.json';
-    $success = @file_put_contents($json_path, json_encode($data));
+    // Rebuild ID map
+    $id_map = [];
+    foreach ($data['live_streams'] as $s) {
+        $id_map[(string) $s['stream_id']] = $s['direct_source'];
+        $id_map['live_' . $s['stream_id']] = $s['direct_source'];
+    }
+    foreach ($data['vod_streams'] as $s) {
+        $id_map['movie_' . $s['stream_id']] = $s['direct_source'];
+    }
+    foreach ($data['series'] as $s) {
+        $id_map['series_' . ($s['series_id'] ?? $s['stream_id'])] = $s['direct_source'];
+    }
 
-    if ($success) {
+    $data_json = json_encode($data);
+    $map_json = json_encode($id_map);
+
+    $dataPath = (is_dir(__DIR__ . '/../data')) ? __DIR__ . '/../data/data.json' : __DIR__ . '/../data.json';
+    $mapPath = (is_dir(__DIR__ . '/../data')) ? __DIR__ . '/../data/id_map.json' : __DIR__ . '/../id_map.json';
+
+    $s1 = @file_put_contents($dataPath, $data_json);
+    $s2 = @file_put_contents($mapPath, $map_json);
+
+    if ($s1 || $s2) {
         echo json_encode(['success' => true, 'count' => count($data['live_streams'])]);
     } else {
-        echo json_encode(['success' => false, 'error' => 'Failed to write cache. Check permissions on data/ directory.']);
+        echo json_encode(['success' => false, 'error' => 'Failed to write cache. Run Push to Git.']);
     }
+
+} elseif ($action === 'push_cache_git') {
+    require_once __DIR__ . '/../config.php';
+    parseMoviesAndSeries();
+
+    // Sync Data
+    $res1 = push_any_to_github("data/data.json", json_encode($data), $hardcoded_token, $hardcoded_repo, "Admin Panel: Updated data cache");
+
+    // Sync ID Map
+    $id_map = [];
+    foreach ($data['live_streams'] as $s) {
+        $id_map[(string) $s['stream_id']] = $s['direct_source'];
+        $id_map['live_' . $s['stream_id']] = $s['direct_source'];
+    }
+    foreach ($data['vod_streams'] as $s) {
+        $id_map['movie_' . $s['stream_id']] = $s['direct_source'];
+    }
+    foreach ($data['series'] as $s) {
+        $id_map['series_' . ($s['series_id'] ?? $s['stream_id'])] = $s['direct_source'];
+    }
+    $res2 = push_any_to_github("data/id_map.json", json_encode($id_map), $hardcoded_token, $hardcoded_repo, "Admin Panel: Updated ID mapping");
+
+    echo json_encode(['success' => ($res1['success'] && $res2['success']), 'error' => $res1['error'] ?? $res2['error'] ?? null]);
 
 } elseif ($action === 'save_m3u_git') {
     $file = $_POST['file'] ?? '';
