@@ -63,10 +63,11 @@ if (!$target_url) {
         if ($u_host && $u_user && $u_pass && $id) {
             // Map type to URL path segment
             $path_type = $type; // 'live', 'movie', 'series'
-            if ($type === 'movie')
-                $path_type = 'movie';
 
-            $target_url = "{$u_host}/{$path_type}/{$u_user}/{$u_pass}/{$id}.{$ext}";
+            // CRITICAL: Force 'ts' extension - upstream only supports ts/m3u8
+            // Players often request .mkv or .mp4 based on container_extension
+            // but the upstream rejects those formats
+            $target_url = "{$u_host}/{$path_type}/{$u_user}/{$u_pass}/{$id}.ts";
         }
     }
 }

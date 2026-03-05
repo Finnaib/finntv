@@ -309,8 +309,19 @@ if ($action === '' || $action === 'get_panel_info') {
     json_out($out);
 
 } elseif ($action === 'get_series_info') {
-    // 8. Series Info (Episodes) - PROXY TO UPSTREAM
-    $series_id = $_GET['series_id'] ?? 0;
+    // 8. Series Info (Episodes) - PROXY TO UPSTREAM with caching
+    $series_id = (int) ($_GET['series_id'] ?? 0);
+
+    // Check cache first to avoid burning the single upstream connection
+    $series_cache_dir = __DIR__ . '/../data/series_cache';
+    $cache_file = $series_cache_dir . '/' . $series_id . '.json';
+    $cache_ttl = 86400; // 24 hours
+
+    if (file_exists($cache_file) && (time() - filemtime($cache_file)) < $cache_ttl) {
+        header('Content-Type: application/json');
+        echo file_get_contents($cache_file);
+        exit;
+    }
 
     // Load Upstream Credentials
     $conf_file = __DIR__ . '/../xtream_config.json';
@@ -321,21 +332,38 @@ if ($action === '' || $action === 'get_panel_info') {
         $u_pass = $c['password'] ?? '';
 
         if ($u_host && $u_user && $u_pass) {
-            // Build Upstream URL
             $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_series_info&series_id={$series_id}";
 
-            // Fetch from Upstream
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
             $resp = curl_exec($ch);
             curl_close($ch);
 
             if ($resp) {
-                // Return upstream response directly
-                // We don't cache this as it's dynamic
+                // CRITICAL FIX: Rewrite container_extension to 'ts'
+                // The upstream only allows ts/m3u8 but returns mkv/mp4 metadata
+                // which causes players to request .mkv URLs that fail.
+                $decoded = json_decode($resp, true);
+                if (is_array($decoded) && isset($decoded['episodes'])) {
+                    foreach ($decoded['episodes'] as $season_num => &$season_eps) {
+                        if (is_array($season_eps)) {
+                            foreach ($season_eps as &$ep) {
+                                $ep['container_extension'] = 'ts';
+                            }
+                        }
+                    }
+                    $resp = json_encode($decoded, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+                }
+
+                // Cache the response
+                if (!is_dir($series_cache_dir))
+                    @mkdir($series_cache_dir, 0755, true);
+                @file_put_contents($cache_file, $resp);
+
                 header('Content-Type: application/json');
                 echo $resp;
                 exit;
