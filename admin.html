@@ -508,7 +508,7 @@
             <div id="loginErr" style="color:var(--danger); margin-bottom:1rem; display:none; font-size: 0.875rem;">
                 Invalid credentials.</div>
             <div class="form-group">
-                <input type="text" id="admUser" placeholder="Admin Email" value="shoaibwwe01@gmail.com">
+                <input type="text" id="admUser" placeholder="Admin Email">
             </div>
             <div class="form-group">
                 <input type="password" id="admPass" placeholder="Password">
@@ -741,7 +741,7 @@
 
         function initApp(stats) {
             lucide.createIcons();
-            document.getElementById('userNameDisplay').innerText = currentUser;
+            document.getElementById('userNameDisplay').innerText = "Administrator";
             loadDashboard(stats);
             fetchUsersFromServer();
             loadM3UFiles();
