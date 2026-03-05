@@ -347,11 +347,29 @@
         }
 
         async function loadUsers() {
+            const tbody = document.getElementById('userTable');
             try {
-                const res = await fetch(`${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_users&_t=${Date.now()}`);
-                const users = await res.json();
+                const url = `${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_users&_t=${Date.now()}`;
 
-                const tbody = document.getElementById('userTable');
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+
+                const res = await fetch(url, { signal: controller.signal });
+                clearTimeout(timeoutId);
+
+                if (!res.ok) {
+                    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+                }
+
+                const text = await res.text();
+                let users;
+                try {
+                    users = JSON.parse(text);
+                } catch (e) {
+                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">JSON Error: See Console. Raw: ${text.substring(0, 50)}...</td></tr>`;
+                    return;
+                }
+
                 tbody.innerHTML = '';
 
                 if (users.error) {
@@ -360,7 +378,7 @@
                 }
 
                 if (!Array.isArray(users)) {
-                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Invalid data format from server.</td></tr>`;
+                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Invalid data: Expected Array</td></tr>`;
                     return;
                 }
 
@@ -383,8 +401,7 @@
                 });
             } catch (err) {
                 console.error("Failed to load users:", err);
-                const tbody = document.getElementById('userTable');
-                if (tbody) tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Failed to load users. See browser console.</td></tr>`;
+                if (tbody) tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Load Error: ${err.message}. Please Hard Refresh (Ctrl+F5).</td></tr>`;
             }
         }
 
