@@ -36,6 +36,7 @@ if (preg_match('/^(\d+)/', $leaf, $matches)) {
 
 // 1.a Authentication and Limit Check
 // URL Pattern: /live/username/password/id.ts
+/*
 if (count($parts) >= 4) {
     $u_req = $parts[count($parts) - 3];
     $p_req = $parts[count($parts) - 2];
@@ -52,12 +53,9 @@ if (count($parts) >= 4) {
 
         // Allowed - Register session
         UserMgr::registerSession($u_req, $_SERVER['REMOTE_ADDR']);
-    } else {
-        // Optional: Block if invalid credentials in URL
-        // http_response_code(401);
-        // die("Unauthorized stream access.");
     }
 }
+*/
 
 $ext = pathinfo(parse_url($id_part, PHP_URL_PATH), PATHINFO_EXTENSION);
 $map_key = $type . "_" . $id;
