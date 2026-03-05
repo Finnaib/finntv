@@ -34,6 +34,31 @@ if (preg_match('/^(\d+)/', $leaf, $matches)) {
     $id = $matches[1];
 }
 
+// 1.a Authentication and Limit Check
+// URL Pattern: /live/username/password/id.ts
+if (count($parts) >= 4) {
+    $u_req = $parts[count($parts) - 3];
+    $p_req = $parts[count($parts) - 2];
+
+    if (isset($users_db[$u_req]) && ($users_db[$u_req]['password'] ?? $users_db[$u_req]) === $p_req) {
+        $max = (int) ($users_db[$u_req]['max_connections'] ?? 5);
+        $curr = UserMgr::getActiveConnections($u_req);
+
+        if ($curr >= $max) {
+            ob_clean();
+            http_response_code(403);
+            die("Connection limit reached ($curr/$max). Please stop other streams.");
+        }
+
+        // Allowed - Register session
+        UserMgr::registerSession($u_req, $_SERVER['REMOTE_ADDR']);
+    } else {
+        // Optional: Block if invalid credentials in URL
+        // http_response_code(401);
+        // die("Unauthorized stream access.");
+    }
+}
+
 $ext = pathinfo(parse_url($id_part, PHP_URL_PATH), PATHINFO_EXTENSION);
 $map_key = $type . "_" . $id;
 

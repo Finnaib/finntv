@@ -127,9 +127,9 @@ $user_info = [
     'status' => 'Active',
     'exp_date' => (string) ($user_data['exp_date'] ?? strtotime('+1 year')),
     'is_trial' => 0,
-    'active_cons' => 0,
+    'active_cons' => UserMgr::getActiveConnections($username),
     'created_at' => (string) ($user_data['created_at'] ?? time()),
-    'max_connections' => 5,
+    'max_connections' => (int) ($users_db[$username]['max_connections'] ?? 5),
     'allowed_output_formats' => ['m3u8', 'ts', 'rtmp']
 ];
 
@@ -154,12 +154,18 @@ $server_info = [
     'port' => (string) $port,
     'https_port' => '443',
     'server_protocol' => (string) $scheme,
+    'protocol' => (string) $scheme, // Alias
     'rtmp_port' => '88',
     'timezone' => (string) ($server_config['timezone'] ?? 'UTC'),
     'timestamp_now' => time(),
     'time_now' => date("Y-m-d H:i:s"),
+    'server_time' => date("Y-m-d H:i:s"), // Alias
     'process' => true,
-    'server_name' => (string) ($server_config['server_name'] ?? 'FinnTV')
+    'server_name' => (string) ($server_config['server_name'] ?? 'FinnTV'),
+    'local_time' => date("Y-m-d H:i:s"), // Alias
+    'live_streams' => count($data['live_streams']),
+    'vod_streams' => count($data['vod_streams']),
+    'series' => count($data['series']),
 ];
 
 // --- Action Router ---

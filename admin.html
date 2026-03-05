@@ -262,6 +262,7 @@
                         <th>Created</th>
                         <th>Expires</th>
                         <th>Status</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody id="userTable">
@@ -285,17 +286,26 @@
     <!-- Add User Modal -->
     <div class="modal" id="addUserModal">
         <div class="modal-content">
-            <h2>Generate User Code</h2>
-            <p style="color:var(--text-muted); margin:1rem 0">
-                Since Vercel is read-only, you must copy this code into `config.php` and redeploy.
-            </p>
-            <input type="text" id="newUsername" placeholder="Username">
-            <input type="text" id="newPassword" placeholder="Password">
-            <button onclick="generateUserCode()">Generate PHP Code</button>
+            <h2>Create New User</h2>
+            <div id="modalErr" style="color:var(--danger); margin:1rem 0; display:none"></div>
 
-            <div class="code-block" id="generatedCode" style="display:none"></div>
+            <label style="display:block; margin-top:1rem; font-size:0.8rem; color:var(--text-muted)">Username</label>
+            <input type="text" id="newUsername" placeholder="Username">
+
+            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Password</label>
+            <input type="text" id="newPassword" placeholder="Password">
+
+            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Max
+                Connections</label>
+            <input type="number" id="newMaxConn" value="5" min="1" max="100">
+
+            <label style="display:block; margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted)">Expiry
+                Date</label>
+            <input type="date" id="newExpDate">
+
+            <button onclick="saveUser()" id="saveBtn">Save User</button>
             <button onclick="closeModal()"
-                style="background:transparent; border:1px solid #334155; margin-top:1rem">Close</button>
+                style="background:transparent; border:1px solid #334155; margin-top:1rem">Cancel</button>
         </div>
     </div>
 
@@ -357,6 +367,7 @@
                     <td>${u.created}</td>
                     <td>${u.exp}</td>
                     <td><span style="color:${u.status === 'Active' ? 'var(--success)' : 'var(--danger)'}">${u.status}</span></td>
+                    <td><button onclick="deleteUser('${u.username}')" style="padding:0.3rem 0.6rem; margin:0; font-size:0.8rem; background:var(--danger)">Delete</button></td>
                 `;
                 // Reveal pass on click
                 tr.children[1].onclick = function () { this.innerText = u.password; };
@@ -367,32 +378,86 @@
             });
         }
 
+        async function deleteUser(user) {
+            if (!confirm(`Delete user ${user}?`)) return;
+
+            const formData = new FormData();
+            formData.append('auth_user', currentUser);
+            formData.append('auth_pass', currentPass);
+            formData.append('action', 'delete_user');
+            formData.append('username', user);
+
+            try {
+                const res = await fetch('/api/admin_actions.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                if (data.success) {
+                    showToast('User deleted');
+                    loadUsers();
+                } else {
+                    alert(data.error || 'Failed to delete user');
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
         function showAddUser() {
             document.getElementById('addUserModal').classList.add('active');
-            document.getElementById('generatedCode').style.display = 'none';
+            document.getElementById('modalErr').style.display = 'none';
+            // Set default date to +1 year
+            const d = new Date();
+            d.setFullYear(d.getFullYear() + 1);
+            document.getElementById('newExpDate').value = d.toISOString().split('T')[0];
         }
 
         function closeModal() {
             document.getElementById('addUserModal').classList.remove('active');
         }
 
-        function generateUserCode() {
+        async function saveUser() {
             const u = document.getElementById('newUsername').value;
             const p = document.getElementById('newPassword').value;
+            const m = document.getElementById('newMaxConn').value;
+            const e = document.getElementById('newExpDate').value;
+
             if (!u || !p) return;
 
-            const now = Math.floor(Date.now() / 1000);
-            const php = `    "${u}" => ["password" => "${p}", "created_at" => ${now}], // Added via Admin Panel`;
+            const btn = document.getElementById('saveBtn');
+            btn.disabled = true;
+            btn.innerText = 'Saving...';
 
-            const block = document.getElementById('generatedCode');
-            block.style.display = 'block';
-            block.innerText = php;
+            const formData = new FormData();
+            formData.append('auth_user', currentUser);
+            formData.append('auth_pass', currentPass);
+            formData.append('action', 'create_user');
+            formData.append('username', u);
+            formData.append('password', p);
+            formData.append('max_connections', m);
+            formData.append('exp_date', e);
 
-            navigator.clipboard.writeText(php).then(() => {
-                const toast = document.getElementById('toast');
-                toast.style.display = 'block';
-                setTimeout(() => toast.style.display = 'none', 2000);
-            });
+            try {
+                const res = await fetch('/api/admin_actions.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                if (data.success) {
+                    showToast('User created successfully!');
+                    closeModal();
+                    loadUsers();
+                } else {
+                    document.getElementById('modalErr').innerText = data.error || 'Failed to save user';
+                    document.getElementById('modalErr').style.display = 'block';
+                }
+            } catch (err) {
+                console.error(err);
+            } finally {
+                btn.disabled = false;
+                btn.innerText = 'Save User';
+            }
         }
 
         function logout() {

@@ -386,25 +386,47 @@
 
             <div class="info-section">
                 <h3>📋 Account Information</h3>
-                <div class="info-item">
-                    <span class="info-label">Server URL:</span>
-                    <span class="info-value" id="serverUrlDisplay">Loading...</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Username:</span>
-                    <span class="info-value" id="displayUsername">-</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Password:</span>
-                    <span class="info-value" id="displayPassword">-</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Max Connections:</span>
-                    <span class="info-value" id="maxConn">10 devices</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">Expires:</span>
-                    <span class="info-value" id="expireDate">-</span>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div>
+                        <h4
+                            style="color:rgba(255,255,255,0.5); margin-bottom:1rem; border-bottom:1px solid rgba(255,255,255,0.1)">
+                            User Information</h4>
+                        <div class="info-item"><span class="info-label">Status:</span><span class="info-value"
+                                id="dispStatus">Active</span></div>
+                        <div class="info-item"><span class="info-label">Username:</span><span class="info-value"
+                                id="displayUsername">-</span></div>
+                        <div class="info-item"><span class="info-label">Active Connections:</span><span
+                                class="info-value" id="deviceCount">0 / 5</span></div>
+                        <div class="info-item"><span class="info-label">Created:</span><span class="info-value"
+                                id="createDate">-</span></div>
+                        <div class="info-item"><span class="info-label">Expires:</span><span class="info-value"
+                                id="expireDate">-</span></div>
+                        <div class="info-item"><span class="info-label">Trial Account:</span><span
+                                class="info-value">No</span></div>
+                        <div class="info-item"><span class="info-label">Allowed Formats:</span><span
+                                class="info-value">m3u8, ts, rtmp</span></div>
+                    </div>
+                    <div>
+                        <h4
+                            style="color:rgba(255,255,255,0.5); margin-bottom:1rem; border-bottom:1px solid rgba(255,255,255,0.1)">
+                            Server Information</h4>
+                        <div class="info-item"><span class="info-label">Live TV:</span><span class="info-value"
+                                id="statLive">-</span></div>
+                        <div class="info-item"><span class="info-label">Movies:</span><span class="info-value"
+                                id="statVod">-</span></div>
+                        <div class="info-item"><span class="info-label">TV Series:</span><span class="info-value"
+                                id="statSeries">-</span></div>
+                        <div class="info-item"><span class="info-label">URL:</span><span class="info-value"
+                                id="serverUrlDisplay">-</span></div>
+                        <div class="info-item"><span class="info-label">Protocol:</span><span class="info-value"
+                                id="serverProto">-</span></div>
+                        <div class="info-item"><span class="info-label">Timezone:</span><span class="info-value"
+                                id="serverTimezone">-</span></div>
+                        <div class="info-item"><span class="info-label">Server Time:</span><span class="info-value"
+                                id="serverTime">-</span></div>
+                        <div class="info-item"><span class="info-label">Ports:</span><span class="info-value"
+                                id="serverPort">-</span></div>
+                    </div>
                 </div>
             </div>
 
@@ -472,29 +494,39 @@
             }
         }
 
-        function showDashboardFromServer(userInfo) {
+        function showDashboardFromServer(data) {
             // Hide login, show dashboard
             document.getElementById('loginSection').classList.remove('active');
             document.getElementById('dashboardSection').classList.add('active');
 
+            const userInfo = data.user_info;
+            const serverInfo = data.server_info;
+
             // Update dashboard info
-            const username = currentUser;
-            document.getElementById('welcomeUser').textContent = `Welcome, ${username}! 👋`;
-            document.getElementById('displayUsername').textContent = username;
-            document.getElementById('displayPassword').textContent = '●●●●●●●';
+            document.getElementById('welcomeUser').textContent = `Welcome, ${userInfo.username}! 👋`;
+            document.getElementById('displayUsername').textContent = userInfo.username;
             document.getElementById('deviceCount').textContent = `${userInfo.active_cons || 0} / ${userInfo.max_connections || 0}`;
-            document.getElementById('maxConn').textContent = `${userInfo.max_connections || 0} devices`;
-            document.getElementById('serverUrlDisplay').textContent = window.location.origin;
-            // categories need another call to get count; we'll fetch live
+            document.getElementById('dispStatus').textContent = userInfo.status;
+
+            // Format dates
+            const fmtDate = (ts) => ts ? new Date(ts * 1000).toLocaleDateString() : '-';
+            document.getElementById('createDate').textContent = fmtDate(userInfo.created_at);
+            document.getElementById('expireDate').textContent = fmtDate(userInfo.exp_date);
+
+            // Server Info
+            document.getElementById('serverUrlDisplay').textContent = serverInfo.url;
+            document.getElementById('serverProto').textContent = serverInfo.protocol || serverInfo.server_protocol;
+            document.getElementById('serverPort').textContent = serverInfo.port;
+            document.getElementById('serverTimezone').textContent = serverInfo.timezone;
+            document.getElementById('serverTime').textContent = serverInfo.server_time || serverInfo.time_now;
+
+            // Stats
+            document.getElementById('statLive').textContent = serverInfo.live_streams || '-';
+            document.getElementById('statVod').textContent = serverInfo.vod_streams || '-';
+            document.getElementById('statSeries').textContent = serverInfo.series || '-';
+
+            // Special: Categories count icon still uses separate fetch for specificity
             fetchCategoryCount();
-            // expire date from server isn't provided; approximate locally
-            const expireDate = new Date(userInfo.exp_date * 1000 || Date.now());
-            if (userInfo.exp_date) {
-                document.getElementById('expireDate').textContent = expireDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-            } else {
-                const d = new Date(); d.setFullYear(d.getFullYear() + 1);
-                document.getElementById('expireDate').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-            }
         }
 
         async function fetchCategoryCount() {
@@ -518,6 +550,7 @@
                 const data = await resp.json();
                 if (data && data.user_info) {
                     document.getElementById('deviceCount').textContent = `${data.user_info.active_cons || 0} / ${data.user_info.max_connections || 0}`;
+                    document.getElementById('serverTime').textContent = data.server_info.server_time || data.server_info.time_now;
                 }
             } catch (e) {
                 // network error — optionally show offline

@@ -63,6 +63,11 @@ $users_db = [
     "aayush787" => ["password" => "aayush@1091", "created_at" => null]
 ];
 
+// --- Load Persistent Users ---
+require_once __DIR__ . '/core/user_mgr.php';
+$persistent_users = UserMgr::loadUsers();
+$users_db = array_merge($users_db, $persistent_users);
+
 // --- Data Store (InMemory) ---
 // In a real DB app this would be SQL. Here we parse on the fly (Vercel caches somewhat).
 $data = [
