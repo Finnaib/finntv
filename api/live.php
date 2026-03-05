@@ -237,7 +237,7 @@ if (strpos($target_url, '.m3u8') !== false) {
 }
 
 // 6. Redirect
-// file_put_contents(__DIR__ . '/../debug_live_log.txt', "Redirecting to: $target_url\n", FILE_APPEND);
+header("Referrer-Policy: no-referrer");
 header("Location: " . $target_url);
 exit;
 // End of file
