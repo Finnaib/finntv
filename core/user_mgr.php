@@ -5,13 +5,13 @@
 
 class UserMgr
 {
-    private static function getSessionsFile()
+    public static function getSessionsFile()
     {
         $dir = __DIR__ . '/../data';
         return is_writable($dir) ? $dir . '/sessions.json' : sys_get_temp_dir() . '/sessions.json';
     }
 
-    private static function getUsersFile()
+    public static function getUsersFile()
     {
         $dir = __DIR__ . '/../data';
         return is_writable($dir) ? $dir . '/users.json' : sys_get_temp_dir() . '/users.json';
@@ -19,25 +19,45 @@ class UserMgr
 
     public static function loadUsers()
     {
-        $users = [];
+        $data = ['persistent' => [], 'blacklist' => []];
         $file = self::getUsersFile();
         if (file_exists($file)) {
-            $users = json_decode(file_get_contents($file), true) ?: [];
+            $data = array_merge($data, json_decode(file_get_contents($file), true) ?: []);
         }
-        return $users;
+        return $data;
     }
 
     public static function saveUser($username, $data)
     {
-        $users = self::loadUsers();
-        $users[$username] = array_merge([
+        $all = self::loadUsers();
+        $existing = isset($all['persistent'][$username]) ? $all['persistent'][$username] : [];
+
+        $all['persistent'][$username] = array_merge([
             'password' => '',
             'max_connections' => 5,
             'created_at' => time(),
             'exp_date' => strtotime('+1 year'),
             'status' => 'Active'
-        ], $data);
-        return file_put_contents(self::getUsersFile(), json_encode($users, JSON_PRETTY_PRINT));
+        ], $existing, $data);
+
+        // Remove from blacklist if being re-added
+        $all['blacklist'] = array_diff($all['blacklist'] ?? [], [$username]);
+
+        return file_put_contents(self::getUsersFile(), json_encode($all, JSON_PRETTY_PRINT));
+    }
+
+    public static function deleteUser($username)
+    {
+        $all = self::loadUsers();
+        if (isset($all['persistent'][$username])) {
+            unset($all['persistent'][$username]);
+        } else {
+            // It's a static user, add to blacklist
+            if (!in_array($username, $all['blacklist'])) {
+                $all['blacklist'][] = $username;
+            }
+        }
+        return file_put_contents(self::getUsersFile(), json_encode($all, JSON_PRETTY_PRINT));
     }
 
     public static function getActiveConnections($username)

@@ -65,8 +65,19 @@ $users_db = [
 
 // --- Load Persistent Users ---
 require_once __DIR__ . '/core/user_mgr.php';
-$persistent_users = UserMgr::loadUsers();
-$users_db = array_merge($users_db, $persistent_users);
+$u_store = UserMgr::loadUsers();
+
+// Merge persistent users from JSON
+if (!empty($u_store['persistent'])) {
+    $users_db = array_merge($users_db, $u_store['persistent']);
+}
+
+// Filter out blacklisted users
+if (!empty($u_store['blacklist'])) {
+    foreach ($u_store['blacklist'] as $b) {
+        unset($users_db[$b]);
+    }
+}
 
 // --- Data Store (InMemory) ---
 // In a real DB app this would be SQL. Here we parse on the fly (Vercel caches somewhat).

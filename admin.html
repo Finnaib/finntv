@@ -273,14 +273,35 @@
             </table>
         </div>
 
-        <!-- System -->
-        <div class="panel">
-            <h2>System Info</h2>
-            <p style="color:var(--text-muted); margin-top:0.5rem">
-                Server Uptime: <span id="uptime" style="color:var(--success)">-</span><br>
-                PHP Version: <span id="phpVer">-</span>
-            </p>
+    </div>
+
+    <div class="panel" style="margin-top:2rem; border: 1px dashed var(--accent)">
+        <h2>🚀 Direct GitHub Sync (Permanent)</h2>
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem">
+            Push your changes directly to your GitHub repository to update your <b>config.php</b> source.
+        </p>
+
+        <input type="password" id="gh_token" placeholder="GitHub Personal Access Token" style="margin-bottom:0.5rem">
+        <input type="text" id="gh_repo" placeholder="username/repository" style="margin-bottom:1rem">
+
+        <button id="syncBtn" onclick="syncToGitHub()" style="background:var(--accent); color:white">Push Changes to
+            GitHub</button>
+        <div id="syncResult" style="margin-top:1rem; font-size:0.9rem"></div>
+
+        <hr style="margin:1.5rem 0; border:0; border-top:1px solid rgba(255,255,255,0.1)">
+
+        <button onclick="exportConfig()"
+            style="background:transparent; border:1px solid var(--text-muted); font-size:0.8rem">Show PHP Manual
+            Code</button>
+        <div id="exportArea" style="display:none; margin-top:1rem">
+            <textarea id="phpCodeExport"
+                style="width:100%; height:150px; background:#0f172a; color:#94a3b8; border:1px solid #334155; padding:1rem; font-family:monospace; font-size:0.8rem"
+                readonly></textarea>
+            <button onclick="copyExportedCode()"
+                style="margin-top:0.5rem; background:transparent; border:1px solid var(--accent); color:var(--accent)">Copy
+                to Clipboard</button>
         </div>
+    </div>
     </div>
 
     <!-- Add User Modal -->
@@ -460,7 +481,80 @@
             }
         }
 
+        // Load saved GitHub settings
+        document.getElementById('gh_token').value = localStorage.getItem('finntv_gh_token') || '';
+        document.getElementById('gh_repo').value = localStorage.getItem('finntv_gh_repo') || '';
+
+        async function syncToGitHub() {
+            const token = document.getElementById('gh_token').value;
+            const repo = document.getElementById('gh_repo').value;
+            const resultDiv = document.getElementById('syncResult');
+            const btn = document.getElementById('syncBtn');
+
+            if (!token || !repo) {
+                resultDiv.innerHTML = '<span style="color:var(--danger)">Token and Repo required!</span>';
+                return;
+            }
+
+            // Save for next time
+            localStorage.setItem('finntv_gh_token', token);
+            localStorage.setItem('finntv_gh_repo', repo);
+
+            btn.disabled = true;
+            btn.innerText = 'Syncing...';
+            resultDiv.innerHTML = 'Updating source code...';
+
+            const formData = new FormData();
+            formData.append('auth_user', currentUser);
+            formData.append('auth_pass', currentPass);
+            formData.append('action', 'sync_github');
+            formData.append('gh_token', token);
+            formData.append('gh_repo', repo);
+
+            try {
+                const res = await fetch('/api/admin_actions.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                if (data.success) {
+                    resultDiv.innerHTML = `<span style="color:var(--success)">✅ ${data.message}</span>`;
+                } else {
+                    resultDiv.innerHTML = `<span style="color:var(--danger)">❌ ${data.error}</span>`;
+                }
+            } catch (err) {
+                resultDiv.innerHTML = '<span style="color:var(--danger)">❌ Network error during sync</span>';
+            } finally {
+                btn.disabled = false;
+                btn.innerText = 'Push Changes to GitHub';
+            }
+        }
+
+        async function exportConfig() {
+            try {
+                const url = `${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_php_export`;
+                const res = await fetch(url);
+                const data = await res.json();
+                if (data.php) {
+                    document.getElementById('exportArea').style.display = 'block';
+                    document.getElementById('phpCodeExport').value = data.php;
+                    document.getElementById('phpCodeExport').scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        function copyExportedCode() {
+            const code = document.getElementById('phpCodeExport').value;
+            navigator.clipboard.writeText(code).then(() => {
+                showToast('PHP Code Copied!');
+            });
+        }
+
         function logout() {
+            localStorage.removeItem('finntv_admin_user');
+            localStorage.removeItem('finntv_admin_pass');
             location.reload();
         }
     </script>

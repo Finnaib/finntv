@@ -97,8 +97,10 @@ if (isset($users_db[$username])) {
         }
 
 
-        // Calculate Expiration (1 Year from Created Date)
-        $exp_date = strtotime('+1 year', $created_at);
+        // Calculate Expiration (Prioritize stored date, fallback to 1 year from created)
+        $exp_date = (is_array($u) && !empty($u['exp_date']))
+            ? $u['exp_date']
+            : strtotime('+1 year', $created_at);
 
         // Check Expiration
         if (time() > $exp_date) {
@@ -461,6 +463,23 @@ if ($action === '' || $action === 'get_panel_info') {
         ];
     }
     json_out($display_users);
+
+} elseif ($action === 'get_php_export') {
+    // 12. Admin PHP Export
+    if ($username !== 'shoaibwwe01@gmail.com') {
+        json_out(['error' => 'Unauthorized']);
+        return;
+    }
+
+    $php = "\$users_db = [\n";
+    foreach ($users_db as $u => $p) {
+        $pass = is_array($p) ? $p['password'] : $p;
+        $created = (is_array($p) && !empty($p['created_at'])) ? $p['created_at'] : 'null';
+        $max = (is_array($p) && !empty($p['max_connections'])) ? (int) $p['max_connections'] : 5;
+        $php .= "    \"$u\" => [\"password\" => \"$pass\", \"created_at\" => $created, \"max_connections\" => $max],\n";
+    }
+    $php .= "];";
+    json_out(['php' => $php]);
 
 } else {
     // Default
