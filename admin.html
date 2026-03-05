@@ -316,7 +316,7 @@
 
             try {
                 // Verify by asking for stats
-                const res = await fetch(`${API_BASE}?username=${u}&password=${p}&action=get_stats`);
+                const res = await fetch(`${API_BASE}?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_stats&_t=${Date.now()}`);
                 const data = await res.json();
 
                 if (data.error) {
@@ -347,29 +347,45 @@
         }
 
         async function loadUsers() {
-            const res = await fetch(`${API_BASE}?username=${currentUser}&password=${currentPass}&action=get_users`);
-            const users = await res.json();
+            try {
+                const res = await fetch(`${API_BASE}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_users&_t=${Date.now()}`);
+                const users = await res.json();
 
-            const tbody = document.getElementById('userTable');
-            tbody.innerHTML = '';
+                const tbody = document.getElementById('userTable');
+                tbody.innerHTML = '';
 
-            users.forEach(u => {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td>${u.username}</td>
-                    <td style="font-family:monospace">****</td> 
-                    <td>${u.created}</td>
-                    <td>${u.exp}</td>
-                    <td><span style="color:${u.status === 'Active' ? 'var(--success)' : 'var(--danger)'}">${u.status}</span></td>
-                    <td><button onclick="deleteUser('${u.username}')" style="padding:0.3rem 0.6rem; margin:0; font-size:0.8rem; background:var(--danger)">Delete</button></td>
-                `;
-                // Reveal pass on click
-                tr.children[1].onclick = function () { this.innerText = u.password; };
-                tr.children[1].style.cursor = 'pointer';
-                tr.children[1].title = "Click to show password";
+                if (users.error) {
+                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Error: ${users.error}</td></tr>`;
+                    return;
+                }
 
-                tbody.appendChild(tr);
-            });
+                if (!Array.isArray(users)) {
+                    tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Invalid data format from server.</td></tr>`;
+                    return;
+                }
+
+                users.forEach(u => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${u.username}</td>
+                        <td style="font-family:monospace">****</td> 
+                        <td>${u.created}</td>
+                        <td>${u.exp}</td>
+                        <td><span style="color:${u.status === 'Active' ? 'var(--success)' : 'var(--danger)'}">${u.status}</span></td>
+                        <td><button onclick="deleteUser('${u.username}')" style="padding:0.3rem 0.6rem; margin:0; font-size:0.8rem; background:var(--danger)">Delete</button></td>
+                    `;
+                    // Reveal pass on click
+                    tr.children[1].onclick = function () { this.innerText = u.password; };
+                    tr.children[1].style.cursor = 'pointer';
+                    tr.children[1].title = "Click to show password";
+
+                    tbody.appendChild(tr);
+                });
+            } catch (err) {
+                console.error("Failed to load users:", err);
+                const tbody = document.getElementById('userTable');
+                if (tbody) tbody.innerHTML = `<tr><td colspan="6" style="color:var(--danger)">Failed to load users. See browser console.</td></tr>`;
+            }
         }
 
         async function deleteUser(user) {
