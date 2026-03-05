@@ -702,20 +702,35 @@
         let usersBuffer = []; // Local staging of users
         let originalUsers = []; // What's currently on Git
         let currentEditingFile = null;
+        let stagedFiles = {}; // { 'm3u/filename.m3u': 'content' }
 
         // --- Auth & Startup ---
+        window.onload = () => {
+            const savedU = localStorage.getItem('finntv_admin_email');
+            const savedP = localStorage.getItem('finntv_admin_pass');
+            if (savedU && savedP) {
+                document.getElementById('admUser').value = savedU;
+                document.getElementById('admPass').value = savedP;
+                doLogin();
+            }
+        };
+
         function doLogin() {
             const u = document.getElementById('admUser').value;
             const p = document.getElementById('admPass').value;
 
             // Check credentials via get_stats
-            fetch(`${PROVIDER_API}?username=${u}&password=${p}&action=get_stats`)
+            fetch(`${PROVIDER_API}?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_stats`)
                 .then(r => r.json())
                 .then(data => {
                     if (data.error) throw new Error();
 
                     currentUser = u;
                     currentPass = p;
+                    // Persist
+                    localStorage.setItem('finntv_admin_email', u);
+                    localStorage.setItem('finntv_admin_pass', p);
+
                     document.getElementById('loginOverlay').style.display = 'none';
                     initApp(data);
                 })
@@ -726,12 +741,14 @@
 
         function initApp(stats) {
             lucide.createIcons();
+            document.getElementById('userNameDisplay').innerText = currentUser;
             loadDashboard(stats);
             fetchUsersFromServer();
             loadM3UFiles();
         }
 
         function logout() {
+            localStorage.clear();
             location.reload();
         }
 
@@ -811,17 +828,32 @@
         }
 
         function checkChanges() {
-            const hasChanges = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+            const usersChanged = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+            const filesChanged = Object.keys(stagedFiles).length > 0;
+
             const badge = document.getElementById('unsavedBadge');
             const syncBtn = document.getElementById('gitSyncBtn');
+            const saveM3UBtn = document.getElementById('saveM3UBtn');
 
-            if (hasChanges) {
+            if (usersChanged || filesChanged) {
                 badge.style.display = 'inline-flex';
                 syncBtn.style.display = 'inline-flex';
             } else {
                 badge.style.display = 'none';
                 syncBtn.style.display = 'none';
             }
+
+            // Highlight the M3U save button if current file is staged
+            if (currentEditingFile && stagedFiles[`m3u/${currentEditingFile}`]) {
+                saveM3UBtn.classList.remove('btn-primary');
+                saveM3UBtn.classList.add('btn-warning');
+                saveM3UBtn.innerHTML = '<i data-lucide="check-circle"></i> Changes Staged';
+            } else if (currentEditingFile) {
+                saveM3UBtn.classList.remove('btn-warning');
+                saveM3UBtn.classList.add('btn-primary');
+                saveM3UBtn.innerHTML = '<i data-lucide="save"></i> Stage File Update';
+            }
+            lucide.createIcons();
         }
 
         function showAddUserModal() {
@@ -870,25 +902,43 @@
             const btn = document.getElementById('gitSyncBtn');
             const originalText = btn.innerHTML;
             btn.disabled = true;
-            btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Syncing...';
+            btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Pushing All Changes...';
             lucide.createIcons();
 
             try {
-                const res = await fetch(API + '?action=sync_users_git&auth_user=' + currentUser + '&auth_pass=' + currentPass, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ users: usersBuffer })
-                });
-                const data = await res.json();
-                if (data.success) {
-                    showToast("GitHub Synchronized! Deployment started.", "success");
-                    originalUsers = JSON.parse(JSON.stringify(usersBuffer));
-                    checkChanges();
-                } else {
-                    alert("Error: " + data.error);
+                // 1. Sync Users if changed
+                const usersChanged = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+                if (usersChanged) {
+                    const res = await fetch(API + '?action=sync_users_git&auth_user=' + encodeURIComponent(currentUser) + '&auth_pass=' + encodeURIComponent(currentPass), {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ users: usersBuffer })
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error("User Sync Failed: " + data.error);
                 }
+
+                // 2. Sync Files if changed
+                for (const path in stagedFiles) {
+                    const formData = new FormData();
+                    formData.append('auth_user', currentUser);
+                    formData.append('auth_pass', currentPass);
+                    formData.append('action', 'save_m3u_git');
+                    formData.append('file', path.replace('m3u/', ''));
+                    formData.append('content', stagedFiles[path]);
+
+                    const res = await fetch(API, { method: 'POST', body: formData });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(`File Sync Failed (${path}): ` + data.error);
+                }
+
+                showToast("GitHub Synchronized Successfully!", "success");
+                originalUsers = JSON.parse(JSON.stringify(usersBuffer));
+                stagedFiles = {};
+                checkChanges();
+
             } catch (err) {
-                alert("Network error during sync");
+                alert(err.message);
             } finally {
                 btn.disabled = false;
                 btn.innerHTML = originalText;
@@ -900,46 +950,33 @@
         function loadM3UContent(file) {
             currentEditingFile = file;
             document.getElementById('currentFileName').innerText = file;
-            document.getElementById('m3uEditor').value = "Loading content...";
 
-            fetch(`${API}?action=read_m3u&file=${file}&auth_user=${currentUser}&auth_pass=${currentPass}`)
+            // If already staged, show staged content
+            if (stagedFiles[`m3u/${file}`]) {
+                document.getElementById('m3uEditor').value = stagedFiles[`m3u/${file}`];
+                document.getElementById('saveM3UBtn').disabled = false;
+                checkChanges();
+                return;
+            }
+
+            document.getElementById('m3uEditor').value = "Loading from server...";
+
+            fetch(`${API}?action=read_m3u&file=${encodeURIComponent(file)}&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`)
                 .then(r => r.json())
                 .then(data => {
                     document.getElementById('m3uEditor').value = data.content || '';
                     document.getElementById('saveM3UBtn').disabled = false;
-                    loadM3UFiles(); // Refresh active state
+                    loadM3UFiles(); // Refresh list active state
+                    checkChanges();
                 });
         }
 
-        async function saveM3UToGit() {
-            const btn = document.getElementById('saveM3UBtn');
+        function saveM3UToGit() {
+            if (!currentEditingFile) return;
             const content = document.getElementById('m3uEditor').value;
-
-            btn.disabled = true;
-            btn.innerHTML = "Saving to GitHub...";
-
-            const formData = new FormData();
-            formData.append('auth_user', currentUser);
-            formData.append('auth_pass', currentPass);
-            formData.append('action', 'save_m3u_git');
-            formData.append('file', currentEditingFile);
-            formData.append('content', content);
-
-            try {
-                const res = await fetch(API, { method: 'POST', body: formData });
-                const data = await res.json();
-                if (data.success) {
-                    showToast(`Updated ${currentEditingFile} successfully!`, "success");
-                } else {
-                    alert(data.error);
-                }
-            } catch (e) {
-                alert("Save failed");
-            } finally {
-                btn.disabled = false;
-                btn.innerHTML = '<i data-lucide="save"></i> Save File & Push';
-                lucide.createIcons();
-            }
+            stagedFiles[`m3u/${currentEditingFile}`] = content;
+            showToast(`Revision of ${currentEditingFile} staged.`, "info");
+            checkChanges();
         }
 
         function createNewM3U() {
