@@ -9944,6 +9944,42 @@ http://mhav1.com:80/live/ht2990/742579548/248962.ts
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 SD
 http://mhav1.com:80/live/ht2990/742579548/49535.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event1" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event1
+http://mhav1.com:80/live/ht2990/742579548/267867.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event1 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event1 SD
+http://mhav1.com:80/live/ht2990/742579548/267871.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event2" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event2
+http://mhav1.com:80/live/ht2990/742579548/267868.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event2 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event2 SD
+http://mhav1.com:80/live/ht2990/742579548/267872.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event3" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event3
+http://mhav1.com:80/live/ht2990/742579548/267869.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event3 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event3 SD
+http://mhav1.com:80/live/ht2990/742579548/267873.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event4" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event4
+http://mhav1.com:80/live/ht2990/742579548/267870.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Event4 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event4 SD
+http://mhav1.com:80/live/ht2990/742579548/267874.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max HD
+http://mhav1.com:80/live/ht2990/742579548/267086.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max LOW
+http://mhav1.com:80/live/ht2990/742579548/267087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus HD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus HD
+http://mhav1.com:80/live/ht2990/742579548/267083.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus LOW
+http://mhav1.com:80/live/ht2990/742579548/267084.ts
+
 
 ##### [OSN  HD او اس ان] #####
 
@@ -11182,6 +11218,18 @@ http://mhav1.com:80/live/ht2990/742579548/29799.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Qatar Today 2 [QA]" tvg-logo="" group-title="Qatar - قطر",Qatar Today 2 [QA]
 http://mhav1.com:80/live/ht2990/742579548/57150.ts
+
+
+##### [Ramadan 2026] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="Ramadan 2026 " tvg-logo="" group-title="Ramadan 2026",Ramadan 2026 
+http://mhav1.com:80/live/ht2990/742579548/265373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="أناشيد رمضان" tvg-logo="" group-title="Ramadan 2026",أناشيد رمضان
+http://mhav1.com:80/live/ht2990/742579548/265363.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ابتهالات" tvg-logo="" group-title="Ramadan 2026",ابتهالات
+http://mhav1.com:80/live/ht2990/742579548/265364.ts
 
 
 ##### [Romania] #####
@@ -16159,6 +16207,15 @@ http://mhav1.com:80/live/ht2990/742579548/115381.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_VEGA" tvg-logo="" group-title="beIN XTRA-اكسترا",beIN_SPORTS_3Xtra_VEGA
 http://mhav1.com:80/live/ht2990/742579548/115383.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_1080" tvg-logo="" group-title="beIN XTRA-اكسترا",beIN_SPORTS_4Xtra_1080
+http://mhav1.com:80/live/ht2990/742579548/214705.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_HD720" tvg-logo="" group-title="beIN XTRA-اكسترا",beIN_SPORTS_4Xtra_HD720
+http://mhav1.com:80/live/ht2990/742579548/214711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_Low" tvg-logo="" group-title="beIN XTRA-اكسترا",beIN_SPORTS_4Xtra_Low
+http://mhav1.com:80/live/ht2990/742579548/214698.ts
 
 
 ##### [polish] #####
