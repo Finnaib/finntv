@@ -591,15 +591,15 @@
 
             <div class="table-container">
                 <div class="table-header">
-                    <h3>Recent Activity</h3>
+                    <h3>Recent Activity / Playing Now</h3>
                     <button class="btn btn-outline" onclick="regenerateCache()" id="regenBtn">
                         <i data-lucide="refresh-cw"></i> Refresh System Cache
                     </button>
                 </div>
-                <div style="padding: 3rem; text-align: center; color: var(--text-muted)">
-                    <i data-lucide="cloud" style="width: 48px; height: 48px; margin-bottom: 1rem"></i>
-                    <p>Vercel Proxy Active - All streams healthy</p>
-                    <small id="lastRegen" style="opacity: 0.6"></small>
+                <div id="activityTable">
+                    <div style="padding: 3rem; text-align: center; color: var(--text-muted)">
+                        <i data-lucide="loader" class="spin"></i> Detecting active streams...
+                    </div>
                 </div>
             </div>
         </div>
@@ -749,6 +749,8 @@
             loadDashboard(stats);
             fetchUsersFromServer();
             loadM3UFiles();
+            loadActivity();
+            setInterval(loadActivity, 10000);
         }
 
         function logout() {
@@ -956,6 +958,53 @@
                 btn.disabled = false;
                 btn.innerHTML = originalText;
                 lucide.createIcons();
+            }
+        }
+
+        async function loadActivity() {
+            const container = document.getElementById('activityTable');
+            try {
+                const res = await fetch(`${API}?action=get_activity&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const data = await res.json();
+
+                if (!data || data.length === 0) {
+                    container.innerHTML = `<div style="padding: 3rem; text-align: center; color: var(--text-muted)">
+                         <i data-lucide="activity" style="opacity: 0.5"></i>
+                         <p>No active streams detected. Check back later.</p>
+                     </div>`;
+                    lucide.createIcons();
+                    return;
+                }
+
+                let html = `<table>
+                     <thead>
+                         <tr>
+                             <th>User</th>
+                             <th>Content ID</th>
+                             <th>Type</th>
+                             <th>Time</th>
+                         </tr>
+                     </thead>
+                     <tbody>`;
+
+                data.forEach(log => {
+                    const time = new Date(log.time * 1000).toLocaleTimeString();
+                    const ago = Math.floor((Date.now() / 1000) - log.time);
+                    let agoStr = ago < 60 ? 'Just now' : Math.floor(ago / 60) + 'm ago';
+
+                    html += `<tr>
+                         <td><strong>${log.user}</strong></td>
+                         <td><code>${log.stream_id}</code></td>
+                         <td><span class="badge ${log.type === 'live' ? '' : 'yellow'}">${log.type.toUpperCase()}</span></td>
+                         <td>${agoStr} <small style="opacity:0.5">(${time})</small></td>
+                     </tr>`;
+                });
+
+                html += '</tbody></table>';
+                container.innerHTML = html;
+
+            } catch (e) {
+                container.innerHTML = `<div style="padding: 1rem; color: var(--danger)">Failed to load activity.</div>`;
             }
         }
 

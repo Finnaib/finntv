@@ -183,6 +183,17 @@ if ($action === 'create_user') {
         echo json_encode(['success' => false, 'error' => 'Failed to write cache. Run Push to Git.']);
     }
 
+} elseif ($action === 'get_activity') {
+    $act_file = __DIR__ . '/../data/activity.json';
+    if (!file_exists($act_file))
+        $act_file = sys_get_temp_dir() . '/finntv_activity.json';
+
+    if (file_exists($act_file)) {
+        echo file_get_contents($act_file);
+    } else {
+        echo json_encode([]);
+    }
+
 } elseif ($action === 'push_cache_git') {
     require_once __DIR__ . '/../config.php';
     parseMoviesAndSeries();
