@@ -1,20 +1,26 @@
 <?php
 /**
- * FinnTV Xtream Server V2 - Stream Redirector (SIMPLIFIED)
+ * FinnTV Xtream Server V2 - Stream Redirector
+ * Falls back to upstream when stream ID is not in local id_map
  */
 
 $uri = $_SERVER['REQUEST_URI'];
 $parts = explode('/', trim(parse_url($uri, PHP_URL_PATH), '/'));
 
-// Detect ID and Type
+// Detect ID, Extension and Type
 $type = $_GET['type'] ?? "live";
 $id_part = end($parts);
 $user_part = $parts[1] ?? 'unknown';
 
 $leaf = explode('?', $id_part)[0];
-$leaf = explode('.', $leaf)[0];
+// Keep original extension
+$ext = 'ts';
+if (strpos($leaf, '.') !== false) {
+    $ext = substr($leaf, strrpos($leaf, '.') + 1);
+}
+$leaf_no_ext = explode('.', $leaf)[0];
 $id = 0;
-if (preg_match('/^(\d+)/', $leaf, $matches)) {
+if (preg_match('/^(\d+)/', $leaf_no_ext, $matches)) {
     $id = $matches[1];
 }
 
@@ -32,7 +38,7 @@ array_unshift($log, ['user' => $user_part, 'stream_id' => $id, 'type' => $type, 
 $log = array_slice($log, 0, 20);
 @file_put_contents($act_file, json_encode($log));
 
-// Load Map
+// --- Load Local Map ---
 $map_file = __DIR__ . '/../data/id_map.json';
 $target_url = "";
 if (file_exists($map_file)) {
@@ -44,11 +50,32 @@ if (file_exists($map_file)) {
     }
 }
 
+// --- Fallback: Build URL directly from upstream ---
+// This handles episodes from get_series_info which have IDs not in id_map
 if (!$target_url) {
-    http_response_code(404);
-    die("Stream not found.");
+    $conf_file = __DIR__ . '/../xtream_config.json';
+    if (file_exists($conf_file)) {
+        $c = json_decode(file_get_contents($conf_file), true);
+        $u_host = rtrim($c['host'] ?? '', '/');
+        $u_user = $c['username'] ?? '';
+        $u_pass = $c['password'] ?? '';
+
+        if ($u_host && $u_user && $u_pass && $id) {
+            // Map type to URL path segment
+            $path_type = $type; // 'live', 'movie', 'series'
+            if ($type === 'movie')
+                $path_type = 'movie';
+
+            $target_url = "{$u_host}/{$path_type}/{$u_user}/{$u_pass}/{$id}.{$ext}";
+        }
+    }
 }
 
-// Redirect
+if (!$target_url) {
+    http_response_code(404);
+    die("Stream not found. ID: $id, Type: $type");
+}
+
+// Redirect to the actual stream
 header("Location: " . $target_url);
 exit;
