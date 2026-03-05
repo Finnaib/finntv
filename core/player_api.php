@@ -309,92 +309,47 @@ if ($action === '' || $action === 'get_panel_info') {
     json_out($out);
 
 } elseif ($action === 'get_series_info') {
-    // 8. Series Info (Episodes) - PROXY TO UPSTREAM with caching
+    // 8. Series Info - Build from LOCAL data only (no upstream proxy)
+    // Upstream has max_connections:1 - proxying here blocks the actual stream
     $series_id = (int) ($_GET['series_id'] ?? 0);
 
-    // Check cache first to avoid burning the single upstream connection
-    $series_cache_dir = __DIR__ . '/../data/series_cache';
-    $cache_file = $series_cache_dir . '/' . $series_id . '.json';
-    $cache_ttl = 86400; // 24 hours
-
-    if (file_exists($cache_file) && (time() - filemtime($cache_file)) < $cache_ttl) {
-        header('Content-Type: application/json');
-        echo file_get_contents($cache_file);
-        exit;
-    }
-
-    // Load Upstream Credentials
-    $conf_file = __DIR__ . '/../xtream_config.json';
-    if (file_exists($conf_file)) {
-        $c = json_decode(file_get_contents($conf_file), true);
-        $u_host = $c['host'] ?? '';
-        $u_user = $c['username'] ?? '';
-        $u_pass = $c['password'] ?? '';
-
-        if ($u_host && $u_user && $u_pass) {
-            $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_series_info&series_id={$series_id}";
-
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-            $resp = curl_exec($ch);
-            curl_close($ch);
-
-            if ($resp) {
-                // CRITICAL FIX: Rewrite container_extension to 'ts'
-                // The upstream only allows ts/m3u8 but returns mkv/mp4 metadata
-                // which causes players to request .mkv URLs that fail.
-                $decoded = json_decode($resp, true);
-                if (is_array($decoded) && isset($decoded['episodes'])) {
-                    foreach ($decoded['episodes'] as $season_num => &$season_eps) {
-                        if (is_array($season_eps)) {
-                            foreach ($season_eps as &$ep) {
-                                $ep['container_extension'] = 'ts';
-                            }
-                        }
-                    }
-                    $resp = json_encode($decoded, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-                }
-
-                // Cache the response
-                if (!is_dir($series_cache_dir))
-                    @mkdir($series_cache_dir, 0755, true);
-                @file_put_contents($cache_file, $resp);
-
-                header('Content-Type: application/json');
-                echo $resp;
-                exit;
-            }
-        }
-    }
-
-    // Fallback if upstream fails (Original Logic)
-    // Find Series
+    // Find matching series in local data
     $found = null;
     foreach ($data['series'] as $s) {
-        if ($s['num'] == $series_id) {
+        if ((int) $s['num'] === $series_id || (int) ($s['stream_id'] ?? 0) === $series_id) {
             $found = $s;
             break;
         }
     }
 
-    $episodes = [];
-    if ($found) {
-        $episodes[] = [
-            'id' => $found['num'],
-            'episode_num' => 1,
-            'title' => $found['name'],
-            'container_extension' => 'mp4',
-            'info' => [],
-            'custom_sid' => '',
-            'added' => (string) time(),
-            'season' => 1,
-            'direct_source' => ''
-        ];
+    if (!$found) {
+        json_out(['seasons' => [], 'info' => [], 'episodes' => []]);
     }
+
+    // Get the stream_id to use as episode ID — this IS in the id_map
+    $ep_id = (int) ($found['stream_id'] ?? $found['num'] ?? $series_id);
+
+    // Build episode using the local stream ID
+    $episode = [
+        'id' => $ep_id,
+        'episode_num' => 1,
+        'title' => (string) ($found['name'] ?? ''),
+        'container_extension' => 'ts',  // Force ts - upstream only supports ts/m3u8
+        'info' => [
+            'name' => (string) ($found['name'] ?? ''),
+            'cover_big' => (string) ($found['cover'] ?? ''),
+            'movie_image' => (string) ($found['cover'] ?? ''),
+            'plot' => '',
+            'cast' => '',
+            'director' => '',
+            'genre' => '',
+            'releaseDate' => ''
+        ],
+        'custom_sid' => '',
+        'added' => (string) time(),
+        'season' => 1,
+        'direct_source' => ''
+    ];
 
     json_out([
         'seasons' => [
@@ -405,61 +360,63 @@ if ($action === '' || $action === 'get_panel_info') {
                 'name' => 'Season 1',
                 'overview' => '',
                 'season_number' => 1,
-                'cover' => $found['cover'] ?? '',
-                'cover_big' => $found['cover'] ?? ''
+                'cover' => (string) ($found['cover'] ?? ''),
+                'cover_big' => (string) ($found['cover'] ?? '')
             ]
         ],
-        'episodes' => ["1" => $episodes]
+        'info' => [
+            'name' => (string) ($found['name'] ?? ''),
+            'cover' => (string) ($found['cover'] ?? ''),
+            'plot' => '',
+            'cast' => '',
+            'director' => '',
+            'genre' => '',
+            'releaseDate' => '',
+            'last_modified' => (string) time(),
+            'rating' => '5',
+            'rating_5based' => '5',
+            'backdrop_path' => [],
+            'youtube_trailer' => '',
+            'episode_run_time' => '45',
+            'category_id' => (string) ($found['category_id'] ?? '')
+        ],
+        'episodes' => ['1' => [$episode]]
     ]);
 
+
 } elseif ($action === 'get_vod_info') {
-    // 9. VOD Info - PROXY TO UPSTREAM
-    $vod_id = $_GET['vod_id'] ?? 0;
+    // 9. VOD Info - Build from LOCAL data only (no upstream proxy)
+    // Upstream has max_connections:1 - proxying here blocks the actual stream
+    $vod_id = (int) ($_GET['vod_id'] ?? 0);
 
-    // Load Upstream Credentials
-    $conf_file = __DIR__ . '/../xtream_config.json';
-    if (file_exists($conf_file)) {
-        $c = json_decode(file_get_contents($conf_file), true);
-        $u_host = $c['host'] ?? '';
-        $u_user = $c['username'] ?? '';
-        $u_pass = $c['password'] ?? '';
-
-        if ($u_host && $u_user && $u_pass) {
-            $url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_vod_info&vod_id={$vod_id}";
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            $resp = curl_exec($ch);
-            curl_close($ch);
-            if ($resp) {
-                header('Content-Type: application/json');
-                echo $resp;
-                exit;
-            }
+    // Find matching VOD in local data
+    $found_vod = null;
+    foreach ($data['vod_streams'] as $v) {
+        if ((int) ($v['stream_id'] ?? 0) === $vod_id || (int) ($v['num'] ?? 0) === $vod_id) {
+            $found_vod = $v;
+            break;
         }
     }
 
-    // Fallback
     json_out([
         'info' => [
-            'name' => 'Unknown Movie',
-            'description' => 'No description available.',
+            'name' => (string) ($found_vod['name'] ?? 'Movie'),
+            'description' => '',
             'director' => '',
             'releasedate' => '',
             'genre' => '',
             'cast' => '',
             'rating' => '5',
             'duration' => '',
-            'poster_url' => ''
+            'poster_url' => (string) ($found_vod['stream_icon'] ?? '')
         ],
         'movie_data' => [
             'stream_id' => $vod_id,
-            'container_extension' => 'mp4',
-            'name' => 'Unknown Movie'
+            'container_extension' => 'ts',  // Force ts
+            'name' => (string) ($found_vod['name'] ?? 'Movie')
         ]
     ]);
+
 
 } elseif ($action === 'get_stats') {
     header("X-Debug-Action: get_stats");
