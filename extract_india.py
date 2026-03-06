@@ -56,34 +56,7 @@ for i in range(len(live_lines)):
                 indian_channels_by_group[group].append(url)
                 indian_channels_by_group[group].append("")
 
-# Keep some of the very specific/working CDN ones from original
-cdn_channels = [
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.ibb.co.com/zhpfnXry/Ananda-TV.jpg",Ananda TV',
-    'https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.ibb.co/F41Zgxyr/ATN-Bangla.jpg",ATN Bangla',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/ZqPGzW3x/ATN-Bangla.jpg",ATN News',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/tJq1jBzG/Channel-i.jpg",Channel I',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/L6WP5g60/Deepto-TV.jpg",Deepto TV',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/JzDLh7pB/Ekattor.jpg",Ekattor TV',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/640px-Independent_Television_Logo.svg.png",Independent TV',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8',
-    '',
-    '#EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/hvcWR1Yz/Somoy-TV.jpg",Somoy TV',
-    'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8',
-    ''
-]
-indian_channels_by_group['Bangladesh'] = cdn_channels + indian_channels_by_group['Bangladesh']
+
 
 with open('m3u/india.m3u', 'w', encoding='utf-8') as f:
     f.write("#EXTM3U\n\n")

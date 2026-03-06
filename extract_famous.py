@@ -56,46 +56,7 @@ for i in range(len(live_lines)):
                 egypt_channels_by_group[group].append(url)
                 egypt_channels_by_group[group].append("")
 
-# Keep the direct CDN channels from the old list for Egypt that were custom
-cdn_channels = [
-    '#EXTINF:-1 tvg-name="Aghapy TV" tvg-id="AghapyTV.eg" group-title="Egypt",Aghapy TV',
-    'https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Al Ghad Plus" tvg-id="AlGhadPlus.eg" group-title="Egypt",Al Ghad Plus',
-    'https://playlist.fasttvcdn.com/pl/ykvm3f2fhokwxqsurp9xcg/alghad-plus/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Al Ghad TV" tvg-id="AlGhadTV.eg" group-title="Egypt",Al Ghad TV',
-    'https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Al Qahera News" tvg-id="AlQaheraNews.eg" group-title="Egypt",Al Qahera News',
-    'https://bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Alhayat TV" tvg-id="AlhayatTV.eg" group-title="Egypt",Alhayat TV',
-    'https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Coptic TV" tvg-id="CopticTV.eg" group-title="Egypt",Coptic TV',
-    'https://5aafcc5de91f1.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Huda TV" tvg-id="HudaTV.eg" group-title="Egypt",Huda TV',
-    'https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Koogi TV" tvg-id="KoogiTV.eg" group-title="Egypt",Koogi TV',
-    'https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="MBC Masr 1" tvg-id="MBCMasr1.eg" group-title="Egypt",MBC Masr 1',
-    'https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="MBC Masr 2" tvg-id="MBCMasr2.eg" group-title="Egypt",MBC Masr 2',
-    'https://shls-masr2-ak.akamaized.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Rotana Cinema" tvg-id="RotanaCinema.eg" group-title="Egypt",Rotana Cinema',
-    'https://rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8',
-    '',
-    '#EXTINF:-1 tvg-name="Watan TV" tvg-id="WatanTV.eg" group-title="Egypt",Watan TV',
-    'https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8',
-    ''
-]
-egypt_channels_by_group['Egypt'] = cdn_channels + egypt_channels_by_group['Egypt']
+
 
 with open('m3u/egypt.m3u', 'w', encoding='utf-8') as f:
     f.write("#EXTM3U\n\n")

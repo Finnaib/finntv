@@ -135,10 +135,7 @@ def main():
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
 
-    # Reset files first
-    for fn in ["live.m3u", "vod.m3u", "series.m3u"]:
-        with open(f"m3u/{fn}", "w", encoding='utf-8') as file:
-            file.write("#EXTM3U\n")
+    auth_success = False
 
     for i, cred in enumerate(credentials):
         host = cred.get("host", "").rstrip('/')
@@ -171,6 +168,13 @@ def main():
             if "user_info" in res_json and res_json["user_info"].get("status") != "Active":
                 print(f"Account for {username} is not Active (status: {res_json['user_info'].get('status')})")
                 continue
+            
+            if not auth_success:
+                # Reset files first
+                for fn in ["live.m3u", "vod.m3u", "series.m3u"]:
+                    with open(f"m3u/{fn}", "w", encoding='utf-8') as file:
+                        file.write("#EXTM3U\n")
+                auth_success = True
                 
         except Exception as e:
             print(f"Could not connect to {host} for {username}: {e}")
