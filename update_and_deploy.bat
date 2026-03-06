@@ -17,6 +17,14 @@ if %errorlevel% neq 0 (
 )
 echo.
 
+echo [1.5/3] Rebuilding custom region m3us from new live provider list...
+echo Rebuilding Egypt...
+python extract_famous.py
+echo Rebuilding India/Subcontinent...
+python extract_india.py
+echo.
+
+
 echo [2/3] Building Optimized Data Cache ^& ID Map...
 python build_data.py
 if %errorlevel% neq 0 (
