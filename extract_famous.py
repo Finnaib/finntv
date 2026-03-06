@@ -27,7 +27,7 @@ for i in range(len(live_lines)):
         # Check explicit tags or names
         lower_line = line.lower()
         
-        if 'group-title="arabic sport' in lower_line or 'shasha sport' in lower_line or ('ksa' in lower_line and 'sport' in lower_line) or 'ad sport' in lower_line:
+        if 'group-title="arabic sport' in lower_line or 'shasha sport' in lower_line or ('ksa' in lower_line and 'sport' in lower_line) or 'ad sport' in lower_line or 'ssc' in lower_line or 'abu dhabi sports' in lower_line:
             group = 'Arabic Sports'
         elif 'bein sports max' in lower_line or 'bein max' in lower_line:
             group = 'beIN MAX'
@@ -43,7 +43,7 @@ for i in range(len(live_lines)):
             group = 'Shahid Live'
         elif 'spacetoon' in lower_line or 'cn arabic' in lower_line or 'mbc 3' in lower_line or 'rotana kids' in lower_line or 'baby' in lower_line or 'baraem' in lower_line:
             group = 'Kids'
-        elif 'group-title="egypt' in lower_line or ',eg|' in lower_line or 'nilesat' in lower_line or 'osn' in lower_line or 'al arabiya' in lower_line or 'al hadath' in lower_line or 'alghad' in lower_line or 'aghapy' in lower_line:
+        elif 'group-title="egypt' in lower_line or 'group-title="eg|' in lower_line or 'eg|' in lower_line or 'nilesat' in lower_line or 'osn' in lower_line or 'al arabiya' in lower_line or 'al hadath' in lower_line or 'alghad' in lower_line or 'aghapy' in lower_line or 'on time ' in lower_line or 'on sport' in lower_line or 'al ahly' in lower_line or 'zamalek' in lower_line:
             group = 'Egypt'
             
         if group:
