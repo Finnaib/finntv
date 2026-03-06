@@ -2,192 +2,34 @@
 
 
 ################################################################################
-# AGAMA
+# Berita
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="Alb: Rtv islam" group-title="AGAMA",Alb: Rtv islam
-http://magic-tv.live:2095/live/9853786/34895378/1604589.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Qu-QURANTV" group-title="AGAMA",Qu-QURANTV
-http://magic-tv.live:2095/live/9853786/34895378/129.ts
-
-
-################################################################################
-# BERITA
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 NewsBiz" group-title="BERITA",Alb: RTV 21 NewsBiz
-http://magic-tv.live:2095/live/9853786/34895378/1604777.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News: iNews" group-title="BERITA",News: iNews
+#EXTINF:-1 tvg-id="" tvg-name="News: iNews" tvg-logo="https://www.lyngsat.com/logo/tv/ii/i-news-iq.png" group-title="Berita",News: iNews
 http://magic-tv.live:2095/live/9853786/34895378/1618834.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="News:iNews HD" group-title="BERITA",News:iNews HD
+#EXTINF:-1 tvg-id="" tvg-name="News:iNews HD" tvg-logo="https://www.lyngsat.com/logo/tv/ii/i-news-iq.png" group-title="Berita",News:iNews HD
 http://magic-tv.live:2095/live/9853786/34895378/1696097.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PL:METRO TV" group-title="BERITA",PL:METRO TV
+#EXTINF:-1 tvg-id="" tvg-name="PL:METRO TV" tvg-logo="https://epg.ovh/logo/METRO.png" group-title="Berita",PL:METRO TV
 http://magic-tv.live:2095/live/9853786/34895378/1616044.ts
 
 
 ################################################################################
-# BOLA / SPORTS
+# Hiburan
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="Br:SporTV" group-title="BOLA / SPORTS",Br:SporTV
-http://magic-tv.live:2095/live/9853786/34895378/136110.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Br:SporTV 2" group-title="BOLA / SPORTS",Br:SporTV 2
-http://magic-tv.live:2095/live/9853786/34895378/136112.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Br:SporTV 3" group-title="BOLA / SPORTS",Br:SporTV 3
-http://magic-tv.live:2095/live/9853786/34895378/136111.ts
-
-
-################################################################################
-# HIBURAN / TV NASIONAL
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Arm: HayastanTV Comedy" group-title="HIBURAN / TV NASIONAL",Arm: HayastanTV Comedy
-http://magic-tv.live:2095/live/9853786/34895378/1561350.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Per: Ecran TV" group-title="HIBURAN / TV NASIONAL",Per: Ecran TV
-http://magic-tv.live:2095/live/9853786/34895378/122718.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="JOR-Amman" group-title="HIBURAN / TV NASIONAL",JOR-Amman
-http://magic-tv.live:2095/live/9853786/34895378/73445.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="LB-TelelibanTV" group-title="HIBURAN / TV NASIONAL",LB-TelelibanTV
-http://magic-tv.live:2095/live/9853786/34895378/72.ts
-
-
-################################################################################
-# IRAQ-العراق
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="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" group-title="IRAQ-العراق",IQ-Nohadra" group-title="HIBURAN / TV NASIONAL",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" group-title="IRAQ-العراق",IQ-Nohadra
-http://magic-tv.live:2095/live/9853786/34895378/113131.ts
-
-
-################################################################################
-# Luar Negeri / Lainnya
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="AF:RTV -Ghana" group-title="Luar Negeri / Lainnya",AF:RTV -Ghana
-http://magic-tv.live:2095/live/9853786/34895378/135600.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 HD" group-title="Luar Negeri / Lainnya",Alb: RTV 21 HD
-http://magic-tv.live:2095/live/9853786/34895378/1604823.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 Junior" group-title="Luar Negeri / Lainnya",Alb: RTV 21 Junior
-http://magic-tv.live:2095/live/9853786/34895378/1604691.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 MK HD" group-title="Luar Negeri / Lainnya",Alb: RTV 21 MK HD
-http://magic-tv.live:2095/live/9853786/34895378/1604807.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 Mix" group-title="Luar Negeri / Lainnya",Alb: RTV 21 Mix
-http://magic-tv.live:2095/live/9853786/34895378/1604715.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV 21 Plus HD" group-title="Luar Negeri / Lainnya",Alb: RTV 21 Plus HD
-http://magic-tv.live:2095/live/9853786/34895378/1604714.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Aldi" group-title="Luar Negeri / Lainnya",Alb: RTV Aldi
-http://magic-tv.live:2095/live/9853786/34895378/1604778.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Arbëri" group-title="Luar Negeri / Lainnya",Alb: RTV Arbëri
-http://magic-tv.live:2095/live/9853786/34895378/1604739.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Dukagjini" group-title="Luar Negeri / Lainnya",Alb: RTV Dukagjini
-http://magic-tv.live:2095/live/9853786/34895378/1604818.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Elkalem" group-title="Luar Negeri / Lainnya",Alb: RTV Elkalem
-http://magic-tv.live:2095/live/9853786/34895378/1604595.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Fontana" group-title="Luar Negeri / Lainnya",Alb: RTV Fontana
-http://magic-tv.live:2095/live/9853786/34895378/1604803.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV ILIRIDA" group-title="Luar Negeri / Lainnya",Alb: RTV ILIRIDA
-http://magic-tv.live:2095/live/9853786/34895378/1604695.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV ILIRIDA Music" group-title="Luar Negeri / Lainnya",Alb: RTV ILIRIDA Music
-http://magic-tv.live:2095/live/9853786/34895378/1604694.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: RTV Vranjevci" group-title="Luar Negeri / Lainnya",Alb: RTV Vranjevci
-http://magic-tv.live:2095/live/9853786/34895378/1604744.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: Rtv Pendimi" group-title="Luar Negeri / Lainnya",Alb: Rtv Pendimi
-http://magic-tv.live:2095/live/9853786/34895378/1604594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: Stinet" group-title="Luar Negeri / Lainnya",Alb: Stinet
-http://magic-tv.live:2095/live/9853786/34895378/1604673.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: Tring Planet" group-title="Luar Negeri / Lainnya",Alb: Tring Planet
-http://magic-tv.live:2095/live/9853786/34895378/1604644.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DZ-Berbere TV" group-title="Luar Negeri / Lainnya",DZ-Berbere TV
-http://magic-tv.live:2095/live/9853786/34895378/1695944.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Arg:Net TV" group-title="Luar Negeri / Lainnya",Arg:Net TV
+#EXTINF:-1 tvg-id="" tvg-name="Arg:Net TV" tvg-logo="" group-title="Hiburan",Arg:Net TV
 http://magic-tv.live:2095/live/9853786/34895378/120456.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BIH: RTV Krajina" group-title="Luar Negeri / Lainnya",BIH: RTV Krajina
-http://magic-tv.live:2095/live/9853786/34895378/134336.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Rtv Zenica" group-title="Luar Negeri / Lainnya",BIH: Rtv Zenica
-http://magic-tv.live:2095/live/9853786/34895378/134346.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CA-FR-ARTV" group-title="Luar Negeri / Lainnya",CA-FR-ARTV
-http://magic-tv.live:2095/live/9853786/34895378/111975.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GR:NET TV HD" group-title="Luar Negeri / Lainnya",GR:NET TV HD
+#EXTINF:-1 tvg-id="" tvg-name="GR:NET TV HD" tvg-logo="" group-title="Hiburan",GR:NET TV HD
 http://magic-tv.live:2095/live/9853786/34895378/1696595.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Thraki Net TV" group-title="Luar Negeri / Lainnya",Thraki Net TV
+#EXTINF:-1 tvg-id="" tvg-name="Thraki Net TV" tvg-logo="https://i.imgur.com/3ITSnqT.png" group-title="Hiburan",Thraki Net TV
 http://magic-tv.live:2095/live/9853786/34895378/1609194.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Per: OXIRTV HD" group-title="Luar Negeri / Lainnya",Per: OXIRTV HD
-http://magic-tv.live:2095/live/9853786/34895378/122698.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="KU:Net TV HD" group-title="Luar Negeri / Lainnya",KU:Net TV HD
+#EXTINF:-1 tvg-id="" tvg-name="KU:Net TV HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/net-tv-iq.png" group-title="Hiburan",KU:Net TV HD
 http://magic-tv.live:2095/live/9853786/34895378/119650.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NL: RTV Drenthe 4K" group-title="Luar Negeri / Lainnya",NL: RTV Drenthe 4K
-http://magic-tv.live:2095/live/9853786/34895378/1460677.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NL: RTV Utrecht 4K" group-title="Luar Negeri / Lainnya",NL: RTV Utrecht 4K
-http://magic-tv.live:2095/live/9853786/34895378/1460674.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nl: RTV Noord 4K" group-title="Luar Negeri / Lainnya",Nl: RTV Noord 4K
-http://magic-tv.live:2095/live/9853786/34895378/1460673.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PL:ANIMAL PLANET HD" group-title="Luar Negeri / Lainnya",PL:ANIMAL PLANET HD
-http://magic-tv.live:2095/live/9853786/34895378/1616131.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Pt: ARTV Direto" group-title="Luar Negeri / Lainnya",Pt: ARTV Direto
-http://magic-tv.live:2095/live/9853786/34895378/1506588.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RO: Animal Planet" group-title="Luar Negeri / Lainnya",RO: Animal Planet
-http://magic-tv.live:2095/live/9853786/34895378/133054.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RUS: RTVi" group-title="Luar Negeri / Lainnya",RUS: RTVi
-http://magic-tv.live:2095/live/9853786/34895378/136427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Srb:RTV 1" group-title="Luar Negeri / Lainnya",Srb:RTV 1
-http://magic-tv.live:2095/live/9853786/34895378/122859.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Srb:RTV MLAVA" group-title="Luar Negeri / Lainnya",Srb:RTV MLAVA
-http://magic-tv.live:2095/live/9853786/34895378/122858.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Srb:RTV Pazar" group-title="Luar Negeri / Lainnya",Srb:RTV Pazar
-http://magic-tv.live:2095/live/9853786/34895378/122857.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Srb:RTV Vojvodina" group-title="Luar Negeri / Lainnya",Srb:RTV Vojvodina
-http://magic-tv.live:2095/live/9853786/34895378/122840.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="US:D-Animal Planet" group-title="Luar Negeri / Lainnya",US:D-Animal Planet
-http://magic-tv.live:2095/live/9853786/34895378/1507832.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Latino:Deportv" group-title="Luar Negeri / Lainnya",Latino:Deportv
-http://magic-tv.live:2095/live/9853786/34895378/1614766.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Latino:NET TV" group-title="Luar Negeri / Lainnya",Latino:NET TV
+#EXTINF:-1 tvg-id="" tvg-name="Latino:NET TV" tvg-logo="" group-title="Hiburan",Latino:NET TV
 http://magic-tv.live:2095/live/9853786/34895378/1614723.ts

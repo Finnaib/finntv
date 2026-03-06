@@ -2,341 +2,445 @@
 
 
 ################################################################################
-# Arabic Sports
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="DE:Tagesschau" group-title="Arabic Sports",DE:Tagesschau
-http://magic-tv.live:2095/live/9853786/34895378/105339.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SA-Ksa.Sport3" group-title="Arabic Sports",SA-Ksa.Sport3
-http://magic-tv.live:2095/live/9853786/34895378/250.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SA-Ksa.Sport4" group-title="Arabic Sports",SA-Ksa.Sport4
-http://magic-tv.live:2095/live/9853786/34895378/50118.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SA-Ksa.sport1" group-title="Arabic Sports",SA-Ksa.sport1
-http://magic-tv.live:2095/live/9853786/34895378/25359.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SA-Ksa.sport2" group-title="Arabic Sports",SA-Ksa.sport2
-http://magic-tv.live:2095/live/9853786/34895378/25360.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1" group-title="Arabic Sports",AD Sports 1
-http://magic-tv.live:2095/live/9853786/34895378/140208.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1 4K" group-title="Arabic Sports",AD Sports 1 4K
-http://magic-tv.live:2095/live/9853786/34895378/140206.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1 HD" group-title="Arabic Sports",AD Sports 1 HD
-http://magic-tv.live:2095/live/9853786/34895378/140207.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 2" group-title="Arabic Sports",AD Sports 2
-http://magic-tv.live:2095/live/9853786/34895378/140211.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="UAE-ِAD Sports YAS" group-title="Arabic Sports",UAE-ِAD Sports YAS
-http://magic-tv.live:2095/live/9853786/34895378/21751.ts
-
-
-################################################################################
-# beIN Movies
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-1" group-title="beIN Movies",Bein  Movies-1
-http://magic-tv.live:2095/live/9853786/34895378/1620373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-2" group-title="beIN Movies",Bein  Movies-2
-http://magic-tv.live:2095/live/9853786/34895378/1620372.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-3" group-title="beIN Movies",Bein  Movies-3
-http://magic-tv.live:2095/live/9853786/34895378/1620371.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-4" group-title="beIN Movies",Bein  Movies-4
-http://magic-tv.live:2095/live/9853786/34895378/1620370.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein Fatafeat" group-title="beIN Movies",Bein Fatafeat
-http://magic-tv.live:2095/live/9853786/34895378/1620364.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bein HGTV" group-title="beIN Movies",Bein HGTV
-http://magic-tv.live:2095/live/9853786/34895378/1620366.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="bein jeem" group-title="beIN Movies",bein jeem
-http://magic-tv.live:2095/live/9853786/34895378/1620344.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Br:HGTV" group-title="beIN Movies",Br:HGTV
-http://magic-tv.live:2095/live/9853786/34895378/136186.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CA-HGTV" group-title="beIN Movies",CA-HGTV
-http://magic-tv.live:2095/live/9853786/34895378/112057.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE:HGTV HD" group-title="beIN Movies",DE:HGTV HD
-http://magic-tv.live:2095/live/9853786/34895378/105315.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IT | HGTV HD" group-title="beIN Movies",IT | HGTV HD
-http://magic-tv.live:2095/live/9853786/34895378/1597007.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-beIN Jeem" group-title="beIN Movies",Kids-beIN Jeem
-http://magic-tv.live:2095/live/9853786/34895378/1618767.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PL:HGTV" group-title="beIN Movies",PL:HGTV
-http://magic-tv.live:2095/live/9853786/34895378/1616051.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Action" group-title="beIN Movies",TR:Bein Movies Action
-http://magic-tv.live:2095/live/9853786/34895378/1505378.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Action 2" group-title="beIN Movies",TR:Bein Movies Action 2
-http://magic-tv.live:2095/live/9853786/34895378/1505377.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Family" group-title="beIN Movies",TR:Bein Movies Family
-http://magic-tv.live:2095/live/9853786/34895378/1505376.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Premier" group-title="beIN Movies",TR:Bein Movies Premier
-http://magic-tv.live:2095/live/9853786/34895378/1505375.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Premier 2" group-title="beIN Movies",TR:Bein Movies Premier 2
-http://magic-tv.live:2095/live/9853786/34895378/1505374.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Stars" group-title="beIN Movies",TR:Bein Movies Stars
-http://magic-tv.live:2095/live/9853786/34895378/1505373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Turk" group-title="beIN Movies",TR:Bein Movies Turk
-http://magic-tv.live:2095/live/9853786/34895378/1505372.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="US:HGTV" group-title="beIN Movies",US:HGTV
-http://magic-tv.live:2095/live/9853786/34895378/32515.ts
-
-
-################################################################################
 # beIN Sports
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD1" group-title="beIN Sports",beIN HD1
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 1" tvg-logo="" group-title="beIN Sports",AU: beIN 1
+http://magic-tv.live:2095/live/9853786/34895378/138265.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 1 FHD.." tvg-logo="" group-title="beIN Sports",AU: beIN 1 FHD..
+http://magic-tv.live:2095/live/9853786/34895378/138264.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 2" tvg-logo="" group-title="beIN Sports",AU: beIN 2
+http://magic-tv.live:2095/live/9853786/34895378/138263.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 2 FHD" tvg-logo="" group-title="beIN Sports",AU: beIN 2 FHD
+http://magic-tv.live:2095/live/9853786/34895378/138262.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 3" tvg-logo="" group-title="beIN Sports",AU: beIN 3
+http://magic-tv.live:2095/live/9853786/34895378/138261.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU: beIN 3 FHD" tvg-logo="" group-title="beIN Sports",AU: beIN 3 FHD
+http://magic-tv.live:2095/live/9853786/34895378/138260.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD1" tvg-logo="https://i.imgur.com/Tbhbo4N.png" group-title="beIN Sports",beIN HD1
 http://magic-tv.live:2095/live/9853786/34895378/14158.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD2" group-title="beIN Sports",beIN HD2
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD2" tvg-logo="https://i.imgur.com/h1tw3WC.png" group-title="beIN Sports",beIN HD2
 http://magic-tv.live:2095/live/9853786/34895378/14157.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD3" group-title="beIN Sports",beIN HD3
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD3" tvg-logo="https://i.imgur.com/yOCm90R.png" group-title="beIN Sports",beIN HD3
 http://magic-tv.live:2095/live/9853786/34895378/14165.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD4" group-title="beIN Sports",beIN HD4
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD4" tvg-logo="https://i.imgur.com/0XyuFTe.png" group-title="beIN Sports",beIN HD4
 http://magic-tv.live:2095/live/9853786/34895378/14164.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD5" group-title="beIN Sports",beIN HD5
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD5" tvg-logo="https://i.imgur.com/hqlqqRC.png" group-title="beIN Sports",beIN HD5
 http://magic-tv.live:2095/live/9853786/34895378/14163.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD6" group-title="beIN Sports",beIN HD6
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD6" tvg-logo="https://i.imgur.com/zJ9NITX.png" group-title="beIN Sports",beIN HD6
 http://magic-tv.live:2095/live/9853786/34895378/14162.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD7" group-title="beIN Sports",beIN HD7
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD7" tvg-logo="https://i.imgur.com/WfOpHll.png" group-title="beIN Sports",beIN HD7
 http://magic-tv.live:2095/live/9853786/34895378/14161.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD8" group-title="beIN Sports",beIN HD8
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD8" tvg-logo="https://i.imgur.com/mMDDsfF.png" group-title="beIN Sports",beIN HD8
 http://magic-tv.live:2095/live/9853786/34895378/14160.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN HD9" group-title="beIN Sports",beIN HD9
+#EXTINF:-1 tvg-id="" tvg-name="beIN HD9" tvg-logo="https://i.imgur.com/jGj8und.png" group-title="beIN Sports",beIN HD9
 http://magic-tv.live:2095/live/9853786/34895378/14159.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1.H D" group-title="beIN Sports",beIN Sports 1.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1.H D" tvg-logo="https://i.imgur.com/s5OPbok.png" group-title="beIN Sports",beIN Sports 1.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620495.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 2.H D" group-title="beIN Sports",beIN Sports 2.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 2.H D" tvg-logo="https://i.imgur.com/oVDFL0V.png" group-title="beIN Sports",beIN Sports 2.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620494.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3.H D" group-title="beIN Sports",beIN Sports 3.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3.H D" tvg-logo="https://i.imgur.com/LqrqGzp.png" group-title="beIN Sports",beIN Sports 3.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620493.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 4.H D" group-title="beIN Sports",beIN Sports 4.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 4.H D" tvg-logo="https://i.imgur.com/z79gcIQ.png" group-title="beIN Sports",beIN Sports 4.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620492.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 5.H D" group-title="beIN Sports",beIN Sports 5.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 5.H D" tvg-logo="https://i.imgur.com/CBxkc8t.png" group-title="beIN Sports",beIN Sports 5.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620491.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6.H D" group-title="beIN Sports",beIN Sports 6.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6.H D" tvg-logo="https://i.imgur.com/u5zCRbI.png" group-title="beIN Sports",beIN Sports 6.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620490.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 7.H D" group-title="beIN Sports",beIN Sports 7.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 7.H D" tvg-logo="https://i.imgur.com/UdpgWtP.png" group-title="beIN Sports",beIN Sports 7.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620489.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 8.H D" group-title="beIN Sports",beIN Sports 8.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 8.H D" tvg-logo="https://i.imgur.com/mMDDsfF.png" group-title="beIN Sports",beIN Sports 8.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620488.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9.H D" group-title="beIN Sports",beIN Sports 9.H D
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9.H D" tvg-logo="https://i.imgur.com/vnBxlfM.png" group-title="beIN Sports",beIN Sports 9.H D
 http://magic-tv.live:2095/live/9853786/34895378/1620487.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="4K" group-title="beIN Sports",4K
-http://magic-tv.live:2095/live/9853786/34895378/1692637.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN 1 4K" group-title="beIN Sports",beIN 1 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 1 4K" tvg-logo="https://i.imgur.com/Tbhbo4N.png" group-title="beIN Sports",beIN 1 4K
 http://magic-tv.live:2095/live/9853786/34895378/105276.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 2 4K" group-title="beIN Sports",beIN 2 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 2 4K" tvg-logo="https://i.imgur.com/h1tw3WC.png" group-title="beIN Sports",beIN 2 4K
 http://magic-tv.live:2095/live/9853786/34895378/105275.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 3 4K" group-title="beIN Sports",beIN 3 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 3 4K" tvg-logo="https://i.imgur.com/yOCm90R.png" group-title="beIN Sports",beIN 3 4K
 http://magic-tv.live:2095/live/9853786/34895378/105283.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 4 4K" group-title="beIN Sports",beIN 4 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 4 4K" tvg-logo="https://i.imgur.com/0XyuFTe.png" group-title="beIN Sports",beIN 4 4K
 http://magic-tv.live:2095/live/9853786/34895378/105282.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 5 4K" group-title="beIN Sports",beIN 5 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 5 4K" tvg-logo="https://i.imgur.com/hqlqqRC.png" group-title="beIN Sports",beIN 5 4K
 http://magic-tv.live:2095/live/9853786/34895378/105281.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 6 4K" group-title="beIN Sports",beIN 6 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 6 4K" tvg-logo="https://i.imgur.com/zJ9NITX.png" group-title="beIN Sports",beIN 6 4K
 http://magic-tv.live:2095/live/9853786/34895378/105280.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 7 4K" group-title="beIN Sports",beIN 7 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 7 4K" tvg-logo="https://i.imgur.com/WfOpHll.png" group-title="beIN Sports",beIN 7 4K
 http://magic-tv.live:2095/live/9853786/34895378/105279.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 8 4K" group-title="beIN Sports",beIN 8 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 8 4K" tvg-logo="https://i.imgur.com/ClzkFO8.png" group-title="beIN Sports",beIN 8 4K
 http://magic-tv.live:2095/live/9853786/34895378/105278.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 9 4K" group-title="beIN Sports",beIN 9 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN 9 4K" tvg-logo="https://i.imgur.com/jGj8und.png" group-title="beIN Sports",beIN 9 4K
 http://magic-tv.live:2095/live/9853786/34895378/105277.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports HD" group-title="beIN Sports",beIN Sports HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports HD" tvg-logo="https://i.imgur.com/MQX8Cph.png" group-title="beIN Sports",beIN Sports HD
 http://magic-tv.live:2095/live/9853786/34895378/1620379.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports News" group-title="beIN Sports",beIN Sports News
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports News" tvg-logo="https://i.imgur.com/BjeJaOS.png" group-title="beIN Sports",beIN Sports News
 http://magic-tv.live:2095/live/9853786/34895378/1620377.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.1 4K" group-title="beIN Sports",beIN.1 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.1 4K" tvg-logo="https://i.imgur.com/Tbhbo4N.png" group-title="beIN Sports",beIN.1 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662310.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.2 4K" group-title="beIN Sports",beIN.2 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.2 4K" tvg-logo="https://i.imgur.com/h1tw3WC.png" group-title="beIN Sports",beIN.2 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662309.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.3 4K" group-title="beIN Sports",beIN.3 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.3 4K" tvg-logo="https://i.imgur.com/yOCm90R.png" group-title="beIN Sports",beIN.3 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662308.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.4 4K" group-title="beIN Sports",beIN.4 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.4 4K" tvg-logo="https://i.imgur.com/0XyuFTe.png" group-title="beIN Sports",beIN.4 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662307.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.5 4K" group-title="beIN Sports",beIN.5 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.5 4K" tvg-logo="https://i.imgur.com/hqlqqRC.png" group-title="beIN Sports",beIN.5 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662306.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN.6 4K" group-title="beIN Sports",beIN.6 4K
+#EXTINF:-1 tvg-id="" tvg-name="beIN.6 4K" tvg-logo="https://i.imgur.com/zJ9NITX.png" group-title="beIN Sports",beIN.6 4K
 http://magic-tv.live:2095/live/9853786/34895378/1662305.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 1-EN" group-title="beIN Sports",beIN 1-EN
+#EXTINF:-1 tvg-id="" tvg-name="beIN 1-EN" tvg-logo="https://i.imgur.com/HkkPJzh.png" group-title="beIN Sports",beIN 1-EN
 http://magic-tv.live:2095/live/9853786/34895378/107121.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 1-FR" group-title="beIN Sports",beIN 1-FR
+#EXTINF:-1 tvg-id="" tvg-name="beIN 1-FR" tvg-logo="https://i.imgur.com/Yyb0Qkg.png" group-title="beIN Sports",beIN 1-FR
 http://magic-tv.live:2095/live/9853786/34895378/75103.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 2-EN" group-title="beIN Sports",beIN 2-EN
+#EXTINF:-1 tvg-id="" tvg-name="beIN 2-EN" tvg-logo="https://i.imgur.com/0snmh4T.png" group-title="beIN Sports",beIN 2-EN
 http://magic-tv.live:2095/live/9853786/34895378/107122.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 2-FR" group-title="beIN Sports",beIN 2-FR
+#EXTINF:-1 tvg-id="" tvg-name="beIN 2-FR" tvg-logo="https://i.imgur.com/zwrd49N.png" group-title="beIN Sports",beIN 2-FR
 http://magic-tv.live:2095/live/9853786/34895378/75104.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 1 HD" group-title="beIN Sports",beIN 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 1 HD" tvg-logo="https://i.imgur.com/Tbhbo4N.png" group-title="beIN Sports",beIN 1 HD
 http://magic-tv.live:2095/live/9853786/34895378/22989.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 2 HD" group-title="beIN Sports",beIN 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 2 HD" tvg-logo="https://i.imgur.com/h1tw3WC.png" group-title="beIN Sports",beIN 2 HD
 http://magic-tv.live:2095/live/9853786/34895378/22988.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 3 HD" group-title="beIN Sports",beIN 3 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 3 HD" tvg-logo="https://i.imgur.com/yOCm90R.png" group-title="beIN Sports",beIN 3 HD
 http://magic-tv.live:2095/live/9853786/34895378/22996.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 4 HD" group-title="beIN Sports",beIN 4 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 4 HD" tvg-logo="https://i.imgur.com/0XyuFTe.png" group-title="beIN Sports",beIN 4 HD
 http://magic-tv.live:2095/live/9853786/34895378/22995.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 5 HD" group-title="beIN Sports",beIN 5 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 5 HD" tvg-logo="https://i.imgur.com/hqlqqRC.png" group-title="beIN Sports",beIN 5 HD
 http://magic-tv.live:2095/live/9853786/34895378/22994.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 6 HD" group-title="beIN Sports",beIN 6 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 6 HD" tvg-logo="https://i.imgur.com/WfOpHll.png" group-title="beIN Sports",beIN 6 HD
 http://magic-tv.live:2095/live/9853786/34895378/22993.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 7 HD" group-title="beIN Sports",beIN 7 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 7 HD" tvg-logo="https://i.imgur.com/WfOpHll.png" group-title="beIN Sports",beIN 7 HD
 http://magic-tv.live:2095/live/9853786/34895378/22992.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 8 HD" group-title="beIN Sports",beIN 8 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 8 HD" tvg-logo="https://i.imgur.com/ClzkFO8.png" group-title="beIN Sports",beIN 8 HD
 http://magic-tv.live:2095/live/9853786/34895378/22991.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN 9 HD" group-title="beIN Sports",beIN 9 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN 9 HD" tvg-logo="https://i.imgur.com/jGj8und.png" group-title="beIN Sports",beIN 9 HD
 http://magic-tv.live:2095/live/9853786/34895378/22990.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN News" group-title="beIN Sports",beIN News
+#EXTINF:-1 tvg-id="" tvg-name="beIN News" tvg-logo="https://i.imgur.com/YrEsYC5.png" group-title="beIN Sports",beIN News
 http://magic-tv.live:2095/live/9853786/34895378/18722.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1.hd" group-title="beIN Sports",beIN Sports 1.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1.hd" tvg-logo="https://i.imgur.com/s5OPbok.png" group-title="beIN Sports",beIN Sports 1.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620486.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 2.hd" group-title="beIN Sports",beIN Sports 2.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 2.hd" tvg-logo="https://i.imgur.com/oVDFL0V.png" group-title="beIN Sports",beIN Sports 2.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620485.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3.hd" group-title="beIN Sports",beIN Sports 3.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3.hd" tvg-logo="https://i.imgur.com/LqrqGzp.png" group-title="beIN Sports",beIN Sports 3.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620484.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 4.hd" group-title="beIN Sports",beIN Sports 4.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 4.hd" tvg-logo="https://i.imgur.com/z79gcIQ.png" group-title="beIN Sports",beIN Sports 4.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620483.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 5.hd" group-title="beIN Sports",beIN Sports 5.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 5.hd" tvg-logo="https://i.imgur.com/CBxkc8t.png" group-title="beIN Sports",beIN Sports 5.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620482.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6.hd" group-title="beIN Sports",beIN Sports 6.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6.hd" tvg-logo="https://i.imgur.com/u5zCRbI.png" group-title="beIN Sports",beIN Sports 6.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620481.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 7.hd" group-title="beIN Sports",beIN Sports 7.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 7.hd" tvg-logo="https://i.imgur.com/UdpgWtP.png" group-title="beIN Sports",beIN Sports 7.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620480.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 8.hd" group-title="beIN Sports",beIN Sports 8.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 8.hd" tvg-logo="https://i.imgur.com/mMDDsfF.png" group-title="beIN Sports",beIN Sports 8.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620479.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9.hd" group-title="beIN Sports",beIN Sports 9.hd
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9.hd" tvg-logo="https://i.imgur.com/vnBxlfM.png" group-title="beIN Sports",beIN Sports 9.hd
 http://magic-tv.live:2095/live/9853786/34895378/1620478.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="US-beIN Xtra HD" group-title="beIN Sports",US-beIN Xtra HD
+#EXTINF:-1 tvg-id="" tvg-name="Bein  Drama-1" tvg-logo="https://i.imgur.com/c9V2osu.png" group-title="beIN Sports",Bein  Drama-1
+http://magic-tv.live:2095/live/9853786/34895378/1620367.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-1" tvg-logo="https://i.imgur.com/EF9m3wf.png" group-title="beIN Sports",Bein  Movies-1
+http://magic-tv.live:2095/live/9853786/34895378/1620373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-2" tvg-logo="https://i.imgur.com/ZChAgVf.png" group-title="beIN Sports",Bein  Movies-2
+http://magic-tv.live:2095/live/9853786/34895378/1620372.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-3" tvg-logo="https://i.imgur.com/HWwUYUZ.png" group-title="beIN Sports",Bein  Movies-3
+http://magic-tv.live:2095/live/9853786/34895378/1620371.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein  Movies-4" tvg-logo="https://i.imgur.com/9pSqDIb.png" group-title="beIN Sports",Bein  Movies-4
+http://magic-tv.live:2095/live/9853786/34895378/1620370.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Animal Planet" tvg-logo="https://i.imgur.com/uE2kzn6.png" group-title="beIN Sports",Bein Animal Planet
+http://magic-tv.live:2095/live/9853786/34895378/1620358.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein BBC Earth" tvg-logo="https://i.imgur.com/8P5b0Ne.png" group-title="beIN Sports",Bein BBC Earth
+http://magic-tv.live:2095/live/9853786/34895378/1620357.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein BeJunior" tvg-logo="https://i.imgur.com/4my1SuW.png" group-title="beIN Sports",Bein BeJunior
+http://magic-tv.live:2095/live/9853786/34895378/1620345.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Boomerang" tvg-logo="https://i.imgur.com/9FGmGwj.png" group-title="beIN Sports",Bein Boomerang
+http://magic-tv.live:2095/live/9853786/34895378/1620356.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Braeem" tvg-logo="https://i.imgur.com/UWaF7mw.png" group-title="beIN Sports",Bein Braeem
+http://magic-tv.live:2095/live/9853786/34895378/1620347.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein CBEEBIES" tvg-logo="http://195.62.32.187:80/images/564ae2432497539f0b8e745b6255cfd5.png" group-title="beIN Sports",Bein CBEEBIES
+http://magic-tv.live:2095/live/9853786/34895378/1620340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein CN Arabia" tvg-logo="https://i.imgur.com/he1xhWh.png" group-title="beIN Sports",Bein CN Arabia
+http://magic-tv.live:2095/live/9853786/34895378/1620348.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Cartonito" tvg-logo="https://i.imgur.com/u3frY8t.png" group-title="beIN Sports",Bein Cartonito
+http://magic-tv.live:2095/live/9853786/34895378/1620346.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Discovery" tvg-logo="https://i.imgur.com/VQcEPbI.png" group-title="beIN Sports",Bein Discovery
+http://magic-tv.live:2095/live/9853786/34895378/1620360.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Discovery Family" tvg-logo="https://i.imgur.com/loFiQMa.png" group-title="beIN Sports",Bein Discovery Family
+http://magic-tv.live:2095/live/9853786/34895378/1620359.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein DisneyJunior" tvg-logo="https://i.imgur.com/qoNuFdt.png" group-title="beIN Sports",Bein DisneyJunior
+http://magic-tv.live:2095/live/9853786/34895378/1620354.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Fatafeat" tvg-logo="https://i.imgur.com/y1XdLEF.png" group-title="beIN Sports",Bein Fatafeat
+http://magic-tv.live:2095/live/9853786/34895378/1620364.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Food Network" tvg-logo="https://i.imgur.com/7v4BxUc.png" group-title="beIN Sports",Bein Food Network
+http://magic-tv.live:2095/live/9853786/34895378/1620363.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein HGTV" tvg-logo="https://i.imgur.com/9l5mgLY.png" group-title="beIN Sports",Bein HGTV
+http://magic-tv.live:2095/live/9853786/34895378/1620366.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein NAT Geo Wild" tvg-logo="https://i.imgur.com/BkoBRrf.png" group-title="beIN Sports",Bein NAT Geo Wild
+http://magic-tv.live:2095/live/9853786/34895378/1620361.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Nat Geo" tvg-logo="https://i.imgur.com/KZv7yFH.png" group-title="beIN Sports",Bein Nat Geo
+http://magic-tv.live:2095/live/9853786/34895378/1620362.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Rotana Kids" tvg-logo="https://i.imgur.com/CfKukVS.png" group-title="beIN Sports",Bein Rotana Kids
+http://magic-tv.live:2095/live/9853786/34895378/1620355.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STAR ACTION" tvg-logo="https://i.imgur.com/fzHUmvX.png" group-title="beIN Sports",Bein STAR ACTION
+http://magic-tv.live:2095/live/9853786/34895378/1620335.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STAR FILMS" tvg-logo="https://i.imgur.com/sbvHmVy.png" group-title="beIN Sports",Bein STAR FILMS
+http://magic-tv.live:2095/live/9853786/34895378/1620336.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STAR LIFE" tvg-logo="https://i.imgur.com/Nta9A5M.png" group-title="beIN Sports",Bein STAR LIFE
+http://magic-tv.live:2095/live/9853786/34895378/1620338.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STAR SERIES" tvg-logo="https://i.imgur.com/fhLq1A6.png" group-title="beIN Sports",Bein STAR SERIES
+http://magic-tv.live:2095/live/9853786/34895378/1620337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STAR WORLD" tvg-logo="https://i.imgur.com/qNdAWb3.png" group-title="beIN Sports",Bein STAR WORLD
+http://magic-tv.live:2095/live/9853786/34895378/1620339.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STC Action" tvg-logo="https://i.imgur.com/E4nNIks.png" group-title="beIN Sports",Bein STC Action
+http://magic-tv.live:2095/live/9853786/34895378/1620349.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STC Cinema" tvg-logo="https://i.imgur.com/E4nNIks.png" group-title="beIN Sports",Bein STC Cinema
+http://magic-tv.live:2095/live/9853786/34895378/1620353.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STC Drama" tvg-logo="https://i.imgur.com/E4nNIks.png" group-title="beIN Sports",Bein STC Drama
+http://magic-tv.live:2095/live/9853786/34895378/1620352.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein STC Family" tvg-logo="https://i.imgur.com/E4nNIks.png" group-title="beIN Sports",Bein STC Family
+http://magic-tv.live:2095/live/9853786/34895378/1620351.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Serie-1" tvg-logo="https://i.imgur.com/BcEg0PX.png" group-title="beIN Sports",Bein Serie-1
+http://magic-tv.live:2095/live/9853786/34895378/1620369.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Serie-2" tvg-logo="https://i.imgur.com/tLj8XnT.png" group-title="beIN Sports",Bein Serie-2
+http://magic-tv.live:2095/live/9853786/34895378/1620368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein travel" tvg-logo="https://i.imgur.com/OjvBmEX.png" group-title="beIN Sports",Bein travel
+http://magic-tv.live:2095/live/9853786/34895378/1620365.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN BOX OFFICE 1 UHD 4K" tvg-logo="https://i.imgur.com/NawtsGu.png" group-title="beIN Sports",beIN BOX OFFICE 1 UHD 4K
+http://magic-tv.live:2095/live/9853786/34895378/1620334.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN BOX OFFICE 2 UHD 4K" tvg-logo="https://i.imgur.com/LY4nKRp.png" group-title="beIN Sports",beIN BOX OFFICE 2 UHD 4K
+http://magic-tv.live:2095/live/9853786/34895378/1620333.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN BOX OFFICE 3 " tvg-logo="https://i.imgur.com/gG27rbj.png" group-title="beIN Sports",beIN BOX OFFICE 3 
+http://magic-tv.live:2095/live/9853786/34895378/1620332.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="bein discovery middle east" tvg-logo="https://i.imgur.com/VQcEPbI.png" group-title="beIN Sports",bein discovery middle east
+http://magic-tv.live:2095/live/9853786/34895378/1620342.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="bein dreamworks" tvg-logo="https://i.imgur.com/7Enptbb.png" group-title="beIN Sports",bein dreamworks
+http://magic-tv.live:2095/live/9853786/34895378/1620343.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="bein gourmet" tvg-logo="https://i.imgur.com/zz3c9cG.png" group-title="beIN Sports",bein gourmet
+http://magic-tv.live:2095/live/9853786/34895378/1620341.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="bein jeem" tvg-logo="https://i.imgur.com/CDyAbgs.png" group-title="beIN Sports",bein jeem
+http://magic-tv.live:2095/live/9853786/34895378/1620344.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fr:BEIN.SPORTS.1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-1-qa-fr.png" group-title="beIN Sports",Fr:BEIN.SPORTS.1
+http://magic-tv.live:2095/live/9853786/34895378/69785.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fr:BEIN.SPORTS.2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-2-qa-fr.png" group-title="beIN Sports",Fr:BEIN.SPORTS.2
+http://magic-tv.live:2095/live/9853786/34895378/69786.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fr:BEIN.SPORTS.3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-3-qa-fr.png" group-title="beIN Sports",Fr:BEIN.SPORTS.3
+http://magic-tv.live:2095/live/9853786/34895378/69787.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Kids-beIN Jeem" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jeem_tv_qa.png" group-title="beIN Sports",Kids-beIN Jeem
+http://magic-tv.live:2095/live/9853786/34895378/1618767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Box Office 1" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/BoxOffice1_DIGITAL_Mono.png" group-title="beIN Sports",TR:Bein Box Office 1
+http://magic-tv.live:2095/live/9853786/34895378/1505368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Box Office 2" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/BoxOffice2_DIGITAL_Mono.png.png" group-title="beIN Sports",TR:Bein Box Office 2
+http://magic-tv.live:2095/live/9853786/34895378/1505367.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Box Office 3" tvg-logo="https://i.imgur.com/PnM55vV.png" group-title="beIN Sports",TR:Bein Box Office 3
+http://magic-tv.live:2095/live/9853786/34895378/1505366.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Action" tvg-logo="https://i.imgur.com/sDaisEP.png" group-title="beIN Sports",TR:Bein Movies Action
+http://magic-tv.live:2095/live/9853786/34895378/1505378.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Action 2" tvg-logo="https://assets.bein.com/mena/sites/4/2015/06/MOVIES2_ACTION_DIGITAL_Mono.png" group-title="beIN Sports",TR:Bein Movies Action 2
+http://magic-tv.live:2095/live/9853786/34895378/1505377.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Family" tvg-logo="https://i.imgur.com/LYsvghy.png" group-title="beIN Sports",TR:Bein Movies Family
+http://magic-tv.live:2095/live/9853786/34895378/1505376.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Premier" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/MOVIES1_PREMIERE_DIGITAL_Mono.png" group-title="beIN Sports",TR:Bein Movies Premier
+http://magic-tv.live:2095/live/9853786/34895378/1505375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Premier 2" tvg-logo="https://contentlibrary.digiturk.com.tr/Channel/327/Image/bein_movies_premiere2_205x150_2022.png" group-title="beIN Sports",TR:Bein Movies Premier 2
+http://magic-tv.live:2095/live/9853786/34895378/1505374.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Stars" tvg-logo="https://contentlibrary.digiturk.com.tr/Channel/272/Image/bein_movies_stars_250x150_2022.png" group-title="beIN Sports",TR:Bein Movies Stars
+http://magic-tv.live:2095/live/9853786/34895378/1505373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Movies Turk" tvg-logo="https://contentlibrary.digiturk.com.tr/Channel/381/Image/bein_movies_turk_205x150_2022.png" group-title="beIN Sports",TR:Bein Movies Turk
+http://magic-tv.live:2095/live/9853786/34895378/1505372.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Series Comedy" tvg-logo="https://contentlibrary.digiturk.com.tr/Channel/326/Image/bein_series_comedy_205x150_2022.png" group-title="beIN Sports",TR:Bein Series Comedy
+http://magic-tv.live:2095/live/9853786/34895378/1505371.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Series SCFI" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/BoxOffice1_DIGITAL_Mono.png" group-title="beIN Sports",TR:Bein Series SCFI
+http://magic-tv.live:2095/live/9853786/34895378/1505370.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR:Bein Series VICE" tvg-logo="https://contentlibrary.digiturk.com.tr/Channel/255/Image/bein_series_vice_250x150_2022.png" group-title="beIN Sports",TR:Bein Series VICE
+http://magic-tv.live:2095/live/9853786/34895378/1505369.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN 4 HD" tvg-logo="http://vod-logo.net/photos/611d4f368444be8254a1a838c2674cfc.jpg" group-title="beIN Sports",US-beIN 4 HD
+http://magic-tv.live:2095/live/9853786/34895378/119554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN 5 HD" tvg-logo="http://vod-logo.net/photos/8190fe1b46bfb4c0abf591382279b5dc.jpg" group-title="beIN Sports",US-beIN 5 HD
+http://magic-tv.live:2095/live/9853786/34895378/119553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN 6 HD" tvg-logo="http://vod-logo.net/photos/78bb03d8c7fbbc5cd187aaf82786e3b5.jpg" group-title="beIN Sports",US-beIN 6 HD
+http://magic-tv.live:2095/live/9853786/34895378/119552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN 7 HD" tvg-logo="http://vod-logo.net/photos/0abaa5bcb78037c862836575fa01b453.jpg" group-title="beIN Sports",US-beIN 7 HD
+http://magic-tv.live:2095/live/9853786/34895378/119551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN 8 HD" tvg-logo="http://vod-logo.net/photos/6b19f9a2b9222060f45d2f9252b74e4e.jpg" group-title="beIN Sports",US-beIN 8 HD
+http://magic-tv.live:2095/live/9853786/34895378/119550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN HD" tvg-logo="http://vod-logo.net/photos/1dc926fa79ec6d015a0283aafb1bf9aa.png" group-title="beIN Sports",US-beIN HD
+http://magic-tv.live:2095/live/9853786/34895378/119558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN La Liga" tvg-logo="http://vod-logo.net/photos/c694d875afbdc3d6265bacdc6bb88f8a.jpg" group-title="beIN Sports",US-beIN La Liga
+http://magic-tv.live:2095/live/9853786/34895378/119557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="US-beIN Xtra HD" tvg-logo="" group-title="beIN Sports",US-beIN Xtra HD
 http://magic-tv.live:2095/live/9853786/34895378/119555.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS" group-title="beIN Sports",USL:BEIN SPORTS
+#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN LA LIGA" tvg-logo="" group-title="beIN Sports",USL:BEIN LA LIGA
+http://magic-tv.live:2095/live/9853786/34895378/1507811.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS" tvg-logo="" group-title="beIN Sports",USL:BEIN SPORTS
 http://magic-tv.live:2095/live/9853786/34895378/1507810.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS CANADA" group-title="beIN Sports",USL:BEIN SPORTS CANADA
+#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS CANADA" tvg-logo="" group-title="beIN Sports",USL:BEIN SPORTS CANADA
 http://magic-tv.live:2095/live/9853786/34895378/1507804.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS EN ESPAñOL" group-title="beIN Sports",USL:BEIN SPORTS EN ESPAñOL
+#EXTINF:-1 tvg-id="" tvg-name="USL:BEIN SPORTS EN ESPAñOL" tvg-logo="" group-title="beIN Sports",USL:BEIN SPORTS EN ESPAñOL
 http://magic-tv.live:2095/live/9853786/34895378/1507803.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="USL:BEINXTRAENG" group-title="beIN Sports",USL:BEINXTRAENG
-http://magic-tv.live:2095/live/9853786/34895378/1508176.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="USL:BEINXTRAN" group-title="beIN Sports",USL:BEINXTRAN
-http://magic-tv.live:2095/live/9853786/34895378/1508175.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 1 HD" group-title="beIN Sports",beIN AFC 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 1 HD" tvg-logo="https://i.imgur.com/yNlyI0M.png" group-title="beIN Sports",beIN AFC 1 HD
 http://magic-tv.live:2095/live/9853786/34895378/1454416.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 2 HD" group-title="beIN Sports",beIN AFC 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 2 HD" tvg-logo="https://i.imgur.com/A9PwPeF.png" group-title="beIN Sports",beIN AFC 2 HD
 http://magic-tv.live:2095/live/9853786/34895378/1454417.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 3 HD" group-title="beIN Sports",beIN AFC 3 HD
+#EXTINF:-1 tvg-id="" tvg-name="beIN AFC 3 HD" tvg-logo="https://i.imgur.com/ev1Qloa.png" group-title="beIN Sports",beIN AFC 3 HD
 http://magic-tv.live:2095/live/9853786/34895378/1454418.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 1 [Live Events]" group-title="beIN Sports",beIN Xtra 1 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 1 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 1 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663107.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 2 [Live Events]" group-title="beIN Sports",beIN Xtra 2 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 2 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 2 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663106.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 3 [Live Events]" group-title="beIN Sports",beIN Xtra 3 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 3 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 3 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663105.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 4 [Live Events]" group-title="beIN Sports",beIN Xtra 4 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 4 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 4 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663104.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 5 [Live Events]" group-title="beIN Sports",beIN Xtra 5 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 5 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 5 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663103.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 6 [Live Events]" group-title="beIN Sports",beIN Xtra 6 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 6 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 6 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663102.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 7 [Live Events]" group-title="beIN Sports",beIN Xtra 7 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 7 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 7 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663101.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 8 [Live Events]" group-title="beIN Sports",beIN Xtra 8 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 8 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 8 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663100.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 9 [Live Events]" group-title="beIN Sports",beIN Xtra 9 [Live Events]
+#EXTINF:-1 tvg-id="" tvg-name="beIN Xtra 9 [Live Events]" tvg-logo="http://imag.dream-tv.ga:2095/images/imagebeIN_SPORTS_XTRA_Logo.jpg" group-title="beIN Sports",beIN Xtra 9 [Live Events]
 http://magic-tv.live:2095/live/9853786/34895378/1663099.ts
 
 
@@ -344,1058 +448,645 @@ http://magic-tv.live:2095/live/9853786/34895378/1663099.ts
 # Egypt
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nat Wild" group-title="Egypt",OSN Nat Wild
-http://magic-tv.live:2095/live/9853786/34895378/54651.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Al Jezzera Balkans" group-title="Egypt",BIH: Al Jezzera Balkans
-http://magic-tv.live:2095/live/9853786/34895378/134372.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Alfa TV" group-title="Egypt",BIH: Alfa TV
-http://magic-tv.live:2095/live/9853786/34895378/134360.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Alternativna" group-title="Egypt",BIH: Alternativna
-http://magic-tv.live:2095/live/9853786/34895378/134367.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: B1 TV GRADACAC" group-title="Egypt",BIH: B1 TV GRADACAC
-http://magic-tv.live:2095/live/9853786/34895378/134341.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: BH1 HD" group-title="Egypt",BIH: BH1 HD
-http://magic-tv.live:2095/live/9853786/34895378/134368.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: BHT 1" group-title="Egypt",BIH: BHT 1
-http://magic-tv.live:2095/live/9853786/34895378/134340.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: BN Music" group-title="Egypt",BIH: BN Music
-http://magic-tv.live:2095/live/9853786/34895378/134369.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: BN Sat HD" group-title="Egypt",BIH: BN Sat HD
-http://magic-tv.live:2095/live/9853786/34895378/134373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: BN TV" group-title="Egypt",BIH: BN TV
-http://magic-tv.live:2095/live/9853786/34895378/134370.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Bugojno TV" group-title="Egypt",BIH: Bugojno TV
-http://magic-tv.live:2095/live/9853786/34895378/134351.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: City TV" group-title="Egypt",BIH: City TV
-http://magic-tv.live:2095/live/9853786/34895378/134374.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Elta 1" group-title="Egypt",BIH: Elta 1
-http://magic-tv.live:2095/live/9853786/34895378/134339.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Face TV" group-title="Egypt",BIH: Face TV
-http://magic-tv.live:2095/live/9853786/34895378/134361.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Federalna TV [ FTV ]" group-title="Egypt",BIH: Federalna TV [ FTV ]
-http://magic-tv.live:2095/live/9853786/34895378/134376.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Glas Drine" group-title="Egypt",BIH: Glas Drine
-http://magic-tv.live:2095/live/9853786/34895378/134357.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: HAYAT Music" group-title="Egypt",BIH: HAYAT Music
-http://magic-tv.live:2095/live/9853786/34895378/134359.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Hayat Folk" group-title="Egypt",BIH: Hayat Folk
-http://magic-tv.live:2095/live/9853786/34895378/134364.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Hayat HD" group-title="Egypt",BIH: Hayat HD
-http://magic-tv.live:2095/live/9853786/34895378/134366.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Hayat Plus" group-title="Egypt",BIH: Hayat Plus
-http://magic-tv.live:2095/live/9853786/34895378/134365.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Hayatovci" group-title="Egypt",BIH: Hayatovci
-http://magic-tv.live:2095/live/9853786/34895378/134363.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: History HD" group-title="Egypt",BIH: History HD
-http://magic-tv.live:2095/live/9853786/34895378/134358.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Izvorna TV" group-title="Egypt",BIH: Izvorna TV
-http://magic-tv.live:2095/live/9853786/34895378/134345.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: MTV Igman" group-title="Egypt",BIH: MTV Igman
-http://magic-tv.live:2095/live/9853786/34895378/134348.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: N1 Bosna" group-title="Egypt",BIH: N1 Bosna
-http://magic-tv.live:2095/live/9853786/34895378/134338.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: NTV 101 Prijedor" group-title="Egypt",BIH: NTV 101 Prijedor
-http://magic-tv.live:2095/live/9853786/34895378/134342.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Nova HD Bh" group-title="Egypt",BIH: Nova HD Bh
-http://magic-tv.live:2095/live/9853786/34895378/134375.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: OTV Valentino" group-title="Egypt",BIH: OTV Valentino
-http://magic-tv.live:2095/live/9853786/34895378/134356.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Obn Tv" group-title="Egypt",BIH: Obn Tv
-http://magic-tv.live:2095/live/9853786/34895378/134371.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Pink BH" group-title="Egypt",BIH: Pink BH
-http://magic-tv.live:2095/live/9853786/34895378/134349.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Podrinje TV" group-title="Egypt",BIH: Podrinje TV
-http://magic-tv.live:2095/live/9853786/34895378/134337.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Posavina TV" group-title="Egypt",BIH: Posavina TV
-http://magic-tv.live:2095/live/9853786/34895378/134355.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: RTRS" group-title="Egypt",BIH: RTRS
-http://magic-tv.live:2095/live/9853786/34895378/134354.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: RTRS Plus" group-title="Egypt",BIH: RTRS Plus
-http://magic-tv.live:2095/live/9853786/34895378/134353.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: RTV Krajina" group-title="Egypt",BIH: RTV Krajina
-http://magic-tv.live:2095/live/9853786/34895378/134336.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Rtv Zenica" group-title="Egypt",BIH: Rtv Zenica
-http://magic-tv.live:2095/live/9853786/34895378/134346.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: TV 1" group-title="Egypt",BIH: TV 1
-http://magic-tv.live:2095/live/9853786/34895378/134347.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: TV Sehara HD" group-title="Egypt",BIH: TV Sehara HD
-http://magic-tv.live:2095/live/9853786/34895378/134344.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: TV Slon" group-title="Egypt",BIH: TV Slon
-http://magic-tv.live:2095/live/9853786/34895378/134352.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: TV Slon Extra" group-title="Egypt",BIH: TV Slon Extra
-http://magic-tv.live:2095/live/9853786/34895378/134343.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: Tv Sarajevo" group-title="Egypt",BIH: Tv Sarajevo
-http://magic-tv.live:2095/live/9853786/34895378/134362.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BIH: USK TV" group-title="Egypt",BIH: USK TV
-http://magic-tv.live:2095/live/9853786/34895378/134350.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy" group-title="Egypt",Ch:Aghapy
+#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy" tvg-logo="http://logo.apktv.live/logo/original//97.jpg" group-title="Egypt",Ch:Aghapy
 http://magic-tv.live:2095/live/9853786/34895378/336.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy 4K" group-title="Egypt",Ch:Aghapy 4K
+#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy 4K" tvg-logo="http://logo.apktv.live/logo/original//97.jpg" group-title="Egypt",Ch:Aghapy 4K
 http://magic-tv.live:2095/live/9853786/34895378/109746.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy Kids" group-title="Egypt",Ch:Aghapy Kids
+#EXTINF:-1 tvg-id="" tvg-name="Ch:Aghapy Kids" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/aghapy-kids-us.png" group-title="Egypt",Ch:Aghapy Kids
 http://magic-tv.live:2095/live/9853786/34895378/107838.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Al Wathaeqya" group-title="Egypt",EG:Al Wathaeqya
+#EXTINF:-1 tvg-id="" tvg-name="EG:Al Wathaeqya" tvg-logo="" group-title="Egypt",EG:Al Wathaeqya
 http://magic-tv.live:2095/live/9853786/34895378/1509713.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlAhly" group-title="Egypt",EG:AlAhly
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlAhly" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-ahly-tv-eg.png" group-title="Egypt",EG:AlAhly
 http://magic-tv.live:2095/live/9853786/34895378/1696037.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlAskandaria" group-title="Egypt",EG:AlAskandaria
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlAskandaria" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-5-al-askandria-eg.png" group-title="Egypt",EG:AlAskandaria
 http://magic-tv.live:2095/live/9853786/34895378/1696008.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlAssema Tv" group-title="Egypt",EG:AlAssema Tv
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlAssema Tv" tvg-logo="" group-title="Egypt",EG:AlAssema Tv
 http://magic-tv.live:2095/live/9853786/34895378/1696005.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlDELTA" group-title="Egypt",EG:AlDELTA
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlDELTA" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-6-al-delta-eg.png" group-title="Egypt",EG:AlDELTA
 http://magic-tv.live:2095/live/9853786/34895378/1696007.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlHadath-Alyoum" group-title="Egypt",EG:AlHadath-Alyoum
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlHadath-Alyoum" tvg-logo="http://logo.apktv.live/logo/fr/alhades.png" group-title="Egypt",EG:AlHadath-Alyoum
 http://magic-tv.live:2095/live/9853786/34895378/46230.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat" group-title="Egypt",EG:AlHayat
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alhayah-eg.png" group-title="Egypt",EG:AlHayat
 http://magic-tv.live:2095/live/9853786/34895378/1696023.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat HD" group-title="Egypt",EG:AlHayat HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat HD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alhayah-eg.png" group-title="Egypt",EG:AlHayat HD
 http://magic-tv.live:2095/live/9853786/34895378/1696022.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat Muslsalat TV" group-title="Egypt",EG:AlHayat Muslsalat TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlHayat Muslsalat TV" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alhayah_eg_series.png" group-title="Egypt",EG:AlHayat Muslsalat TV
 http://magic-tv.live:2095/live/9853786/34895378/1696021.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlKAHERA" group-title="Egypt",EG:AlKAHERA
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlKAHERA" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-3-al-kahera-eg.png" group-title="Egypt",EG:AlKAHERA
 http://magic-tv.live:2095/live/9853786/34895378/1696010.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlKANAL" group-title="Egypt",EG:AlKANAL
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlKANAL" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-4-al-kanal-eg.png" group-title="Egypt",EG:AlKANAL
 http://magic-tv.live:2095/live/9853786/34895378/1696009.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlKahera WAlNas 1" group-title="Egypt",EG:AlKahera WAlNas 1
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlKahera WAlNas 1" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-kahera-wal-nas-eg.png" group-title="Egypt",EG:AlKahera WAlNas 1
 http://magic-tv.live:2095/live/9853786/34895378/1695989.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlKahera WAlNas 2" group-title="Egypt",EG:AlKahera WAlNas 2
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlKahera WAlNas 2" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-kahera-wal-nas-2-eg.png" group-title="Egypt",EG:AlKahera WAlNas 2
 http://magic-tv.live:2095/live/9853786/34895378/1695988.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlMasryia" group-title="Egypt",EG:AlMasryia
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlMasryia" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-masriyah-eg.png" group-title="Egypt",EG:AlMasryia
 http://magic-tv.live:2095/live/9853786/34895378/1696011.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar" group-title="Egypt",EG:AlNahar
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-nahar-tv-eg.png" group-title="Egypt",EG:AlNahar
 http://magic-tv.live:2095/live/9853786/34895378/1696019.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar Drama" group-title="Egypt",EG:AlNahar Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar Drama" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-nahar-drama-eg.png" group-title="Egypt",EG:AlNahar Drama
 http://magic-tv.live:2095/live/9853786/34895378/1696018.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar Nour" group-title="Egypt",EG:AlNahar Nour
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlNahar Nour" tvg-logo="" group-title="Egypt",EG:AlNahar Nour
 http://magic-tv.live:2095/live/9853786/34895378/1696017.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlOula" group-title="Egypt",EG:AlOula
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlOula" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-1-eg.png" group-title="Egypt",EG:AlOula
 http://magic-tv.live:2095/live/9853786/34895378/1696013.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlOula HD" group-title="Egypt",EG:AlOula HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlOula HD" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-1-eg.png" group-title="Egypt",EG:AlOula HD
 http://magic-tv.live:2095/live/9853786/34895378/1696012.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlS3YDA" group-title="Egypt",EG:AlS3YDA
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlS3YDA" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alsay3da.png" group-title="Egypt",EG:AlS3YDA
 http://magic-tv.live:2095/live/9853786/34895378/1695985.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlSaeed" group-title="Egypt",EG:AlSaeed
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlSaeed" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-7-al-saeed-eg.png" group-title="Egypt",EG:AlSaeed
 http://magic-tv.live:2095/live/9853786/34895378/1695964.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlShams" group-title="Egypt",EG:AlShams
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlShams" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-shams-tv-eg.png" group-title="Egypt",EG:AlShams
 http://magic-tv.live:2095/live/9853786/34895378/1695962.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlShams Drama" group-title="Egypt",EG:AlShams Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlShams Drama" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-shams-tv-eg.png" group-title="Egypt",EG:AlShams Drama
 http://magic-tv.live:2095/live/9853786/34895378/1695963.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:AlThanya" group-title="Egypt",EG:AlThanya
+#EXTINF:-1 tvg-id="" tvg-name="EG:AlThanya" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-2-eg.png" group-title="Egypt",EG:AlThanya
 http://magic-tv.live:2095/live/9853786/34895378/1695986.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Alhayat We Alnas" group-title="Egypt",EG:Alhayat We Alnas
+#EXTINF:-1 tvg-id="" tvg-name="EG:Alhayat We Alnas" tvg-logo="" group-title="Egypt",EG:Alhayat We Alnas
 http://magic-tv.live:2095/live/9853786/34895378/1696020.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:B4U PLUS" group-title="Egypt",EG:B4U PLUS
+#EXTINF:-1 tvg-id="" tvg-name="EG:B4U PLUS" tvg-logo="" group-title="Egypt",EG:B4U PLUS
 http://magic-tv.live:2095/live/9853786/34895378/1695960.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:CBC" group-title="Egypt",EG:CBC
+#EXTINF:-1 tvg-id="" tvg-name="EG:CBC" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cbc_eg.png" group-title="Egypt",EG:CBC
 http://magic-tv.live:2095/live/9853786/34895378/1696033.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Drama TV" group-title="Egypt",EG:CBC Drama TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Drama TV" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cbc_eg_drama.png" group-title="Egypt",EG:CBC Drama TV
 http://magic-tv.live:2095/live/9853786/34895378/1696031.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Extra News" group-title="Egypt",EG:CBC Extra News
+#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Extra News" tvg-logo="https://www.lyngsat.com/logo/tv/ee/extra_news_eg.png" group-title="Egypt",EG:CBC Extra News
 http://magic-tv.live:2095/live/9853786/34895378/1696038.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:CBC HD" group-title="Egypt",EG:CBC HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:CBC HD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cbc_eg.png" group-title="Egypt",EG:CBC HD
 http://magic-tv.live:2095/live/9853786/34895378/1696032.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Sofra TV" group-title="Egypt",EG:CBC Sofra TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:CBC Sofra TV" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cbc_eg_sofra.png" group-title="Egypt",EG:CBC Sofra TV
 http://magic-tv.live:2095/live/9853786/34895378/1696030.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Cima" group-title="Egypt",EG:Cima
+#EXTINF:-1 tvg-id="" tvg-name="EG:Cima" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cima-channel-eg.png" group-title="Egypt",EG:Cima
 http://magic-tv.live:2095/live/9853786/34895378/1695968.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:DMC" group-title="Egypt",EG:DMC
+#EXTINF:-1 tvg-id="" tvg-name="EG:DMC" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dmc_eg.png" group-title="Egypt",EG:DMC
 http://magic-tv.live:2095/live/9853786/34895378/1696029.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:DMC Drama" group-title="Egypt",EG:DMC Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:DMC Drama" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dmc_eg_drama.png" group-title="Egypt",EG:DMC Drama
 http://magic-tv.live:2095/live/9853786/34895378/1696027.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:DMC HD" group-title="Egypt",EG:DMC HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:DMC HD" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dmc_eg.png" group-title="Egypt",EG:DMC HD
 http://magic-tv.live:2095/live/9853786/34895378/1696028.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:EL MOLED" group-title="Egypt",EG:EL MOLED
+#EXTINF:-1 tvg-id="" tvg-name="EG:EL MOLED" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el_moled_tv.png" group-title="Egypt",EG:EL MOLED
 http://magic-tv.live:2095/live/9853786/34895378/1695961.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Egyptian TV HD" group-title="Egypt",EG:Egyptian TV HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:Egyptian TV HD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-masriyah-eg.png" group-title="Egypt",EG:Egyptian TV HD
 http://magic-tv.live:2095/live/9853786/34895378/1696006.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:El Khoulasa Cinema" group-title="Egypt",EG:El Khoulasa Cinema
+#EXTINF:-1 tvg-id="" tvg-name="EG:El Khoulasa Cinema" tvg-logo="" group-title="Egypt",EG:El Khoulasa Cinema
 http://magic-tv.live:2095/live/9853786/34895378/1695992.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:El Khoulasa Monawaat" group-title="Egypt",EG:El Khoulasa Monawaat
+#EXTINF:-1 tvg-id="" tvg-name="EG:El Khoulasa Monawaat" tvg-logo="" group-title="Egypt",EG:El Khoulasa Monawaat
 http://magic-tv.live:2095/live/9853786/34895378/1695993.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ElSharq" group-title="Egypt",EG:ElSharq
+#EXTINF:-1 tvg-id="" tvg-name="EG:ElSharq" tvg-logo="" group-title="Egypt",EG:ElSharq
 http://magic-tv.live:2095/live/9853786/34895378/1695959.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Extra live" group-title="Egypt",EG:Extra live
+#EXTINF:-1 tvg-id="" tvg-name="EG:Extra live" tvg-logo="https://www.lyngsat.com/logo/tv/ee/extra-live-eg.png" group-title="Egypt",EG:Extra live
 http://magic-tv.live:2095/live/9853786/34895378/1504391.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:HYA TV" group-title="Egypt",EG:HYA TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:HYA TV" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hya-tv-eg.png" group-title="Egypt",EG:HYA TV
 http://magic-tv.live:2095/live/9853786/34895378/1696004.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:MDEEH" group-title="Egypt",EG:MDEEH
+#EXTINF:-1 tvg-id="" tvg-name="EG:MDEEH" tvg-logo="" group-title="Egypt",EG:MDEEH
 http://magic-tv.live:2095/live/9853786/34895378/1695965.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:MIX One" group-title="Egypt",EG:MIX One
+#EXTINF:-1 tvg-id="" tvg-name="EG:MIX One" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mix-tv-eg.png" group-title="Egypt",EG:MIX One
 http://magic-tv.live:2095/live/9853786/34895378/1695997.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Madrasetna 1" group-title="Egypt",EG:Madrasetna 1
+#EXTINF:-1 tvg-id="" tvg-name="EG:Madrasetna 1" tvg-logo="https://www.lyngsat.com/logo/tv/mm/madrasetna-1-eg.png" group-title="Egypt",EG:Madrasetna 1
 http://magic-tv.live:2095/live/9853786/34895378/1695957.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Madrastna 2" group-title="Egypt",EG:Madrastna 2
+#EXTINF:-1 tvg-id="" tvg-name="EG:Madrastna 2" tvg-logo="https://www.lyngsat.com/logo/tv/mm/madrasetna-2-eg.png" group-title="Egypt",EG:Madrastna 2
 http://magic-tv.live:2095/live/9853786/34895378/1695956.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Madrastna 3" group-title="Egypt",EG:Madrastna 3
+#EXTINF:-1 tvg-id="" tvg-name="EG:Madrastna 3" tvg-logo="https://www.lyngsat.com/logo/tv/mm/madrasetna-3-eg.png" group-title="Egypt",EG:Madrastna 3
 http://magic-tv.live:2095/live/9853786/34895378/1695955.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Maspero Zaman" group-title="Egypt",EG:Maspero Zaman
+#EXTINF:-1 tvg-id="" tvg-name="EG:Maspero Zaman" tvg-logo="https://www.lyngsat.com/logo/tv/mm/maspero-zaman-eg.png" group-title="Egypt",EG:Maspero Zaman
 http://magic-tv.live:2095/live/9853786/34895378/1695969.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Mehwar" group-title="Egypt",EG:Mehwar
+#EXTINF:-1 tvg-id="" tvg-name="EG:Mehwar" tvg-logo="https://www.lyngsat.com/logo/tv/ee/el-mehwar-tv-es.png" group-title="Egypt",EG:Mehwar
 http://magic-tv.live:2095/live/9853786/34895378/1695971.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Mekameleen TV" group-title="Egypt",EG:Mekameleen TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:Mekameleen TV" tvg-logo="" group-title="Egypt",EG:Mekameleen TV
 http://magic-tv.live:2095/live/9853786/34895378/1696034.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Misr AlBalad" group-title="Egypt",EG:Misr AlBalad
+#EXTINF:-1 tvg-id="" tvg-name="EG:Misr AlBalad" tvg-logo="https://www.lyngsat.com/logo/tv/mm/misr-albalad-eg.png" group-title="Egypt",EG:Misr AlBalad
 http://magic-tv.live:2095/live/9853786/34895378/1695958.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Misr AlZera3eya" group-title="Egypt",EG:Misr AlZera3eya
+#EXTINF:-1 tvg-id="" tvg-name="EG:Misr AlZera3eya" tvg-logo="https://www.lyngsat.com/logo/tv/mm/misr-al-zeraya-eg.png" group-title="Egypt",EG:Misr AlZera3eya
 http://magic-tv.live:2095/live/9853786/34895378/1695966.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Mix Bel Araby" group-title="Egypt",EG:Mix Bel Araby
+#EXTINF:-1 tvg-id="" tvg-name="EG:Mix Bel Araby" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mix-tv-eg.png" group-title="Egypt",EG:Mix Bel Araby
 http://magic-tv.live:2095/live/9853786/34895378/1695998.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Mix Hollywood TV" group-title="Egypt",EG:Mix Hollywood TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:Mix Hollywood TV" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mix-tv-eg.png" group-title="Egypt",EG:Mix Hollywood TV
 http://magic-tv.live:2095/live/9853786/34895378/1695996.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Cinema" group-title="Egypt",EG:Moga Cinema
+#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Cinema" tvg-logo="" group-title="Egypt",EG:Moga Cinema
 http://magic-tv.live:2095/live/9853786/34895378/1696002.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Comedy" group-title="Egypt",EG:Moga Comedy
+#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Comedy" tvg-logo="" group-title="Egypt",EG:Moga Comedy
 http://magic-tv.live:2095/live/9853786/34895378/1696001.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Drama" group-title="Egypt",EG:Moga Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Drama" tvg-logo="" group-title="Egypt",EG:Moga Drama
 http://magic-tv.live:2095/live/9853786/34895378/1696000.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Today" group-title="Egypt",EG:Moga Today
+#EXTINF:-1 tvg-id="" tvg-name="EG:Moga Today" tvg-logo="" group-title="Egypt",EG:Moga Today
 http://magic-tv.live:2095/live/9853786/34895378/1695999.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Cinema" group-title="Egypt",EG:Nile Cinema
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Cinema" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_cinema_eg.png" group-title="Egypt",EG:Nile Cinema
 http://magic-tv.live:2095/live/9853786/34895378/1695984.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Comedy" group-title="Egypt",EG:Nile Comedy
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Comedy" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_comedy_eg.png" group-title="Egypt",EG:Nile Comedy
 http://magic-tv.live:2095/live/9853786/34895378/1695983.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Culture" group-title="Egypt",EG:Nile Culture
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Culture" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_culture_eg.png" group-title="Egypt",EG:Nile Culture
 http://magic-tv.live:2095/live/9853786/34895378/1695982.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Drama" group-title="Egypt",EG:Nile Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Drama" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_drama_eg.png" group-title="Egypt",EG:Nile Drama
 http://magic-tv.live:2095/live/9853786/34895378/1695981.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Education" group-title="Egypt",EG:Nile Education
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Education" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile-education-channel-eg.png" group-title="Egypt",EG:Nile Education
 http://magic-tv.live:2095/live/9853786/34895378/1695967.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Family" group-title="Egypt",EG:Nile Family
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Family" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_family_eg.png" group-title="Egypt",EG:Nile Family
 http://magic-tv.live:2095/live/9853786/34895378/1695970.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Life" group-title="Egypt",EG:Nile Life
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Life" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_life_eg.png" group-title="Egypt",EG:Nile Life
 http://magic-tv.live:2095/live/9853786/34895378/1695980.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile News" group-title="Egypt",EG:Nile News
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile News" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_news_eg.png" group-title="Egypt",EG:Nile News
 http://magic-tv.live:2095/live/9853786/34895378/1695979.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Sport" group-title="Egypt",EG:Nile Sport
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile Sport" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile_sport_eg.png" group-title="Egypt",EG:Nile Sport
 http://magic-tv.live:2095/live/9853786/34895378/1696035.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Nile TV International" group-title="Egypt",EG:Nile TV International
+#EXTINF:-1 tvg-id="" tvg-name="EG:Nile TV International" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nile-tv-international-eg.png" group-title="Egypt",EG:Nile TV International
 http://magic-tv.live:2095/live/9853786/34895378/1695978.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON Drama HD" group-title="Egypt",EG:ON Drama HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON Drama HD" tvg-logo="https://www.lyngsat.com/logo/tv/oo/on_tv_eg_drama.png" group-title="Egypt",EG:ON Drama HD
 http://magic-tv.live:2095/live/9853786/34895378/1696024.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON E HD" group-title="Egypt",EG:ON E HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON E HD" tvg-logo="https://www.lyngsat.com/logo/tv/oo/on-e-eg.png" group-title="Egypt",EG:ON E HD
 http://magic-tv.live:2095/live/9853786/34895378/1696025.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport" group-title="Egypt",EG:ON-Sport
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport
 http://magic-tv.live:2095/live/9853786/34895378/1695928.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport (S2)" group-title="Egypt",EG:ON-Sport (S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport (S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport (S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695927.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport 4K" group-title="Egypt",EG:ON-Sport 4K
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport 4K" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport 4K
 http://magic-tv.live:2095/live/9853786/34895378/1695924.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport 4K(S2)" group-title="Egypt",EG:ON-Sport 4K(S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport 4K(S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport 4K(S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695923.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport HD" group-title="Egypt",EG:ON-Sport HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport HD" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport HD
 http://magic-tv.live:2095/live/9853786/34895378/1695926.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport HD(S2)" group-title="Egypt",EG:ON-Sport HD(S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport HD(S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-eg.png" group-title="Egypt",EG:ON-Sport HD(S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695925.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Max" group-title="Egypt",EG:ON-Sport Max
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Max" tvg-logo="" group-title="Egypt",EG:ON-Sport Max
 http://magic-tv.live:2095/live/9853786/34895378/1704873.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Max 4K" group-title="Egypt",EG:ON-Sport Max 4K
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Max 4K" tvg-logo="" group-title="Egypt",EG:ON-Sport Max 4K
 http://magic-tv.live:2095/live/9853786/34895378/1704872.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Plus" group-title="Egypt",EG:ON-Sport Plus
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Plus" tvg-logo="" group-title="Egypt",EG:ON-Sport Plus
 http://magic-tv.live:2095/live/9853786/34895378/1704875.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Plus 4K" group-title="Egypt",EG:ON-Sport Plus 4K
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport Plus 4K" tvg-logo="" group-title="Egypt",EG:ON-Sport Plus 4K
 http://magic-tv.live:2095/live/9853786/34895378/1704874.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2" group-title="Egypt",EG:ON-Sport2
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2
 http://magic-tv.live:2095/live/9853786/34895378/1695922.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 4K" group-title="Egypt",EG:ON-Sport2 4K
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 4K" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2 4K
 http://magic-tv.live:2095/live/9853786/34895378/1695918.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 4K(S2)" group-title="Egypt",EG:ON-Sport2 4K(S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 4K(S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2 4K(S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695917.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 HD" group-title="Egypt",EG:ON-Sport2 HD
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 HD" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2 HD
 http://magic-tv.live:2095/live/9853786/34895378/1695920.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 HD(S2)" group-title="Egypt",EG:ON-Sport2 HD(S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2 HD(S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2 HD(S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695919.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2(S2)" group-title="Egypt",EG:ON-Sport2(S2)
+#EXTINF:-1 tvg-id="" tvg-name="EG:ON-Sport2(S2)" tvg-logo="https://www.lyngsat.com/logo/tv/oo/ontime-sports-2-eg.png" group-title="Egypt",EG:ON-Sport2(S2)
 http://magic-tv.live:2095/live/9853786/34895378/1695921.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:On E" group-title="Egypt",EG:On E
+#EXTINF:-1 tvg-id="" tvg-name="EG:On E" tvg-logo="https://www.lyngsat.com/logo/tv/oo/on-e-eg.png" group-title="Egypt",EG:On E
 http://magic-tv.live:2095/live/9853786/34895378/1696026.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Drama PNC 1" group-title="Egypt",EG:Panorama Drama PNC 1
+#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Drama PNC 1" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pnc-drama-eg.png" group-title="Egypt",EG:Panorama Drama PNC 1
 http://magic-tv.live:2095/live/9853786/34895378/1695977.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Drama PNC 2" group-title="Egypt",EG:Panorama Drama PNC 2
+#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Drama PNC 2" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pnc-drama-2-eg.png" group-title="Egypt",EG:Panorama Drama PNC 2
 http://magic-tv.live:2095/live/9853786/34895378/1695976.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Film PNC" group-title="Egypt",EG:Panorama Film PNC
+#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Film PNC" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pnc-film-eg.png" group-title="Egypt",EG:Panorama Film PNC
 http://magic-tv.live:2095/live/9853786/34895378/1695975.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Food PNC" group-title="Egypt",EG:Panorama Food PNC
+#EXTINF:-1 tvg-id="" tvg-name="EG:Panorama Food PNC" tvg-logo="https://www.lyngsat.com/logo/tv/pp/pnc-food-eg.png" group-title="Egypt",EG:Panorama Food PNC
 http://magic-tv.live:2095/live/9853786/34895378/1695974.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad" group-title="Egypt",EG:Sada El Balad
+#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sada-elbalad-eg.png" group-title="Egypt",EG:Sada El Balad
 http://magic-tv.live:2095/live/9853786/34895378/1696016.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad 2" group-title="Egypt",EG:Sada El Balad 2
+#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad 2" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sada-elbalad-2-eg.png" group-title="Egypt",EG:Sada El Balad 2
 http://magic-tv.live:2095/live/9853786/34895378/1696015.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad Drama" group-title="Egypt",EG:Sada El Balad Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:Sada El Balad Drama" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sada_el_balad_drama.png" group-title="Egypt",EG:Sada El Balad Drama
 http://magic-tv.live:2095/live/9853786/34895378/1696014.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Star Cinema 2" group-title="Egypt",EG:Star Cinema 2
+#EXTINF:-1 tvg-id="" tvg-name="EG:Star Cinema 2" tvg-logo="https://www.lyngsat.com/logo/tv/tt/ten-eg.png" group-title="Egypt",EG:Star Cinema 2
 http://magic-tv.live:2095/live/9853786/34895378/1695973.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:TeN TV" group-title="Egypt",EG:TeN TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:TeN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/ten-eg.png" group-title="Egypt",EG:TeN TV
 http://magic-tv.live:2095/live/9853786/34895378/1695972.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Teba TV" group-title="Egypt",EG:Teba TV
+#EXTINF:-1 tvg-id="" tvg-name="EG:Teba TV" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ertu-8-teba-eg.png" group-title="Egypt",EG:Teba TV
 http://magic-tv.live:2095/live/9853786/34895378/1695987.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Top Drama" group-title="Egypt",EG:Top Drama
+#EXTINF:-1 tvg-id="" tvg-name="EG:Top Drama" tvg-logo="https://www.lyngsat.com/logo/tv/tt/top-drama-eg.png" group-title="Egypt",EG:Top Drama
 http://magic-tv.live:2095/live/9853786/34895378/1695994.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Top Zaman" group-title="Egypt",EG:Top Zaman
+#EXTINF:-1 tvg-id="" tvg-name="EG:Top Zaman" tvg-logo="https://www.lyngsat.com/logo/tv/tt/top-zaman-eg.png" group-title="Egypt",EG:Top Zaman
 http://magic-tv.live:2095/live/9853786/34895378/1695995.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Watan" group-title="Egypt",EG:Watan
+#EXTINF:-1 tvg-id="" tvg-name="EG:Watan" tvg-logo="https://i.imgur.com/MUSnQPg.jpg" group-title="Egypt",EG:Watan
 http://magic-tv.live:2095/live/9853786/34895378/68799.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Zamalek" group-title="Egypt",EG:Zamalek
+#EXTINF:-1 tvg-id="" tvg-name="EG:Zamalek" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zamalek-tv-eg.png" group-title="Egypt",EG:Zamalek
 http://magic-tv.live:2095/live/9853786/34895378/1696036.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Zee Aflam" group-title="Egypt",EG:Zee Aflam
+#EXTINF:-1 tvg-id="" tvg-name="EG:Zee Aflam" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-alwan-in.png" group-title="Egypt",EG:Zee Aflam
 http://magic-tv.live:2095/live/9853786/34895378/1695991.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="EG:Zee Alwan" group-title="Egypt",EG:Zee Alwan
+#EXTINF:-1 tvg-id="" tvg-name="EG:Zee Alwan" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-alwan-in.png" group-title="Egypt",EG:Zee Alwan
 http://magic-tv.live:2095/live/9853786/34895378/1695990.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IQ-Alghadeer TV" group-title="Egypt",IQ-Alghadeer TV
-http://magic-tv.live:2095/live/9853786/34895378/118236.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-OSN Kids" group-title="Egypt",Kids-OSN Kids
-http://magic-tv.live:2095/live/9853786/34895378/1618769.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News: Al Arabiya Business" group-title="Egypt",News: Al Arabiya Business
-http://magic-tv.live:2095/live/9853786/34895378/1618831.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News: Alghad TV" group-title="Egypt",News: Alghad TV
-http://magic-tv.live:2095/live/9853786/34895378/1609674.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Arabiya" group-title="Egypt",News:Al Arabiya
-http://magic-tv.live:2095/live/9853786/34895378/1696065.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Arabiya 4K" group-title="Egypt",News:Al Arabiya 4K
-http://magic-tv.live:2095/live/9853786/34895378/1696063.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Arabiya Business" group-title="Egypt",News:Al Arabiya Business
-http://magic-tv.live:2095/live/9853786/34895378/1696105.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Arabiya HD" group-title="Egypt",News:Al Arabiya HD
-http://magic-tv.live:2095/live/9853786/34895378/1696064.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Ghad Al Araby HD" group-title="Egypt",News:Al Ghad Al Araby HD
-http://magic-tv.live:2095/live/9853786/34895378/1696100.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Hadath" group-title="Egypt",News:Al Hadath
-http://magic-tv.live:2095/live/9853786/34895378/1696089.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Hadath 4K" group-title="Egypt",News:Al Hadath 4K
-http://magic-tv.live:2095/live/9853786/34895378/1696061.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Hadath Al Youm" group-title="Egypt",News:Al Hadath Al Youm
-http://magic-tv.live:2095/live/9853786/34895378/1696087.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="News:Al Hadath HD" group-title="Egypt",News:Al Hadath HD
-http://magic-tv.live:2095/live/9853786/34895378/1696062.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Action" group-title="Egypt",OSN Action
-http://magic-tv.live:2095/live/9853786/34895378/1579973.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Al Safwa" group-title="Egypt",OSN Alfa Al Safwa
-http://magic-tv.live:2095/live/9853786/34895378/1579957.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa AlFann" group-title="Egypt",OSN Alfa AlFann
-http://magic-tv.live:2095/live/9853786/34895378/1579958.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Alyoum" group-title="Egypt",OSN Alfa Alyoum
-http://magic-tv.live:2095/live/9853786/34895378/1579956.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Cinema 1" group-title="Egypt",OSN Alfa Cinema 1
-http://magic-tv.live:2095/live/9853786/34895378/1579955.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Cinema 2" group-title="Egypt",OSN Alfa Cinema 2
-http://magic-tv.live:2095/live/9853786/34895378/1579954.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Musalsalat" group-title="Egypt",OSN Alfa Musalsalat
-http://magic-tv.live:2095/live/9853786/34895378/1579953.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Musalsalat 2" group-title="Egypt",OSN Alfa Musalsalat 2
-http://magic-tv.live:2095/live/9853786/34895378/1579952.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN BLOOMBERG" group-title="Egypt",OSN BLOOMBERG
-http://magic-tv.live:2095/live/9853786/34895378/1615643.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Crime" group-title="Egypt",OSN Crime
-http://magic-tv.live:2095/live/9853786/34895378/1579962.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery" group-title="Egypt",OSN Discovery
-http://magic-tv.live:2095/live/9853786/34895378/1579945.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery ID" group-title="Egypt",OSN Discovery ID
-http://magic-tv.live:2095/live/9853786/34895378/1579944.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Disney" group-title="Egypt",OSN Disney
-http://magic-tv.live:2095/live/9853786/34895378/1579942.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Disney Junior" group-title="Egypt",OSN Disney Junior
-http://magic-tv.live:2095/live/9853786/34895378/1579941.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN E!" group-title="Egypt",OSN E!
-http://magic-tv.live:2095/live/9853786/34895378/1579961.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN FASHION" group-title="Egypt",OSN FASHION
-http://magic-tv.live:2095/live/9853786/34895378/1615651.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN FOX-NEWS" group-title="Egypt",OSN FOX-NEWS
-http://magic-tv.live:2095/live/9853786/34895378/1615647.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Family" group-title="Egypt",OSN Family
-http://magic-tv.live:2095/live/9853786/34895378/1579969.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN H2" group-title="Egypt",OSN H2
-http://magic-tv.live:2095/live/9853786/34895378/1579949.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN History" group-title="Egypt",OSN History
-http://magic-tv.live:2095/live/9853786/34895378/1579948.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Kids" group-title="Egypt",OSN Kids
-http://magic-tv.live:2095/live/9853786/34895378/1579968.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Kids Zone" group-title="Egypt",OSN Kids Zone
-http://magic-tv.live:2095/live/9853786/34895378/1579936.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN MTV 00S" group-title="Egypt",OSN MTV 00S
-http://magic-tv.live:2095/live/9853786/34895378/1615648.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Mezze" group-title="Egypt",OSN Mezze
-http://magic-tv.live:2095/live/9853786/34895378/1579959.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Moonbug Kids" group-title="Egypt",OSN Moonbug Kids
-http://magic-tv.live:2095/live/9853786/34895378/1579939.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN NICK JR." group-title="Egypt",OSN NICK JR.
-http://magic-tv.live:2095/live/9853786/34895378/1615646.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN NOW HD" group-title="Egypt",OSN NOW HD
-http://magic-tv.live:2095/live/9853786/34895378/1615655.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nat Geo" group-title="Egypt",OSN Nat Geo
-http://magic-tv.live:2095/live/9853786/34895378/1579947.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nat. Geo. Wild HD" group-title="Egypt",OSN Nat. Geo. Wild HD
-http://magic-tv.live:2095/live/9853786/34895378/1615644.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN News" group-title="Egypt",OSN News
-http://magic-tv.live:2095/live/9853786/34895378/1579950.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Jr" group-title="Egypt",OSN Nick Jr
-http://magic-tv.live:2095/live/9853786/34895378/1579938.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Toon" group-title="Egypt",OSN Nick Toon
-http://magic-tv.live:2095/live/9853786/34895378/1579937.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Nickelodeon" group-title="Egypt",OSN Nickelodeon
-http://magic-tv.live:2095/live/9853786/34895378/1579935.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN ONE" group-title="Egypt",OSN ONE
-http://magic-tv.live:2095/live/9853786/34895378/1615649.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Premiere" group-title="Egypt",OSN Premiere
-http://magic-tv.live:2095/live/9853786/34895378/1615654.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Premiere+2" group-title="Egypt",OSN Premiere+2
-http://magic-tv.live:2095/live/9853786/34895378/1615653.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN SKY NEWS" group-title="Egypt",OSN SKY NEWS
-http://magic-tv.live:2095/live/9853786/34895378/1615650.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Series Comedy" group-title="Egypt",OSN Series Comedy
-http://magic-tv.live:2095/live/9853786/34895378/1579966.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Showcase" group-title="Egypt",OSN Showcase
-http://magic-tv.live:2095/live/9853786/34895378/1615652.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Star Movies" group-title="Egypt",OSN Star Movies
-http://magic-tv.live:2095/live/9853786/34895378/1579965.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Star World" group-title="Egypt",OSN Star World
-http://magic-tv.live:2095/live/9853786/34895378/1579964.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN TFC" group-title="Egypt",OSN TFC
-http://magic-tv.live:2095/live/9853786/34895378/1615642.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN TLC" group-title="Egypt",OSN TLC
-http://magic-tv.live:2095/live/9853786/34895378/1579963.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN WWE" group-title="Egypt",OSN WWE
-http://magic-tv.live:2095/live/9853786/34895378/1579926.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Yahala Bil Arabi" group-title="Egypt",OSN Yahala Bil Arabi
-http://magic-tv.live:2095/live/9853786/34895378/1579977.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Osn Movies Hollywood" group-title="Egypt",Osn Movies Hollywood
-http://magic-tv.live:2095/live/9853786/34895378/1579972.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Osn yahala" group-title="Egypt",Osn yahala
-http://magic-tv.live:2095/live/9853786/34895378/1579976.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Osn yahala aflam" group-title="Egypt",Osn yahala aflam
-http://magic-tv.live:2095/live/9853786/34895378/1579975.ts
-
-
-################################################################################
-# IRAQ-العراق
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="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" group-title="IRAQ-العراق",IQ-Nohadra" group-title="Rotana",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" group-title="IRAQ-العراق",IQ-Nohadra
-http://magic-tv.live:2095/live/9853786/34895378/113131.ts
-
-
-################################################################################
-# Kids
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Alb: Baby TV" group-title="Kids",Alb: Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1604690.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Be:Baby TV" group-title="Kids",Be:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1548682.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Br:Baby TV" group-title="Kids",Br:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/136079.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Hr:Baby TV" group-title="Kids",Hr:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/122920.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DE:Baby TV" group-title="Kids",DE:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/56519.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Baby TV HD" group-title="Kids",IN: Baby TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121198.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-Baraeim" group-title="Kids",Kids-Baraeim
-http://magic-tv.live:2095/live/9853786/34895378/1618766.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-Spacetoon" group-title="Kids",Kids-Spacetoon
-http://magic-tv.live:2095/live/9853786/34895378/96.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-Toyor Baby" group-title="Kids",Kids-Toyor Baby
-http://magic-tv.live:2095/live/9853786/34895378/63.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Kids-Wanasat Baby" group-title="Kids",Kids-Wanasat Baby
-http://magic-tv.live:2095/live/9853786/34895378/21597.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NL:Baby TV" group-title="Kids",NL:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/25358.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NL:Nick Jr" group-title="Kids",NL:Nick Jr
-http://magic-tv.live:2095/live/9853786/34895378/33672.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Baby TV" group-title="Kids",OSN Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1615645.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PL:BABY TV" group-title="Kids",PL:BABY TV
-http://magic-tv.live:2095/live/9853786/34895378/1616126.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Pt: Baby TV" group-title="Kids",Pt: Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1506479.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Srb:Baby TV" group-title="Kids",Srb:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/122797.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TR:BABY TV" group-title="Kids",TR:BABY TV
-http://magic-tv.live:2095/live/9853786/34895378/71993.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="UK:Baby TV" group-title="Kids",UK:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1697364.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Is: Baby TV" group-title="Kids",Is: Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1580045.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Latino:Baby TV" group-title="Kids",Latino:Baby TV
-http://magic-tv.live:2095/live/9853786/34895378/1614781.ts
 
 
 ################################################################################
 # MBC
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AF:MBC MALAWI" group-title="MBC",AF:MBC MALAWI
+#EXTINF:-1 tvg-id="" tvg-name="AF:MBC MALAWI" tvg-logo="" group-title="MBC",AF:MBC MALAWI
 http://magic-tv.live:2095/live/9853786/34895378/135570.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Kids-MBC3" group-title="MBC",Kids-MBC3
-http://magic-tv.live:2095/live/9853786/34895378/1618759.ts
+#EXTINF:-1 tvg-id="" tvg-name="IQ-MBC IRAQ" tvg-logo="https://www.lyngsat-stream.com/logo/tv/mm/mbc-iraq-ae-iq.png" group-title="MBC",IQ-MBC IRAQ
+http://magic-tv.live:2095/live/9853786/34895378/119291.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 1 HD" group-title="MBC",MBC 1 HD
+#EXTINF:-1 tvg-id="" tvg-name="Per: MBC Persia HD" tvg-logo="http://imag.dream-tv.ga:2095/images/imageMBC.png" group-title="MBC",Per: MBC Persia HD
+http://magic-tv.live:2095/live/9853786/34895378/122719.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC 1 HD" tvg-logo="https://i.imgur.com/UtpD1RI.png" group-title="MBC",MBC 1 HD
 http://magic-tv.live:2095/live/9853786/34895378/10444.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 1 HD +6" group-title="MBC",MBC 1 HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC 1 HD +6" tvg-logo="https://i.imgur.com/UtpD1RI.png" group-title="MBC",MBC 1 HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621714.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 2 HD" group-title="MBC",MBC 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC 2 HD" tvg-logo="https://i.imgur.com/UVNwPeI.png" group-title="MBC",MBC 2 HD
 http://magic-tv.live:2095/live/9853786/34895378/29944.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 2 HD +6" group-title="MBC",MBC 2 HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC 2 HD +6" tvg-logo="https://i.imgur.com/UVNwPeI.png" group-title="MBC",MBC 2 HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621713.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 3 HD" group-title="MBC",MBC 3 HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC 3 HD" tvg-logo="https://i.imgur.com/AC2jzR3.png" group-title="MBC",MBC 3 HD
 http://magic-tv.live:2095/live/9853786/34895378/29945.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 3 HD +6" group-title="MBC",MBC 3 HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC 3 HD +6" tvg-logo="https://i.imgur.com/AC2jzR3.png" group-title="MBC",MBC 3 HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621712.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 4  HD +6" group-title="MBC",MBC 4  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC 4  HD +6" tvg-logo="https://i.imgur.com/rmVenFZ.png" group-title="MBC",MBC 4  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621711.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 4 HD" group-title="MBC",MBC 4 HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC 4 HD" tvg-logo="https://i.imgur.com/rmVenFZ.png" group-title="MBC",MBC 4 HD
 http://magic-tv.live:2095/live/9853786/34895378/54672.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 5  HD +6" group-title="MBC",MBC 5  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC 5  HD +6" tvg-logo="https://i.imgur.com/dr4eVBQ.png" group-title="MBC",MBC 5  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621710.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 5 HD" group-title="MBC",MBC 5 HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC 5 HD" tvg-logo="http://logo.apktv.live/logooo/mbc/mbc-5-ae.png" group-title="MBC",MBC 5 HD
 http://magic-tv.live:2095/live/9853786/34895378/82030.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Action  HD +6" group-title="MBC",MBC Action  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action  HD +6" tvg-logo="https://i.imgur.com/77kXRDH.png" group-title="MBC",MBC Action  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621705.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Action HD" group-title="MBC",MBC Action HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action HD" tvg-logo="https://i.imgur.com/77kXRDH.png" group-title="MBC",MBC Action HD
 http://magic-tv.live:2095/live/9853786/34895378/10451.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood  HD +6" group-title="MBC",MBC Bollywood  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood  HD +6" tvg-logo="https://i.imgur.com/g8pT6vr.png" group-title="MBC",MBC Bollywood  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621703.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama  HD +6" group-title="MBC",MBC Drama  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama  HD +6" tvg-logo="https://i.imgur.com/Gxpxs71.png" group-title="MBC",MBC Drama  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621706.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama HD" group-title="MBC",MBC Drama HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama HD" tvg-logo="https://i.imgur.com/Gxpxs71.png" group-title="MBC",MBC Drama HD
 http://magic-tv.live:2095/live/9853786/34895378/10439.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama+ HD" group-title="MBC",MBC Drama+ HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama+ HD" tvg-logo="https://i.imgur.com/RpXIH44.png" group-title="MBC",MBC Drama+ HD
 http://magic-tv.live:2095/live/9853786/34895378/10440.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC FM" group-title="MBC",MBC FM
+#EXTINF:-1 tvg-id="" tvg-name="MBC FM" tvg-logo="https://i.imgur.com/ZhdxsvF.png" group-title="MBC",MBC FM
 http://magic-tv.live:2095/live/9853786/34895378/95852.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 1  HD +6" group-title="MBC",MBC Masr 1  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC IRAQ HD" tvg-logo="http://logo.apktv.live/logooo/mbc/mbc-iraq-ae-iq.png" group-title="MBC",MBC IRAQ HD
+http://magic-tv.live:2095/live/9853786/34895378/52368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC Iraq  HD +6" tvg-logo="https://i.imgur.com/oeonmLt.png" group-title="MBC",MBC Iraq  HD +6
+http://magic-tv.live:2095/live/9853786/34895378/1621707.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 1  HD +6" tvg-logo="https://i.imgur.com/ac7kz6z.png" group-title="MBC",MBC Masr 1  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621709.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 1 FHD" group-title="MBC",MBC Masr 1 FHD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 1 FHD" tvg-logo="" group-title="MBC",MBC Masr 1 FHD
 http://magic-tv.live:2095/live/9853786/34895378/1682360.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2  HD +6" group-title="MBC",MBC Masr 2  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2  HD +6" tvg-logo="https://i.imgur.com/3kygIcW.png" group-title="MBC",MBC Masr 2  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621708.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama" group-title="MBC",MBC Masr Drama
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama" tvg-logo="https://i.imgur.com/WfKygGD.png" group-title="MBC",MBC Masr Drama
 http://magic-tv.live:2095/live/9853786/34895378/1666471.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama 4k" group-title="MBC",MBC Masr Drama 4k
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama 4k" tvg-logo="https://i.imgur.com/WfKygGD.png" group-title="MBC",MBC Masr Drama 4k
 http://magic-tv.live:2095/live/9853786/34895378/1666469.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama HD" group-title="MBC",MBC Masr Drama HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr Drama HD" tvg-logo="https://i.imgur.com/WfKygGD.png" group-title="MBC",MBC Masr Drama HD
 http://magic-tv.live:2095/live/9853786/34895378/1666470.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Max  HD +6" group-title="MBC",MBC Max  HD +6
+#EXTINF:-1 tvg-id="" tvg-name="MBC Max  HD +6" tvg-logo="https://i.imgur.com/zzqCLvA.png" group-title="MBC",MBC Max  HD +6
 http://magic-tv.live:2095/live/9853786/34895378/1621704.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Max HD" group-title="MBC",MBC Max HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Max HD" tvg-logo="https://i.imgur.com/zzqCLvA.png" group-title="MBC",MBC Max HD
 http://magic-tv.live:2095/live/9853786/34895378/10450.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Variety HD" group-title="MBC",MBC Variety HD
+#EXTINF:-1 tvg-id="" tvg-name="MBC Persia" tvg-logo="https://i.imgur.com/HxBr4mp.png" group-title="MBC",MBC Persia
+http://magic-tv.live:2095/live/9853786/34895378/54317.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC Variety HD" tvg-logo="https://i.imgur.com/cd2iSvU.png" group-title="MBC",MBC Variety HD
 http://magic-tv.live:2095/live/9853786/34895378/10449.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 1" group-title="MBC",Mbc 1
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 1" tvg-logo="https://i.imgur.com/UtpD1RI.png" group-title="MBC",Mbc 1
 http://magic-tv.live:2095/live/9853786/34895378/522.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 1 4K" group-title="MBC",Mbc 1 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 1 4K" tvg-logo="https://i.imgur.com/UtpD1RI.png" group-title="MBC",Mbc 1 4K
 http://magic-tv.live:2095/live/9853786/34895378/68102.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 2" group-title="MBC",Mbc 2
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 2" tvg-logo="https://i.imgur.com/UVNwPeI.png" group-title="MBC",Mbc 2
 http://magic-tv.live:2095/live/9853786/34895378/521.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 2 4K" group-title="MBC",Mbc 2 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 2 4K" tvg-logo="https://i.imgur.com/UVNwPeI.png" group-title="MBC",Mbc 2 4K
 http://magic-tv.live:2095/live/9853786/34895378/16781.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 3" group-title="MBC",Mbc 3
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 3" tvg-logo="https://i.imgur.com/AC2jzR3.png" group-title="MBC",Mbc 3
 http://magic-tv.live:2095/live/9853786/34895378/520.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 3 4K" group-title="MBC",Mbc 3 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 3 4K" tvg-logo="https://i.imgur.com/AC2jzR3.png" group-title="MBC",Mbc 3 4K
 http://magic-tv.live:2095/live/9853786/34895378/16780.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 4" group-title="MBC",Mbc 4
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 4" tvg-logo="https://i.imgur.com/rmVenFZ.png" group-title="MBC",Mbc 4
 http://magic-tv.live:2095/live/9853786/34895378/519.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 4 4K" group-title="MBC",Mbc 4 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 4 4K" tvg-logo="https://i.imgur.com/rmVenFZ.png" group-title="MBC",Mbc 4 4K
 http://magic-tv.live:2095/live/9853786/34895378/16779.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc 5" group-title="MBC",Mbc 5
+#EXTINF:-1 tvg-id="" tvg-name="Mbc 5" tvg-logo="http://logo.apktv.live/logooo/mbc/mbc-5-ae.png" group-title="MBC",Mbc 5
 http://magic-tv.live:2095/live/9853786/34895378/16782.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Action" group-title="MBC",Mbc Action
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Action" tvg-logo="https://i.imgur.com/77kXRDH.png" group-title="MBC",Mbc Action
 http://magic-tv.live:2095/live/9853786/34895378/516.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Action 4K" group-title="MBC",Mbc Action 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Action 4K" tvg-logo="https://i.imgur.com/77kXRDH.png" group-title="MBC",Mbc Action 4K
 http://magic-tv.live:2095/live/9853786/34895378/16778.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood" group-title="MBC",Mbc Bollywood
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood" tvg-logo="https://i.imgur.com/g8pT6vr.png" group-title="MBC",Mbc Bollywood
 http://magic-tv.live:2095/live/9853786/34895378/514.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood 4K" group-title="MBC",Mbc Bollywood 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood 4K" tvg-logo="https://i.imgur.com/g8pT6vr.png" group-title="MBC",Mbc Bollywood 4K
 http://magic-tv.live:2095/live/9853786/34895378/16777.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood HD" group-title="MBC",Mbc Bollywood HD
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Bollywood HD" tvg-logo="https://i.imgur.com/g8pT6vr.png" group-title="MBC",Mbc Bollywood HD
 http://magic-tv.live:2095/live/9853786/34895378/82031.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Drama" group-title="MBC",Mbc Drama
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Drama" tvg-logo="https://i.imgur.com/Gxpxs71.png" group-title="MBC",Mbc Drama
 http://magic-tv.live:2095/live/9853786/34895378/515.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Drama 4K" group-title="MBC",Mbc Drama 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Drama 4K" tvg-logo="https://i.imgur.com/Gxpxs71.png" group-title="MBC",Mbc Drama 4K
 http://magic-tv.live:2095/live/9853786/34895378/16776.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr" group-title="MBC",Mbc Masr
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr" tvg-logo="https://i.imgur.com/ac7kz6z.png" group-title="MBC",Mbc Masr
 http://magic-tv.live:2095/live/9853786/34895378/518.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 2" group-title="MBC",Mbc Masr 2
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 2" tvg-logo="https://i.imgur.com/3kygIcW.png" group-title="MBC",Mbc Masr 2
 http://magic-tv.live:2095/live/9853786/34895378/517.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 2 4K" group-title="MBC",Mbc Masr 2 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 2 4K" tvg-logo="https://i.imgur.com/3kygIcW.png" group-title="MBC",Mbc Masr 2 4K
 http://magic-tv.live:2095/live/9853786/34895378/16785.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 4K" group-title="MBC",Mbc Masr 4K
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Masr 4K" tvg-logo="https://i.imgur.com/ac7kz6z.png" group-title="MBC",Mbc Masr 4K
 http://magic-tv.live:2095/live/9853786/34895378/16786.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Mbc Max" group-title="MBC",Mbc Max
+#EXTINF:-1 tvg-id="" tvg-name="Mbc Max" tvg-logo="https://i.imgur.com/zzqCLvA.png" group-title="MBC",Mbc Max
 http://magic-tv.live:2095/live/9853786/34895378/513.ts
 
-
-################################################################################
-# Palestine-فلسطين
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="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" group-title="Palestine-فلسطين",PS-Maannews" group-title="Rotana",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" group-title="Palestine-فلسطين",PS-Maannews
-http://magic-tv.live:2095/live/9853786/34895378/90363.ts
+#EXTINF:-1 tvg-id="" tvg-name="Mbc iraq" tvg-logo="https://i.imgur.com/1I4W9kW.png" group-title="MBC",Mbc iraq
+http://magic-tv.live:2095/live/9853786/34895378/52369.ts
 
 
 ################################################################################
-# Rotana
+# OSN
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein Rotana Kids" group-title="Rotana",Bein Rotana Kids
-http://magic-tv.live:2095/live/9853786/34895378/1620355.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nat Wild" tvg-logo="https://i.imgur.com/RvQk5wL.png" group-title="OSN",OSN Nat Wild
+http://magic-tv.live:2095/live/9853786/34895378/54651.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Kids-Rotana Kids" group-title="Rotana",Kids-Rotana Kids
-http://magic-tv.live:2095/live/9853786/34895378/1618763.ts
+#EXTINF:-1 tvg-id="" tvg-name="Kids-OSN Kids" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-kids-ae.png" group-title="OSN",Kids-OSN Kids
+http://magic-tv.live:2095/live/9853786/34895378/1618769.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB-LBC HD" group-title="Rotana",LB-LBC HD
-http://magic-tv.live:2095/live/9853786/34895378/145001.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Action" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-movies-action-ae.png" group-title="OSN",OSN Action
+http://magic-tv.live:2095/live/9853786/34895378/1579973.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB-LBCI" group-title="Rotana",LB-LBCI
-http://magic-tv.live:2095/live/9853786/34895378/1556945.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Al Safwa" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-safwa-ae.png" group-title="OSN",OSN Alfa Al Safwa
+http://magic-tv.live:2095/live/9853786/34895378/1579957.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB-LBCI 4K" group-title="Rotana",LB-LBCI 4K
-http://magic-tv.live:2095/live/9853786/34895378/1450000.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa AlFann" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fann-ae.png" group-title="OSN",OSN Alfa AlFann
+http://magic-tv.live:2095/live/9853786/34895378/1579958.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB:LBC HD" group-title="Rotana",LB:LBC HD
-http://magic-tv.live:2095/live/9853786/34895378/1537693.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Alyoum" tvg-logo="https://www.lyngsat.com/logo/tv/aa/al-yawm-ae.png" group-title="OSN",OSN Alfa Alyoum
+http://magic-tv.live:2095/live/9853786/34895378/1579956.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB:LBC HD +6" group-title="Rotana",LB:LBC HD +6
-http://magic-tv.live:2095/live/9853786/34895378/1621715.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Cinema 1" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cinema-1-ae.png" group-title="OSN",OSN Alfa Cinema 1
+http://magic-tv.live:2095/live/9853786/34895378/1579955.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="LB:LBCI International HD +6" group-title="Rotana",LB:LBCI International HD +6
-http://magic-tv.live:2095/live/9853786/34895378/1621722.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Cinema 2" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cinema-2-ae.png" group-title="OSN",OSN Alfa Cinema 2
+http://magic-tv.live:2095/live/9853786/34895378/1579954.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Aflam + HD" group-title="Rotana",Rotana Aflam + HD
-http://magic-tv.live:2095/live/9853786/34895378/1622389.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Musalsalat" tvg-logo="https://www.lyngsat.com/logo/tv/mm/musalsalat-ae.png" group-title="OSN",OSN Alfa Musalsalat
+http://magic-tv.live:2095/live/9853786/34895378/1579953.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Clip" group-title="Rotana",Rotana Clip
-http://magic-tv.live:2095/live/9853786/34895378/1622381.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Alfa Musalsalat 2" tvg-logo="https://www.lyngsat.com/logo/tv/mm/musalsalat-plus2-ae.png" group-title="OSN",OSN Alfa Musalsalat 2
+http://magic-tv.live:2095/live/9853786/34895378/1579952.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Clip HD" group-title="Rotana",Rotana Clip HD
-http://magic-tv.live:2095/live/9853786/34895378/1622382.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN BLOOMBERG" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="OSN",OSN BLOOMBERG
+http://magic-tv.live:2095/live/9853786/34895378/1615643.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Kids" group-title="Rotana",Rotana Kids
-http://magic-tv.live:2095/live/9853786/34895378/1622380.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Baby TV" tvg-logo="https://i.imgur.com/3b05xOt.png" group-title="OSN",OSN Baby TV
+http://magic-tv.live:2095/live/9853786/34895378/1615645.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Music HD" group-title="Rotana",Rotana Music HD
-http://magic-tv.live:2095/live/9853786/34895378/1622388.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Crime" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-crime-ae.png" group-title="OSN",OSN Crime
+http://magic-tv.live:2095/live/9853786/34895378/1579962.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana music" group-title="Rotana",Rotana music
-http://magic-tv.live:2095/live/9853786/34895378/1622387.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery" tvg-logo="https://i.imgur.com/AbqHlpG.png" group-title="OSN",OSN Discovery
+http://magic-tv.live:2095/live/9853786/34895378/1579945.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana-Cinema KSA" group-title="Rotana",Rotana-Cinema KSA
-http://magic-tv.live:2095/live/9853786/34895378/1622395.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery ID" tvg-logo="https://i.imgur.com/lTTWlky.png" group-title="OSN",OSN Discovery ID
+http://magic-tv.live:2095/live/9853786/34895378/1579944.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana-Cinema-KSA HD" group-title="Rotana",Rotana-Cinema-KSA HD
-http://magic-tv.live:2095/live/9853786/34895378/1622394.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png" group-title="OSN",OSN Disney
+http://magic-tv.live:2095/live/9853786/34895378/1579942.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana-ClassicHD" group-title="Rotana",Rotana-ClassicHD
-http://magic-tv.live:2095/live/9853786/34895378/1622391.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Disney Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png" group-title="OSN",OSN Disney Junior
+http://magic-tv.live:2095/live/9853786/34895378/1579941.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana-DRAMA-HD" group-title="Rotana",Rotana-DRAMA-HD
-http://magic-tv.live:2095/live/9853786/34895378/1622386.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN E!" tvg-logo="https://i.imgur.com/7fDGZsY.png" group-title="OSN",OSN E!
+http://magic-tv.live:2095/live/9853786/34895378/1579961.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Cinema EGY" group-title="Rotana",Rotana.Cinema EGY
-http://magic-tv.live:2095/live/9853786/34895378/1622396.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN FASHION" tvg-logo="https://i.imgur.com/cZWKyuM.png" group-title="OSN",OSN FASHION
+http://magic-tv.live:2095/live/9853786/34895378/1615651.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Cinema EGY HD" group-title="Rotana",Rotana.Cinema EGY HD
-http://magic-tv.live:2095/live/9853786/34895378/1622397.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN FOX-NEWS" tvg-logo="https://i.imgur.com/SvjU4h6.png" group-title="OSN",OSN FOX-NEWS
+http://magic-tv.live:2095/live/9853786/34895378/1615647.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Classic" group-title="Rotana",Rotana.Classic
-http://magic-tv.live:2095/live/9853786/34895378/1622390.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Family" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-movies-family-ae.png" group-title="OSN",OSN Family
+http://magic-tv.live:2095/live/9853786/34895378/1579969.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Drama" group-title="Rotana",Rotana.Drama
-http://magic-tv.live:2095/live/9853786/34895378/1622385.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN H2" tvg-logo="https://i.imgur.com/zNNRQZy.png" group-title="OSN",OSN H2
+http://magic-tv.live:2095/live/9853786/34895378/1579949.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Khalijiah" group-title="Rotana",Rotana.Khalijiah
-http://magic-tv.live:2095/live/9853786/34895378/1622383.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN History" tvg-logo="https://i.imgur.com/Qrrg60u.png" group-title="OSN",OSN History
+http://magic-tv.live:2095/live/9853786/34895378/1579948.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana.Khalijiah HD" group-title="Rotana",Rotana.Khalijiah HD
-http://magic-tv.live:2095/live/9853786/34895378/1622384.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Kids" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-kids-ae.png" group-title="OSN",OSN Kids
+http://magic-tv.live:2095/live/9853786/34895378/1579968.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RotanaComedy" group-title="Rotana",RotanaComedy
-http://magic-tv.live:2095/live/9853786/34895378/1622393.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Kids Zone" tvg-logo="https://i.imgur.com/DRwLAtC.png" group-title="OSN",OSN Kids Zone
+http://magic-tv.live:2095/live/9853786/34895378/1579936.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RotanaComedyHD" group-title="Rotana",RotanaComedyHD
-http://magic-tv.live:2095/live/9853786/34895378/1622392.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN MTV 00S" tvg-logo="https://i.imgur.com/Vyu5Mx4.png" group-title="OSN",OSN MTV 00S
+http://magic-tv.live:2095/live/9853786/34895378/1615648.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN Mezze" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-mezze-ae.png" group-title="OSN",OSN Mezze
+http://magic-tv.live:2095/live/9853786/34895378/1579959.ts
 
-################################################################################
-# Senegal
-################################################################################
+#EXTINF:-1 tvg-id="" tvg-name="OSN Moonbug Kids" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="OSN",OSN Moonbug Kids
+http://magic-tv.live:2095/live/9853786/34895378/1579939.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="iVBORw0KGgoAAAANSUhEUgAAAIQAAABjCAMAAABt21ivAAAAq1BMVEX///8AS5QATJX7/f4ASZPz9fnN2Omh0OrH1+eww9rJ1ea2yN6fzeiCrtB6psr1+Pvt8PbV2+us1Ovb4u6juNWVwd50lL5mi7qt3PLBzeG5xt8oY6IXWZ2iwd3i5/GPvtuGocWXu9pchLVLerCEpMiRrs4xaqa61us3caq05Paou9prkr6Gs9WlvtmtyuIZXJ6Nqs3Fy9esutHJ4vHA8P6Jp8p1ncU2Zpu4w9MSi+hlAAAEPUlEQVRoge2Wa3OjNhSGkbgFEAYMOMZgWGxDvQHW3rRN+/9/WY9uYDvxTD/tdKbnnUwM4iA9OjdhGCgUCoVCoVAoFAqFQqFQKNT/Rmbg1V8MO57/KyHW7lfLedvffi2EgxAI8S8g3p5D1MUucKLlPt3tivh+zpSXXFTXtR6PnMB7MLJTv0ijWwgzjk39ULwpIRI/KB4KOD1SQggtT2rK4EwJJdWwmMWnHobejRdKSSeHspJahFYnezGawrFpmtazF4iaual6vPu+FxC/G0nLXMaaLDUW+ZXFBRwVpzAHwm9gpCqURVYRTrkzXmBcQMRHwl8A9XqqJBzDbpraJs+dBWK7TTTEHz/4VNs0YVuWt3meN7vFhyXs6PAx9NQ6ctcNFsx/KStYpJILdHJBCUG/8VCciTACZ1i99J8Tjh03N/2WteYMsb6BkJ5Yu+s9xMz227zRuzQKKic2nQPfgUeJVXl2VA+w7lFMD8Gy6PHq2zPENzAqCztKAIZuxFZWY6eib++TxRPuJwh3/abs2nxUCWC+Wxb9OfvF7MEvst8eYQE+w4EHSjIriBjCU9XSjSqI2bh6yOQ1ewLR6lStxzyLFQR4onzXDxLY9utyeQXTasbSEBn86PyEtwP4vY7ZHcMzCG/rzjEwsjwM5FV8gYjT/k8Z/wxuNp4QzG8BTwDLHIw7iA3/eRdGVxnMeBUucz+BENUxbfPFY34TTuqyuEA1QEyOPCU6TqQEqXAU2yZ6lwriIPKUEmFDrA+o8tXqoe5N90uIt+1+sanH8Ye+jk8XXhGEZhJCLsFlnUUSUr3LF5mHh3sjgKifQbD1DLFtJYQ52yQ3EJBfwYFviqZQjlD6r1oDRH5DLZ0SGkIUzjBbTRwifPh6kBAxczXE23cO4a1vwlEs4ZBy/qLc7VCwZHP34APqUzckBdHdREgtefqUmCwHrGjpmJMIRMLYTWI2cyb5svP+pLwb2hCZSp08qXiwgb6hXa0gEt4m1FgivTuFjyUqIEzmBncQUeu22iQem0x1/YSe/+YTQalaHtQab1aZbZr1hyyKLyAMftiUu8iMklfRvHizCk862FNgaghjcpX7C4WzY8yTZlHXhAq8OENh9B/XAdoBbzu26MhVD13c4m1C1ONDOETvsOilL7mR3GqxCkXbNtKs4Y1QQdS5yxtoVORuK85XM2P5xDfltM18eBSQeJaoUUIFYn22RK3A3yWQnvgEYTilNIF/vQpeEYZhl2Vd2IzpHA4INmOsbfm5qdwZ7eHoartubEZviZ7/WvEN0V5Fzz5d+CFKypN4bQBPLeGwVNrGQyW4++t8ltfZKhzHMZximRONrJdknwNHvl9K2BvhpG3G7r6eaq/rMn/5qIkDfq/ilQRBoB/ZcJ3cvDT59t08RRDo14w01adTWrzcf8LExc4Lbr8mUCgUCoVCoVAoFAqFQqFQKNR/Uv8AJHpVGx8b+wYAAAAASUVORK5CYII=" group-title="Senegal",AF:SERIE club" group-title="MBC",iVBORw0KGgoAAAANSUhEUgAAAIQAAABjCAMAAABt21ivAAAAq1BMVEX///8AS5QATJX7/f4ASZPz9fnN2Omh0OrH1+eww9rJ1ea2yN6fzeiCrtB6psr1+Pvt8PbV2+us1Ovb4u6juNWVwd50lL5mi7qt3PLBzeG5xt8oY6IXWZ2iwd3i5/GPvtuGocWXu9pchLVLerCEpMiRrs4xaqa61us3caq05Paou9prkr6Gs9WlvtmtyuIZXJ6Nqs3Fy9esutHJ4vHA8P6Jp8p1ncU2Zpu4w9MSi+hlAAAEPUlEQVRoge2Wa3OjNhSGkbgFEAYMOMZgWGxDvQHW3rRN+/9/WY9uYDvxTD/tdKbnnUwM4iA9OjdhGCgUCoVCoVAoFAqFQqFQKNT/Rmbg1V8MO57/KyHW7lfLedvffi2EgxAI8S8g3p5D1MUucKLlPt3tivh+zpSXXFTXtR6PnMB7MLJTv0ijWwgzjk39ULwpIRI/KB4KOD1SQggtT2rK4EwJJdWwmMWnHobejRdKSSeHspJahFYnezGawrFpmtazF4iaual6vPu+FxC/G0nLXMaaLDUW+ZXFBRwVpzAHwm9gpCqURVYRTrkzXmBcQMRHwl8A9XqqJBzDbpraJs+dBWK7TTTEHz/4VNs0YVuWt3meN7vFhyXs6PAx9NQ6ctcNFsx/KStYpJILdHJBCUG/8VCciTACZ1i99J8Tjh03N/2WteYMsb6BkJ5Yu+s9xMz227zRuzQKKic2nQPfgUeJVXl2VA+w7lFMD8Gy6PHq2zPENzAqCztKAIZuxFZWY6eib++TxRPuJwh3/abs2nxUCWC+Wxb9OfvF7MEvst8eYQE+w4EHSjIriBjCU9XSjSqI2bh6yOQ1ewLR6lStxzyLFQR4onzXDxLY9utyeQXTasbSEBn86PyEtwP4vY7ZHcMzCG/rzjEwsjwM5FV8gYjT/k8Z/wxuNp4QzG8BTwDLHIw7iA3/eRdGVxnMeBUucz+BENUxbfPFY34TTuqyuEA1QEyOPCU6TqQEqXAU2yZ6lwriIPKUEmFDrA+o8tXqoe5N90uIt+1+sanH8Ye+jk8XXhGEZhJCLsFlnUUSUr3LF5mHh3sjgKifQbD1DLFtJYQ52yQ3EJBfwYFviqZQjlD6r1oDRH5DLZ0SGkIUzjBbTRwifPh6kBAxczXE23cO4a1vwlEs4ZBy/qLc7VCwZHP34APqUzckBdHdREgtefqUmCwHrGjpmJMIRMLYTWI2cyb5svP+pLwb2hCZSp08qXiwgb6hXa0gEt4m1FgivTuFjyUqIEzmBncQUeu22iQem0x1/YSe/+YTQalaHtQab1aZbZr1hyyKLyAMftiUu8iMklfRvHizCk862FNgaghjcpX7C4WzY8yTZlHXhAq8OENh9B/XAdoBbzu26MhVD13c4m1C1ONDOETvsOilL7mR3GqxCkXbNtKs4Y1QQdS5yxtoVORuK85XM2P5xDfltM18eBSQeJaoUUIFYn22RK3A3yWQnvgEYTilNIF/vQpeEYZhl2Vd2IzpHA4INmOsbfm5qdwZ7eHoartubEZviZ7/WvEN0V5Fzz5d+CFKypN4bQBPLeGwVNrGQyW4++t8ltfZKhzHMZximRONrJdknwNHvl9K2BvhpG3G7r6eaq/rMn/5qIkDfq/ilQRBoB/ZcJ3cvDT59t08RRDo14w01adTWrzcf8LExc4Lbr8mUCgUCoVCoVAoFAqFQqFQKNR/Uv8AJHpVGx8b+wYAAAAASUVORK5CYII=" group-title="Senegal",AF:SERIE club
-http://magic-tv.live:2095/live/9853786/34895378/135663.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN NICK JR." tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="OSN",OSN NICK JR.
+http://magic-tv.live:2095/live/9853786/34895378/1615646.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN NOW HD" tvg-logo="" group-title="OSN",OSN NOW HD
+http://magic-tv.live:2095/live/9853786/34895378/1615655.ts
 
-################################################################################
-# Shahid Live
-################################################################################
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nat Geo" tvg-logo="https://i.imgur.com/wDXYlMf.png" group-title="OSN",OSN Nat Geo
+http://magic-tv.live:2095/live/9853786/34895378/1579947.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FIFA+" group-title="Shahid Live",FIFA+
-http://magic-tv.live:2095/live/9853786/34895378/1667931.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nat. Geo. Wild HD" tvg-logo="https://i.imgur.com/CnHuufl.png" group-title="OSN",OSN Nat. Geo. Wild HD
+http://magic-tv.live:2095/live/9853786/34895378/1615644.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Freej" group-title="Shahid Live",Freej
-http://magic-tv.live:2095/live/9853786/34895378/1667932.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN News" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-news-ae.png" group-title="OSN",OSN News
+http://magic-tv.live:2095/live/9853786/34895378/1579950.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movies" group-title="Shahid Live",Movies
-http://magic-tv.live:2095/live/9853786/34895378/1592330.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Jr" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="OSN",OSN Nick Jr
+http://magic-tv.live:2095/live/9853786/34895378/1579938.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movies-Action" group-title="Shahid Live",Movies-Action
-http://magic-tv.live:2095/live/9853786/34895378/1592332.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Toon" tvg-logo="https://i.imgur.com/DPTU3I5.png" group-title="OSN",OSN Nick Toon
+http://magic-tv.live:2095/live/9853786/34895378/1579937.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movies-Thriller" group-title="Shahid Live",Movies-Thriller
-http://magic-tv.live:2095/live/9853786/34895378/1592333.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nickelodeon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png" group-title="OSN",OSN Nickelodeon
+http://magic-tv.live:2095/live/9853786/34895378/1579935.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ramadan-Ma’na" group-title="Shahid Live",Ramadan-Ma’na
-http://magic-tv.live:2095/live/9853786/34895378/1667935.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN ONE" tvg-logo="https://i.imgur.com/KHAWoYv.png" group-title="OSN",OSN ONE
+http://magic-tv.live:2095/live/9853786/34895378/1615649.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ramadan-Ma’na-Series" group-title="Shahid Live",Ramadan-Ma’na-Series
-http://magic-tv.live:2095/live/9853786/34895378/1667937.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Premiere" tvg-logo="https://i.imgur.com/2MomHqn.png" group-title="OSN",OSN Premiere
+http://magic-tv.live:2095/live/9853786/34895378/1615654.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 1 HD" group-title="Shahid Live",Shahid 1 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540883.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Premiere+2" tvg-logo="https://i.imgur.com/A0K0v6O.png" group-title="OSN",OSN Premiere+2
+http://magic-tv.live:2095/live/9853786/34895378/1615653.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 2 HD" group-title="Shahid Live",Shahid 2 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540882.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN SKY NEWS" tvg-logo="https://i.imgur.com/SvjU4h6.png" group-title="OSN",OSN SKY NEWS
+http://magic-tv.live:2095/live/9853786/34895378/1615650.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 3 HD" group-title="Shahid Live",Shahid 3 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540881.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Series Comedy" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-comedy-ae.png" group-title="OSN",OSN Series Comedy
+http://magic-tv.live:2095/live/9853786/34895378/1579966.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 4 HD" group-title="Shahid Live",Shahid 4 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540880.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Showcase" tvg-logo="https://i.imgur.com/Lp7GCmE.png" group-title="OSN",OSN Showcase
+http://magic-tv.live:2095/live/9853786/34895378/1615652.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 5 HD" group-title="Shahid Live",Shahid 5 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540879.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Star Movies" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star_movies.png" group-title="OSN",OSN Star Movies
+http://magic-tv.live:2095/live/9853786/34895378/1579965.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 6 HD" group-title="Shahid Live",Shahid 6 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540878.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Star World" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star_world_hk.png" group-title="OSN",OSN Star World
+http://magic-tv.live:2095/live/9853786/34895378/1579964.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 7 HD" group-title="Shahid Live",Shahid 7 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540877.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN TFC" tvg-logo="https://i.imgur.com/EB9OUPv.png" group-title="OSN",OSN TFC
+http://magic-tv.live:2095/live/9853786/34895378/1615642.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 8 HD" group-title="Shahid Live",Shahid 8 HD
-http://magic-tv.live:2095/live/9853786/34895378/1540876.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN TLC" tvg-logo="https://i.imgur.com/3AYrkz4.png" group-title="OSN",OSN TLC
+http://magic-tv.live:2095/live/9853786/34895378/1579963.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid Movies" group-title="Shahid Live",Shahid Movies
-http://magic-tv.live:2095/live/9853786/34895378/1546679.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN WWE" tvg-logo="https://i.imgur.com/XwypCyn.png" group-title="OSN",OSN WWE
+http://magic-tv.live:2095/live/9853786/34895378/1579926.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid افلام" group-title="Shahid Live",Shahid افلام
-http://magic-tv.live:2095/live/9853786/34895378/1546680.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Yahala Bil Arabi" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-yahala-bil-arabi-ae.png" group-title="OSN",OSN Yahala Bil Arabi
+http://magic-tv.live:2095/live/9853786/34895378/1579977.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid تياترو مصر" group-title="Shahid Live",Shahid تياترو مصر
-http://magic-tv.live:2095/live/9853786/34895378/1559197.ts
+#EXTINF:-1 tvg-id="" tvg-name="Osn Movies Hollywood" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-movies-hollywood-ae.png" group-title="OSN",Osn Movies Hollywood
+http://magic-tv.live:2095/live/9853786/34895378/1579972.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid مسرح بلس" group-title="Shahid Live",Shahid مسرح بلس
-http://magic-tv.live:2095/live/9853786/34895378/1560792.ts
+#EXTINF:-1 tvg-id="" tvg-name="Osn yahala" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-yahala-ae.png" group-title="OSN",Osn yahala
+http://magic-tv.live:2095/live/9853786/34895378/1579976.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid مسرح مصر 1" group-title="Shahid Live",Shahid مسرح مصر 1
-http://magic-tv.live:2095/live/9853786/34895378/1559087.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid مسرح مصر 2" group-title="Shahid Live",Shahid مسرح مصر 2
-http://magic-tv.live:2095/live/9853786/34895378/1559088.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Spooky-Nights" group-title="Shahid Live",Spooky-Nights
-http://magic-tv.live:2095/live/9853786/34895378/1667933.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Tarab" group-title="Shahid Live",Tarab
-http://magic-tv.live:2095/live/9853786/34895378/1667934.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="WWE HD" group-title="Shahid Live",WWE HD
-http://magic-tv.live:2095/live/9853786/34895378/1611488.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 1 4k" group-title="Shahid Live",Shahid 1 4k
-http://magic-tv.live:2095/live/9853786/34895378/1692120.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 1 SD" group-title="Shahid Live",Shahid 1 SD
-http://magic-tv.live:2095/live/9853786/34895378/1692119.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 2 4K" group-title="Shahid Live",Shahid 2 4K
-http://magic-tv.live:2095/live/9853786/34895378/1692118.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid 2 SD" group-title="Shahid Live",Shahid 2 SD
-http://magic-tv.live:2095/live/9853786/34895378/1692117.ts
-
-
-################################################################################
-# Turkish
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="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" group-title="Turkish",TR:Bloomberg" group-title="Arabic Sports",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" group-title="Turkish",TR:Bloomberg
-http://magic-tv.live:2095/live/9853786/34895378/1503353.ts
-
-
-################################################################################
-# Yemen-اليمن
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="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" group-title="Yemen-اليمن",YE-Al Thaqalayn TV" group-title="beIN Movies",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" group-title="Yemen-اليمن",YE-Al Thaqalayn TV
-http://magic-tv.live:2095/live/9853786/34895378/1503498.ts
+#EXTINF:-1 tvg-id="" tvg-name="Osn yahala aflam" tvg-logo="https://www.lyngsat.com/logo/tv/oo/osn-tv-yahala-aflam-ae.png" group-title="OSN",Osn yahala aflam
+http://magic-tv.live:2095/live/9853786/34895378/1579975.ts
