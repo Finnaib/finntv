@@ -4,1488 +4,794 @@
 # Arabic Sports
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AD|AD SPORTS 1 PREMIUM FHD" group-title="Arabic Sports",AD|AD SPORTS 1 PREMIUM FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/177285.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sport 1 HD" group-title="Arabic Sports",AD Sport 1 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1142.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD|AD SPORTS 1 PREMIUM HD" group-title="Arabic Sports",AD|AD SPORTS 1 PREMIUM HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/177284.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sport 2 HD" group-title="Arabic Sports",AD Sport 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1141.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD|AD SPORTS 2 PREMIUM FHD" group-title="Arabic Sports",AD|AD SPORTS 2 PREMIUM FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/177287.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL AHLY FHD H265" group-title="Arabic Sports",AL AHLY FHD H265
+http://sa.savpn.xyz:80/live/manar/manar2023/1146.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD|AD SPORTS 2 PREMIUM HD" group-title="Arabic Sports",AD|AD SPORTS 2 PREMIUM HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/177286.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL AHLY HD" group-title="Arabic Sports",AL AHLY HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1615.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ABU DHABI ASIA 1HD" group-title="Arabic Sports",AR| ABU DHABI ASIA 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/151864.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL AHLY SD" group-title="Arabic Sports",AL AHLY SD
+http://sa.savpn.xyz:80/live/manar/manar2023/1143.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ABU DHABI ASIA 2HD" group-title="Arabic Sports",AR| ABU DHABI ASIA 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/151866.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL ZAMALEK TV" group-title="Arabic Sports",AL ZAMALEK TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1145.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD SPORT 2 HEVC" group-title="Arabic Sports",AD SPORT 2 HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/64917.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kass Four HD" group-title="Arabic Sports",Al Kass Four HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1130.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1HD" group-title="Arabic Sports",AD Sports 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/3341.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kass One HD" group-title="Arabic Sports",Al Kass One HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1133.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AD Sports 2HD" group-title="Arabic Sports",AD Sports 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/3340.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kass Two HD" group-title="Arabic Sports",Al Kass Two HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1132.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| KSA Sport 1HD" group-title="Arabic Sports",AR| KSA Sport 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/68817.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS" group-title="Arabic Sports",BEIN SPORTS
+http://sa.savpn.xyz:80/live/manar/manar2023/1953.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| KSA Sport 1HD+" group-title="Arabic Sports",AR| KSA Sport 1HD+
-http://atrupo4k.com:80/live/aymman988/gd79w941/68820.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS NEWS" group-title="Arabic Sports",BEIN SPORTS NEWS
+http://sa.savpn.xyz:80/live/manar/manar2023/1952.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| KSA Sport 2HD" group-title="Arabic Sports",AR| KSA Sport 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/68818.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ksa Sport 1 HD" group-title="Arabic Sports",Ksa Sport 1 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1137.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| KSA Sport 2HD+" group-title="Arabic Sports",AR| KSA Sport 2HD+
-http://atrupo4k.com:80/live/aymman988/gd79w941/68821.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ksa Sport 2 HD" group-title="Arabic Sports",Ksa Sport 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1136.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC SPORT 24" group-title="Arabic Sports",AR|STC SPORT 24
-http://atrupo4k.com:80/live/aymman988/gd79w941/237324.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ksa Sport 3 HD" group-title="Arabic Sports",Ksa Sport 3 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1135.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC SSC NEWS" group-title="Arabic Sports",AR|STC SSC NEWS
-http://atrupo4k.com:80/live/aymman988/gd79w941/237325.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ksa Sport 4 HD" group-title="Arabic Sports",Ksa Sport 4 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1134.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC STARZPLAY SPORTS" group-title="Arabic Sports",AR|STC STARZPLAY SPORTS
-http://atrupo4k.com:80/live/aymman988/gd79w941/237329.ts
+#EXTINF:-1 tvg-id="" tvg-name="NILE SPORT" group-title="Arabic Sports",NILE SPORT
+http://sa.savpn.xyz:80/live/manar/manar2023/1122.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC TV SPORTS 1" group-title="Arabic Sports",AR|STC TV SPORTS 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/237334.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  2 FHD H265" group-title="Arabic Sports",ON  SPORT  2 FHD H265
+http://sa.savpn.xyz:80/live/manar/manar2023/405876.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC TV SPORTS 1 HD" group-title="Arabic Sports",AR|STC TV SPORTS 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237335.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  2 HD" group-title="Arabic Sports",ON  SPORT  2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/86841.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC TV SPORTS 2" group-title="Arabic Sports",AR|STC TV SPORTS 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/237336.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  2 SD" group-title="Arabic Sports",ON  SPORT  2 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/634221.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC TV SPORTS 2 HD" group-title="Arabic Sports",AR|STC TV SPORTS 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237337.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  FHD H265" group-title="Arabic Sports",ON  SPORT  FHD H265
+http://sa.savpn.xyz:80/live/manar/manar2023/835727.ts
 
-################################################################################
-# beIN MAX
-################################################################################
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  HD" group-title="Arabic Sports",ON  SPORT  HD
+http://sa.savpn.xyz:80/live/manar/manar2023/715555.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 10 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 10 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7736.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  MAX FHD H265" group-title="Arabic Sports",ON  SPORT  MAX FHD H265
+http://sa.savpn.xyz:80/live/manar/manar2023/37813.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 4 FHD" group-title="beIN MAX",FR|BEIN SPORTS MAX 4 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25989.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  MAX HD" group-title="Arabic Sports",ON  SPORT  MAX HD
+http://sa.savpn.xyz:80/live/manar/manar2023/106867.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 4 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7742.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  MAX SD" group-title="Arabic Sports",ON  SPORT  MAX SD
+http://sa.savpn.xyz:80/live/manar/manar2023/224998.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 5 FHD" group-title="beIN MAX",FR|BEIN SPORTS MAX 5 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25988.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT  Plus HD" group-title="Arabic Sports",ON  SPORT  Plus HD
+http://sa.savpn.xyz:80/live/manar/manar2023/885111.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 5 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 5 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7741.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT Plus FHD H265" group-title="Arabic Sports",ON  SPORT Plus FHD H265
+http://sa.savpn.xyz:80/live/manar/manar2023/568604.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 6 FHD" group-title="beIN MAX",FR|BEIN SPORTS MAX 6 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25987.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT Plus SD" group-title="Arabic Sports",ON  SPORT Plus SD
+http://sa.savpn.xyz:80/live/manar/manar2023/176758.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 6 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 6 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7740.ts
+#EXTINF:-1 tvg-id="" tvg-name="ON  SPORT SD" group-title="Arabic Sports",ON  SPORT SD
+http://sa.savpn.xyz:80/live/manar/manar2023/277505.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 7 FHD" group-title="beIN MAX",FR|BEIN SPORTS MAX 7 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25986.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1 Asia 4K" group-title="Arabic Sports",AD Sports 1 Asia 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/698789.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 7 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 7 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7739.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1 Asia HD" group-title="Arabic Sports",AD Sports 1 Asia HD
+http://sa.savpn.xyz:80/live/manar/manar2023/793408.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 8 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 8 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7738.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 1 Asia SD" group-title="Arabic Sports",AD Sports 1 Asia SD
+http://sa.savpn.xyz:80/live/manar/manar2023/584005.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 9 FHD" group-title="beIN MAX",FR|BEIN SPORTS MAX 9 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25984.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 2 Asia 4K" group-title="Arabic Sports",AD Sports 2 Asia 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/197940.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS MAX 9 HD" group-title="beIN MAX",FR|BEIN SPORTS MAX 9 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7737.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 2 Asia HD" group-title="Arabic Sports",AD Sports 2 Asia HD
+http://sa.savpn.xyz:80/live/manar/manar2023/99979.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="FR|beIN SPORTS MAX 8 FHD" group-title="beIN MAX",FR|beIN SPORTS MAX 8 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/25985.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORTS MAX 4 SD" group-title="beIN MAX",|FR| BEIN SPORTS MAX 4 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/128998.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORTS MAX 5 SD" group-title="beIN MAX",|FR| BEIN SPORTS MAX 5 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/128999.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORTS MAX 6 SD" group-title="beIN MAX",|FR| BEIN SPORTS MAX 6 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/129000.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORTS MAX 8 SD" group-title="beIN MAX",|FR| BEIN SPORTS MAX 8 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/129002.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORTS MAX 9 SD" group-title="beIN MAX",|FR| BEIN SPORTS MAX 9 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/129003.ts
+#EXTINF:-1 tvg-id="" tvg-name="AD Sports 2 Asia SD" group-title="Arabic Sports",AD Sports 2 Asia SD
+http://sa.savpn.xyz:80/live/manar/manar2023/664545.ts
 
 ################################################################################
 # beIN Movies
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN FOX ACTION MOVIES" group-title="beIN Movies",AR|beIN FOX ACTION MOVIES
-http://atrupo4k.com:80/live/aymman988/gd79w941/71243.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein jeem HD" group-title="beIN Movies",Bein jeem HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1916.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN Fatafeat" group-title="beIN Movies",AR|beIN Fatafeat
-http://atrupo4k.com:80/live/aymman988/gd79w941/71228.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein BARAEAM 4K" group-title="beIN Movies",Bein BARAEAM 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1904.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN Fox Family Movies" group-title="beIN Movies",AR|beIN Fox Family Movies
-http://atrupo4k.com:80/live/aymman988/gd79w941/129262.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein BBC EARTH 4K" group-title="beIN Movies",Bein BBC EARTH 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1902.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN HGTV" group-title="beIN Movies",AR|beIN HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/129266.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FATAFEAT 4K" group-title="beIN Movies",Bein FATAFEAT 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1901.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN JEEM" group-title="beIN Movies",AR|beIN JEEM
-http://atrupo4k.com:80/live/aymman988/gd79w941/71250.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FOX CRIME 4K" group-title="beIN Movies",Bein FOX CRIME 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1900.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 1 HD" group-title="beIN Movies",AR|beIN MOVIES 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71221.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FOX LIFE 4K" group-title="beIN Movies",Bein FOX LIFE 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1899.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 1 HEVC" group-title="beIN Movies",AR|beIN MOVIES 1 HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/124862.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FOX MOV ACTION 4K" group-title="beIN Movies",Bein FOX MOV ACTION 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1898.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 2 HD" group-title="beIN Movies",AR|beIN MOVIES 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71222.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FOX MOVIES 4K" group-title="beIN Movies",Bein FOX MOVIES 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1897.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 2 HEVC" group-title="beIN Movies",AR|beIN MOVIES 2 HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/124863.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein FOX REWAYAT 4K" group-title="beIN Movies",Bein FOX REWAYAT 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1896.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 3 HD" group-title="beIN Movies",AR|beIN MOVIES 3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71223.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein GORMENT 4K" group-title="beIN Movies",Bein GORMENT 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1895.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 3 HEVC" group-title="beIN Movies",AR|beIN MOVIES 3 HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/124864.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein JEEM 4K" group-title="beIN Movies",Bein JEEM 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1903.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 4 HD" group-title="beIN Movies",AR|beIN MOVIES 4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71224.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN DRAMA 4K" group-title="beIN Movies",beIN DRAMA 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1907.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN MOVIES 4 HEVC" group-title="beIN Movies",AR|beIN MOVIES 4 HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/124865.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MOVIES 1 4K" group-title="beIN Movies",beIN MOVIES 1 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1911.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN STAR Movies" group-title="beIN Movies",AR|beIN STAR Movies
-http://atrupo4k.com:80/live/aymman988/gd79w941/71257.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MOVIES 2 4K" group-title="beIN Movies",beIN MOVIES 2 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1910.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN TCM HD" group-title="beIN Movies",AR|beIN TCM HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/86222.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MOVIES 3 4K" group-title="beIN Movies",beIN MOVIES 3 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1909.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC FATAFEAT" group-title="beIN Movies",AR|STC FATAFEAT
-http://atrupo4k.com:80/live/aymman988/gd79w941/237353.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN MOVIES 4 4K" group-title="beIN Movies",beIN MOVIES 4 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1908.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BR| HGTV HD" group-title="beIN Movies",BR| HGTV HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/169397.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SERIES 1 4K" group-title="beIN Movies",beIN SERIES 1 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1906.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="CA|HGTV HD" group-title="beIN Movies",CA|HGTV HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/175759.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SERIES 2 4K" group-title="beIN Movies",beIN SERIES 2 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/1905.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="CA-VIP| HGTV" group-title="beIN Movies",CA-VIP| HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/237002.ts
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Travel HD" group-title="beIN Movies",BeIN Travel HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1914.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[ITA] HGTV HD" group-title="beIN Movies",[ITA] HGTV HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/207336.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Baby HD" group-title="beIN Movies",Bein Baby HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1915.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MX| HGTV" group-title="beIN Movies",MX| HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/165420.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Baraem HD" group-title="beIN Movies",Bein Baraem HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1917.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PL|HGTV" group-title="beIN Movies",PL|HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/124969.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Boomerang HD" group-title="beIN Movies",Bein Boomerang HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1912.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PL|HGTV HEVC" group-title="beIN Movies",PL|HGTV HEVC
-http://atrupo4k.com:80/live/aymman988/gd79w941/124984.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Carton Network HD" group-title="beIN Movies",Bein Carton Network HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1913.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="UK|HGTV+1" group-title="beIN Movies",UK|HGTV+1
-http://atrupo4k.com:80/live/aymman988/gd79w941/237552.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Drama HD1" group-title="beIN Movies",Bein Drama HD1
+http://sa.savpn.xyz:80/live/manar/manar2023/1932.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="USA| HGTV" group-title="beIN Movies",USA| HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/238405.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Fatafeat" group-title="beIN Movies",Bein Fatafeat
+http://sa.savpn.xyz:80/live/manar/manar2023/1921.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DSTV| HGTV" group-title="beIN Movies",DSTV| HGTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/174107.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Gourmet HD" group-title="beIN Movies",Bein Gourmet HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1922.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Movies HD1" group-title="beIN Movies",Bein Movies HD1
+http://sa.savpn.xyz:80/live/manar/manar2023/1936.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Movies HD2" group-title="beIN Movies",Bein Movies HD2
+http://sa.savpn.xyz:80/live/manar/manar2023/1935.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Movies HD3" group-title="beIN Movies",Bein Movies HD3
+http://sa.savpn.xyz:80/live/manar/manar2023/1934.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Movies HD4" group-title="beIN Movies",Bein Movies HD4
+http://sa.savpn.xyz:80/live/manar/manar2023/1933.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Series HD1" group-title="beIN Movies",Bein Series HD1
+http://sa.savpn.xyz:80/live/manar/manar2023/1931.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Series HD2" group-title="beIN Movies",Bein Series HD2
+http://sa.savpn.xyz:80/live/manar/manar2023/1930.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Star Movies HD" group-title="beIN Movies",Bein Star Movies HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1923.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein Star World HD" group-title="beIN Movies",Bein Star World HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1924.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein jeem HD" group-title="beIN Movies",Bein jeem HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1916.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein star Action HD" group-title="beIN Movies",Bein star Action HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1925.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein star Life HD" group-title="beIN Movies",Bein star Life HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1929.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein star film HD" group-title="beIN Movies",Bein star film HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1926.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein star se HD" group-title="beIN Movies",Bein star se HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1920.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bein.Movies.premier" group-title="beIN Movies",Bein.Movies.premier
+http://sa.savpn.xyz:80/live/manar/manar2023/555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeinMovies.Action" group-title="beIN Movies",BeinMovies.Action
+http://sa.savpn.xyz:80/live/manar/manar2023/556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeinMovies.Stars" group-title="beIN Movies",BeinMovies.Stars
+http://sa.savpn.xyz:80/live/manar/manar2023/554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeinMovies.Turk" group-title="beIN Movies",BeinMovies.Turk
+http://sa.savpn.xyz:80/live/manar/manar2023/553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="HGTV" group-title="beIN Movies",HGTV
+http://sa.savpn.xyz:80/live/manar/manar2023/458.ts
 
 ################################################################################
 # beIN Sports
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 4K (H.265)" group-title="beIN Sports",beIN SPORTS 1 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7256.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 1 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/410706.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 FR (H.265)" group-title="beIN Sports",beIN SPORTS 1 FR (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/144479.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 2 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/582152.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 4K (H.265)" group-title="beIN Sports",beIN SPORTS 2 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/55414.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 3 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/150729.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 EN (H.265)" group-title="beIN Sports",beIN SPORTS 2 EN (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/144477.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 4 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/193768.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 FR (H.265)" group-title="beIN Sports",beIN SPORTS 2 FR (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/144480.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 5 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/782634.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 4K(H.265)" group-title="beIN Sports",beIN SPORTS 3 4K(H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/64692.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 6 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/372231.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 FR (H.265)" group-title="beIN Sports",beIN SPORTS 3 FR (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/144481.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 H265 FHD 4M" group-title="beIN Sports",BEIN SPORT 7 H265 FHD 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/167754.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 4K (H.265)" group-title="beIN Sports",beIN SPORTS 4 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7262.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 FHD H265 4M" group-title="beIN Sports",BEIN SPORT 8 FHD H265 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/979525.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 4K (H.265)" group-title="beIN Sports",beIN SPORTS 5 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7261.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 FHD H265 4M" group-title="beIN Sports",BEIN SPORT 9 FHD H265 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/909074.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 4K (H.265)" group-title="beIN Sports",beIN SPORTS 6 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7260.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 1 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/693172.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 4K (H.265)" group-title="beIN Sports",beIN SPORTS 7 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7259.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 2 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/509057.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 8 4K (H.265)" group-title="beIN Sports",beIN SPORTS 8 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7258.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 3 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/423346.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 9 4K (H.265)" group-title="beIN Sports",beIN SPORTS 9 4K (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/7257.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 4 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/729735.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS EN 1 (H.265)" group-title="beIN Sports",beIN SPORTS EN 1 (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/71698.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 5 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/844940.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 (H.265)" group-title="beIN Sports",beIN SPORTS XTRA 1 (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/71699.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 6 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/984150.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 (H.265)" group-title="beIN Sports",beIN SPORTS XTRA 2 (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/71700.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 7 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/882382.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 1FHD" group-title="beIN Sports",AR|beIN AFC 1FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219553.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 8 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/481393.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 1HD" group-title="beIN Sports",AR|beIN AFC 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219551.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 H265 HD 2M" group-title="beIN Sports",BEIN SPORT 9 H265 HD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/574944.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 1SD" group-title="beIN Sports",AR|beIN AFC 1SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219552.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 1 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/493682.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 2FHD" group-title="beIN Sports",AR|beIN AFC 2FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219556.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 2 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/422331.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 2HD" group-title="beIN Sports",AR|beIN AFC 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219554.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 3 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/546507.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 2SD" group-title="beIN Sports",AR|beIN AFC 2SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219555.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 4 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/716559.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 3FHD" group-title="beIN Sports",AR|beIN AFC 3FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219559.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 5 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/681664.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 3HD" group-title="beIN Sports",AR|beIN AFC 3HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219557.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 6 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/521551.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC 3SD" group-title="beIN Sports",AR|beIN AFC 3SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219558.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 7 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/406524.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC FHD" group-title="beIN Sports",AR|beIN AFC FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219549.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 8 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/46522.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC HD" group-title="beIN Sports",AR|beIN AFC HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219546.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 H265 HQ 1M" group-title="beIN Sports",BEIN SPORT 9 H265 HQ 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/679179.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC HDᐩ" group-title="beIN Sports",AR|beIN AFC HDᐩ
-http://atrupo4k.com:80/live/aymman988/gd79w941/219545.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 HQ 4M" group-title="beIN Sports",BEIN SPORT 1 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/204112.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC SD" group-title="beIN Sports",AR|beIN AFC SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/219548.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 HQ 4M" group-title="beIN Sports",BEIN SPORT 2 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/934886.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC SDᐩ" group-title="beIN Sports",AR|beIN AFC SDᐩ
-http://atrupo4k.com:80/live/aymman988/gd79w941/219547.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 HQ 4M" group-title="beIN Sports",BEIN SPORT 3 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/595940.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN AFC4k" group-title="beIN Sports",AR|beIN AFC4k
-http://atrupo4k.com:80/live/aymman988/gd79w941/219550.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 HQ 4M" group-title="beIN Sports",BEIN SPORT 4 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/738363.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 EN FHD" group-title="beIN Sports",beIN SPORTS 1 EN FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71694.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 HQ 4M" group-title="beIN Sports",BEIN SPORT 5 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/291247.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 FHD" group-title="beIN Sports",beIN SPORTS 1 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7266.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 HQ 4M" group-title="beIN Sports",BEIN SPORT 6 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/780270.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 FHD" group-title="beIN Sports",beIN SPORTS 2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/107267.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 HQ 4M" group-title="beIN Sports",BEIN SPORT 7 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/271266.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 FR FHD" group-title="beIN Sports",beIN SPORTS 2 FR FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/144475.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 HQ 4M" group-title="beIN Sports",BEIN SPORT 8 HQ 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/431301.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 FHD" group-title="beIN Sports",beIN SPORTS 3 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7264.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 4K 4M" group-title="beIN Sports",BEIN SPORT 9 4K 4M
+http://sa.savpn.xyz:80/live/manar/manar2023/547860.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 FR FHD" group-title="beIN Sports",beIN SPORTS 3 FR FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/144476.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 LOW 1M" group-title="beIN Sports",BEIN SPORT 1 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/35767.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 FHD" group-title="beIN Sports",beIN SPORTS 4 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7273.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 LOW 1M" group-title="beIN Sports",BEIN SPORT 2 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/131825.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 FHD" group-title="beIN Sports",beIN SPORTS 5 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7272.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 LOW 1M" group-title="beIN Sports",BEIN SPORT 3 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/652548.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 FHD" group-title="beIN Sports",beIN SPORTS 6 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7270.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 LOW 1M" group-title="beIN Sports",BEIN SPORT 4 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/243256.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 FHD" group-title="beIN Sports",beIN SPORTS 7 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7269.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 LOW 1M" group-title="beIN Sports",BEIN SPORT 5 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/35682.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 8FHD" group-title="beIN Sports",beIN SPORTS 8FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7268.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 LOW 1M" group-title="beIN Sports",BEIN SPORT 6 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/641814.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 9 FHD" group-title="beIN Sports",beIN SPORTS 9 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7267.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 LOW 1M" group-title="beIN Sports",BEIN SPORT 7 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/909757.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS EN 2 FHD" group-title="beIN Sports",beIN SPORTS EN 2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/88499.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 LOW 1M" group-title="beIN Sports",BEIN SPORT 8 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/394018.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FR 1 FHD" group-title="beIN Sports",beIN SPORTS FR 1 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/88500.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 LOW 1M" group-title="beIN Sports",BEIN SPORT 9 LOW 1M
+http://sa.savpn.xyz:80/live/manar/manar2023/160639.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 EN" group-title="beIN Sports",beIN SPORTS 1 EN
-http://atrupo4k.com:80/live/aymman988/gd79w941/153592.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 MINI 512K" group-title="beIN Sports",BEIN SPORT 1 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/194432.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 FR" group-title="beIN Sports",beIN SPORTS 1 FR
-http://atrupo4k.com:80/live/aymman988/gd79w941/153595.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 MINI 512K" group-title="beIN Sports",BEIN SPORT 2 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/618157.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 HD" group-title="beIN Sports",beIN SPORTS 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153582.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 MINI 512K" group-title="beIN Sports",BEIN SPORT 3 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/117974.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1HD" group-title="beIN Sports",beIN SPORTS 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7756.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 MINI 512K" group-title="beIN Sports",BEIN SPORT 4 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/698573.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1HD EN" group-title="beIN Sports",beIN SPORTS 1HD EN
-http://atrupo4k.com:80/live/aymman988/gd79w941/3632.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 MINI 512K" group-title="beIN Sports",BEIN SPORT 5 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/332578.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1HD FR" group-title="beIN Sports",beIN SPORTS 1HD FR
-http://atrupo4k.com:80/live/aymman988/gd79w941/4036.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 MINI 512K" group-title="beIN Sports",BEIN SPORT 6 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/407331.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 FR" group-title="beIN Sports",beIN SPORTS 2 FR
-http://atrupo4k.com:80/live/aymman988/gd79w941/153596.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 MINI 512K" group-title="beIN Sports",BEIN SPORT 7 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/206649.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 FR HD" group-title="beIN Sports",beIN SPORTS 2 FR HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/144483.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 MINI 512K" group-title="beIN Sports",BEIN SPORT 8 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/240213.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 HD" group-title="beIN Sports",beIN SPORTS 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153583.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 MINI 512K" group-title="beIN Sports",BEIN SPORT 9 MINI 512K
+http://sa.savpn.xyz:80/live/manar/manar2023/738684.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2HD" group-title="beIN Sports",beIN SPORTS 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7755.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 NANO 2M" group-title="beIN Sports",BEIN SPORT 1 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/906544.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2HD EN" group-title="beIN Sports",beIN SPORTS 2HD EN
-http://atrupo4k.com:80/live/aymman988/gd79w941/4038.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 NANO 2M" group-title="beIN Sports",BEIN SPORT 2 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/392327.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 FR HD" group-title="beIN Sports",beIN SPORTS 3 FR HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/144482.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 NANO 2M" group-title="beIN Sports",BEIN SPORT 3 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/423451.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 HD" group-title="beIN Sports",beIN SPORTS 3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153584.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 NANO 2M" group-title="beIN Sports",BEIN SPORT 4 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/259959.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3HD" group-title="beIN Sports",beIN SPORTS 3HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7749.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 NANO 2M" group-title="beIN Sports",BEIN SPORT 5 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/478444.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 HD" group-title="beIN Sports",beIN SPORTS 4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7754.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 NANO 2M" group-title="beIN Sports",BEIN SPORT 6 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/750305.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4HD" group-title="beIN Sports",beIN SPORTS 4HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7751.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 NANO 2M" group-title="beIN Sports",BEIN SPORT 7 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/998436.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 HD" group-title="beIN Sports",beIN SPORTS 5 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153587.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 NANO 2M" group-title="beIN Sports",BEIN SPORT 8 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/499436.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5HD" group-title="beIN Sports",beIN SPORTS 5HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7753.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 NANO 2M" group-title="beIN Sports",BEIN SPORT 9 NANO 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/267856.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 HD" group-title="beIN Sports",beIN SPORTS 6 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153588.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 1 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/527418.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6HD" group-title="beIN Sports",beIN SPORTS 6HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7752.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 2 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/235756.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 HD" group-title="beIN Sports",beIN SPORTS 7 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153589.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 3 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/162154.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7HD" group-title="beIN Sports",beIN SPORTS 7HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7748.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 4 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/367434.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 8 HD" group-title="beIN Sports",beIN SPORTS 8 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153590.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 5 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/99529.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 8HD" group-title="beIN Sports",beIN SPORTS 8HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7750.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 6 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/65328.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 9 HD" group-title="beIN Sports",beIN SPORTS 9 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153591.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 7 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/813393.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 9HD" group-title="beIN Sports",beIN SPORTS 9HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7747.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 8 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/219630.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS FHD" group-title="beIN Sports",beIN SPORTS FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/7757.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 H265 POWER 8M" group-title="beIN Sports",BEIN SPORT 9 H265 POWER 8M
+http://sa.savpn.xyz:80/live/manar/manar2023/7650.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS HD" group-title="beIN Sports",beIN SPORTS HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237786.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 1 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/594040.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS NBA" group-title="beIN Sports",beIN SPORTS NBA
-http://atrupo4k.com:80/live/aymman988/gd79w941/153594.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 2 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/51838.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS NEWS HD" group-title="beIN Sports",beIN SPORTS NEWS HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/102546.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 3 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/221884.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| beIN SPORTS HD" group-title="beIN Sports",AR| beIN SPORTS HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/239672.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 4 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/508483.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| beIN SPORTS HD" group-title="beIN Sports",AR| beIN SPORTS HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/239673.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 5 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/252311.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 1 HD" group-title="beIN Sports",NX| BEIN SPORTS 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220364.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 6 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/748313.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 1 SD" group-title="beIN Sports",NX| BEIN SPORTS 1 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220365.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 7 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/773175.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 2 HD" group-title="beIN Sports",NX| BEIN SPORTS 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220366.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 8 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/715775.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 2 SD" group-title="beIN Sports",NX| BEIN SPORTS 2 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220367.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 PURE 4/8M" group-title="beIN Sports",BEIN SPORT 9 PURE 4/8M
+http://sa.savpn.xyz:80/live/manar/manar2023/414003.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 3 HD" group-title="beIN Sports",NX| BEIN SPORTS 3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220368.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 1 SD 2M" group-title="beIN Sports",BEIN SPORT 1 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/332188.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 3 SD" group-title="beIN Sports",NX| BEIN SPORTS 3 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220369.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 2 SD 2M" group-title="beIN Sports",BEIN SPORT 2 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/499052.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 4 HD" group-title="beIN Sports",NX| BEIN SPORTS 4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220370.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 3 SD 2M" group-title="beIN Sports",BEIN SPORT 3 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/34592.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 4 SD" group-title="beIN Sports",NX| BEIN SPORTS 4 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220371.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 4 SD 2M" group-title="beIN Sports",BEIN SPORT 4 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/914326.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 5 HD" group-title="beIN Sports",NX| BEIN SPORTS 5 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220372.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 5 SD 2M" group-title="beIN Sports",BEIN SPORT 5 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/799894.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 5 SD" group-title="beIN Sports",NX| BEIN SPORTS 5 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220373.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 6 SD 2M" group-title="beIN Sports",BEIN SPORT 6 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/786431.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 6 HD" group-title="beIN Sports",NX| BEIN SPORTS 6 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220374.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 7 SD 2M" group-title="beIN Sports",BEIN SPORT 7 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/102387.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 6 SD" group-title="beIN Sports",NX| BEIN SPORTS 6 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220375.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 8 SD 2M" group-title="beIN Sports",BEIN SPORT 8 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/543760.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 7 HD" group-title="beIN Sports",NX| BEIN SPORTS 7 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220376.ts
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORT 9 SD 2M" group-title="beIN Sports",BEIN SPORT 9 SD 2M
+http://sa.savpn.xyz:80/live/manar/manar2023/703221.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 7 SD" group-title="beIN Sports",NX| BEIN SPORTS 7 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220377.ts
+#EXTINF:-1 tvg-id="" tvg-name="AFC HD" group-title="beIN Sports",AFC HD
+http://sa.savpn.xyz:80/live/manar/manar2023/93048.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 8 HD" group-title="beIN Sports",NX| BEIN SPORTS 8 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220378.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 1 HD" group-title="beIN Sports",beIN SPORT AFC 1 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/664608.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 8 SD" group-title="beIN Sports",NX| BEIN SPORTS 8 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220379.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 1 SD" group-title="beIN Sports",beIN SPORT AFC 1 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/928393.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 9 HD" group-title="beIN Sports",NX| BEIN SPORTS 9 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220380.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 2 HD" group-title="beIN Sports",beIN SPORT AFC 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/812992.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NX| BEIN SPORTS 9 SD" group-title="beIN Sports",NX| BEIN SPORTS 9 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/220381.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 2 SD" group-title="beIN Sports",beIN SPORT AFC 2 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/26783.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 1 SD" group-title="beIN Sports",beIN SPORTS 1 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125319.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 3 HD" group-title="beIN Sports",beIN SPORT AFC 3 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/242791.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 2 SD" group-title="beIN Sports",beIN SPORTS 2 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125320.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 3 SD" group-title="beIN Sports",beIN SPORT AFC 3 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/460563.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 3 SD" group-title="beIN Sports",beIN SPORTS 3 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125321.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 4 HD" group-title="beIN Sports",beIN SPORT AFC 4 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/727041.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 4 SD" group-title="beIN Sports",beIN SPORTS 4 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125322.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 4 SD" group-title="beIN Sports",beIN SPORT AFC 4 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/119296.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 5 SD" group-title="beIN Sports",beIN SPORTS 5 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125323.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 5 HD" group-title="beIN Sports",beIN SPORT AFC 5 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/69953.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 6 SD" group-title="beIN Sports",beIN SPORTS 6 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125324.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT AFC 5 SD" group-title="beIN Sports",beIN SPORT AFC 5 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/473365.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 7 SD" group-title="beIN Sports",beIN SPORTS 7 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125325.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 4K" group-title="beIN Sports",beIN SPORTS XTRA 1 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/152825.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 8 SD" group-title="beIN Sports",beIN SPORTS 8 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125326.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 720" group-title="beIN Sports",beIN SPORTS XTRA 1 720
+http://sa.savpn.xyz:80/live/manar/manar2023/686268.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS 9 SD" group-title="beIN Sports",beIN SPORTS 9 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125327.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 LOW" group-title="beIN Sports",beIN SPORTS XTRA 1 LOW
+http://sa.savpn.xyz:80/live/manar/manar2023/709742.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 03 FHD" group-title="beIN Sports",beIN SPORT XTRA 03 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227440.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1 SD" group-title="beIN Sports",beIN SPORTS XTRA 1 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/905204.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 03 SD" group-title="beIN Sports",beIN SPORT XTRA 03 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227442.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 4K" group-title="beIN Sports",beIN SPORTS XTRA 2 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/172538.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 1 FHD" group-title="beIN Sports",beIN SPORT XTRA 1 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71695.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 720" group-title="beIN Sports",beIN SPORTS XTRA 2 720
+http://sa.savpn.xyz:80/live/manar/manar2023/182949.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 2 HD" group-title="beIN Sports",beIN SPORT XTRA 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227441.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 LOW" group-title="beIN Sports",beIN SPORTS XTRA 2 LOW
+http://sa.savpn.xyz:80/live/manar/manar2023/838514.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 3 4K" group-title="beIN Sports",beIN SPORT XTRA 3 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/227443.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2 SD" group-title="beIN Sports",beIN SPORTS XTRA 2 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/630378.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 4HD" group-title="beIN Sports",beIN SPORT XTRA 4HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227444.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3 4K" group-title="beIN Sports",beIN SPORTS XTRA 3 4K
+http://sa.savpn.xyz:80/live/manar/manar2023/720482.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 5HD" group-title="beIN Sports",beIN SPORT XTRA 5HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227445.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3 720" group-title="beIN Sports",beIN SPORTS XTRA 3 720
+http://sa.savpn.xyz:80/live/manar/manar2023/231909.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 6HD" group-title="beIN Sports",beIN SPORT XTRA 6HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227446.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3 LOW" group-title="beIN Sports",beIN SPORTS XTRA 3 LOW
+http://sa.savpn.xyz:80/live/manar/manar2023/45542.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 7HD" group-title="beIN Sports",beIN SPORT XTRA 7HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227447.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 8HD" group-title="beIN Sports",beIN SPORT XTRA 8HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227448.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT XTRA 9HD" group-title="beIN Sports",beIN SPORT XTRA 9HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/227449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 1HD" group-title="beIN Sports",beIN SPORTS XTRA 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/4033.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 2HD" group-title="beIN Sports",beIN SPORTS XTRA 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/4034.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3HD" group-title="beIN Sports",beIN SPORTS XTRA 3HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/153593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN-SPORTS XTRA 2 FHD" group-title="beIN Sports",beIN-SPORTS XTRA 2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71696.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AU| beIN Sports 1" group-title="beIN Sports",AU| beIN Sports 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/165295.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AU| beIN Sports 1 FHD.." group-title="beIN Sports",AU| beIN Sports 1 FHD..
-http://atrupo4k.com:80/live/aymman988/gd79w941/165296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AU| beIN Sports 3" group-title="beIN Sports",AU| beIN Sports 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/165299.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AU| beIN Sports 3 FHD" group-title="beIN Sports",AU| beIN Sports 3 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/165300.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CA|BeIN Sports HD" group-title="beIN Sports",CA|BeIN Sports HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/175775.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 1 FHD" group-title="beIN Sports",FR|BEIN SPORTS 1 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6431.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 1 FHD (H.265)" group-title="beIN Sports",FR|BEIN SPORTS 1 FHD (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/77904.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 1 FHD (H.265)" group-title="beIN Sports",FR|BEIN SPORTS 1 FHD (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/47957.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 1 HD" group-title="beIN Sports",FR|BEIN SPORTS 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5926.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 1 SD" group-title="beIN Sports",FR|BEIN SPORTS 1 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/74046.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 2 FHD" group-title="beIN Sports",FR|BEIN SPORTS 2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6430.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 2 HD" group-title="beIN Sports",FR|BEIN SPORTS 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5925.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 2 SD" group-title="beIN Sports",FR|BEIN SPORTS 2 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/125485.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 3 FHD" group-title="beIN Sports",FR|BEIN SPORTS 3 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6429.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 3 FHD (H.265)" group-title="beIN Sports",FR|BEIN SPORTS 3 FHD (H.265)
-http://atrupo4k.com:80/live/aymman988/gd79w941/77902.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 3 HD" group-title="beIN Sports",FR|BEIN SPORTS 3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5924.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FR|BEIN SPORTS 3 SD" group-title="beIN Sports",FR|BEIN SPORTS 3 SD
-http://atrupo4k.com:80/live/aymman988/gd79w941/74048.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA 3 SD" group-title="beIN Sports",beIN SPORTS XTRA 3 SD
+http://sa.savpn.xyz:80/live/manar/manar2023/710562.ts
 
 ################################################################################
 # MBC
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|MBC3.KIDS" group-title="MBC",AR|MBC3.KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/58388.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC JUNIOR HD" group-title="MBC",MBC JUNIOR HD
+http://sa.savpn.xyz:80/live/manar/manar2023/890.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  AL ZAEEM" group-title="MBC",PPV| MBC  AL ZAEEM
-http://atrupo4k.com:80/live/aymman988/gd79w941/241301.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC3 HD" group-title="MBC",MBC3 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1650.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Anakeed" group-title="MBC",PPV| MBC  Anakeed
-http://atrupo4k.com:80/live/aymman988/gd79w941/241302.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC 1" group-title="MBC",MBC 1
+http://sa.savpn.xyz:80/live/manar/manar2023/1663.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Asia 4K" group-title="MBC",PPV| MBC  Asia 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241308.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC 2" group-title="MBC",MBC 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1662.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cars 4K" group-title="MBC",PPV| MBC  Cars 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241309.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC 3" group-title="MBC",MBC 3
+http://sa.savpn.xyz:80/live/manar/manar2023/1661.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cinma 1" group-title="MBC",PPV| MBC  Cinma 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/241299.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC 4" group-title="MBC",MBC 4
+http://sa.savpn.xyz:80/live/manar/manar2023/1660.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cinma 2" group-title="MBC",PPV| MBC  Cinma 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/241300.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC 5" group-title="MBC",MBC 5
+http://sa.savpn.xyz:80/live/manar/manar2023/1659.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Clip" group-title="MBC",PPV| MBC  Clip
-http://atrupo4k.com:80/live/aymman988/gd79w941/241303.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action" group-title="MBC",MBC Action
+http://sa.savpn.xyz:80/live/manar/manar2023/1657.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Documentary" group-title="MBC",PPV| MBC  Documentary
-http://atrupo4k.com:80/live/aymman988/gd79w941/241310.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action HD" group-title="MBC",MBC Action HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1644.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  ELIFE+ 4K" group-title="MBC",PPV| MBC  ELIFE+ 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241294.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood" group-title="MBC",MBC Bollywood
+http://sa.savpn.xyz:80/live/manar/manar2023/1656.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Hundi 4K" group-title="MBC",PPV| MBC  Hundi 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241311.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood HD" group-title="MBC",MBC Bollywood HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1646.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  KIDS MASER" group-title="MBC",PPV| MBC  KIDS MASER
-http://atrupo4k.com:80/live/aymman988/gd79w941/241304.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama" group-title="MBC",MBC Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1655.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Masraheyat 4K" group-title="MBC",PPV| MBC  Masraheyat 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241305.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama HD" group-title="MBC",MBC Drama HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1647.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Modablaja 4K" group-title="MBC",PPV| MBC  Modablaja 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241306.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC MAX" group-title="MBC",MBC MAX
+http://sa.savpn.xyz:80/live/manar/manar2023/1658.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Movies" group-title="MBC",PPV| MBC  Movies
-http://atrupo4k.com:80/live/aymman988/gd79w941/241298.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC MAX HD" group-title="MBC",MBC MAX HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1645.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Premium 4K" group-title="MBC",PPV| MBC  Premium 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241297.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr" group-title="MBC",MBC Masr
+http://sa.savpn.xyz:80/live/manar/manar2023/1654.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Toons 1" group-title="MBC",PPV| MBC  Toons 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/241295.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2" group-title="MBC",MBC Masr 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1653.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Toons 2" group-title="MBC",PPV| MBC  Toons 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/241296.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2 HD" group-title="MBC",MBC Masr 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1642.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Trend 4K" group-title="MBC",PPV| MBC  Trend 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241307.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr HD" group-title="MBC",MBC Masr HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1641.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC CLASS 4K" group-title="MBC",PPV| MBC CLASS 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241277.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC+Drama HD" group-title="MBC",MBC+Drama HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1648.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC Comedy 4K" group-title="MBC",PPV| MBC Comedy 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241276.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC1 HD" group-title="MBC",MBC1 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1652.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EGYPT 4K" group-title="MBC",PPV| MBC EGYPT 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241274.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC2 HD" group-title="MBC",MBC2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/149010.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EIGHT 4K" group-title="MBC",PPV| MBC EIGHT 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241290.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC3 HD" group-title="MBC",MBC3 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1650.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ELIFE 4K" group-title="MBC",PPV| MBC ELIFE 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241286.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC4 HD" group-title="MBC",MBC4 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1649.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EXTRA 4K" group-title="MBC",PPV| MBC EXTRA 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241281.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC5 HD" group-title="MBC",MBC5 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1643.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC KIDS 4K" group-title="MBC",PPV| MBC KIDS 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241278.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC AFLAM HD" group-title="MBC",MBC AFLAM HD
+http://sa.savpn.xyz:80/live/manar/manar2023/889.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC MIX 4K" group-title="MBC",PPV| MBC MIX 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241280.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC CINEMA HD" group-title="MBC",MBC CINEMA HD
+http://sa.savpn.xyz:80/live/manar/manar2023/887.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC MOVIES 4K" group-title="MBC",PPV| MBC MOVIES 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241282.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC HORROR HD" group-title="MBC",MBC HORROR HD
+http://sa.savpn.xyz:80/live/manar/manar2023/888.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC NINE 4K" group-title="MBC",PPV| MBC NINE 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241291.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC JUNIOR HD" group-title="MBC",MBC JUNIOR HD
+http://sa.savpn.xyz:80/live/manar/manar2023/890.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ONE 4K" group-title="MBC",PPV| MBC ONE 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241287.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC MOVIES HD" group-title="MBC",MBC MOVIES HD
+http://sa.savpn.xyz:80/live/manar/manar2023/893.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PLUS 4K" group-title="MBC",PPV| MBC PLUS 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241283.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC PRIME HD" group-title="MBC",MBC PRIME HD
+http://sa.savpn.xyz:80/live/manar/manar2023/892.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC POWER 4K" group-title="MBC",PPV| MBC POWER 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241284.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC WAR HD" group-title="MBC",MBC WAR HD
+http://sa.savpn.xyz:80/live/manar/manar2023/891.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PREMIUIM 4K" group-title="MBC",PPV| MBC PREMIUIM 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241272.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PREMIUM EN 4K" group-title="MBC",PPV| MBC PREMIUM EN 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241273.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC SEVEN 4K" group-title="MBC",PPV| MBC SEVEN 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241289.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC SYRIA 4K" group-title="MBC",PPV| MBC SYRIA 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241275.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC Shahid 4K" group-title="MBC",PPV| MBC Shahid 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241293.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TEN 4K" group-title="MBC",PPV| MBC TEN 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TOW 4K" group-title="MBC",PPV| MBC TOW 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241288.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TURKI" group-title="MBC",PPV| MBC TURKI
-http://atrupo4k.com:80/live/aymman988/gd79w941/241279.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ZOOM 4K" group-title="MBC",PPV| MBC ZOOM 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/241285.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO|  ROTANA AFLAM+ HD" group-title="MBC",GO|  ROTANA AFLAM+ HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82170.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Asharq Documentary HD" group-title="MBC",GO| Asharq Documentary HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/9719.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| DOCU BOX HD" group-title="MBC",GO| DOCU BOX HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5658.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| DRAMA TURKEY" group-title="MBC",GO| DRAMA TURKEY
-http://atrupo4k.com:80/live/aymman988/gd79w941/169158.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| DUCK TV" group-title="MBC",GO| DUCK TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/169173.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Discovery FAMILLY HD" group-title="MBC",GO| Discovery FAMILLY HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5635.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| FAST-FUN" group-title="MBC",GO| FAST-FUN
-http://atrupo4k.com:80/live/aymman988/gd79w941/169165.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| FILM BOX" group-title="MBC",GO| FILM BOX
-http://atrupo4k.com:80/live/aymman988/gd79w941/77496.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| FX HD" group-title="MBC",GO| FX HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5644.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| GULLI ARABIC" group-title="MBC",GO| GULLI ARABIC
-http://atrupo4k.com:80/live/aymman988/gd79w941/7236.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| HORSE" group-title="MBC",GO| HORSE
-http://atrupo4k.com:80/live/aymman988/gd79w941/169168.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| INSIGHT TV" group-title="MBC",GO| INSIGHT TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/169169.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ACTION FHD" group-title="MBC",GO| MBC ACTION FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82042.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ACTION HD" group-title="MBC",GO| MBC ACTION HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5659.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Bollywood FHD" group-title="MBC",GO| MBC Bollywood FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82046.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Bollywood HD" group-title="MBC",GO| MBC Bollywood HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6332.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA FHD" group-title="MBC",GO| MBC DRAMA FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82043.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA HD" group-title="MBC",GO| MBC DRAMA HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5657.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA+ FHD" group-title="MBC",GO| MBC DRAMA+ FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82049.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA+ HD" group-title="MBC",GO| MBC DRAMA+ HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5656.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MASR 2 FHD" group-title="MBC",GO| MBC MASR 2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82045.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MASR FHD" group-title="MBC",GO| MBC MASR FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82044.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MAX FHD" group-title="MBC",GO| MBC MAX FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82047.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MAX HD" group-title="MBC",GO| MBC MAX HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5654.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Masr" group-title="MBC",GO| MBC Masr
-http://atrupo4k.com:80/live/aymman988/gd79w941/13902.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Masr2 HD" group-title="MBC",GO| MBC Masr2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/3921.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC POWER +HD" group-title="MBC",GO| MBC POWER +HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6316.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC VARIETY HD" group-title="MBC",GO| MBC VARIETY HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5655.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Variety FHD" group-title="MBC",GO| MBC Variety FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82050.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ᐩ elife" group-title="MBC",GO| MBC ᐩ elife
-http://atrupo4k.com:80/live/aymman988/gd79w941/151983.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC1 FHD" group-title="MBC",GO| MBC1 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82037.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC1 HD" group-title="MBC",GO| MBC1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5663.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC2 FHD" group-title="MBC",GO| MBC2 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82038.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC2 HD" group-title="MBC",GO| MBC2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5662.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC3 FHD" group-title="MBC",GO| MBC3 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82039.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC3 HD" group-title="MBC",GO| MBC3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5661.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC4 FHD" group-title="MBC",GO| MBC4 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82040.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC4 HD" group-title="MBC",GO| MBC4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5660.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC5 FHD" group-title="MBC",GO| MBC5 FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/82041.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| MBC5 HD" group-title="MBC",GO| MBC5 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/6333.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Nat Geo Wild HD" group-title="MBC",GO| Nat Geo Wild HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5638.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| REEL PX Ultimate" group-title="MBC",GO| REEL PX Ultimate
-http://atrupo4k.com:80/live/aymman988/gd79w941/5647.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| ROTANA KIDS" group-title="MBC",GO| ROTANA KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/82168.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Rotana Cinema HD" group-title="MBC",GO| Rotana Cinema HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5651.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Rotana Classic HD" group-title="MBC",GO| Rotana Classic HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5650.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Rotana Drama" group-title="MBC",GO| Rotana Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/5653.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Rotana Khalijiah HD" group-title="MBC",GO| Rotana Khalijiah HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5649.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Rotana Masriya HD" group-title="MBC",GO| Rotana Masriya HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5648.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| SMAART ZONE" group-title="MBC",GO| SMAART ZONE
-http://atrupo4k.com:80/live/aymman988/gd79w941/68436.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STARZ PLAY CRIME" group-title="MBC",GO| STARZ PLAY CRIME
-http://atrupo4k.com:80/live/aymman988/gd79w941/169171.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STC Cinema" group-title="MBC",GO| STC Cinema
-http://atrupo4k.com:80/live/aymman988/gd79w941/5664.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STC Family" group-title="MBC",GO| STC Family
-http://atrupo4k.com:80/live/aymman988/gd79w941/37738.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STC SPORT 1" group-title="MBC",GO| STC SPORT 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/169167.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STEREO" group-title="MBC",GO| STEREO
-http://atrupo4k.com:80/live/aymman988/gd79w941/169163.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| STEREO 2" group-title="MBC",GO| STEREO 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/169164.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| TDC TV" group-title="MBC",GO| TDC TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/169170.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| TIJI HD" group-title="MBC",GO| TIJI HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/37739.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| TRACE Sport Stars" group-title="MBC",GO| TRACE Sport Stars
-http://atrupo4k.com:80/live/aymman988/gd79w941/169172.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| ThekhayalZEN HD" group-title="MBC",GO| ThekhayalZEN HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/5639.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| UFC ARABIC" group-title="MBC",GO| UFC ARABIC
-http://atrupo4k.com:80/live/aymman988/gd79w941/171688.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| WANASAH TV FHD" group-title="MBC",GO| WANASAH TV FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/127839.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| WANASAH TV HD" group-title="MBC",GO| WANASAH TV HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/127840.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| WOMAN" group-title="MBC",GO| WOMAN
-http://atrupo4k.com:80/live/aymman988/gd79w941/169162.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Weyyak ACTION HD" group-title="MBC",GO| Weyyak ACTION HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/146427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Weyyak DRAMA HD" group-title="MBC",GO| Weyyak DRAMA HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/146428.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Weyyak MIX HD" group-title="MBC",GO| Weyyak MIX HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/146429.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Weyyak NAWAEM HD" group-title="MBC",GO| Weyyak NAWAEM HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/146430.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| Weyyak TEN" group-title="MBC",GO| Weyyak TEN
-http://atrupo4k.com:80/live/aymman988/gd79w941/146426.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="GO| ZEE ALWAN" group-title="MBC",GO| ZEE ALWAN
-http://atrupo4k.com:80/live/aymman988/gd79w941/76914.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY DOCU BOX 4K" group-title="MBC",MY DOCU BOX 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/58989.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY DOCUMENTARY ARABIE 4K" group-title="MBC",MY DOCUMENTARY ARABIE 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/58988.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY FilmBox 4K" group-title="MBC",MY FilmBox 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68424.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY GULLI ARABIC 4K" group-title="MBC",MY GULLI ARABIC 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/58980.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC 1 4K" group-title="MBC",MY MBC 1 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55540.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC 2 4K" group-title="MBC",MY MBC 2 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55539.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC 3 4K" group-title="MBC",MY MBC 3 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55538.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC 4 4K" group-title="MBC",MY MBC 4 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55537.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC Action 4K" group-title="MBC",MY MBC Action 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55541.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC Bollywood 4K" group-title="MBC",MY MBC Bollywood 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55536.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC DRAMA 4K" group-title="MBC",MY MBC DRAMA 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55535.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC Drama  4K" group-title="MBC",MY MBC Drama  4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55534.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC Max 4K" group-title="MBC",MY MBC Max 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55542.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MBC Variety 4K" group-title="MBC",MY MBC Variety 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55533.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY MTV 4K" group-title="MBC",MY MTV 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/55532.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Nat GEO WILD 4K" group-title="MBC",MY Nat GEO WILD 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/58978.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY PLANET EARTH 4K" group-title="MBC",MY PLANET EARTH 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/58977.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Aflam 4K" group-title="MBC",MY Rotana Aflam 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68425.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Cinema 4K" group-title="MBC",MY Rotana Cinema 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68426.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Classic 4K" group-title="MBC",MY Rotana Classic 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Drama 4K" group-title="MBC",MY Rotana Drama 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68428.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Khalijiah 4K" group-title="MBC",MY Rotana Khalijiah 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68429.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Music 4K" group-title="MBC",MY Rotana Music 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/68430.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|MBC MASR" group-title="MBC",AR|MBC MASR
-http://atrupo4k.com:80/live/aymman988/gd79w941/71451.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|IN| MBC BOLLYWOOD" group-title="MBC",|IN| MBC BOLLYWOOD
-http://atrupo4k.com:80/live/aymman988/gd79w941/211482.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MA|MBC 5 MAROC" group-title="MBC",MA|MBC 5 MAROC
-http://atrupo4k.com:80/live/aymman988/gd79w941/81778.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MA| MBC 5 HD +6H" group-title="MBC",MA| MBC 5 HD +6H
-http://atrupo4k.com:80/live/aymman988/gd79w941/241681.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Action" group-title="MBC",AR| MBC Action
-http://atrupo4k.com:80/live/aymman988/gd79w941/239706.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Bollywood" group-title="MBC",AR| MBC Bollywood
-http://atrupo4k.com:80/live/aymman988/gd79w941/239710.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Drama" group-title="MBC",AR| MBC Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/239699.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC MAX" group-title="MBC",AR| MBC MAX
-http://atrupo4k.com:80/live/aymman988/gd79w941/239703.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr" group-title="MBC",AR| MBC Masr
-http://atrupo4k.com:80/live/aymman988/gd79w941/239705.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr Drama" group-title="MBC",AR| MBC Masr Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/239704.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr2" group-title="MBC",AR| MBC Masr2
-http://atrupo4k.com:80/live/aymman988/gd79w941/239708.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Plus Drama" group-title="MBC",AR| MBC Plus Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/239709.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC2" group-title="MBC",AR| MBC2
-http://atrupo4k.com:80/live/aymman988/gd79w941/239702.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC4" group-title="MBC",AR| MBC4
-http://atrupo4k.com:80/live/aymman988/gd79w941/239707.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC5" group-title="MBC",AR| MBC5
-http://atrupo4k.com:80/live/aymman988/gd79w941/239700.ts
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action" group-title="MBC",MBC Action
+http://sa.savpn.xyz:80/live/manar/manar2023/1657.ts
 
 ################################################################################
 # Rotana
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ROTANA KIDS" group-title="Rotana",AR|ROTANA KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/82169.ts
+#EXTINF:-1 tvg-id="" tvg-name="LBC HD" group-title="Rotana",LBC HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1331.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Cinema EGY" group-title="Rotana",AR|Rotana Cinema EGY
-http://atrupo4k.com:80/live/aymman988/gd79w941/70301.ts
+#EXTINF:-1 tvg-id="" tvg-name="LBC International 2 HD" group-title="Rotana",LBC International 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/2473.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Classic" group-title="Rotana",AR|Rotana Classic
-http://atrupo4k.com:80/live/aymman988/gd79w941/70303.ts
+#EXTINF:-1 tvg-id="" tvg-name="LBC International HD" group-title="Rotana",LBC International HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1333.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 1" group-title="Rotana",AR| ROTANA 4K ACTION 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211914.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Aflam+" group-title="Rotana",Rotana Aflam+
+http://sa.savpn.xyz:80/live/manar/manar2023/1676.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 2" group-title="Rotana",AR| ROTANA 4K ACTION 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211915.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema EGY HD" group-title="Rotana",Rotana Cinema EGY HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1670.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 3" group-title="Rotana",AR| ROTANA 4K ACTION 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211916.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema KSA HD" group-title="Rotana",Rotana Cinema KSA HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1671.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 4" group-title="Rotana",AR| ROTANA 4K ACTION 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211917.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Classic HD" group-title="Rotana",Rotana Classic HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1669.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 5" group-title="Rotana",AR| ROTANA 4K ACTION 5
-http://atrupo4k.com:80/live/aymman988/gd79w941/211918.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Clip" group-title="Rotana",Rotana Clip
+http://sa.savpn.xyz:80/live/manar/manar2023/1665.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 6" group-title="Rotana",AR| ROTANA 4K ACTION 6
-http://atrupo4k.com:80/live/aymman988/gd79w941/211919.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Comedy HD" group-title="Rotana",Rotana Comedy HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1673.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 7" group-title="Rotana",AR| ROTANA 4K ACTION 7
-http://atrupo4k.com:80/live/aymman988/gd79w941/211920.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Drama HD" group-title="Rotana",Rotana Drama HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1666.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K ACTION 8" group-title="Rotana",AR| ROTANA 4K ACTION 8
-http://atrupo4k.com:80/live/aymman988/gd79w941/211921.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Khalijia HD" group-title="Rotana",Rotana Khalijia HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1668.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K Masrah al Saudia" group-title="Rotana",AR| ROTANA 4K Masrah al Saudia
-http://atrupo4k.com:80/live/aymman988/gd79w941/211946.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Kids HD" group-title="Rotana",Rotana Kids HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1672.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K aflam 1" group-title="Rotana",AR| ROTANA 4K aflam 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211938.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana M+ HD" group-title="Rotana",Rotana M+ HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1675.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K aflam 2" group-title="Rotana",AR| ROTANA 4K aflam 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211939.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Music HD" group-title="Rotana",Rotana Music HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1667.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K aflam 3" group-title="Rotana",AR| ROTANA 4K aflam 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211940.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K aflam 4" group-title="Rotana",AR| ROTANA 4K aflam 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211941.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K boxoffice 1" group-title="Rotana",AR| ROTANA 4K boxoffice 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211922.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K boxoffice 2" group-title="Rotana",AR| ROTANA 4K boxoffice 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211923.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K boxoffice 3" group-title="Rotana",AR| ROTANA 4K boxoffice 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211924.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K boxoffice 4" group-title="Rotana",AR| ROTANA 4K boxoffice 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211925.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K comedy 1" group-title="Rotana",AR| ROTANA 4K comedy 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211926.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K comedy 2" group-title="Rotana",AR| ROTANA 4K comedy 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211927.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K comedy 3" group-title="Rotana",AR| ROTANA 4K comedy 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211928.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K comedy 4" group-title="Rotana",AR| ROTANA 4K comedy 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211929.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K documentary 1" group-title="Rotana",AR| ROTANA 4K documentary 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211947.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K documentary 2" group-title="Rotana",AR| ROTANA 4K documentary 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211948.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K documentary 3" group-title="Rotana",AR| ROTANA 4K documentary 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211949.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K documentary 4" group-title="Rotana",AR| ROTANA 4K documentary 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211950.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K entertainment 1" group-title="Rotana",AR| ROTANA 4K entertainment 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211951.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K entertainment 2" group-title="Rotana",AR| ROTANA 4K entertainment 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211952.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K entertainment 3" group-title="Rotana",AR| ROTANA 4K entertainment 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211953.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K entertainment 4" group-title="Rotana",AR| ROTANA 4K entertainment 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211954.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 1" group-title="Rotana",AR| ROTANA 4K horror 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211930.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 2" group-title="Rotana",AR| ROTANA 4K horror 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211931.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 3" group-title="Rotana",AR| ROTANA 4K horror 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211932.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 4" group-title="Rotana",AR| ROTANA 4K horror 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211933.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 5" group-title="Rotana",AR| ROTANA 4K horror 5
-http://atrupo4k.com:80/live/aymman988/gd79w941/211934.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 6" group-title="Rotana",AR| ROTANA 4K horror 6
-http://atrupo4k.com:80/live/aymman988/gd79w941/211935.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 7" group-title="Rotana",AR| ROTANA 4K horror 7
-http://atrupo4k.com:80/live/aymman988/gd79w941/211936.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K horror 8" group-title="Rotana",AR| ROTANA 4K horror 8
-http://atrupo4k.com:80/live/aymman988/gd79w941/211937.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K kids 1" group-title="Rotana",AR| ROTANA 4K kids 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211955.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K kids 2" group-title="Rotana",AR| ROTANA 4K kids 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211956.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K kids 3" group-title="Rotana",AR| ROTANA 4K kids 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211957.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K kids 4" group-title="Rotana",AR| ROTANA 4K kids 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211958.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K masrah 1" group-title="Rotana",AR| ROTANA 4K masrah 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/211942.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K masrah 2" group-title="Rotana",AR| ROTANA 4K masrah 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/211943.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K masrah 3" group-title="Rotana",AR| ROTANA 4K masrah 3
-http://atrupo4k.com:80/live/aymman988/gd79w941/211944.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| ROTANA 4K masrah 4" group-title="Rotana",AR| ROTANA 4K masrah 4
-http://atrupo4k.com:80/live/aymman988/gd79w941/211945.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Aflam HD" group-title="Rotana",AR|Rotana Aflam HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71457.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Cinema HD" group-title="Rotana",AR|Rotana Cinema HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71458.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Classic HD" group-title="Rotana",AR|Rotana Classic HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71459.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Clip" group-title="Rotana",AR|Rotana Clip
-http://atrupo4k.com:80/live/aymman988/gd79w941/71460.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Drama" group-title="Rotana",AR|Rotana Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/71461.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Khalijia HD" group-title="Rotana",AR|Rotana Khalijia HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71463.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Khalijiah" group-title="Rotana",AR|Rotana Khalijiah
-http://atrupo4k.com:80/live/aymman988/gd79w941/71464.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Rotana Music HD" group-title="Rotana",AR|Rotana Music HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/186540.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|LBC HD" group-title="Rotana",AR|LBC HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71478.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|LBC International" group-title="Rotana",AR|LBC International
-http://atrupo4k.com:80/live/aymman988/gd79w941/71479.ts
+#EXTINF:-1 tvg-id="" tvg-name="Rotana+" group-title="Rotana",Rotana+
+http://sa.savpn.xyz:80/live/manar/manar2023/1674.ts
 
 ################################################################################
 # Shahid Live
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 1 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 1 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237187.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Cartoon HD" group-title="Shahid Live",Shahid Cartoon HD
+http://sa.savpn.xyz:80/live/manar/manar2023/924.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 10 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 10 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237196.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Action HD" group-title="Shahid Live",Shahid Action HD
+http://sa.savpn.xyz:80/live/manar/manar2023/927.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 2 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 2 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237188.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Aflam 1 HD" group-title="Shahid Live",Shahid Aflam 1 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/931.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 3 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 3 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237189.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Aflam 2 HD" group-title="Shahid Live",Shahid Aflam 2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/930.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 4 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 4 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237190.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Cartoon HD" group-title="Shahid Live",Shahid Cartoon HD
+http://sa.savpn.xyz:80/live/manar/manar2023/924.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 5 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 5 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237191.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Cinema HD" group-title="Shahid Live",Shahid Cinema HD
+http://sa.savpn.xyz:80/live/manar/manar2023/929.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 6 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 6 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237192.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Clip HD" group-title="Shahid Live",Shahid Clip HD
+http://sa.savpn.xyz:80/live/manar/manar2023/925.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 7 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 7 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237193.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Horror HD" group-title="Shahid Live",Shahid Horror HD
+http://sa.savpn.xyz:80/live/manar/manar2023/926.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 8 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 8 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237194.ts
+#EXTINF:-1 tvg-id="" tvg-name="Shahid Zaman HD" group-title="Shahid Live",Shahid Zaman HD
+http://sa.savpn.xyz:80/live/manar/manar2023/928.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| BUNDES LIGA SHAHID 9 HD" group-title="Shahid Live",AR| BUNDES LIGA SHAHID 9 HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/237195.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Abdul Majeed Abdullah" group-title="Shahid Live",AR| Abdul Majeed Abdullah
-http://atrupo4k.com:80/live/aymman988/gd79w941/239758.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Aflam" group-title="Shahid Live",AR| Aflam
-http://atrupo4k.com:80/live/aymman988/gd79w941/239725.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Arabiya" group-title="Shahid Live",AR| Al Arabiya
-http://atrupo4k.com:80/live/aymman988/gd79w941/239717.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Arabiya Business" group-title="Shahid Live",AR| Al Arabiya Business
-http://atrupo4k.com:80/live/aymman988/gd79w941/239718.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Asouf" group-title="Shahid Live",AR| Al Asouf
-http://atrupo4k.com:80/live/aymman988/gd79w941/239752.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Hadath" group-title="Shahid Live",AR| Al Hadath
-http://atrupo4k.com:80/live/aymman988/gd79w941/239719.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Hisn Channel" group-title="Shahid Live",AR| Al Hisn Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239726.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Al Sunnah al Nabawiyah" group-title="Shahid Live",AR| Al Sunnah al Nabawiyah
-http://atrupo4k.com:80/live/aymman988/gd79w941/239754.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| AlSahraa" group-title="Shahid Live",AR| AlSahraa
-http://atrupo4k.com:80/live/aymman988/gd79w941/239747.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| AlSaudia" group-title="Shahid Live",AR| AlSaudia
-http://atrupo4k.com:80/live/aymman988/gd79w941/239716.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| AlThaqafeya" group-title="Shahid Live",AR| AlThaqafeya
-http://atrupo4k.com:80/live/aymman988/gd79w941/239714.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Alikhbariya" group-title="Shahid Live",AR| Alikhbariya
-http://atrupo4k.com:80/live/aymman988/gd79w941/239720.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Alkhuzama Radio" group-title="Shahid Live",AR| Alkhuzama Radio
-http://atrupo4k.com:80/live/aymman988/gd79w941/239743.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Anime" group-title="Shahid Live",AR| Anime
-http://atrupo4k.com:80/live/aymman988/gd79w941/239746.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Asharq" group-title="Shahid Live",AR| Asharq
-http://atrupo4k.com:80/live/aymman988/gd79w941/239721.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Asharq Discovery" group-title="Shahid Live",AR| Asharq Discovery
-http://atrupo4k.com:80/live/aymman988/gd79w941/239734.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Asharq Documentary" group-title="Shahid Live",AR| Asharq Documentary
-http://atrupo4k.com:80/live/aymman988/gd79w941/239733.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| BIG TIME" group-title="Shahid Live",AR| BIG TIME
-http://atrupo4k.com:80/live/aymman988/gd79w941/239740.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Bab Al Hara" group-title="Shahid Live",AR| Bab Al Hara
-http://atrupo4k.com:80/live/aymman988/gd79w941/239751.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Bab Al Hara Channel" group-title="Shahid Live",AR| Bab Al Hara Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239730.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Big Time Plus" group-title="Shahid Live",AR| Big Time Plus
-http://atrupo4k.com:80/live/aymman988/gd79w941/239741.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| El Kebeer Awi Channel" group-title="Shahid Live",AR| El Kebeer Awi Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239731.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| El Le'ba Channel" group-title="Shahid Live",AR| El Le'ba Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239732.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Fairuz" group-title="Shahid Live",AR| Fairuz
-http://atrupo4k.com:80/live/aymman988/gd79w941/239738.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Fifa+" group-title="Shahid Live",AR| Fifa+
-http://atrupo4k.com:80/live/aymman988/gd79w941/239745.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Hikayat Ba'ed Alfasl" group-title="Shahid Live",AR| Hikayat Ba'ed Alfasl
-http://atrupo4k.com:80/live/aymman988/gd79w941/239737.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| KSA Now" group-title="Shahid Live",AR| KSA Now
-http://atrupo4k.com:80/live/aymman988/gd79w941/239722.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Iraq" group-title="Shahid Live",AR| MBC Iraq
-http://atrupo4k.com:80/live/aymman988/gd79w941/239711.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Persia" group-title="Shahid Live",AR| MBC Persia
-http://atrupo4k.com:80/live/aymman988/gd79w941/239712.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| MTV Lebanon" group-title="Shahid Live",AR| MTV Lebanon
-http://atrupo4k.com:80/live/aymman988/gd79w941/239713.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Majid Almohandis" group-title="Shahid Live",AR| Majid Almohandis
-http://atrupo4k.com:80/live/aymman988/gd79w941/239742.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Maraya Channel" group-title="Shahid Live",AR| Maraya Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239728.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Masrah Masr Channel" group-title="Shahid Live",AR| Masrah Masr Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239727.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Mohammed Abdu" group-title="Shahid Live",AR| Mohammed Abdu
-http://atrupo4k.com:80/live/aymman988/gd79w941/239757.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Movies Action" group-title="Shahid Live",AR| Movies Action
-http://atrupo4k.com:80/live/aymman988/gd79w941/239723.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Movies Thriller" group-title="Shahid Live",AR| Movies Thriller
-http://atrupo4k.com:80/live/aymman988/gd79w941/239724.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nasser Al Qassabi" group-title="Shahid Live",AR| Nasser Al Qassabi
-http://atrupo4k.com:80/live/aymman988/gd79w941/239753.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Rabeh Saqer" group-title="Shahid Live",AR| Rabeh Saqer
-http://atrupo4k.com:80/live/aymman988/gd79w941/239760.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Rashed Al-Majed" group-title="Shahid Live",AR| Rashed Al-Majed
-http://atrupo4k.com:80/live/aymman988/gd79w941/239759.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Red Bull TV" group-title="Shahid Live",AR| Red Bull TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/239735.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| SBC" group-title="Shahid Live",AR| SBC
-http://atrupo4k.com:80/live/aymman988/gd79w941/239748.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Selfie" group-title="Shahid Live",AR| Selfie
-http://atrupo4k.com:80/live/aymman988/gd79w941/239749.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Sikkat Safar" group-title="Shahid Live",AR| Sikkat Safar
-http://atrupo4k.com:80/live/aymman988/gd79w941/239750.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Spacetoon" group-title="Shahid Live",AR| Spacetoon
-http://atrupo4k.com:80/live/aymman988/gd79w941/239755.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Spooky Nights" group-title="Shahid Live",AR| Spooky Nights
-http://atrupo4k.com:80/live/aymman988/gd79w941/239701.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Tarab" group-title="Shahid Live",AR| Tarab
-http://atrupo4k.com:80/live/aymman988/gd79w941/239739.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Tash" group-title="Shahid Live",AR| Tash
-http://atrupo4k.com:80/live/aymman988/gd79w941/239744.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Thikrayat" group-title="Shahid Live",AR| Thikrayat
-http://atrupo4k.com:80/live/aymman988/gd79w941/239715.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Top Chef Channel" group-title="Shahid Live",AR| Top Chef Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/239729.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR| Wanasa" group-title="Shahid Live",AR| Wanasa
-http://atrupo4k.com:80/live/aymman988/gd79w941/239756.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AR|Al Quraan al Kareem" group-title="Shahid Live",AR|Al Quraan al Kareem
-http://atrupo4k.com:80/live/aymman988/gd79w941/239736.ts
+#EXTINF:-1 tvg-id="" tvg-name="SHAHID SPORT FHD" group-title="Shahid Live",SHAHID SPORT FHD
+http://sa.savpn.xyz:80/live/manar/manar2023/2475.ts
 
 ################################################################################
 # Kids
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="ARG| Baby" group-title="Kids",ARG| Baby
-http://atrupo4k.com:80/live/aymman988/gd79w941/165339.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Baby HD" group-title="Kids",Bein Baby HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1915.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|SPACETOON.KIDS" group-title="Kids",AR|SPACETOON.KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/58391.ts
+#EXTINF:-1 tvg-id="" tvg-name="Bein Baraem HD" group-title="Kids",Bein Baraem HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1917.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|TOYOR BABY Kids" group-title="Kids",AR|TOYOR BABY Kids
-http://atrupo4k.com:80/live/aymman988/gd79w941/40405.ts
+#EXTINF:-1 tvg-id="" tvg-name="Baby TV H.265" group-title="Kids",Baby TV H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1793.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|WANASAT BABY.KIDS" group-title="Kids",AR|WANASAT BABY.KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/58394.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Baby TV HD" group-title="Kids",OSN Baby TV HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1863.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|beIN BARAEM" group-title="Kids",AR|beIN BARAEM
-http://atrupo4k.com:80/live/aymman988/gd79w941/71249.ts
+#EXTINF:-1 tvg-id="" tvg-name="Baby TV" group-title="Kids",Baby TV
+http://sa.savpn.xyz:80/live/manar/manar2023/592.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|STC CN ARABIC" group-title="Kids",AR|STC CN ARABIC
-http://atrupo4k.com:80/live/aymman988/gd79w941/237356.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|BG| BABY TV" group-title="Kids",|BG| BABY TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/240262.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR| Baby TV" group-title="Kids",BR| Baby TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/169500.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ES| BABY TV ES" group-title="Kids",ES| BABY TV ES
-http://atrupo4k.com:80/live/aymman988/gd79w941/180059.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ES| Baby TV" group-title="Kids",ES| Baby TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/180057.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: Baby TV" group-title="Kids",Ex-Yu| Hr: Baby TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/171215.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: Baby TV" group-title="Kids",Ex-Yu| Srb: Baby TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/171329.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IL| YES baby" group-title="Kids",IL| YES baby
-http://atrupo4k.com:80/live/aymman988/gd79w941/145431.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IL-VIP|Partner TV Baby" group-title="Kids",IL-VIP|Partner TV Baby
-http://atrupo4k.com:80/live/aymman988/gd79w941/212325.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN| TS BABY TV FHD" group-title="Kids",IN| TS BABY TV FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/149718.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NL| Baby TV 4K" group-title="Kids",NL| Baby TV 4K
-http://atrupo4k.com:80/live/aymman988/gd79w941/172641.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PT| BABY TV" group-title="Kids",PT| BABY TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/179234.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="UK| Baby TV" group-title="Kids",UK| Baby TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/156664.ts
+#EXTINF:-1 tvg-id="" tvg-name="Baby.TV" group-title="Kids",Baby.TV
+http://sa.savpn.xyz:80/live/manar/manar2023/434.ts
 
 ################################################################################
 # Egypt
@@ -1527,294 +833,738 @@ https://rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u
 #EXTINF:-1 tvg-name="Watan TV" tvg-id="WatanTV.eg" group-title="Egypt",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="|GENERAL| ACTION SPORTS 4U" group-title="Egypt",|GENERAL| ACTION SPORTS 4U
-http://atrupo4k.com:80/live/aymman988/gd79w941/184764.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Disney HD" group-title="Egypt",OSN Disney HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1867.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ART AFLAM 1" group-title="Egypt",AR|ART AFLAM 1
-http://atrupo4k.com:80/live/aymman988/gd79w941/70324.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Movies Kids HD" group-title="Egypt",OSN Movies Kids HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1844.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ART AFLAM 2" group-title="Egypt",AR|ART AFLAM 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/70325.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Jr HD" group-title="Egypt",OSN Nick Jr HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1865.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ART CINEMA" group-title="Egypt",AR|ART CINEMA
-http://atrupo4k.com:80/live/aymman988/gd79w941/70323.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Toons" group-title="Egypt",OSN Nick Toons
+http://sa.savpn.xyz:80/live/manar/manar2023/1822.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ART HEKAYAT 2" group-title="Egypt",AR|ART HEKAYAT 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/70327.ts
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nickelodeon HD" group-title="Egypt",OSN Nickelodeon HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1828.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| HG TV HD" group-title="Egypt",AR| HG TV HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/147540.ts
+#EXTINF:-1 tvg-id="" tvg-name="Aghapy TV" group-title="Egypt",Aghapy TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1741.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|History" group-title="Egypt",AR|History
-http://atrupo4k.com:80/live/aymman988/gd79w941/147536.ts
+#EXTINF:-1 tvg-id="" tvg-name="4G Cima" group-title="Egypt",4G Cima
+http://sa.savpn.xyz:80/live/manar/manar2023/1522.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|History 2" group-title="Egypt",AR|History 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/147537.ts
+#EXTINF:-1 tvg-id="" tvg-name="4G Classic" group-title="Egypt",4G Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1523.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|AL ARABIYA FHD" group-title="Egypt",AR|AL ARABIYA FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/72341.ts
+#EXTINF:-1 tvg-id="" tvg-name="4G Drama" group-title="Egypt",4G Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1521.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|AL ARABIYA HD" group-title="Egypt",AR|AL ARABIYA HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/75020.ts
+#EXTINF:-1 tvg-id="" tvg-name="4G Film" group-title="Egypt",4G Film
+http://sa.savpn.xyz:80/live/manar/manar2023/1519.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|AL HADATH FHD" group-title="Egypt",AR|AL HADATH FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/72343.ts
+#EXTINF:-1 tvg-id="" tvg-name="7besha" group-title="Egypt",7besha
+http://sa.savpn.xyz:80/live/manar/manar2023/1554.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|AL HADATH HD" group-title="Egypt",AR|AL HADATH HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/75015.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Aasema" group-title="Egypt",AL Aasema
+http://sa.savpn.xyz:80/live/manar/manar2023/1604.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ALPHA ALYAWM" group-title="Egypt",AR| ALPHA ALYAWM
-http://atrupo4k.com:80/live/aymman988/gd79w941/201926.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Al Hayat HD" group-title="Egypt",AL Al Hayat HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1613.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ART AFLAM1" group-title="Egypt",AR| ART AFLAM1
-http://atrupo4k.com:80/live/aymman988/gd79w941/201887.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Askandria" group-title="Egypt",AL Askandria
+http://sa.savpn.xyz:80/live/manar/manar2023/1467.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ART AFLAM2" group-title="Egypt",AR| ART AFLAM2
-http://atrupo4k.com:80/live/aymman988/gd79w941/201888.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Kanal" group-title="Egypt",AL Kanal
+http://sa.savpn.xyz:80/live/manar/manar2023/1470.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ART CINEMA" group-title="Egypt",AR| ART CINEMA
-http://atrupo4k.com:80/live/aymman988/gd79w941/201889.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Maddah" group-title="Egypt",AL Maddah
+http://sa.savpn.xyz:80/live/manar/manar2023/1482.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ART Hekayat1" group-title="Egypt",AR| ART Hekayat1
-http://atrupo4k.com:80/live/aymman988/gd79w941/201890.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3a Al youm" group-title="Egypt",AL Sa3a Al youm
+http://sa.savpn.xyz:80/live/manar/manar2023/1568.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ART Hekayat2" group-title="Egypt",AR| ART Hekayat2
-http://atrupo4k.com:80/live/aymman988/gd79w941/201891.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3aa Cinema" group-title="Egypt",AL Sa3aa Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1563.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Bloomberg" group-title="Egypt",AR| Bloomberg
-http://atrupo4k.com:80/live/aymman988/gd79w941/201933.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3aa Classic" group-title="Egypt",AL Sa3aa Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1564.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| CINEMA 1HD" group-title="Egypt",AR| CINEMA 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201927.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3aa Comedy" group-title="Egypt",AL Sa3aa Comedy
+http://sa.savpn.xyz:80/live/manar/manar2023/1567.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| CINEMA 2HD" group-title="Egypt",AR| CINEMA 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201928.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3aa Drama" group-title="Egypt",AL Sa3aa Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1565.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| COMDEY" group-title="Egypt",AR| COMDEY
-http://atrupo4k.com:80/live/aymman988/gd79w941/201898.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Sa3aa Musalsalat" group-title="Egypt",AL Sa3aa Musalsalat
+http://sa.savpn.xyz:80/live/manar/manar2023/1566.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Crime" group-title="Egypt",AR| Crime
-http://atrupo4k.com:80/live/aymman988/gd79w941/201902.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Saied" group-title="Egypt",AL Saied
+http://sa.savpn.xyz:80/live/manar/manar2023/1471.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Discovery HD" group-title="Egypt",AR| Discovery HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201916.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shams TV" group-title="Egypt",AL Shams TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1601.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Discovery IDX" group-title="Egypt",AR| Discovery IDX
-http://atrupo4k.com:80/live/aymman988/gd79w941/201918.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Cinema" group-title="Egypt",AL Shasha Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1560.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Discovery IDX HD" group-title="Egypt",AR| Discovery IDX HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201917.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Classic" group-title="Egypt",AL Shasha Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1561.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Disney Channel" group-title="Egypt",AR| Disney Channel
-http://atrupo4k.com:80/live/aymman988/gd79w941/201906.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Film" group-title="Egypt",AL Shasha Film
+http://sa.savpn.xyz:80/live/manar/manar2023/1559.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Disney Junior" group-title="Egypt",AR| Disney Junior
-http://atrupo4k.com:80/live/aymman988/gd79w941/201907.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL Shasha Musalslat" group-title="Egypt",AL Shasha Musalslat
+http://sa.savpn.xyz:80/live/manar/manar2023/1562.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| ECLUTCH TV" group-title="Egypt",AR| ECLUTCH TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/201937.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Delta" group-title="Egypt",Al Delta
+http://sa.savpn.xyz:80/live/manar/manar2023/1468.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| FAN" group-title="Egypt",AR| FAN
-http://atrupo4k.com:80/live/aymman988/gd79w941/201929.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Hadath Alyoum" group-title="Egypt",Al Hadath Alyoum
+http://sa.savpn.xyz:80/live/manar/manar2023/1600.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| FOX-NEWS" group-title="Egypt",AR| FOX-NEWS
-http://atrupo4k.com:80/live/aymman988/gd79w941/201940.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Hayat Drama" group-title="Egypt",Al Hayat Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1612.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| FashionTV" group-title="Egypt",AR| FashionTV
-http://atrupo4k.com:80/live/aymman988/gd79w941/201938.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera" group-title="Egypt",Al Kahera
+http://sa.savpn.xyz:80/live/manar/manar2023/1469.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Ginx eSports" group-title="Egypt",AR| Ginx eSports
-http://atrupo4k.com:80/live/aymman988/gd79w941/201932.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera Wal Nas" group-title="Egypt",Al Kahera Wal Nas
+http://sa.savpn.xyz:80/live/manar/manar2023/1611.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| History" group-title="Egypt",AR| History
-http://atrupo4k.com:80/live/aymman988/gd79w941/201919.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Kahera Wal Nas 2" group-title="Egypt",Al Kahera Wal Nas 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1610.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| History 2" group-title="Egypt",AR| History 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/201920.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Masriyah HD" group-title="Egypt",Al Masriyah HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1625.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| KIDS" group-title="Egypt",AR| KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/201900.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Oula EG HD" group-title="Egypt",Al Oula EG HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1627.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Kid Zone TV" group-title="Egypt",AR| Kid Zone TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/201910.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Yoom Cinema" group-title="Egypt",Al Yoom Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1525.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MOONBUG KIDS" group-title="Egypt",AR| MOONBUG KIDS
-http://atrupo4k.com:80/live/aymman988/gd79w941/201911.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Yoom Drama" group-title="Egypt",Al Yoom Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1529.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MOTORVISION+" group-title="Egypt",AR| MOTORVISION+
-http://atrupo4k.com:80/live/aymman988/gd79w941/201923.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Yoom Hekayat" group-title="Egypt",Al Yoom Hekayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1528.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MOVIES ACTION" group-title="Egypt",AR| MOVIES ACTION
-http://atrupo4k.com:80/live/aymman988/gd79w941/201895.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al Yoom Zaman" group-title="Egypt",Al Yoom Zaman
+http://sa.savpn.xyz:80/live/manar/manar2023/1524.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MOVIES Holloway" group-title="Egypt",AR| MOVIES Holloway
-http://atrupo4k.com:80/live/aymman988/gd79w941/201897.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al-Nahar Drama" group-title="Egypt",Al-Nahar Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1602.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MOVIES Premiere" group-title="Egypt",AR| MOVIES Premiere
-http://atrupo4k.com:80/live/aymman988/gd79w941/201896.ts
+#EXTINF:-1 tvg-id="" tvg-name="Al-Nahar One" group-title="Egypt",Al-Nahar One
+http://sa.savpn.xyz:80/live/manar/manar2023/1603.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MTV 00S" group-title="Egypt",AR| MTV 00S
-http://atrupo4k.com:80/live/aymman988/gd79w941/201936.ts
+#EXTINF:-1 tvg-id="" tvg-name="Alsa3yda" group-title="Egypt",Alsa3yda
+http://sa.savpn.xyz:80/live/manar/manar2023/1483.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MUSALSALAT 1HD" group-title="Egypt",AR| MUSALSALAT 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201924.ts
+#EXTINF:-1 tvg-id="" tvg-name="Althanya" group-title="Egypt",Althanya
+http://sa.savpn.xyz:80/live/manar/manar2023/1626.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| MUSALSALAT 2HD" group-title="Egypt",AR| MUSALSALAT 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201925.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Aflam" group-title="Egypt",Apple Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1589.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Mezze" group-title="Egypt",AR| Mezze
-http://atrupo4k.com:80/live/aymman988/gd79w941/201921.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Alyoum" group-title="Egypt",Apple Alyoum
+http://sa.savpn.xyz:80/live/manar/manar2023/1588.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Moonbug Kids" group-title="Egypt",AR| Moonbug Kids
-http://atrupo4k.com:80/live/aymman988/gd79w941/201913.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Cinema" group-title="Egypt",Apple Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1586.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Movies  FAMILY" group-title="Egypt",AR| Movies  FAMILY
-http://atrupo4k.com:80/live/aymman988/gd79w941/201899.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Comedy" group-title="Egypt",Apple Comedy
+http://sa.savpn.xyz:80/live/manar/manar2023/1587.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| NEWS" group-title="Egypt",AR| NEWS
-http://atrupo4k.com:80/live/aymman988/gd79w941/201935.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Hekayat" group-title="Egypt",Apple Hekayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1584.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nat. Geo. Wild HD" group-title="Egypt",AR| Nat. Geo. Wild HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/201915.ts
+#EXTINF:-1 tvg-id="" tvg-name="Apple Musalslat" group-title="Egypt",Apple Musalslat
+http://sa.savpn.xyz:80/live/manar/manar2023/1585.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nat. Geographic" group-title="Egypt",AR| Nat. Geographic
-http://atrupo4k.com:80/live/aymman988/gd79w941/201914.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ar; AL Yoom Aflam" group-title="Egypt",Ar; AL Yoom Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1526.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nick Jr." group-title="Egypt",AR| Nick Jr.
-http://atrupo4k.com:80/live/aymman988/gd79w941/201908.ts
+#EXTINF:-1 tvg-id="" tvg-name="Ar; AL Yoom Comedy" group-title="Egypt",Ar; AL Yoom Comedy
+http://sa.savpn.xyz:80/live/manar/manar2023/1527.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nickelodeon" group-title="Egypt",AR| Nickelodeon
-http://atrupo4k.com:80/live/aymman988/gd79w941/201912.ts
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Al Yoom" group-title="Egypt",Beirut Al Yoom
+http://sa.savpn.xyz:80/live/manar/manar2023/1518.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Nicktoons" group-title="Egypt",AR| Nicktoons
-http://atrupo4k.com:80/live/aymman988/gd79w941/201909.ts
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Cinema" group-title="Egypt",Beirut Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1515.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Now" group-title="Egypt",AR| Now
-http://atrupo4k.com:80/live/aymman988/gd79w941/201905.ts
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Classic" group-title="Egypt",Beirut Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1516.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| OSN DOCUMENTARY" group-title="Egypt",AR| OSN DOCUMENTARY
-http://atrupo4k.com:80/live/aymman988/gd79w941/201934.ts
+#EXTINF:-1 tvg-id="" tvg-name="Beirut Drama" group-title="Egypt",Beirut Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1517.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| One" group-title="Egypt",AR| One
-http://atrupo4k.com:80/live/aymman988/gd79w941/201904.ts
+#EXTINF:-1 tvg-id="" tvg-name="Box Alwan" group-title="Egypt",Box Alwan
+http://sa.savpn.xyz:80/live/manar/manar2023/1505.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| STAR ACTION" group-title="Egypt",AR| STAR ACTION
-http://atrupo4k.com:80/live/aymman988/gd79w941/201901.ts
+#EXTINF:-1 tvg-id="" tvg-name="Box Movies" group-title="Egypt",Box Movies
+http://sa.savpn.xyz:80/live/manar/manar2023/1506.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Safwah" group-title="Egypt",AR| Safwah
-http://atrupo4k.com:80/live/aymman988/gd79w941/201930.ts
+#EXTINF:-1 tvg-id="" tvg-name="CBC" group-title="Egypt",CBC
+http://sa.savpn.xyz:80/live/manar/manar2023/1621.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| Showcase" group-title="Egypt",AR| Showcase
-http://atrupo4k.com:80/live/aymman988/gd79w941/201903.ts
+#EXTINF:-1 tvg-id="" tvg-name="CBC Drama" group-title="Egypt",CBC Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1619.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| TFC" group-title="Egypt",AR| TFC
-http://atrupo4k.com:80/live/aymman988/gd79w941/201931.ts
+#EXTINF:-1 tvg-id="" tvg-name="CBC Extra News HD" group-title="Egypt",CBC Extra News HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1620.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| TFC" group-title="Egypt",AR| TFC
-http://atrupo4k.com:80/live/aymman988/gd79w941/201939.ts
+#EXTINF:-1 tvg-id="" tvg-name="CBC Sofra" group-title="Egypt",CBC Sofra
+http://sa.savpn.xyz:80/live/manar/manar2023/1618.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| TLC" group-title="Egypt",AR| TLC
-http://atrupo4k.com:80/live/aymman988/gd79w941/201922.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cima Ali Baba" group-title="Egypt",Cima Ali Baba
+http://sa.savpn.xyz:80/live/manar/manar2023/1509.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| yahala" group-title="Egypt",AR| yahala
-http://atrupo4k.com:80/live/aymman988/gd79w941/201892.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cima TV" group-title="Egypt",Cima TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1511.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| yahala Aflam" group-title="Egypt",AR| yahala Aflam
-http://atrupo4k.com:80/live/aymman988/gd79w941/201894.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cima Tube" group-title="Egypt",Cima Tube
+http://sa.savpn.xyz:80/live/manar/manar2023/1551.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR| yahala Bil Arabi" group-title="Egypt",AR| yahala Bil Arabi
-http://atrupo4k.com:80/live/aymman988/gd79w941/201893.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cinema 1" group-title="Egypt",Cinema 1
+http://sa.savpn.xyz:80/live/manar/manar2023/1581.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AL|Al AHLY TV" group-title="Egypt",AL|Al AHLY TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/160366.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cinema 2" group-title="Egypt",Cinema 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1580.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ALhayat" group-title="Egypt",AR|ALhayat
-http://atrupo4k.com:80/live/aymman988/gd79w941/71390.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cinema Pro" group-title="Egypt",Cinema Pro
+http://sa.savpn.xyz:80/live/manar/manar2023/1513.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Al Kahera Wal Nas" group-title="Egypt",AR|Al Kahera Wal Nas
-http://atrupo4k.com:80/live/aymman988/gd79w941/71382.ts
+#EXTINF:-1 tvg-id="" tvg-name="Cinema Tube" group-title="Egypt",Cinema Tube
+http://sa.savpn.xyz:80/live/manar/manar2023/1550.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Al NAHAR HD" group-title="Egypt",AR|Al NAHAR HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71387.ts
+#EXTINF:-1 tvg-id="" tvg-name="DMC DRAMA" group-title="Egypt",DMC DRAMA
+http://sa.savpn.xyz:80/live/manar/manar2023/1622.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Al-Nahar Drama" group-title="Egypt",AR|Al-Nahar Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/71386.ts
+#EXTINF:-1 tvg-id="" tvg-name="DMC HD" group-title="Egypt",DMC HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1623.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|CBC DRAMA HD" group-title="Egypt",AR|CBC DRAMA HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/79969.ts
+#EXTINF:-1 tvg-id="" tvg-name="Dream 7Kayat" group-title="Egypt",Dream 7Kayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1493.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|CBC HD" group-title="Egypt",AR|CBC HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/79967.ts
+#EXTINF:-1 tvg-id="" tvg-name="Dream Cinema" group-title="Egypt",Dream Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1494.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|CBC Sofra HD" group-title="Egypt",AR|CBC Sofra HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/79968.ts
+#EXTINF:-1 tvg-id="" tvg-name="Dream El Youm" group-title="Egypt",Dream El Youm
+http://sa.savpn.xyz:80/live/manar/manar2023/1495.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|DMC DRAMA" group-title="Egypt",AR|DMC DRAMA
-http://atrupo4k.com:80/live/aymman988/gd79w941/71407.ts
+#EXTINF:-1 tvg-id="" tvg-name="Dream Turk" group-title="Egypt",Dream Turk
+http://sa.savpn.xyz:80/live/manar/manar2023/1492.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|DMC TV" group-title="Egypt",AR|DMC TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/71406.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Moleed" group-title="Egypt",EL Moleed
+http://sa.savpn.xyz:80/live/manar/manar2023/1475.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Mix Bel Araby" group-title="Egypt",AR|Mix Bel Araby
-http://atrupo4k.com:80/live/aymman988/gd79w941/71392.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 1" group-title="Egypt",EL Television 1
+http://sa.savpn.xyz:80/live/manar/manar2023/1501.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Nile Drama" group-title="Egypt",AR|Nile Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/71426.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 2" group-title="Egypt",EL Television 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1500.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Nile Family" group-title="Egypt",AR|Nile Family
-http://atrupo4k.com:80/live/aymman988/gd79w941/71427.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 3" group-title="Egypt",EL Television 3
+http://sa.savpn.xyz:80/live/manar/manar2023/1499.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Nile Life" group-title="Egypt",AR|Nile Life
-http://atrupo4k.com:80/live/aymman988/gd79w941/71428.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 4" group-title="Egypt",EL Television 4
+http://sa.savpn.xyz:80/live/manar/manar2023/1498.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Nile News" group-title="Egypt",AR|Nile News
-http://atrupo4k.com:80/live/aymman988/gd79w941/71429.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 5" group-title="Egypt",EL Television 5
+http://sa.savpn.xyz:80/live/manar/manar2023/1497.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Nile Sport" group-title="Egypt",AR|Nile Sport
-http://atrupo4k.com:80/live/aymman988/gd79w941/71430.ts
+#EXTINF:-1 tvg-id="" tvg-name="EL Television 6" group-title="Egypt",EL Television 6
+http://sa.savpn.xyz:80/live/manar/manar2023/1496.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ON  E" group-title="Egypt",AR|ON  E
-http://atrupo4k.com:80/live/aymman988/gd79w941/71434.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Aflam" group-title="Egypt",EgyBest Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1538.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ON Drama" group-title="Egypt",AR|ON Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/71437.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Cima" group-title="Egypt",EgyBest Cima
+http://sa.savpn.xyz:80/live/manar/manar2023/1537.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ON TIME  SPORTS 1HD" group-title="Egypt",AR|ON TIME  SPORTS 1HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71436.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Cinema" group-title="Egypt",EgyBest Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1536.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ON TIME SPORTS 2HD" group-title="Egypt",AR|ON TIME SPORTS 2HD
-http://atrupo4k.com:80/live/aymman988/gd79w941/71435.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Comedy" group-title="Egypt",EgyBest Comedy
+http://sa.savpn.xyz:80/live/manar/manar2023/1541.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|PNC DRAMA" group-title="Egypt",AR|PNC DRAMA
-http://atrupo4k.com:80/live/aymman988/gd79w941/71439.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Drama" group-title="Egypt",EgyBest Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1540.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Panorama Drama 2" group-title="Egypt",AR|Panorama Drama 2
-http://atrupo4k.com:80/live/aymman988/gd79w941/71440.ts
+#EXTINF:-1 tvg-id="" tvg-name="EgyBest Today" group-title="Egypt",EgyBest Today
+http://sa.savpn.xyz:80/live/manar/manar2023/1539.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Panorama Food" group-title="Egypt",AR|Panorama Food
-http://atrupo4k.com:80/live/aymman988/gd79w941/71441.ts
+#EXTINF:-1 tvg-id="" tvg-name="Etc" group-title="Egypt",Etc
+http://sa.savpn.xyz:80/live/manar/manar2023/1599.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Sada El Balad" group-title="Egypt",AR|Sada El Balad
-http://atrupo4k.com:80/live/aymman988/gd79w941/71443.ts
+#EXTINF:-1 tvg-id="" tvg-name="Family Cinema" group-title="Egypt",Family Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1569.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|Sada ElBalad Drama" group-title="Egypt",AR|Sada ElBalad Drama
-http://atrupo4k.com:80/live/aymman988/gd79w941/71444.ts
+#EXTINF:-1 tvg-id="" tvg-name="Family Drama" group-title="Egypt",Family Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1572.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|TEN TV" group-title="Egypt",AR|TEN TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/71410.ts
+#EXTINF:-1 tvg-id="" tvg-name="Family Hikayat" group-title="Egypt",Family Hikayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1571.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AR|ZAMALIK TV" group-title="Egypt",AR|ZAMALIK TV
-http://atrupo4k.com:80/live/aymman988/gd79w941/160367.ts
+#EXTINF:-1 tvg-id="" tvg-name="Family Musalslat" group-title="Egypt",Family Musalslat
+http://sa.savpn.xyz:80/live/manar/manar2023/1570.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO ENG FHD" group-title="Egypt",IN| D2H NAT GEO ENG FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/149753.ts
+#EXTINF:-1 tvg-id="" tvg-name="Food Hub" group-title="Egypt",Food Hub
+http://sa.savpn.xyz:80/live/manar/manar2023/1512.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO HINDI FHD" group-title="Egypt",IN| D2H NAT GEO HINDI FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/149754.ts
+#EXTINF:-1 tvg-id="" tvg-name="Hekaya Hendy TV" group-title="Egypt",Hekaya Hendy TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1478.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR WORLD FHD" group-title="Egypt",IN| D2H STAR WORLD FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/149776.ts
+#EXTINF:-1 tvg-id="" tvg-name="M Cinema" group-title="Egypt",M Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1552.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR WORLD PREMIER FHD" group-title="Egypt",IN| D2H STAR WORLD PREMIER FHD
-http://atrupo4k.com:80/live/aymman988/gd79w941/149777.ts
+#EXTINF:-1 tvg-id="" tvg-name="Maspero Zaman" group-title="Egypt",Maspero Zaman
+http://sa.savpn.xyz:80/live/manar/manar2023/1624.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mazzika" group-title="Egypt",Mazzika
+http://sa.savpn.xyz:80/live/manar/manar2023/1474.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mdeeh" group-title="Egypt",Mdeeh
+http://sa.savpn.xyz:80/live/manar/manar2023/1598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mehwar HD" group-title="Egypt",Mehwar HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1606.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Melody Aflam" group-title="Egypt",Melody Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Melody Drama" group-title="Egypt",Melody Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Misr Quran Kareem" group-title="Egypt",Misr Quran Kareem
+http://sa.savpn.xyz:80/live/manar/manar2023/1628.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix Bel Araby" group-title="Egypt",Mix Bel Araby
+http://sa.savpn.xyz:80/live/manar/manar2023/1485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix Hollywood" group-title="Egypt",Mix Hollywood
+http://sa.savpn.xyz:80/live/manar/manar2023/1486.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix One" group-title="Egypt",Mix One
+http://sa.savpn.xyz:80/live/manar/manar2023/1487.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mosalsalat Tube" group-title="Egypt",Mosalsalat Tube
+http://sa.savpn.xyz:80/live/manar/manar2023/1549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies" group-title="Egypt",Movies
+http://sa.savpn.xyz:80/live/manar/manar2023/1508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Cinema" group-title="Egypt",Nile Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Comedy" group-title="Egypt",Nile Comedy
+http://sa.savpn.xyz:80/live/manar/manar2023/1592.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Drama" group-title="Egypt",Nile Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1590.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Family" group-title="Egypt",Nile Family
+http://sa.savpn.xyz:80/live/manar/manar2023/1595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile Life" group-title="Egypt",Nile Life
+http://sa.savpn.xyz:80/live/manar/manar2023/1594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile News" group-title="Egypt",Nile News
+http://sa.savpn.xyz:80/live/manar/manar2023/1596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile News HD" group-title="Egypt",Nile News HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1591.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nile TV" group-title="Egypt",Nile TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nogoum FM" group-title="Egypt",Nogoum FM
+http://sa.savpn.xyz:80/live/manar/manar2023/1473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Number One" group-title="Egypt",Number One
+http://sa.savpn.xyz:80/live/manar/manar2023/1479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Drama" group-title="Egypt",ON Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1616.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON E HD" group-title="Egypt",ON E HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1617.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ORPIT AL Youm" group-title="Egypt",ORPIT AL Youm
+http://sa.savpn.xyz:80/live/manar/manar2023/1547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ORPIT Cinema" group-title="Egypt",ORPIT Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ORPIT Drama" group-title="Egypt",ORPIT Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ORPIT Hekayat" group-title="Egypt",ORPIT Hekayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ORPIT Movies" group-title="Egypt",ORPIT Movies
+http://sa.savpn.xyz:80/live/manar/manar2023/1546.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Oscar TV" group-title="Egypt",Oscar TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1510.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Aflam" group-title="Egypt",Otlob Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Cinema" group-title="Egypt",Otlob Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Drama" group-title="Egypt",Otlob Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Hekayat" group-title="Egypt",Otlob Hekayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1530.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Today" group-title="Egypt",Otlob Today
+http://sa.savpn.xyz:80/live/manar/manar2023/1535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Otlob Zaman" group-title="Egypt",Otlob Zaman
+http://sa.savpn.xyz:80/live/manar/manar2023/1531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Drama" group-title="Egypt",PNC Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Drama 2" group-title="Egypt",PNC Drama 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Film" group-title="Egypt",PNC Film
+http://sa.savpn.xyz:80/live/manar/manar2023/1575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Food" group-title="Egypt",PNC Food
+http://sa.savpn.xyz:80/live/manar/manar2023/1574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PNC Today" group-title="Egypt",PNC Today
+http://sa.savpn.xyz:80/live/manar/manar2023/1573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Play Drama" group-title="Egypt",Play Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Play Today" group-title="Egypt",Play Today
+http://sa.savpn.xyz:80/live/manar/manar2023/1543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Queen Classic" group-title="Egypt",Queen Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1514.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Radio 9090" group-title="Egypt",Radio 9090
+http://sa.savpn.xyz:80/live/manar/manar2023/1472.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada ALbalad 2" group-title="Egypt",Sada ALbalad 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1608.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad" group-title="Egypt",Sada El Balad
+http://sa.savpn.xyz:80/live/manar/manar2023/1609.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama" group-title="Egypt",Sada El Balad Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1607.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sha3beyat" group-title="Egypt",Sha3beyat
+http://sa.savpn.xyz:80/live/manar/manar2023/1476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shoof Aflam" group-title="Egypt",Shoof Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1489.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shoof Cinema" group-title="Egypt",Shoof Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shoof Drama" group-title="Egypt",Shoof Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1488.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shoof Mix" group-title="Egypt",Shoof Mix
+http://sa.savpn.xyz:80/live/manar/manar2023/1491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Action" group-title="Egypt",Sky Action
+http://sa.savpn.xyz:80/live/manar/manar2023/1503.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Hikayat" group-title="Egypt",Sky Hikayat
+http://sa.savpn.xyz:80/live/manar/manar2023/1502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Horror" group-title="Egypt",Sky Horror
+http://sa.savpn.xyz:80/live/manar/manar2023/1504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sowt AL Arab TV" group-title="Egypt",Sowt AL Arab TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Cinema 1" group-title="Egypt",Star Cinema 1
+http://sa.savpn.xyz:80/live/manar/manar2023/1579.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Cinema 2" group-title="Egypt",Star Cinema 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ten" group-title="Egypt",Ten
+http://sa.savpn.xyz:80/live/manar/manar2023/1605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Tok Tok Aflam" group-title="Egypt",Tok Tok Aflam
+http://sa.savpn.xyz:80/live/manar/manar2023/1583.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Tok Tok Cima" group-title="Egypt",Tok Tok Cima
+http://sa.savpn.xyz:80/live/manar/manar2023/1582.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Top Movies" group-title="Egypt",Top Movies
+http://sa.savpn.xyz:80/live/manar/manar2023/1507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yalla Mosar3a" group-title="Egypt",Yalla Mosar3a
+http://sa.savpn.xyz:80/live/manar/manar2023/1553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zamalik TV" group-title="Egypt",Zamalik TV
+http://sa.savpn.xyz:80/live/manar/manar2023/1614.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zee Zaman" group-title="Egypt",Zee Zaman
+http://sa.savpn.xyz:80/live/manar/manar2023/1484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zilzal Al Youm" group-title="Egypt",Zilzal Al Youm
+http://sa.savpn.xyz:80/live/manar/manar2023/1557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zilzal Cinema" group-title="Egypt",Zilzal Cinema
+http://sa.savpn.xyz:80/live/manar/manar2023/1555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zilzal Classic" group-title="Egypt",Zilzal Classic
+http://sa.savpn.xyz:80/live/manar/manar2023/1558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zilzal Drama" group-title="Egypt",Zilzal Drama
+http://sa.savpn.xyz:80/live/manar/manar2023/1520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zilzal Musalsalat" group-title="Egypt",Zilzal Musalsalat
+http://sa.savpn.xyz:80/live/manar/manar2023/1556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AL Hadath" group-title="Egypt",AL Hadath
+http://sa.savpn.xyz:80/live/manar/manar2023/1696.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NOVA TAMER HOSNY" group-title="Egypt",NOVA TAMER HOSNY
+http://sa.savpn.xyz:80/live/manar/manar2023/956.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TAMER HOSNY NEW" group-title="Egypt",TAMER HOSNY NEW
+http://sa.savpn.xyz:80/live/manar/manar2023/1027.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Yawm H.265" group-title="Egypt",Al Yawm H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1813.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cinema 1 H.265" group-title="Egypt",Cinema 1 H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1817.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Cinema 2 H.265" group-title="Egypt",Cinema 2 H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1816.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Discovery HD H.265" group-title="Egypt",Discovery HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1792.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Discovery IDX HD H.265" group-title="Egypt",Discovery IDX HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1791.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Science HD H.265" group-title="Egypt",Discovery Science HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1790.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney HD H.265" group-title="Egypt",Disney HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1789.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="E! HD H.265" group-title="Egypt",E! HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1788.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fann H.265" group-title="Egypt",Fann H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1811.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="H2 HD H.265" group-title="Egypt",H2 HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1786.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="History Channel HD H.265" group-title="Egypt",History Channel HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1787.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Kid Zone H.265" group-title="Egypt",Kid Zone H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1797.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MTV Live HD H.265" group-title="Egypt",MTV Live HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1780.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Mix H.265" group-title="Egypt",Mix H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1802.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies Action H.265" group-title="Egypt",Movies Action H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1809.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies Disney H.265" group-title="Egypt",Movies Disney H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1798.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies First +2 H.265" group-title="Egypt",Movies First +2 H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1807.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies First H.265" group-title="Egypt",Movies First H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1808.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies H.265" group-title="Egypt",Movies H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1810.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies Kids H.265" group-title="Egypt",Movies Kids H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1799.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Music Now H.265" group-title="Egypt",Music Now H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1781.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nick Jr HD H.265" group-title="Egypt",Nick Jr HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1794.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nick Toons HD H.265" group-title="Egypt",Nick Toons HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1795.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon HD H.265" group-title="Egypt",Nickelodeon HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1796.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Al Safwa H.265" group-title="Egypt",OSN Al Safwa H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1812.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Living HD H.265" group-title="Egypt",OSN Living HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1779.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Series +2 HD H.265" group-title="Egypt",Series +2 HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1814.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Series Channel HD H.265" group-title="Egypt",Series Channel HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1815.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Series Com H.265" group-title="Egypt",Series Com H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1803.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Series First H.265" group-title="Egypt",Series First H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1804.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Movies HD H.265" group-title="Egypt",Star Movies HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1805.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Star World HD H.265" group-title="Egypt",Star World HD H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1806.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TLC H.265" group-title="Egypt",TLC H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1800.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="YH Cinema H.265" group-title="Egypt",YH Cinema H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1818.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="YaHala H.265" group-title="Egypt",YaHala H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1820.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yahala Oula H.265" group-title="Egypt",Yahala Oula H.265
+http://sa.savpn.xyz:80/live/manar/manar2023/1819.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Movies Family HD" group-title="Egypt",Movies Family HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1869.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Action HD" group-title="Egypt",OSN Action HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1849.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Al Yawm" group-title="Egypt",OSN Al Yawm
+http://sa.savpn.xyz:80/live/manar/manar2023/1839.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Cinema 1" group-title="Egypt",OSN Cinema 1
+http://sa.savpn.xyz:80/live/manar/manar2023/1838.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Cinema 2" group-title="Egypt",OSN Cinema 2
+http://sa.savpn.xyz:80/live/manar/manar2023/1837.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Comedy HD" group-title="Egypt",OSN Comedy HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1845.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery HD" group-title="Egypt",OSN Discovery HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1860.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery ID HD" group-title="Egypt",OSN Discovery ID HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1858.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Discovery Science HD" group-title="Egypt",OSN Discovery Science HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1859.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Disney HD" group-title="Egypt",OSN Disney HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1867.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Disney Junior HD" group-title="Egypt",OSN Disney Junior HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1866.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN E! Entertainment HD" group-title="Egypt",OSN E! Entertainment HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1855.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Fann" group-title="Egypt",OSN Fann
+http://sa.savpn.xyz:80/live/manar/manar2023/1836.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN H2 HD" group-title="Egypt",OSN H2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1829.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN History HD" group-title="Egypt",OSN History HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1857.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Kid Zone TV HD" group-title="Egypt",OSN Kid Zone TV HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1864.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Living HD" group-title="Egypt",OSN Living HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1856.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN MTV Live HD" group-title="Egypt",OSN MTV Live HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1827.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Movies First +2 HD" group-title="Egypt",OSN Movies First +2 HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1850.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Movies First HD" group-title="Egypt",OSN Movies First HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1851.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Movies HD" group-title="Egypt",OSN Movies HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1848.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Movies Kids HD" group-title="Egypt",OSN Movies Kids HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1844.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Music Now" group-title="Egypt",OSN Music Now
+http://sa.savpn.xyz:80/live/manar/manar2023/1835.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN NEWS" group-title="Egypt",OSN NEWS
+http://sa.savpn.xyz:80/live/manar/manar2023/1840.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Jr HD" group-title="Egypt",OSN Nick Jr HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1865.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nick Toons" group-title="Egypt",OSN Nick Toons
+http://sa.savpn.xyz:80/live/manar/manar2023/1822.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Nickelodeon HD" group-title="Egypt",OSN Nickelodeon HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1828.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Safwa" group-title="Egypt",OSN Safwa
+http://sa.savpn.xyz:80/live/manar/manar2023/1826.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Series +2" group-title="Egypt",OSN Series +2
+http://sa.savpn.xyz:80/live/manar/manar2023/1868.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Series Channel" group-title="Egypt",OSN Series Channel
+http://sa.savpn.xyz:80/live/manar/manar2023/1821.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Series First HD" group-title="Egypt",OSN Series First HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1843.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Series HD" group-title="Egypt",OSN Series HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1847.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Star Movies HD" group-title="Egypt",OSN Star Movies HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1842.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Star World HD" group-title="Egypt",OSN Star World HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1841.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN TLC HD" group-title="Egypt",OSN TLC HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1825.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Woman HD" group-title="Egypt",OSN Woman HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1846.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Ya Hala Al Oula HD" group-title="Egypt",OSN Ya Hala Al Oula HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1853.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Ya Hala HD" group-title="Egypt",OSN Ya Hala HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Yahala Cinema HD" group-title="Egypt",OSN Yahala Cinema HD
+http://sa.savpn.xyz:80/live/manar/manar2023/1852.ts
 

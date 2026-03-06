@@ -4,11 +4,7 @@ echo   FinnTV - Auto Update and Deploy Tool
 echo ==============================================
 echo.
 
-echo [Step 0] Reorganizing M3U Files by Categories...
-call reorganize_all_m3u.bat
-echo.
-
-echo [1/3] Syncing with Provider (M3U Import)...
+echo [1/4] Syncing with Provider (M3U Import)...
 python import_xtream.py
 if %errorlevel% neq 0 (
     echo Error: Failed to fetch data from provider!
@@ -17,7 +13,11 @@ if %errorlevel% neq 0 (
 )
 echo.
 
-echo [1.5/3] Rebuilding custom region m3us from new live provider list...
+echo [2/4] Reorganizing M3U Files by Categories...
+call reorganize_all_m3u.bat
+echo.
+
+echo [3/4] Rebuilding custom region m3us from new live provider list...
 echo Rebuilding Egypt...
 python extract_famous.py
 echo Rebuilding India/Subcontinent...
@@ -31,7 +31,7 @@ python extract_usa.py
 echo.
 
 
-echo [2/3] Building Optimized Data Cache ^& ID Map...
+echo [4/4] Building Optimized Data Cache ^& ID Map...
 python build_data.py
 if %errorlevel% neq 0 (
     echo Error: Failed to build data cache!
