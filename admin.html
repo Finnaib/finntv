@@ -1122,11 +1122,10 @@
             }
 
             try {
-                const res = await fetch(`${API}?action=regen_cache&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const res = await fetch(`${API}?action=push_cache_git&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
                 const data = await res.json();
                 if (data.success) {
-                    if (!silent) showToast(`Cache refreshed! ${data.count} channels detected.`, "success");
-                    document.getElementById('lastRegen').innerText = "Last update: " + new Date().toLocaleTimeString();
+                    if (!silent) showToast(`Cache refreshed and pushed to GitHub!`, "success");
                     // Refresh stats
                     fetch(`${PROVIDER_API}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_stats`)
                         .then(r => r.json()).then(d => loadDashboard(d));
