@@ -196,6 +196,17 @@ if ($action === 'create_user') {
 
 } elseif ($action === 'push_cache_git') {
     require_once __DIR__ . '/../config.php';
+
+    // Force clear the data array so parseMoviesAndSeries actually reads the disks
+    $data = [
+        'live_streams' => [],
+        'live_categories' => [],
+        'vod_streams' => [],
+        'vod_categories' => [],
+        'series' => [],
+        'series_categories' => []
+    ];
+
     parseMoviesAndSeries();
 
     // Sync Data
