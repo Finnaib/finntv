@@ -1,4 +1,5 @@
-#EXTM3U
+﻿#EXTM3U
+
 
 ################################################################################
 # Bangladesh
@@ -28,124 +29,2333 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
 #EXTINF:-1 group-title="Bangladesh" tvg-logo="https://i.postimg.cc/hvcWR1Yz/Somoy-TV.jpg",Somoy TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE BANGLA CINEMA" group-title="Bangladesh",|IN| ZEE BANGLA CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ZEE BANGLA FHD" group-title="Bangladesh",IN| TS ZEE BANGLA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149686.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE BANGLA FHD" group-title="Bangladesh",IN| ZEE BANGLA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149687.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| BTV" group-title="Bangladesh",IN| BTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149488.ts
+
+
 ################################################################################
 # India
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="YES SPORT 5 Stars FHD" group-title="India",YES SPORT 5 Stars FHD
-http://sa.savpn.xyz:80/live/manar/manar2023/1102.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|Zee Aflam TV" group-title="India",AR|Zee Aflam TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/77802.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Zee Aflam" group-title="India",Zee Aflam
-http://sa.savpn.xyz:80/live/manar/manar2023/1634.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|Zee Alwan TV" group-title="India",AR|Zee Alwan TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/77801.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Zee Alwan" group-title="India",Zee Alwan
-http://sa.savpn.xyz:80/live/manar/manar2023/1633.ts
+#EXTINF:-1 tvg-id="" tvg-name="|MUSIC| TRACE SPORTS STARTS" group-title="India",|MUSIC| TRACE SPORTS STARTS
+http://atrupo4k.com:80/live/aymman988/gd79w941/184723.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein Star Movies HD" group-title="India",Bein Star Movies HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1923.ts
+#EXTINF:-1 tvg-id="" tvg-name="|TANZANIA| STAR TV" group-title="India",|TANZANIA| STAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184729.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein Star World HD" group-title="India",Bein Star World HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1924.ts
+#EXTINF:-1 tvg-id="" tvg-name="AF|C+ CSTAR" group-title="India",AF|C+ CSTAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/232557.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein star Action HD" group-title="India",Bein star Action HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1925.ts
+#EXTINF:-1 tvg-id="" tvg-name="AF|STAR TV" group-title="India",AF|STAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/122103.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein star Life HD" group-title="India",Bein star Life HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1929.ts
+#EXTINF:-1 tvg-id="" tvg-name="|SOMALIA| STAR TV" group-title="India",|SOMALIA| STAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184842.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein star film HD" group-title="India",Bein star film HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1926.ts
+#EXTINF:-1 tvg-id="" tvg-name="|SOMALIA| Star TV ( Somalia )" group-title="India",|SOMALIA| Star TV ( Somalia )
+http://atrupo4k.com:80/live/aymman988/gd79w941/184840.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Bein star se HD" group-title="India",Bein star se HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1920.ts
+#EXTINF:-1 tvg-id="" tvg-name="|UGANDA| M-NET MOVIES ALL STARS" group-title="India",|UGANDA| M-NET MOVIES ALL STARS
+http://atrupo4k.com:80/live/aymman988/gd79w941/184576.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Star Cinema 1" group-title="India",Star Cinema 1
-http://sa.savpn.xyz:80/live/manar/manar2023/1579.ts
+#EXTINF:-1 tvg-id="" tvg-name="AL| Star Plus HD" group-title="India",AL| Star Plus HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/183449.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Star Cinema 2" group-title="India",Star Cinema 2
-http://sa.savpn.xyz:80/live/manar/manar2023/1578.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|ZEE AFLAM" group-title="India",AR|ZEE AFLAM
+http://atrupo4k.com:80/live/aymman988/gd79w941/70308.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Zee Zaman" group-title="India",Zee Zaman
-http://sa.savpn.xyz:80/live/manar/manar2023/1484.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|beIN STAR ACTION" group-title="India",AR|beIN STAR ACTION
+http://atrupo4k.com:80/live/aymman988/gd79w941/71245.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Cstar" group-title="India",Cstar
-http://sa.savpn.xyz:80/live/manar/manar2023/864.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|beIN STAR Movies" group-title="India",AR|beIN STAR Movies
+http://atrupo4k.com:80/live/aymman988/gd79w941/71257.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="GO BOX HINDI" group-title="India",GO BOX HINDI
-http://sa.savpn.xyz:80/live/manar/manar2023/2021.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|beIN STAR WORLD HD" group-title="India",AR|beIN STAR WORLD HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/73775.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ADEL EMAM" group-title="India",ADEL EMAM
-http://sa.savpn.xyz:80/live/manar/manar2023/953.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|beIN STAR WORLD HD" group-title="India",AR|beIN STAR WORLD HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/71233.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AHMED ELSQA" group-title="India",AHMED ELSQA
-http://sa.savpn.xyz:80/live/manar/manar2023/951.ts
+#EXTINF:-1 tvg-id="" tvg-name="GO| TRACE Sport Stars" group-title="India",GO| TRACE Sport Stars
+http://atrupo4k.com:80/live/aymman988/gd79w941/169172.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AHMED HELMY" group-title="India",AHMED HELMY
-http://sa.savpn.xyz:80/live/manar/manar2023/952.ts
+#EXTINF:-1 tvg-id="" tvg-name="GO| ZEE ALWAN" group-title="India",GO| ZEE ALWAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/76914.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="AHMED ZAKY" group-title="India",AHMED ZAKY
-http://sa.savpn.xyz:80/live/manar/manar2023/950.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR| STAR ACTION" group-title="India",AR| STAR ACTION
+http://atrupo4k.com:80/live/aymman988/gd79w941/201901.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ISMAEL YASSEN" group-title="India",ISMAEL YASSEN
-http://sa.savpn.xyz:80/live/manar/manar2023/949.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|STC STAR ACTION" group-title="India",AR|STC STAR ACTION
+http://atrupo4k.com:80/live/aymman988/gd79w941/237326.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MAHMOUD ABDL AZIZ" group-title="India",MAHMOUD ABDL AZIZ
-http://sa.savpn.xyz:80/live/manar/manar2023/948.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|STC STAR MOVIES HD" group-title="India",AR|STC STAR MOVIES HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/237327.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MOHAMED HENEDY" group-title="India",MOHAMED HENEDY
-http://sa.savpn.xyz:80/live/manar/manar2023/947.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|STC STAR WORLD HD" group-title="India",AR|STC STAR WORLD HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/237328.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MOHAMED RAMADAN" group-title="India",MOHAMED RAMADAN
-http://sa.savpn.xyz:80/live/manar/manar2023/946.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|STC ZEE AFLAM" group-title="India",AR|STC ZEE AFLAM
+http://atrupo4k.com:80/live/aymman988/gd79w941/237344.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MOHAMED SAAD" group-title="India",MOHAMED SAAD
-http://sa.savpn.xyz:80/live/manar/manar2023/945.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR|STC ZEE ALWAN" group-title="India",AR|STC ZEE ALWAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/237345.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NOUR EL SHREEF" group-title="India",NOUR EL SHREEF
-http://sa.savpn.xyz:80/live/manar/manar2023/944.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR| WAYYAK Zee Aflam" group-title="India",AR| WAYYAK Zee Aflam
+http://atrupo4k.com:80/live/aymman988/gd79w941/177863.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="NOVA STAR WARS H265" group-title="India",NOVA STAR WARS H265
-http://sa.savpn.xyz:80/live/manar/manar2023/983.ts
+#EXTINF:-1 tvg-id="" tvg-name="AR| WAYYAK Zee Alwan" group-title="India",AR| WAYYAK Zee Alwan
+http://atrupo4k.com:80/live/aymman988/gd79w941/177864.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Star Movies HD H.265" group-title="India",Star Movies HD H.265
-http://sa.savpn.xyz:80/live/manar/manar2023/1805.ts
+#EXTINF:-1 tvg-id="" tvg-name="|BG| Movie STAR HD" group-title="India",|BG| Movie STAR HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/240344.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Star World HD H.265" group-title="India",Star World HD H.265
-http://sa.savpn.xyz:80/live/manar/manar2023/1806.ts
+#EXTINF:-1 tvg-id="" tvg-name="|BG| Movie star" group-title="India",|BG| Movie star
+http://atrupo4k.com:80/live/aymman988/gd79w941/240343.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN Star Movies HD" group-title="India",OSN Star Movies HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1842.ts
+#EXTINF:-1 tvg-id="" tvg-name="BR| Sony HD" group-title="India",BR| Sony HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/169465.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN Star World HD" group-title="India",OSN Star World HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1841.ts
+#EXTINF:-1 tvg-id="" tvg-name="CA|Tamil Vision TV" group-title="India",CA|Tamil Vision TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/175845.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Cine Espanol" group-title="India",Movistar Cine Espanol
-http://sa.savpn.xyz:80/live/manar/manar2023/572.ts
+#EXTINF:-1 tvg-id="" tvg-name="CA|DAYSTAR TV" group-title="India",CA|DAYSTAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/175676.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Comedia HD" group-title="India",Movistar Comedia HD
-http://sa.savpn.xyz:80/live/manar/manar2023/597.ts
+#EXTINF:-1 tvg-id="" tvg-name="|DK| C More STARS" group-title="India",|DK| C More STARS
+http://atrupo4k.com:80/live/aymman988/gd79w941/240242.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Estrenos HD" group-title="India",Movistar Estrenos HD
-http://sa.savpn.xyz:80/live/manar/manar2023/601.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES|ALQUILER 1 FHD" group-title="India",ES|ALQUILER 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124198.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Golf HD" group-title="India",Movistar Golf HD
-http://sa.savpn.xyz:80/live/manar/manar2023/605.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES|ALQUILER 2 FHD" group-title="India",ES|ALQUILER 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124199.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Series HD" group-title="India",Movistar Series HD
-http://sa.savpn.xyz:80/live/manar/manar2023/614.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES|ALQUILER 3 FHD" group-title="India",ES|ALQUILER 3 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124200.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="YES SPORT 5 Stars FHD" group-title="India",YES SPORT 5 Stars FHD
-http://sa.savpn.xyz:80/live/manar/manar2023/1102.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES|ALQUILER 5 FHD" group-title="India",ES|ALQUILER 5 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124202.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BeinMovies.Stars" group-title="India",BeinMovies.Stars
-http://sa.savpn.xyz:80/live/manar/manar2023/554.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Deportes 1 HD ES" group-title="India",ES| Movistar Deportes 1 HD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179925.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Star.TV" group-title="India",Star.TV
-http://sa.savpn.xyz:80/live/manar/manar2023/527.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Deportes 2 HD ES" group-title="India",ES| Movistar Deportes 2 HD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179926.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="WATCH HINDI HD" group-title="India",WATCH HINDI HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1014.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Deportes 3 HD ES" group-title="India",ES| Movistar Deportes 3 HD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179927.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="YES SPORT 5 Stars FHD" group-title="India",YES SPORT 5 Stars FHD
-http://sa.savpn.xyz:80/live/manar/manar2023/1102.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar Deportes 4 HD ES" group-title="India",ES| Movistar Deportes 4 HD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179928.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 1 ES" group-title="India",ES| Movistar LALIGA 1 ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179940.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 2 ES" group-title="India",ES| Movistar LALIGA 2 ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179942.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 2 FHD" group-title="India",ES| Movistar LALIGA 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179941.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 3 FHD ES" group-title="India",ES| Movistar LALIGA 3 FHD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179943.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 4 ES" group-title="India",ES| Movistar LALIGA 4 ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 5" group-title="India",ES| Movistar LALIGA 5
+http://atrupo4k.com:80/live/aymman988/gd79w941/179945.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA 6 ES" group-title="India",ES| Movistar LALIGA 6 ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179946.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA FHD ES" group-title="India",ES| Movistar LALIGA FHD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179937.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LALIGA TV" group-title="India",ES| Movistar LALIGA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/179938.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar LaLiga 1 FHD ES" group-title="India",ES| Movistar LaLiga 1 FHD ES
+http://atrupo4k.com:80/live/aymman988/gd79w941/179939.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ES| Movistar ORANGE" group-title="India",ES| Movistar ORANGE
+http://atrupo4k.com:80/live/aymman988/gd79w941/179922.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: CineStar Action" group-title="India",Ex-Yu| Hr: CineStar Action
+http://atrupo4k.com:80/live/aymman988/gd79w941/171204.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: CineStar Action TV" group-title="India",Ex-Yu| Hr: CineStar Action TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/171188.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: CineStar Fantasy HD" group-title="India",Ex-Yu| Hr: CineStar Fantasy HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/171186.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: CineStar Premiere 1" group-title="India",Ex-Yu| Hr: CineStar Premiere 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/171205.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Hr: CineStar Premiere 2" group-title="India",Ex-Yu| Hr: CineStar Premiere 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/171206.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: CineStar Premiere 1 HD" group-title="India",Ex-Yu| Srb: CineStar Premiere 1 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/171294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: CineStar Premiere 2 HD" group-title="India",Ex-Yu| Srb: CineStar Premiere 2 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/171295.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: CineStar TV" group-title="India",Ex-Yu| Srb: CineStar TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/171296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: Cinestar Premiere 1" group-title="India",Ex-Yu| Srb: Cinestar Premiere 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/171316.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: Cinestar Premiere 2" group-title="India",Ex-Yu| Srb: Cinestar Premiere 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/171317.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: SUPERSTAR TV" group-title="India",Ex-Yu| Srb: SUPERSTAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/171308.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|CSTAR HD" group-title="India",FR|CSTAR HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5898.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|TRACE SPORT STARS" group-title="India",FR|TRACE SPORT STARS
+http://atrupo4k.com:80/live/aymman988/gd79w941/146022.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|CSTAR FHD" group-title="India",FR|CSTAR FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/6410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|CSTAR HITS FHD" group-title="India",FR|CSTAR HITS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/26152.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|CSTAR FHD (H.265)" group-title="India",FR|CSTAR FHD (H.265)
+http://atrupo4k.com:80/live/aymman988/gd79w941/47978.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="(FR RADIO)- FG Starter" group-title="India",(FR RADIO)- FG Starter
+http://atrupo4k.com:80/live/aymman988/gd79w941/75381.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="(FR RADIO)- Radio Star (Marseille)" group-title="India",(FR RADIO)- Radio Star (Marseille)
+http://atrupo4k.com:80/live/aymman988/gd79w941/75459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|CSTAR" group-title="India",FR|CSTAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/73975.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GR| NOVA SPORTS START HD" group-title="India",GR| NOVA SPORTS START HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/201156.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GR| STAR HD" group-title="India",GR| STAR HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/201093.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GR| START TV" group-title="India",GR| START TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/201112.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IL| YES 5STARS" group-title="India",IL| YES 5STARS
+http://atrupo4k.com:80/live/aymman988/gd79w941/145395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IL-VIP|Partner TV Daystar" group-title="India",IL-VIP|Partner TV Daystar
+http://atrupo4k.com:80/live/aymman988/gd79w941/212336.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IL-VIP|Partner TV SPORT5 STARS" group-title="India",IL-VIP|Partner TV SPORT5 STARS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212318.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| & PICTURES" group-title="India",|IN| & PICTURES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| & PRIVE" group-title="India",|IN| & PRIVE
+http://atrupo4k.com:80/live/aymman988/gd79w941/211420.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| &FLIX" group-title="India",|IN| &FLIX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211421.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| &TV" group-title="India",|IN| &TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211423.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 3 TAMIL TV" group-title="India",|IN| 3 TAMIL TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 5AAB TV" group-title="India",|IN| 5AAB TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 9X JALWA" group-title="India",|IN| 9X JALWA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 9X JHAKAAS" group-title="India",|IN| 9X JHAKAAS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 9X TASHAN" group-title="India",|IN| 9X TASHAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/211428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| 9XM" group-title="India",|IN| 9XM
+http://atrupo4k.com:80/live/aymman988/gd79w941/211429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| AASTHA" group-title="India",|IN| AASTHA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ADITHYA" group-title="India",|IN| ADITHYA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| AKAAL CHANNEL UK" group-title="India",|IN| AKAAL CHANNEL UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ASIANET" group-title="India",|IN| ASIANET
+http://atrupo4k.com:80/live/aymman988/gd79w941/211436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ASIANET MOVIES" group-title="India",|IN| ASIANET MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ASIANET PLUS" group-title="India",|IN| ASIANET PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| B4U MOVIES" group-title="India",|IN| B4U MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211440.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| B4U MUSIC" group-title="India",|IN| B4U MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/211441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| B4U PLUS" group-title="India",|IN| B4U PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| BOLLYWOOD CLASSIC" group-title="India",|IN| BOLLYWOOD CLASSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/211443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| BOOGLE BOLLYWOOD" group-title="India",|IN| BOOGLE BOLLYWOOD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CHARDIKLA TIME TV" group-title="India",|IN| CHARDIKLA TIME TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CNBC AWAAZ" group-title="India",|IN| CNBC AWAAZ
+http://atrupo4k.com:80/live/aymman988/gd79w941/211448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS" group-title="India",|IN| COLORS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS CINEPLEX" group-title="India",|IN| COLORS CINEPLEX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS EUROPE" group-title="India",|IN| COLORS EUROPE
+http://atrupo4k.com:80/live/aymman988/gd79w941/211451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS GUJARATI" group-title="India",|IN| COLORS GUJARATI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS KANNADA CINEMA" group-title="India",|IN| COLORS KANNADA CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS MARATHI" group-title="India",|IN| COLORS MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| COLORS RISHTEY" group-title="India",|IN| COLORS RISHTEY
+http://atrupo4k.com:80/live/aymman988/gd79w941/211455.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| DD PUNJABI" group-title="India",|IN| DD PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211457.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| DD SPORTS" group-title="India",|IN| DD SPORTS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211458.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| E24" group-title="India",|IN| E24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| EPIC" group-title="India",|IN| EPIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/211461.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ET NOW" group-title="India",|IN| ET NOW
+http://atrupo4k.com:80/live/aymman988/gd79w941/211462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| FRANCE 24" group-title="India",|IN| FRANCE 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| GAUNDA PUNJAB TV" group-title="India",|IN| GAUNDA PUNJAB TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211464.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| GEMINI MOVIES" group-title="India",|IN| GEMINI MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211465.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| HARVEST TV USA" group-title="India",|IN| HARVEST TV USA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211466.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| HBO" group-title="India",|IN| HBO
+http://atrupo4k.com:80/live/aymman988/gd79w941/211467.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| HISTORY CHANNEL" group-title="India",|IN| HISTORY CHANNEL
+http://atrupo4k.com:80/live/aymman988/gd79w941/211468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| IBC TAMIL" group-title="India",|IN| IBC TAMIL
+http://atrupo4k.com:80/live/aymman988/gd79w941/211469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA TODAY" group-title="India",|IN| INDIA TODAY
+http://atrupo4k.com:80/live/aymman988/gd79w941/211471.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA TV" group-title="India",|IN| INDIA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211472.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| JANAM TV" group-title="India",|IN| JANAM TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| JANTA TV" group-title="India",|IN| JANTA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211474.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| JAYA MAX" group-title="India",|IN| JAYA MAX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| JUS PUNJABI" group-title="India",|IN| JUS PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| KAIRALI WE TV" group-title="India",|IN| KAIRALI WE TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| KALAIGNAR TV" group-title="India",|IN| KALAIGNAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211478.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| KITE VICTERS" group-title="India",|IN| KITE VICTERS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| LIVING FOODZ" group-title="India",|IN| LIVING FOODZ
+http://atrupo4k.com:80/live/aymman988/gd79w941/211480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| MANORANJAN TV" group-title="India",|IN| MANORANJAN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| MBC BOLLYWOOD" group-title="India",|IN| MBC BOLLYWOOD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| MUSIC INDIA" group-title="India",|IN| MUSIC INDIA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PITAARA TV" group-title="India",|IN| PITAARA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PRIME ASIA TV" group-title="India",|IN| PRIME ASIA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PTC PUNJABI" group-title="India",|IN| PTC PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PUNJABI TV" group-title="India",|IN| PUNJABI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211494.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| RAJ TV" group-title="India",|IN| RAJ TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211496.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| RISHTEY CINEPLEX" group-title="India",|IN| RISHTEY CINEPLEX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211497.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| RISHTEY EUROPE" group-title="India",|IN| RISHTEY EUROPE
+http://atrupo4k.com:80/live/aymman988/gd79w941/211498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SAB" group-title="India",|IN| SAB
+http://atrupo4k.com:80/live/aymman988/gd79w941/211499.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SAKSHI TV" group-title="India",|IN| SAKSHI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SANGAT TV" group-title="India",|IN| SANGAT TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SARDARI TV" group-title="India",|IN| SARDARI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SATSANG TV" group-title="India",|IN| SATSANG TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211503.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY MARATHI" group-title="India",|IN| SONY MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211505.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY MAX" group-title="India",|IN| SONY MAX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211506.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY MAX 2" group-title="India",|IN| SONY MAX 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/211507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY MIX" group-title="India",|IN| SONY MIX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY PAL" group-title="India",|IN| SONY PAL
+http://atrupo4k.com:80/live/aymman988/gd79w941/211509.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY PIX" group-title="India",|IN| SONY PIX
+http://atrupo4k.com:80/live/aymman988/gd79w941/211510.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY SAB" group-title="India",|IN| SONY SAB
+http://atrupo4k.com:80/live/aymman988/gd79w941/211511.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY SAB UK" group-title="India",|IN| SONY SAB UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211512.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY TEN 1" group-title="India",|IN| SONY TEN 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/211513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY TEN 3" group-title="India",|IN| SONY TEN 3
+http://atrupo4k.com:80/live/aymman988/gd79w941/211514.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY TV ASIA" group-title="India",|IN| SONY TV ASIA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONY YAY" group-title="India",|IN| SONY YAY
+http://atrupo4k.com:80/live/aymman988/gd79w941/211516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SRI SANKARA TV" group-title="India",|IN| SRI SANKARA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR BHARAT" group-title="India",|IN| STAR BHARAT
+http://atrupo4k.com:80/live/aymman988/gd79w941/211519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR GOLD" group-title="India",|IN| STAR GOLD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR GOLD SELECT" group-title="India",|IN| STAR GOLD SELECT
+http://atrupo4k.com:80/live/aymman988/gd79w941/211521.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR JALSHA" group-title="India",|IN| STAR JALSHA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR MAA GOLD" group-title="India",|IN| STAR MAA GOLD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR MAA MOVIES" group-title="India",|IN| STAR MAA MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR PLUS" group-title="India",|IN| STAR PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211525.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR SPORTS 1" group-title="India",|IN| STAR SPORTS 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/211526.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR SPORTS 2" group-title="India",|IN| STAR SPORTS 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/211527.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR SPORTS 3" group-title="India",|IN| STAR SPORTS 3
+http://atrupo4k.com:80/live/aymman988/gd79w941/211528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR SPORTS SELECT 1" group-title="India",|IN| STAR SPORTS SELECT 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/211529.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR SPORTS SELECT 2 [Live During Events Only]" group-title="India",|IN| STAR SPORTS SELECT 2 [Live During Events Only]
+http://atrupo4k.com:80/live/aymman988/gd79w941/211530.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| STAR VIJAY" group-title="India",|IN| STAR VIJAY
+http://atrupo4k.com:80/live/aymman988/gd79w941/211531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SUN LIFE" group-title="India",|IN| SUN LIFE
+http://atrupo4k.com:80/live/aymman988/gd79w941/211532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SUN TV" group-title="India",|IN| SUN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| Sony TV UK" group-title="India",|IN| Sony TV UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TAKBEER TV UK" group-title="India",|IN| TAKBEER TV UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TEN 1" group-title="India",|IN| TEN 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/211535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TEN 2" group-title="India",|IN| TEN 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/211536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TIMES NOW" group-title="India",|IN| TIMES NOW
+http://atrupo4k.com:80/live/aymman988/gd79w941/211537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TLC HINDI" group-title="India",|IN| TLC HINDI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TRAVEL XP" group-title="India",|IN| TRAVEL XP
+http://atrupo4k.com:80/live/aymman988/gd79w941/211539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TV9 GUJARATI" group-title="India",|IN| TV9 GUJARATI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| TV9 TELUGU" group-title="India",|IN| TV9 TELUGU
+http://atrupo4k.com:80/live/aymman988/gd79w941/211541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| UTSAV BHARAT" group-title="India",|IN| UTSAV BHARAT
+http://atrupo4k.com:80/live/aymman988/gd79w941/211542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| UTSAV PLUS" group-title="India",|IN| UTSAV PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| UTV" group-title="India",|IN| UTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| UTV MOVIES" group-title="India",|IN| UTV MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| WILLOW CRICKET" group-title="India",|IN| WILLOW CRICKET
+http://atrupo4k.com:80/live/aymman988/gd79w941/211546.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE 24 KALAK" group-title="India",|IN| ZEE 24 KALAK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE ACTION" group-title="India",|IN| ZEE ACTION
+http://atrupo4k.com:80/live/aymman988/gd79w941/211548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE BOLLYWOOD" group-title="India",|IN| ZEE BOLLYWOOD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE CINEMA" group-title="India",|IN| ZEE CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE CINEMA USA" group-title="India",|IN| ZEE CINEMA USA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE CINEMALU" group-title="India",|IN| ZEE CINEMALU
+http://atrupo4k.com:80/live/aymman988/gd79w941/211553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE CLASSIC" group-title="India",|IN| ZEE CLASSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/211554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE HINDUSTAN" group-title="India",|IN| ZEE HINDUSTAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/211555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE MARATHI" group-title="India",|IN| ZEE MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE PUNJABI" group-title="India",|IN| ZEE PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/211558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE TALKIES" group-title="India",|IN| ZEE TALKIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/211559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE TAMIL" group-title="India",|IN| ZEE TAMIL
+http://atrupo4k.com:80/live/aymman988/gd79w941/211560.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE TELUGU" group-title="India",|IN| ZEE TELUGU
+http://atrupo4k.com:80/live/aymman988/gd79w941/211561.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE TV HD" group-title="India",|IN| ZEE TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211562.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE TV UK" group-title="India",|IN| ZEE TV UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211563.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZOOM" group-title="India",|IN| ZOOM
+http://atrupo4k.com:80/live/aymman988/gd79w941/211564.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CNBC PRIME TV18 FHD" group-title="India",IN| CNBC PRIME TV18 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149743.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H & FLIX ENGLISH FHD" group-title="India",IN| D2H & FLIX ENGLISH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149736.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H & FLIX HINDI FHD" group-title="India",IN| D2H & FLIX HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149737.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H & PICTURES FHD" group-title="India",IN| D2H & PICTURES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149738.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H & PRIVE FHD" group-title="India",IN| D2H & PRIVE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149739.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H & TV FHD" group-title="India",IN| D2H & TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149740.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ANIMAL PLANET FHD ENG" group-title="India",IN| D2H ANIMAL PLANET FHD ENG
+http://atrupo4k.com:80/live/aymman988/gd79w941/149741.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ANIMAL PLANET FHD HINDI" group-title="India",IN| D2H ANIMAL PLANET FHD HINDI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149742.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H COLORS INFINITY FHD" group-title="India",IN| D2H COLORS INFINITY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149744.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H COLORS TV FHD" group-title="India",IN| D2H COLORS TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149745.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H DISCOVERY ENGLISH FHD" group-title="India",IN| D2H DISCOVERY ENGLISH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149746.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H DISCOVERY FHD" group-title="India",IN| D2H DISCOVERY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149692.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H DISCOVERY HINDI FHD" group-title="India",IN| D2H DISCOVERY HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149747.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H FOX LIFE FHD" group-title="India",IN| D2H FOX LIFE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149693.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H HISTORY TV18 HINDI FHD" group-title="India",IN| D2H HISTORY TV18 HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H HOME FHD" group-title="India",IN| D2H HOME FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149786.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H MARVEL HINDI FHD" group-title="India",IN| D2H MARVEL HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149785.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H MNX FHD" group-title="India",IN| D2H MNX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H MOVIE ACTIVE FHD" group-title="India",IN| D2H MOVIE ACTIVE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149750.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY BBC EARTH FHD" group-title="India",IN| D2H SONY BBC EARTH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149756.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY BBC EARTH FHD HINDI" group-title="India",IN| D2H SONY BBC EARTH FHD HINDI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149757.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY MAX FHD" group-title="India",IN| D2H SONY MAX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149758.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY PIX FHD" group-title="India",IN| D2H SONY PIX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149759.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY SAB FHD" group-title="India",IN| D2H SONY SAB FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149760.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H SONY TV FHD" group-title="India",IN| D2H SONY TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149765.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR BHARAT FHD" group-title="India",IN| D2H STAR BHARAT FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149766.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR GOLD SELECT FHD" group-title="India",IN| D2H STAR GOLD SELECT FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR JALSHA FHD" group-title="India",IN| D2H STAR JALSHA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149689.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR JALSHA MOVIES FHD" group-title="India",IN| D2H STAR JALSHA MOVIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149691.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR MOVIES FHD" group-title="India",IN| D2H STAR MOVIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149769.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR MOVIES SELECT FHD" group-title="India",IN| D2H STAR MOVIES SELECT FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149770.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR PLUS FHD" group-title="India",IN| D2H STAR PLUS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR WORLD FHD" group-title="India",IN| D2H STAR WORLD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H STAR WORLD PREMIER FHD" group-title="India",IN| D2H STAR WORLD PREMIER FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149777.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H Star GOLD FHD" group-title="India",IN| D2H Star GOLD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H TLC FHD" group-title="India",IN| D2H TLC FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ZEE CAFE FHD" group-title="India",IN| D2H ZEE CAFE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149779.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ZEE CINEMA FHD" group-title="India",IN| D2H ZEE CINEMA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149780.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ZEE TALKIES FHD" group-title="India",IN| D2H ZEE TALKIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149783.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H ZEE TV FHD" group-title="India",IN| D2H ZEE TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149781.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Now Cinema FHD" group-title="India",IN| Now Cinema FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149694.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Now Premier Cinema FHD" group-title="India",IN| Now Premier Cinema FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149695.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY SIX FHD" group-title="India",IN| SONY SIX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149761.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY TEN 1 FHD" group-title="India",IN| SONY TEN 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149762.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY TEN 2 FHD" group-title="India",IN| SONY TEN 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY TEN 3 FHD" group-title="India",IN| SONY TEN 3 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149764.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS 1 FHD" group-title="India",IN| STAR SPORTS 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS 1 FHD*" group-title="India",IN| STAR SPORTS 1 FHD*
+http://atrupo4k.com:80/live/aymman988/gd79w941/149773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS 2 FHD" group-title="India",IN| STAR SPORTS 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149775.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS SELECT 1 FHD" group-title="India",IN| STAR SPORTS SELECT 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS SELECT 2 FHD" group-title="India",IN| STAR SPORTS SELECT 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149784.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS & PICTURE FHD" group-title="India",IN| TS & PICTURE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149722.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS & TV FHD" group-title="India",IN| TS & TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ANIMAL PLANET WORLD FHD ENG" group-title="India",IN| TS ANIMAL PLANET WORLD FHD ENG
+http://atrupo4k.com:80/live/aymman988/gd79w941/149733.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ANIMAL PLANET WORLD FHD HIN" group-title="India",IN| TS ANIMAL PLANET WORLD FHD HIN
+http://atrupo4k.com:80/live/aymman988/gd79w941/149731.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS BABY TV FHD" group-title="India",IN| TS BABY TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149718.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS COLORS CINEPLEX FHD" group-title="India",IN| TS COLORS CINEPLEX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149707.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS COLORS FHD" group-title="India",IN| TS COLORS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149706.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS COLORS FHD" group-title="India",IN| TS COLORS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149684.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS COLORS INFINITY FHD" group-title="India",IN| TS COLORS INFINITY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149721.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS FOX LIFE FHD" group-title="India",IN| TS FOX LIFE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149723.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS HISTORY TV18  HINDI FHD" group-title="India",IN| TS HISTORY TV18  HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149720.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS MNX FHD" group-title="India",IN| TS MNX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149726.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS MOVIES NOW FHD" group-title="India",IN| TS MOVIES NOW FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149729.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS MTV BEATS FHD" group-title="India",IN| TS MTV BEATS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149725.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS MTV FHD+" group-title="India",IN| TS MTV FHD+
+http://atrupo4k.com:80/live/aymman988/gd79w941/149728.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY BBC EARTH FHD" group-title="India",IN| TS SONY BBC EARTH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY MAX FHD" group-title="India",IN| TS SONY MAX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY PIX FHD" group-title="India",IN| TS SONY PIX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149716.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY SAB FHD" group-title="India",IN| TS SONY SAB FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149708.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY SIX FHD" group-title="India",IN| TS SONY SIX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149703.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY TEN 1 FHD" group-title="India",IN| TS SONY TEN 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149701.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY TEN 2 FHD" group-title="India",IN| TS SONY TEN 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149697.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY TEN 3 FHD" group-title="India",IN| TS SONY TEN 3 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149702.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS SONY TV FHD" group-title="India",IN| TS SONY TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR BHARAT FHD" group-title="India",IN| TS STAR BHARAT FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149719.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR GOLD FHD" group-title="India",IN| TS STAR GOLD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR JALSHA FHD" group-title="India",IN| TS STAR JALSHA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149688.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR JALSHA MOVIES FHD" group-title="India",IN| TS STAR JALSHA MOVIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149690.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR PLUS FHD" group-title="India",IN| TS STAR PLUS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR SPORTS 1 FHD" group-title="India",IN| TS STAR SPORTS 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149699.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR SPORTS 1 FHD" group-title="India",IN| TS STAR SPORTS 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149696.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR SPORTS 2 FHD" group-title="India",IN| TS STAR SPORTS 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149700.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR SPORTS SELECT 1 FHD" group-title="India",IN| TS STAR SPORTS SELECT 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149705.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS STAR SPORTS SELECT 2 FHD" group-title="India",IN| TS STAR SPORTS SELECT 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149704.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS TATA SKY HITS FHD" group-title="India",IN| TS TATA SKY HITS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149734.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS TLC WORLD FHD" group-title="India",IN| TS TLC WORLD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149717.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ZEE CINEMA FHD" group-title="India",IN| TS ZEE CINEMA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ZEE TALKIES FHD" group-title="India",IN| TS ZEE TALKIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149732.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS ZEE TV FHD" group-title="India",IN| TS ZEE TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149709.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TV FHD" group-title="India",IN| ZEE TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149685.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| &FLIX FHD" group-title="India",IN| &FLIX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149419.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ANGEL TV HD" group-title="India",IN| ANGEL TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149461.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ANIMAL PLANET FHD" group-title="India",IN| ANIMAL PLANET FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149420.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CHUTTI TV" group-title="India",IN| CHUTTI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS FHD" group-title="India",IN| COLORS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS HD" group-title="India",IN| COLORS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS TAMIL" group-title="India",IN| COLORS TAMIL
+http://atrupo4k.com:80/live/aymman988/gd79w941/149444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD PODHIGAI" group-title="India",IN| DD PODHIGAI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149440.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY CHANNEL" group-title="India",IN| DISCOVERY CHANNEL
+http://atrupo4k.com:80/live/aymman988/gd79w941/149478.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY FHD" group-title="India",IN| DISCOVERY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149423.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| FOX LIFE FHD" group-title="India",IN| FOX LIFE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI TV FHD" group-title="India",IN| GEMINI TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HISTORY HD" group-title="India",IN| HISTORY HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HISTORY TV18 FHD" group-title="India",IN| HISTORY TV18 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC" group-title="India",IN| IBC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC BAKTHI" group-title="India",IN| IBC BAKTHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC CA" group-title="India",IN| IBC CA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149455.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC COMEDY" group-title="India",IN| IBC COMEDY
+http://atrupo4k.com:80/live/aymman988/gd79w941/149457.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC MUSIC" group-title="India",IN| IBC MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149458.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| IBC SILUVAI" group-title="India",IN| IBC SILUVAI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| J MOVIES" group-title="India",IN| J MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/149462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JAYA PLUS" group-title="India",IN| JAYA PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149465.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JAYA TV HD" group-title="India",IN| JAYA TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149464.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KTV HD" group-title="India",IN| KTV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAKKAL TV" group-title="India",IN| MAKKAL TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PUTHYUGAM TV" group-title="India",IN| PUTHYUGAM TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PUTIYA THALAMURAI" group-title="India",IN| PUTIYA THALAMURAI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ DIGITAL PLUS" group-title="India",IN| RAJ DIGITAL PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149467.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ MUSIX" group-title="India",IN| RAJ MUSIX
+http://atrupo4k.com:80/live/aymman988/gd79w941/149468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ TV" group-title="India",IN| RAJ TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149470.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONIC" group-title="India",IN| SONIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY BBC EARTH FHD" group-title="India",IN| SONY BBC EARTH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149432.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY BBC EARTH HD" group-title="India",IN| SONY BBC EARTH HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY YAY" group-title="India",IN| SONY YAY
+http://atrupo4k.com:80/live/aymman988/gd79w941/149471.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR MAA FHD" group-title="India",IN| STAR MAA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149433.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR VIJAY FHD" group-title="India",IN| STAR VIJAY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR VIJAY FHD" group-title="India",IN| STAR VIJAY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN LIFE" group-title="India",IN| SUN LIFE
+http://atrupo4k.com:80/live/aymman988/gd79w941/149451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN LIFE" group-title="India",IN| SUN LIFE
+http://atrupo4k.com:80/live/aymman988/gd79w941/149450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN MUSIC FHD" group-title="India",IN| SUN MUSIC FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN MUSIC HD" group-title="India",IN| SUN MUSIC HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN TV FHD" group-title="India",IN| SUN TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN TV HD" group-title="India",IN| SUN TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TRAVEL XP" group-title="India",IN| TRAVEL XP
+http://atrupo4k.com:80/live/aymman988/gd79w941/149477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TVI" group-title="India",IN| TVI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| VIJAY SUPER" group-title="India",IN| VIJAY SUPER
+http://atrupo4k.com:80/live/aymman988/gd79w941/149448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TAMIL FHD" group-title="India",IN| ZEE TAMIL FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TV FHD" group-title="India",IN| ZEE TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ADITHYA TV." group-title="India",IN| ADITHYA TV.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149948.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV ANDHRA PRADESH" group-title="India",IN| ETV ANDHRA PRADESH
+http://atrupo4k.com:80/live/aymman988/gd79w941/149941.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV CINEMA" group-title="India",IN| ETV CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149937.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV HD" group-title="India",IN| ETV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149925.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV LIFE" group-title="India",IN| ETV LIFE
+http://atrupo4k.com:80/live/aymman988/gd79w941/149938.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV PLUS" group-title="India",IN| ETV PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149939.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV TELANGANA" group-title="India",IN| ETV TELANGANA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149940.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Flowers TV HD." group-title="India",IN| Flowers TV HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149942.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI COMEDY HD" group-title="India",IN| GEMINI COMEDY HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149926.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI COMEDY." group-title="India",IN| GEMINI COMEDY.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI LIFE." group-title="India",IN| GEMINI LIFE.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149943.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI MOVIE HD" group-title="India",IN| GEMINI MOVIE HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149927.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI MOVIES HD." group-title="India",IN| GEMINI MOVIES HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149946.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI MOVIES." group-title="India",IN| GEMINI MOVIES.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149945.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI MUSIC HD." group-title="India",IN| GEMINI MUSIC HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149947.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI TV HD" group-title="India",IN| GEMINI TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149928.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GEMINI TV HD." group-title="India",IN| GEMINI TV HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149949.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HINDU DHARMAM." group-title="India",IN| HINDU DHARMAM.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149950.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HISTORY 18." group-title="India",IN| HISTORY 18.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149951.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HM TV." group-title="India",IN| HM TV.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149952.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAA GOLD HD" group-title="India",IN| MAA GOLD HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149929.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAA GOLD HD." group-title="India",IN| MAA GOLD HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149953.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAA MOVIES HD." group-title="India",IN| MAA MOVIES HD.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149954.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Maa TV HD" group-title="India",IN| Maa TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149936.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PRAJAA TV." group-title="India",IN| PRAJAA TV.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149956.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ MUSIC" group-title="India",IN| RAJ MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149957.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR MAA HD" group-title="India",IN| STAR MAA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149930.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STUDIO N." group-title="India",IN| STUDIO N.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149959.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STUDIO ONE HD" group-title="India",IN| STUDIO ONE HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149931.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV 5 HD" group-title="India",IN| TV 5 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149932.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| VISSA TV HD" group-title="India",IN| VISSA TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149933.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE CINEMALU" group-title="India",IN| ZEE CINEMALU
+http://atrupo4k.com:80/live/aymman988/gd79w941/149962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TEL HD" group-title="India",IN| ZEE TEL HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149934.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TELGU" group-title="India",IN| ZEE TELGU
+http://atrupo4k.com:80/live/aymman988/gd79w941/149965.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TELUGU HD" group-title="India",IN| ZEE TELUGU HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149935.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CHINTU TV" group-title="India",IN| CHINTU TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149486.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS CINEMA" group-title="India",IN| COLORS CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149503.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS FHD" group-title="India",IN| COLORS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS HD" group-title="India",IN| COLORS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS SUPER HD" group-title="India",IN| COLORS SUPER HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY FHD" group-title="India",IN| DISCOVERY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JANATAA TV" group-title="India",IN| JANATAA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149489.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KASTURI" group-title="India",IN| KASTURI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149494.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PUBLIC MUSIC" group-title="India",IN| PUBLIC MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PUBLIC TV" group-title="India",IN| PUBLIC TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149496.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ MUSIC" group-title="India",IN| RAJ MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149499.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SARAL JEEVAN" group-title="India",IN| SARAL JEEVAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/149501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONIC" group-title="India",IN| SONIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149497.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SRI SANKARA" group-title="India",IN| SRI SANKARA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPOR1 KANADA" group-title="India",IN| STAR SPOR1 KANADA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SUVANA HD" group-title="India",IN| STAR SUVANA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SUVARNA FHD" group-title="India",IN| STAR SUVARNA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149506.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SUVARNA SD" group-title="India",IN| STAR SUVARNA SD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149505.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV 5" group-title="India",IN| TV 5
+http://atrupo4k.com:80/live/aymman988/gd79w941/149508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV9 KANNADA" group-title="India",IN| TV9 KANNADA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149509.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA COMEDY" group-title="India",IN| UDAYA COMEDY
+http://atrupo4k.com:80/live/aymman988/gd79w941/149513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA FHD" group-title="India",IN| UDAYA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149512.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA HD" group-title="India",IN| UDAYA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149511.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA MOVIES" group-title="India",IN| UDAYA MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/149514.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA MUSIC" group-title="India",IN| UDAYA MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| UDAYA TV" group-title="India",IN| UDAYA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149510.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE PICCHAR" group-title="India",IN| ZEE PICCHAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/149487.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE TV" group-title="India",IN| ZEE TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|   MAZHAVIL MANORAMA FHD" group-title="India",IN|   MAZHAVIL MANORAMA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149297.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  DISCOVERY FHD" group-title="India",IN|  DISCOVERY FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149310.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  FLOWERS" group-title="India",IN|  FLOWERS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149282.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  SURYA COMEDY" group-title="India",IN|  SURYA COMEDY
+http://atrupo4k.com:80/live/aymman988/gd79w941/149307.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  SURYA FHD" group-title="India",IN|  SURYA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149305.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  SURYA MUSIC" group-title="India",IN|  SURYA MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149309.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| AMRITA TV" group-title="India",IN| AMRITA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149276.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ASIANET HD" group-title="India",IN| ASIANET HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149271.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ASIANET MOVIES HD" group-title="India",IN| ASIANET MOVIES HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149272.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ASIANET PLUS" group-title="India",IN| ASIANET PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149273.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD" group-title="India",IN| DD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149279.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD MALAYALAM" group-title="India",IN| DD MALAYALAM
+http://atrupo4k.com:80/live/aymman988/gd79w941/149278.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| FLOWER TV" group-title="India",IN| FLOWER TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149281.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ  COLORS GUJRATI" group-title="India",IN| GUJ  COLORS GUJRATI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149336.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ  COLORS GUJRATI CINEMA" group-title="India",IN| GUJ  COLORS GUJRATI CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149338.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ  SONIC" group-title="India",IN| GUJ  SONIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149342.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ CNBC BAZAR" group-title="India",IN| GUJ CNBC BAZAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/149347.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ COLORS CINEMA" group-title="India",IN| GUJ COLORS CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ COLORS TV" group-title="India",IN| GUJ COLORS TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149335.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ DD GIRNAR" group-title="India",IN| GUJ DD GIRNAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/149341.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ GSTV" group-title="India",IN| GUJ GSTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149351.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ KALYAN TV" group-title="India",IN| GUJ KALYAN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149348.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ KARTAVYA TV" group-title="India",IN| GUJ KARTAVYA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149350.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ LAKSHYA TV FHD" group-title="India",IN| GUJ LAKSHYA TV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149349.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ SHIKSHA TV" group-title="India",IN| GUJ SHIKSHA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149339.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ TV9 BHARATVARSH" group-title="India",IN| GUJ TV9 BHARATVARSH
+http://atrupo4k.com:80/live/aymman988/gd79w941/149344.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ TV9 GUJRATI" group-title="India",IN| GUJ TV9 GUJRATI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149355.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ ZEE 24 KALAK" group-title="India",IN| GUJ ZEE 24 KALAK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149343.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JAIHIND TV" group-title="India",IN| JAIHIND TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149280.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JANAM TV" group-title="India",IN| JANAM TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149283.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JEEVAN TV" group-title="India",IN| JEEVAN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149284.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KAIRALI TV" group-title="India",IN| KAIRALI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149286.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KAIRALI WE TV" group-title="India",IN| KAIRALI WE TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KAPPA TV" group-title="India",IN| KAPPA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KAUMUDY TV" group-title="India",IN| KAUMUDY TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KERALAM" group-title="India",IN| KERALAM
+http://atrupo4k.com:80/live/aymman988/gd79w941/149277.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KIRAN TV" group-title="India",IN| KIRAN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149290.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KOCHU TV" group-title="India",IN| KOCHU TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KTV FHD" group-title="India",IN| KTV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149312.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAZAVALI MANORAMA HD" group-title="India",IN| MAZAVALI MANORAMA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAZHAVIL MANORAMA" group-title="India",IN| MAZHAVIL MANORAMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MAZHAVIL MANORAMA HD" group-title="India",IN| MAZHAVIL MANORAMA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149295.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MEDIA ONE TV" group-title="India",IN| MEDIA ONE TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149298.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ MUSIX" group-title="India",IN| RAJ MUSIX
+http://atrupo4k.com:80/live/aymman988/gd79w941/149300.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SHOLAM TV" group-title="India",IN| SHOLAM TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149302.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONIC" group-title="India",IN| SONIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149313.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SURYA CINEMA" group-title="India",IN| SURYA CINEMA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149306.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SURYA MUSIC" group-title="India",IN| SURYA MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149308.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SURYA TV" group-title="India",IN| SURYA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149303.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SURYA TV HD" group-title="India",IN| SURYA TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149304.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  COLORS FHD" group-title="India",IN|  COLORS FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149244.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  COLORS MARATHI SD" group-title="India",IN|  COLORS MARATHI SD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149249.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  COLORS SUPER" group-title="India",IN|  COLORS SUPER
+http://atrupo4k.com:80/live/aymman988/gd79w941/149245.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  LOKSHAHI" group-title="India",IN|  LOKSHAHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149248.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  SONIC" group-title="India",IN|  SONIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149246.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  SONY MARATHI" group-title="India",IN|  SONY MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149269.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  STAR PRAVAH FHD" group-title="India",IN|  STAR PRAVAH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149251.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  ZEE MARATHI FHD" group-title="India",IN|  ZEE MARATHI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149243.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  ZEE MARATHI SD" group-title="India",IN|  ZEE MARATHI SD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149270.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| 9X JHAKAAS" group-title="India",IN| 9X JHAKAAS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149255.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| BBC MARATHI" group-title="India",IN| BBC MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149263.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS HD" group-title="India",IN| COLORS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149252.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD SAHYADRI" group-title="India",IN| DD SAHYADRI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149260.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD YADAGIRI" group-title="India",IN| DD YADAGIRI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149262.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| FAKT MARATHI" group-title="India",IN| FAKT MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149256.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SAAM TV" group-title="India",IN| SAAM TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149257.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SANGEET MARATHI" group-title="India",IN| SANGEET MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149261.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONY MARATHI" group-title="India",IN| SONY MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149254.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR PRAVAH FHD" group-title="India",IN| STAR PRAVAH FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149250.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUGRAN TV" group-title="India",IN| SUGRAN TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149259.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV9 MAHARASHTRA" group-title="India",IN| TV9 MAHARASHTRA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149266.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV9 MARATHI" group-title="India",IN| TV9 MARATHI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149258.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE 24 TAAS" group-title="India",IN| ZEE 24 TAAS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149267.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE MARATHI HD" group-title="India",IN| ZEE MARATHI HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149253.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE YUVA" group-title="India",IN| ZEE YUVA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149268.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ALANKAR TV" group-title="India",IN| ALANKAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| COLORS ODIYA" group-title="India",IN| COLORS ODIYA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD ODIYA" group-title="India",IN| DD ODIYA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KALAINGAR TV" group-title="India",IN| KALAINGAR TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149521.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| OTV (ODISHA TV)" group-title="India",IN| OTV (ODISHA TV)
+http://atrupo4k.com:80/live/aymman988/gd79w941/149525.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PRATHANA TV" group-title="India",IN| PRATHANA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149527.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SARTHAK TV" group-title="India",IN| SARTHAK TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TARANG MUSIC" group-title="India",IN| TARANG MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149529.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TARANG TV" group-title="India",IN| TARANG TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149530.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE KALINGA" group-title="India",IN| ZEE KALINGA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| 5 AAB MUSIC HD" group-title="India",IN| 5 AAB MUSIC HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149561.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Apna Punjab TV HD" group-title="India",IN| Apna Punjab TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| BOOGLE BOLLYWOOD" group-title="India",IN| BOOGLE BOLLYWOOD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149560.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CHANNEL Y" group-title="India",IN| CHANNEL Y
+http://atrupo4k.com:80/live/aymman988/gd79w941/149544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CHARDIKLA TIMES" group-title="India",IN| CHARDIKLA TIMES
+http://atrupo4k.com:80/live/aymman988/gd79w941/149542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CINE VOICE HD" group-title="India",IN| CINE VOICE HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149562.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DD PUNJABI" group-title="India",IN| DD PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149546.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DESI CHANNEL" group-title="India",IN| DESI CHANNEL
+http://atrupo4k.com:80/live/aymman988/gd79w941/149563.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| FATEH TV" group-title="India",IN| FATEH TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GARV PUNJABI" group-title="India",IN| GARV PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| HAMDARD TV" group-title="India",IN| HAMDARD TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| INDOZ TV HD" group-title="India",IN| INDOZ TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JHANJAR HD" group-title="India",IN| JHANJAR HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JHANJAR MUSIC HD" group-title="India",IN| JHANJAR MUSIC HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149567.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| JUS PUNJABI HD" group-title="India",IN| JUS PUNJABI HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MANORANJAN MOVIES" group-title="India",IN| MANORANJAN MOVIES
+http://atrupo4k.com:80/live/aymman988/gd79w941/149551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MH ONE" group-title="India",IN| MH ONE
+http://atrupo4k.com:80/live/aymman988/gd79w941/149568.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MH1 SHRADDHA" group-title="India",IN| MH1 SHRADDHA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PBN MUSIC" group-title="India",IN| PBN MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149569.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PITAARA TV" group-title="India",IN| PITAARA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PRIME ASIA HD" group-title="India",IN| PRIME ASIA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC CHAKDE" group-title="India",IN| PTC CHAKDE
+http://atrupo4k.com:80/live/aymman988/gd79w941/149564.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC DHOL HD" group-title="India",IN| PTC DHOL HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC GOLD" group-title="India",IN| PTC GOLD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC MUSIC" group-title="India",IN| PTC MUSIC
+http://atrupo4k.com:80/live/aymman988/gd79w941/149556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC PARDESI" group-title="India",IN| PTC PARDESI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC PUNJABI" group-title="India",IN| PTC PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC SIMRAN" group-title="India",IN| PTC SIMRAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/149537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC SIMRAN" group-title="India",IN| PTC SIMRAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/149536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTN 24" group-title="India",IN| PTN 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/149575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SANJHA TV" group-title="India",IN| SANJHA TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/149555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SSTV HD" group-title="India",IN| SSTV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Vision Punjab Gurbani HD" group-title="India",IN| Vision Punjab Gurbani HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Vision Punjab TV HD" group-title="India",IN| Vision Punjab TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE PUNJABI" group-title="India",IN| ZEE PUNJABI
+http://atrupo4k.com:80/live/aymman988/gd79w941/149533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE5 PUNJABI BEATS" group-title="India",IN| ZEE5 PUNJABI BEATS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PR| Movistar Deportes" group-title="India",PR| Movistar Deportes
+http://atrupo4k.com:80/live/aymman988/gd79w941/165515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PR| Movistar Plus" group-title="India",PR| Movistar Plus
+http://atrupo4k.com:80/live/aymman988/gd79w941/165516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="< MA > Radio Star Maroc FM" group-title="India",< MA > Radio Star Maroc FM
+http://atrupo4k.com:80/live/aymman988/gd79w941/102485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MK| Cinestar TV Premiere 1 HD" group-title="India",MK| Cinestar TV Premiere 1 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/240390.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MK| Cinestar TV Premiere 2 HD" group-title="India",MK| Cinestar TV Premiere 2 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/240391.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MK| Film Box Stars HD" group-title="India",MK| Film Box Stars HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/240393.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MX| Sony Channel" group-title="India",MX| Sony Channel
+http://atrupo4k.com:80/live/aymman988/gd79w941/165431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NO| C MORE STARS HD" group-title="India",NO| C MORE STARS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/178221.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| 8XM HD" group-title="India",PK| 8XM HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212064.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| A PLUS" group-title="India",PK| A PLUS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212066.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| A sports HD" group-title="India",PK| A sports HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212108.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| AAJ Entertainment" group-title="India",PK| AAJ Entertainment
+http://atrupo4k.com:80/live/aymman988/gd79w941/212070.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| AL-QURAN AL-KAREEM" group-title="India",PK| AL-QURAN AL-KAREEM
+http://atrupo4k.com:80/live/aymman988/gd79w941/212116.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ATV" group-title="India",PK| ATV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212065.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| AWAZ TV" group-title="India",PK| AWAZ TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212107.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Apna TV" group-title="India",PK| Apna TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212089.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| BOL Entertainment" group-title="India",PK| BOL Entertainment
+http://atrupo4k.com:80/live/aymman988/gd79w941/212068.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| CHANNEL 5" group-title="India",PK| CHANNEL 5
+http://atrupo4k.com:80/live/aymman988/gd79w941/212039.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| CITY 41" group-title="India",PK| CITY 41
+http://atrupo4k.com:80/live/aymman988/gd79w941/212036.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| CITY 42" group-title="India",PK| CITY 42
+http://atrupo4k.com:80/live/aymman988/gd79w941/212037.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Capital TV" group-title="India",PK| Capital TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212060.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| City 44" group-title="India",PK| City 44
+http://atrupo4k.com:80/live/aymman988/gd79w941/212113.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Dharti TV" group-title="India",PK| Dharti TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212103.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Discover Pakistantv TV" group-title="India",PK| Discover Pakistantv TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212090.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Express Entertainment" group-title="India",PK| Express Entertainment
+http://atrupo4k.com:80/live/aymman988/gd79w941/212069.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Film World" group-title="India",PK| Film World
+http://atrupo4k.com:80/live/aymman988/gd79w941/212094.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| GTV FHD" group-title="India",PK| GTV FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212061.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HADI TV" group-title="India",PK| HADI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212111.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HUM HD" group-title="India",PK| HUM HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212080.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HUM Masala" group-title="India",PK| HUM Masala
+http://atrupo4k.com:80/live/aymman988/gd79w941/212092.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HUM Sitaray" group-title="India",PK| HUM Sitaray
+http://atrupo4k.com:80/live/aymman988/gd79w941/212081.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HUM TV EUROPE HD" group-title="India",PK| HUM TV EUROPE HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| HUM TV Pashto" group-title="India",PK| HUM TV Pashto
+http://atrupo4k.com:80/live/aymman988/gd79w941/212082.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Hidayat TV" group-title="India",PK| Hidayat TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212119.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ISHAAQ TV 12" group-title="India",PK| ISHAAQ TV 12
+http://atrupo4k.com:80/live/aymman988/gd79w941/212123.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Independent TV" group-title="India",PK| Independent TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212121.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Islam Channel Urdu" group-title="India",PK| Islam Channel Urdu
+http://atrupo4k.com:80/live/aymman988/gd79w941/212114.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Jalwa Music" group-title="India",PK| Jalwa Music
+http://atrupo4k.com:80/live/aymman988/gd79w941/212100.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| KING TV" group-title="India",PK| KING TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212125.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| KOHENOOR" group-title="India",PK| KOHENOOR
+http://atrupo4k.com:80/live/aymman988/gd79w941/212126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| KTN Entertainment" group-title="India",PK| KTN Entertainment
+http://atrupo4k.com:80/live/aymman988/gd79w941/212067.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Khyber Middle East" group-title="India",PK| Khyber Middle East
+http://atrupo4k.com:80/live/aymman988/gd79w941/212124.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| LTN Family" group-title="India",PK| LTN Family
+http://atrupo4k.com:80/live/aymman988/gd79w941/212076.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Lahore Rang HD" group-title="India",PK| Lahore Rang HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212062.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Madani Channel" group-title="India",PK| Madani Channel
+http://atrupo4k.com:80/live/aymman988/gd79w941/212110.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Mehran TV" group-title="India",PK| Mehran TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212104.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Noor TV" group-title="India",PK| Noor TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212127.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PAKUS TV" group-title="India",PK| PAKUS TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212128.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PEACE TV URDU" group-title="India",PK| PEACE TV URDU
+http://atrupo4k.com:80/live/aymman988/gd79w941/212101.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PLAY ENTERTAINMENT HD" group-title="India",PK| PLAY ENTERTAINMENT HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212129.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PLAY TV" group-title="India",PK| PLAY TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212073.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV Bolan" group-title="India",PK| PTV Bolan
+http://atrupo4k.com:80/live/aymman988/gd79w941/212097.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV Global" group-title="India",PK| PTV Global
+http://atrupo4k.com:80/live/aymman988/gd79w941/212074.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV HOME" group-title="India",PK| PTV HOME
+http://atrupo4k.com:80/live/aymman988/gd79w941/212095.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV National" group-title="India",PK| PTV National
+http://atrupo4k.com:80/live/aymman988/gd79w941/212063.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV PARDESI" group-title="India",PK| PTV PARDESI
+http://atrupo4k.com:80/live/aymman988/gd79w941/212112.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV Prime" group-title="India",PK| PTV Prime
+http://atrupo4k.com:80/live/aymman988/gd79w941/212130.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV Sports" group-title="India",PK| PTV Sports
+http://atrupo4k.com:80/live/aymman988/gd79w941/212109.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV World" group-title="India",PK| PTV World
+http://atrupo4k.com:80/live/aymman988/gd79w941/212096.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Paigham TV Pashto" group-title="India",PK| Paigham TV Pashto
+http://atrupo4k.com:80/live/aymman988/gd79w941/212099.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Paigham tv  Urdu" group-title="India",PK| Paigham tv  Urdu
+http://atrupo4k.com:80/live/aymman988/gd79w941/212098.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ROHI TV" group-title="India",PK| ROHI TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212102.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Raavi Films" group-title="India",PK| Raavi Films
+http://atrupo4k.com:80/live/aymman988/gd79w941/212131.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| SEE TV HD" group-title="India",PK| SEE TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212106.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| SINDH TV" group-title="India",PK| SINDH TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212075.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Subrang TV" group-title="India",PK| Subrang TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212132.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| TORONTO 360 HD" group-title="India",PK| TORONTO 360 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212134.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| TV ONE" group-title="India",PK| TV ONE
+http://atrupo4k.com:80/live/aymman988/gd79w941/212088.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Tag TV" group-title="India",PK| Tag TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212133.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| URDU 1" group-title="India",PK| URDU 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/212087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| WASEB TV" group-title="India",PK| WASEB TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212135.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| WASEEB TV" group-title="India",PK| WASEEB TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212091.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| IFLIX 5 stars 1" group-title="India",PPV| IFLIX 5 stars 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/211885.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| IFLIX 5 stars 2" group-title="India",PPV| IFLIX 5 stars 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/211886.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| IFLIX 5 stars 3" group-title="India",PPV| IFLIX 5 stars 3
+http://atrupo4k.com:80/live/aymman988/gd79w941/211887.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| IFLIX 5 stars 4" group-title="India",PPV| IFLIX 5 stars 4
+http://atrupo4k.com:80/live/aymman988/gd79w941/211888.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| IFLIX 5 stars 5" group-title="India",PPV| IFLIX 5 stars 5
+http://atrupo4k.com:80/live/aymman988/gd79w941/211889.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR |NETFLIX HINDI" group-title="India",AR |NETFLIX HINDI
+http://atrupo4k.com:80/live/aymman988/gd79w941/143386.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT| STAR MOVIES HD" group-title="India",PT| STAR MOVIES HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179085.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT| STAR COMEDY HD" group-title="India",PT| STAR COMEDY HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179186.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT| STAR CRIME HD" group-title="India",PT| STAR CRIME HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179086.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT| STAR MOVIES HD" group-title="India",PT| STAR MOVIES HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179180.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RO| Antena Stars" group-title="India",RO| Antena Stars
+http://atrupo4k.com:80/live/aymman988/gd79w941/170913.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RUS| SONY CHANNEL" group-title="India",RUS| SONY CHANNEL
+http://atrupo4k.com:80/live/aymman988/gd79w941/235590.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RUS| Sony Sci Fi" group-title="India",RUS| Sony Sci Fi
+http://atrupo4k.com:80/live/aymman988/gd79w941/235539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RUS| Sony Turbo" group-title="India",RUS| Sony Turbo
+http://atrupo4k.com:80/live/aymman988/gd79w941/235540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RUS| Start TV" group-title="India",RUS| Start TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/235516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE| TV4 Stars" group-title="India",SE| TV4 Stars
+http://atrupo4k.com:80/live/aymman988/gd79w941/240975.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="USA| Start TV" group-title="India",USA| Start TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/238260.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DSTV| DAYSTAR HD" group-title="India",DSTV| DAYSTAR HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/174082.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DSTV| Star Life" group-title="India",DSTV| Star Life
+http://atrupo4k.com:80/live/aymman988/gd79w941/174158.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DSTV| Zee World" group-title="India",DSTV| Zee World
+http://atrupo4k.com:80/live/aymman988/gd79w941/174176.ts
+
+
+################################################################################
+# Kids
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CARTOON NETWORK" group-title="Kids",|IN| CARTOON NETWORK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| DISCOVERY KIDS" group-title="Kids",|IN| DISCOVERY KIDS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SONIC NICKELODEON" group-title="Kids",|IN| SONIC NICKELODEON
+http://atrupo4k.com:80/live/aymman988/gd79w941/211504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NICK+ FHD" group-title="Kids",IN| D2H NICK+ FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149755.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NICK+ FHD ENGLISH" group-title="Kids",IN| D2H NICK+ FHD ENGLISH
+http://atrupo4k.com:80/live/aymman988/gd79w941/149782.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| CARTOON NETWORK" group-title="Kids",IN| CARTOON NETWORK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149421.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY KIDS" group-title="Kids",IN| DISCOVERY KIDS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY KIDS" group-title="Kids",IN| DISCOVERY KIDS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NICK" group-title="Kids",IN| NICK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149474.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NICK" group-title="Kids",IN| NICK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| POGO" group-title="Kids",IN| POGO
+http://atrupo4k.com:80/live/aymman988/gd79w941/149475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| POGO" group-title="Kids",IN| POGO
+http://atrupo4k.com:80/live/aymman988/gd79w941/149430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SONIC NICK" group-title="Kids",IN| SONIC NICK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| DISCOVERY KIDS" group-title="Kids",IN| DISCOVERY KIDS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NICK" group-title="Kids",IN| NICK
+http://atrupo4k.com:80/live/aymman988/gd79w941/149495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  DISCOVERY KIDS" group-title="Kids",IN|  DISCOVERY KIDS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149311.ts
+
+
+################################################################################
+# News
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="HU| Sony Max" group-title="News",HU| Sony Max
+http://atrupo4k.com:80/live/aymman988/gd79w941/171126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="HU| Sony Movie Channel" group-title="News",HU| Sony Movie Channel
+http://atrupo4k.com:80/live/aymman988/gd79w941/171127.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| AAJ TAK" group-title="News",|IN| AAJ TAK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ABP ANANDA" group-title="News",|IN| ABP ANANDA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211432.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ABP NEWS" group-title="News",|IN| ABP NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211433.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ASIANET NEWS" group-title="News",|IN| ASIANET NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211438.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CHANNEL NEWS ASIA" group-title="News",|IN| CHANNEL NEWS ASIA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| DD NEWS" group-title="News",|IN| DD NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS" group-title="News",|IN| INDIA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211470.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| MH ONE NEWS" group-title="News",|IN| MH ONE NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NAT GEO" group-title="News",|IN| NAT GEO
+http://atrupo4k.com:80/live/aymman988/gd79w941/211485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NDTV 24X7" group-title="News",|IN| NDTV 24X7
+http://atrupo4k.com:80/live/aymman988/gd79w941/211486.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NDTV INDIA" group-title="News",|IN| NDTV INDIA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211487.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NEWS 24" group-title="News",|IN| NEWS 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211488.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NEWS NATION" group-title="News",|IN| NEWS NATION
+http://atrupo4k.com:80/live/aymman988/gd79w941/211489.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PTC NEWS (PUNJABI)" group-title="News",|IN| PTC NEWS (PUNJABI)
+http://atrupo4k.com:80/live/aymman988/gd79w941/211492.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| RAJ NEWS KANNADA" group-title="News",|IN| RAJ NEWS KANNADA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS" group-title="News",|IN| ZEE NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN-NEWSIN| TS AAJ TAK FHD" group-title="News",IN-NEWSIN| TS AAJ TAK FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149698.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN-NEWSIN| TS TIMES NOW WORLD FHD" group-title="News",IN-NEWSIN| TS TIMES NOW WORLD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149724.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO ENG FHD" group-title="News",IN| D2H NAT GEO ENG FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO HINDI FHD" group-title="News",IN| D2H NAT GEO HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149754.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO WILD ENG FHD" group-title="News",IN| D2H NAT GEO WILD ENG FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149751.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| D2H NAT GEO WILD HINDI FHD" group-title="News",IN| D2H NAT GEO WILD HINDI FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS MN+ MOVIES FHD" group-title="News",IN| TS MN+ MOVIES FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149730.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TS TATA SKY THEATRE FHD" group-title="News",IN| TS TATA SKY THEATRE FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149735.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NAT GEO WILD FHD" group-title="News",IN| NAT GEO WILD FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| POLIMER NEWS" group-title="News",IN| POLIMER NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149438.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ NEWS 24X7" group-title="News",IN| RAJ NEWS 24X7
+http://atrupo4k.com:80/live/aymman988/gd79w941/149469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUN NEWS" group-title="News",IN| SUN NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| VENDHAR NEWS" group-title="News",IN| VENDHAR NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ NEWS." group-title="News",IN| RAJ NEWS.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149958.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV 5 NEWS." group-title="News",IN| TV 5 NEWS.
+http://atrupo4k.com:80/live/aymman988/gd79w941/149960.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV9 News" group-title="News",IN| TV9 News
+http://atrupo4k.com:80/live/aymman988/gd79w941/149963.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| V6 NEWS" group-title="News",IN| V6 NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149961.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NEWS FIRST" group-title="News",IN| NEWS FIRST
+http://atrupo4k.com:80/live/aymman988/gd79w941/149492.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ NEWS" group-title="News",IN| RAJ NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| SUVARNA NEWS" group-title="News",IN| SUVARNA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| TV 5 NEWS" group-title="News",IN| TV 5 NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ASIANET NEWS" group-title="News",IN| ASIANET NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149274.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ASIANET NEWS HD" group-title="News",IN| ASIANET NEWS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149275.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ  INDIA NEWS" group-title="News",IN| GUJ  INDIA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149345.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ ABP ASMITA" group-title="News",IN| GUJ ABP ASMITA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ MANTAVYA NEWS" group-title="News",IN| GUJ MANTAVYA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149352.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ NEWS 18 HD" group-title="News",IN| GUJ NEWS 18 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149346.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ SANDESH NEWS" group-title="News",IN| GUJ SANDESH NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149353.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ VTV NEWS" group-title="News",IN| GUJ VTV NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149354.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KAIRALI NEWS" group-title="News",IN| KAIRALI NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149285.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MANORAMA NEWS" group-title="News",IN| MANORAMA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MATHRUBHUMI NEWS" group-title="News",IN| MATHRUBHUMI NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NEWS 18 KERALA" group-title="News",IN| NEWS 18 KERALA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149299.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| RAJ NEWS" group-title="News",IN| RAJ NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149301.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN|  ABP MAJHA" group-title="News",IN|  ABP MAJHA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149247.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ABP MAJHA HD" group-title="News",IN| ABP MAJHA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149264.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NEWS18 LOKMAT" group-title="News",IN| NEWS18 LOKMAT
+http://atrupo4k.com:80/live/aymman988/gd79w941/149265.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ABN NEWS TV" group-title="News",|IN| ABN NEWS TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/211571.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CNBC TV18 NEWS HD" group-title="News",|IN| CNBC TV18 NEWS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211572.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| CVR NEWS" group-title="News",|IN| CVR NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211584.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| DILLI AAJ TAKK" group-title="News",|IN| DILLI AAJ TAKK
+http://atrupo4k.com:80/live/aymman988/gd79w941/211585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| E NEWS 24" group-title="News",|IN| E NEWS 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| IBC 24" group-title="News",|IN| IBC 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211582.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS" group-title="News",|IN| INDIA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS HARYANA" group-title="News",|IN| INDIA NEWS HARYANA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS MP" group-title="News",|IN| INDIA NEWS MP
+http://atrupo4k.com:80/live/aymman988/gd79w941/211575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS RAJASTHAN" group-title="News",|IN| INDIA NEWS RAJASTHAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/211579.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| INDIA NEWS UP" group-title="News",|IN| INDIA NEWS UP
+http://atrupo4k.com:80/live/aymman988/gd79w941/211576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NDTV INDIA" group-title="News",|IN| NDTV INDIA
+http://atrupo4k.com:80/live/aymman988/gd79w941/211574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NEWS 18 LIVE" group-title="News",|IN| NEWS 18 LIVE
+http://atrupo4k.com:80/live/aymman988/gd79w941/211588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NEWS 24" group-title="News",|IN| NEWS 24
+http://atrupo4k.com:80/live/aymman988/gd79w941/211583.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| NEWS X" group-title="News",|IN| NEWS X
+http://atrupo4k.com:80/live/aymman988/gd79w941/211578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| PRAG NEWS" group-title="News",|IN| PRAG NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| RANG" group-title="News",|IN| RANG
+http://atrupo4k.com:80/live/aymman988/gd79w941/211587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| REPUBLIC NEWS" group-title="News",|IN| REPUBLIC NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211591.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SAHARA NEWS NATIONAL" group-title="News",|IN| SAHARA NEWS NATIONAL
+http://atrupo4k.com:80/live/aymman988/gd79w941/211581.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| SUDARSHAN NEWS" group-title="News",|IN| SUDARSHAN NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211580.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE BUSINESS" group-title="News",|IN| ZEE BUSINESS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211590.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE HINDUSTAN NEWS" group-title="News",|IN| ZEE HINDUSTAN NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211565.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS" group-title="News",|IN| ZEE NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/211566.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS BIHAR" group-title="News",|IN| ZEE NEWS BIHAR
+http://atrupo4k.com:80/live/aymman988/gd79w941/211567.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS MP" group-title="News",|IN| ZEE NEWS MP
+http://atrupo4k.com:80/live/aymman988/gd79w941/211592.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS MP/CHATTISGARH" group-title="News",|IN| ZEE NEWS MP/CHATTISGARH
+http://atrupo4k.com:80/live/aymman988/gd79w941/211568.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE NEWS UP" group-title="News",|IN| ZEE NEWS UP
+http://atrupo4k.com:80/live/aymman988/gd79w941/211569.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| ZEE RAJASTHAN" group-title="News",|IN| ZEE RAJASTHAN
+http://atrupo4k.com:80/live/aymman988/gd79w941/211570.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ETV NEWS ORIYA" group-title="News",IN| ETV NEWS ORIYA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| KANAK NEWS" group-title="News",IN| KANAK NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NAXATRA NEWS" group-title="News",IN| NAXATRA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NEWS WORLD ODISHA" group-title="News",IN| NEWS WORLD ODISHA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PRAMEYA NEWS 7" group-title="News",IN| PRAMEYA NEWS 7
+http://atrupo4k.com:80/live/aymman988/gd79w941/149526.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| INDIA NEWS" group-title="News",IN| INDIA NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149571.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| Living India News" group-title="News",IN| Living India News
+http://atrupo4k.com:80/live/aymman988/gd79w941/149532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| MH1 PRIME NEWS" group-title="News",IN| MH1 PRIME NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| NEWS 18 PUNJAB HARYANA" group-title="News",IN| NEWS 18 PUNJAB HARYANA
+http://atrupo4k.com:80/live/aymman988/gd79w941/149574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| PTC NEWS" group-title="News",IN| PTC NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149570.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| ZEE PUNJAB HARYANA HD" group-title="News",IN| ZEE PUNJAB HARYANA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK|  Geo Tv UK" group-title="News",PK|  Geo Tv UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/212115.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| 24 News" group-title="News",PK| 24 News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212046.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| 92 News HD" group-title="News",PK| 92 News HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212035.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| AAJ NEWS" group-title="News",PK| AAJ NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212051.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ABB Takk News" group-title="News",PK| ABB Takk News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212041.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY Digital" group-title="News",PK| ARY Digital
+http://atrupo4k.com:80/live/aymman988/gd79w941/212078.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY FAMILY" group-title="News",PK| ARY FAMILY
+http://atrupo4k.com:80/live/aymman988/gd79w941/212071.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY MUSIK" group-title="News",PK| ARY MUSIK
+http://atrupo4k.com:80/live/aymman988/gd79w941/212093.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY NEWS" group-title="News",PK| ARY NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212030.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY QTV" group-title="News",PK| ARY QTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212105.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY World" group-title="News",PK| ARY World
+http://atrupo4k.com:80/live/aymman988/gd79w941/212117.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| ARY ZINDAGI" group-title="News",PK| ARY ZINDAGI
+http://atrupo4k.com:80/live/aymman988/gd79w941/212072.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Ary Digital UK" group-title="News",PK| Ary Digital UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/212079.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| BOL News" group-title="News",PK| BOL News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212047.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| CITY 41 NEWS" group-title="News",PK| CITY 41 NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212118.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| DIN News" group-title="News",PK| DIN News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212038.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Dawn News" group-title="News",PK| Dawn News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212043.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Dunya News" group-title="News",PK| Dunya News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212050.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Express News" group-title="News",PK| Express News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212058.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| GNN News" group-title="News",PK| GNN News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212048.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo Entertainment" group-title="News",PK| Geo Entertainment
+http://atrupo4k.com:80/live/aymman988/gd79w941/212083.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo Kahani" group-title="News",PK| Geo Kahani
+http://atrupo4k.com:80/live/aymman988/gd79w941/212085.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo Kahani UK" group-title="News",PK| Geo Kahani UK
+http://atrupo4k.com:80/live/aymman988/gd79w941/212084.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo News" group-title="News",PK| Geo News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212033.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo Super" group-title="News",PK| Geo Super
+http://atrupo4k.com:80/live/aymman988/gd79w941/212086.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Geo Tezz" group-title="News",PK| Geo Tezz
+http://atrupo4k.com:80/live/aymman988/gd79w941/212034.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Hum News" group-title="News",PK| Hum News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212031.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| INDUS NEWS HD" group-title="News",PK| INDUS NEWS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212122.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| KTN News" group-title="News",PK| KTN News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212055.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Khyber News" group-title="News",PK| Khyber News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212059.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Lahore News" group-title="News",PK| Lahore News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212042.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| METRO News" group-title="News",PK| METRO News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212077.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Neo News" group-title="News",PK| Neo News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212044.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| News One" group-title="News",PK| News One
+http://atrupo4k.com:80/live/aymman988/gd79w941/212045.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| PTV News" group-title="News",PK| PTV News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Public News FHD" group-title="News",PK| Public News FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212052.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Roze News" group-title="News",PK| Roze News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212057.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Samaa News TV" group-title="News",PK| Samaa News TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212049.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Sindh News" group-title="News",PK| Sindh News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212056.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Such News HD" group-title="News",PK| Such News HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/212054.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Tum News" group-title="News",PK| Tum News
+http://atrupo4k.com:80/live/aymman988/gd79w941/212032.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| VSH NEWS" group-title="News",PK| VSH NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/212053.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="USA| ABC Indianapolis (WRTV)" group-title="News",USA| ABC Indianapolis (WRTV)
+http://atrupo4k.com:80/live/aymman988/gd79w941/238476.ts

@@ -1,105 +1,372 @@
-#EXTM3U
+﻿#EXTM3U
+
 
 ################################################################################
 # Korea
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC JUNIOR HD" group-title="Korea",MBC JUNIOR HD
-http://sa.savpn.xyz:80/live/manar/manar2023/890.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  AL ZAEEM" group-title="Korea",PPV| MBC  AL ZAEEM
+http://atrupo4k.com:80/live/aymman988/gd79w941/241301.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 1" group-title="Korea",MBC 1
-http://sa.savpn.xyz:80/live/manar/manar2023/1663.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Anakeed" group-title="Korea",PPV| MBC  Anakeed
+http://atrupo4k.com:80/live/aymman988/gd79w941/241302.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 2" group-title="Korea",MBC 2
-http://sa.savpn.xyz:80/live/manar/manar2023/1662.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Asia 4K" group-title="Korea",PPV| MBC  Asia 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241308.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 3" group-title="Korea",MBC 3
-http://sa.savpn.xyz:80/live/manar/manar2023/1661.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cars 4K" group-title="Korea",PPV| MBC  Cars 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241309.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 4" group-title="Korea",MBC 4
-http://sa.savpn.xyz:80/live/manar/manar2023/1660.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cinma 1" group-title="Korea",PPV| MBC  Cinma 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/241299.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC 5" group-title="Korea",MBC 5
-http://sa.savpn.xyz:80/live/manar/manar2023/1659.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Cinma 2" group-title="Korea",PPV| MBC  Cinma 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/241300.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Action" group-title="Korea",MBC Action
-http://sa.savpn.xyz:80/live/manar/manar2023/1657.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Clip" group-title="Korea",PPV| MBC  Clip
+http://atrupo4k.com:80/live/aymman988/gd79w941/241303.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Action HD" group-title="Korea",MBC Action HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1644.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Documentary" group-title="Korea",PPV| MBC  Documentary
+http://atrupo4k.com:80/live/aymman988/gd79w941/241310.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood" group-title="Korea",MBC Bollywood
-http://sa.savpn.xyz:80/live/manar/manar2023/1656.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  ELIFE+ 4K" group-title="Korea",PPV| MBC  ELIFE+ 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241294.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood HD" group-title="Korea",MBC Bollywood HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1646.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Hundi 4K" group-title="Korea",PPV| MBC  Hundi 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241311.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama" group-title="Korea",MBC Drama
-http://sa.savpn.xyz:80/live/manar/manar2023/1655.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  KIDS MASER" group-title="Korea",PPV| MBC  KIDS MASER
+http://atrupo4k.com:80/live/aymman988/gd79w941/241304.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama HD" group-title="Korea",MBC Drama HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1647.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Masraheyat 4K" group-title="Korea",PPV| MBC  Masraheyat 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241305.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Iraq HD" group-title="Korea",MBC Iraq HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1640.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Modablaja 4K" group-title="Korea",PPV| MBC  Modablaja 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241306.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC MAX" group-title="Korea",MBC MAX
-http://sa.savpn.xyz:80/live/manar/manar2023/1658.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Movies" group-title="Korea",PPV| MBC  Movies
+http://atrupo4k.com:80/live/aymman988/gd79w941/241298.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC MAX HD" group-title="Korea",MBC MAX HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1645.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Premium 4K" group-title="Korea",PPV| MBC  Premium 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241297.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr" group-title="Korea",MBC Masr
-http://sa.savpn.xyz:80/live/manar/manar2023/1654.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Toons 1" group-title="Korea",PPV| MBC  Toons 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/241295.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2" group-title="Korea",MBC Masr 2
-http://sa.savpn.xyz:80/live/manar/manar2023/1653.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Toons 2" group-title="Korea",PPV| MBC  Toons 2
+http://atrupo4k.com:80/live/aymman988/gd79w941/241296.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2 HD" group-title="Korea",MBC Masr 2 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1642.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC  Trend 4K" group-title="Korea",PPV| MBC  Trend 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241307.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Masr HD" group-title="Korea",MBC Masr HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1641.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC CLASS 4K" group-title="Korea",PPV| MBC CLASS 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241277.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC+Drama HD" group-title="Korea",MBC+Drama HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1648.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC Comedy 4K" group-title="Korea",PPV| MBC Comedy 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241276.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC1 HD" group-title="Korea",MBC1 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1652.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EGYPT 4K" group-title="Korea",PPV| MBC EGYPT 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241274.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC2 HD" group-title="Korea",MBC2 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/149010.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EIGHT 4K" group-title="Korea",PPV| MBC EIGHT 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241290.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC3 HD" group-title="Korea",MBC3 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1650.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ELIFE 4K" group-title="Korea",PPV| MBC ELIFE 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241286.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC4 HD" group-title="Korea",MBC4 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1649.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC EXTRA 4K" group-title="Korea",PPV| MBC EXTRA 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241281.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC5 HD" group-title="Korea",MBC5 HD
-http://sa.savpn.xyz:80/live/manar/manar2023/1643.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC KIDS 4K" group-title="Korea",PPV| MBC KIDS 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241278.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC AFLAM HD" group-title="Korea",MBC AFLAM HD
-http://sa.savpn.xyz:80/live/manar/manar2023/889.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC MIX 4K" group-title="Korea",PPV| MBC MIX 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241280.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC CINEMA HD" group-title="Korea",MBC CINEMA HD
-http://sa.savpn.xyz:80/live/manar/manar2023/887.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC MOVIES 4K" group-title="Korea",PPV| MBC MOVIES 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241282.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC HORROR HD" group-title="Korea",MBC HORROR HD
-http://sa.savpn.xyz:80/live/manar/manar2023/888.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC NINE 4K" group-title="Korea",PPV| MBC NINE 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241291.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC JUNIOR HD" group-title="Korea",MBC JUNIOR HD
-http://sa.savpn.xyz:80/live/manar/manar2023/890.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ONE 4K" group-title="Korea",PPV| MBC ONE 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241287.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC MOVIES HD" group-title="Korea",MBC MOVIES HD
-http://sa.savpn.xyz:80/live/manar/manar2023/893.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PLUS 4K" group-title="Korea",PPV| MBC PLUS 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241283.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC PRIME HD" group-title="Korea",MBC PRIME HD
-http://sa.savpn.xyz:80/live/manar/manar2023/892.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC POWER 4K" group-title="Korea",PPV| MBC POWER 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241284.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC WAR HD" group-title="Korea",MBC WAR HD
-http://sa.savpn.xyz:80/live/manar/manar2023/891.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PREMIUIM 4K" group-title="Korea",PPV| MBC PREMIUIM 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241272.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="MBC Action" group-title="Korea",MBC Action
-http://sa.savpn.xyz:80/live/manar/manar2023/1657.ts
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC PREMIUM EN 4K" group-title="Korea",PPV| MBC PREMIUM EN 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241273.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC SEVEN 4K" group-title="Korea",PPV| MBC SEVEN 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC SYRIA 4K" group-title="Korea",PPV| MBC SYRIA 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241275.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC Shahid 4K" group-title="Korea",PPV| MBC Shahid 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TEN 4K" group-title="Korea",PPV| MBC TEN 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TOW 4K" group-title="Korea",PPV| MBC TOW 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC TURKI" group-title="Korea",PPV| MBC TURKI
+http://atrupo4k.com:80/live/aymman988/gd79w941/241279.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PPV| MBC ZOOM 4K" group-title="Korea",PPV| MBC ZOOM 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/241285.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ACTION FHD" group-title="Korea",GO| MBC ACTION FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82042.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ACTION HD" group-title="Korea",GO| MBC ACTION HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5659.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Bollywood FHD" group-title="Korea",GO| MBC Bollywood FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82046.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Bollywood HD" group-title="Korea",GO| MBC Bollywood HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/6332.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA FHD" group-title="Korea",GO| MBC DRAMA FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82043.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA HD" group-title="Korea",GO| MBC DRAMA HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5657.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA+ FHD" group-title="Korea",GO| MBC DRAMA+ FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82049.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC DRAMA+ HD" group-title="Korea",GO| MBC DRAMA+ HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5656.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC IRAQ  FHD" group-title="Korea",GO| MBC IRAQ  FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82048.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MASR 2 FHD" group-title="Korea",GO| MBC MASR 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82045.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MASR FHD" group-title="Korea",GO| MBC MASR FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82044.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MAX FHD" group-title="Korea",GO| MBC MAX FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82047.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC MAX HD" group-title="Korea",GO| MBC MAX HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5654.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Masr" group-title="Korea",GO| MBC Masr
+http://atrupo4k.com:80/live/aymman988/gd79w941/13902.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Masr2 HD" group-title="Korea",GO| MBC Masr2 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/3921.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC POWER +HD" group-title="Korea",GO| MBC POWER +HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/6316.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC VARIETY HD" group-title="Korea",GO| MBC VARIETY HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/5655.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC Variety FHD" group-title="Korea",GO| MBC Variety FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/82050.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GO| MBC ᐩ elife" group-title="Korea",GO| MBC ᐩ elife
+http://atrupo4k.com:80/live/aymman988/gd79w941/151983.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY DOCU BOX 4K" group-title="Korea",MY DOCU BOX 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/58989.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY DOCUMENTARY ARABIE 4K" group-title="Korea",MY DOCUMENTARY ARABIE 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/58988.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY FilmBox 4K" group-title="Korea",MY FilmBox 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY GULLI ARABIC 4K" group-title="Korea",MY GULLI ARABIC 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/58980.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC 1 4K" group-title="Korea",MY MBC 1 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC 2 4K" group-title="Korea",MY MBC 2 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC 3 4K" group-title="Korea",MY MBC 3 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC 4 4K" group-title="Korea",MY MBC 4 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC Action 4K" group-title="Korea",MY MBC Action 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC Bollywood 4K" group-title="Korea",MY MBC Bollywood 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC DRAMA 4K" group-title="Korea",MY MBC DRAMA 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC Drama  4K" group-title="Korea",MY MBC Drama  4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC IRAQ 4K" group-title="Korea",MY MBC IRAQ 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55571.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC Max 4K" group-title="Korea",MY MBC Max 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MBC Variety 4K" group-title="Korea",MY MBC Variety 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY MTV 4K" group-title="Korea",MY MTV 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/55532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Nat GEO WILD 4K" group-title="Korea",MY Nat GEO WILD 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/58978.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY PLANET EARTH 4K" group-title="Korea",MY PLANET EARTH 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/58977.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Aflam 4K" group-title="Korea",MY Rotana Aflam 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Cinema 4K" group-title="Korea",MY Rotana Cinema 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Classic 4K" group-title="Korea",MY Rotana Classic 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Drama 4K" group-title="Korea",MY Rotana Drama 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Khalijiah 4K" group-title="Korea",MY Rotana Khalijiah 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MY Rotana Music 4K" group-title="Korea",MY Rotana Music 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/68430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU| SBS HD" group-title="Korea",AU| SBS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/165280.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AU| SBS World Movies" group-title="Korea",AU| SBS World Movies
+http://atrupo4k.com:80/live/aymman988/gd79w941/165283.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR|MBC MASR" group-title="Korea",AR|MBC MASR
+http://atrupo4k.com:80/live/aymman988/gd79w941/71451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|IN| MBC BOLLYWOOD" group-title="Korea",|IN| MBC BOLLYWOOD
+http://atrupo4k.com:80/live/aymman988/gd79w941/211482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MA|MBC 5 MAROC" group-title="Korea",MA|MBC 5 MAROC
+http://atrupo4k.com:80/live/aymman988/gd79w941/81778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MA| MBC 5 HD +6H" group-title="Korea",MA| MBC 5 HD +6H
+http://atrupo4k.com:80/live/aymman988/gd79w941/241681.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|SBS 6" group-title="Korea",NL|SBS 6
+http://atrupo4k.com:80/live/aymman988/gd79w941/47848.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|SBS 9" group-title="Korea",NL|SBS 9
+http://atrupo4k.com:80/live/aymman988/gd79w941/47847.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| SBS 6 4K" group-title="Korea",NL| SBS 6 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172617.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| SBS 9 4K" group-title="Korea",NL| SBS 9 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172620.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN 7 FHD" group-title="Korea",PL|TVN 7 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124884.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN Fabuła FHD" group-title="Korea",PL|TVN Fabuła FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124885.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN HD" group-title="Korea",PL|TVN HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/124886.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN STYLE" group-title="Korea",PL|TVN STYLE
+http://atrupo4k.com:80/live/aymman988/gd79w941/124882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN TURBO" group-title="Korea",PL|TVN TURBO
+http://atrupo4k.com:80/live/aymman988/gd79w941/124881.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PL|TVN TURBO HEVC" group-title="Korea",PL|TVN TURBO HEVC
+http://atrupo4k.com:80/live/aymman988/gd79w941/124988.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Action" group-title="Korea",AR| MBC Action
+http://atrupo4k.com:80/live/aymman988/gd79w941/239706.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Bollywood" group-title="Korea",AR| MBC Bollywood
+http://atrupo4k.com:80/live/aymman988/gd79w941/239710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Drama" group-title="Korea",AR| MBC Drama
+http://atrupo4k.com:80/live/aymman988/gd79w941/239699.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Iraq" group-title="Korea",AR| MBC Iraq
+http://atrupo4k.com:80/live/aymman988/gd79w941/239711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC MAX" group-title="Korea",AR| MBC MAX
+http://atrupo4k.com:80/live/aymman988/gd79w941/239703.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr" group-title="Korea",AR| MBC Masr
+http://atrupo4k.com:80/live/aymman988/gd79w941/239705.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr Drama" group-title="Korea",AR| MBC Masr Drama
+http://atrupo4k.com:80/live/aymman988/gd79w941/239704.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Masr2" group-title="Korea",AR| MBC Masr2
+http://atrupo4k.com:80/live/aymman988/gd79w941/239708.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Persia" group-title="Korea",AR| MBC Persia
+http://atrupo4k.com:80/live/aymman988/gd79w941/239712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR| MBC Plus Drama" group-title="Korea",AR| MBC Plus Drama
+http://atrupo4k.com:80/live/aymman988/gd79w941/239709.ts
+
+
+################################################################################
+# Malaysia / Singapore
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| GUJ VTV NEWS" group-title="Malaysia / Singapore",IN| GUJ VTV NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/149354.ts
+
+
+################################################################################
+# Philippines
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PH| SMNI" group-title="Philippines",PH| SMNI
+http://atrupo4k.com:80/live/aymman988/gd79w941/158611.ts
+
+
+################################################################################
+# Vietnam / Others
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV  (E)" group-title="Vietnam / Others",URG| VTV  (E)
+http://atrupo4k.com:80/live/aymman988/gd79w941/179300.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV HD" group-title="Vietnam / Others",URG| VTV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179301.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV HD (E)" group-title="Vietnam / Others",URG| VTV HD (E)
+http://atrupo4k.com:80/live/aymman988/gd79w941/179302.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV PLUS HD" group-title="Vietnam / Others",URG| VTV PLUS HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/179303.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV PLUS HD (E)" group-title="Vietnam / Others",URG| VTV PLUS HD (E)
+http://atrupo4k.com:80/live/aymman988/gd79w941/179305.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="URG| VTV PLUS HD.." group-title="Vietnam / Others",URG| VTV PLUS HD..
+http://atrupo4k.com:80/live/aymman988/gd79w941/179304.ts

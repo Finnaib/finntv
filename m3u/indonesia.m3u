@@ -1,18 +1,193 @@
-#EXTM3U
+﻿#EXTM3U
+
+
+################################################################################
+# ANAK
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|Cartoon Network" group-title="ANAK",NL|Cartoon Network
+http://atrupo4k.com:80/live/aymman988/gd79w941/47899.ts
+
+
+################################################################################
+# BERITA
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="|CAMEROON| CRTV NEWS" group-title="BERITA",|CAMEROON| CRTV NEWS
+http://atrupo4k.com:80/live/aymman988/gd79w941/184695.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AF|C+ CRTV NEWS [CM]" group-title="BERITA",AF|C+ CRTV NEWS [CM]
+http://atrupo4k.com:80/live/aymman988/gd79w941/233448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|GHANA| METRO TV" group-title="BERITA",|GHANA| METRO TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184569.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="USA| ABC Indianapolis (WRTV)" group-title="BERITA",USA| ABC Indianapolis (WRTV)
+http://atrupo4k.com:80/live/aymman988/gd79w941/238476.ts
+
+
+################################################################################
+# BOLA / SPORTS
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="AF|C+ CRTV SPORTS [CM]" group-title="BOLA / SPORTS",AF|C+ CRTV SPORTS [CM]
+http://atrupo4k.com:80/live/aymman988/gd79w941/233447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR| SporTV 2 HD" group-title="BOLA / SPORTS",BR| SporTV 2 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/169467.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR| SporTV 3 HD" group-title="BOLA / SPORTS",BR| SporTV 3 HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/169468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR| SporTV HD" group-title="BOLA / SPORTS",BR| SporTV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/169469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS SELECT 1 FHD" group-title="BOLA / SPORTS",IN| STAR SPORTS SELECT 1 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN| STAR SPORTS SELECT 2 FHD" group-title="BOLA / SPORTS",IN| STAR SPORTS SELECT 2 FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/149784.ts
+
+
+################################################################################
+# HIBURAN / TV NASIONAL
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PK| Discover Pakistantv TV" group-title="HIBURAN / TV NASIONAL",PK| Discover Pakistantv TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/212090.ts
+
+
+################################################################################
+# LT, LU, MD| LITHUANIA & LUXEMBOURG & MOLDOVA
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="RTV" tvg-logo="" group-title="LT, LU, MD| LITHUANIA & LUXEMBOURG & MOLDOVA",DM|Bălţi TV,RTV" group-title="Luar Negeri / Lainnya",RTV" tvg-logo="" group-title="LT, LU, MD| LITHUANIA & LUXEMBOURG & MOLDOVA",DM|Bălţi TV,RTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/116248.ts
+
 
 ################################################################################
 # Luar Negeri / Lainnya
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="Planet.A&E" group-title="Luar Negeri / Lainnya",Planet.A&E
-http://sa.savpn.xyz:80/live/manar/manar2023/821.ts
+#EXTINF:-1 tvg-id="" tvg-name="|Africa| CRTV" group-title="Luar Negeri / Lainnya",|Africa| CRTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184793.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Planet.Ci" group-title="Luar Negeri / Lainnya",Planet.Ci
-http://sa.savpn.xyz:80/live/manar/manar2023/820.ts
+#EXTINF:-1 tvg-id="" tvg-name="|GENERAL| DRTV" group-title="Luar Negeri / Lainnya",|GENERAL| DRTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184755.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ARTV Canal Parlamento" group-title="Luar Negeri / Lainnya",ARTV Canal Parlamento
-http://sa.savpn.xyz:80/live/manar/manar2023/657.ts
+#EXTINF:-1 tvg-id="" tvg-name="|ROWANDA| RTV" group-title="Luar Negeri / Lainnya",|ROWANDA| RTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184714.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PowerTv" group-title="Luar Negeri / Lainnya",PowerTv
-http://sa.savpn.xyz:80/live/manar/manar2023/536.ts
+#EXTINF:-1 tvg-id="" tvg-name="AF|C+ DRTV HD [CNG]" group-title="Luar Negeri / Lainnya",AF|C+ DRTV HD [CNG]
+http://atrupo4k.com:80/live/aymman988/gd79w941/232671.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="AF|C+ CRTV [CM]" group-title="Luar Negeri / Lainnya",AF|C+ CRTV [CM]
+http://atrupo4k.com:80/live/aymman988/gd79w941/233443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|GHANA| RTV" group-title="Luar Negeri / Lainnya",|GHANA| RTV
+http://atrupo4k.com:80/live/aymman988/gd79w941/184563.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|SOMALIA| SRTV (SO)" group-title="Luar Negeri / Lainnya",|SOMALIA| SRTV (SO)
+http://atrupo4k.com:80/live/aymman988/gd79w941/184836.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AL| RTV 21 Macedonia" group-title="Luar Negeri / Lainnya",AL| RTV 21 Macedonia
+http://atrupo4k.com:80/live/aymman988/gd79w941/183477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AL| RTV 21 Mix" group-title="Luar Negeri / Lainnya",AL| RTV 21 Mix
+http://atrupo4k.com:80/live/aymman988/gd79w941/183476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AL| RTV 21 Plus" group-title="Luar Negeri / Lainnya",AL| RTV 21 Plus
+http://atrupo4k.com:80/live/aymman988/gd79w941/183475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AL| RTV21 Popullore" group-title="Luar Negeri / Lainnya",AL| RTV21 Popullore
+http://atrupo4k.com:80/live/aymman988/gd79w941/183495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AR|HD Animal Planet" group-title="Luar Negeri / Lainnya",AR|HD Animal Planet
+http://atrupo4k.com:80/live/aymman988/gd79w941/147524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CA-FR| ICI ARTV (FR)" group-title="Luar Negeri / Lainnya",CA-FR| ICI ARTV (FR)
+http://atrupo4k.com:80/live/aymman988/gd79w941/226795.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CA|ICI ARTV (FR)" group-title="Luar Negeri / Lainnya",CA|ICI ARTV (FR)
+http://atrupo4k.com:80/live/aymman988/gd79w941/175677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: RTV 1" group-title="Luar Negeri / Lainnya",Ex-Yu| Srb: RTV 1
+http://atrupo4k.com:80/live/aymman988/gd79w941/171268.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: RTV MLAVA" group-title="Luar Negeri / Lainnya",Ex-Yu| Srb: RTV MLAVA
+http://atrupo4k.com:80/live/aymman988/gd79w941/171269.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: RTV Pazar" group-title="Luar Negeri / Lainnya",Ex-Yu| Srb: RTV Pazar
+http://atrupo4k.com:80/live/aymman988/gd79w941/171270.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu| Srb: RTV Vojvodina" group-title="Luar Negeri / Lainnya",Ex-Yu| Srb: RTV Vojvodina
+http://atrupo4k.com:80/live/aymman988/gd79w941/171287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FR|ACTION FHD" group-title="Luar Negeri / Lainnya",FR|ACTION FHD
+http://atrupo4k.com:80/live/aymman988/gd79w941/6435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="KU|Net TV HD" group-title="Luar Negeri / Lainnya",KU|Net TV HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/175592.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EC| ECUADORTV SD" group-title="Luar Negeri / Lainnya",EC| ECUADORTV SD
+http://atrupo4k.com:80/live/aymman988/gd79w941/165528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MK| RTV21" group-title="Luar Negeri / Lainnya",MK| RTV21
+http://atrupo4k.com:80/live/aymman988/gd79w941/240392.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|Animal Planet" group-title="Luar Negeri / Lainnya",NL|Animal Planet
+http://atrupo4k.com:80/live/aymman988/gd79w941/47903.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Dordrecht" group-title="Luar Negeri / Lainnya",NL|RTV Dordrecht
+http://atrupo4k.com:80/live/aymman988/gd79w941/83666.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Drenthe" group-title="Luar Negeri / Lainnya",NL|RTV Drenthe
+http://atrupo4k.com:80/live/aymman988/gd79w941/83667.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Maastricht TV" group-title="Luar Negeri / Lainnya",NL|RTV Maastricht TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/83668.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Noord" group-title="Luar Negeri / Lainnya",NL|RTV Noord
+http://atrupo4k.com:80/live/aymman988/gd79w941/83670.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Noord Extra" group-title="Luar Negeri / Lainnya",NL|RTV Noord Extra
+http://atrupo4k.com:80/live/aymman988/gd79w941/83671.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Noordoost Friesland" group-title="Luar Negeri / Lainnya",NL|RTV Noordoost Friesland
+http://atrupo4k.com:80/live/aymman988/gd79w941/83672.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV TV Oost" group-title="Luar Negeri / Lainnya",NL|RTV TV Oost
+http://atrupo4k.com:80/live/aymman988/gd79w941/47850.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Utrecht" group-title="Luar Negeri / Lainnya",NL|RTV Utrecht
+http://atrupo4k.com:80/live/aymman988/gd79w941/47851.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL|RTV Utrecht HD" group-title="Luar Negeri / Lainnya",NL|RTV Utrecht HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/83674.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV 7 4K" group-title="Luar Negeri / Lainnya",NL| RTV 7 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Drenthe 4K" group-title="Luar Negeri / Lainnya",NL| RTV Drenthe 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172721.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Drenthe HD" group-title="Luar Negeri / Lainnya",NL| RTV Drenthe HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/172720.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Noord 4K" group-title="Luar Negeri / Lainnya",NL| RTV Noord 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172725.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Noord HD" group-title="Luar Negeri / Lainnya",NL| RTV Noord HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/172726.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Utrecht 4K" group-title="Luar Negeri / Lainnya",NL| RTV Utrecht 4K
+http://atrupo4k.com:80/live/aymman988/gd79w941/172724.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NL| RTV Utrecht HD" group-title="Luar Negeri / Lainnya",NL| RTV Utrecht HD
+http://atrupo4k.com:80/live/aymman988/gd79w941/172723.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RUS| RTVi" group-title="Luar Negeri / Lainnya",RUS| RTVi
+http://atrupo4k.com:80/live/aymman988/gd79w941/235536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TR|Diyanet TV" group-title="Luar Negeri / Lainnya",TR|Diyanet TV
+http://atrupo4k.com:80/live/aymman988/gd79w941/226286.ts
