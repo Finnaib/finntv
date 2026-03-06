@@ -24,6 +24,11 @@ python rebuild_all_m3u.py
 if %errorlevel% neq 0 (
     echo Warning: Region rebuild had issues, check output above.
 )
+echo Collecting Famous International channels (collect_external.py)...
+python collect_external.py
+if %errorlevel% neq 0 (
+    echo Warning: External collection had issues, check output above.
+)
 echo.
 
 echo [3/4] Reorganizing M3U Files by Categories...
