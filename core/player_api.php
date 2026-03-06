@@ -309,81 +309,38 @@ if ($action === '' || $action === 'get_panel_info') {
     json_out($out);
 
 } elseif ($action === 'get_series_info') {
-    // 8. Series Info - Build from LOCAL data only (no upstream proxy)
-    // Upstream has max_connections:1 - proxying here blocks the actual stream
+    // 8. Series Info - Proxy to Upstream Provider to get full episode list
     $series_id = (int) ($_GET['series_id'] ?? 0);
-
-    // Find matching series in local data
-    $found = null;
-    foreach ($data['series'] as $s) {
-        if ((int) $s['num'] === $series_id || (int) ($s['stream_id'] ?? 0) === $series_id) {
-            $found = $s;
-            break;
+    
+    global $provider_config;
+    if (!empty($provider_config['host'])) {
+        $u_host = rtrim($provider_config['host'], '/');
+        $u_user = $provider_config['username'];
+        $u_pass = $provider_config['password'];
+        
+        $upstream_url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_series_info&series_id={$series_id}";
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $upstream_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
+        $result = curl_exec($ch);
+        $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        
+        if ($status == 200 && $result) {
+            $data_json = json_decode($result, true);
+            if ($data_json) {
+                json_out($data_json);
+                return;
+            }
         }
     }
 
-    if (!$found) {
-        json_out(['seasons' => [], 'info' => [], 'episodes' => []]);
-    }
-
-    // Get the stream_id to use as episode ID — this IS in the id_map
-    $ep_id = (int) ($found['stream_id'] ?? $found['num'] ?? $series_id);
-
-    // Build episode using the local stream ID
-    $episode = [
-        'id' => $ep_id,
-        'episode_num' => 1,
-        'title' => (string) ($found['name'] ?? ''),
-        'container_extension' => 'ts',  // Force ts - upstream only supports ts/m3u8
-        'info' => [
-            'name' => (string) ($found['name'] ?? ''),
-            'cover_big' => (string) ($found['cover'] ?? ''),
-            'movie_image' => (string) ($found['cover'] ?? ''),
-            'plot' => '',
-            'cast' => '',
-            'director' => '',
-            'genre' => '',
-            'releaseDate' => ''
-        ],
-        'custom_sid' => '',
-        'added' => (string) time(),
-        'season' => 1,
-        'direct_source' => ''
-    ];
-
-    json_out([
-        'seasons' => [
-            [
-                'air_date' => '2023-01-01',
-                'episode_count' => 1,
-                'id' => 1,
-                'name' => 'Season 1',
-                'overview' => '',
-                'season_number' => 1,
-                'cover' => (string) ($found['cover'] ?? ''),
-                'cover_big' => (string) ($found['cover'] ?? '')
-            ]
-        ],
-        'info' => [
-            'name' => (string) ($found['name'] ?? ''),
-            'cover' => (string) ($found['cover'] ?? ''),
-            'plot' => '',
-            'cast' => '',
-            'director' => '',
-            'genre' => '',
-            'releaseDate' => '',
-            'last_modified' => (string) time(),
-            'rating' => '5',
-            'rating_5based' => '5',
-            'backdrop_path' => [],
-            'youtube_trailer' => '',
-            'episode_run_time' => '45',
-            'category_id' => (string) ($found['category_id'] ?? '')
-        ],
-        'episodes' => ['1' => [$episode]]
-    ]);
-
-
+    // Fallback if upstream fails or not configured
+    json_out(['seasons' => [], 'info' => [], 'episodes' => []]);
 } elseif ($action === 'get_vod_info') {
     // 9. VOD Info - Build from LOCAL data only (no upstream proxy)
     // Upstream has max_connections:1 - proxying here blocks the actual stream
