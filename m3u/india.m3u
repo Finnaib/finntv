@@ -2,818 +2,1244 @@
 
 
 ################################################################################
-# Entertainment
+# Afghanistan
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="IN-BD: Big Ganga" tvg-logo="" group-title="Entertainment",IN-BD: Big Ganga
-http://magic-tv.live:2095/live/9853786/34895378/121203.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: 1 TV" tvg-logo="" group-title="Afghanistan",Afg: 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/72617.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN-PB: Jus One TV" tvg-logo="" group-title="Entertainment",IN-PB: Jus One TV
-http://magic-tv.live:2095/live/9853786/34895378/121278.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: AFGHAN INTERNATIONAL" tvg-logo="" group-title="Afghanistan",Afg: AFGHAN INTERNATIONAL
+http://mhav1.com:2095/live/ht2990/742579548/72618.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN-PB: PTC Simran" tvg-logo="" group-title="Entertainment",IN-PB: PTC Simran
-http://magic-tv.live:2095/live/9853786/34895378/121218.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: AFGHAN NOBEL" tvg-logo="" group-title="Afghanistan",Afg: AFGHAN NOBEL
+http://mhav1.com:2095/live/ht2990/742579548/72641.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN-PB: Sangat TV" tvg-logo="" group-title="Entertainment",IN-PB: Sangat TV
-http://magic-tv.live:2095/live/9853786/34895378/121288.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: AFGHANISTAN TV" tvg-logo="" group-title="Afghanistan",Afg: AFGHANISTAN TV
+http://mhav1.com:2095/live/ht2990/742579548/72643.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN:  A One Music Punjabi" tvg-logo="" group-title="Entertainment",IN:  A One Music Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121282.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: ATN Europe" tvg-logo="" group-title="Afghanistan",Afg: ATN Europe
+http://mhav1.com:2095/live/ht2990/742579548/72610.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN:  MTV India" tvg-logo="" group-title="Entertainment",IN:  MTV India
-http://magic-tv.live:2095/live/9853786/34895378/121321.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: ATN News TV" tvg-logo="" group-title="Afghanistan",Afg: ATN News TV
+http://mhav1.com:2095/live/ht2990/742579548/72608.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: &Picture HD" tvg-logo="" group-title="Entertainment",IN: &Picture HD
-http://magic-tv.live:2095/live/9853786/34895378/121342.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: ATN TV" tvg-logo="" group-title="Afghanistan",Afg: ATN TV
+http://mhav1.com:2095/live/ht2990/742579548/72607.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: &TV HD" tvg-logo="" group-title="Entertainment",IN: &TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121320.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: ATN USA" tvg-logo="" group-title="Afghanistan",Afg: ATN USA
+http://mhav1.com:2095/live/ht2990/742579548/72609.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: 9X Jhakaas" tvg-logo="" group-title="Entertainment",IN: 9X Jhakaas
-http://magic-tv.live:2095/live/9853786/34895378/121327.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: AYENEH TV" tvg-logo="" group-title="Afghanistan",Afg: AYENEH TV
+http://mhav1.com:2095/live/ht2990/742579548/72630.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: 9XM" tvg-logo="" group-title="Entertainment",IN: 9XM
-http://magic-tv.live:2095/live/9853786/34895378/121326.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Afghan Theater" tvg-logo="" group-title="Afghanistan",Afg: Afghan Theater
+http://mhav1.com:2095/live/ht2990/742579548/72642.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: 9XM Jalwa" tvg-logo="" group-title="Entertainment",IN: 9XM Jalwa
-http://magic-tv.live:2095/live/9853786/34895378/121325.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Afghan javan" tvg-logo="" group-title="Afghanistan",Afg: Afghan javan
+http://mhav1.com:2095/live/ht2990/742579548/72636.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: 9x Tashan" tvg-logo="" group-title="Entertainment",IN: 9x Tashan
-http://magic-tv.live:2095/live/9853786/34895378/121324.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Arezo News TV" tvg-logo="" group-title="Afghanistan",Afg: Arezo News TV
+http://mhav1.com:2095/live/ht2990/742579548/72616.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: AAJ TAK" tvg-logo="" group-title="Entertainment",IN: AAJ TAK
-http://magic-tv.live:2095/live/9853786/34895378/121317.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Aria Music" tvg-logo="" group-title="Afghanistan",Afg: Aria Music
+http://mhav1.com:2095/live/ht2990/742579548/72632.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: ABN Andhra Jyothy" tvg-logo="" group-title="Entertainment",IN: ABN Andhra Jyothy
-http://magic-tv.live:2095/live/9853786/34895378/121204.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Aryana afghan" tvg-logo="" group-title="Afghanistan",Afg: Aryana afghan
+http://mhav1.com:2095/live/ht2990/742579548/72639.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: ABP Anada" tvg-logo="" group-title="Entertainment",IN: ABP Anada
-http://magic-tv.live:2095/live/9853786/34895378/121308.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Bahar TV" tvg-logo="" group-title="Afghanistan",Afg: Bahar TV
+http://mhav1.com:2095/live/ht2990/742579548/72644.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: ABP Sanjha" tvg-logo="" group-title="Entertainment",IN: ABP Sanjha
-http://magic-tv.live:2095/live/9853786/34895378/121284.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Barya TV 4K" tvg-logo="" group-title="Afghanistan",Afg: Barya TV 4K
+http://mhav1.com:2095/live/ht2990/742579548/72629.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Akkal Punjabi" tvg-logo="" group-title="Entertainment",IN: Akkal Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121289.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Batur TV" tvg-logo="" group-title="Afghanistan",Afg: Batur TV
+http://mhav1.com:2095/live/ht2990/742579548/72640.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Animal Planet HD" tvg-logo="" group-title="Entertainment",IN: Animal Planet HD
-http://magic-tv.live:2095/live/9853786/34895378/121340.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Dunya Naw TV" tvg-logo="" group-title="Afghanistan",Afg: Dunya Naw TV
+http://mhav1.com:2095/live/ht2990/742579548/72614.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Assamese Rengoni" tvg-logo="" group-title="Entertainment",IN: Assamese Rengoni
-http://magic-tv.live:2095/live/9853786/34895378/121200.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Eslah TV" tvg-logo="" group-title="Afghanistan",Afg: Eslah TV
+http://mhav1.com:2095/live/ht2990/742579548/72619.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: BBC Earth HD" tvg-logo="" group-title="Entertainment",IN: BBC Earth HD
-http://magic-tv.live:2095/live/9853786/34895378/121197.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: HASTI TV" tvg-logo="" group-title="Afghanistan",Afg: HASTI TV
+http://mhav1.com:2095/live/ht2990/742579548/72645.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: BBO HD" tvg-logo="" group-title="Entertainment",IN: BBO HD
-http://magic-tv.live:2095/live/9853786/34895378/121195.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: HAZARA WORLD" tvg-logo="" group-title="Afghanistan",Afg: HAZARA WORLD
+http://mhav1.com:2095/live/ht2990/742579548/72646.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Big Magic" tvg-logo="" group-title="Entertainment",IN: Big Magic
-http://magic-tv.live:2095/live/9853786/34895378/121247.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Hewad" tvg-logo="" group-title="Afghanistan",Afg: Hewad
+http://mhav1.com:2095/live/ht2990/742579548/72637.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: CNBC NEWS TV18" tvg-logo="" group-title="Entertainment",IN: CNBC NEWS TV18
-http://magic-tv.live:2095/live/9853786/34895378/121315.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: International Food" tvg-logo="" group-title="Afghanistan",Afg: International Food
+http://mhav1.com:2095/live/ht2990/742579548/72647.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: CNN News18" tvg-logo="" group-title="Entertainment",IN: CNN News18
-http://magic-tv.live:2095/live/9853786/34895378/121295.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Kayhan TV" tvg-logo="" group-title="Afghanistan",Afg: Kayhan TV
+http://mhav1.com:2095/live/ht2990/742579548/72626.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Captain News" tvg-logo="" group-title="Entertainment",IN: Captain News
-http://magic-tv.live:2095/live/9853786/34895378/121193.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Khurshid" tvg-logo="" group-title="Afghanistan",Afg: Khurshid
+http://mhav1.com:2095/live/ht2990/742579548/72606.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Chardikla Time TV Punjabi" tvg-logo="" group-title="Entertainment",IN: Chardikla Time TV Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121316.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Lemar HD" tvg-logo="" group-title="Afghanistan",Afg: Lemar HD
+http://mhav1.com:2095/live/ht2990/742579548/72615.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Bangla HD" tvg-logo="" group-title="Entertainment",IN: Colors Bangla HD
-http://magic-tv.live:2095/live/9853786/34895378/121344.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: MUQAM TV" tvg-logo="" group-title="Afghanistan",Afg: MUQAM TV
+http://mhav1.com:2095/live/ht2990/742579548/72624.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Rishtey" tvg-logo="" group-title="Entertainment",IN: Colors Rishtey
-http://magic-tv.live:2095/live/9853786/34895378/121190.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Maaref TV" tvg-logo="" group-title="Afghanistan",Afg: Maaref TV
+http://mhav1.com:2095/live/ht2990/742579548/72627.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD (Punjabi)" tvg-logo="" group-title="Entertainment",IN: DD (Punjabi)
-http://magic-tv.live:2095/live/9853786/34895378/121271.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Noor TV Afghanistan" tvg-logo="" group-title="Afghanistan",Afg: Noor TV Afghanistan
+http://mhav1.com:2095/live/ht2990/742579548/72611.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Bangla" tvg-logo="" group-title="Entertainment",IN: DD Bangla
-http://magic-tv.live:2095/live/9853786/34895378/121272.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Pamir TV" tvg-logo="" group-title="Afghanistan",Afg: Pamir TV
+http://mhav1.com:2095/live/ht2990/742579548/72628.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Bihar" tvg-logo="" group-title="Entertainment",IN: DD Bihar
-http://magic-tv.live:2095/live/9853786/34895378/121189.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Pashto 1" tvg-logo="" group-title="Afghanistan",Afg: Pashto 1
+http://mhav1.com:2095/live/ht2990/742579548/72648.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Chandana" tvg-logo="" group-title="Entertainment",IN: DD Chandana
-http://magic-tv.live:2095/live/9853786/34895378/121188.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Payam E Afghan" tvg-logo="" group-title="Afghanistan",Afg: Payam E Afghan
+http://mhav1.com:2095/live/ht2990/742579548/72620.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Indian" tvg-logo="" group-title="Entertainment",IN: DD Indian
-http://magic-tv.live:2095/live/9853786/34895378/121270.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: RTA Sports" tvg-logo="" group-title="Afghanistan",Afg: RTA Sports
+http://mhav1.com:2095/live/ht2990/742579548/72605.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Kisan" tvg-logo="" group-title="Entertainment",IN: DD Kisan
-http://magic-tv.live:2095/live/9853786/34895378/121186.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: RTA TV" tvg-logo="" group-title="Afghanistan",Afg: RTA TV
+http://mhav1.com:2095/live/ht2990/742579548/72604.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD News" tvg-logo="" group-title="Entertainment",IN: DD News
-http://magic-tv.live:2095/live/9853786/34895378/121269.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Shamshad TV" tvg-logo="" group-title="Afghanistan",Afg: Shamshad TV
+http://mhav1.com:2095/live/ht2990/742579548/72621.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Urdu" tvg-logo="" group-title="Entertainment",IN: DD Urdu
-http://magic-tv.live:2095/live/9853786/34895378/121185.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Solh TV" tvg-logo="" group-title="Afghanistan",Afg: Solh TV
+http://mhav1.com:2095/live/ht2990/742579548/72633.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Yadagiri" tvg-logo="" group-title="Entertainment",IN: DD Yadagiri
-http://magic-tv.live:2095/live/9853786/34895378/121184.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Tamadon TV" tvg-logo="" group-title="Afghanistan",Afg: Tamadon TV
+http://mhav1.com:2095/live/ht2990/742579548/72612.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD girnar" tvg-logo="" group-title="Entertainment",IN: DD girnar
-http://magic-tv.live:2095/live/9853786/34895378/121187.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Time TV" tvg-logo="" group-title="Afghanistan",Afg: Time TV
+http://mhav1.com:2095/live/ht2990/742579548/72638.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Dabang TV" tvg-logo="" group-title="Entertainment",IN: Dabang TV
-http://magic-tv.live:2095/live/9853786/34895378/121273.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Tolo HD" tvg-logo="" group-title="Afghanistan",Afg: Tolo HD
+http://mhav1.com:2095/live/ht2990/742579548/72622.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Desi Punjabi" tvg-logo="" group-title="Entertainment",IN: Desi Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121280.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Tolo News HD" tvg-logo="" group-title="Afghanistan",Afg: Tolo News HD
+http://mhav1.com:2095/live/ht2990/742579548/72623.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Dillagi Amrita" tvg-logo="" group-title="Entertainment",IN: Dillagi Amrita
-http://magic-tv.live:2095/live/9853786/34895378/121262.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Tuti TV" tvg-logo="" group-title="Afghanistan",Afg: Tuti TV
+http://mhav1.com:2095/live/ht2990/742579548/72634.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Channel HD" tvg-logo="" group-title="Entertainment",IN: Discovery Channel HD
-http://magic-tv.live:2095/live/9853786/34895378/121307.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Watan e Maa TV" tvg-logo="" group-title="Afghanistan",Afg: Watan e Maa TV
+http://mhav1.com:2095/live/ht2990/742579548/72613.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Science HD" tvg-logo="" group-title="Entertainment",IN: Discovery Science HD
-http://magic-tv.live:2095/live/9853786/34895378/121244.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: ZARIN TV" tvg-logo="" group-title="Afghanistan",Afg: ZARIN TV
+http://mhav1.com:2095/live/ht2990/742579548/72625.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Turbo HD" tvg-logo="" group-title="Entertainment",IN: Discovery Turbo HD
-http://magic-tv.live:2095/live/9853786/34895378/121243.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: Zhwandoon TV" tvg-logo="" group-title="Afghanistan",Afg: Zhwandoon TV
+http://mhav1.com:2095/live/ht2990/742579548/72635.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery World HD" tvg-logo="" group-title="Entertainment",IN: Discovery World HD
-http://magic-tv.live:2095/live/9853786/34895378/121242.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: E24" tvg-logo="" group-title="Entertainment",IN: E24
-http://magic-tv.live:2095/live/9853786/34895378/121240.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ET NOW" tvg-logo="" group-title="Entertainment",IN: ET NOW
-http://magic-tv.live:2095/live/9853786/34895378/121314.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ETC Punjabi" tvg-logo="" group-title="Entertainment",IN: ETC Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121279.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ETV" tvg-logo="" group-title="Entertainment",IN: ETV
-http://magic-tv.live:2095/live/9853786/34895378/121336.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Telangana" tvg-logo="" group-title="Entertainment",IN: ETV Telangana
-http://magic-tv.live:2095/live/9853786/34895378/121264.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: EZ Mall" tvg-logo="" group-title="Entertainment",IN: EZ Mall
-http://magic-tv.live:2095/live/9853786/34895378/121181.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Eawaz TV HD Canada" tvg-logo="" group-title="Entertainment",IN: Eawaz TV HD Canada
-http://magic-tv.live:2095/live/9853786/34895378/121183.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Eleven Sport Network Asia" tvg-logo="" group-title="Entertainment",IN: Eleven Sport Network Asia
-http://magic-tv.live:2095/live/9853786/34895378/121292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Epic" tvg-logo="" group-title="Entertainment",IN: Epic
-http://magic-tv.live:2095/live/9853786/34895378/121182.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Food Food" tvg-logo="" group-title="Entertainment",IN: Food Food
-http://magic-tv.live:2095/live/9853786/34895378/121281.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Fox Life" tvg-logo="" group-title="Entertainment",IN: Fox Life
-http://magic-tv.live:2095/live/9853786/34895378/121180.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini TV" tvg-logo="" group-title="Entertainment",IN: Gemini TV
-http://magic-tv.live:2095/live/9853786/34895378/121256.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Hyder" tvg-logo="" group-title="Entertainment",IN: Hyder
-http://magic-tv.live:2095/live/9853786/34895378/121246.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: India TV" tvg-logo="" group-title="Entertainment",IN: India TV
-http://magic-tv.live:2095/live/9853786/34895378/121298.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: India Today" tvg-logo="" group-title="Entertainment",IN: India Today
-http://magic-tv.live:2095/live/9853786/34895378/121312.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: India Voice" tvg-logo="" group-title="Entertainment",IN: India Voice
-http://magic-tv.live:2095/live/9853786/34895378/121179.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Ishwar TV" tvg-logo="" group-title="Entertainment",IN: Ishwar TV
-http://magic-tv.live:2095/live/9853786/34895378/121178.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: JUS Punjabi" tvg-logo="" group-title="Entertainment",IN: JUS Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121277.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Janam TV" tvg-logo="" group-title="Entertainment",IN: Janam TV
-http://magic-tv.live:2095/live/9853786/34895378/121260.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Jaya TV" tvg-logo="" group-title="Entertainment",IN: Jaya TV
-http://magic-tv.live:2095/live/9853786/34895378/121263.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Kairal" tvg-logo="" group-title="Entertainment",IN: Kairal
-http://magic-tv.live:2095/live/9853786/34895378/121339.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Kairal NEWS" tvg-logo="" group-title="Entertainment",IN: Kairal NEWS
-http://magic-tv.live:2095/live/9853786/34895378/121338.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Kerala Vision" tvg-logo="" group-title="Entertainment",IN: Kerala Vision
-http://magic-tv.live:2095/live/9853786/34895378/121334.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Krishna Vaani" tvg-logo="" group-title="Entertainment",IN: Krishna Vaani
-http://magic-tv.live:2095/live/9853786/34895378/121177.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Lok Sabha TV" tvg-logo="" group-title="Entertainment",IN: Lok Sabha TV
-http://magic-tv.live:2095/live/9853786/34895378/121176.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MAA TV HD" tvg-logo="" group-title="Entertainment",IN: MAA TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121212.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MH One" tvg-logo="" group-title="Entertainment",IN: MH One
-http://magic-tv.live:2095/live/9853786/34895378/121268.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MH Prime" tvg-logo="" group-title="Entertainment",IN: MH Prime
-http://magic-tv.live:2095/live/9853786/34895378/121276.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MH1 Shradha" tvg-logo="" group-title="Entertainment",IN: MH1 Shradha
-http://magic-tv.live:2095/live/9853786/34895378/121311.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MN+" tvg-logo="" group-title="Entertainment",IN: MN+
-http://magic-tv.live:2095/live/9853786/34895378/121175.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: MTV Beats HD" tvg-logo="" group-title="Entertainment",IN: MTV Beats HD
-http://magic-tv.live:2095/live/9853786/34895378/121173.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Maa Gold" tvg-logo="" group-title="Entertainment",IN: Maa Gold
-http://magic-tv.live:2095/live/9853786/34895378/121261.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan TV" tvg-logo="" group-title="Entertainment",IN: Manoranjan TV
-http://magic-tv.live:2095/live/9853786/34895378/121266.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Mastii TV" tvg-logo="" group-title="Entertainment",IN: Mastii TV
-http://magic-tv.live:2095/live/9853786/34895378/121238.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Media One" tvg-logo="" group-title="Entertainment",IN: Media One
-http://magic-tv.live:2095/live/9853786/34895378/121267.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Music India" tvg-logo="" group-title="Entertainment",IN: Music India
-http://magic-tv.live:2095/live/9853786/34895378/121323.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: NDTV Good Times" tvg-logo="" group-title="Entertainment",IN: NDTV Good Times
-http://magic-tv.live:2095/live/9853786/34895378/121296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: NDTV India" tvg-logo="" group-title="Entertainment",IN: NDTV India
-http://magic-tv.live:2095/live/9853786/34895378/121297.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Nat Geo" tvg-logo="http://www.vod-logo.net/photos/286bcee8579c2ac48c056e811c051524.jpg" group-title="Entertainment",IN: Nat Geo
-http://magic-tv.live:2095/live/9853786/34895378/121172.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Nat Geo Wild" tvg-logo="http://www.vod-logo.net/photos/699edfa82550dc3b37bc1c7db976234b.jpg" group-title="Entertainment",IN: Nat Geo Wild
-http://magic-tv.live:2095/live/9853786/34895378/121171.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: News 24" tvg-logo="" group-title="Entertainment",IN: News 24
-http://magic-tv.live:2095/live/9853786/34895378/121170.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: News18 India" tvg-logo="" group-title="Entertainment",IN: News18 India
-http://magic-tv.live:2095/live/9853786/34895378/121169.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PB: Pop Pataka HD" tvg-logo="" group-title="Entertainment",IN: PB: Pop Pataka HD
-http://magic-tv.live:2095/live/9853786/34895378/121168.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PTC Chak de" tvg-logo="" group-title="Entertainment",IN: PTC Chak de
-http://magic-tv.live:2095/live/9853786/34895378/121283.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PTC News Punjabi" tvg-logo="" group-title="Entertainment",IN: PTC News Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121286.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PTC VR" tvg-logo="" group-title="Entertainment",IN: PTC VR
-http://magic-tv.live:2095/live/9853786/34895378/121165.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PUBLIC MUSIC" tvg-logo="" group-title="Entertainment",IN: PUBLIC MUSIC
-http://magic-tv.live:2095/live/9853786/34895378/121341.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Peace HD" tvg-logo="" group-title="Entertainment",IN: Peace HD
-http://magic-tv.live:2095/live/9853786/34895378/121167.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Peace Music" tvg-logo="" group-title="Entertainment",IN: Peace Music
-http://magic-tv.live:2095/live/9853786/34895378/121166.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Pogo TV" tvg-logo="" group-title="Entertainment",IN: Pogo TV
-http://magic-tv.live:2095/live/9853786/34895378/121251.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Polimer News" tvg-logo="" group-title="Entertainment",IN: Polimer News
-http://magic-tv.live:2095/live/9853786/34895378/121259.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Puthiya" tvg-logo="" group-title="Entertainment",IN: Puthiya
-http://magic-tv.live:2095/live/9853786/34895378/121255.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Raj News" tvg-logo="" group-title="Entertainment",IN: Raj News
-http://magic-tv.live:2095/live/9853786/34895378/121310.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Raj Pariwar" tvg-logo="" group-title="Entertainment",IN: Raj Pariwar
-http://magic-tv.live:2095/live/9853786/34895378/121164.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Rajasthan News" tvg-logo="" group-title="Entertainment",IN: Rajasthan News
-http://magic-tv.live:2095/live/9853786/34895378/121163.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Republic Bharat" tvg-logo="" group-title="Entertainment",IN: Republic Bharat
-http://magic-tv.live:2095/live/9853786/34895378/121162.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Republic TV" tvg-logo="" group-title="Entertainment",IN: Republic TV
-http://magic-tv.live:2095/live/9853786/34895378/121161.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Rishtey Cineplex" tvg-logo="" group-title="Entertainment",IN: Rishtey Cineplex
-http://magic-tv.live:2095/live/9853786/34895378/121237.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Ruposhi Bangla" tvg-logo="" group-title="Entertainment",IN: Ruposhi Bangla
-http://magic-tv.live:2095/live/9853786/34895378/121160.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: SUN Music HD" tvg-logo="" group-title="Entertainment",IN: SUN Music HD
-http://magic-tv.live:2095/live/9853786/34895378/121208.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sadhna TV" tvg-logo="" group-title="Entertainment",IN: Sadhna TV
-http://magic-tv.live:2095/live/9853786/34895378/121159.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sangeet Marathi" tvg-logo="" group-title="Entertainment",IN: Sangeet Marathi
-http://magic-tv.live:2095/live/9853786/34895378/121158.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sanjhi Soch" tvg-logo="" group-title="Entertainment",IN: Sanjhi Soch
-http://magic-tv.live:2095/live/9853786/34895378/121313.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sanskaar TV" tvg-logo="" group-title="Entertainment",IN: Sanskaar TV
-http://magic-tv.live:2095/live/9853786/34895378/121157.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Santhora TV" tvg-logo="" group-title="Entertainment",IN: Santhora TV
-http://magic-tv.live:2095/live/9853786/34895378/121252.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Satsang" tvg-logo="" group-title="Entertainment",IN: Satsang
-http://magic-tv.live:2095/live/9853786/34895378/121156.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Show Box" tvg-logo="" group-title="Entertainment",IN: Show Box
-http://magic-tv.live:2095/live/9853786/34895378/121155.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 1 HD [Live]" tvg-logo="" group-title="Entertainment",IN: Sony Ten 1 HD [Live]
-http://magic-tv.live:2095/live/9853786/34895378/121293.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 3 HD [Live]" tvg-logo="" group-title="Entertainment",IN: Sony Ten 3 HD [Live]
-http://magic-tv.live:2095/live/9853786/34895378/121152.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sri TV LK" tvg-logo="" group-title="Entertainment",IN: Sri TV LK
-http://magic-tv.live:2095/live/9853786/34895378/121205.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Pravah HD" tvg-logo="http://vod-logo.net/photos/1e91e35545a975983a74c3e9f78874cd.png" group-title="Entertainment",IN: Star Pravah HD
-http://magic-tv.live:2095/live/9853786/34895378/121379.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Surya Music" tvg-logo="" group-title="Entertainment",IN: Surya Music
-http://magic-tv.live:2095/live/9853786/34895378/121147.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Surya TV HD" tvg-logo="" group-title="Entertainment",IN: Surya TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121207.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: TLC World" tvg-logo="" group-title="Entertainment",IN: TLC World
-http://magic-tv.live:2095/live/9853786/34895378/121143.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: The Q" tvg-logo="" group-title="Entertainment",IN: The Q
-http://magic-tv.live:2095/live/9853786/34895378/121146.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Times Now" tvg-logo="" group-title="Entertainment",IN: Times Now
-http://magic-tv.live:2095/live/9853786/34895378/121145.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Travel XP HD" tvg-logo="" group-title="Entertainment",IN: Travel XP HD
-http://magic-tv.live:2095/live/9853786/34895378/121232.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: UTV" tvg-logo="" group-title="Entertainment",IN: UTV
-http://magic-tv.live:2095/live/9853786/34895378/121140.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: UTV Bindas" tvg-logo="" group-title="Entertainment",IN: UTV Bindas
-http://magic-tv.live:2095/live/9853786/34895378/121304.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Udaya Music" tvg-logo="" group-title="Entertainment",IN: Udaya Music
-http://magic-tv.live:2095/live/9853786/34895378/121141.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Udaya TV HD" tvg-logo="" group-title="Entertainment",IN: Udaya TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121206.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Wion TV" tvg-logo="" group-title="Entertainment",IN: Wion TV
-http://magic-tv.live:2095/live/9853786/34895378/121138.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Kala" tvg-logo="" group-title="Entertainment",IN: Zee 24 Kala
-http://magic-tv.live:2095/live/9853786/34895378/121337.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Kalak" tvg-logo="" group-title="Entertainment",IN: Zee 24 Kalak
-http://magic-tv.live:2095/live/9853786/34895378/121137.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bihar JH" tvg-logo="" group-title="Entertainment",IN: Zee Bihar JH
-http://magic-tv.live:2095/live/9853786/34895378/121135.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bioskope" tvg-logo="" group-title="Entertainment",IN: Zee Bioskope
-http://magic-tv.live:2095/live/9853786/34895378/121134.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Business" tvg-logo="" group-title="Entertainment",IN: Zee Business
-http://magic-tv.live:2095/live/9853786/34895378/121303.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Hindustan" tvg-logo="" group-title="Entertainment",IN: Zee Hindustan
-http://magic-tv.live:2095/live/9853786/34895378/121132.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Magic" tvg-logo="" group-title="Entertainment",IN: Zee Magic
-http://magic-tv.live:2095/live/9853786/34895378/121131.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee News" tvg-logo="" group-title="Entertainment",IN: Zee News
-http://magic-tv.live:2095/live/9853786/34895378/121360.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Tamil HD" tvg-logo="http://vod-logo.net/photos/5f21d51e36c8680b4567465a1fa65c23.png" group-title="Entertainment",IN: Zee Tamil HD
-http://magic-tv.live:2095/live/9853786/34895378/121366.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Zindagi" tvg-logo="" group-title="Entertainment",IN: Zee Zindagi
-http://magic-tv.live:2095/live/9853786/34895378/121302.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee marathi HD" tvg-logo="http://vod-logo.net/photos/34a16c6544837ded66c6419dd6110ad9.png" group-title="Entertainment",IN: Zee marathi HD
-http://magic-tv.live:2095/live/9853786/34895378/121364.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zindagi" tvg-logo="" group-title="Entertainment",IN: Zindagi
-http://magic-tv.live:2095/live/9853786/34895378/121301.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zoom" tvg-logo="" group-title="Entertainment",IN: Zoom
-http://magic-tv.live:2095/live/9853786/34895378/121300.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: ARUJ TV" tvg-logo="" group-title="Entertainment",In: ARUJ TV
-http://magic-tv.live:2095/live/9853786/34895378/121231.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Akaal Channel Punjabi" tvg-logo="" group-title="Entertainment",In: Akaal Channel Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121248.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Asianet HD" tvg-logo="" group-title="Entertainment",In: Asianet HD
-http://magic-tv.live:2095/live/9853786/34895378/121329.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Asianet News" tvg-logo="" group-title="Entertainment",In: Asianet News
-http://magic-tv.live:2095/live/9853786/34895378/121330.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Asianet Plus" tvg-logo="" group-title="Entertainment",In: Asianet Plus
-http://magic-tv.live:2095/live/9853786/34895378/121333.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: B4U Music" tvg-logo="" group-title="Entertainment",In: B4U Music
-http://magic-tv.live:2095/live/9853786/34895378/121370.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Colors HD" tvg-logo="" group-title="Entertainment",In: Colors HD
-http://magic-tv.live:2095/live/9853786/34895378/121347.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Colors Marathi HD" tvg-logo="" group-title="Entertainment",In: Colors Marathi HD
-http://magic-tv.live:2095/live/9853786/34895378/121343.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: ETV Life" tvg-logo="" group-title="Entertainment",In: ETV Life
-http://magic-tv.live:2095/live/9853786/34895378/121229.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Gemini life" tvg-logo="" group-title="Entertainment",In: Gemini life
-http://magic-tv.live:2095/live/9853786/34895378/121227.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Jaya Max" tvg-logo="" group-title="Entertainment",In: Jaya Max
-http://magic-tv.live:2095/live/9853786/34895378/121226.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Jaya Plus" tvg-logo="" group-title="Entertainment",In: Jaya Plus
-http://magic-tv.live:2095/live/9853786/34895378/121224.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: KAY 2" tvg-logo="" group-title="Entertainment",In: KAY 2
-http://magic-tv.live:2095/live/9853786/34895378/121222.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Kashish" tvg-logo="" group-title="Entertainment",In: Kashish
-http://magic-tv.live:2095/live/9853786/34895378/121223.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Khyber" tvg-logo="" group-title="Entertainment",In: Khyber
-http://magic-tv.live:2095/live/9853786/34895378/121221.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: PTC MUSIC" tvg-logo="" group-title="Entertainment",In: PTC MUSIC
-http://magic-tv.live:2095/live/9853786/34895378/121220.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: PTC Punjabi GOLD" tvg-logo="" group-title="Entertainment",In: PTC Punjabi GOLD
-http://magic-tv.live:2095/live/9853786/34895378/121219.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: RAAVI" tvg-logo="" group-title="Entertainment",In: RAAVI
-http://magic-tv.live:2095/live/9853786/34895378/121217.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: RAJ Musix" tvg-logo="" group-title="Entertainment",In: RAJ Musix
-http://magic-tv.live:2095/live/9853786/34895378/121254.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Raj Digital+" tvg-logo="" group-title="Entertainment",In: Raj Digital+
-http://magic-tv.live:2095/live/9853786/34895378/121216.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Sony Entertainment HD" tvg-logo="" group-title="Entertainment",In: Sony Entertainment HD
-http://magic-tv.live:2095/live/9853786/34895378/121369.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Sun TV" tvg-logo="" group-title="Entertainment",In: Sun TV
-http://magic-tv.live:2095/live/9853786/34895378/121209.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: WB HD" tvg-logo="" group-title="Entertainment",In: WB HD
-http://magic-tv.live:2095/live/9853786/34895378/121236.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Willow Cricket HD" tvg-logo="" group-title="Entertainment",In: Willow Cricket HD
-http://magic-tv.live:2095/live/9853786/34895378/121328.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Zee Zest" tvg-logo="" group-title="Entertainment",In: Zee Zest
-http://magic-tv.live:2095/live/9853786/34895378/121299.ts
+#EXTINF:-1 tvg-id="" tvg-name="Afg: magham tv" tvg-logo="" group-title="Afghanistan",Afg: magham tv
+http://mhav1.com:2095/live/ht2990/742579548/72631.ts
 
 
 ################################################################################
-# Kids
+# Bangladesh
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Baby TV HD" tvg-logo="" group-title="Kids",IN: Baby TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121198.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: BTV Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/176fb982faacd039573803549e283510.png" group-title="Bangladesh",IN: BTV Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212395.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Cartoon Network Hindi" tvg-logo="" group-title="Kids",IN: Cartoon Network Hindi
-http://magic-tv.live:2095/live/9853786/34895378/121192.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: BTV World Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/9ab1e84bd991823885308abaa9e6bef9.png" group-title="Bangladesh",IN: BTV World Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212394.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Kids" tvg-logo="" group-title="Kids",IN: Discovery Kids
-http://magic-tv.live:2095/live/9853786/34895378/121245.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/22132696b5c83d7204c4a3a571abae44.png" group-title="Bangladesh",IN: Colors Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212514.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Nick Jr" tvg-logo="" group-title="Kids",IN: Nick Jr
-http://magic-tv.live:2095/live/9853786/34895378/121249.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: Ruposhi Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/efbf1281a279adb1706414fb5d6ebc0d.png" group-title="Bangladesh",IN: Ruposhi Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212346.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sonic Hindi" tvg-logo="" group-title="Kids",IN: Sonic Hindi
-http://magic-tv.live:2095/live/9853786/34895378/121154.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sangeet Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/12ad59812a4494a084c97d3eeff95520.png" group-title="Bangladesh",IN: Sangeet Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212432.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: WOW Kidz" tvg-logo="" group-title="Kids",IN: WOW Kidz
-http://magic-tv.live:2095/live/9853786/34895378/121213.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59b90d720e4e84324ae1cc0b511a34e7.png" group-title="Bangladesh",IN: Zee Bangla
+http://mhav1.com:2095/live/ht2990/742579548/212463.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="In: NICK HD" tvg-logo="" group-title="Kids",In: NICK HD
-http://magic-tv.live:2095/live/9853786/34895378/121253.ts
-
-
-################################################################################
-# Movies
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="IN-BD: Star Jalsa Movies" tvg-logo="" group-title="Movies",IN-BD: Star Jalsa Movies
-http://magic-tv.live:2095/live/9853786/34895378/121202.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN-PB: Brit Asia HD" tvg-logo="" group-title="Movies",IN-PB: Brit Asia HD
-http://magic-tv.live:2095/live/9853786/34895378/121265.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: &flix TV" tvg-logo="http://vod-logo.net/photos/53b0a2995d621568ce3656dc42f22205.png" group-title="Movies",IN: &flix TV
-http://magic-tv.live:2095/live/9853786/34895378/121372.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet Movies" tvg-logo="" group-title="Movies",IN: Asianet Movies
-http://magic-tv.live:2095/live/9853786/34895378/121201.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Bhojpuri" tvg-logo="" group-title="Movies",IN: B4U Bhojpuri
-http://magic-tv.live:2095/live/9853786/34895378/121199.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Plus" tvg-logo="" group-title="Movies",IN: B4U Plus
-http://magic-tv.live:2095/live/9853786/34895378/121322.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: BBO Classic HD" tvg-logo="" group-title="Movies",IN: BBO Classic HD
-http://magic-tv.live:2095/live/9853786/34895378/121196.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Boogle Bollywood" tvg-logo="" group-title="Movies",IN: Boogle Bollywood
-http://magic-tv.live:2095/live/9853786/34895378/121194.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex HD" tvg-logo="" group-title="Movies",IN: Colors Cineplex HD
-http://magic-tv.live:2095/live/9853786/34895378/121335.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Gujrati" tvg-logo="" group-title="Movies",IN: Colors Gujrati
-http://magic-tv.live:2095/live/9853786/34895378/121346.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Infinity FHD" tvg-logo="" group-title="Movies",IN: Colors Infinity FHD
-http://magic-tv.live:2095/live/9853786/34895378/121191.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Kannada HD" tvg-logo="" group-title="Movies",IN: Colors Kannada HD
-http://magic-tv.live:2095/live/9853786/34895378/121345.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Enterr10 Movies" tvg-logo="" group-title="Movies",IN: Enterr10 Movies
-http://magic-tv.live:2095/live/9853786/34895378/121239.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Movies" tvg-logo="" group-title="Movies",IN: Gemini Movies
-http://magic-tv.live:2095/live/9853786/34895378/121257.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Jalasha Movies HD" tvg-logo="" group-title="Movies",IN: Jalasha Movies HD
-http://magic-tv.live:2095/live/9853786/34895378/121211.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Jaya Movies HD" tvg-logo="" group-title="Movies",IN: Jaya Movies HD
-http://magic-tv.live:2095/live/9853786/34895378/121258.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan Movies" tvg-logo="" group-title="Movies",IN: Manoranjan Movies
-http://magic-tv.live:2095/live/9853786/34895378/121250.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Movies Now FHD" tvg-logo="" group-title="Movies",IN: Movies Now FHD
-http://magic-tv.live:2095/live/9853786/34895378/121174.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Movies OK" tvg-logo="" group-title="Movies",IN: Movies OK
-http://magic-tv.live:2095/live/9853786/34895378/121305.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: PTC Punjabi" tvg-logo="" group-title="Movies",IN: PTC Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121287.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Aath" tvg-logo="" group-title="Movies",IN: Sony Aath
-http://magic-tv.live:2095/live/9853786/34895378/121153.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony MIX" tvg-logo="" group-title="Movies",IN: Sony MIX
-http://magic-tv.live:2095/live/9853786/34895378/121306.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max 2" tvg-logo="" group-title="Movies",IN: Sony Max 2
-http://magic-tv.live:2095/live/9853786/34895378/121348.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max HD" tvg-logo="MSIPTV" group-title="Movies",IN: Sony Max HD
-http://magic-tv.live:2095/live/9853786/34895378/121355.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 4" tvg-logo="" group-title="Movies",IN: Sony Ten 4
-http://magic-tv.live:2095/live/9853786/34895378/121151.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony WAH" tvg-logo="" group-title="Movies",IN: Sony WAH
-http://magic-tv.live:2095/live/9853786/34895378/121235.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony YAY" tvg-logo="" group-title="Movies",IN: Sony YAY
-http://magic-tv.live:2095/live/9853786/34895378/121233.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Bharat HD" tvg-logo="http://vod-logo.net/photos/22185175a88def5f5b23cd982bd1b55f.jpg" group-title="Movies",IN: Star Bharat HD
-http://magic-tv.live:2095/live/9853786/34895378/121382.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold Select" tvg-logo="http://vod-logo.net/photos/a5e5686fd11c19ca7a3528b546318525.png" group-title="Movies",IN: Star Gold Select
-http://magic-tv.live:2095/live/9853786/34895378/121378.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Jalsa HD" tvg-logo="http://vod-logo.net/photos/f9c5b66d0b4c2e46705375dd4c5dda1f.png" group-title="Movies",IN: Star Jalsa HD
-http://magic-tv.live:2095/live/9853786/34895378/121381.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Jalsha FHD" tvg-logo="" group-title="Movies",IN: Star Jalsha FHD
-http://magic-tv.live:2095/live/9853786/34895378/121285.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Movies HD" tvg-logo="" group-title="Movies",IN: Star Movies HD
-http://magic-tv.live:2095/live/9853786/34895378/121375.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Plus HD" tvg-logo="http://vod-logo.net/photos/2decd498b2063f6de8eeffa52fd68fcd.png" group-title="Movies",IN: Star Plus HD
-http://magic-tv.live:2095/live/9853786/34895378/121376.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Suvarna" tvg-logo="http://vod-logo.net/photos/aacbc9bb90f783d328f01e2974ca7477.jpg" group-title="Movies",IN: Star Suvarna
-http://magic-tv.live:2095/live/9853786/34895378/121373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Utsav" tvg-logo="" group-title="Movies",IN: Star Utsav
-http://magic-tv.live:2095/live/9853786/34895378/121234.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Vijay HD" tvg-logo="http://vod-logo.net/photos/c7cf7e8f64c5d60bbd2e6b66ea5b271a.png" group-title="Movies",IN: Star Vijay HD
-http://magic-tv.live:2095/live/9853786/34895378/121380.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Vijay Super" tvg-logo="http://vod-logo.net/photos/c7cf7e8f64c5d60bbd2e6b66ea5b271a.png" group-title="Movies",IN: Star Vijay Super
-http://magic-tv.live:2095/live/9853786/34895378/121374.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Surya Comedy" tvg-logo="" group-title="Movies",IN: Surya Comedy
-http://magic-tv.live:2095/live/9853786/34895378/121149.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Surya Movies" tvg-logo="" group-title="Movies",IN: Surya Movies
-http://magic-tv.live:2095/live/9853786/34895378/121148.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: TLC HD" tvg-logo="" group-title="Movies",IN: TLC HD
-http://magic-tv.live:2095/live/9853786/34895378/121144.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Ten Action" tvg-logo="" group-title="Movies",IN: Ten Action
-http://magic-tv.live:2095/live/9853786/34895378/121294.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: UTV Action" tvg-logo="" group-title="Movies",IN: UTV Action
-http://magic-tv.live:2095/live/9853786/34895378/121139.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: UTV Movies" tvg-logo="" group-title="Movies",IN: UTV Movies
-http://magic-tv.live:2095/live/9853786/34895378/121318.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: UTV Movies International" tvg-logo="" group-title="Movies",IN: UTV Movies International
-http://magic-tv.live:2095/live/9853786/34895378/121309.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Udaya Comedy" tvg-logo="" group-title="Movies",IN: Udaya Comedy
-http://magic-tv.live:2095/live/9853786/34895378/121142.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Udaya Movies" tvg-logo="" group-title="Movies",IN: Udaya Movies
-http://magic-tv.live:2095/live/9853786/34895378/121225.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ZEE Anmol Cinema" tvg-logo="" group-title="Movies",IN: ZEE Anmol Cinema
-http://magic-tv.live:2095/live/9853786/34895378/121357.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ZEE Keralam HD" tvg-logo="" group-title="Movies",IN: ZEE Keralam HD
-http://magic-tv.live:2095/live/9853786/34895378/121356.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: ZEE WORLD" tvg-logo="" group-title="Movies",IN: ZEE WORLD
-http://magic-tv.live:2095/live/9853786/34895378/121123.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action HD" tvg-logo="" group-title="Movies",IN: Zee Action HD
-http://magic-tv.live:2095/live/9853786/34895378/121358.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Anmol" tvg-logo="" group-title="Movies",IN: Zee Anmol
-http://magic-tv.live:2095/live/9853786/34895378/121136.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla Cinema" tvg-logo="" group-title="Movies",IN: Zee Bangla Cinema
-http://magic-tv.live:2095/live/9853786/34895378/121359.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla HD" tvg-logo="" group-title="Movies",IN: Zee Bangla HD
-http://magic-tv.live:2095/live/9853786/34895378/121363.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee BollyWood" tvg-logo="http://vod-logo.net/photos/fa3da2af5572f8c59e350b1c96537656.jpg" group-title="Movies",IN: Zee BollyWood
-http://magic-tv.live:2095/live/9853786/34895378/121367.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinemalu" tvg-logo="" group-title="Movies",IN: Zee Cinemalu
-http://magic-tv.live:2095/live/9853786/34895378/121133.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Classic" tvg-logo="" group-title="Movies",IN: Zee Classic
-http://magic-tv.live:2095/live/9853786/34895378/121385.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee MP" tvg-logo="" group-title="Movies",IN: Zee MP
-http://magic-tv.live:2095/live/9853786/34895378/121130.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Picchar" tvg-logo="" group-title="Movies",IN: Zee Picchar
-http://magic-tv.live:2095/live/9853786/34895378/121129.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjabi" tvg-logo="" group-title="Movies",IN: Zee Punjabi
-http://magic-tv.live:2095/live/9853786/34895378/121274.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjabi Haryana" tvg-logo="" group-title="Movies",IN: Zee Punjabi Haryana
-http://magic-tv.live:2095/live/9853786/34895378/121275.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Sarthak" tvg-logo="" group-title="Movies",IN: Zee Sarthak
-http://magic-tv.live:2095/live/9853786/34895378/121128.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Smile" tvg-logo="" group-title="Movies",IN: Zee Smile
-http://magic-tv.live:2095/live/9853786/34895378/121127.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee TV Canada HD" tvg-logo="" group-title="Movies",IN: Zee TV Canada HD
-http://magic-tv.live:2095/live/9853786/34895378/121124.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Talkies HD" tvg-logo="" group-title="Movies",IN: Zee Talkies HD
-http://magic-tv.live:2095/live/9853786/34895378/121126.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Telugu" tvg-logo="" group-title="Movies",IN: Zee Telugu
-http://magic-tv.live:2095/live/9853786/34895378/121361.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Thirai" tvg-logo="" group-title="Movies",IN: Zee Thirai
-http://magic-tv.live:2095/live/9853786/34895378/121125.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Yuva" tvg-logo="" group-title="Movies",IN: Zee Yuva
-http://magic-tv.live:2095/live/9853786/34895378/121122.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="" group-title="Movies",IN: Zing
-http://magic-tv.live:2095/live/9853786/34895378/121368.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In:  Asianet Movies" tvg-logo="" group-title="Movies",In:  Asianet Movies
-http://magic-tv.live:2095/live/9853786/34895378/121332.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: B4U Movies" tvg-logo="" group-title="Movies",In: B4U Movies
-http://magic-tv.live:2095/live/9853786/34895378/121371.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: ETV Cinema" tvg-logo="" group-title="Movies",In: ETV Cinema
-http://magic-tv.live:2095/live/9853786/34895378/121230.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: GEMINI comedy" tvg-logo="" group-title="Movies",In: GEMINI comedy
-http://magic-tv.live:2095/live/9853786/34895378/121228.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Raj TV" tvg-logo="" group-title="Movies",In: Raj TV
-http://magic-tv.live:2095/live/9853786/34895378/121215.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Sony Pal" tvg-logo="" group-title="Movies",In: Sony Pal
-http://magic-tv.live:2095/live/9853786/34895378/121319.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Sony Pix HD" tvg-logo="" group-title="Movies",In: Sony Pix HD
-http://magic-tv.live:2095/live/9853786/34895378/121349.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Sony Six HD" tvg-logo="" group-title="Movies",In: Sony Six HD
-http://magic-tv.live:2095/live/9853786/34895378/121354.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Star Gold HD" tvg-logo="http://vod-logo.net/photos/1c0ab4146e75e68288d2acc6b465d24f.png" group-title="Movies",In: Star Gold HD
-http://magic-tv.live:2095/live/9853786/34895378/121377.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: WOW Cinema" tvg-logo="" group-title="Movies",In: WOW Cinema
-http://magic-tv.live:2095/live/9853786/34895378/121214.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Zee Cafe HD" tvg-logo="" group-title="Movies",In: Zee Cafe HD
-http://magic-tv.live:2095/live/9853786/34895378/121331.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Zee Cinema HD" tvg-logo="http://vod-logo.net/photos/d89917203b95e6e02c6b0c51605da4da.png" group-title="Movies",In: Zee Cinema HD
-http://magic-tv.live:2095/live/9853786/34895378/121365.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="In: Zee TV HD" tvg-logo="" group-title="Movies",In: Zee TV HD
-http://magic-tv.live:2095/live/9853786/34895378/121362.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1a22ad3bdf83c44cc513c8ff2490fdd9.png" group-title="Bangladesh",IN: Zee Bangla Cinema
+http://mhav1.com:2095/live/ht2990/742579548/212462.ts
 
 
 ################################################################################
-# Sports
+# India
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DD Sports" tvg-logo="" group-title="Sports",IN: DD Sports
-http://magic-tv.live:2095/live/9853786/34895378/121210.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: & TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6892a0ecf005c94f596ff86d2956689e.png" group-title="India",IN: & TV
+http://mhav1.com:2095/live/ht2990/742579548/212527.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: DSport" tvg-logo="" group-title="Sports",IN: DSport
-http://magic-tv.live:2095/live/9853786/34895378/121241.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: & flix" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/20ea2b784d36366ef591d0ab565160f2.png" group-title="India",IN: & flix
+http://mhav1.com:2095/live/ht2990/742579548/212530.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 1 HD" tvg-logo="" group-title="Sports",IN: Sony Ten 1 HD
-http://magic-tv.live:2095/live/9853786/34895378/121353.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: & pictures" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a1f81b40485819fec3ef445eb88d0557.png" group-title="India",IN: & pictures
+http://mhav1.com:2095/live/ht2990/742579548/212529.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 2 HD" tvg-logo="" group-title="Sports",IN: Sony Ten 2 HD
-http://magic-tv.live:2095/live/9853786/34895378/121352.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: & prive" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/b40ff3919913006ac66e477829eeab35.png" group-title="India",IN: & prive
+http://mhav1.com:2095/live/ht2990/742579548/212528.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Ten 3 HD" tvg-logo="" group-title="Sports",IN: Sony Ten 3 HD
-http://magic-tv.live:2095/live/9853786/34895378/121351.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 1st India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8fe8e68daffc9236e9caeb9952056500.png" group-title="India",IN: 1st India
+http://mhav1.com:2095/live/ht2990/742579548/212414.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1 HD" tvg-logo="http://vod-logo.net/photos/f72e6bed9f8ddde66e2582876889ecac.png" group-title="Sports",IN: Star Sports 1 HD
-http://magic-tv.live:2095/live/9853786/34895378/121388.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 3 Tamil TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/bb86d473decc5bd157eb63adc3ffa720.jpg" group-title="India",IN: 3 Tamil TV
+http://mhav1.com:2095/live/ht2990/742579548/212591.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1 Hindi HD" tvg-logo="" group-title="Sports",IN: Star Sports 1 Hindi HD
-http://magic-tv.live:2095/live/9853786/34895378/121150.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 5AAB TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-11/d2aa64b7bec26f242538122d41a43fea.png" group-title="India",IN: 5AAB TV
+http://mhav1.com:2095/live/ht2990/742579548/212413.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2 HD" tvg-logo="http://vod-logo.net/photos/4b895cc6a4013ffcb93cabac0b6340ba.png" group-title="Sports",IN: Star Sports 2 HD
-http://magic-tv.live:2095/live/9853786/34895378/121387.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 9X Jalwa" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4a7478c536efb581d336c1a404206cb2.png" group-title="India",IN: 9X Jalwa
+http://mhav1.com:2095/live/ht2990/742579548/212590.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3 HD" tvg-logo="http://vod-logo.net/photos/088a975aa28bd74b61241053a582f92a.png" group-title="Sports",IN: Star Sports 3 HD
-http://magic-tv.live:2095/live/9853786/34895378/121386.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 9X Jhakaas" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/936f84ee0b67a5725ab0f7690f31daa6.png" group-title="India",IN: 9X Jhakaas
+http://mhav1.com:2095/live/ht2990/742579548/212589.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1 HD" tvg-logo="http://vod-logo.net/photos/9ec2429550fe70a191851ea864bfbc4c.jpg" group-title="Sports",IN: Star Sports Select 1 HD
-http://magic-tv.live:2095/live/9853786/34895378/121384.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 9X Tashan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a9f700703056598f8b2cc1313eadbf7b.png" group-title="India",IN: 9X Tashan
+http://mhav1.com:2095/live/ht2990/742579548/212588.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2 HD" tvg-logo="http://vod-logo.net/photos/e776c126c802002d94c74267e58955da.jpg" group-title="Sports",IN: Star Sports Select 2 HD
-http://magic-tv.live:2095/live/9853786/34895378/121383.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: 9XM" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7ae64593b56437b694019f85fe0d2a57.png" group-title="India",IN: 9XM
+http://mhav1.com:2095/live/ht2990/742579548/212587.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Ten Sports" tvg-logo="" group-title="Sports",IN: Ten Sports
-http://magic-tv.live:2095/live/9853786/34895378/121290.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: A One Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-10/115db1073b2a3d1e185a67c4713c51b1.png" group-title="India",IN: A One Music
+http://mhav1.com:2095/live/ht2990/742579548/212412.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="In: TEN Golf HD" tvg-logo="" group-title="Sports",In: TEN Golf HD
-http://magic-tv.live:2095/live/9853786/34895378/121291.ts
+#EXTINF:-1 tvg-id="" tvg-name="IN: ABN Telugu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/da6d5442b0795230b2f7cda8e6b5f573.jpeg" group-title="India",IN: ABN Telugu
+http://mhav1.com:2095/live/ht2990/742579548/212405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ABP Ananda" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/5846a634547868acfdbd12164f7616c0.png" group-title="India",IN: ABP Ananda
+http://mhav1.com:2095/live/ht2990/742579548/212404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ABP News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/452e356c85a412faa281d36e84ec0804.png" group-title="India",IN: ABP News
+http://mhav1.com:2095/live/ht2990/742579548/212573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ANIMAL PLANET (TATA PLAY)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/f2ce3c30b82ab9da7f9bb4a8ccf598e6.png" group-title="India",IN: ANIMAL PLANET (TATA PLAY)
+http://mhav1.com:2095/live/ht2990/742579548/212418.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aaj Tak" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/ef24d3b47d22022b7c73816653c39167.png" group-title="India",IN: Aaj Tak
+http://mhav1.com:2095/live/ht2990/742579548/212411.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aamar Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/1f4e90415644c8878a4c68b05f0adb77.png" group-title="India",IN: Aamar Cinema
+http://mhav1.com:2095/live/ht2990/742579548/212410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aastha Bhajan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/3e5b3627ae7b2a4e1a1699d8ed8d9885.png" group-title="India",IN: Aastha Bhajan
+http://mhav1.com:2095/live/ht2990/742579548/212409.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aastha Gujarati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/fc9cdfc103ebee6d962abf966d00e7f2.png" group-title="India",IN: Aastha Gujarati
+http://mhav1.com:2095/live/ht2990/742579548/212408.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aastha Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/bf347badee24d6e24ca3290e293b545e.png" group-title="India",IN: Aastha Kannada
+http://mhav1.com:2095/live/ht2990/742579548/212407.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Aastha TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/13355aca97c24ac469d51750cfcd38a6.png" group-title="India",IN: Aastha TV
+http://mhav1.com:2095/live/ht2990/742579548/212406.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Adithya TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/7f7f01cf9d579e09ecfbe313513df215.jpg" group-title="India",IN: Adithya TV
+http://mhav1.com:2095/live/ht2990/742579548/212403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Akaal Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/f91eb2182e00b28d0a207c73b16147a9.png" group-title="India",IN: Akaal Channel
+http://mhav1.com:2095/live/ht2990/742579548/212402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Amrita TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e7b871d58eee5896236fbfb246ba64ad.png" group-title="India",IN: Amrita TV
+http://mhav1.com:2095/live/ht2990/742579548/212526.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Anjan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/48333081d77a1ad518fe6534678f6d4e.png" group-title="India",IN: Anjan TV
+http://mhav1.com:2095/live/ht2990/742579548/212586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/08bc2d3365bf4d2a63baee707fb7d929.png" group-title="India",IN: Asianet
+http://mhav1.com:2095/live/ht2990/742579548/212525.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/40dc04d8126e441dff6e15e17312b881.png" group-title="India",IN: Asianet Movies
+http://mhav1.com:2095/live/ht2990/742579548/212524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/3c1f85ac8e5ec5f6339c6da0c47b7103.png" group-title="India",IN: Asianet News
+http://mhav1.com:2095/live/ht2990/742579548/212572.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet News Tamil" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/fd3d465946186166f84982cd2312c198.png" group-title="India",IN: Asianet News Tamil
+http://mhav1.com:2095/live/ht2990/742579548/212571.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-06/358ea3acad1502aa48965437a61f05b7.png" group-title="India",IN: Asianet Plus
+http://mhav1.com:2095/live/ht2990/742579548/212523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Asianet Suvarna News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/bb181f1491b27a4fd709f97c80c00476.jpg" group-title="India",IN: Asianet Suvarna News
+http://mhav1.com:2095/live/ht2990/742579548/212570.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Ayush TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/90eec04e4118db674b0bcd0dad908e0d.png" group-title="India",IN: Ayush TV
+http://mhav1.com:2095/live/ht2990/742579548/212401.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Bhojpuri" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/0f5508081cc2c517112b30c0951d0834.png" group-title="India",IN: B4U Bhojpuri
+http://mhav1.com:2095/live/ht2990/742579548/212522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Kadak" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d393d6a8252315c0897d68975f024a0d.png" group-title="India",IN: B4U Kadak
+http://mhav1.com:2095/live/ht2990/742579548/212521.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/91625361b83e16f929b69d33fb9e52d5.png" group-title="India",IN: B4U Movies
+http://mhav1.com:2095/live/ht2990/742579548/212520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Movies APAC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3f3c3fd523ec5b987c4b8b26aa6f79e3.png" group-title="India",IN: B4U Movies APAC
+http://mhav1.com:2095/live/ht2990/742579548/212519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/74204965261c6f9140a244bcc2710e80.png" group-title="India",IN: B4U Music
+http://mhav1.com:2095/live/ht2990/742579548/212585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c7a7a719272833e9c9c605b35c6c6c5d.png" group-title="India",IN: B4U Plus
+http://mhav1.com:2095/live/ht2990/742579548/212518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: BBO Classic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-01/dd5b4077ee7f28fc3443dfd2b95ff87e.jpg" group-title="India",IN: BBO Classic
+http://mhav1.com:2095/live/ht2990/742579548/212399.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Balle Balle" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/35e4446c1f135e7be1ece52e8082d58b.png" group-title="India",IN: Balle Balle
+http://mhav1.com:2095/live/ht2990/742579548/212400.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bansal News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cd73513ab34fd0e22bf7d4f7cbedf62d.png" group-title="India",IN: Bansal News
+http://mhav1.com:2095/live/ht2990/742579548/212569.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bhojpuri Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/9d0c0d68ce86162f94862b8ed9d0b533.png" group-title="India",IN: Bhojpuri Cinema
+http://mhav1.com:2095/live/ht2990/742579548/212517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Big Magic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/033d5b2035f8a221a263600badd4a9b5.png" group-title="India",IN: Big Magic
+http://mhav1.com:2095/live/ht2990/742579548/212516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Blessing TV" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Blessing TV
+http://mhav1.com:2095/live/ht2990/742579548/212398.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bollywood CLASSIC" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India",IN: Bollywood CLASSIC
+http://mhav1.com:2095/live/ht2990/742579548/212397.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bollywood Prime" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Bollywood Prime
+http://mhav1.com:2095/live/ht2990/742579548/212396.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Brit Asia TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/88a13376bcf8db189d3aae2a4d12bf4c.png" group-title="India",IN: Brit Asia TV
+http://mhav1.com:2095/live/ht2990/742579548/212584.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: CNBC Bajar" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/388ce1e6457a331d9a68d5c59634c584.png" group-title="India",IN: CNBC Bajar
+http://mhav1.com:2095/live/ht2990/742579548/212568.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: CNBC TV 18" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/65a23d8e6f37fb9b6ba3f94b958dcdbf.png" group-title="India",IN: CNBC TV 18
+http://mhav1.com:2095/live/ht2990/742579548/212567.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: CNN News 18" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India",IN: CNN News 18
+http://mhav1.com:2095/live/ht2990/742579548/212566.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: CTVN AKD Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9166c883a276a2300d0eb0b936df7114.png" group-title="India",IN: CTVN AKD Plus
+http://mhav1.com:2095/live/ht2990/742579548/212389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: CVR News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6446fd446279b4d4f2be40b52412b27a.png" group-title="India",IN: CVR News
+http://mhav1.com:2095/live/ht2990/742579548/212565.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6ed17d1552de03d6c86481eb7b1deff6.png" group-title="India",IN: Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/212607.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Channel WIN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2f9687907e4852519537b5aa56bee9ab.png" group-title="India",IN: Channel WIN
+http://mhav1.com:2095/live/ht2990/742579548/212393.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Channel Y" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/bdfa109acd0e4c889cd7a2e1cc6fe488.png" group-title="India",IN: Channel Y
+http://mhav1.com:2095/live/ht2990/742579548/212392.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Chutti TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/1c9b69fbcb7cd3e547ae2cda56ae5d61.png" group-title="India",IN: Chutti TV
+http://mhav1.com:2095/live/ht2990/742579548/212606.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Cine Voice" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/1de4a1426f5adc445280e305e000b1b0.jpeg" group-title="India",IN: Cine Voice
+http://mhav1.com:2095/live/ht2990/742579548/212391.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3b706945ff908d5911a0be1eafffb46f.png" group-title="India",IN: Colors
+http://mhav1.com:2095/live/ht2990/742579548/212515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/3065653535cdfa318a8185d152607846.png" group-title="India",IN: Colors Cineplex
+http://mhav1.com:2095/live/ht2990/742579548/212513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/a02b489d0f1f2f3f6e2dae8afb82e9f5.png" group-title="India",IN: Colors Cineplex Bollywood
+http://mhav1.com:2095/live/ht2990/742579548/212512.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex SuperHits" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/9760dec7d949fba63f24b4735de6d5c9.jpeg" group-title="India",IN: Colors Cineplex SuperHits
+http://mhav1.com:2095/live/ht2990/742579548/212511.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Gujarati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/77c35a2586cb05de8134d259139e67a1.png" group-title="India",IN: Colors Gujarati
+http://mhav1.com:2095/live/ht2990/742579548/212510.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Infinity" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/8bdd468a30bc32f9bb60cba7a880f4f3.png" group-title="India",IN: Colors Infinity
+http://mhav1.com:2095/live/ht2990/742579548/212509.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/783cbfb3051d12d7992f82ae4f7c91fa.png" group-title="India",IN: Colors Kannada
+http://mhav1.com:2095/live/ht2990/742579548/212508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/744bdecf60935c49e1fac6c0feabcc6e.png" group-title="India",IN: Colors Marathi
+http://mhav1.com:2095/live/ht2990/742579548/212507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Rishtey" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/57698714035590a5681e1ddf715be5f9.png" group-title="India",IN: Colors Rishtey
+http://mhav1.com:2095/live/ht2990/742579548/212506.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Super" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-01/28f0becb807b21f296b8641b820c3e15.png" group-title="India",IN: Colors Super
+http://mhav1.com:2095/live/ht2990/742579548/212390.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD Bharati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/6c7a9ac9923e5cc632a3603f2ef354a4.png" group-title="India",IN: DD Bharati
+http://mhav1.com:2095/live/ht2990/742579548/212449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD Girnar" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cae34dd9076c90218297ae83b77510c4.png" group-title="India",IN: DD Girnar
+http://mhav1.com:2095/live/ht2990/742579548/212388.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a532a1f64e91ea4ead84ff678e1592b1.png" group-title="India",IN: DD India
+http://mhav1.com:2095/live/ht2990/742579548/212564.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD Malayalam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e5e64952c42751c286c68c293eed2006.png" group-title="India",IN: DD Malayalam
+http://mhav1.com:2095/live/ht2990/742579548/212563.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD National" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/746367cc1836232bef9d8e869420493c.png" group-title="India",IN: DD National
+http://mhav1.com:2095/live/ht2990/742579548/212387.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/774c4049df9ead1fff6c94e3c6f7a117.png" group-title="India",IN: DD News
+http://mhav1.com:2095/live/ht2990/742579548/212601.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a9182065b952abc2263ed53af8259479.png" group-title="India",IN: DD News
+http://mhav1.com:2095/live/ht2990/742579548/212562.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD Punjabi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/bff77c0fd9693f3202cc5018c46fde33.jpg" group-title="India",IN: DD Punjabi
+http://mhav1.com:2095/live/ht2990/742579548/212448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: DD Uttar Pradesh" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a1e3c1dad92c799bd1694c642f3f358f.png" group-title="India",IN: DD Uttar Pradesh
+http://mhav1.com:2095/live/ht2990/742579548/212386.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Dabangg" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8b2e82fcc2cd0febeaaa1878b8d8d20c.png" group-title="India",IN: Dabangg
+http://mhav1.com:2095/live/ht2990/742579548/212505.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Desi Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/9d8a586411ed3d7579764646bf9dfc21.png" group-title="India",IN: Desi Channel
+http://mhav1.com:2095/live/ht2990/742579548/212385.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Dhamaal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/f3627e057b919ffad09dae1b8360df32.png" group-title="India",IN: Dhamaal
+http://mhav1.com:2095/live/ht2990/742579548/212447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/901b40ebf06e7a9fe401a3ad17c37aa0.png" group-title="India",IN: Discovery Science
+http://mhav1.com:2095/live/ht2990/742579548/212416.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/212605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: E 24" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/fabb60a1e7cf43f1c82da98f365f4d0b.png" group-title="India",IN: E 24
+http://mhav1.com:2095/live/ht2990/742579548/212583.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/84adffd962d7f13f987d21b2a197600e.png" group-title="India",IN: ETV Cinema
+http://mhav1.com:2095/live/ht2990/742579548/212504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Life" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/8c6af129c8c841fffebf122d687a2f46.png" group-title="India",IN: ETV Life
+http://mhav1.com:2095/live/ht2990/742579548/212382.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/95e014fa77727d22ce72e1933945091c.png" group-title="India",IN: ETV Network
+http://mhav1.com:2095/live/ht2990/742579548/212381.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/5a26fd2bf644c75206a0c08e628a413d.png" group-title="India",IN: ETV Plus
+http://mhav1.com:2095/live/ht2990/742579548/212380.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Telangana" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/043f13f5eac56ea5a4bb46d4b984d7fd.png" group-title="India",IN: ETV Telangana
+http://mhav1.com:2095/live/ht2990/742579548/212379.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Telugu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/5e8dcacb81b95ce6fa36716c13dd7616.png" group-title="India",IN: ETV Telugu
+http://mhav1.com:2095/live/ht2990/742579548/212378.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Eet TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/6d8a8d5fd125a59fdfa9e5aea6f965bc.png" group-title="India",IN: Eet TV
+http://mhav1.com:2095/live/ht2990/742579548/212446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Ekattor TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/b5864d199fdd063d0f7e0c0af4e62e56.png" group-title="India",IN: Ekattor TV
+http://mhav1.com:2095/live/ht2990/742579548/212384.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Enterr 10" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d4321d89c89836388f12085d69f53046.png" group-title="India",IN: Enterr 10
+http://mhav1.com:2095/live/ht2990/742579548/212383.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Fateh TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/36c08329f92b63e561c74188676760ee.png" group-title="India",IN: Fateh TV
+http://mhav1.com:2095/live/ht2990/742579548/212377.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Food Food" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a3c3774c5b45784eb93a6259a7a0ef17.png" group-title="India",IN: Food Food
+http://mhav1.com:2095/live/ht2990/742579548/212450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: GDNS Ludhiana" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/1c78810e7eb26623bbc56febb0221028.png" group-title="India",IN: GDNS Ludhiana
+http://mhav1.com:2095/live/ht2990/742579548/212375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: GS TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/0737f7922fa3b8c8fb72d2e18ceca341.png" group-title="India",IN: GS TV
+http://mhav1.com:2095/live/ht2990/742579548/212372.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gaunda Punjab" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/0cf910b0fecb4cc5c2a2d68c005f9c3a.png" group-title="India",IN: Gaunda Punjab
+http://mhav1.com:2095/live/ht2990/742579548/212376.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/20eb1b856dcb42d4ab6fe53ffe66d399.png" group-title="India",IN: Gemini
+http://mhav1.com:2095/live/ht2990/742579548/212503.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Comedy" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/500f78e5e4d1ff8d19a5ccce912f6383.png" group-title="India",IN: Gemini Comedy
+http://mhav1.com:2095/live/ht2990/742579548/212502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/35607ed908e3e3c442d6eb7715ceebf0.png" group-title="India",IN: Gemini Movies
+http://mhav1.com:2095/live/ht2990/742579548/212501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Global Punjab" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/8897a37f377c2928c58eeb4006eb99a4.png" group-title="India",IN: Global Punjab
+http://mhav1.com:2095/live/ht2990/742579548/212374.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Goodnews TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/a4bcd5067839deaa2e6e81b1c9c3b003.png" group-title="India",IN: Goodnews TV
+http://mhav1.com:2095/live/ht2990/742579548/212373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: HMTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-10/36617a33e8e6e8d288da9fbea81f8fa4.png" group-title="India",IN: HMTV
+http://mhav1.com:2095/live/ht2990/742579548/212368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Harvest TV 24x7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/750fae1b20eda5cf87c4b359acbaf18c.png" group-title="India",IN: Harvest TV 24x7
+http://mhav1.com:2095/live/ht2990/742579548/212371.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Harvest USA" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/1df2b6056362feedee9e25a19b8286bf.png" group-title="India",IN: Harvest USA
+http://mhav1.com:2095/live/ht2990/742579548/212370.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: High News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/71b436241683e23598a28f34f8340190.jpg" group-title="India",IN: High News
+http://mhav1.com:2095/live/ht2990/742579548/212369.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: History" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/739c04cbf20c52a3ae050fe52ee723ef.png" group-title="India",IN: History
+http://mhav1.com:2095/live/ht2990/742579548/212415.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Hulchul TV Canada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-12/156adaf1b3ef4f5301f74cb2d9761759.jpg" group-title="India",IN: Hulchul TV Canada
+http://mhav1.com:2095/live/ht2990/742579548/212367.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: IBC 24" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/b5399c7a0b54fe37ba78bf4bf9448e5b.jpg" group-title="India",IN: IBC 24
+http://mhav1.com:2095/live/ht2990/742579548/212366.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: INH 24x7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/6a1bf7c3399257251bf01edaeb314d2a.png" group-title="India",IN: INH 24x7
+http://mhav1.com:2095/live/ht2990/742579548/212364.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: India News Rajasthan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/73c0e20cdd20df22aa69088931c3b4c7.jpeg" group-title="India",IN: India News Rajasthan
+http://mhav1.com:2095/live/ht2990/742579548/212561.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: India News Uttar Pradesh" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/d7b6cec2e791fa5b311600d5934e2476.png" group-title="India",IN: India News Uttar Pradesh
+http://mhav1.com:2095/live/ht2990/742579548/212365.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: India TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3aa3d8bc970ec9ab9ca530865a4907ac.png" group-title="India",IN: India TV
+http://mhav1.com:2095/live/ht2990/742579548/212559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: India Today" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/605a6f1ad45e50c8dec82884a85c9a8a.png" group-title="India",IN: India Today
+http://mhav1.com:2095/live/ht2990/742579548/212560.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Ion TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/2711bb8d9cae720f2a4ad9c77c0f964f.png" group-title="India",IN: Ion TV
+http://mhav1.com:2095/live/ht2990/742579548/212445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: J Movie" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/54261b1eb32c2c663d1fa73f199707f2.png" group-title="India",IN: J Movie
+http://mhav1.com:2095/live/ht2990/742579548/212500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Jaihind TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/389f63f321444b6fbff169ad8f8abe42.png" group-title="India",IN: Jaihind TV
+http://mhav1.com:2095/live/ht2990/742579548/212499.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Janta TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/262110160c2c4f9f79b8804899d47202.png" group-title="India",IN: Janta TV
+http://mhav1.com:2095/live/ht2990/742579548/212363.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Jaya Max" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/1165409be8cefc8df380ad0e2066ac1c.png" group-title="India",IN: Jaya Max
+http://mhav1.com:2095/live/ht2990/742579548/212582.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Jaya Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/3d2a2a1895dbbf43a14a302a543dc152.png" group-title="India",IN: Jaya Plus
+http://mhav1.com:2095/live/ht2990/742579548/212362.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Jaya TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/890a415b468e25966bc1ae8849f0f6c5.png" group-title="India",IN: Jaya TV
+http://mhav1.com:2095/live/ht2990/742579548/212498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: K News India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/a3d43a0a5ebce9e53b2d5f9a3b3d22eb.png" group-title="India",IN: K News India
+http://mhav1.com:2095/live/ht2990/742579548/212558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: KCL TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/1cb591f7b05ff238a579fa071794ae46.png" group-title="India",IN: KCL TV
+http://mhav1.com:2095/live/ht2990/742579548/212358.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: KTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0d3df8c6dfe55cd074bea2f3aa0ecfaf.png" group-title="India",IN: KTV
+http://mhav1.com:2095/live/ht2990/742579548/212495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Kairali We" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/81f493d97479ee720a2341f91b369fed.jpeg" group-title="India",IN: Kairali We
+http://mhav1.com:2095/live/ht2990/742579548/212360.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Kalaignar Murasu TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/1efefaa2a497665d3a31b9220cad0ea9.png" group-title="India",IN: Kalaignar Murasu TV
+http://mhav1.com:2095/live/ht2990/742579548/212497.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Kanshi TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1989f1e9acbf23c8a7d9eabe928d4aef.png" group-title="India",IN: Kanshi TV
+http://mhav1.com:2095/live/ht2990/742579548/212359.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Kaumudy TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/bbf82ab62d2953ab1a2fcbff2c442202.png" group-title="India",IN: Kaumudy TV
+http://mhav1.com:2095/live/ht2990/742579548/212496.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Kerala Vision" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a9bc4f607df5153e6034315064c97657.png" group-title="India",IN: Kerala Vision
+http://mhav1.com:2095/live/ht2990/742579548/212444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Lok Sabha TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/f0ee5348027146b4c16b1af3413f28d1.png" group-title="India",IN: Lok Sabha TV
+http://mhav1.com:2095/live/ht2990/742579548/212557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: MTV Beats" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c167264b1c8ed82ac209f94dec1319c2.png" group-title="India",IN: MTV Beats
+http://mhav1.com:2095/live/ht2990/742579548/212579.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: MTV India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/53fbf5a419f6643e41151df74bb16b9e.png" group-title="India",IN: MTV India
+http://mhav1.com:2095/live/ht2990/742579548/212578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Makkal TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a73303ebc567327995e09bd0ec800d84.png" group-title="India",IN: Makkal TV
+http://mhav1.com:2095/live/ht2990/742579548/212443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/3adc09632057276277142fd9eace65dd.png" group-title="India",IN: Manoranjan TV
+http://mhav1.com:2095/live/ht2990/742579548/212442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Mastiii" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/b3389339bd16854406ac7233c5c5501a.png" group-title="India",IN: Mastiii
+http://mhav1.com:2095/live/ht2990/742579548/212581.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Mathrubhumi News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/123a158b16c60c67026dbbd608850123.png" group-title="India",IN: Mathrubhumi News
+http://mhav1.com:2095/live/ht2990/742579548/212556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Mazhavil Manorama" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6152d276473cb4c4f893ddb43ad27b0b.png" group-title="India",IN: Mazhavil Manorama
+http://mhav1.com:2095/live/ht2990/742579548/212494.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Media One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6da706192ed41078abbdf6bdb0d86fe0.png" group-title="India",IN: Media One
+http://mhav1.com:2095/live/ht2990/742579548/212555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Mh 1 Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ee80fed3fa097c8cd7e7b13b101cc63f.png" group-title="India",IN: Mh 1 Music
+http://mhav1.com:2095/live/ht2990/742579548/212580.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Moon TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/ec449c974741e32e80b81e625859eb4b.png" group-title="India",IN: Moon TV
+http://mhav1.com:2095/live/ht2990/742579548/212357.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: NDTV 24X7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/496f59ed3a3addec09ad8af54fd489dc.png" group-title="India",IN: NDTV 24X7
+http://mhav1.com:2095/live/ht2990/742579548/212554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: NDTV India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/b13c4d6511c08a518cdc7e53c36575be.png" group-title="India",IN: NDTV India
+http://mhav1.com:2095/live/ht2990/742579548/212553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: NRB TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/e6ec151d39e483b284b4542b10b8f342.png" group-title="India",IN: NRB TV
+http://mhav1.com:2095/live/ht2990/742579548/212440.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: NTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c6753603619595c3825e19ef5ff919c8.png" group-title="India",IN: NTV
+http://mhav1.com:2095/live/ht2990/742579548/212353.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Nambikkai TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/fc02c2a521cae4f1bf946123c82b27d3.png" group-title="India",IN: Nambikkai TV
+http://mhav1.com:2095/live/ht2990/742579548/212441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Namdhari TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/849a9f9bea788a74adcd372582101a9b.png" group-title="India",IN: Namdhari TV
+http://mhav1.com:2095/live/ht2990/742579548/212356.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 18 Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/9a820c7972512f179fbfedff4a2d256a.png" group-title="India",IN: News 18 Kannada
+http://mhav1.com:2095/live/ht2990/742579548/212552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 18 Lokmat" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/6cfbf36a04bc0a192795eb6be6dbdb3b.png" group-title="India",IN: News 18 Lokmat
+http://mhav1.com:2095/live/ht2990/742579548/212551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 18 Malayalam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/868f9af6f14d9f113a17eccd28a7655c.png" group-title="India",IN: News 18 Malayalam
+http://mhav1.com:2095/live/ht2990/742579548/212550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 18 Tamil" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/20fab0bad66f91a6abf2e72938071f9e.png" group-title="India",IN: News 18 Tamil
+http://mhav1.com:2095/live/ht2990/742579548/212549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 18 Uttar Pradesh & Uttarakhand" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/334e08c69dd06a94653eca3c8fdea2f9.png" group-title="India",IN: News 18 Uttar Pradesh & Uttarakhand
+http://mhav1.com:2095/live/ht2990/742579548/212548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 1st" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/2bf3cc17b867a2c5245daa6891f21b9f.jpeg" group-title="India",IN: News 1st
+http://mhav1.com:2095/live/ht2990/742579548/212355.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 24" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/b6c52d4dbc0413e8d5b596d8bddad2e3.png" group-title="India",IN: News 24
+http://mhav1.com:2095/live/ht2990/742579548/212547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: News 7 Tamil" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/caa7e4145e5997cc3fe36f9c5ba20b31.png" group-title="India",IN: News 7 Tamil
+http://mhav1.com:2095/live/ht2990/742579548/212546.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Nick jr" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Nick jr
+http://mhav1.com:2095/live/ht2990/742579548/212354.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Nickelodeon" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/54e876363292715df4e6b0845baeb918.jpg" group-title="India",IN: Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/212603.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Only Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c87d538bad46e799f4cdcb7ae24dec2c.jpg" group-title="India",IN: Only Music
+http://mhav1.com:2095/live/ht2990/742579548/212352.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: PTC Chakde" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/04047a53648318ef6d066d7a265fcb7b.png" group-title="India",IN: PTC Chakde
+http://mhav1.com:2095/live/ht2990/742579548/212577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: PTC Punjabi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d34a40f9a110266b4bf18e69e510f170.png" group-title="India",IN: PTC Punjabi
+http://mhav1.com:2095/live/ht2990/742579548/212437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: PTC Simran" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/d71ccaa25b36ce9c6dea6e033e758767.png" group-title="India",IN: PTC Simran
+http://mhav1.com:2095/live/ht2990/742579548/212436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: PTV Pardesi" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India",IN: PTV Pardesi
+http://mhav1.com:2095/live/ht2990/742579548/212349.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Param Satta" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India",IN: Param Satta
+http://mhav1.com:2095/live/ht2990/742579548/212351.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Pitaara" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/7517c05ca1625e4a4920f67de6106737.png" group-title="India",IN: Pitaara
+http://mhav1.com:2095/live/ht2990/742579548/212439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Pogo" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/c65a1c20a0647a1e03e9e4892ba91e4c.png" group-title="India",IN: Pogo
+http://mhav1.com:2095/live/ht2990/742579548/212602.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Polimer TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/47700f461ba3e826a3ac362c3f730818.png" group-title="India",IN: Polimer TV
+http://mhav1.com:2095/live/ht2990/742579548/212438.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Pravasi" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Pravasi
+http://mhav1.com:2095/live/ht2990/742579548/212350.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Pulari TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/2eacbe0173124f48bd550f742773d52c.png" group-title="India",IN: Pulari TV
+http://mhav1.com:2095/live/ht2990/742579548/212348.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Puthiya Thalaimurai" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/10ee58a7d3bfab98c84935de70beef73.png" group-title="India",IN: Puthiya Thalaimurai
+http://mhav1.com:2095/live/ht2990/742579548/212545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Raj Digital Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/6849dca5be9a96ef2d8ef39ef0f25c67.jpg" group-title="India",IN: Raj Digital Plus
+http://mhav1.com:2095/live/ht2990/742579548/212493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Raj Musix Telugu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5123a7903c5ddc68a8a297bd9d6eb40e.png" group-title="India",IN: Raj Musix Telugu
+http://mhav1.com:2095/live/ht2990/742579548/212576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Raj News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/0180a7757679a7804d6ee75ec4c8791e.png" group-title="India",IN: Raj News
+http://mhav1.com:2095/live/ht2990/742579548/212544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Real News Kerala" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/a9f81e88bbf7e1ba88982347a80afb4a.png" group-title="India",IN: Real News Kerala
+http://mhav1.com:2095/live/ht2990/742579548/212347.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Reporter" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/99680f1a9114d00686a9f812a69f002d.png" group-title="India",IN: Reporter
+http://mhav1.com:2095/live/ht2990/742579548/212543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: SVBC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f8b2618fe375909f2733e1f6edf57f70.png" group-title="India",IN: SVBC
+http://mhav1.com:2095/live/ht2990/742579548/212426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sada TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/72d0a45e2f9ee9badf718b1642c807bd.png" group-title="India",IN: Sada TV
+http://mhav1.com:2095/live/ht2990/742579548/212345.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sadhna Plus News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d0f409b84422ab1ee589ae7188ebc911.png" group-title="India",IN: Sadhna Plus News
+http://mhav1.com:2095/live/ht2990/742579548/212542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sadhna TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/89373176a71771bb1e11f682076acae4.png" group-title="India",IN: Sadhna TV
+http://mhav1.com:2095/live/ht2990/742579548/212435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Safari" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/593d5f90fa47b327206c0b2492146963.png" group-title="India",IN: Safari
+http://mhav1.com:2095/live/ht2990/742579548/212344.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sakshi TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/fd6c3c33e65e269c557eca7a5f4ffa5f.png" group-title="India",IN: Sakshi TV
+http://mhav1.com:2095/live/ht2990/742579548/212434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Samachar Plus Rajasthan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/1950c7ecb83a5302231a1c556eef1ebd.png" group-title="India",IN: Samachar Plus Rajasthan
+http://mhav1.com:2095/live/ht2990/742579548/212541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sangat TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/8f4719964297919a385ee1e3d12c977f.jpg" group-title="India",IN: Sangat TV
+http://mhav1.com:2095/live/ht2990/742579548/212433.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sanjha TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/15f4e1d0173b104ed11136cf0ab587d5.png" group-title="India",IN: Sanjha TV
+http://mhav1.com:2095/live/ht2990/742579548/212343.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sankara TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e52aa970438491e87e32f78f6bf600b1.png" group-title="India",IN: Sankara TV
+http://mhav1.com:2095/live/ht2990/742579548/212431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sankhya TV" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Sankhya TV
+http://mhav1.com:2095/live/ht2990/742579548/212342.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sardari TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/afa767a9f64cfb70a9239047a4cf3534.jpeg" group-title="India",IN: Sardari TV
+http://mhav1.com:2095/live/ht2990/742579548/212341.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sarv Dharam Sangam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3f3eff5b7c848f09e60f93c6b9d8b79d.png" group-title="India",IN: Sarv Dharam Sangam
+http://mhav1.com:2095/live/ht2990/742579548/212430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Shemaroo TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/6521912db5e2e6a493c23bd92aff81c0.png" group-title="India",IN: Shemaroo TV
+http://mhav1.com:2095/live/ht2990/742579548/212340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Shraddha Mh One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/76ad7baa7db5fe7ab46bebaea3b30bcb.png" group-title="India",IN: Shraddha Mh One
+http://mhav1.com:2095/live/ht2990/742579548/212429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Shubhsandesh TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ee8b5121468e8a7644d48038c89fc9a1.png" group-title="India",IN: Shubhsandesh TV
+http://mhav1.com:2095/live/ht2990/742579548/212428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sikh Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c99283a2532f7a866786bce37d30a791.png" group-title="India",IN: Sikh Channel
+http://mhav1.com:2095/live/ht2990/742579548/212339.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sikh Spiritual Centre" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/93308b0875f50510704d8320eef6cac7.png" group-title="India",IN: Sikh Spiritual Centre
+http://mhav1.com:2095/live/ht2990/742579548/212338.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sivan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/48c91b8f7c23f798078cf1b97aeb531f.png" group-title="India",IN: Sivan TV
+http://mhav1.com:2095/live/ht2990/742579548/212337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sonic Nickelodeon" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/f2c16698ad5fdc4731899cd1838f8469.png" group-title="India",IN: Sonic Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/212336.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony (Set India)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2daad44a19ed90aa9e2a090fa3f91aa1.png" group-title="India",IN: Sony (Set India)
+http://mhav1.com:2095/live/ht2990/742579548/212492.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Aath" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/76be466f6b2faa53cdae4ebf0ed727ec.png" group-title="India",IN: Sony Aath
+http://mhav1.com:2095/live/ht2990/742579548/212491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony BBC Earth" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2923e17c63e1e3a6a95152d4ebc66b38.png" group-title="India",IN: Sony BBC Earth
+http://mhav1.com:2095/live/ht2990/742579548/212417.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/d6fae95f10269888c84688065ac06a2b.png" group-title="India",IN: Sony Max
+http://mhav1.com:2095/live/ht2990/742579548/212490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-11/c1dd82929a5c0356b690fb581cdd5ae9.jpeg" group-title="India",IN: Sony Max 2
+http://mhav1.com:2095/live/ht2990/742579548/212489.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-11/d73b0cc3901d42e6141605d8835c8f2f.jpeg" group-title="India",IN: Sony Max India
+http://mhav1.com:2095/live/ht2990/742579548/212488.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Pal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/f0733abb9bd97980d7b9118cb0c01419.png" group-title="India",IN: Sony Pal
+http://mhav1.com:2095/live/ht2990/742579548/212487.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Pix" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/148794467c949eb960c3369577370edd.png" group-title="India",IN: Sony Pix
+http://mhav1.com:2095/live/ht2990/742579548/212486.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony SAB" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d12a683a9883989c1528fa718dd63775.png" group-title="India",IN: Sony SAB
+http://mhav1.com:2095/live/ht2990/742579548/212485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Six" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/73301e189b695b51e416e9631ee986a8.png" group-title="India",IN: Sony Six
+http://mhav1.com:2095/live/ht2990/742579548/212484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India",IN: Sony Sports Ten 1 (Sony Ten 1)
+http://mhav1.com:2095/live/ht2990/742579548/212600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="India",IN: Sony Sports Ten 2 (Sony Ten 2)
+http://mhav1.com:2095/live/ht2990/742579548/212599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India",IN: Sony Sports Ten 3 (Sony Ten 3)
+http://mhav1.com:2095/live/ht2990/742579548/212598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony TV Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/0c02c389fbb51238d2b2352837ebe4cd.png" group-title="India",IN: Sony TV Asia
+http://mhav1.com:2095/live/ht2990/742579548/212483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Wah" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/30d1081aa39520113f25151752ed6040.png" group-title="India",IN: Sony Wah
+http://mhav1.com:2095/live/ht2990/742579548/212482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Bharat" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/7fbcc6b2ef6f2a7b6879fd5c4f1fea93.png" group-title="India",IN: Star Bharat
+http://mhav1.com:2095/live/ht2990/742579548/212481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e24f29dada0a4a69bd8ad11788801df2.png" group-title="India",IN: Star Gold
+http://mhav1.com:2095/live/ht2990/742579548/212480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/39e4ba0feeb32d7265b5d927f3b7c668.png" group-title="India",IN: Star Gold 2
+http://mhav1.com:2095/live/ht2990/742579548/212479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold Select" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/30af3c510bcfdb3845c56a67a1c3bd61.png" group-title="India",IN: Star Gold Select
+http://mhav1.com:2095/live/ht2990/742579548/212478.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold Thrills" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/b7ebcf168560c1def8cc023ddae303bb.png" group-title="India",IN: Star Gold Thrills
+http://mhav1.com:2095/live/ht2990/742579548/212477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Jalsha" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/48fa95424d644ec81854b1a89085ee7c.jpg" group-title="India",IN: Star Jalsha
+http://mhav1.com:2095/live/ht2990/742579548/212476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Maa Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/22ea7346e31774969f5c338e4bb68bf5.png" group-title="India",IN: Star Maa Movies
+http://mhav1.com:2095/live/ht2990/742579548/212475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/2b63b056fd9c98e0a0aaa86efa251838.png" group-title="India",IN: Star Movies
+http://mhav1.com:2095/live/ht2990/742579548/212474.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/21b51dfaef0b2ddf2a74e44b62289f40.png" group-title="India",IN: Star Plus
+http://mhav1.com:2095/live/ht2990/742579548/212473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Pravah" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/d1a684c9e9f048d6c727b98eb0d8f41e.png" group-title="India",IN: Star Pravah
+http://mhav1.com:2095/live/ht2990/742579548/212472.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India",IN: Star Sports 1
+http://mhav1.com:2095/live/ht2990/742579548/212597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="India",IN: Star Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/212596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="India",IN: Star Sports 3
+http://mhav1.com:2095/live/ht2990/742579548/212595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="India",IN: Star Sports Select 1
+http://mhav1.com:2095/live/ht2990/742579548/212594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
+http://mhav1.com:2095/live/ht2990/742579548/212593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Suvarna" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/de3b24188bd2fb46dc5f854b902aa810.png" group-title="India",IN: Star Suvarna
+http://mhav1.com:2095/live/ht2990/742579548/212471.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Utsav" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/0745eefbd8a17542003f01bf22735da0.png" group-title="India",IN: Star Utsav
+http://mhav1.com:2095/live/ht2990/742579548/212335.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Utsav Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/fcfbf2a1877ed32b46cb2e8e12520dfa.png" group-title="India",IN: Star Utsav Movies
+http://mhav1.com:2095/live/ht2990/742579548/212470.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Vijay" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/5d985f020baf77d62ddf39806d5dde60.png" group-title="India",IN: Star Vijay
+http://mhav1.com:2095/live/ht2990/742579548/212469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Steelbird Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/dfc3925e553be38730d2353baa8e584e.png" group-title="India",IN: Steelbird Music
+http://mhav1.com:2095/live/ht2990/742579548/212334.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Subhavaartha TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-07/ddfbed2c8ea9987db64fcebe4697358e.png" group-title="India",IN: Subhavaartha TV
+http://mhav1.com:2095/live/ht2990/742579548/212427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sun Life" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/78c9c0b3ceee8f5b0fb2c42d8bc4d4e8.png" group-title="India",IN: Sun Life
+http://mhav1.com:2095/live/ht2990/742579548/212468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sun Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/ef2ce31aea1ef04d89580ca26fef5a77.jpg" group-title="India",IN: Sun Music
+http://mhav1.com:2095/live/ht2990/742579548/212575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sun TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/9d2a0d0b78ffd6966844a7656afa4536.png" group-title="India",IN: Sun TV
+http://mhav1.com:2095/live/ht2990/742579548/212467.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Surya" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/e3142b74d0ef874bb396a21ad5913469.png" group-title="India",IN: Surya
+http://mhav1.com:2095/live/ht2990/742579548/212333.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Surya Comedy" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/826508707f157c8c9f9f424aba085c8c.png" group-title="India",IN: Surya Comedy
+http://mhav1.com:2095/live/ht2990/742579548/212332.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Surya Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/fbe89fc2f5d8281f3efc848c0f73beaf.png" group-title="India",IN: Surya Music
+http://mhav1.com:2095/live/ht2990/742579548/212331.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Swamiji TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/d2c5fcbd8fe4503179cae0e119fd4ab7.jpg" group-title="India",IN: Swamiji TV
+http://mhav1.com:2095/live/ht2990/742579548/212330.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: TV 9 Gujarati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5d788e159275192ad8fe55974d48064b.png" group-title="India",IN: TV 9 Gujarati
+http://mhav1.com:2095/live/ht2990/742579548/212539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: TV 9 Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/f653a845a780d18eb98c4f6d4f569e85.png" group-title="India",IN: TV 9 Kannada
+http://mhav1.com:2095/live/ht2990/742579548/212538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: TV 9 Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/11adf97a1f11e433ee0133750c6f8eb5.svg" group-title="India",IN: TV 9 Marathi
+http://mhav1.com:2095/live/ht2990/742579548/212537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: TV 9 Telugu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ced277da5096e518641e52e606876d47.png" group-title="India",IN: TV 9 Telugu
+http://mhav1.com:2095/live/ht2990/742579548/212536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Tamil Vision" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1b2821c300a559929394d6f5e72ed9bf.png" group-title="India",IN: Tamil Vision
+http://mhav1.com:2095/live/ht2990/742579548/212425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Times Now" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5958ed44028a113a0503a1ada6c6d6fa.png" group-title="India",IN: Times Now
+http://mhav1.com:2095/live/ht2990/742579548/212540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Travelxp" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/4568d42b5b60be108dc79c6adc15fc45.png" group-title="India",IN: Travelxp
+http://mhav1.com:2095/live/ht2990/742579548/212424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Utsav Bharat" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e9606491d54a8c3000c382f141b2aaf2.png" group-title="India",IN: Utsav Bharat
+http://mhav1.com:2095/live/ht2990/742579548/212423.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Utsav Gold" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/0f3c82f5b0a45a6fd211505522dd40a8.png" group-title="India",IN: Utsav Gold
+http://mhav1.com:2095/live/ht2990/742579548/212422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Utsav Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a65ad5eaab77bbe22fac0884eb1a7774.png" group-title="India",IN: Utsav Plus
+http://mhav1.com:2095/live/ht2990/742579548/212421.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: V6 News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ab8b937fcb8eeac0eacaefbc8b7b5f8b.png" group-title="India",IN: V6 News
+http://mhav1.com:2095/live/ht2990/742579548/212535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Vasanth TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/e514640cbcc4d24430dbee3a8b24d34c.png" group-title="India",IN: Vasanth TV
+http://mhav1.com:2095/live/ht2990/742579548/212420.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Verbum TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/d0ce4cad52497a67944618c9d3f0a73d.png" group-title="India",IN: Verbum TV
+http://mhav1.com:2095/live/ht2990/742579548/212329.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Victers TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/3c0944bcfc38de9d1fe9be9de9825284.png" group-title="India",IN: Victers TV
+http://mhav1.com:2095/live/ht2990/742579548/212328.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Vision Punjab Music" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Vision Punjab Music
+http://mhav1.com:2095/live/ht2990/742579548/212574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Vision Punjab TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-08/3109a6624c411362dada9cb493f7b4ee.jpg" group-title="India",IN: Vision Punjab TV
+http://mhav1.com:2095/live/ht2990/742579548/212327.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Vyas Higher Education Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/eb90375748d4cfc9d7c3234c9a99631b.png" group-title="India",IN: Vyas Higher Education Channel
+http://mhav1.com:2095/live/ht2990/742579548/212326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Willow" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/b8b56a633aad6900e1565ed87811f342.png" group-title="India",IN: Willow
+http://mhav1.com:2095/live/ht2990/742579548/212592.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Wow Cinema One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5957304ab7dd4176e7772174fe06f1ab.png" group-title="India",IN: Wow Cinema One
+http://mhav1.com:2095/live/ht2990/742579548/212466.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: ZEE Rajasthan News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/ea34dd159c2aaa97823f79c17456583f.svg" group-title="India",IN: ZEE Rajasthan News
+http://mhav1.com:2095/live/ht2990/742579548/212531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Ghanta" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c8f1da0128e2eec1a1f93811e761f7d8.png" group-title="India",IN: Zee 24 Ghanta
+http://mhav1.com:2095/live/ht2990/742579548/212534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Kalak" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8df915e2607e4ae07918bc72a56f1d3f.png" group-title="India",IN: Zee 24 Kalak
+http://mhav1.com:2095/live/ht2990/742579548/212533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d9f57621c8113935568dabc68bb5d88.png" group-title="India",IN: Zee Action
+http://mhav1.com:2095/live/ht2990/742579548/212465.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Aflam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/19d2a5a384842cc228caa404f74c8b82.png" group-title="India",IN: Zee Aflam
+http://mhav1.com:2095/live/ht2990/742579548/212325.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Alwan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/5051ee33fcc917e09eeae4861db9c858.png" group-title="India",IN: Zee Alwan
+http://mhav1.com:2095/live/ht2990/742579548/212464.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Anmol Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c5fee6bbc5e1c2292220e23c6e6d780f.png" group-title="India",IN: Zee Anmol Cinema
+http://mhav1.com:2095/live/ht2990/742579548/212324.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Biskope" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7233d1c55fa2743287fdb526f9a771a8.png" group-title="India",IN: Zee Biskope
+http://mhav1.com:2095/live/ht2990/742579548/212323.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e6c48a8c46101a99e4a41418aaeb70aa.png" group-title="India",IN: Zee Bollywood
+http://mhav1.com:2095/live/ht2990/742579548/212322.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Business" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9bcddf38e1547fadf65c31172b86f21b.png" group-title="India",IN: Zee Business
+http://mhav1.com:2095/live/ht2990/742579548/212321.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Café" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ec7ea3a8510b9c3e2d63d314aae01977.png" group-title="India",IN: Zee Café
+http://mhav1.com:2095/live/ht2990/742579548/212320.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinema Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/085bf305157db5fde8b5efdf9e67c0eb.png" group-title="India",IN: Zee Cinema Asia
+http://mhav1.com:2095/live/ht2990/742579548/212461.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinemalu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8eb47f24ddbe33c7663d18f458aa9467.png" group-title="India",IN: Zee Cinemalu
+http://mhav1.com:2095/live/ht2990/742579548/212460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Classic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e4acdd893054d8789ed77d59a275d298.png" group-title="India",IN: Zee Classic
+http://mhav1.com:2095/live/ht2990/742579548/212459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9b9b9240cc9786677a699ca48209b819.png" group-title="India",IN: Zee Kannada
+http://mhav1.com:2095/live/ht2990/742579548/212458.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4e2afbdf7bca28dd91216f35336c75ef.png" group-title="India",IN: Zee Marathi
+http://mhav1.com:2095/live/ht2990/742579548/212457.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Music Co" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/1a04bfd70f2d8d09bef61d76bc30f639.png" group-title="India",IN: Zee Music Co
+http://mhav1.com:2095/live/ht2990/742579548/212319.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59f3fa24fe411768bb5e776b6b0ec11d.png" group-title="India",IN: Zee News
+http://mhav1.com:2095/live/ht2990/742579548/212532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjab Haryana Himachal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/5455b817db810f3e0fc883dd4a92de19.svg" group-title="India",IN: Zee Punjab Haryana Himachal
+http://mhav1.com:2095/live/ht2990/742579548/212318.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjabi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f1a9bd21bb7f80d985fbb194e5a0c4b2.png" group-title="India",IN: Zee Punjabi
+http://mhav1.com:2095/live/ht2990/742579548/212456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/806194dec889d62b53a395771f889bf8.png" group-title="India",IN: Zee TV
+http://mhav1.com:2095/live/ht2990/742579548/212452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Talkies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7a65529546647b12b26bebc2ce020e6d.png" group-title="India",IN: Zee Talkies
+http://mhav1.com:2095/live/ht2990/742579548/212419.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Tamil" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/25ce128978be5e660e161910f7ce24bb.png" group-title="India",IN: Zee Tamil
+http://mhav1.com:2095/live/ht2990/742579548/212455.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Telugu" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/e70e1a61806a9019224ac6801a48c635.png" group-title="India",IN: Zee Telugu
+http://mhav1.com:2095/live/ht2990/742579548/212454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Thirai" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-11/66883809562f1560af574f0428a24f5d.jpg" group-title="India",IN: Zee Thirai
+http://mhav1.com:2095/live/ht2990/742579548/212453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/355170886aae937e99453a9e20caf655.png" group-title="India",IN: Zee World
+http://mhav1.com:2095/live/ht2990/742579548/212451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c1c3e486da01a79183e793d9f2102215.png" group-title="India",IN: Zing
+http://mhav1.com:2095/live/ht2990/742579548/212317.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zoom" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/568f50fca8c93f5f54d6ba044d570687.png" group-title="India",IN: Zoom
+http://mhav1.com:2095/live/ht2990/742579548/212316.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: jhanjar music" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: jhanjar music
+http://mhav1.com:2095/live/ht2990/742579548/212361.ts
+
+
+################################################################################
+# Pakistan
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name=" TORONTO 360 HD  [PK]" tvg-logo="" group-title="Pakistan", TORONTO 360 HD  [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="92 HD [PK]" tvg-logo="" group-title="Pakistan",92 HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121396.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="92 News [PK]" tvg-logo="" group-title="Pakistan",92 News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121392.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="A SPORT HD [PK]" tvg-logo="" group-title="Pakistan",A SPORT HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AAJ Entertainment [PK]" tvg-logo="" group-title="Pakistan",AAJ Entertainment [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AAJ News [PK]" tvg-logo="" group-title="Pakistan",AAJ News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121394.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ABB TAKK [PK]" tvg-logo="" group-title="Pakistan",ABB TAKK [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121411.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="APNA [PK]" tvg-logo="" group-title="Pakistan",APNA [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121412.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ARY Music [PK]" tvg-logo="" group-title="Pakistan",ARY Music [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121414.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ARY News HD [PK]" tvg-logo="" group-title="Pakistan",ARY News HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ARY QTV [PK]" tvg-logo="" group-title="Pakistan",ARY QTV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121398.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ARY World [PK]" tvg-logo="" group-title="Pakistan",ARY World [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121377.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ARY Zindagi HD [PK]" tvg-logo="" group-title="Pakistan",ARY Zindagi HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121376.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AV Khyber News [PK]" tvg-logo="" group-title="Pakistan",AV Khyber News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121418.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AVT Khyber [PK]" tvg-logo="" group-title="Pakistan",AVT Khyber [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121415.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Avenues Khabar [PK]" tvg-logo="" group-title="Pakistan",Avenues Khabar [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bol Entertainment HD [PK]" tvg-logo="" group-title="Pakistan",Bol Entertainment HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121381.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bol News [PK]" tvg-logo="" group-title="Pakistan",Bol News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121386.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Capital [PK]" tvg-logo="" group-title="Pakistan",Capital [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121417.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="City 41 [PK]" tvg-logo="" group-title="Pakistan",City 41 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="City 42 [PK]" tvg-logo="" group-title="Pakistan",City 42 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121421.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Din News [PK]" tvg-logo="" group-title="Pakistan",Din News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Discover Pakistan HD [PK]" tvg-logo="" group-title="Pakistan",Discover Pakistan HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dunya News [PK]" tvg-logo="" group-title="Pakistan",Dunya News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121387.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Express Entertainment [PK]" tvg-logo="" group-title="Pakistan",Express Entertainment [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Express News [PK]" tvg-logo="" group-title="Pakistan",Express News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Film World [PK]" tvg-logo="" group-title="Pakistan",Film World [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GNN [PK]" tvg-logo="" group-title="Pakistan",GNN [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121438.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="GTV HD [PK]" tvg-logo="" group-title="Pakistan",GTV HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121420.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo  Entertainment [PK]" tvg-logo="" group-title="Pakistan",Geo  Entertainment [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo Entertainment [PK]" tvg-logo="" group-title="Pakistan",Geo Entertainment [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo News [PK]" tvg-logo="" group-title="Pakistan",Geo News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121380.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo Super " tvg-logo="" group-title="Pakistan",Geo Super 
+http://mhav1.com:2095/live/ht2990/742579548/121406.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo TV [PK]" tvg-logo="" group-title="Pakistan",Geo TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121378.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Geo Tez [PK]" tvg-logo="" group-title="Pakistan",Geo Tez [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121379.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="HUM HD [PK]" tvg-logo="" group-title="Pakistan",HUM HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121423.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hadi TV 2 [PK]" tvg-logo="" group-title="Pakistan",Hadi TV 2 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hadi TV 4 [PK]" tvg-logo="" group-title="Pakistan",Hadi TV 4 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121416.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hadi TV 6 [PK]" tvg-logo="" group-title="Pakistan",Hadi TV 6 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121413.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hadi TV [PK]" tvg-logo="" group-title="Pakistan",Hadi TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121419.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hidayet TV  [PK]" tvg-logo="" group-title="Pakistan",Hidayet TV  [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121382.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hindi News 24 [PK]" tvg-logo="" group-title="Pakistan",Hindi News 24 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hum Europe TV [PK]" tvg-logo="" group-title="Pakistan",Hum Europe TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121383.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hum Masala [PK]" tvg-logo="" group-title="Pakistan",Hum Masala [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121397.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hum News [PK]" tvg-logo="" group-title="Pakistan",Hum News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Hum sitray [PK]" tvg-logo="" group-title="Pakistan",Hum sitray [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IQRA TV [PK]" tvg-logo="" group-title="Pakistan",IQRA TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121384.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Islam Channel [PK]" tvg-logo="" group-title="Pakistan",Islam Channel [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121407.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Jalwa [PK]" tvg-logo="" group-title="Pakistan",Jalwa [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Kohinoor News [PK]" tvg-logo="" group-title="Pakistan",Kohinoor News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Lahore News TV [PK]" tvg-logo="" group-title="Pakistan",Lahore News TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121390.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Madani Channel [PK]" tvg-logo="" group-title="Pakistan",Madani Channel [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121393.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Nepali Nepal 1 [PK]" tvg-logo="" group-title="Pakistan",Nepali Nepal 1 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="News One [PK]" tvg-logo="" group-title="Pakistan",News One [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Noor TV [PK]" tvg-logo="" group-title="Pakistan",Noor TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121388.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV Global [PK]" tvg-logo="" group-title="Pakistan",PTV Global [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV Home [PK]" tvg-logo="" group-title="Pakistan",PTV Home [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV News [PK]" tvg-logo="" group-title="Pakistan",PTV News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Pakistan",PTV Sports HD 
+http://mhav1.com:2095/live/ht2990/742579548/121403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV World [PK]" tvg-logo="" group-title="Pakistan",PTV World [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Peace Urdu TV [PK]" tvg-logo="" group-title="Pakistan",Peace Urdu TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Public News [PK]" tvg-logo="" group-title="Pakistan",Public News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121400.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Rohi TV [PK]" tvg-logo="" group-title="Pakistan",Rohi TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Roze News [PK]" tvg-logo="" group-title="Pakistan",Roze News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sadhna Prime News [PK]" tvg-logo="" group-title="Pakistan",Sadhna Prime News [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121440.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Samaa TV [PK]" tvg-logo="" group-title="Pakistan",Samaa TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121385.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="See TV [PK]" tvg-logo="" group-title="Pakistan",See TV [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121432.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sindh Entertainment [PK]" tvg-logo="" group-title="Pakistan",Sindh Entertainment [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Pakistan",TEN Sports [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV One [PK]" tvg-logo="" group-title="Pakistan",TV One [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121433.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Tag [PK]" tvg-logo="" group-title="Pakistan",Tag [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121391.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Urdu 1 [PK]" tvg-logo="" group-title="Pakistan",Urdu 1 [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121408.ts
