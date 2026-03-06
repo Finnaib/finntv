@@ -386,9 +386,6 @@ http://210.210.155.35/session/5f42685a-74e8-11ec-8b65-b82a72d63267/uq2663/h/h193
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rGTHbAM.png" group-title="Indonesia",Sony GEM
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch338)/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BTmcTQO.png" group-title="Indonesia",like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Indonesia",My Cinema [Geo-blocked]
-https://op-group1-swiftservehd-1.dens.tv/h/h192/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://iptvsystem.my.id/img/warner.png" group-title="Indonesia",Warner TV (INDI)
 https://streaming.indihometv.com/atm/DASH/warner/manifest.mpd
 
@@ -1810,9 +1807,6 @@ https://atemeshield1-voe.sysln.id/live/eds/DiscoveryAsiaHD/mediampd/DiscoveryAsi
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tdlUrDv.jpeg" group-title="Indonesia",ANTV 2 ON -
 https://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
-
-#EXTINF:-1 tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e14061fc-df59-4596-a365-0cf88a0faa1f/dh942j4-23ead357-bd63-4aa1-bc75-92db9133f721.png/v1/fill/w_1023,h_781/my_trans_tv_concept_logo_by_ap41ii_dh942j4-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTc3IiwicGF0aCI6IlwvZlwvZTE0MDYxZmMtZGY1OS00NTk2LWEzNjUtMGNmODhhMGZhYTFmXC9kaDk0Mmo0LTIzZWFkMzU3LWJkNjMtNGFhMS1iYzc1LTkyZGI5MTMzZjcyMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gOm5rNdBwnXC4Ivj9yWAv1BsU5FnWeV053QAAo0C5A0" group-title="Indonesia",h_781/my_trans_tv_concept_logo_by_ap41ii_dh942j4-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTc3IiwicGF0aCI6IlwvZlwvZTE0MDYxZmMtZGY1OS00NTk2LWEzNjUtMGNmODhhMGZhYTFmXC9kaDk0Mmo0LTIzZWFkMzU3LWJkNjMtNGFhMS1iYzc1LTkyZGI5MTMzZjcyMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gOm5rNdBwnXC4Ivj9yWAv1BsU5FnWeV053QAAo0C5A0" group-title="Indonesia",14. TRANSTV
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
 #EXTINF:-1 tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo.webp?v=12.1.4" group-title="Indonesia",CNN Indonesia
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/index.m3u8
@@ -3370,15 +3364,6 @@ https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856b6088c3016b87da2
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/tvposter/zee.png" group-title="Indonesia",ZEE BIOSKOP
 https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856fd0d66d0170334acaa90393/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/sqiCinCzUGlzQiFytS30N1nO3Pt.jpg" group-title="Indonesia",Star Trek Section 31 (2025)
-https://cloud.hownetwork.xyz/xxx/89d8e8d577a11f7bc1adef24936d94d3/25/480.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w94_and_h141_bestv2/1YkVZRCngFXAmS3bDRcRbDYYOIj.jpg" group-title="Indonesia",Neighborhood Watch (2025)
-https://cloud.hownetwork.xyz/xxx/LB0gKS0bGDMqPhgobkc3LCEQZHx1S0JsNTQVKC9vDgd6QSh4dE9FIw/32/480.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.lancartech.co.id:443/images/87TlbQCuDCtrsDGBLWCqBgiApV11NwNRqwMkEPS_uXlmeioDMQfaQ28o1gAykyC3aUQU3EycH1c9v1Q24R_roc9AX-X9dAEI4acU1Xz9UbE.jpg" group-title="Indonesia",Lost in Starlight (2025)
-https://iptv.lancartech.co.id:443/movie/Farhan@90/18062025/68447.mkv
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQvyMnY/antv.png" group-title="Indonesia",ANTV - Vision
 https://cempedak-cdn-fly.mncnow.id/live/eds/ANTV/sa_dash/ANTV.mpd

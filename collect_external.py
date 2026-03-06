@@ -62,17 +62,26 @@ def is_filtered(name):
     if any(k in nl for k in BLOCK_KEYWORDS):
         return True
     
-    # Check if it's a "famous" channel
-    # Exception: If the name is very short or looks like a generic number, skip it
-    if len(nl) < 3:
+    # --- STRICT NAME VALIDATION ---
+    if not name or len(nl) < 3:
         return True
-        
-    # Check if matches any famous keyword
+    
+    # Filter out technical IDs and paths like "q_85/..."
+    if nl.startswith('q_') or nl.startswith('q-') or '/' in nl or '\\' in nl:
+        return True
+    
+    # Filter out VOD/Movie patterns (Years like 2023, 2024, etc.)
+    if re.search(r'\(20\d{2}\)', nl) or re.search(r'\[20\d{2}\]', nl) or re.search(r'\b19\d{2}\b', nl):
+        return True
+
+    # Filter out names that are just numbers/hex IDs
+    if re.match(r'^[0-9a-f\-]+$', nl) and len(nl) > 5:
+        return True
+
+    # Check matches for famous brands
     if any(k in nl for k in FAMOUS_KEYWORDS):
         return False
         
-    # If it starts with common country prefixes like IN:, PK:, BD:, but doesn't match a famous brand, 
-    # we still filter it because the user only wants FAMOUS ones.
     return True
 
 def fetch_and_filter(url):
@@ -85,6 +94,11 @@ def fetch_and_filter(url):
         filtered_channels = []
         current_extinf = None
         
+        # VOD Extension block list
+        VOD_EXTS = ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.mpg']
+        # VOD Path block list
+        VOD_PATHS = ['/movies/', '/vod/', '/series/', '/film/', '/cinema/']
+        
         for line in lines:
             if line.startswith("#EXTINF:"):
                 # Extract channel name
@@ -96,7 +110,15 @@ def fetch_and_filter(url):
                 else:
                     current_extinf = None
             elif line.startswith("http") and current_extinf:
-                filtered_channels.append((current_extinf, line.strip()))
+                stream_url = line.strip().lower()
+                
+                # Check if it's a VOD file
+                is_vod = any(stream_url.endswith(ext) for ext in VOD_EXTS) or \
+                         any(p in stream_url for p in VOD_PATHS)
+                
+                if not is_vod:
+                    filtered_channels.append((current_extinf, line.strip()))
+                
                 current_extinf = None
                 
         return filtered_channels
