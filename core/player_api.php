@@ -369,7 +369,7 @@ if ($action === '' || $action === 'get_panel_info') {
         ],
         'movie_data' => [
             'stream_id' => $vod_id,
-            'container_extension' => 'ts',  // Force ts
+            'container_extension' => (string) ($found_vod['container_extension'] ?? 'mp4'),
             'name' => (string) ($found_vod['name'] ?? 'Movie')
         ]
     ]);

@@ -84,11 +84,16 @@ if (file_exists($map_file)) {
 if (!$target_url && ($type === 'movie' || $type === 'series')) {
     global $provider_config;
     if (!empty($provider_config['host'])) {
-        $u_host = $provider_config['host'];
+        $u_host = rtrim($provider_config['host'], '/');
         $u_user = $provider_config['username'];
         $u_pass = $provider_config['password'];
 
         $v_ext = $ext ? $ext : "mp4";
+        // Fix for VOD/Series: Apps often request .ts by default, but VOD is usually .mp4 or .mkv
+        if ($v_ext === "ts") {
+            $v_ext = "mp4";
+        }
+
         if ($type === 'movie') {
             $target_url = "{$u_host}/movie/{$u_user}/{$u_pass}/{$id}.{$v_ext}";
         } else {
