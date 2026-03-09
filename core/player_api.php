@@ -59,50 +59,14 @@ $user_data = [];
 
 if (isset($users_db[$username])) {
     $u = $users_db[$username];
-    // Handle both old string format and new array format for backward compatibility
     $stored_pass = is_array($u) ? $u['password'] : $u;
 
     if ($stored_pass === $password) {
-        // Logic: First-Login Persistence for Dynamic Users
-        $created_at = null;
+        // Use fixed dates from config if they exist
+        $created_at = (is_array($u) && !empty($u['created_at'])) ? (int) $u['created_at'] : time();
+        $exp_date = (is_array($u) && !empty($u['exp_date'])) ? (int) $u['exp_date'] : strtotime('+1 year', $created_at);
 
-        if (is_array($u) && !empty($u['created_at'])) {
-            // Case A: Fixed Date in Config
-            $created_at = $u['created_at'];
-        }
-
-        // Case B: Dynamic User (First Login Detection)
-        // Fix for Vercel/Serverless: Use /tmp if local data dir is not writable
-        $local_data_dir = __DIR__ . '/../data';
-        $dyn_file = is_writable($local_data_dir)
-            ? $local_data_dir . '/users_dynamic.json'
-            : sys_get_temp_dir() . '/users_dynamic.json';
-
-        $dyn_db = [];
-
-        // Try to read existing DB
-        if (file_exists($dyn_file)) {
-            $json = file_get_contents($dyn_file);
-            $dyn_db = json_decode($json, true) ?? [];
-        }
-
-        if (isset($dyn_db[$username])) {
-            // User has logged in before, retrieve original date
-            $created_at = $dyn_db[$username];
-        } else {
-            // First time login! Save NOW as start date.
-            $created_at = time();
-            $dyn_db[$username] = $created_at;
-            @file_put_contents($dyn_file, json_encode($dyn_db));
-        }
-
-
-        // Calculate Expiration (Prioritize stored date, fallback to 1 year from created)
-        $exp_date = (is_array($u) && !empty($u['exp_date']))
-            ? $u['exp_date']
-            : strtotime('+1 year', $created_at);
-
-        // Check Expiration
+        // Check if user has already expired
         if (time() > $exp_date) {
             $is_auth = false;
         } else {

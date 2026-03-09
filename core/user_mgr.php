@@ -35,10 +35,16 @@ class UserMgr
         $all['persistent'][$username] = array_merge([
             'password' => '',
             'max_connections' => 5,
-            'created_at' => time(),
-            'exp_date' => strtotime('+1 year'),
             'status' => 'Active'
         ], $existing, $data);
+
+        // Ensure dates are set if this is a new user
+        if (!isset($all['persistent'][$username]['created_at'])) {
+            $all['persistent'][$username]['created_at'] = time();
+        }
+        if (!isset($all['persistent'][$username]['exp_date'])) {
+            $all['persistent'][$username]['exp_date'] = strtotime('+1 year', $all['persistent'][$username]['created_at']);
+        }
 
         // Remove from blacklist if being re-added
         $all['blacklist'] = array_diff($all['blacklist'] ?? [], [$username]);
