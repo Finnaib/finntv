@@ -126,24 +126,19 @@ def main():
 
     import glob
 
-    # 1. LIVE (All M3U files except vod.m3u and series.m3u)
-    print("Parsing Live M3Us...")
+    # 1. LIVE (Only live.m3u - ignore external sources like egypt.m3u, etc.)
+    print("Parsing Live M3U (Xtream)...")
     all_live_streams = []
     all_live_categories = {}
     
-    m3u_files = glob.glob(os.path.join(base_dir, "*.m3u"))
-    # Sort files to ensure deterministic order (and so live.m3u processes first if desired)
-    m3u_files.sort()
-    
-    for filepath in m3u_files:
-        filename = os.path.basename(filepath).lower()
-        if filename in ['vod.m3u', 'series.m3u']:
-            continue
-            
-        print(f"  -> Parsing {filename}...")
-        s, c = parse_m3u(filepath, 'live', id_map, cat_counter)
+    live_path = os.path.join(base_dir, "live.m3u")
+    if os.path.exists(live_path):
+        print(f"  -> Parsing live.m3u...")
+        s, c = parse_m3u(live_path, 'live', id_map, cat_counter)
         all_live_streams.extend(s)
         all_live_categories.update(c)
+    else:
+        print("  Warning: live.m3u not found!")
 
     data['live_streams'] = all_live_streams
     data['live_categories'] = format_categories(all_live_categories)
