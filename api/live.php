@@ -64,10 +64,12 @@ if (!$target_url) {
             // Map type to URL path segment
             $path_type = $type; // 'live', 'movie', 'series'
 
-            // CRITICAL: Force 'ts' extension - upstream only supports ts/m3u8
-            // Players often request .mkv or .mp4 based on container_extension
-            // but the upstream rejects those formats
-            $target_url = "{$u_host}/{$path_type}/{$u_user}/{$u_pass}/{$id}.ts";
+            $v_ext = $ext ? $ext : 'ts';
+            if (($path_type === 'movie' || $path_type === 'series') && $v_ext === 'ts') {
+                $v_ext = 'mp4'; // VODs are rarely .ts, default to mp4 if .ts requested but not found
+            }
+
+            $target_url = "{$u_host}/{$path_type}/{$u_user}/{$u_pass}/{$id}.{$v_ext}";
         }
     }
 }
