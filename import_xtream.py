@@ -195,65 +195,7 @@ def main():
         fetch_and_append(base_api, host, username, password, "get_vod_streams", "vod.m3u", "vod", vod_cats, headers)
         
         # 3. SERIES
-        print(f"\nFetching series list...")
-        url = f"{base_api}&action=get_series"
-        r = requests.get(url, headers=headers, verify=False, timeout=120)
-        if r.status_code == 200:
-            series_list = r.json()
-            if isinstance(series_list, list):
-                total_series = len(series_list)
-                print(f"  Found {total_series} series. Fetching episodes in parallel...")
-                
-                from concurrent.futures import ThreadPoolExecutor, as_completed
-                
-                def f_episodes(s):
-                    sid = s.get('series_id')
-                    try:
-                        ep_url = f"{base_api}&action=get_series_info&series_id={sid}"
-                        ep_r = requests.get(ep_url, headers=headers, verify=False, timeout=60)
-                        if ep_r.status_code == 200:
-                            return sid, ep_r.json().get('episodes', {})
-                    except:
-                        pass
-                    return sid, {}
-
-                # We'll use 15 threads to avoid overwhelming the provider while being fast
-                all_episodes = {}
-                processed = 0
-                with ThreadPoolExecutor(max_workers=15) as executor:
-                    futures = {executor.submit(f_episodes, s): s for s in series_list}
-                    for future in as_completed(futures):
-                        sid, episodes = future.result()
-                        all_episodes[sid] = episodes
-                        processed += 1
-                        if processed % 50 == 0 or processed == total_series:
-                            print(f"  Progress: {processed}/{total_series} series episodes fetched...")
-
-                print("  Writing series to file...")
-                with open("m3u/series.m3u", 'a', encoding='utf-8') as f:
-                    for s in series_list:
-                        sid = s.get('series_id')
-                        sname = s.get('name', 'Unknown Series')
-                        scat_id = s.get('category_id')
-                        scat_name = series_cats.get(scat_id, "Uncategorized Series")
-                        slogo = s.get('cover') or s.get('stream_icon') or ""
-                        
-                        episodes = all_episodes.get(sid, {})
-                        if episodes:
-                            f.write(f"\n##### [{scat_name} - {sname}] #####\n\n")
-                            for season_num, season_eps in episodes.items():
-                                for ep in season_eps:
-                                    ep_id = ep.get('id')
-                                    ep_title = ep.get('title', f"S{season_num} E{ep.get('episode_num')}")
-                                    ep_ext = ep.get('container_extension', 'mp4')
-                                    
-                                    final_url = f"{host}/series/{username}/{password}/{ep_id}.{ep_ext}"
-                                    meta = f'#EXTINF:-1 tvg-id="" tvg-name="{sname} - {ep_title}" tvg-logo="{slogo}" group-title="{scat_name}",{sname} - {ep_title}'
-                                    f.write(meta + "\n")
-                                    f.write(final_url + "\n")
-                                    f.write("\n")
-            else:
-                print(f"Warning: Expected list for series but got {type(series_list)}")
+        fetch_and_append(base_api, host, username, password, "get_series", "series.m3u", "series", series_cats, headers)
         
     print("\nAll imports finished.")
 
