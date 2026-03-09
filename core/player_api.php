@@ -265,8 +265,7 @@ if ($action === '' || $action === 'get_panel_info') {
             unset($item['added']);
             unset($item['rating']);
             unset($item['rating_5based']);
-            unset($item['custom_sid']);
-            unset($item['container_extension']);
+            // NOTE: NEVER unset container_extension! IPTVSmarters breaks without it!
             unset($item['direct_source']);
         }
         $out[] = $item;
@@ -311,15 +310,15 @@ if ($action === '' || $action === 'get_panel_info') {
 } elseif ($action === 'get_series_info') {
     // 8. Series Info - Proxy to Upstream Provider to get full episode list
     $series_id = (int) ($_GET['series_id'] ?? 0);
-    
+
     global $provider_config;
     if (!empty($provider_config['host'])) {
         $u_host = rtrim($provider_config['host'], '/');
         $u_user = $provider_config['username'];
         $u_pass = $provider_config['password'];
-        
+
         $upstream_url = "{$u_host}/player_api.php?username={$u_user}&password={$u_pass}&action=get_series_info&series_id={$series_id}";
-        
+
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $upstream_url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -329,7 +328,7 @@ if ($action === '' || $action === 'get_panel_info') {
         $result = curl_exec($ch);
         $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
-        
+
         if ($status == 200 && $result) {
             $data_json = json_decode($result, true);
             if ($data_json) {

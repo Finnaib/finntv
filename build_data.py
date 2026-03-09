@@ -124,16 +124,32 @@ def main():
         return [{"category_id": cid, "category_name": name, "parent_id": 0} 
                 for name, cid in cat_dict.items()]
 
-    # 1. LIVE
-    print("Parsing Live...")
-    live_path = os.path.join(base_dir, "live.m3u")
-    if os.path.exists(live_path):
-        s, c = parse_m3u(live_path, 'live', id_map, cat_counter)
-        data['live_streams'] = s
-        data['live_categories'] = format_categories(c)
+    import glob
+
+    # 1. LIVE (All M3U files except vod.m3u and series.m3u)
+    print("Parsing Live M3Us...")
+    all_live_streams = []
+    all_live_categories = {}
+    
+    m3u_files = glob.glob(os.path.join(base_dir, "*.m3u"))
+    # Sort files to ensure deterministic order (and so live.m3u processes first if desired)
+    m3u_files.sort()
+    
+    for filepath in m3u_files:
+        filename = os.path.basename(filepath).lower()
+        if filename in ['vod.m3u', 'series.m3u']:
+            continue
+            
+        print(f"  -> Parsing {filename}...")
+        s, c = parse_m3u(filepath, 'live', id_map, cat_counter)
+        all_live_streams.extend(s)
+        all_live_categories.update(c)
+
+    data['live_streams'] = all_live_streams
+    data['live_categories'] = format_categories(all_live_categories)
 
     # 2. VOD
-    print("Parsing VOD...")
+    print("\nParsing VOD...")
     vod_path = os.path.join(base_dir, "vod.m3u")
     if os.path.exists(vod_path):
         s, c = parse_m3u(vod_path, 'movie', id_map, cat_counter)
@@ -141,7 +157,7 @@ def main():
         data['vod_categories'] = format_categories(c)
 
     # 3. SERIES
-    print("Parsing Series...")
+    print("\nParsing Series...")
     series_path = os.path.join(base_dir, "series.m3u")
     if os.path.exists(series_path):
         s, c = parse_m3u(series_path, 'series', id_map, cat_counter)
