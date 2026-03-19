@@ -947,17 +947,32 @@ http://mhav1.com:2095/live/ht2990/742579548/71938.ts
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1
 http://mhav1.com:2095/live/ht2990/742579548/518.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125579.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2
 http://mhav1.com:2095/live/ht2990/742579548/519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125580.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ART Cinema" tvg-logo="" group-title="ART ايه ارتى",ART Cinema
 http://mhav1.com:2095/live/ht2990/742579548/520.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Cinema SD" tvg-logo="" group-title="ART ايه ارتى",ART Cinema SD
+http://mhav1.com:2095/live/ht2990/742579548/125581.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1
 http://mhav1.com:2095/live/ht2990/742579548/521.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125582.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2
 http://mhav1.com:2095/live/ht2990/742579548/522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125583.ts
 
 
 ##### [Adoro Club H265 اريدو] #####
@@ -1504,6 +1519,9 @@ http://mhav1.com:2095/live/ht2990/742579548/5339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 6 [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 6 [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 7 El Maarifa [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 7 El Maarifa [DZ]
+http://mhav1.com:2095/live/ht2990/742579548/4571.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 8 Edhakira [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 8 Edhakira [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5345.ts
@@ -3526,9 +3544,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2408.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mega [ES]" tvg-logo="" group-title="ESPAN",Mega [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12407.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Hits [ES]" tvg-logo="" group-title="ESPAN",Movistar Hits [ES]
-http://mhav1.com:2095/live/ht2990/742579548/3962.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="NOVA [ES]" tvg-logo="" group-title="ESPAN",NOVA [ES]
 http://mhav1.com:2095/live/ht2990/742579548/2399.ts
@@ -11220,18 +11235,6 @@ http://mhav1.com:2095/live/ht2990/742579548/29799.ts
 http://mhav1.com:2095/live/ht2990/742579548/57150.ts
 
 
-##### [Ramadan 2026] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Ramadan 2026 " tvg-logo="" group-title="Ramadan 2026",Ramadan 2026 
-http://mhav1.com:2095/live/ht2990/742579548/265373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="أناشيد رمضان" tvg-logo="" group-title="Ramadan 2026",أناشيد رمضان
-http://mhav1.com:2095/live/ht2990/742579548/265363.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ابتهالات" tvg-logo="" group-title="Ramadan 2026",ابتهالات
-http://mhav1.com:2095/live/ht2990/742579548/265364.ts
-
-
 ##### [Romania] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="HBO [Ro]" tvg-logo="" group-title="Romania",HBO [Ro]
@@ -16810,4 +16813,16 @@ http://mhav1.com:2095/live/ht2990/742579548/77956.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="" group-title="polish",Polsat Sport Premium 2
 http://mhav1.com:2095/live/ht2990/742579548/77958.ts
+
+
+##### [عيد مبارك ] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="تكبيرات العيد" tvg-logo="" group-title="عيد مبارك ",تكبيرات العيد
+http://mhav1.com:2095/live/ht2990/742579548/270341.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="عيد سعيد" tvg-logo="" group-title="عيد مبارك ",عيد سعيد
+http://mhav1.com:2095/live/ht2990/742579548/270340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="عيد مبارك" tvg-logo="" group-title="عيد مبارك ",عيد مبارك
+http://mhav1.com:2095/live/ht2990/742579548/270339.ts
 
