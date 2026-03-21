@@ -1,4 +1,5 @@
-#EXTM3U
+﻿#EXTM3U
+
 
 ################################################################################
 # Brazil
@@ -637,6 +638,7 @@ http://mhav1.com:2095/live/ht2990/742579548/206405.ts
 #EXTINF:-1 tvg-id="" tvg-name="BR: tru TV" tvg-logo="" group-title="Brazil",BR: tru TV
 http://mhav1.com:2095/live/ht2990/742579548/206465.ts
 
+
 ################################################################################
 # Canada
 ################################################################################
@@ -1001,6 +1003,7 @@ http://mhav1.com:2095/live/ht2990/742579548/57744.ts
 #EXTINF:-1 tvg-id="" tvg-name="[CA]Tele Quebec FR" tvg-logo="" group-title="Canada",[CA]Tele Quebec FR
 http://mhav1.com:2095/live/ht2990/742579548/57479.ts
 
+
 ################################################################################
 # Denmark
 ################################################################################
@@ -1184,6 +1187,7 @@ http://mhav1.com:2095/live/ht2990/742579548/121457.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|DK| V sport golf HD" tvg-logo="" group-title="Denmark",|DK| V sport golf HD
 http://mhav1.com:2095/live/ht2990/742579548/121475.ts
+
 
 ################################################################################
 # EXYU
@@ -1795,6 +1799,7 @@ http://mhav1.com:2095/live/ht2990/742579548/72602.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Zadruga Live 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Zadruga Live 4
 http://mhav1.com:2095/live/ht2990/742579548/72603.ts
 
+
 ################################################################################
 # France
 ################################################################################
@@ -2183,6 +2188,7 @@ http://mhav1.com:2095/live/ht2990/742579548/12948.ts
 #EXTINF:-1 tvg-id="" tvg-name="[SUI]RTS_DEUX" tvg-logo="" group-title="France",[SUI]RTS_DEUX
 http://mhav1.com:2095/live/ht2990/742579548/12949.ts
 
+
 ################################################################################
 # Germany
 ################################################################################
@@ -2559,6 +2565,7 @@ http://mhav1.com:2095/live/ht2990/742579548/63547.ts
 #EXTINF:-1 tvg-id="" tvg-name="rbb Berlin  |DE|" tvg-logo="" group-title="Germany",rbb Berlin  |DE|
 http://mhav1.com:2095/live/ht2990/742579548/63562.ts
 
+
 ################################################################################
 # Greece
 ################################################################################
@@ -2844,6 +2851,7 @@ http://mhav1.com:2095/live/ht2990/742579548/32360.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[GR]Xalastra TV" tvg-logo="" group-title="Greece",[GR]Xalastra TV
 http://mhav1.com:2095/live/ht2990/742579548/32362.ts
+
 
 ################################################################################
 # Italy
@@ -3169,6 +3177,7 @@ http://mhav1.com:2095/live/ht2990/742579548/120497.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|IT| Tgcom 24" tvg-logo="" group-title="Italy",|IT| Tgcom 24
 http://mhav1.com:2095/live/ht2990/742579548/120544.ts
+
 
 ################################################################################
 # Netherlands
@@ -3564,6 +3573,7 @@ http://mhav1.com:2095/live/ht2990/742579548/121554.ts
 #EXTINF:-1 tvg-id="" tvg-name="|NL| l1tv 720P" tvg-logo="" group-title="Netherlands",|NL| l1tv 720P
 http://mhav1.com:2095/live/ht2990/742579548/121522.ts
 
+
 ################################################################################
 # Norway
 ################################################################################
@@ -3733,6 +3743,7 @@ http://mhav1.com:2095/live/ht2990/742579548/123129.ts
 #EXTINF:-1 tvg-id="" tvg-name="Vox HD [NO]" tvg-logo="" group-title="Norway",Vox HD [NO]
 http://mhav1.com:2095/live/ht2990/742579548/123088.ts
 
+
 ################################################################################
 # Philippines
 ################################################################################
@@ -3901,6 +3912,7 @@ http://mhav1.com:2095/live/ht2990/742579548/224757.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PH: nickelodeon" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png" group-title="Philippines",PH: nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/224775.ts
+
 
 ################################################################################
 # Poland
@@ -4497,6 +4509,7 @@ http://mhav1.com:2095/live/ht2990/742579548/77956.ts
 #EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="" group-title="Poland",Polsat Sport Premium 2
 http://mhav1.com:2095/live/ht2990/742579548/77958.ts
 
+
 ################################################################################
 # Portugal
 ################################################################################
@@ -4938,6 +4951,7 @@ http://mhav1.com:2095/live/ht2990/742579548/7688.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 3" tvg-logo="" group-title="Portugal",[PO] Sport Tv 3
 http://mhav1.com:2095/live/ht2990/742579548/7689.ts
+
 
 ################################################################################
 # Russia
@@ -5618,6 +5632,7 @@ http://mhav1.com:2095/live/ht2990/742579548/189033.ts
 #EXTINF:-1 tvg-id="" tvg-name="RU: ПРАВО PRAVO" tvg-logo="" group-title="Russia",RU: ПРАВО PRAVO
 http://mhav1.com:2095/live/ht2990/742579548/188834.ts
 
+
 ################################################################################
 # Spain
 ################################################################################
@@ -5894,6 +5909,7 @@ http://mhav1.com:2095/live/ht2990/742579548/3311.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="real madrid [ES]" tvg-logo="" group-title="Spain",real madrid [ES]
 http://mhav1.com:2095/live/ht2990/742579548/2553.ts
+
 
 ################################################################################
 # Sweden
@@ -6178,6 +6194,7 @@ http://mhav1.com:2095/live/ht2990/742579548/209584.ts
 #EXTINF:-1 tvg-id="" tvg-name="SE: nickelodeon" tvg-logo="" group-title="Sweden",SE: nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/209525.ts
 
+
 ################################################################################
 # Switzerland
 ################################################################################
@@ -6412,6 +6429,7 @@ http://mhav1.com:2095/live/ht2990/742579548/85244.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[SW]Swiss 1 HD" tvg-logo="" group-title="Switzerland",[SW]Swiss 1 HD
 http://mhav1.com:2095/live/ht2990/742579548/85242.ts
+
 
 ################################################################################
 # UK
@@ -6815,6 +6833,7 @@ http://mhav1.com:2095/live/ht2990/742579548/123401.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|UK| Tiny Pop" tvg-logo="" group-title="UK",|UK| Tiny Pop
 http://mhav1.com:2095/live/ht2990/742579548/123405.ts
+
 
 ################################################################################
 # USA
@@ -7236,4 +7255,3 @@ http://mhav1.com:2095/live/ht2990/742579548/4946.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[US]Nickelodeon_HD-US" tvg-logo="" group-title="USA",[US]Nickelodeon_HD-US
 http://mhav1.com:2095/live/ht2990/742579548/4951.ts
-

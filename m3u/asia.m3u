@@ -87,6 +87,9 @@ http://182.150.23.74:808/hls/11/index.m3u8
 http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
+http://23.237.228.134/live3/CCTV12.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
 http://183.11.239.36:808/hls/30/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
@@ -94,9 +97,6 @@ http://120.76.248.139/live/bfgd/4200000131.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
 http://112.46.85.60:8009/hls/507/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
-https://piccpndali.v.myalicdn.com/audio/cctv12_2.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV13
 http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
@@ -168,10 +168,10 @@ http://183.11.239.36:808/hls/35/index.m3u8
 http://120.76.248.139/live/bfgd/4200000204.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV17
-http://222.169.85.8:9901/tsfile/live/0007_1.m3u8
+https://piccpndali.v.myalicdn.com/audio/cctv17_2.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV17
-https://piccpndali.v.myalicdn.com/audio/cctv17_2.m3u8
+http://123.130.84.106:8154/tsfile/live/0019_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV2
 http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
@@ -1051,16 +1051,13 @@ http://38.224.175.2:8000/play/a04f/index.m3u8
 http://181.78.17.52:8000/play/a0s7/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/Azteca_Cinema_Logo_2023.svg/revision/latest/scale-to-width-down/280?cb=20230707174037" group-title="Mixed",AZCINEMA
-http://200.115.120.1:8000/play/ca132/index.m3u8
+http://45.173.201.51:4000/play/a0rg/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/72RBXLk/cinemax.png" group-title="Mixed",CINEMAX
 http://38.226.210.46:8000/play/a02f/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://th.bing.com/th/id/R.7446f227527b5082427fc9e32ba65a8e?rik=10qKysXSMsYRKQ&pid=ImgRaw&r=0" group-title="Mixed",CLARO CINEMA
-http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/278469.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5ea862a8804f7204dfbb35fb/1588706464915-TZGC0SHVP2DJG9OSKEVT/network_cinemadinamita.png" group-title="Mixed",CINEMA DINAMITA
-http://xcm.budtv-ultra.com:9000/budtv/budtvline/8Y3ymUpJESps/158780.m3u8
+http://181.78.192.238:8000/play/a1sy/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kBS1sFh/star-channel.png" group-title="Mixed",STAR CHANNEL
 http://38.224.73.146:8000/play/a1b9/index.m3u8

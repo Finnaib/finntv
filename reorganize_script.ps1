@@ -39,7 +39,16 @@ foreach ($line in $lines[1..($lines.Length - 1)]) {
 
 # Build output with category separators
 $output = @($header, '')
-$sortedCategories = $categoriesMap.Keys | Sort-Object
+# Define preferred order
+$preferredOrder = @{
+    "India" = 1
+    "Pakistan" = 2
+    "Bangladesh" = 3
+}
+
+$sortedCategories = $categoriesMap.Keys | Sort-Object {
+    if ($preferredOrder.ContainsKey($_)) { $preferredOrder[$_] } else { 100 }
+}, { $_ }
 
 foreach ($category in $sortedCategories) {
     $count = $categoriesMap[$category].Count / 2
