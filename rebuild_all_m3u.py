@@ -1,8 +1,13 @@
 """
-rebuild_all_m3u.py - Rebuilds india, usa, sport M3U files using the updated group names from the new mhav1 feed.
+rebuild_all_m3u.py - Rebuilds india, world, sport M3U files using the updated group names from the new mhav1 feed.
 """
 import re, sys
-sys.stdout.reconfigure(encoding='utf-8')
+# Reconfigure stdout for UTF-8 dynamically to avoid lint errors
+if hasattr(sys.stdout, 'reconfigure'):
+    getattr(sys.stdout, 'reconfigure')(encoding='utf-8')
+else:
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 with open('m3u/live.m3u', 'r', encoding='utf-8') as f:
     live_lines = f.read().splitlines()
@@ -37,9 +42,9 @@ def write_m3u(out_path, sections_ordered, channels_by_section):
                 ec = re.sub(r'group-title="[^"]*"', f'group-title="{section}"', extinf)
                 deduped.append((ec, url))
         if not deduped: continue
-        lines += ['#' * 80, f'# {section}', '#' * 80, '']
+        lines.extend(['#' * 80, f'# {section}', '#' * 80, ''])
         for ec, url in deduped:
-            lines += [ec, url, '']
+            lines.extend([ec, url, ''])
         total += len(deduped)
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
@@ -55,24 +60,21 @@ for ch in catalog:
     nl = ch['name'].lower()
     
     if 'pakistani' in gl:
-        india.setdefault('Pakistan', []).append((ch['extinf'], ch['url']))
+        section = 'Pakistan'
+        if section not in india: india[section] = []
+        india[section].append((ch['extinf'], ch['url']))
     elif 'india' in gl:
         # Check if Bangla
-        if 'bangla' in nl or ch['name'].startswith('BD:'):
-            india.setdefault('Bangladesh', []).append((ch['extinf'], ch['url']))
-        else:
-            india.setdefault('India', []).append((ch['extinf'], ch['url']))
-    # Include Afghan just in case
-    elif 'afghan' in gl:
-        india.setdefault('Afghanistan', []).append((ch['extinf'], ch['url']))
-
-write_m3u('m3u/india.m3u', ['India', 'Pakistan', 'Bangladesh', 'Afghanistan'], india)
+        section = 'Bangladesh' if ('bangla' in nl or ch['name'].startswith('BD:')) else 'India'
+        if section not in india: india[section] = []
+        india[section].append((ch['extinf'], ch['url']))
+write_m3u('m3u/india.m3u', ['India', 'Pakistan', 'Bangladesh'], india)
 
 # ════════════════════════════════════════════════════════════════════════════
-# 2. USA.M3U - Updated group names
+# 2. WORLD.M3U - Updated group names
 # ════════════════════════════════════════════════════════════════════════════
-usa = {}
-USA_SECTIONS = {
+world = {}
+WORLD_SECTIONS = {
     'u s a':      'USA',
     'u k':        'UK',
     'canada':     'Canada',
@@ -96,11 +98,12 @@ USA_SECTIONS = {
 
 for ch in catalog:
     gl = ch['group'].lower()
-    friendly = USA_SECTIONS.get(gl)
+    friendly = WORLD_SECTIONS.get(gl)
     if friendly:
-        usa.setdefault(friendly, []).append((ch['extinf'], ch['url']))
+        if friendly not in world: world[friendly] = []
+        world[friendly].append((ch['extinf'], ch['url']))
 
-write_m3u('m3u/usa.m3u', sorted(USA_SECTIONS.values()), usa)
+write_m3u('m3u/world.m3u', sorted(WORLD_SECTIONS.values()), world)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 3. SPORT.M3U
@@ -125,6 +128,7 @@ SPORT_GROUP_MAP = {
 for ch in catalog:
     friendly = SPORT_GROUP_MAP.get(ch['group'])
     if friendly:
-        sport.setdefault(friendly, []).append((ch['extinf'], ch['url']))
+        if friendly not in sport: sport[friendly] = []
+        sport[friendly].append((ch['extinf'], ch['url']))
 
 write_m3u('m3u/sport.m3u', sorted(SPORT_GROUP_MAP.values()), sport)
