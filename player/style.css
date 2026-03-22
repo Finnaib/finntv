@@ -7,7 +7,7 @@ body, html {
     background: radial-gradient(ellipse at top right, #0a1435 0%, #03050c 100%);
     background-attachment: fixed;
     color: #ffffff;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', "Outfit", sans-serif;
     overflow: hidden; /* Lock the viewport for Vita fixed layout */
     -webkit-overflow-scrolling: touch; 
 }
@@ -184,7 +184,7 @@ body, html {
     background: rgba(0,0,0,0.2);
     color: #fff;
     font-size: 16px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', "Outfit", sans-serif;
     transition: border-color 0.2s;
 }
 
@@ -208,7 +208,7 @@ body, html {
     background: rgba(0,0,0,0.2);
     color: #fff;
     font-size: 14px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', "Outfit", sans-serif;
 }
 
 .sync-box button {
@@ -331,7 +331,7 @@ body, html {
     font-weight: 800;
     font-size: 15px;
     cursor: pointer;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', "Outfit", sans-serif;
     transition: background-color 0.2s;
 }
 
