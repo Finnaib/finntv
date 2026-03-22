@@ -256,109 +256,67 @@ document.addEventListener('DOMContentLoaded', function() {
         var lowerUrl = channel.url.toLowerCase();
         var isTS = lowerUrl.indexOf('.ts') !== -1;
         var isVOD = lowerUrl.indexOf('.mp4') !== -1 || lowerUrl.indexOf('.mkv') !== -1 || lowerUrl.indexOf('.avi') !== -1;
+        var isXtream = lowerUrl.indexOf('/live/') !== -1;
 
-        if (window.Hls && Hls.isSupported() && !isTS && !isVOD) {
-            
-            function initHlsLayer(proxyProvider) {
-                var config = {
-                    enableWorker: true,
-                    xhrSetup: function(xhr, url) {
-                        try {
-                            if (proxyProvider === 'internal') {
-                                var encodedUrl = encodeURIComponent(safeBtoa(url));
-                                xhr.open('GET', '/api/stream_proxy.php?url=' + encodedUrl, true);
-                            } else if (proxyProvider === 'corsproxy') {
-                                if (url.indexOf('corsproxy.io') === -1) {
-                                    xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
-                                }
-                            } else if (proxyProvider === 'allorigins') {
-                                if (url.indexOf('allorigins.win') === -1) {
-                                    xhr.open('GET', 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url), true);
-                                }
-                            }
-                        } catch (e) {
-                            console.error("Proxy setup failed:", e);
-                        }
-                    }
-                };
-                
-                hls = new Hls(config);
-                
-                hls.on(Hls.Events.ERROR, function(evt, data) {
-                    if (data.fatal) {
-                        if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
-                            if (!proxyProvider) {
-                                channelNameHeader.innerText = 'Unlocking Stream...';
-                                hls.destroy();
-                                initHlsLayer('internal');
-                            } else if (proxyProvider === 'internal') {
-                                channelNameHeader.innerText = 'Bypassing Block...';
-                                hls.destroy();
-                                initHlsLayer('corsproxy');
-                            } else if (proxyProvider === 'corsproxy') {
-                                channelNameHeader.innerText = 'Final Attempt...';
-                                hls.destroy();
-                                initHlsLayer('allorigins');
-                            } else {
-                                channelNameHeader.innerText = 'Stream Blocked';
-                                channelGroupText.innerText = 'Try raw link if available';
-                            }
-                        } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
-                            if (isH265) {
-                                channelNameHeader.innerText = 'Codec Error (H.265)';
-                                channelGroupText.innerText = 'Try a lower quality (SD) link';
-                            } else {
-                                channelNameHeader.innerText = 'Media Format Error';
-                                channelGroupText.innerText = 'Check if stream is active';
-                            }
-                            hls.destroy();
-                        } else {
-                            channelNameHeader.innerText = 'Fatal Player Error';
-                            channelGroupText.innerText = data.type;
-                            hls.destroy();
-                        }
+        // Determine the ultimate player source
+        var proxiedUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
+        var finalUrl = (isVita && !isXtream) ? channel.url : proxiedUrl;
+        
+        // Final "VLC Mode" Initialization - Professional Grade Player
+        if (typeof videojs !== 'undefined') {
+            try {
+                // If a player exists, dispose of it properly to reset hardware resources
+                var oldPlayer = videojs.getPlayer('video-player');
+                if (oldPlayer) {
+                    oldPlayer.dispose();
+                    // Reinject the video element into the DOM (Dispose removes it)
+                    var wrapper = document.querySelector('.player-wrapper');
+                    var newVideo = document.createElement('video');
+                    newVideo.id = 'video-player';
+                    newVideo.className = 'video-js vjs-default-skin vjs-big-play-centered';
+                    newVideo.setAttribute('controls', 'true');
+                    newVideo.setAttribute('preload', 'auto');
+                    newVideo.style.position = 'absolute';
+                    newVideo.style.top = '0';
+                    newVideo.style.left = '0';
+                    newVideo.style.width = '100%';
+                    newVideo.style.height = '100%';
+                    wrapper.appendChild(newVideo);
+                }
+
+                var player = videojs('video-player', {
+                    fluid: true,
+                    responsive: true,
+                    html5: {
+                        vhs: { overrideNative: !isVita }, // Force JS unblocking on non-Vita, use hardware on Vita
+                        nativeAudioTracks: false,
+                        nativeVideoTracks: false
                     }
                 });
-                
-                hls.loadSource(channel.url);
-                hls.attachMedia(videoPlayer);
-                hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                    channelNameHeader.innerText = channel.title;
-                    var p = videoPlayer.play();
-                    if (p && p.catch) p.catch(function(){});
+
+                player.src({
+                    src: finalUrl,
+                    type: isTS ? 'video/mp2t' : 'application/x-mpegURL'
                 });
+
+                player.on('error', function() {
+                    channelNameHeader.innerText = 'Sync Crash';
+                    channelGroupText.innerHTML = 'Bridge failed | <a href="' + channel.url + '" target="_blank" style="color:#00e1ff">TRY VLC DIRECT</a>';
+                });
+
+                player.play();
+                channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
+                channelGroupText.innerHTML = isXtream ? 'VLC-Bridge unblocking active' : 'Stable hardware path active';
+                
+            } catch (e) {
+                console.error("VideoJS Crash:", e);
+                videoPlayer.src = finalUrl;
+                videoPlayer.play();
             }
-            
-            // Start direct
-            initHlsLayer(null);
-            
-        } 
-        else {
-            // NATIVE UNIVERSAL HANDLER (MP4, TS, VOD, Vita, Safari)
-            // For Xtream links (/live/), we MUST use the proxy to spoof VLC User-Agent!
-            var isXtream = lowerUrl.indexOf('/live/') !== -1;
-            var proxiedUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
-            var finalNativeUrl = (isVita && !isXtream) ? channel.url : proxiedUrl;
-            
-            videoPlayer.pause();
-            videoPlayer.innerHTML = 
-                '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
-                '<source src="' + finalNativeUrl + '" type="application/x-mpegURL">' +
-                '<source src="' + finalNativeUrl + '" type="video/mpeg">' +
-                '<source src="' + channel.url + '" type="video/mp2t">'; // Fallback to direct link
-            
-            videoPlayer.load();
-            var p = videoPlayer.play();
-            if (p && p.catch) p.catch(function(){});
-            
-            channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
-            
-            if (isVita) {
-                var directBtn = '<a href="' + channel.url + '" target="_blank" style="display:inline-block; margin-top:5px; background:#00e1ff; color:#000; padding:2px 8px; border-radius:4px; font-weight:800; text-decoration:none;">LAUNCH SOURCE</a>';
-                channelGroupText.innerHTML = 'System Bridge Active ' + (isXtream ? '(Proxied)' : '(Direct)') + '<br>' + directBtn;
-            } else if (isTS) {
-                channelGroupText.innerText = 'Streaming .TS via Bridge';
-            }
+        } else {
+            // Emergency fallback if library fails to load
+            videoPlayer.src = finalUrl;
+            videoPlayer.play();
         }
     }
 });
