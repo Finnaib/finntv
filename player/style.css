@@ -58,17 +58,17 @@ body, html {
     border-radius: 6px;
 }
 
-/* SPLIT LAYOUT - Using Table for maximum Vita compatibility */
+/* SPLIT LAYOUT - Robust Pane Layout */
 .split-layout {
-    display: table;
-    table-layout: fixed;
     width: 100%;
     height: calc(100vh - 60px); /* Height minus navbar */
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 .left-pane {
-    display: table-cell;
-    vertical-align: top;
+    float: left;
     width: 60%;
     height: 100%;
     padding: 20px;
@@ -77,24 +77,28 @@ body, html {
 }
 
 .right-pane {
-    display: table-cell;
-    vertical-align: top;
+    float: left;
     width: 40%;
     height: 100%;
     padding: 20px 20px 20px 0;
+    overflow: hidden; /* Content section handles the inner scroll */
 }
 
 /* RESPONSIVE DESIGN FOR PORTRAIT / PHONES */
 @media (max-width: 850px) {
+    body, html {
+        overflow-y: auto; /* Enable page scrolling on mobile */
+    }
     .app-container {
         height: auto;
     }
     .split-layout {
         display: block;
         height: auto;
+        overflow: visible;
     }
     .left-pane, .right-pane {
-        display: block;
+        float: none;
         width: 100%;
         height: auto;
         padding: 15px;

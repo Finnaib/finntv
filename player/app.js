@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
         element.className = 'channel-card active';
         activeElement = element;
 
-        channelNameHeader.innerText = 'Tuning...';
+        channelNameHeader.innerText = 'Connecting...';
         channelGroupText.innerText = channel.group;
 
         window.scrollTo(0, 0);
@@ -234,36 +234,58 @@ document.addEventListener('DOMContentLoaded', function() {
             hls = null;
         }
 
+        // Detect H.265 from name
+        var isH265 = channel.title.toLowerCase().indexOf('h265') !== -1 || channel.title.toLowerCase().indexOf('hevc') !== -1;
+
         if (window.Hls && Hls.isSupported()) {
             
-            function initHls(useProxy) {
-                var config = {};
-                
-                // If standard fetch fails due to CORS, intercept all XHRs and route via CORS proxy
-                if (useProxy) {
-                    config.xhrSetup = function(xhr, url) {
-                        // Avoid double-proxying
-                        if (url.indexOf('corsproxy.io') === -1) {
-                            xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
+            function initHlsLayer(proxyProvider) {
+                var config = {
+                    enableWorker: true,
+                    xhrSetup: function(xhr, url) {
+                        if (proxyProvider === 'corsproxy') {
+                            if (url.indexOf('corsproxy.io') === -1) {
+                                xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
+                            }
+                        } else if (proxyProvider === 'allorigins') {
+                            if (url.indexOf('allorigins.win') === -1) {
+                                xhr.open('GET', 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url), true);
+                            }
                         }
-                    };
-                }
+                    }
+                };
                 
                 hls = new Hls(config);
                 
                 hls.on(Hls.Events.ERROR, function(evt, data) {
                     if (data.fatal) {
-                        // Automatically fall back to Proxy on first Network/CORS Error
-                        if (data.type === Hls.ErrorTypes.NETWORK_ERROR && !useProxy) {
-                            channelNameHeader.innerText = 'CORS Blocked. Bypassing...';
-                            channelGroupText.innerText = 'Routing via Secure Proxy';
+                        if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+                            if (!proxyProvider) {
+                                channelNameHeader.innerText = 'CORS Blocked. Bypassing...';
+                                hls.destroy();
+                                initHlsLayer('corsproxy');
+                            } else if (proxyProvider === 'corsproxy') {
+                                channelNameHeader.innerText = 'Retrying via Node-2...';
+                                hls.destroy();
+                                initHlsLayer('allorigins');
+                            } else {
+                                channelNameHeader.innerText = 'Stream Blocked / Offline';
+                                channelGroupText.innerText = 'Network error beyond bypass';
+                            }
+                        } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+                            if (isH265) {
+                                channelNameHeader.innerText = 'Codec Error (H.265)';
+                                channelGroupText.innerText = 'Browser lacks HEVC hardware support';
+                            } else {
+                                channelNameHeader.innerText = 'Media Format Error';
+                                channelGroupText.innerText = 'Fatal playback error';
+                            }
                             hls.destroy();
-                            initHls(true); // Retry with proxy enabled
-                            return;
+                        } else {
+                            channelNameHeader.innerText = 'Fatal Player Error';
+                            channelGroupText.innerText = data.type;
+                            hls.destroy();
                         }
-                        
-                        channelNameHeader.innerText = 'Stream Offline / Blocked';
-                        channelGroupText.innerText = data.type;
                     }
                 });
                 
@@ -276,11 +298,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
             
-            // Start without proxy to save latency/bandwidth
-            initHls(false);
+            // Start direct
+            initHlsLayer(null);
             
         } 
         else {
+            // NATIVE FALLBACK (Vita/Safari)
             videoPlayer.innerHTML = 
                 '<source src="' + channel.url + '" type="application/vnd.apple.mpegurl">' +
                 '<source src="' + channel.url + '" type="application/x-mpegURL">';
@@ -288,7 +311,8 @@ document.addEventListener('DOMContentLoaded', function() {
             var p = videoPlayer.play();
             if (p && p.catch) p.catch(function(){});
             
-            channelNameHeader.innerText = channel.title;
+            channelNameHeader.innerText = (isH265 ? '⚠️ ' : '') + channel.title;
+            if (isH265) channelGroupText.innerText = 'H.265 may not play on Vita';
         }
     }
 });
