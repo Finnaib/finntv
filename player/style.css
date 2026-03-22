@@ -1,14 +1,16 @@
-/* style.css v11 - PS Vita Precision Edition (960x544 optimized) */
+/* style.css v12 - Ultra-Stable PS Vita Legacy Layout (960x544) */
 
 body, html {
     margin: 0;
     padding: 0;
-    background: #050814;
+    width: 100%;
+    height: 100%;
+    background: #060913;
     background: radial-gradient(ellipse at top right, #0d1b3e 0%, #03050c 100%);
     background-attachment: fixed;
     color: #ffffff;
     font-family: 'Outfit', sans-serif;
-    overflow: hidden; /* Lock viewport for app feel */
+    overflow: hidden; /* Lock the screen for app experience */
 }
 
 * {
@@ -18,92 +20,92 @@ body, html {
 
 .app-container {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #03050c;
 }
 
-/* NAVBAR - Compact for Vita (50px) */
+/* NAVBAR - Using Floats for maximum stability */
 .navbar {
     width: 100%;
-    height: 50px;
-    background: rgba(4, 9, 20, 0.9);
-    border-bottom: 1px solid rgba(0, 225, 255, 0.1);
+    height: 44px; /* Sony standard height */
+    background: rgba(4, 9, 20, 0.95);
+    border-bottom: 1px solid rgba(0, 225, 255, 0.2);
     padding: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .nav-logo {
+    float: left;
     font-size: 18px;
     font-weight: 800;
     color: #ffffff;
-    display: flex;
-    align-items: center;
+    line-height: 44px;
+    letter-spacing: -0.5px;
 }
 
 .nav-subtitle {
+    float: right;
     font-size: 10px;
     font-weight: 800;
     color: #00e1ff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: rgba(0, 225, 255, 0.1);
+    background: rgba(0, 225, 255, 0.15);
+    margin-top: 10px;
     padding: 2px 8px;
     border-radius: 4px;
+    border: 1px solid rgba(0, 225, 255, 0.2);
 }
 
-/* SPLIT LAYOUT - Flex for better distribution */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* SPLIT LAYOUT - Using TABLE for guaranteed pixel-perfect side-by-side */
 .split-layout {
-    display: flex;
-    flex: 1;
+    display: table;
+    table-layout: fixed;
     width: 100%;
-    overflow: hidden;
+    height: calc(100% - 44px);
+    border-collapse: collapse;
 }
 
 .left-pane {
-    width: 58%;
+    display: table-cell;
+    vertical-align: top;
+    width: 60%;
     height: 100%;
-    padding: 12px;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 .right-pane {
-    width: 42%;
+    display: table-cell;
+    vertical-align: top;
+    border-left: 1px solid rgba(255,255,255,0.05);
+    width: 40%;
     height: 100%;
-    padding: 12px 12px 12px 0;
-    overflow: hidden;
+    background: rgba(0,0,0,0.4);
+    overflow: hidden; /* Inner scroller handles this */
 }
 
-/* RESPONSIVE DESIGN FOR PORTRAIT / PHONES */
-@media (max-width: 850px) {
-    body, html {
-        overflow-y: auto;
-    }
-    .app-container {
-        height: auto;
-    }
-    .split-layout {
-        flex-direction: column;
-        height: auto;
-        overflow: visible;
-    }
-    .left-pane, .right-pane {
-        width: 100%;
-        height: auto;
-        padding: 12px;
-        overflow: visible;
-    }
+/* MOBILE OVERRIDE */
+@media (max-width: 800px) {
+    body, html { overflow-y: auto; }
+    .split-layout { display: block; height: auto; }
+    .left-pane, .right-pane { display: block; width: 100%; height: auto; padding: 15px; border: none; }
 }
 
-/* PLAYER AREA */
+/* LEFT PANE CONTENT */
 .hero-section {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .player-wrapper {
@@ -111,9 +113,9 @@ body, html {
     width: 100%;
     background: #000;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
 }
 
 #video-player {
@@ -129,13 +131,13 @@ body, html {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
-    padding: 30px 15px 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);
+    padding: 20px 15px 8px;
     pointer-events: none;
 }
 
 #channel-name {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 800;
     margin: 0;
     color: #fff;
@@ -145,144 +147,137 @@ body, html {
 }
 
 #status-text {
-    font-size: 11px;
+    font-size: 10px;
     color: #00e1ff;
-    margin: 0;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-/* ACTIONS - Compact for Vita */
+/* ACTION BAR (Left Pane) */
 .action-bar {
     width: 100%;
-    margin-bottom: 12px;
-    background: rgba(14, 23, 46, 0.4);
+    background: rgba(255,255,255,0.03);
     padding: 12px;
     border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.05);
 }
 
 .search-box {
-    width: 100%;
     margin-bottom: 8px;
 }
 
-.search-box input {
+#search-input, .sync-input-wrapper input {
     width: 100%;
-    height: 40px;
-    padding: 0 12px;
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 8px;
-    background: rgba(0,0,0,0.3);
+    height: 38px;
+    background: #000;
+    border: 1px solid #333;
+    border-radius: 6px;
     color: #fff;
+    padding: 0 10px;
     font-size: 14px;
     font-family: inherit;
 }
 
+#search-input:focus, .sync-input-wrapper input:focus {
+    border-color: #00e1ff;
+    outline: none;
+}
+
 .sync-row {
-    display: flex;
-    gap: 8px;
+    display: block;
+    width: 100%;
 }
 
 .sync-input-wrapper {
-    flex: 1;
-}
-
-.sync-input-wrapper input {
-    width: 100%;
-    height: 40px;
-    padding: 0 12px;
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 8px;
-    background: rgba(0,0,0,0.3);
-    color: #fff;
-    font-size: 12px;
+    float: left;
+    width: 75%;
 }
 
 #load-btn {
-    width: 80px;
-    height: 40px;
+    float: left;
+    width: 25%;
+    height: 38px;
     background: linear-gradient(135deg, #0073ff, #00d4ff);
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 0 6px 6px 0;
     font-weight: 800;
     font-size: 13px;
     cursor: pointer;
-    text-transform: uppercase;
+}
+
+.sync-input-wrapper input {
+    border-radius: 6px 0 0 6px;
 }
 
 .left-footer-info {
     text-align: center;
     color: rgba(255,255,255,0.2);
-    font-size: 10px;
+    font-size: 9px;
+    margin-top: 10px;
 }
 
-/* RIGHT PANE - CHANNELS */
+/* RIGHT PANE CONTENT */
 .content-section {
     width: 100%;
     height: 100%;
-    background: rgba(14, 23, 46, 0.5);
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.04);
-    padding: 12px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .section-header {
-    margin-bottom: 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 8px;
 }
 
 .section-title {
-    font-size: 16px;
+    float: left;
+    font-size: 15px;
     font-weight: 800;
-    color: #fff;
-    margin: 0;
+    line-height: 30px;
 }
 
 .channel-badge {
-    background: rgba(0, 225, 255, 0.1);
-    color: #00e1ff;
-    padding: 2px 8px;
-    border-radius: 6px;
-    font-size: 11px;
+    float: right;
+    background: #00d4ff;
+    color: #000;
+    padding: 0 8px;
+    height: 18px;
+    line-height:18px;
+    border-radius: 4px;
+    font-size: 10px;
     font-weight: 800;
-    border: 1px solid rgba(0, 225, 255, 0.2);
+    margin-top: 6px;
 }
 
-/* Optimized Scrolling for Vita Chrome */
 .channel-grid {
     flex: 1;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    padding-right: 4px;
 }
 
 .channel-card {
-    width: 100%;
-    margin-bottom: 8px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 10px;
-    padding: 10px 12px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
     cursor: pointer;
 }
 
+.channel-card:active {
+    background: #1a6bb3;
+}
+
 .channel-card.active {
-    background: linear-gradient(90deg, rgba(0, 115, 255, 0.15) 0%, rgba(0, 212, 255, 0.05) 100%);
     border-color: #00d4ff;
+    background: rgba(0, 212, 255, 0.1);
 }
 
 .card-title {
     font-weight: 800;
-    font-size: 14px;
-    color: #fff;
+    font-size: 13px;
     margin-bottom: 2px;
     white-space: nowrap;
     overflow: hidden;
@@ -290,36 +285,31 @@ body, html {
 }
 
 .card-group {
-    font-size: 10px;
-    color: #8fa6c7;
-    font-weight: 700;
+    font-size: 9px;
+    color: #6b82a3;
     text-transform: uppercase;
-}
-
-#pagination-container {
-    padding-top: 8px;
+    font-weight: 700;
 }
 
 #load-more-btn {
     width: 100%;
     height: 36px;
-    background: rgba(255,255,255,0.05);
+    background: #111;
+    border: 1px solid #333;
     color: #fff;
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 8px;
-    font-weight: 800;
+    border-radius: 6px;
     font-size: 12px;
+    font-weight: 800;
     cursor: pointer;
+    margin-top: 10px;
 }
 
+/* Custom Message */
 .message {
     text-align: center;
-    padding: 30px 10px;
-    color: #8fa6c7;
-    font-size: 13px;
+    padding: 40px 10px;
+    color: #6b82a3;
+    font-size: 12px;
 }
 
-.message-icon {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
+.message-icon { font-size: 24px; margin-bottom: 5px; }
