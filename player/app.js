@@ -172,13 +172,31 @@ document.addEventListener('DOMContentLoaded', function() {
         var proxiedUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
         var finalUrl = (isVita && !isXtream) ? channel.url : proxiedUrl;
 
-        // PATH 1: VLC-ENGINE (MPEGTS.js for raw .ts)
+        // Path 1: VLC-ENGINE (MPEGTS.js for raw .ts)
         if (isTS && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
-            flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: finalUrl });
-            flvPlayer.attachMediaElement(videoPlayer);
-            flvPlayer.load();
-            flvPlayer.play();
-            channelNameHeader.innerText = '📺 (VLC-Mode) ' + channel.title;
+            try {
+                flvPlayer = mpegts.createPlayer({
+                    type: 'mse',
+                    isLive: true,
+                    url: finalUrl,
+                    cors: true,
+                    enableWorker: true,
+                    enableStashBuffer: false,
+                    lazyLoad: false
+                }, {
+                    reusePlayer: true,
+                    autoCleanupSourceBuffer: true
+                });
+                flvPlayer.attachMediaElement(videoPlayer);
+                flvPlayer.load();
+                var p = flvPlayer.play();
+                if (p && p.catch) p.catch(function(){});
+                channelNameHeader.innerText = '📺 (VLC-Mode) ' + channel.title;
+            } catch (e) {
+                console.error("MPEGTS Crash:", e);
+                videoPlayer.src = finalUrl;
+                videoPlayer.play();
+            }
         } 
         // PATH 2: HLS-ENGINE (HLS.js for .m3u8)
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
