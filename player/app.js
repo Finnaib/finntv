@@ -328,7 +328,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         else {
             // NATIVE FALLBACK (.ts links or browsers like Vita/Safari)
-            var finalNativeUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
+            // On Vita, we avoid the 4.5MB Vercel Proxy limit by playing DIRECTLY!
+            var finalNativeUrl = isVita ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
             
             videoPlayer.innerHTML = 
                 '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
