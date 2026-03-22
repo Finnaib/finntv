@@ -14,7 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var channels = [];
     var filteredChannels = [];
     var activeElement = null;
+    
+    // Core Streaming Engines
     var hls = null;
+    var dashPlayer = null;
+    var tsPlayer = null;
+
     var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
     var renderIndex = 0;
     var RENDER_CHUNK_SIZE = 50; 
@@ -229,22 +234,86 @@ document.addEventListener('DOMContentLoaded', function() {
 
         window.scrollTo(0, 0);
 
-        if (hls) {
-            hls.destroy();
-            hls = null;
+        // Core Cleanup - Destroy ALL active streaming engines before loading the new one
+        if (hls) { hls.destroy(); hls = null; }
+        if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; }
+        if (tsPlayer) { tsPlayer.destroy(); tsPlayer = null; }
+        
+        videoPlayer.removeAttribute('src');
+        videoPlayer.load();
+
+        var urlLower = channel.url.split('?')[0].toLowerCase();
+
+        // 1. DASH Native Handling (.mpd)
+        if (urlLower.indexOf('.mpd') !== -1) {
+            if (!window.dashjs) {
+                channelNameHeader.innerText = 'Downloading DASH.js Engine...';
+                var script = document.createElement('script');
+                script.src = 'https://cdn.dashjs.org/latest/dash.all.min.js';
+                script.onload = function() {
+                    dashPlayer = dashjs.MediaPlayer().create();
+                    dashPlayer.initialize(videoPlayer, channel.url, true);
+                    channelNameHeader.innerText = channel.title;
+                };
+                document.head.appendChild(script);
+            } else {
+                dashPlayer = dashjs.MediaPlayer().create();
+                dashPlayer.initialize(videoPlayer, channel.url, true);
+                channelNameHeader.innerText = channel.title;
+            }
+            return;
         }
 
+        // 2. Raw MPEG-TS Handling (.ts)
+        else if (urlLower.indexOf('.ts') !== -1 && !isVita) {
+            if (!window.mpegts) {
+                channelNameHeader.innerText = 'Downloading MPEG-TS Engine...';
+                var script = document.createElement('script');
+                script.src = 'https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js';
+                script.onload = function() {
+                    if (mpegts.getFeatureList().mseLivePlayback) {
+                        tsPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url });
+                        tsPlayer.attachMediaElement(videoPlayer);
+                        tsPlayer.load();
+                        tsPlayer.play().catch(function(){});
+                        channelNameHeader.innerText = channel.title;
+                    } else {
+                        channelNameHeader.innerText = 'MPEG-TS Unsupported on Browser';
+                    }
+                };
+                document.head.appendChild(script);
+            } else {
+                tsPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: channel.url });
+                tsPlayer.attachMediaElement(videoPlayer);
+                tsPlayer.load();
+                tsPlayer.play().catch(function(){});
+                channelNameHeader.innerText = channel.title;
+            }
+            return;
+        }
+
+        // 3. VOD / MP4 / Native HTML5 Video Handling (.mp4, .mkv, .webm)
+        else if (urlLower.indexOf('.mp4') !== -1 || urlLower.indexOf('.mkv') !== -1 || urlLower.indexOf('.webm') !== -1 || urlLower.indexOf('.ogg') !== -1) {
+            videoPlayer.src = channel.url;
+            videoPlayer.play().catch(function(){});
+            channelNameHeader.innerText = channel.title;
+            return;
+        }
+
+        // 4. Default HLS Handling (.m3u8 & Extensions)
         if (window.Hls && Hls.isSupported()) {
             
             function initHls(useProxy) {
                 var config = {};
                 
-                // If standard fetch fails due to CORS, intercept all XHRs and route via CORS proxy
+                // If standard fetch fails due to CORS, intercept all XHRs and route via Vercel Stream Proxy
                 if (useProxy) {
                     config.xhrSetup = function(xhr, url) {
-                        // Avoid double-proxying
-                        if (url.indexOf('corsproxy.io') === -1) {
-                            xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
+                        if (url.indexOf('stream_proxy.php') === -1) {
+                            var b64Url = btoa(unescape(encodeURIComponent(url)));
+                            xhr.open('GET', '/api/stream_proxy.php?url=' + encodeURIComponent(b64Url), true);
+                        } else {
+                            xhr.open('GET', url, true);
                         }
                     };
                 }
@@ -253,10 +322,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 hls.on(Hls.Events.ERROR, function(evt, data) {
                     if (data.fatal) {
-                        // Automatically fall back to Proxy on first Network/CORS Error
+                        // Automatically fall back to Vercel Local Proxy on first Network/CORS Error
                         if (data.type === Hls.ErrorTypes.NETWORK_ERROR && !useProxy) {
-                            channelNameHeader.innerText = 'CORS Blocked. Bypassing...';
-                            channelGroupText.innerText = 'Routing via Secure Proxy';
+                            channelNameHeader.innerText = 'Mixed-Content Blocked. Rerouting...';
+                            channelGroupText.innerText = 'Connecting via FINNTV Cloud Proxy';
                             hls.destroy();
                             initHls(true); // Retry with proxy enabled
                             return;
@@ -267,7 +336,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 });
                 
-                hls.loadSource(channel.url);
+                // If proxying, we also need to route the initial manifest through the proxy
+                var sourceUrl = channel.url;
+                if (useProxy && sourceUrl.indexOf('stream_proxy.php') === -1) {
+                    var initialB64 = btoa(unescape(encodeURIComponent(sourceUrl)));
+                    sourceUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(initialB64);
+                }
+                
+                hls.loadSource(sourceUrl);
                 hls.attachMedia(videoPlayer);
                 hls.on(Hls.Events.MANIFEST_PARSED, function() {
                     channelNameHeader.innerText = channel.title;
