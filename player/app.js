@@ -82,12 +82,26 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput.addEventListener('keyup', runSearch, false);
     searchInput.addEventListener('input', runSearch, false);
 
-    // Video Error Handling
-    videoPlayer.addEventListener('error', function() {
+    // Video Error Handling - Smarter detection
+    videoPlayer.addEventListener('error', function(e) {
         var err = videoPlayer.error ? videoPlayer.error.code : 'Unknown';
-        channelNameHeader.innerText = 'Crash (Code ' + err + ')';
-        channelGroupText.innerText = 'Codec unsupported or network block';
+        var msg = 'Network or Sync Error';
+        if (err === 3 || err === 4) msg = 'Unsupported Codec/Format';
+        channelNameHeader.innerText = 'Player Error ' + err;
+        channelGroupText.innerText = msg + ' (Check site for updates)';
     }, true);
+
+    function safeBtoa(str) {
+        try {
+            return btoa(str);
+        } catch (e) {
+            try {
+                return btoa(unescape(encodeURIComponent(str)));
+            } catch (e2) {
+                return '';
+            }
+        }
+    }
 
     function fetchM3U(url) {
         channelListContainer.innerHTML = '<div class="message">Connecting...</div>';
@@ -244,7 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     xhrSetup: function(xhr, url) {
                         try {
                             if (proxyProvider === 'internal') {
-                                var encodedUrl = encodeURIComponent(btoa(url));
+                                var encodedUrl = encodeURIComponent(safeBtoa(url));
                                 xhr.open('GET', '/api/stream_proxy.php?url=' + encodedUrl, true);
                             } else if (proxyProvider === 'corsproxy') {
                                 if (url.indexOf('corsproxy.io') === -1) {
@@ -314,7 +328,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         else {
             // NATIVE FALLBACK (.ts links or browsers like Vita/Safari)
-            var finalNativeUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(btoa(channel.url));
+            var finalNativeUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
             
             videoPlayer.innerHTML = 
                 '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
