@@ -1,176 +1,104 @@
-/* style.css v13 - PS Vita Ultimate Stable V2 (Floats & Fixed Calculations) */
+/* style.css v15 - Premium IPTV UI Redesign */
 
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background: #060913;
-    background: radial-gradient(ellipse at top right, #0d1b3e 0%, #03050c 100%);
-    background-attachment: fixed;
-    color: #ffffff;
-    font-family: 'Outfit', sans-serif;
-    overflow: hidden;
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background: #02040a;
+    background: radial-gradient(circle at top right, #0a1329 0%, #02040a 100%);
+    color: #ffffff; font-family: 'Outfit', sans-serif; overflow: hidden;
 }
 
-* {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-.app-container {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    background: #03050c;
-}
+.app-container { width: 100%; height: 100%; overflow: hidden; position: relative; }
 
 .navbar {
-    width: 100%;
-    height: 44px;
-    background: rgba(4, 9, 20, 0.95);
-    border-bottom: 1px solid rgba(0, 225, 255, 0.2);
-    padding: 0 15px;
-    z-index: 1000;
+    width: 100%; height: 48px; background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); padding: 0 20px;
 }
 
-.nav-logo {
-    float: left;
-    font-size: 18px;
-    font-weight: 800;
-    color: #ffffff;
-    line-height: 44px;
-}
+.nav-logo { float: left; font-size: 20px; font-weight: 800; line-height: 48px; letter-spacing: -0.5px; }
+.nav-logo span { color: #00e1ff; }
 
-.nav-subtitle {
-    float: right;
-    font-size: 10px;
-    font-weight: 800;
-    color: #00e1ff;
-    text-transform: uppercase;
-    margin-top: 10px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    border: 1px solid rgba(0, 225, 255, 0.2);
-}
+.split-layout { width: 100%; height: calc(100% - 48px); overflow: hidden; }
 
-.split-layout {
-    width: 100%;
-    height: calc(100% - 44px);
-    overflow: hidden;
-    display: block;
-}
-
+/* LEFT PANE - CHANNEL SELECTION */
 .left-pane {
-    float: left;
-    width: 60%;
-    height: 100%;
-    padding: 12px;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    border-right: 1px solid rgba(255,255,255,0.05);
+    float: left; width: 65%; height: 100%; padding: 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.right-pane {
-    float: left;
-    width: 40%;
-    height: 100%;
-    background: rgba(0,0,0,0.3);
-    overflow: hidden; /* Managed by inner scroller */
+.group-filter-bar {
+    width: 100%; height: 36px; overflow-x: auto; white-space: nowrap;
+    margin-bottom: 15px; padding-bottom: 5px;
 }
-
-@media (max-width: 800px) {
-    body, html { overflow-y: auto; height: auto; }
-    .split-layout { height: auto; overflow: visible; }
-    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; overflow: visible; padding: 10px; }
-    .channel-grid { height: auto; overflow: visible; }
+.group-filter-bar::-webkit-scrollbar { display: none; }
+.group-item {
+    display: inline-block; padding: 6px 14px; background: rgba(255,255,255,0.05);
+    border-radius: 20px; font-size: 11px; font-weight: 800; margin-right: 8px;
+    cursor: pointer; border: 1px solid rgba(255,255,255,0.03); transition: 0.2s;
 }
+.group-item.active { background: #00e1ff; color: #000; border-color: #00e1ff; }
 
-/* PLAYER AREA */
-.hero-section { width: 100%; margin-bottom: 12px; }
+.action-bar { margin-bottom: 15px; }
+#search-input {
+    width: 100%; height: 42px; background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08); border-radius: 12px;
+    color: #fff; padding: 0 15px; font-size: 14px;
+}
+#search-input:focus { border-color: #00e1ff; background: rgba(255,255,255,0.06); }
+
+.channel-grid { height: calc(100% - 130px); overflow-y: auto; padding-right: 5px; }
+.channel-grid::-webkit-scrollbar { width: 3px; }
+.channel-grid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+
+.channel-card {
+    background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+    border: 1px solid rgba(255,255,255,0.04); border-radius: 12px;
+    padding: 12px 15px; margin-bottom: 10px; cursor: pointer; position: relative;
+}
+.channel-card:hover { background: rgba(255,255,255,0.08); }
+.channel-card.active { border-color: #00e1ff; background: rgba(0, 225, 255, 0.05); box-shadow: 0 0 15px rgba(0, 225, 255, 0.1); }
+.card-title { font-weight: 700; font-size: 14px; margin-bottom: 3px; }
+.card-group { font-size: 10px; color: #00e1ff; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; }
+
+/* RIGHT PANE - PLAYER */
+.right-pane { float: left; width: 35%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; }
+
 .player-wrapper {
-    position: relative;
-    width: 100%;
-    background: #000;
-    border-radius: 12px;
-    overflow: hidden;
-    padding-top: 56.25%;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 100%; background: #000; border-radius: 15px; position: relative;
+    padding-top: 56.25%; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 #video-player { position: absolute; top:0; left:0; width:100%; height:100%; }
 #player-overlay {
-    position: absolute; bottom:0; left:0; width:100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);
-    padding: 20px 15px 10px; pointer-events: none;
+    position: absolute; bottom:0; left:0; width:100%; padding: 20px 15px 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 100%);
+    pointer-events: none;
 }
-#channel-name { font-size: 18px; font-weight: 800; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-#status-text { font-size: 11px; color: #00e1ff; text-transform: uppercase; font-weight: 700; }
+#channel-name { font-size: 16px; font-weight: 800; margin: 0; }
+#status-text { font-size: 10px; color: #00e1ff; font-weight: 800; text-transform: uppercase; }
 
-/* ACTION BAR */
-.action-bar {
-    width: 100%;
-    background: rgba(255,255,255,0.03);
-    padding: 12px;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.05);
+.sync-row { margin-top: 20px; background: rgba(255,255,255,0.03); border-radius: 12px; padding: 5px; }
+.sync-input-wrapper { float: left; width: 78%; }
+.sync-input-wrapper input {
+    width: 100%; height: 36px; background: transparent; border: none;
+    color: #fff; padding: 0 12px; font-size: 12px;
 }
-.search-box { margin-bottom: 8px; }
-#search-input, .sync-input-wrapper input {
-    width: 100%; height: 38px; background: #000; border: 1px solid #333;
-    border-radius: 8px; color: #fff; padding: 0 12px; font-size: 14px;
-}
-#search-input:focus, .sync-input-wrapper input:focus { border-color: #00e1ff; outline: none; }
-.sync-row { display: block; clear: both; }
-.sync-input-wrapper { float: left; width: 75%; }
 #load-btn {
-    float: left; width: 25%; height: 38px;
-    background: linear-gradient(135deg, #0073ff, #00d4ff);
-    color: #fff; border: none; border-radius: 0 8px 8px 0;
-    font-weight: 800; font-size: 13px; cursor: pointer;
-}
-.sync-input-wrapper input { border-radius: 8px 0 0 8px; }
-
-/* RIGHT PANE CHANNEL LISTST */
-.content-section {
-    width: 100%; height: 100%; padding: 12px;
-    display: block; /* Use block for Vita stability */
-}
-.section-header { height: 32px; margin-bottom: 12px; }
-.section-title { float: left; font-size: 16px; font-weight: 800; line-height: 32px; margin:0; }
-.channel-badge {
-    float: right; background: rgba(0, 225, 255, 0.2);
-    color: #00e1ff; padding: 3px 8px; border-radius: 6px;
-    font-size: 11px; font-weight: 800; margin-top: 4px; border: 1px solid rgba(0, 225, 254, 0.3);
+    float: left; width: 22%; height: 36px; background: #00e1ff; color: #000;
+    border: none; border-radius: 10px; font-weight: 800; font-size: 12px; cursor: pointer;
 }
 
-/* FIXED CHANNEL SCROLLER - Key for Vita stability */
-.channel-grid {
-    display: block;
-    width: 100%;
-    height: calc(100% - 44px); /* Subtract header height approx */
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-right: 5px;
-}
-.channel-grid::-webkit-scrollbar { width: 4px; }
-.channel-grid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+.app-info { margin-top: 25px; text-align: center; color: rgba(255,255,255,0.3); font-size: 10px; font-weight: 700; }
 
-.channel-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; cursor: pointer;
-}
-.channel-card.active { border-color: #00d4ff; background: rgba(0, 225, 255, 0.1); }
-.card-title { font-weight: 800; font-size: 14px; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card-group { font-size: 10px; color: #8fa6c7; text-transform: uppercase; font-weight: 700; }
-
-#pagination-container { padding: 10px 0; }
-#load-more-btn {
-    width: 100%; height: 40px; background: rgba(255,255,255,0.05);
-    border: 1px solid #333; color: #fff; border-radius: 8px; font-weight: 800;
+/* MOBILE / VITA VERTICAL */
+@media (max-width: 800px) {
+    body, html { overflow-y: auto; height: auto; }
+    .split-layout { height: auto; }
+    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; }
+    .channel-grid { height: auto; overflow: visible; }
 }
 
-.message { text-align: center; padding: 40px 10px; color: #8fa6c7; font-size: 13px; }
-.message-icon { font-size: 30px; margin-bottom: 10px; }
 .clearfix::after { content: ""; clear: both; display: table; }
+.message { text-align: center; padding: 50px 20px; color: rgba(255,255,255,0.3); font-weight: 600; }
+.channel-badge { float: right; font-size: 10px; font-weight: 800; color: rgba(255,255,255,0.4); margin-top: 10px; }

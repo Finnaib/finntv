@@ -24,51 +24,50 @@
         <div class="split-layout">
             <!-- Left Side: Player & Settings -->
             <div class="left-pane">
-                <div class="hero-section">
-                    <div class="player-wrapper">
-                        <video id="video-player" controls webkit-playsinline playsinline></video>
-                        <div id="player-overlay">
-                            <h2 id="channel-name">Select a Stream</h2>
-                            <p id="status-text">Ready for Native Playback</p>
-                        </div>
+                <!-- Group Sidebar for Pro Navigation -->
+                <div class="group-filter-bar clearfix" id="group-filter">
+                    <!-- Dynamic groups like 'BeIN', 'OSN' go here -->
+                </div>
+
+                <div class="action-bar clearfix">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Find channels...">
                     </div>
                 </div>
 
-                <div class="action-bar">
-                    <div class="search-box">
-                        <input type="text" id="search-input" placeholder="🔍 Find channels...">
+                <div class="content-section">
+                    <div class="section-header clearfix">
+                        <h2 class="section-title">Channel Guide</h2>
+                        <span class="channel-badge"><span id="channel-count">0</span> Channels</span>
                     </div>
-                    <div class="sync-row clearfix">
-                        <div class="sync-input-wrapper">
-                            <input type="text" id="m3u-url" placeholder="Your M3U Link..." value="https://iptv-org.github.io/iptv/index.m3u">
-                        </div>
-                        <button id="load-btn">Load</button>
+                    
+                    <div class="channel-grid" id="channel-list">
+                        <!-- Channels load here -->
                     </div>
-                </div>
-                
-                <div class="left-footer-info">
-                    <p>Designed for PS Vita & Mobile.</p>
+                    <div id="pagination-container"></div>
                 </div>
             </div>
 
-            <!-- Right Side: Channel List -->
             <div class="right-pane">
-                <div class="content-section">
-                    <div class="section-header clearfix">
-                        <h3 class="section-title">Live TV</h3>
-                        <span class="channel-badge" id="channel-count">0</span>
-                    </div>
-                    
-                    <div id="channel-list-container" class="channel-grid">
-                        <div id="channel-list">
-                            <div class="message">
-                                <div class="message-icon">📡</div>
-                                Paste your M3U link to load<br>your premium channel grid.
-                            </div>
+                <div class="hero-section">
+                    <div class="player-wrapper">
+                        <video id="video-player" controls preload="auto"></video>
+                        <div id="player-overlay">
+                            <h1 id="channel-name">FinnTV Premium</h1>
+                            <div id="status-text">Ready to stream</div>
                         </div>
-                        <div id="pagination-container"></div>
-                        <div style="height:30px"></div><!-- Bottom padding for Vita -->
                     </div>
+                </div>
+                
+                <div class="sync-row clearfix">
+                    <div class="sync-input-wrapper">
+                        <input type="text" id="m3u-url" placeholder="Paste .m3u link" value="https://finntv.vercel.app/m3u/egypt.m3u">
+                    </div>
+                    <button id="load-btn">Load</button>
+                </div>
+                
+                <div class="app-info">
+                    Designed for PS Vita & Mobile.
                 </div>
             </div>
         </div>
