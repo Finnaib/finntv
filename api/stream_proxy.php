@@ -1,30 +1,26 @@
 <?php
 /**
- * FinnTV HLS CORS / Mixed-Content Proxy - UNIVERSAL STABLE VERSION
- * Routes M3U8 manifests and TS chunks through Vercel to completely bypass 
- * browser security sandbox limitations (CORS and HTTP-in-HTTPS blocks).
+ * FinnTV High-Performance Streaming Proxy
+ * Optimized for Vercel: Uses streaming pass-through to avoid memory limits and timeouts.
  */
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
 header("Access-Control-Allow-Headers: *");
 
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    exit;
-}
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') exit;
 
 if (!isset($_GET['url'])) {
     http_response_code(400);
-    die("Error: No URL provided");
+    die("Error: No URL");
 }
 
-// FIX: PHP converts '+' to ' ' in GET parameters, breaking Base64.
 $raw_url = str_replace(' ', '+', $_GET['url']);
 $url = base64_decode($raw_url);
 
 if (!$url || filter_var($url, FILTER_VALIDATE_URL) === false) {
     http_response_code(400);
-    die("Error: Invalid URL decoded from Base64: " . htmlspecialchars($url));
+    die("Error: Invalid URL");
 }
 
 // Function to resolve relative URLs
@@ -36,32 +32,48 @@ function resolve_url($base, $rel) {
     $path = isset($parse['path']) ? $parse['path'] : '/';
     if ($rel[0] == '/') return $hostname . $rel;
     $path = dirname($path);
-    if ($path == '/' || $path == '\\') $path = '';
+    if ($path === '/' || $path === '\\') $path = '';
     $abs = $hostname . $path . '/' . $rel;
     $re = array('#(/\.?/)#', '#/(?!\.\.)[^/]+/\.\./#');
     for($n=1; $n>0; $abs=preg_replace($re, '/', $abs, -1, $n)) {}
     return $abs;
 }
 
+$is_ts = (strpos($url, '.ts') !== false);
+
+// If it's a TS chunk, we stream it directly to avoid memory/timeout issues
+if ($is_ts) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false); // Stream directly
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Higher timeout for chunks
+    header("Content-Type: video/mp2t");
+    header("Cache-Control: public, max-age=3600");
+    curl_exec($ch);
+    curl_close($ch);
+    exit;
+}
+
+// If it's a playlist, we need to buffer and rewrite
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16"); // Spoof VLC
-curl_setopt($ch, CURLOPT_TIMEOUT, 9); // Stay under Vercel's 10s limit
-curl_setopt($ch, CURLOPT_MAXREDIRS, 5);
+curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
+curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 
 $response = curl_exec($ch);
-$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 $content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 $final_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
 curl_close($ch);
 
-if ($http_code !== 200) {
-    http_response_code(502);
-    die("IPTV Server error (HTTP $http_code)");
+if (!$response) {
+    http_response_code(504);
+    die("IPTV Server Timeout");
 }
 
 header("Content-Type: $content_type");
@@ -75,8 +87,7 @@ if ($is_playlist) {
         $line = trim($line);
         if (empty($line)) continue;
         if (strpos($line, '#') === 0) {
-            // Rewrite keys
-            if (strpos($line, '#EXT-X-KEY') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
+            if (strpos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);
                 $proxyUri = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri));
                 $line = str_replace($matches[1], $proxyUri, $line);
@@ -89,7 +100,6 @@ if ($is_playlist) {
     }
     echo implode("\n", $output);
 } else {
-    header("Cache-Control: public, max-age=3600");
     echo $response;
 }
 ?>
