@@ -244,13 +244,12 @@ document.addEventListener('DOMContentLoaded', function() {
             hls = null;
         }
 
-        // Detect H.265 from name
-        var isH265 = channel.title.toLowerCase().indexOf('h265') !== -1 || channel.title.toLowerCase().indexOf('hevc') !== -1;
+        // Format-Agnostic Detection
+        var lowerUrl = channel.url.toLowerCase();
+        var isTS = lowerUrl.indexOf('.ts') !== -1;
+        var isVOD = lowerUrl.indexOf('.mp4') !== -1 || lowerUrl.indexOf('.mkv') !== -1 || lowerUrl.indexOf('.avi') !== -1;
 
-        // Determine if this is a raw .ts link or HLS manifest
-        var isTS = channel.url.toLowerCase().indexOf('.ts') !== -1;
-
-        if (window.Hls && Hls.isSupported() && !isTS) {
+        if (window.Hls && Hls.isSupported() && !isTS && !isVOD) {
             
             function initHlsLayer(proxyProvider) {
                 var config = {
@@ -293,16 +292,16 @@ document.addEventListener('DOMContentLoaded', function() {
                                 hls.destroy();
                                 initHlsLayer('allorigins');
                             } else {
-                                channelNameHeader.innerText = 'Stream Blocked / Offline';
-                                channelGroupText.innerText = 'VLC-bypass and CORS proxies failed';
+                                channelNameHeader.innerText = 'Stream Blocked';
+                                channelGroupText.innerText = 'Try raw link if available';
                             }
                         } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
                             if (isH265) {
                                 channelNameHeader.innerText = 'Codec Error (H.265)';
-                                channelGroupText.innerText = 'HEVC not supported in browser';
+                                channelGroupText.innerText = 'Try a lower quality (SD) link';
                             } else {
                                 channelNameHeader.innerText = 'Media Format Error';
-                                channelGroupText.innerText = 'Unsupported stream codec';
+                                channelGroupText.innerText = 'Check if stream is active';
                             }
                             hls.destroy();
                         } else {
@@ -327,20 +326,19 @@ document.addEventListener('DOMContentLoaded', function() {
             
         } 
         else {
-            // NATIVE FALLBACK (.ts links or browsers like Vita/Safari)
-            // On Vita, we avoid the 4.5MB Vercel Proxy limit by playing DIRECTLY!
+            // NATIVE UNIVERSAL HANDLER (MP4, TS, VOD, Vita, Safari)
+            // On Vita, we avoid proxy if possible to handle large video files
             var finalNativeUrl = isVita ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
             
-            videoPlayer.innerHTML = 
-                '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
-                '<source src="' + finalNativeUrl + '" type="application/vnd.apple.mpegurl">';
+            videoPlayer.pause();
+            videoPlayer.src = finalNativeUrl;
             videoPlayer.load();
             var p = videoPlayer.play();
             if (p && p.catch) p.catch(function(){});
             
-            channelNameHeader.innerText = (isTS ? '📺 ' : '') + channel.title;
+            channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
             if (isTS && !isVita) {
-                channelGroupText.innerText = 'RAW .TS link: May require Safari or Vita';
+                channelGroupText.innerText = 'Streaming .TS via Bridge';
             }
         }
     }
