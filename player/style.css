@@ -81,9 +81,10 @@ body, html {
 }
 
 @media (max-width: 800px) {
-    body, html { overflow-y: auto; }
-    .split-layout { height: auto; }
-    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; overflow: visible; }
+    body, html { overflow-y: auto; height: auto; }
+    .split-layout { height: auto; overflow: visible; }
+    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; overflow: visible; padding: 10px; }
+    .channel-grid { height: auto; overflow: visible; }
 }
 
 /* PLAYER AREA */
