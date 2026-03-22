@@ -337,17 +337,25 @@ document.addEventListener('DOMContentLoaded', function() {
             // NATIVE UNIVERSAL HANDLER (MP4, TS, VOD, Vita, Safari)
             // For Xtream links (/live/), we MUST use the proxy to spoof VLC User-Agent!
             var isXtream = lowerUrl.indexOf('/live/') !== -1;
-            var finalNativeUrl = (isVita && !isXtream) ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
+            var proxiedUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url));
+            var finalNativeUrl = (isVita && !isXtream) ? channel.url : proxiedUrl;
             
             videoPlayer.pause();
-            videoPlayer.src = finalNativeUrl;
+            videoPlayer.innerHTML = 
+                '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
+                '<source src="' + finalNativeUrl + '" type="application/x-mpegURL">' +
+                '<source src="' + finalNativeUrl + '" type="video/mpeg">' +
+                '<source src="' + channel.url + '" type="video/mp2t">'; // Fallback to direct link
+            
             videoPlayer.load();
             var p = videoPlayer.play();
             if (p && p.catch) p.catch(function(){});
             
             channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
+            
             if (isVita) {
-                channelGroupText.innerHTML = 'Vita Bridge Active | <a href="' + channel.url + '" target="_blank" style="color:#00e1ff">Open Direct</a>';
+                var directBtn = '<a href="' + channel.url + '" target="_blank" style="display:inline-block; margin-top:5px; background:#00e1ff; color:#000; padding:2px 8px; border-radius:4px; font-weight:800; text-decoration:none;">LAUNCH SOURCE</a>';
+                channelGroupText.innerHTML = 'System Bridge Active ' + (isXtream ? '(Proxied)' : '(Direct)') + '<br>' + directBtn;
             } else if (isTS) {
                 channelGroupText.innerText = 'Streaming .TS via Bridge';
             }
