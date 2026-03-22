@@ -1,76 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
     <title>FinnTV Premium Player</title>
-    <!-- Modern Typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=8">
+    <link href='https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap' rel='stylesheet'>
+    <style>
+        :root { --bg: #060913; --card: rgba(255,255,255,0.03); --accent: #00d4ff; --glass: rgba(14,21,41,0.8); }
+        body { margin:0; background: var(--bg); color:#fff; font-family:'Outfit',sans-serif; overflow:hidden; height:100vh; display:flex; flex-direction:column; }
+        .nav { height:60px; background:var(--glass); border-bottom:1px solid rgba(255,255,255,0.05); display:flex; align-items:center; padding:0 20px; box-shadow:0 10px 30px rgba(0,0,0,0.5); z-index:100; }
+        .logo { font-weight:800; font-size:22px; color:var(--accent); letter-spacing:-0.5px; }
+        .main { flex:1; display:flex; overflow:hidden; }
+        .player-content { flex:1; display:flex; flex-direction:column; background:#000; position:relative; min-width:0; }
+        .sidebar { width:360px; background:var(--glass); border-left:1px solid rgba(255,255,255,0.05); display:flex; flex-direction:column; }
+        video { width:100%; height:100%; object-fit:contain; }
+        .controls { padding:20px; background:linear-gradient(to top, rgba(0,0,0,0.9), transparent); position:absolute; bottom:0; left:0; width:100%; pointer-events:none; }
+        #ch-title { margin:0; font-size:22px; font-weight:800; text-shadow:0 2px 10px rgba(0,0,0,0.8); }
+        .search-area { padding:15px; background:rgba(0,0,0,0.2); }
+        input { width:100%; padding:14px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:10px; color:#fff; font-size:16px; font-family:inherit; outline:none; }
+        input:focus { border-color:var(--accent); background:rgba(255,255,255,0.1); }
+        .list { flex:1; overflow-y:auto; padding:10px; -webkit-overflow-scrolling:touch; }
+        .card { padding:15px; background:var(--card); border:1px solid rgba(255,255,255,0.03); border-radius:12px; margin-bottom:10px; cursor:pointer; transition:all 0.2s; position:relative; overflow:hidden; }
+        .card:hover, .card.active { background:rgba(0,212,255,0.1); border-color:var(--accent); transform:translateY(-2px); box-shadow:0 10px 20px rgba(0,0,0,0.3); }
+        .card-name { font-weight:600; font-size:15px; display:block; margin-bottom:4px; }
+        .card-grp { font-size:11px; color:#889bb4; font-weight:800; text-transform:uppercase; letter-spacing:0.5px; }
+        .msg { text-align:center; padding:40px; color:#889bb4; }
+        @media (max-width:800px) { .main { flex-direction:column; } .sidebar { width:100%; height:50%; border-left:none; border-top:1px solid rgba(255,255,255,0.05); } .player-content { height:50%; width:100%; } }
+    </style>
 </head>
-<body style="background-color: #060913; color: #ffffff;">
-    <div class="app-container">
-        <!-- Premium Navbar -->
-        <div class="navbar">
-            <div class="nav-logo">📺 FinnTV</div>
-            <div class="nav-subtitle">Premium IPTV</div>
+<body>
+    <div class='nav'><div class='logo'>?? FinnTV Premium</div></div>
+    <div class='main'>
+        <div class='player-content'>
+            <video id='player' controls playsinline></video>
+            <div class='controls'><h2 id='ch-title'>Select Stream</h2></div>
         </div>
-
-        <div class="split-layout">
-            <!-- Left Side: Player & Settings -->
-            <div class="left-pane">
-                <div class="hero-section">
-                    <div class="player-wrapper">
-                        <video id="video-player" controls webkit-playsinline playsinline></video>
-                        <div id="player-overlay">
-                            <h2 id="channel-name">Select a Stream</h2>
-                            <p id="status-text">Ready for Native Playback</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="action-bar">
-                    <div class="search-box">
-                        <input type="text" id="search-input" placeholder="🔍 Find channels...">
-                    </div>
-                    <div class="sync-box">
-                        <input type="text" id="m3u-url" placeholder="Your M3U Link..." value="https://iptv-org.github.io/iptv/index.m3u">
-                        <button id="load-btn">Load</button>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-                
-                <div class="left-footer-info">
-                    <p>Designed for PS Vita & Mobile.</p>
-                </div>
-            </div>
-
-            <!-- Right Side: Channel List -->
-            <div class="right-pane">
-                <div class="content-section">
-                    <div class="section-header">
-                        <h3 class="section-title">Live TV</h3>
-                        <span class="channel-badge" id="channel-count">0</span>
-                        <div style="clear:both;"></div>
-                    </div>
-                    
-                    <div id="channel-list" class="channel-grid">
-                        <div class="message">
-                            <div class="message-icon">📁</div>
-                            Paste your M3U link to load<br>your premium channel grid.
-                        </div>
-                    </div>
-                    
-                    <div style="clear: both;"></div>
-                    <div id="pagination-container"></div>
-                </div>
-            </div>
-            
-            <div style="clear: both;"></div>
+        <div class='sidebar'>
+            <div class='search-area'><input type='text' id='search' placeholder='?? Search Channels...'></div>
+            <div id='list' class='list'><div class='msg'>Load an M3U to start streaming.</div></div>
         </div>
     </div>
-
-    <!-- Ensure Vita compatibility by keeping JS light -->
-    <script src="app.js?v=8"></script>
+    <script src='app.js?v=final'></script>
 </body>
 </html>
