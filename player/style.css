@@ -1,4 +1,4 @@
-/* style.css v9 - PS Vita Multi-Pane Premium Edition - Final Polish */
+/* style.css v11 - PS Vita Precision Edition (960x544 optimized) */
 
 body, html {
     margin: 0;
@@ -7,8 +7,8 @@ body, html {
     background: radial-gradient(ellipse at top right, #0d1b3e 0%, #03050c 100%);
     background-attachment: fixed;
     color: #ffffff;
-    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    overflow: hidden; /* Lock viewport for Vita fixed layout */
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden; /* Lock viewport for app feel */
 }
 
 * {
@@ -21,87 +21,81 @@ body, html {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
-    margin: 0 auto;
 }
 
-/* NAVBAR */
+/* NAVBAR - Compact for Vita (50px) */
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 50px;
     background: rgba(4, 9, 20, 0.9);
     border-bottom: 1px solid rgba(0, 225, 255, 0.1);
-    padding: 0 25px;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
+    z-index: 100;
 }
 
 .nav-logo {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 800;
     color: #ffffff;
-    letter-spacing: -0.5px;
     display: flex;
     align-items: center;
 }
 
 .nav-subtitle {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 800;
     color: #00e1ff;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background: rgba(0, 225, 255, 0.1);
-    padding: 4px 10px;
-    border-radius: 6px;
+    padding: 2px 8px;
+    border-radius: 4px;
 }
 
-/* SPLIT LAYOUT - Robust Pane Layout */
+/* SPLIT LAYOUT - Flex for better distribution */
 .split-layout {
+    display: flex;
+    flex: 1;
     width: 100%;
-    height: calc(100vh - 60px); /* Height minus navbar */
-    display: block;
-    position: relative;
     overflow: hidden;
 }
 
 .left-pane {
-    float: left;
-    width: 60%;
+    width: 58%;
     height: 100%;
-    padding: 20px;
+    padding: 12px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 .right-pane {
-    float: left;
-    width: 40%;
+    width: 42%;
     height: 100%;
-    padding: 20px 20px 20px 0;
-    overflow: hidden; /* Content section handles the inner scroll */
+    padding: 12px 12px 12px 0;
+    overflow: hidden;
 }
 
 /* RESPONSIVE DESIGN FOR PORTRAIT / PHONES */
 @media (max-width: 850px) {
     body, html {
-        overflow-y: auto; /* Enable page scrolling on mobile */
+        overflow-y: auto;
     }
     .app-container {
         height: auto;
     }
     .split-layout {
-        display: block;
+        flex-direction: column;
         height: auto;
         overflow: visible;
     }
     .left-pane, .right-pane {
-        float: none;
         width: 100%;
         height: auto;
-        padding: 15px;
+        padding: 12px;
         overflow: visible;
     }
 }
@@ -109,17 +103,17 @@ body, html {
 /* PLAYER AREA */
 .hero-section {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .player-wrapper {
     position: relative;
     width: 100%;
     background: #000;
-    border-radius: 20px;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.8), 0 0 0 1px rgba(255,255,255,0.05);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; /* 16:9 */
 }
 
 #video-player {
@@ -128,8 +122,6 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    background: #000;
 }
 
 #player-overlay {
@@ -137,69 +129,59 @@ body, html {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0) 100%);
-    padding: 60px 25px 25px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    padding: 30px 15px 10px;
     pointer-events: none;
 }
 
 #channel-name {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 800;
-    margin: 0 0 8px 0;
+    margin: 0;
     color: #fff;
-    text-shadow: 0 2px 15px rgba(0,0,0,0.9);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 #status-text {
-    font-size: 13px;
+    font-size: 11px;
     color: #00e1ff;
     margin: 0;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
-/* ACTIONS */
+/* ACTIONS - Compact for Vita */
 .action-bar {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
     background: rgba(14, 23, 46, 0.4);
-    padding: 20px;
-    border-radius: 18px;
+    padding: 12px;
+    border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.03);
 }
 
 .search-box {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .search-box input {
     width: 100%;
-    height: 54px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 12px;
     border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 12px;
+    border-radius: 8px;
     background: rgba(0,0,0,0.3);
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-family: inherit;
-    transition: all 0.2s ease;
-}
-
-.search-box input:focus {
-    background: rgba(0,0,0,0.5);
-    border-color: #00e1ff;
-    box-shadow: 0 0 15px rgba(0, 225, 255, 0.1);
-    outline: none;
 }
 
 .sync-row {
     display: flex;
-    gap: 12px;
+    gap: 8px;
 }
 
 .sync-input-wrapper {
@@ -208,47 +190,32 @@ body, html {
 
 .sync-input-wrapper input {
     width: 100%;
-    height: 54px;
-    padding: 0 18px;
+    height: 40px;
+    padding: 0 12px;
     border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 12px;
+    border-radius: 8px;
     background: rgba(0,0,0,0.3);
     color: #fff;
-    font-size: 14px;
-    font-family: inherit;
+    font-size: 12px;
 }
 
 #load-btn {
-    width: 130px;
-    height: 54px;
+    width: 80px;
+    height: 40px;
     background: linear-gradient(135deg, #0073ff, #00d4ff);
     color: #fff;
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
-    box-shadow: 0 8px 16px rgba(0, 115, 255, 0.3);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: transform 0.1s, box-shadow 0.1s;
-}
-
-#load-btn:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 10px 20px rgba(0, 115, 255, 0.4);
-}
-
-#load-btn:active {
-    transform: translateY(1px);
-    box-shadow: 0 4px 8px rgba(0, 115, 255, 0.2);
 }
 
 .left-footer-info {
     text-align: center;
-    color: rgba(255,255,255,0.3);
-    font-size: 12px;
-    font-weight: 600;
+    color: rgba(255,255,255,0.2);
+    font-size: 10px;
 }
 
 /* RIGHT PANE - CHANNELS */
@@ -256,16 +223,16 @@ body, html {
     width: 100%;
     height: 100%;
     background: rgba(14, 23, 46, 0.5);
-    border-radius: 20px;
+    border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.04);
-    padding: 20px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
 }
 
 .section-header {
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     display: flex;
     align-items: center;
@@ -273,114 +240,86 @@ body, html {
 }
 
 .section-title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
     color: #fff;
     margin: 0;
 }
 
 .channel-badge {
-    background: linear-gradient(135deg, rgba(0, 115, 255, 0.2), rgba(0, 212, 255, 0.2));
+    background: rgba(0, 225, 255, 0.1);
     color: #00e1ff;
-    padding: 5px 12px;
-    border-radius: 10px;
-    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
     font-weight: 800;
-    border: 1px solid rgba(0, 225, 255, 0.3);
+    border: 1px solid rgba(0, 225, 255, 0.2);
 }
 
+/* Optimized Scrolling for Vita Chrome */
 .channel-grid {
     flex: 1;
     overflow-y: auto;
-    padding-right: 5px;
     -webkit-overflow-scrolling: touch;
-}
-
-/* Custom Scrollbar */
-.channel-grid::-webkit-scrollbar {
-    width: 6px;
-}
-.channel-grid::-webkit-scrollbar-track {
-    background: rgba(0,0,0,0.1);
-}
-.channel-grid::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255,0.1);
-    border-radius: 10px;
+    padding-right: 4px;
 }
 
 .channel-card {
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 14px;
-    padding: 15px;
+    border-radius: 10px;
+    padding: 10px 12px;
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.channel-card:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255,255,255,0.15);
-    transform: translateX(2px);
 }
 
 .channel-card.active {
-    background: linear-gradient(90deg, rgba(0, 115, 255, 0.2) 0%, rgba(0, 212, 255, 0.05) 100%);
+    background: linear-gradient(90deg, rgba(0, 115, 255, 0.15) 0%, rgba(0, 212, 255, 0.05) 100%);
     border-color: #00d4ff;
-    box-shadow: 0 4px 20px rgba(0, 115, 255, 0.15);
 }
 
 .card-title {
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .card-group {
-    font-size: 11px;
+    font-size: 10px;
     color: #8fa6c7;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 #pagination-container {
-    width: 100%;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 #load-more-btn {
     width: 100%;
-    height: 50px;
+    height: 36px;
     background: rgba(255,255,255,0.05);
     color: #fff;
     border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 12px;
+    border-radius: 8px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
-    font-family: inherit;
-    transition: background 0.2s;
-}
-
-#load-more-btn:hover {
-    background: rgba(255,255,255,0.08);
 }
 
 .message {
     text-align: center;
-    padding: 60px 20px;
+    padding: 30px 10px;
     color: #8fa6c7;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 13px;
 }
 
 .message-icon {
-    font-size: 48px;
-    margin-bottom: 15px;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
