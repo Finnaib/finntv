@@ -1,63 +1,110 @@
 <?php
+/**
+ * FinnTV HLS CORS / Mixed-Content Proxy 
+ * Routes M3U8 manifests and TS chunks through Vercel to completely bypass 
+ * browser security sandbox limitations (CORS and HTTP-in-HTTPS blocks).
+ */
+
+// Allow all origins to bypass CORS locally
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
-if ($_SERVER["REQUEST_METHOD"] === "OPTIONS") exit;
-if (!isset($_GET["url"])) { http_response_code(400); die("No URL"); }
-$raw = str_replace(" ", "+", $_GET["url"]);
-$url = base64_decode($raw);
-if (!$url || filter_var($url, FILTER_VALIDATE_URL) === false) { http_response_code(400); die("Invalid URL"); }
-function resolve_url($b, $r) {
-    if (parse_url($r, PHP_URL_SCHEME) != "") return $r;
-    if ($r[0] == "#" || $r[0] == "?") return $b.$r;
-    $p = parse_url($b);
-    $h = $p["scheme"] . "://" . (isset($p["host"]) ? $p["host"] : "") . (isset($p["port"]) ? ":" . $p["port"] : "");
-    $pa = isset($p["path"]) ? $p["path"] : "/";
-    if ($r[0] == "/") return $h . $r;
-    $pa = dirname($pa);
-    if ($pa == "/" || $pa == "\\") $pa = "";
-    $a = $h . $pa . "/" . $r;
-    $re = ["#(/\.?/)#", "#/(?!\.\.)[^/]+/\.\./#"];
-    for($n=1; $n>0; $a=preg_replace($re, "/", $a, -1, $n)) {}
-    return $a;
+
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    exit;
 }
+
+if (!isset($_GET['url'])) {
+    http_response_code(400);
+    die("Error: No URL provided");
+}
+
+$url = base64_decode($_GET['url']);
+if (!$url || filter_var($url, FILTER_VALIDATE_URL) === false) {
+    http_response_code(400);
+    die("Error: Invalid URL");
+}
+
+// Function to resolve relative URLs against a base URL
+function resolve_url($base, $rel) {
+    if (parse_url($rel, PHP_URL_SCHEME) != '') return $rel;
+    if ($rel[0] == '#' || $rel[0] == '?') return $base.$rel;
+    
+    $parse = parse_url($base);
+    $hostname = $parse['scheme'] . '://' . (isset($parse['host']) ? $parse['host'] : '') . (isset($parse['port']) ? ':' . $parse['port'] : '');
+    $path = isset($parse['path']) ? $parse['path'] : '/';
+    
+    if ($rel[0] == '/') return $hostname . $rel;
+    
+    $path = dirname($path);
+    if ($path == '/' || $path == '\\') $path = '';
+    
+    $abs = $hostname . $path . '/' . $rel;
+    
+    // Replace '//' or '/./' or '/foo/../'
+    $re = array('#(/\.?/)#', '#/(?!\.\.)[^/]+/\.\./#');
+    for($n=1; $n>0; $abs=preg_replace($re, '/', $abs, -1, $n)) {}
+    return $abs;
+}
+
+// Setup cURL to fetch the target stream/manifest
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
-curl_setopt($ch, CURLOPT_TIMEOUT, 15);
-$res = curl_exec($ch);
-$code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-$type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
-$furl = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16"); // Spoof VLC
+curl_setopt($ch, CURLOPT_TIMEOUT, 8); // Vercel timeout protection
+
+// Execute request
+$response = curl_exec($ch);
+$err = curl_error($ch);
+$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+$content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
+$final_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL); // in case of redirects
 curl_close($ch);
-if ($code !== 200) { http_response_code(502); die("Error $code"); }
-if ($type) header("Content-Type: $type");
-$is_m3u = (strpos(strtolower($type), "mpegurl") !== false || strpos(trim($res), "#EXTM3U") === 0);
-if ($is_m3u) {
-    $lines = explode("\n", $res);
-    $out = [];
-    $host = "https://" . $_SERVER["HTTP_HOST"] . "/api/stream_proxy.php?url=";
-    foreach ($lines as $l) {
-        $l = trim($l);
-        if (empty($l)) continue;
-        if ($l[0] === "#") {
-            if (strpos($l, "URI=\"") !== false && preg_match("/URI=\"([^\"]+)\"/", $l, $ma)) {
-                $abs = resolve_url($furl, $ma[1]);
-                $l = str_replace($ma[1], $host . urlencode(base64_encode($abs)), $l);
+
+if ($http_code !== 200) {
+    http_response_code(502);
+    die("Target server returned HTTP $http_code. $err");
+}
+
+// Pass Content-Type downstream
+if ($content_type) {
+    header("Content-Type: $content_type");
+}
+
+// If it's a playlist, rewrite the chunk URLs!
+if (strpos(strtolower($content_type), 'mpegurl') !== false || strpos(trim($response), '#EXTM3U') === 0) {
+    $lines = explode("\n", $response);
+    $output = [];
+    
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if (empty($line)) continue;
+        
+        if (strpos($line, '#') === 0) {
+            // Handle EXT-X-KEY if it contains a URI
+            if (strpos($line, '#EXT-X-KEY:METHOD') === 0 && preg_match('/URI="([^"]+)"/', $line, $matches)) {
+                $keyUrl = resolve_url($final_url, $matches[1]);
+                $proxyKeyUrl = 'https://' . $_SERVER['HTTP_HOST'] . '/api/stream_proxy.php?url=' . base64_encode($keyUrl);
+                $line = str_replace($matches[1], $proxyKeyUrl, $line);
             }
-            $out[] = $l;
+            $output[] = $line;
         } else {
-            $abs = resolve_url($furl, $l);
-            $out[] = $host . urlencode(base64_encode($abs));
+            // This is a chunk or sub-playlist URL
+            $fullUrl = resolve_url($final_url, $line);
+            // Generate proxy URL
+            $proxyUrl = 'https://' . $_SERVER['HTTP_HOST'] . '/api/stream_proxy.php?url=' . base64_encode($fullUrl);
+            $output[] = $proxyUrl;
         }
     }
-    echo implode("\n", $out);
+    echo implode("\n", $output);
 } else {
+    // It's a raw video chunk (.ts) or encryption key, just output it directly!
+    // Set headers for caching video chunks
     header("Cache-Control: public, max-age=86400");
-    echo $res;
+    echo $response;
 }
 ?>
