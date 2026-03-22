@@ -246,7 +246,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         try {
                             if (proxyProvider === 'internal') {
                                 // Internal FinnTV Proxy - Spoofs VLC and handles CORS/Mixed-Content
-                                var encodedUrl = btoa(url);
+                                // Essential: encodeURIComponent preserves /, +, and = characters in Base64
+                                var encodedUrl = encodeURIComponent(btoa(url));
                                 xhr.open('GET', '/api/stream_proxy.php?url=' + encodedUrl, true);
                             } else if (proxyProvider === 'corsproxy') {
                                 if (url.indexOf('corsproxy.io') === -1) {
