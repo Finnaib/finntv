@@ -28,7 +28,7 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
-curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+curl_setopt($ch, CURLOPT_TIMEOUT, 15);
 $res = curl_exec($ch);
 $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 $type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
@@ -36,8 +36,8 @@ $furl = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
 curl_close($ch);
 if ($code !== 200) { http_response_code(502); die("Error $code"); }
 if ($type) header("Content-Type: $type");
-$m = (strpos(strtolower($type), "mpegurl") !== false || strpos(trim($res), "#EXTM3U") === 0);
-if ($m) {
+$is_m3u = (strpos(strtolower($type), "mpegurl") !== false || strpos(trim($res), "#EXTM3U") === 0);
+if ($is_m3u) {
     $lines = explode("\n", $res);
     $out = [];
     $host = "https://" . $_SERVER["HTTP_HOST"] . "/api/stream_proxy.php?url=";
