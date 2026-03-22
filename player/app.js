@@ -243,14 +243,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 var config = {
                     enableWorker: true,
                     xhrSetup: function(xhr, url) {
-                        if (proxyProvider === 'corsproxy') {
-                            if (url.indexOf('corsproxy.io') === -1) {
-                                xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
+                        try {
+                            if (proxyProvider === 'internal') {
+                                // Internal FinnTV Proxy - Spoofs VLC and handles CORS/Mixed-Content
+                                var encodedUrl = btoa(url);
+                                xhr.open('GET', '/api/stream_proxy.php?url=' + encodedUrl, true);
+                            } else if (proxyProvider === 'corsproxy') {
+                                if (url.indexOf('corsproxy.io') === -1) {
+                                    xhr.open('GET', 'https://corsproxy.io/?' + encodeURIComponent(url), true);
+                                }
+                            } else if (proxyProvider === 'allorigins') {
+                                if (url.indexOf('allorigins.win') === -1) {
+                                    xhr.open('GET', 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url), true);
+                                }
                             }
-                        } else if (proxyProvider === 'allorigins') {
-                            if (url.indexOf('allorigins.win') === -1) {
-                                xhr.open('GET', 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url), true);
-                            }
+                        } catch (e) {
+                            console.error("Proxy setup failed:", e);
                         }
                     }
                 };
@@ -261,24 +269,28 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (data.fatal) {
                         if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
                             if (!proxyProvider) {
-                                channelNameHeader.innerText = 'CORS Blocked. Bypassing...';
+                                channelNameHeader.innerText = 'Unlocking Stream...';
+                                hls.destroy();
+                                initHlsLayer('internal');
+                            } else if (proxyProvider === 'internal') {
+                                channelNameHeader.innerText = 'Bypassing Block...';
                                 hls.destroy();
                                 initHlsLayer('corsproxy');
                             } else if (proxyProvider === 'corsproxy') {
-                                channelNameHeader.innerText = 'Retrying via Node-2...';
+                                channelNameHeader.innerText = 'Final Attempt...';
                                 hls.destroy();
                                 initHlsLayer('allorigins');
                             } else {
                                 channelNameHeader.innerText = 'Stream Blocked / Offline';
-                                channelGroupText.innerText = 'Network error beyond bypass';
+                                channelGroupText.innerText = 'VLC-bypass and CORS proxies failed';
                             }
                         } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
                             if (isH265) {
                                 channelNameHeader.innerText = 'Codec Error (H.265)';
-                                channelGroupText.innerText = 'Browser lacks HEVC hardware support';
+                                channelGroupText.innerText = 'HEVC not supported in browser';
                             } else {
                                 channelNameHeader.innerText = 'Media Format Error';
-                                channelGroupText.innerText = 'Fatal playback error';
+                                channelGroupText.innerText = 'Unsupported stream codec';
                             }
                             hls.destroy();
                         } else {
