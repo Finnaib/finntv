@@ -3,22 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>FinnTV Player</title>
-    <link rel="stylesheet" href="style.css?v=final_zero">
+    <title>FinnTV Premium Player</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=8">
 </head>
-<body>
-    <div class="v-nav"><div class="v-logo">FinnTV Premium</div></div>
-    <div class="v-main">
-        <div class="v-player">
-            <video id="video-player" controls playsinline></video>
-            <div class="ch-overlay" id="channel-name">Select Stream</div>
+<body style="background-color: #060913; color: #ffffff;">
+    <div class="app-container">
+        <!-- Premium Navbar -->
+        <div class="navbar">
+            <div class="nav-logo">📺 FinnTV</div>
+            <div class="nav-subtitle">Premium IPTV</div>
         </div>
-        <div class="v-sidebar">
-            <div class="v-search-bar"><input type="text" id="search-input" placeholder="Search Channels..."></div>
-            <div id="channel-list" class="v-scroller"></div>
-            <div class="v-load-box" id="pagination-container"></div>
+
+        <div class="split-layout">
+            <!-- Left Side: Player & Settings -->
+            <div class="left-pane">
+                <div class="hero-section">
+                    <div class="player-wrapper">
+                        <video id="video-player" controls webkit-playsinline playsinline></video>
+                        <div id="player-overlay">
+                            <h2 id="channel-name">Select a Stream</h2>
+                            <p id="status-text">Ready for Native Playback</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-bar">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="🔍 Find channels...">
+                    </div>
+                    <div class="sync-box">
+                        <input type="text" id="m3u-url" placeholder="Your M3U Link..." value="https://iptv-org.github.io/iptv/index.m3u">
+                        <button id="load-btn">Load</button>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                
+                <div class="left-footer-info">
+                    <p>Designed for PS Vita & Mobile.</p>
+                </div>
+            </div>
+
+            <!-- Right Side: Channel List -->
+            <div class="right-pane">
+                <div class="content-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Live TV</h3>
+                        <span class="channel-badge" id="channel-count">0</span>
+                        <div style="clear:both;"></div>
+                    </div>
+                    
+                    <div id="channel-list" class="channel-grid">
+                        <div class="message">
+                            <div class="message-icon">📁</div>
+                            Paste your M3U link to load<br>your premium channel grid.
+                        </div>
+                    </div>
+                    
+                    <div style="clear: both;"></div>
+                    <div id="pagination-container"></div>
+                </div>
+            </div>
+            
+            <div style="clear: both;"></div>
         </div>
     </div>
-    <script src="app.js?v=final_zero"></script>
+
+    <!-- Ensure Vita compatibility by keeping JS light -->
+    <script src="app.js?v=8"></script>
 </body>
 </html>
