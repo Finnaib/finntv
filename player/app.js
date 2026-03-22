@@ -33,22 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Auto-load M3U from URL parameter for seamless handoffs
-    function checkUrlParams() {
-        var query = window.location.search;
-        if (query && query.indexOf('?m3u=') !== -1) {
-            var m3uParam = query.split('?m3u=')[1].split('&')[0];
-            if (m3uParam) {
-                var decoded = decodeURIComponent(m3uParam);
-                m3uInput.value = decoded;
-                initLoad();
-            }
-        }
-    }
-    
-    // Check parameters shortly after load
-    setTimeout(checkUrlParams, 200);
-
     // Fixed touch scrolling issue: removed touchstart bindings. Standard clicks are fluid with the viewport meta tag.
     loadBtn.addEventListener('click', initLoad, false);
 
@@ -225,7 +209,6 @@ document.addEventListener('DOMContentLoaded', function() {
         activeElement = element;
 
         channelNameHeader.innerText = 'Tuning...';
-        channelGroupText.innerText = channel.group;
 
         window.scrollTo(0, 0);
 
@@ -235,59 +218,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (window.Hls && Hls.isSupported()) {
-            
-            function initHls(useProxy) {
-                var config = {};
-                
-                // If standard fetch fails due to CORS, intercept all XHRs and route via Vercel Stream Proxy
-                if (useProxy) {
-                    config.xhrSetup = function(xhr, url) {
-                        if (url.indexOf('stream_proxy.php') === -1) {
-                            var b64Url = btoa(unescape(encodeURIComponent(url)));
-                            xhr.open('GET', '/api/stream_proxy.php?url=' + encodeURIComponent(b64Url), true);
-                        } else {
-                            xhr.open('GET', url, true);
-                        }
-                    };
+            hls = new Hls();
+            hls.on(Hls.Events.ERROR, function(evt, data) {
+                if (data.fatal) {
+                    channelNameHeader.innerText = 'CORS Blocked';
+                    channelGroupText.innerText = data.type;
                 }
-                
-                hls = new Hls(config);
-                
-                hls.on(Hls.Events.ERROR, function(evt, data) {
-                    if (data.fatal) {
-                        // Automatically fall back to Vercel Local Proxy on first Network/CORS Error
-                        if (data.type === Hls.ErrorTypes.NETWORK_ERROR && !useProxy) {
-                            channelNameHeader.innerText = 'Mixed-Content Blocked. Rerouting...';
-                            channelGroupText.innerText = 'Connecting via FINNTV Cloud Proxy';
-                            hls.destroy();
-                            initHls(true); // Retry with proxy enabled
-                            return;
-                        }
-                        
-                        channelNameHeader.innerText = 'Stream Offline / Blocked';
-                        channelGroupText.innerText = data.type;
-                    }
-                });
-                
-                // If proxying, we also need to route the initial manifest through the proxy
-                var sourceUrl = channel.url;
-                if (useProxy && sourceUrl.indexOf('stream_proxy.php') === -1) {
-                    var initialB64 = btoa(unescape(encodeURIComponent(sourceUrl)));
-                    sourceUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(initialB64);
-                }
-                
-                hls.loadSource(sourceUrl);
-                hls.attachMedia(videoPlayer);
-                hls.on(Hls.Events.MANIFEST_PARSED, function() {
-                    channelNameHeader.innerText = channel.title;
-                    var p = videoPlayer.play();
-                    if (p && p.catch) p.catch(function(){});
-                });
-            }
-            
-            // Start without proxy to save latency/bandwidth
-            initHls(false);
-            
+            });
+            hls.loadSource(channel.url);
+            hls.attachMedia(videoPlayer);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                var p = videoPlayer.play();
+                if (p && p.catch) p.catch(function(){});
+            });
         } 
         else {
             videoPlayer.innerHTML = 
@@ -296,8 +239,9 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.load();
             var p = videoPlayer.play();
             if (p && p.catch) p.catch(function(){});
-            
-            channelNameHeader.innerText = channel.title;
         }
+
+        channelNameHeader.innerText = channel.title;
+        channelGroupText.innerText = channel.group;
     }
 });
