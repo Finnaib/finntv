@@ -1,4 +1,4 @@
-/* style.css v12 - Ultra-Stable PS Vita Legacy Layout (960x544) */
+/* style.css v13 - PS Vita Ultimate Stable V2 (Floats & Fixed Calculations) */
 
 body, html {
     margin: 0;
@@ -10,7 +10,7 @@ body, html {
     background-attachment: fixed;
     color: #ffffff;
     font-family: 'Outfit', sans-serif;
-    overflow: hidden; /* Lock the screen for app experience */
+    overflow: hidden;
 }
 
 * {
@@ -26,10 +26,9 @@ body, html {
     background: #03050c;
 }
 
-/* NAVBAR - Using Floats for maximum stability */
 .navbar {
     width: 100%;
-    height: 44px; /* Sony standard height */
+    height: 44px;
     background: rgba(4, 9, 20, 0.95);
     border-bottom: 1px solid rgba(0, 225, 255, 0.2);
     padding: 0 15px;
@@ -42,7 +41,6 @@ body, html {
     font-weight: 800;
     color: #ffffff;
     line-height: 44px;
-    letter-spacing: -0.5px;
 }
 
 .nav-subtitle {
@@ -51,109 +49,64 @@ body, html {
     font-weight: 800;
     color: #00e1ff;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    background: rgba(0, 225, 255, 0.15);
     margin-top: 10px;
     padding: 2px 8px;
     border-radius: 4px;
     border: 1px solid rgba(0, 225, 255, 0.2);
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* SPLIT LAYOUT - Using TABLE for guaranteed pixel-perfect side-by-side */
 .split-layout {
-    display: table;
-    table-layout: fixed;
     width: 100%;
     height: calc(100% - 44px);
-    border-collapse: collapse;
+    overflow: hidden;
+    display: block;
 }
 
 .left-pane {
-    display: table-cell;
-    vertical-align: top;
+    float: left;
     width: 60%;
     height: 100%;
-    background: rgba(0,0,0,0.2);
-    padding: 10px;
+    padding: 12px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    border-right: 1px solid rgba(255,255,255,0.05);
 }
 
 .right-pane {
-    display: table-cell;
-    vertical-align: top;
-    border-left: 1px solid rgba(255,255,255,0.05);
+    float: left;
     width: 40%;
     height: 100%;
-    background: rgba(0,0,0,0.4);
-    overflow: hidden; /* Inner scroller handles this */
+    background: rgba(0,0,0,0.3);
+    overflow: hidden; /* Managed by inner scroller */
 }
 
-/* MOBILE OVERRIDE */
 @media (max-width: 800px) {
     body, html { overflow-y: auto; }
-    .split-layout { display: block; height: auto; }
-    .left-pane, .right-pane { display: block; width: 100%; height: auto; padding: 15px; border: none; }
+    .split-layout { height: auto; }
+    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; overflow: visible; }
 }
 
-/* LEFT PANE CONTENT */
-.hero-section {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
+/* PLAYER AREA */
+.hero-section { width: 100%; margin-bottom: 12px; }
 .player-wrapper {
     position: relative;
     width: 100%;
     background: #000;
     border-radius: 12px;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    padding-top: 56.25%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
-
-#video-player {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
+#video-player { position: absolute; top:0; left:0; width:100%; height:100%; }
 #player-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    position: absolute; bottom:0; left:0; width:100%;
     background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);
-    padding: 20px 15px 8px;
-    pointer-events: none;
+    padding: 20px 15px 10px; pointer-events: none;
 }
+#channel-name { font-size: 18px; font-weight: 800; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#status-text { font-size: 11px; color: #00e1ff; text-transform: uppercase; font-weight: 700; }
 
-#channel-name {
-    font-size: 17px;
-    font-weight: 800;
-    margin: 0;
-    color: #fff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#status-text {
-    font-size: 10px;
-    color: #00e1ff;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-/* ACTION BAR (Left Pane) */
+/* ACTION BAR */
 .action-bar {
     width: 100%;
     background: rgba(255,255,255,0.03);
@@ -161,155 +114,62 @@ body, html {
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.05);
 }
-
-.search-box {
-    margin-bottom: 8px;
-}
-
+.search-box { margin-bottom: 8px; }
 #search-input, .sync-input-wrapper input {
-    width: 100%;
-    height: 38px;
-    background: #000;
-    border: 1px solid #333;
-    border-radius: 6px;
-    color: #fff;
-    padding: 0 10px;
-    font-size: 14px;
-    font-family: inherit;
+    width: 100%; height: 38px; background: #000; border: 1px solid #333;
+    border-radius: 8px; color: #fff; padding: 0 12px; font-size: 14px;
+}
+#search-input:focus, .sync-input-wrapper input:focus { border-color: #00e1ff; outline: none; }
+.sync-row { display: block; clear: both; }
+.sync-input-wrapper { float: left; width: 75%; }
+#load-btn {
+    float: left; width: 25%; height: 38px;
+    background: linear-gradient(135deg, #0073ff, #00d4ff);
+    color: #fff; border: none; border-radius: 0 8px 8px 0;
+    font-weight: 800; font-size: 13px; cursor: pointer;
+}
+.sync-input-wrapper input { border-radius: 8px 0 0 8px; }
+
+/* RIGHT PANE CHANNEL LISTST */
+.content-section {
+    width: 100%; height: 100%; padding: 12px;
+    display: block; /* Use block for Vita stability */
+}
+.section-header { height: 32px; margin-bottom: 12px; }
+.section-title { float: left; font-size: 16px; font-weight: 800; line-height: 32px; margin:0; }
+.channel-badge {
+    float: right; background: rgba(0, 225, 255, 0.2);
+    color: #00e1ff; padding: 3px 8px; border-radius: 6px;
+    font-size: 11px; font-weight: 800; margin-top: 4px; border: 1px solid rgba(0, 225, 254, 0.3);
 }
 
-#search-input:focus, .sync-input-wrapper input:focus {
-    border-color: #00e1ff;
-    outline: none;
-}
-
-.sync-row {
+/* FIXED CHANNEL SCROLLER - Key for Vita stability */
+.channel-grid {
     display: block;
     width: 100%;
-}
-
-.sync-input-wrapper {
-    float: left;
-    width: 75%;
-}
-
-#load-btn {
-    float: left;
-    width: 25%;
-    height: 38px;
-    background: linear-gradient(135deg, #0073ff, #00d4ff);
-    color: #fff;
-    border: none;
-    border-radius: 0 6px 6px 0;
-    font-weight: 800;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.sync-input-wrapper input {
-    border-radius: 6px 0 0 6px;
-}
-
-.left-footer-info {
-    text-align: center;
-    color: rgba(255,255,255,0.2);
-    font-size: 9px;
-    margin-top: 10px;
-}
-
-/* RIGHT PANE CONTENT */
-.content-section {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.section-header {
-    height: 30px;
-    margin-bottom: 8px;
-}
-
-.section-title {
-    float: left;
-    font-size: 15px;
-    font-weight: 800;
-    line-height: 30px;
-}
-
-.channel-badge {
-    float: right;
-    background: #00d4ff;
-    color: #000;
-    padding: 0 8px;
-    height: 18px;
-    line-height:18px;
-    border-radius: 4px;
-    font-size: 10px;
-    font-weight: 800;
-    margin-top: 6px;
-}
-
-.channel-grid {
-    flex: 1;
+    height: calc(100% - 44px); /* Subtract header height approx */
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    padding-right: 5px;
 }
+.channel-grid::-webkit-scrollbar { width: 4px; }
+.channel-grid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
 
 .channel-card {
     background: rgba(255,255,255,0.04);
-    border: 1px solid #222;
-    border-radius: 8px;
-    padding: 8px 10px;
-    margin-bottom: 6px;
-    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; cursor: pointer;
 }
+.channel-card.active { border-color: #00d4ff; background: rgba(0, 225, 255, 0.1); }
+.card-title { font-weight: 800; font-size: 14px; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-group { font-size: 10px; color: #8fa6c7; text-transform: uppercase; font-weight: 700; }
 
-.channel-card:active {
-    background: #1a6bb3;
-}
-
-.channel-card.active {
-    border-color: #00d4ff;
-    background: rgba(0, 212, 255, 0.1);
-}
-
-.card-title {
-    font-weight: 800;
-    font-size: 13px;
-    margin-bottom: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.card-group {
-    font-size: 9px;
-    color: #6b82a3;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
+#pagination-container { padding: 10px 0; }
 #load-more-btn {
-    width: 100%;
-    height: 36px;
-    background: #111;
-    border: 1px solid #333;
-    color: #fff;
-    border-radius: 6px;
-    font-size: 12px;
-    font-weight: 800;
-    cursor: pointer;
-    margin-top: 10px;
+    width: 100%; height: 40px; background: rgba(255,255,255,0.05);
+    border: 1px solid #333; color: #fff; border-radius: 8px; font-weight: 800;
 }
 
-/* Custom Message */
-.message {
-    text-align: center;
-    padding: 40px 10px;
-    color: #6b82a3;
-    font-size: 12px;
-}
-
-.message-icon { font-size: 24px; margin-bottom: 5px; }
+.message { text-align: center; padding: 40px 10px; color: #8fa6c7; font-size: 13px; }
+.message-icon { font-size: 30px; margin-bottom: 10px; }
+.clearfix::after { content: ""; clear: both; display: table; }
