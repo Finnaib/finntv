@@ -1,0 +1,65 @@
+﻿<?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
+if (['REQUEST_METHOD'] === 'OPTIONS') exit;
+if (!isset(['url'])) { http_response_code(400); die("No URL"); }
+ = str_replace(' ', '+', ['url']);
+ = base64_decode();
+if (! || filter_var(, FILTER_VALIDATE_URL) === false) { http_response_code(400); die("Invalid URL"); }
+function resolve_url(, ) {
+    if (parse_url(, PHP_URL_SCHEME) != '') return ;
+    if ([0] == '#' || [0] == '?') return .;
+     = parse_url();
+     = ['scheme'] . '://' . (isset(['host']) ? ['host'] : '') . (isset(['port']) ? ':' . ['port'] : '');
+     = isset(['path']) ? ['path'] : '/';
+    if ([0] == '/') return  . ;
+     = dirname();
+    if ( == '/' ||  == '\\')  = '';
+     =  .  . '/' . ;
+     = array('#(/\.?/)#', '#/(?!\.\.)[^/]+/\.\./#');
+    for(=1; >0; =preg_replace(, '/', , -1, )) {}
+    return ;
+}
+ = curl_init();
+curl_setopt(, CURLOPT_URL, );
+curl_setopt(, CURLOPT_RETURNTRANSFER, true);
+curl_setopt(, CURLOPT_FOLLOWLOCATION, true);
+curl_setopt(, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt(, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt(, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
+curl_setopt(, CURLOPT_TIMEOUT, 10);
+ = curl_exec();
+ = curl_getinfo(, CURLINFO_HTTP_CODE);
+ = curl_getinfo(, CURLINFO_CONTENT_TYPE);
+ = curl_getinfo(, CURLINFO_EFFECTIVE_URL);
+curl_close();
+if ( !== 200) { http_response_code(502); die("Error "); }
+if () header("Content-Type: ");
+ = (strpos(strtolower(), 'mpegurl') !== false || strpos(trim(), '#EXTM3U') === 0);
+if () {
+     = explode("\n", );
+     = [];
+     = "https://" . ["HTTP_HOST"] . "/api/stream_proxy.php?url=";
+    foreach ( as ) {
+         = trim();
+        if (empty()) continue;
+        if (strpos(, "#") === 0) {
+            if (strpos(, 'URI="') !== false && preg_match('/URI="([^"]+)"/', , )) {
+                 = resolve_url(, [1]);
+                 =  . urlencode(base64_encode());
+                 = str_replace([1], , );
+            }
+            [] = ;
+        } else {
+             = resolve_url(, );
+            [] =  . urlencode(base64_encode());
+        }
+    }
+    echo implode("\n", );
+} else {
+    header("Cache-Control: public, max-age=86400");
+    echo ;
+}
+?>
+
