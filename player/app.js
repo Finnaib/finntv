@@ -86,9 +86,17 @@ document.addEventListener('DOMContentLoaded', function() {
     videoPlayer.addEventListener('error', function(e) {
         var err = videoPlayer.error ? videoPlayer.error.code : 'Unknown';
         var msg = 'Network or Sync Error';
-        if (err === 3 || err === 4) msg = 'Unsupported Codec/Format';
+        
+        if (err === 3 || err === 4) {
+            msg = 'Unsupported Codec/Format';
+            if (isVita) {
+                // Special hardware warning for Vita users
+                msg = 'Hardware Limit: Use SD/H.264. (H.265/4K blocked)';
+            }
+        }
+        
         channelNameHeader.innerText = 'Player Error ' + err;
-        channelGroupText.innerText = msg + ' (Check site for updates)';
+        channelGroupText.innerText = msg;
     }, true);
 
     function safeBtoa(str) {
