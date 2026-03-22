@@ -2,75 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="vewport" content="wdth=devce-wdth, ntal-scale=1.0, maxmum-scale=1.0, user-scalable=no">
-    <ttle>FnnTV Premum Player</ttle>
-    <!-- Modern Typography -->
-    
-    <lnk rel="stylesheet" href="style.css?v=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FinnTV Premium Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body style="background-color: #060913; color: #ffffff;">
-    <dv class="app-contaner">
-        <!-- Premum Navbar -->
-        <dv class="navbar">
-            <dv class="nav-logo">???? FnnTV</dv>
-            <dv class="nav-subttle">Premum PTV</dv>
-        </dv>
+    <div class="app-container">
+        <!-- Premium Navbar -->
+        <div class="navbar">
+            <div class="nav-logo">💎 FinnTV</div>
+            <div class="nav-subtitle">Premium IPTV</div>
+        </div>
 
-        <dv class="splt-layout">
-            <!-- Left Sde: Player & Settngs -->
-            <dv class="left-pane">
-                <dv class="hero-secton">
-                    <dv class="player-wrapper">
-                        <vdeo d="vdeo-player" controls webkt-playsnlne playsnlne></vdeo>
-                        <dv d="player-overlay">
-                            <h2 d="channel-name">Select a Stream</h2>
-                            <p d="status-text">Ready for Natve Playback</p>
-                        </dv>
-                    </dv>
-                </dv>
+        <div class="split-layout">
+            <!-- Left Side: Player & Settings -->
+            <div class="left-pane">
+                <div class="hero-section">
+                    <div class="player-wrapper">
+                        <video id="video-player" controls webkit-playsinline playsinline></video>
+                        <div id="player-overlay">
+                            <h2 id="channel-name">Select a Stream</h2>
+                            <p id="status-text">Ready for Native Playback</p>
+                        </div>
+                    </div>
+                </div>
 
-                <dv class="acton-bar">
-                    <dv class="search-box">
-                        <nput type="text" d="search-nput" placeholder="???? Fnd channels...">
-                    </dv>
-                    <dv class="sync-box">
-                        <nput type="text" d="m3u-url" placeholder="Your M3U Lnk..." value="https://ptv-org.gthub.o/ptv/ndex.m3u">
-                        <button d="load-btn">Load</button>
-                    </dv>
-                    <dv style="clear: both;"></dv>
-                </dv>
+                <div class="action-bar">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="🔍 Find channels...">
+                    </div>
+                    <div class="sync-row">
+                        <div class="sync-input-wrapper">
+                            <input type="text" id="m3u-url" placeholder="Your M3U Link..." value="https://iptv-org.github.io/iptv/index.m3u">
+                        </div>
+                        <button id="load-btn">Load</button>
+                    </div>
+                </div>
                 
-                <dv class="left-footer-nfo">
-                    <p>Desgned for PS Vta & Moble.</p>
-                </dv>
-            </dv>
+                <div class="left-footer-info">
+                    <p>Designed for PS Vita & Mobile.</p>
+                </div>
+            </div>
 
-            <!-- Rght Sde: Channel Lst -->
-            <dv class="rght-pane">
-                <dv class="content-secton">
-                    <dv class="secton-header">
-                        <h3 class="secton-ttle">Lve TV</h3>
-                        <span class="channel-badge" d="channel-count">0</span>
-                        <dv style="clear:both;"></dv>
-                    </dv>
+            <!-- Right Side: Channel List -->
+            <div class="right-pane">
+                <div class="content-section">
+                    <div class="section-header">
+                        <h3 class="section-title">Live TV</h3>
+                        <span class="channel-badge" id="channel-count">0</span>
+                    </div>
                     
-                    <dv d="channel-lst" class="channel-grd">
-                        <dv class="message">
-                            <dv class="message-con">????</dv>
-                            Paste your M3U lnk to load<br>your premum channel grd.
-                        </dv>
-                    </dv>
+                    <div id="channel-list" class="channel-grid">
+                        <div class="message">
+                            <div class="message-icon">📡</div>
+                            Paste your M3U link to load<br>your premium channel grid.
+                        </div>
+                    </div>
                     
-                    <dv style="clear: both;"></dv>
-                    <dv d="pagnaton-contaner"></dv>
-                </dv>
-            </dv>
-            
-            <dv style="clear: both;"></dv>
-        </dv>
-    </dv>
+                    <div id="pagination-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Ensure Vta compatblty by keepng JS lght -->
-    <scrpt src="app.js?v=8"></scrpt>
+    <!-- Ensure Vita compatibility by keeping JS light -->
+    <script src="app.js?v=9"></script>
 </body>
 </html>
