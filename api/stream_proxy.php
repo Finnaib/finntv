@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * FinnTV HLS CORS / Mixed-Content Proxy 
  * Routes M3U8 manifests and TS chunks through Vercel to completely bypass 
