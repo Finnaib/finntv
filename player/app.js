@@ -145,11 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (t) currentChannel.title = t;
                     }
                 } else if (line.indexOf('http') === 0 && currentChannel) {
-                    var streamUrl = line;
-                    if (streamUrl.indexOf('/live/') !== -1 && streamUrl.slice(-3) === '.ts') {
-                        streamUrl = streamUrl.slice(0, -3) + '.m3u8';
-                    }
-                    currentChannel.url = streamUrl;
+                    currentChannel.url = line; // Preserve original link (.ts or .m3u8)
                     channels.push(currentChannel);
                     currentChannel = null;
                 }
@@ -237,7 +233,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // Detect H.265 from name
         var isH265 = channel.title.toLowerCase().indexOf('h265') !== -1 || channel.title.toLowerCase().indexOf('hevc') !== -1;
 
-        if (window.Hls && Hls.isSupported()) {
+        // Determine if this is a raw .ts link or HLS manifest
+        var isTS = channel.url.toLowerCase().indexOf('.ts') !== -1;
+
+        if (window.Hls && Hls.isSupported() && !isTS) {
             
             function initHlsLayer(proxyProvider) {
                 var config = {
@@ -245,8 +244,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     xhrSetup: function(xhr, url) {
                         try {
                             if (proxyProvider === 'internal') {
-                                // Internal FinnTV Proxy - Spoofs VLC and handles CORS/Mixed-Content
-                                // Essential: encodeURIComponent preserves /, +, and = characters in Base64
                                 var encodedUrl = encodeURIComponent(btoa(url));
                                 xhr.open('GET', '/api/stream_proxy.php?url=' + encodedUrl, true);
                             } else if (proxyProvider === 'corsproxy') {
@@ -316,16 +313,20 @@ document.addEventListener('DOMContentLoaded', function() {
             
         } 
         else {
-            // NATIVE FALLBACK (Vita/Safari)
+            // NATIVE FALLBACK (.ts links or browsers like Vita/Safari)
+            var finalNativeUrl = '/api/stream_proxy.php?url=' + encodeURIComponent(btoa(channel.url));
+            
             videoPlayer.innerHTML = 
-                '<source src="' + channel.url + '" type="application/vnd.apple.mpegurl">' +
-                '<source src="' + channel.url + '" type="application/x-mpegURL">';
+                '<source src="' + finalNativeUrl + '" type="video/mp2t">' +
+                '<source src="' + finalNativeUrl + '" type="application/vnd.apple.mpegurl">';
             videoPlayer.load();
             var p = videoPlayer.play();
             if (p && p.catch) p.catch(function(){});
             
-            channelNameHeader.innerText = (isH265 ? '⚠️ ' : '') + channel.title;
-            if (isH265) channelGroupText.innerText = 'H.265 may not play on Vita';
+            channelNameHeader.innerText = (isTS ? '📺 ' : '') + channel.title;
+            if (isTS && !isVita) {
+                channelGroupText.innerText = 'RAW .TS link: May require Safari or Vita';
+            }
         }
     }
 });
