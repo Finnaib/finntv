@@ -335,8 +335,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         else {
             // NATIVE UNIVERSAL HANDLER (MP4, TS, VOD, Vita, Safari)
-            // On Vita, we avoid proxy if possible to handle large video files
-            var finalNativeUrl = isVita ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
+            // For Xtream links (/live/), we MUST use the proxy to spoof VLC User-Agent!
+            var isXtream = lowerUrl.indexOf('/live/') !== -1;
+            var finalNativeUrl = (isVita && !isXtream) ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
             
             videoPlayer.pause();
             videoPlayer.src = finalNativeUrl;
@@ -345,7 +346,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (p && p.catch) p.catch(function(){});
             
             channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
-            if (isTS && !isVita) {
+            if (isVita) {
+                channelGroupText.innerHTML = 'Vita Bridge Active | <a href="' + channel.url + '" target="_blank" style="color:#00e1ff">Open Direct</a>';
+            } else if (isTS) {
                 channelGroupText.innerText = 'Streaming .TS via Bridge';
             }
         }
