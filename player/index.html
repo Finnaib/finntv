@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FinnTV Premium Player</title>
     <!-- Modern Typography -->
-    
+
     <link rel="stylesheet" href="style.css?v=8">
 </head>
+
 <body style="background-color: #060913; color: #ffffff;">
     <div class="app-container">
         <!-- Premium Navbar -->
         <div class="navbar">
-            <div class="nav-logo">???? FinnTV</div>
+            <div class="nav-logo">FinnTV</div>
             <div class="nav-subtitle">Premium IPTV</div>
         </div>
 
@@ -31,15 +33,16 @@
 
                 <div class="action-bar">
                     <div class="search-box">
-                        <input type="text" id="search-input" placeholder="???? Find channels...">
+                        <input type="text" id="search-input" placeholder="Find channels...">
                     </div>
                     <div class="sync-box">
-                        <input type="text" id="m3u-url" placeholder="Your M3U Link..." value="https://iptv-org.github.io/iptv/index.m3u">
+                        <input type="text" id="m3u-url" placeholder="Your M3U Link..."
+                            value="https://iptv-org.github.io/iptv/index.m3u">
                         <button id="load-btn">Load</button>
                     </div>
                     <div style="clear: both;"></div>
                 </div>
-                
+
                 <div class="left-footer-info">
                     <p>Designed for PS Vita & Mobile.</p>
                 </div>
@@ -53,19 +56,19 @@
                         <span class="channel-badge" id="channel-count">0</span>
                         <div style="clear:both;"></div>
                     </div>
-                    
+
                     <div id="channel-list" class="channel-grid">
                         <div class="message">
-                            <div class="message-icon">????</div>
+                            <div class="message-icon"></div>
                             Paste your M3U link to load<br>your premium channel grid.
                         </div>
                     </div>
-                    
+
                     <div style="clear: both;"></div>
                     <div id="pagination-container"></div>
                 </div>
             </div>
-            
+
             <div style="clear: both;"></div>
         </div>
     </div>
@@ -73,4 +76,5 @@
     <!-- Ensure Vita compatibility by keeping JS light -->
     <script src="app.js?v=8"></script>
 </body>
+
 </html>
