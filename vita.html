@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinnTV Vita</title>
+    <style>
+        body { background: #000; color: #fff; font-family: sans-serif; margin:0; padding:10px; }
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 10px; border: 1px solid #333; }
+        .btn { 
+            display: block; 
+            background: #1a6bb3; 
+            color: #fff; 
+            text-decoration: none; 
+            padding: 15px; 
+            text-align: center; 
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        .logo { font-size: 20px; font-weight: bold; color: #64b5f6; margin-bottom: 20px; text-align: center; }
+    </style>
+</head>
 <body>
-<h1 style="color:red">VITA TEST</h1>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/asia.m3u">ASIA</a><br>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/egypt.m3u">EGYPT</a><br>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/india.m3u">INDIA</a><br>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/world.m3u">WORLD</a><br>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/indonesia.m3u">INDONESIA</a><br>
-<a href="player/index.html?m3u=https://finntv.vercel.app/m3u/sport.m3u">SPORT</a>
+    <div class="logo">?? FinnTV PS Vita</div>
+    <table>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/asia.m3u">Stream Asia</a></td></tr>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/egypt.m3u">Stream Egypt</a></td></tr>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/india.m3u">Stream India</a></td></tr>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/world.m3u">Stream World</a></td></tr>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/indonesia.m3u">Stream Indonesia</a></td></tr>
+        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/sport.m3u">Stream Sport</a></td></tr>
+    </table>
 </body>
 </html>
