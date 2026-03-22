@@ -40,14 +40,15 @@ if () header("Content-Type: ");
 if () {
      = explode("\n", );
      = [];
-     = 'https://' . ['HTTP_HOST'] . '/api/stream_proxy.php?url=';
+     = "https://" . ["HTTP_HOST"] . "/api/stream_proxy.php?url=";
     foreach ( as ) {
          = trim();
         if (empty()) continue;
-        if (strpos(, '#') === 0) {
+        if (strpos(, "#") === 0) {
             if (strpos(, 'URI="') !== false && preg_match('/URI="([^"]+)"/', , )) {
                  = resolve_url(, [1]);
-                 = str_replace([1],  . urlencode(base64_encode()), );
+                 =  . urlencode(base64_encode());
+                 = str_replace([1], , );
             }
             [] = ;
         } else {
