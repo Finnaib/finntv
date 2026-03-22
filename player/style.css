@@ -1,23 +1,245 @@
-:root { --bg: #060913; --card: rgba(255,255,255,0.03); --accent: #00d4ff; --glass: rgba(14,21,41,0.9); }
-* { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
-body, html { margin:0; background: var(--bg); color:#fff; font-family: sans-serif; height:100%; overflow:hidden; }
-.nav { height:50px; background:var(--glass); border-bottom:2px solid var(--accent); display:flex; align-items:center; padding:0 15px; }
-.logo { font-weight:bold; font-size:18px; color:var(--accent); }
-.main { display: table; width: 100%; height: calc(100% - 50px); table-layout: fixed; }
-.player-content { display: table-cell; vertical-align: middle; background: #000; width: 65%; position: relative; }
-.sidebar { display: table-cell; width: 35%; background: #0a0e1a; border-left: 1px solid #1a2338; vertical-align: top; }
-video { width: 100%; height: auto; max-height: 100%; display: block; margin: 0 auto; }
-.ch-info { position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; background: rgba(0,0,0,0.7); }
-#ch-title { margin: 0; font-size: 16px; font-weight: bold; }
-.search-box { padding: 10px; background: #0e1529; }
-input { width: 100%; padding: 10px; background: #000; border: 1px solid #222; color: #fff; font-size: 14px; }
-.list { height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 5px; }
-.card { padding: 12px; background: #111; border: 1px solid #222; margin-bottom: 5px; cursor: pointer; }
-.card.active { border-color: var(--accent); background: #1a2338; }
-.card-name { font-weight: bold; font-size: 14px; display: block; }
-.card-grp { font-size: 10px; color: #666; text-transform: uppercase; }
-@media (max-width: 500px) {
-    .main { display: block; }
-    .player-content { display: block; width: 100%; height: 35%; }
-    .sidebar { display: block; width: 100%; height: 65%; border-left: none; border-top: 1px solid #1a2338; }
+/* style.css v6 - Ultra-Mobile Premium UI */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #050814;
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; 
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* NAVBAR - Slimmed down for 544p Vita screen */
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: rgba(14, 21, 41, 0.95);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 10px 20px;
+}
+
+.nav-logo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #00e1ff;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+}
+
+/* HERO VIDEO - Optimized for 544p height */
+.hero-section {
+    padding: 15px;
+    background: radial-gradient(circle at 50% 0%, rgba(0, 115, 255, 0.15) 0%, rgba(5, 8, 20, 0) 70%);
+}
+
+.player-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 380px; /* Reduced from 480px! Will fit entirely with the Action Bar */
+    margin: 0 auto;
+    background: #000;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8), 0 0 0 1px rgba(255,255,255,0.05);
+    overflow: hidden;
+}
+
+#video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
+}
+
+#player-overlay {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);
+    padding: 30px 20px 15px 20px;
+    pointer-events: none;
+}
+
+#channel-name {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+#status-text {
+    font-size: 13px;
+    color: #00e1ff;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ACTION BAR (Search & Sync) */
+.action-bar {
+    width: 100%;
+    padding: 0 15px 15px 15px;
+}
+
+.search-box {
+    float: left;
+    width: 45%;
+}
+
+.search-box input {
+    width: 100%;
+    height: 48px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.search-box input:focus {
+    background: rgba(255,255,255,0.1);
+    border-color: #00e1ff;
+    outline: none;
+}
+
+.sync-box {
+    float: right;
+    width: 53%;
+}
+
+.sync-box input {
+    float: left;
+    width: 70%;
+    height: 48px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px 0 0 8px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sync-box button {
+    float: left;
+    width: 30%;
+    height: 48px;
+    background: linear-gradient(90deg, #0073ff, #00d4ff);
+    color: #fff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 115, 255, 0.4);
+}
+
+.sync-box button:active {
+    background: linear-gradient(90deg, #0056cc, #00a0cc);
+}
+
+/* CONTENT GRID */
+.content-section {
+    padding: 0 15px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    border-left: 4px solid #00d4ff;
+}
+
+.channel-grid {
+    width: 100%;
+}
+
+/* Tighter Card Grid for Vita */
+.channel-card {
+    float: left;
+    width: 31%; /* 3-column layout */
+    margin: 1.15%;
+    background: rgba(25, 33, 56, 0.6);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.channel-card.active {
+    background: rgba(0, 115, 255, 0.2);
+    border-color: #00d4ff;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+    white-space: wrap;
+    height: 34px;
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+.card-group {
+    font-size: 11px;
+    color: #889bb4;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#pagination-container {
+    width: 100%;
+    padding: 15px 1.15%;
+    clear: both;
+}
+
+#load-more-btn {
+    width: 100%;
+    padding: 18px;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+}
+
+#load-more-btn:active {
+    background: rgba(255,255,255,0.1);
+}
+
+.message {
+    text-align: center;
+    padding: 30px;
+    color: #889bb4;
+    font-size: 15px;
+    float: left;
+    width: 100%;
 }

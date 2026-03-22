@@ -1,108 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinnTV Vita Player</title>
-    <style>
-        body, html { margin:0; padding:0; background:#000; color:#fff; height:100%; font-family:sans-serif; overflow:hidden; }
-        .v-nav { height:44px; background:#0a0e1a; border-bottom:2px solid #00d4ff; padding:0 10px; display:flex; align-items:center; }
-        .v-logo { font-weight:bold; color:#00d4ff; }
-        .v-main { height: calc(100% - 44px); width:100%; display: table; table-layout: fixed; }
-        .v-video-box { display: table-cell; vertical-align: middle; background:#000; width: 60%; position: relative; }
-        .v-list-box { display: table-cell; vertical-align: top; width: 40%; background:#0a0e1a; border-left:1px solid #1a2338; }
-        #player { width:100%; height:auto; display:block; }
-        .v-search { padding:8px; background:#111; }
-        #search { width:100%; padding:8px; background:#000; border:1px solid #333; color:#fff; font-size:14px; outline:none; }
-        .v-scroller { height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; }
-        .v-card { padding:10px; border-bottom:1px solid #1a2338; cursor:pointer; background:#0e1529; }
-        .v-card.active { background:#00d4ff; color:#000; }
-        .v-name { font-weight:bold; font-size:14px; display:block; }
-        .v-grp { font-size:10px; opacity:0.7; }
-        .v-info { position:absolute; bottom:0; left:0; width:100%; padding:5px; background:rgba(0,0,0,0.6); font-size:12px; }
-        @media (max-width: 600px) {
-            .v-main { display: block; overflow-y: auto; }
-            .v-video-box { display: block; width: 100%; height: 40%; }
-            .v-list-box { display: block; width: 100%; height: 60%; border-left:none; border-top:1px solid #333; }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FinnTV Player</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
-<body>
-    <div class="v-nav"><div class="v-logo">FinnTV Vita</div></div>
-    <div class="v-main">
-        <div class="v-video-box">
-            <video id="player" controls playsinline></video>
-            <div class="v-info" id="ch-title">Select Channel</div>
+<body style="background-color: #050814; color: #ffffff;">
+    <div class="app-container">
+        
+        <!-- Ultra-Thin Navbar for Small Screens -->
+        <div class="navbar">
+            <div class="nav-logo">📺 FinnTV Player</div>
         </div>
-        <div class="v-list-box">
-            <div class="v-search"><input type="text" id="search" placeholder="Search..."></div>
-            <div class="v-scroller" id="list"></div>
+
+        <!-- Premium Video Player Area (Resized for 544p screens) -->
+        <div class="hero-section">
+            <div class="player-wrapper">
+                <video id="video-player" controls webkit-playsinline playsinline></video>
+                <div id="player-overlay">
+                    <h2 id="channel-name">Select a Stream</h2>
+                    <p id="status-text">Ready for Native Playback</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Bar (Search & Sync) -->
+        <div class="action-bar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="🔍 Search channels...">
+            </div>
+            <div class="sync-box">
+                <input type="text" id="m3u-url" placeholder="Paste .m3u link here..." value="https://iptv-org.github.io/iptv/index.m3u">
+                <button id="load-btn">Sync</button>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <!-- Modern Grid layout for channels -->
+        <div class="content-section">
+            <h3 class="section-title">Live Channels (<span id="channel-count">0</span>)</h3>
+            
+            <div id="channel-list" class="channel-grid">
+                <div class="message">Paste your M3U link to load your premium channel grid.</div>
+            </div>
+            
+            <div style="clear: both;"></div>
+            
+            <div id="pagination-container"></div>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var player = document.getElementById("player"),
-                list = document.getElementById("list"),
-                title = document.getElementById("ch-title"),
-                search = document.getElementById("search"),
-                channels = [], filtered = [];
 
-            var m3u = new URLSearchParams(window.location.search).get("m3u");
-            if (m3u) {
-                var xhr = new XMLHttpRequest();
-                xhr.open("GET", m3u, true);
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState === 4 && xhr.status === 200) {
-                        parse(xhr.responseText);
-                    }
-                };
-                xhr.send();
-            }
-
-            search.oninput = function() {
-                var q = search.value.toLowerCase();
-                filtered = channels.filter(function(c) {
-                    return (c.t + c.g).toLowerCase().indexOf(q) !== -1;
-                });
-                render();
-            };
-
-            function parse(txt) {
-                var lines = txt.split("\n"), cur = null;
-                for (var i=0; i<lines.length; i++) {
-                    var l = lines[i].trim();
-                    if (l.indexOf("#EXTINF:") === 0) {
-                        cur = { t: "Unknown", g: "Live", u: "" };
-                        var g = l.match(/group-title=\"([^\"]+)\"/);
-                        if (g) cur.g = g[1];
-                        var p = l.split(",");
-                        if (p.length > 1) cur.t = p[p.length-1].trim();
-                    } else if (l.indexOf("http") === 0 && cur) {
-                        cur.u = l; channels.push(cur); cur = null;
-                    }
-                }
-                filtered = channels; render();
-            }
-
-            function render() {
-                list.innerHTML = "";
-                for (var i=0; i<Math.min(filtered.length, 300); i++) {
-                    (function(c) {
-                        var el = document.createElement("div");
-                        el.className = "v-card";
-                        el.innerHTML = "<span class=\"v-name\">" + c.t + "</span><span class=\"v-grp\">" + c.g + "</span>";
-                        el.onclick = function() {
-                            var all = document.querySelectorAll(".v-card");
-                            for(var j=0; j<all.length; j++) all[j].className = "v-card";
-                            el.className = "v-card active";
-                            title.innerText = c.t;
-                            player.src = c.u; player.load(); player.play();
-                        };
-                        list.appendChild(el);
-                    })(filtered[i]);
-                }
-            }
-        });
-    </script>
+    <!-- Ensure Vita compatibility by keeping JS light -->
+    <script src="app.js?v=7"></script>
 </body>
 </html>
