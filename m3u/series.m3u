@@ -9017,9 +9017,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3579.ts
 #EXTINF:-1 tvg-id="" tvg-name="رامز جاب من الأخر" tvg-logo="http://images.vega-xt-mh.com:80/Ramdan/Ramez.Jab.mn.Al.png" group-title="Ramdan Tv",رامز جاب من الأخر
 http://mhav1.com:2095/series/ht2990/742579548/3552.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="رامز موفي ستار" tvg-logo="http://images.vega-xt-mh.com:80/images/jkwv8b1lJKtpdmt0yf3G3e3i0Nu_big.jpg" group-title="Ramdan Tv",رامز موفي ستار
-http://mhav1.com:2095/series/ht2990/742579548/1349.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="رحالة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6JtMxmKTX77UB6U9ZS6pmgG5skX.jpg" group-title="Ramdan Tv",رحالة
 http://mhav1.com:2095/series/ht2990/742579548/596.ts
 
@@ -10805,8 +10802,14 @@ http://mhav1.com:2095/series/ht2990/742579548/6733.ts
 #EXTINF:-1 tvg-id="" tvg-name="رامز فى الشلال" tvg-logo="http://images.vega-xt-mh.com:80/images/hFWZoOuPDlGRjaPDJU1HnkInMFp_big.jpg" group-title="TV Shows",رامز فى الشلال
 http://mhav1.com:2095/series/ht2990/742579548/6732.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="رامز مجنون رسمي" tvg-logo="http://images.vega-xt-mh.com:80/images/gvr7lKKIpNrzrrQ9usbvX60mc3M_big.jpg" group-title="TV Shows",رامز مجنون رسمي
-http://mhav1.com:2095/series/ht2990/742579548/159.ts
+#EXTINF:-1 tvg-id="" tvg-name="رامز قرش البحر" tvg-logo="http://images.vega-xt-mh.com:80/images/skI8df45uxnRyeDr9z3mUFlqxS4_big.jpg" group-title="TV Shows",رامز قرش البحر
+http://mhav1.com:2095/series/ht2990/742579548/6741.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="رامز مجنون رسمى" tvg-logo="http://images.vega-xt-mh.com:80/images/gvr7lKKIpNrzrrQ9usbvX60mc3M_big.jpg" group-title="TV Shows",رامز مجنون رسمى
+http://mhav1.com:2095/series/ht2990/742579548/6737.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="رامز موفى ستار" tvg-logo="http://images.vega-xt-mh.com:80/images/z1jRVJ3VBGMq5AnissCiVbVnOdJ_big.jpg" group-title="TV Shows",رامز موفى ستار
+http://mhav1.com:2095/series/ht2990/742579548/6739.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="رامز نيفر إند" tvg-logo="http://images.vega-xt-mh.com:80/images/vgW75a6YOutU8eTLru4PRMqpvpy_big.jpg" group-title="TV Shows",رامز نيفر إند
 http://mhav1.com:2095/series/ht2990/742579548/6731.ts
@@ -15101,6 +15104,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4000.ts
 #EXTINF:-1 tvg-id="" tvg-name="اخوتى مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/p2wOxI0GAlckcgoGF14r31dYiPr_big.jpg" group-title="مسلسلات مدبلجه",اخوتى مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/1568.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="اخى مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/vLzRFkoztZ5JACzV7VPDg80isH9_big.jpg" group-title="مسلسلات مدبلجه",اخى مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/6735.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="اذا خسر الملك مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/u0kk5PUB850OlrVA1w7hgc41E9T_big.jpg" group-title="مسلسلات مدبلجه",اذا خسر الملك مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/5465.ts
 
@@ -15475,6 +15481,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2732.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="انت حر" tvg-logo="http://images.vega-xt-mh.com:80/images/xAiXhN7IfIAHCiNh4jWOJchC1Fi_big.jpg" group-title="مسلسلات مدبلجه",انت حر
 http://mhav1.com:2095/series/ht2990/742579548/4727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="انت من احببت مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/AePlQKbQSFdASW5lL5JZ7PAvvQd_big.jpg" group-title="مسلسلات مدبلجه",انت من احببت مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/6738.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="انت وطني" tvg-logo="http://images.vega-xt-mh.com:80/images/ozbLTMVLjyFnguhv3Ohr5NsayDN_big.jpg" group-title="مسلسلات مدبلجه",انت وطني
 http://mhav1.com:2095/series/ht2990/742579548/3155.ts
