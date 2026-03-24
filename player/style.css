@@ -83,7 +83,7 @@ html, body {
     background: #000000; overflow: hidden; z-index: 400;
 }
 
-.hero-section { width: 100%; height: 100%; background: #000; position: relative; }
+.hero-section { width: 100%; height: calc(100% - 65px); background: #000; position: relative; }
 .player-wrapper { width: 100%; height: 100%; background: #000; position: relative; }
 #video-player { width: 100%; height: 100%; object-fit: contain; }
 
@@ -94,18 +94,17 @@ html, body {
 #channel-name { font-size: 22px; font-weight: 800; color: #fff; margin: 0; text-shadow: 0 2px 15px rgba(0,0,0,0.5); }
 #status-text { font-size: 11px; color: #3498db; font-weight: 800; text-transform: uppercase; margin-top: 5px; }
 
-/* --- SYNC OVERLAY --- */
+/* --- SYNC BAR (DOCK) --- */
 .sync-row {
-    position: absolute; bottom: 20px; right: 20px; width: 440px;
-    background: #ffffff; border-radius: 15px; padding: 9px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15); z-index: 2000;
-    border: 1px solid #e2e8f0;
+    position: absolute; bottom: 0; left: 0; width: 100%; height: 65px;
+    background: #ffffff; border-top: 1px solid #e1e8ed;
+    padding: 12px 20px; z-index: 2000;
 }
-.sync-input-wrapper { float: left; width: 78%; }
-.sync-input-wrapper input { width: 100%; height: 38px; border: none; font-size: 13px; font-weight: 500; padding: 0 12px; color: #2d3748; background: transparent; }
+.sync-input-wrapper { float: left; width: 85%; }
+.sync-input-wrapper input { width: 100%; height: 40px; border: none; font-size: 14px; font-weight: 500; padding: 0 12px; color: #2d3748; background: transparent; }
 #load-btn { 
-    float: right; width: 20%; height: 38px; background: #3498db; color: #fff; border: none; 
-    border-radius: 10px; font-weight: 800; font-size: 13px; cursor: pointer; transition: 0.15s;
+    float: right; width: 12%; height: 40px; background: #3498db; color: #fff; border: none; 
+    border-radius: 12px; font-weight: 800; font-size: 14px; cursor: pointer; transition: 0.15s;
     box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2); 
 }
 #load-btn:active { transform: scale(0.95); opacity: 0.9; }
