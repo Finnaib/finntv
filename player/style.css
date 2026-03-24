@@ -24,7 +24,7 @@ body, html {
 
 /* LEFT PANE - CHANNEL SELECTION */
 .left-pane {
-    flex: 0 0 50%; height: 100%; padding: 15px;
+    flex: 0 0 40%; height: 100%; padding: 10px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     display: flex; flex-direction: column; overflow: hidden;
 }
@@ -57,11 +57,11 @@ body, html {
 .section-header { flex-shrink: 0; margin-bottom: 5px; }
 
 .channel-grid { 
-    flex: 1; overflow-y: scroll; padding-right: 5px; 
+    flex: 1; overflow-y: scroll !important; padding-right: 5px; 
     -webkit-overflow-scrolling: touch; min-height: 0;
 }
-.channel-grid::-webkit-scrollbar { width: 3px; }
-.channel-grid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+.channel-grid::-webkit-scrollbar { width: 5px; }
+.channel-grid::-webkit-scrollbar-thumb { background: rgba(0, 225, 255, 0.3); border-radius: 10px; }
 
 .channel-card {
     background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
@@ -74,7 +74,7 @@ body, html {
 .card-group { font-size: 10px; color: #00e1ff; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; }
 
 /* RIGHT PANE - PLAYER */
-.right-pane { flex: 0 0 50%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; overflow-y: auto; }
+.right-pane { flex: 0 0 60%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; overflow-y: auto; }
 
 .player-wrapper {
     width: 100%; background: #000; border-radius: 15px; position: relative;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -13,11 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background-color: #060913; color: #ffffff;">
     <div class="app-container">
         <!-- Premium Navbar -->
         <div class="navbar clearfix">
-            <div class="nav-logo">💎 FinnTV <span>Premium v18</span></div>
+            <div class="nav-logo">💎 FinnTV <span>Premium </span></div>
             <div class="nav-subtitle">VLC Logic Active</div>
         </div>
 
@@ -40,7 +42,7 @@
                         <h2 class="section-title">Channel Guide</h2>
                         <span class="channel-badge"><span id="channel-count">0</span> Channels</span>
                     </div>
-                    
+
                     <div class="channel-grid" id="channel-list">
                         <!-- Channels load here -->
                     </div>
@@ -58,20 +60,26 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="sync-row clearfix">
                     <div class="sync-input-wrapper">
-                        <input type="text" id="m3u-url" placeholder="Paste .m3u link" value="https://finntv.vercel.app/m3u/egypt.m3u">
+                        <input type="text" id="m3u-url" placeholder="Paste .m3u link"
+                            value="https://iptv-org.github.io/iptv/index.m3u">
                     </div>
                     <button id="load-btn">Load</button>
                 </div>
 
                 <div class="quick-presets" style="margin-top: 10px; text-align: center;">
-                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://finntv.vercel.app/m3u/egypt.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">Egypt M3U</button>
-                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://iptv-org.github.io/iptv/index.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">IPTV-ORG</button>
-                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://iptv-org.github.io/iptv/index.nsfw.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">NSFW List</button>
+                    <button class="preset-btn"
+                        onclick="document.getElementById('m3u-url').value='https://iptv-org.github.io/iptv/index.m3u'; document.getElementById('load-btn').click();"
+                        style="background:#00e1ff; color:#000; border:none; border-radius:10px; padding:8px 15px; font-weight:800; font-size:11px; cursor:pointer;">Reload
+                        IPTV-ORG</button>
+                    <button class="preset-btn"
+                        onclick="document.getElementById('m3u-url').value='https://finntv.vercel.app/m3u/egypt.m3u'; document.getElementById('load-btn').click();"
+                        style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:8px 15px; font-weight:800; font-size:11px; cursor:pointer;">Switch
+                        to Egypt</button>
                 </div>
-                
+
                 <div class="app-info">
                     Designed for PS Vita & Mobile.
                 </div>
@@ -82,4 +90,5 @@
     <!-- Ensure Vita compatibility by keeping JS light -->
     <script src="app.js?v=18"></script>
 </body>
+
 </html>

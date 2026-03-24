@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function parseM3UAndRender(content) {
-        var lines = content.split('\n');
+        var lines = content.replace(/\r/g, '').split('\n');
         channels = [];
         var groups = {'All': true};
         var currentChannel = null;
