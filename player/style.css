@@ -24,9 +24,10 @@ body, html {
 
 /* LEFT PANE - CHANNEL SELECTION */
 .left-pane {
-    flex: 0 0 40%; height: 100%; padding: 10px;
+    flex: 0 0 55%; height: 100%; padding: 20px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     display: flex; flex-direction: column; overflow: hidden;
+    background: rgba(2, 4, 10, 0.4);
 }
 
 .group-filter-bar {
@@ -57,11 +58,12 @@ body, html {
 .section-header { flex-shrink: 0; margin-bottom: 5px; }
 
 .channel-grid { 
-    flex: 1; overflow-y: scroll !important; padding-right: 5px; 
+    flex: 1; overflow-y: auto !important; padding-right: 8px; 
     -webkit-overflow-scrolling: touch; min-height: 0;
 }
-.channel-grid::-webkit-scrollbar { width: 5px; }
-.channel-grid::-webkit-scrollbar-thumb { background: rgba(0, 225, 255, 0.3); border-radius: 10px; }
+.channel-grid::-webkit-scrollbar { width: 6px; }
+.channel-grid::-webkit-scrollbar-thumb { background: rgba(0, 225, 255, 0.5); border-radius: 10px; }
+.channel-grid::-webkit-scrollbar-track { background: rgba(255,255,255,0.03); }
 
 .channel-card {
     background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
@@ -74,11 +76,14 @@ body, html {
 .card-group { font-size: 10px; color: #00e1ff; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; }
 
 /* RIGHT PANE - PLAYER */
-.right-pane { flex: 0 0 60%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; overflow-y: auto; }
+.right-pane { flex: 0 0 45%; height: 100%; background: #000; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
+
+.hero-section { flex-grow: 1; display: flex; align-items: center; justify-content: center; background: #000; padding: 20px; }
 
 .player-wrapper {
-    width: 100%; background: #000; border-radius: 15px; position: relative;
-    padding-top: 56.25%; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    width: 100%; max-width: 100%; background: #000; position: relative;
+    box-shadow: 0 0 100px rgba(0, 225, 255, 0.1); border-radius: 0px;
+    padding-top: 56.25%; overflow: hidden;
 }
 #video-player { position: absolute; top:0; left:0; width:100%; height:100%; }
 #player-overlay {
@@ -89,15 +94,16 @@ body, html {
 #channel-name { font-size: 16px; font-weight: 800; margin: 0; }
 #status-text { font-size: 10px; color: #00e1ff; font-weight: 800; text-transform: uppercase; }
 
-.sync-row { margin-top: 20px; background: rgba(255,255,255,0.03); border-radius: 12px; padding: 5px; }
-.sync-input-wrapper { float: left; width: 78%; }
+.sync-row { margin: 20px; background: rgba(255,255,255,0.05); border-radius: 15px; padding: 8px; border: 1px solid rgba(255,255,255,0.1); }
+.sync-input-wrapper { float: left; width: 80%; }
 .sync-input-wrapper input {
-    width: 100%; height: 36px; background: transparent; border: none;
-    color: #fff; padding: 0 12px; font-size: 12px;
+    width: 100%; height: 40px; background: transparent; border: none;
+    color: #fff; padding: 0 15px; font-size: 13px; outline: none;
 }
 #load-btn {
-    float: left; width: 22%; height: 36px; background: #00e1ff; color: #000;
-    border: none; border-radius: 10px; font-weight: 800; font-size: 12px; cursor: pointer;
+    float: left; width: 20%; height: 40px; background: #00e1ff; color: #000;
+    border: none; border-radius: 10px; font-weight: 800; font-size: 13px; cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 225, 255, 0.3);
 }
 
 .app-info { margin-top: 25px; text-align: center; color: rgba(255,255,255,0.3); font-size: 10px; font-weight: 700; }

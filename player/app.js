@@ -158,16 +158,25 @@ document.addEventListener('DOMContentLoaded', function() {
             flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: !isVOD, url: finalUrl, enableWorker: true, enableStashBuffer: false });
             flvPlayer.attachMediaElement(videoPlayer);
             flvPlayer.load();
-            flvPlayer.play().catch(function(){});
+            flvPlayer.play().catch(function(){
+                console.log("Proxy failed, trying native...");
+                videoPlayer.src = channel.url;
+                videoPlayer.play().catch(function(){});
+            });
             channelNameHeader.innerText = '📺 ' + channel.title;
         } 
         // Path 2: HLS
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
             hls = new Hls();
-            hls.loadSource(finalUrl); // Use proxied URL for the manifest
+            hls.loadSource(finalUrl);
             hls.attachMedia(videoPlayer);
-            hls.on(Hls.Events.MANIFEST_PARSED, function() { 
-                videoPlayer.play().catch(function(){}); 
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { videoPlayer.play().catch(function(){}); });
+            hls.on(Hls.Events.ERROR, function(event, data) {
+                if (data.fatal) {
+                    console.log("HLS Proxy error, trying native...");
+                    videoPlayer.src = channel.url;
+                    videoPlayer.play().catch(function(){});
+                }
             });
             channelNameHeader.innerText = '📡 ' + channel.title;
         }
@@ -175,7 +184,10 @@ document.addEventListener('DOMContentLoaded', function() {
         else {
             videoPlayer.src = finalUrl;
             videoPlayer.load();
-            videoPlayer.play().catch(function(){});
+            videoPlayer.play().catch(function(){
+                videoPlayer.src = channel.url;
+                videoPlayer.play().catch(function(){});
+            });
             channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
         }
     }
