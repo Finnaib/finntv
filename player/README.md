@@ -9,15 +9,12 @@ A custom IPTV application specifically designed for the **PS Vita Web Browser** 
 - **Native HLS Stream Support**: Bypasses the need for complex un-supported media extensions (MSE). Binds `.m3u8` video streams directly to standard HTML5 video elements for native smooth playback.
 
 ## How to use:
-1. Since the PS Vita Web Browser restricts fetching local files directly, the easiest way to serve this app is to host it via a local development server on your PC. 
-2. Open your terminal in this directory and run a local server, for example using Python:
+1. **PHP Server Required**: To use the Vercel-style streaming proxy (required for `.ts` streams), you should use a PHP-capable server instead of Python. 
+2. Open your terminal in the root directory and run: 
    ```cmd
-   python -m http.server 8080
+   php -S 0.0.0.0:8080
    ```
-   Or using Node.js:
-   ```cmd
-   npx serve -l 8080
-   ```
+   *Note*: If you only use Python (`python -m http.server`), the proxy will not work and some channels may not play.
 3. Look up your computer's local IPv4 address (e.g. `192.168.1.5`).
 4. On your **PS Vita**, open the **Browser** and navigate to your PC's IP and port, for example: `http://192.168.1.5:8080/`.
 5. Enter a link to a raw M3U playlist file into the input box on the sidebar.

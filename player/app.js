@@ -150,12 +150,12 @@ document.addEventListener('DOMContentLoaded', function() {
         var lowerUrl = channel.url.toLowerCase();
         var isTS = lowerUrl.indexOf('.ts') !== -1;
         var isVOD = lowerUrl.indexOf('.mp4') !== -1 || lowerUrl.indexOf('.mkv') !== -1;
-        var isXtream = lowerUrl.indexOf('/live/') !== -1;
+        var isXtream = lowerUrl.indexOf('/live/') !== -1 || lowerUrl.indexOf('/movie/') !== -1 || lowerUrl.indexOf('/series/') !== -1;
         var finalUrl = (isVita && !isXtream) ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
 
         // Path 1: MPEG-TS (VLC Mode)
         if (isTS && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
-            flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: true, url: finalUrl, enableWorker: true, enableStashBuffer: false });
+            flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: !isVOD, url: finalUrl, enableWorker: true, enableStashBuffer: false });
             flvPlayer.attachMediaElement(videoPlayer);
             flvPlayer.load();
             flvPlayer.play().catch(function(){});
@@ -163,10 +163,17 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         // Path 2: HLS
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
-            hls = new Hls({ xhrSetup: function(xhr, url) { if(isXtream) xhr.open('GET', '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(url)), true); } });
+            hls = new Hls({ 
+                xhrSetup: function(xhr, url) { 
+                    // To follow the Vercel architecture, we route sub-manifests back to the proxy
+                    if(isXtream || url.indexOf('http') === 0) {
+                        xhr.open('GET', '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(url)), true); 
+                    }
+                } 
+            });
             hls.loadSource(channel.url);
             hls.attachMedia(videoPlayer);
-            hls.on(Hls.Events.MANIFEST_PARSED, function() { videoPlayer.play(); });
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { videoPlayer.play().catch(function(){}); });
             channelNameHeader.innerText = '📡 ' + channel.title;
         }
         // Path 3: Native
@@ -191,8 +198,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var q = window.location.search;
         if (q.indexOf('?m3u=') !== -1) { 
             m3uInput.value = decodeURIComponent(q.split('?m3u=')[1].split('&')[0]); 
-        }
-        if (m3uInput.value) {
             initLoad();
         }
     }, 200);
