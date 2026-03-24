@@ -189,6 +189,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     setTimeout(function() {
         var q = window.location.search;
-        if (q.indexOf('?m3u=') !== -1) { m3uInput.value = decodeURIComponent(q.split('?m3u=')[1].split('&')[0]); initLoad(); }
+        if (q.indexOf('?m3u=') !== -1) { 
+            m3uInput.value = decodeURIComponent(q.split('?m3u=')[1].split('&')[0]); 
+        }
+        if (m3uInput.value) {
+            initLoad();
+        }
     }, 200);
 });
