@@ -36,11 +36,24 @@ document.addEventListener('DOMContentLoaded', function() {
     function fetchM3U(url) {
         channelListContainer.innerHTML = '<div class="message">Building Bridge...</div>';
         paginationContainer.innerHTML = '';
+        var proxyUrl = '/api/m3u_proxy.php?url=' + encodeURIComponent(safeBtoa(url));
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', url, true);
+        xhr.open('GET', proxyUrl, true);
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 0)) {
                 parseM3UAndRender(xhr.responseText || "");
+            } else if (xhr.readyState === 4) {
+               console.warn("Proxy failed, trying direct...");
+               var xhr2 = new XMLHttpRequest();
+               xhr2.open('GET', url, true);
+               xhr2.onreadystatechange = function() {
+                   if (xhr2.readyState === 4 && (xhr2.status === 200 || xhr2.status === 0)) {
+                       parseM3UAndRender(xhr2.responseText || "");
+                   } else if (xhr2.readyState === 4) {
+                       channelListContainer.innerHTML = '<div class="message">Source Unavailable. Check Link.</div>';
+                   }
+               };
+               xhr2.send();
             }
         };
         xhr.send();
@@ -171,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoPlayer.play().catch(function(){});
                 });
             }
-            channelNameHeader.innerText = '📺 ' + channel.title;
+            channelNameHeader.innerText = channel.title;
         } 
         // Path 2: HLS (m3u8)
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
@@ -188,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
             });
-            channelNameHeader.innerText = '📡 ' + channel.title;
+            channelNameHeader.innerText = channel.title;
         }
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
@@ -202,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     videoPlayer.play().catch(function(){});
                 }
             });
-            channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
+            channelNameHeader.innerText = channel.title;
         }
     }
 

@@ -1,29 +1,38 @@
-/* style.css v40 - Ultimate Stability Edition (PS Vita Focus) */
+/* style.css v45 - Ultimate Polished Light (PS Vita Focus) */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; outline: none; }
 
 html, body {
     margin: 0; padding: 0; width: 100%; height: 100%;
-    background-color: #f7f9fc;
-    color: #2c3e50; font-family: -apple-system, sans-serif;
+    background-color: #f5f7fa;
+    color: #2c3e50; font-family: 'Inter', sans-serif;
     overflow: hidden; user-select: none;
 }
 
-/* --- TOP NAVIGATION BAR --- */
+/* --- NAVIGATION --- */
 .navbar {
     position: absolute; top: 0; left: 0; width: 100%; height: 50px;
-    background: #ffffff; border-bottom: 1px solid rgba(0,0,0,0.1);
-    line-height: 50px; padding: 0 15px; z-index: 1000;
+    background: #ffffff; border-bottom: 1px solid #e1e8ed;
+    line-height: 50px; padding: 0 20px; z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
 }
-.nav-logo { float: left; font-size: 18px; font-weight: 900; color: #2980b9; }
+.nav-logo { float: left; font-size: 18px; font-weight: 800; color: #2c3e50; letter-spacing: -0.5px; }
 .nav-logo span { color: #3498db; }
-.nav-subtitle { float: right; font-size: 10px; font-weight: 800; color: #7f8c8d; text-transform: uppercase; }
+.nav-subtitle { float: right; font-size: 10px; font-weight: 800; color: #95a5a6; text-transform: uppercase; }
+
+/* --- SPLIT PANEL --- */
+.split-layout {
+    position: absolute; top: 50px; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+}
 
 /* --- LEFT SIDEBAR (GUIDE) --- */
 .left-pane {
-    position: absolute; top: 50px; left: 0; width: 380px; bottom: 0;
-    background: #ffffff; border-right: 1px solid rgba(0,0,0,0.1);
-    padding: 15px; overflow: hidden; z-index: 500;
+    position: absolute; top: 0; left: 0; width: 340px; bottom: 0;
+    background: #ffffff; border-right: 1px solid #e1e8ed;
+    padding: 20px; z-index: 500;
 }
 
 .group-filter-bar {
@@ -32,75 +41,81 @@ html, body {
 }
 .group-filter-bar::-webkit-scrollbar { display: none; }
 .group-item {
-    display: inline-block; padding: 8px 15px; background: #ecf0f1;
-    border-radius: 8px; font-size: 12px; font-weight: 800; margin-right: 6px;
-    cursor: pointer; color: #2c3e50;
+    display: inline-block; padding: 9px 16px; background: #f0f3f5;
+    border-radius: 10px; font-size: 12px; font-weight: 700; margin-right: 8px;
+    cursor: pointer; color: #7f8c8d; border: 1px solid transparent; transition: 0.15s;
 }
-.group-item.active { background: #3498db; color: #fff; }
+.group-item.active { background: #3498db; color: #fff; box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2); }
 
-.search-box { width: 100%; margin-bottom: 15px; }
+.search-box { width: 100%; margin-bottom: 18px; }
 #search-input {
-    width: 100%; height: 40px; background: #f8f9fa;
-    border: 1px solid #dfe6e9; border-radius: 10px;
-    padding: 0 12px; font-size: 14px;
+    width: 100%; height: 42px; background: #f8fafc;
+    border: 1.5px solid #edf2f7; border-radius: 12px;
+    padding: 0 14px; font-size: 14px; color: #2d3748; transition: 0.2s;
 }
+#search-input:focus { border-color: #3498db; background: #fff; box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.05); }
 
 .content-section {
-    position: absolute; top: 120px; left: 15px; right: 15px; bottom: 15px;
+    position: absolute; top: 125px; left: 20px; right: 20px; bottom: 20px;
     overflow: hidden;
 }
-.section-title { font-size: 14px; font-weight: 900; margin-bottom: 8px; color: #34495e; }
+.section-title { font-size: 15px; font-weight: 800; margin-bottom: 10px; color: #2d3748; }
 
 .channel-grid {
     width: 100%; height: calc(100% - 25px); overflow-y: scroll !important;
-    padding-right: 5px; -webkit-overflow-scrolling: touch; 
-    border-top: 1px solid #f1f1f1; padding-top: 10px;
+    padding-right: 6px; -webkit-overflow-scrolling: touch;
 }
-.channel-grid::-webkit-scrollbar { width: 8px; }
-.channel-grid::-webkit-scrollbar-thumb { background: #bdc3c7; border-radius: 10px; }
+.channel-grid::-webkit-scrollbar { width: 5px; }
+.channel-grid::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 10px; }
 
 .channel-card {
-    background: #ffffff; border-radius: 10px; padding: 12px 15px; margin-bottom: 10px;
-    border: 1px solid #ecf0f1; cursor: pointer; position: relative;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    background: #ffffff; border-radius: 14px; padding: 14px 18px; margin-bottom: 12px;
+    border: 1px solid #edf2f7; cursor: pointer; position: relative;
+    transition: 0.1s; box-shadow: 0 1px 3px rgba(0,0,0,0.02);
 }
-.channel-card.active { border-color: #3498db; border-width: 2px; background: #f0f7ff; }
-.card-title { font-size: 13px; font-weight: 700; color: #2c3e50; }
-.card-group { font-size: 10px; color: #3498db; font-weight: 800; margin-top: 3px; text-transform: uppercase; }
+.channel-card.active { border-color: #3498db; border-width: 2px; background: #f0f7ff; padding: 13px 17px; }
+.card-title { font-size: 14px; font-weight: 700; color: #2d3748; }
+.card-group { font-size: 10px; color: #3498db; font-weight: 800; margin-top: 4px; text-transform: uppercase; }
 
-/* --- RIGHT SIDE (PLAYER) --- */
+/* --- RIGHT PANEL (PLAYER) --- */
 .right-pane {
-    position: absolute; top: 50px; left: 380px; right: 0; bottom: 0;
-    background: #000; overflow: hidden; z-index: 400;
+    position: absolute; top: 0; left: 340px; right: 0; bottom: 0;
+    background: #000000; overflow: hidden; z-index: 400;
 }
 
-.hero-section { width: 100%; height: 100%; position: relative; background: #000; }
+.hero-section { width: 100%; height: 100%; background: #000; position: relative; }
 .player-wrapper { width: 100%; height: 100%; background: #000; position: relative; }
 #video-player { width: 100%; height: 100%; object-fit: contain; }
 
 #player-overlay {
-    position: absolute; bottom: 0; left: 0; width: 100%; padding: 30px 20px;
+    position: absolute; bottom: 0; left: 0; width: 100%; padding: 40px 25px 20px;
     background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); pointer-events: none;
 }
-#channel-name { font-size: 20px; font-weight: 800; color: #fff; margin: 0; }
-#status-text { font-size: 11px; color: #3498db; font-weight: 800; text-transform: uppercase; }
+#channel-name { font-size: 22px; font-weight: 800; color: #fff; margin: 0; text-shadow: 0 2px 15px rgba(0,0,0,0.5); }
+#status-text { font-size: 11px; color: #3498db; font-weight: 800; text-transform: uppercase; margin-top: 5px; }
 
-/* --- SYNC BAR --- */
+/* --- SYNC OVERLAY --- */
 .sync-row {
-    position: absolute; bottom: 20px; right: 20px; width: 450px;
-    background: #fff; border-radius: 12px; padding: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2); z-index: 2000;
+    position: absolute; bottom: 20px; right: 20px; width: 440px;
+    background: #ffffff; border-radius: 15px; padding: 9px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15); z-index: 2000;
+    border: 1px solid #e2e8f0;
 }
-.sync-input-wrapper { float: left; width: 75%; }
-.sync-input-wrapper input { width: 100%; height: 36px; border: none; font-size: 13px; padding: 0 10px; }
-#load-btn { float: right; width: 23%; height: 36px; background: #3498db; color: #fff; border: none; border-radius: 8px; font-weight: 800; cursor: pointer; }
+.sync-input-wrapper { float: left; width: 78%; }
+.sync-input-wrapper input { width: 100%; height: 38px; border: none; font-size: 13px; font-weight: 500; padding: 0 12px; color: #2d3748; background: transparent; }
+#load-btn { 
+    float: right; width: 20%; height: 38px; background: #3498db; color: #fff; border: none; 
+    border-radius: 10px; font-weight: 800; font-size: 13px; cursor: pointer; transition: 0.15s;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2); 
+}
+#load-btn:active { transform: scale(0.95); opacity: 0.9; }
 
 /* --- MOBILE --- */
 @media (max-width: 800px) {
-    .left-pane { width: 100%; position: relative; top: 50px; height: 500px; border-right: none; }
-    .right-pane { left: 0; position: relative; top: 0; height: 300px; }
-    .sync-row { width: calc(100% - 40px); left: 20px; bottom: 10px; }
+    .left-pane { width: 100%; position: relative; top: 0; height: 500px; border-right: none; }
+    .right-pane { left: 0; position: relative; height: 320px; }
+    .sync-row { width: calc(100% - 40px); left: 20px; bottom: 15px; }
 }
 
 .clearfix::after { content: ""; clear: both; display: table; }
-.channel-badge { float: right; font-size: 10px; color: #3498db; font-weight: 900; }
+.channel-badge { float: right; font-size: 10px; color: #3498db; font-weight: 900; opacity: 0.8; }
