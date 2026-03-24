@@ -163,17 +163,12 @@ document.addEventListener('DOMContentLoaded', function() {
         } 
         // Path 2: HLS
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
-            hls = new Hls({ 
-                xhrSetup: function(xhr, url) { 
-                    // To follow the Vercel architecture, we route sub-manifests back to the proxy
-                    if(isXtream || url.indexOf('http') === 0) {
-                        xhr.open('GET', '/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(url)), true); 
-                    }
-                } 
-            });
-            hls.loadSource(channel.url);
+            hls = new Hls();
+            hls.loadSource(finalUrl); // Use proxied URL for the manifest
             hls.attachMedia(videoPlayer);
-            hls.on(Hls.Events.MANIFEST_PARSED, function() { videoPlayer.play().catch(function(){}); });
+            hls.on(Hls.Events.MANIFEST_PARSED, function() { 
+                videoPlayer.play().catch(function(){}); 
+            });
             channelNameHeader.innerText = '📡 ' + channel.title;
         }
         // Path 3: Native
