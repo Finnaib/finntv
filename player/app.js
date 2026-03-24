@@ -151,42 +151,56 @@ document.addEventListener('DOMContentLoaded', function() {
         var isTS = lowerUrl.indexOf('.ts') !== -1;
         var isVOD = lowerUrl.indexOf('.mp4') !== -1 || lowerUrl.indexOf('.mkv') !== -1;
         var isXtream = lowerUrl.indexOf('/live/') !== -1 || lowerUrl.indexOf('/movie/') !== -1 || lowerUrl.indexOf('/series/') !== -1;
-        var finalUrl = (isVita && !isXtream) ? channel.url : ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url)));
+        
+        // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
+        var isHttps = window.location.protocol === 'https:';
+        var isInsecure = channel.url.indexOf('http:') !== -1;
+        var needsProxy = (isInsecure && isHttps) || isTS || isXtream;
+        var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
 
         // Path 1: MPEG-TS (VLC Mode)
         if (isTS && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
             flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: !isVOD, url: finalUrl, enableWorker: true, enableStashBuffer: false });
             flvPlayer.attachMediaElement(videoPlayer);
             flvPlayer.load();
-            flvPlayer.play().catch(function(){
-                console.log("Proxy failed, trying native...");
-                videoPlayer.src = channel.url;
-                videoPlayer.play().catch(function(){});
-            });
+            var promise = flvPlayer.play();
+            if (promise !== undefined) {
+                promise.catch(function() {
+                    console.error("MPEG-TS Playback failed. Attempting native fallback.");
+                    videoPlayer.src = channel.url;
+                    videoPlayer.play().catch(function(){});
+                });
+            }
             channelNameHeader.innerText = '📺 ' + channel.title;
         } 
-        // Path 2: HLS
+        // Path 2: HLS (m3u8)
         else if (!isTS && !isVOD && window.Hls && Hls.isSupported() && !isVita) {
-            hls = new Hls();
+            hls = new Hls({ enableWorker: true, lowLatencyMode: true });
             hls.loadSource(finalUrl);
             hls.attachMedia(videoPlayer);
             hls.on(Hls.Events.MANIFEST_PARSED, function() { videoPlayer.play().catch(function(){}); });
             hls.on(Hls.Events.ERROR, function(event, data) {
                 if (data.fatal) {
-                    console.log("HLS Proxy error, trying native...");
-                    videoPlayer.src = channel.url;
-                    videoPlayer.play().catch(function(){});
+                    console.warn("HLS Error encountered. Falling back to native/alternate...");
+                    if (finalUrl !== channel.url) {
+                        hls.loadSource(channel.url);
+                        hls.startLoad();
+                    }
                 }
             });
             channelNameHeader.innerText = '📡 ' + channel.title;
         }
-        // Path 3: Native
+        // Path 3: Native (PS Vita / Mobile / MP4)
         else {
             videoPlayer.src = finalUrl;
             videoPlayer.load();
-            videoPlayer.play().catch(function(){
-                videoPlayer.src = channel.url;
-                videoPlayer.play().catch(function(){});
+            videoPlayer.play().catch(function() {
+                // Last ditch effort: Try native URL if proxied failed
+                if (finalUrl !== channel.url) {
+                    videoPlayer.src = channel.url;
+                    videoPlayer.load();
+                    videoPlayer.play().catch(function(){});
+                }
             });
             channelNameHeader.innerText = (isVOD ? '🎬 ' : '📺 ') + channel.title;
         }

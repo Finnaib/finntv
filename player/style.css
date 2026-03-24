@@ -20,14 +20,19 @@ body, html {
 .nav-logo { float: left; font-size: 20px; font-weight: 800; line-height: 48px; letter-spacing: -0.5px; }
 .nav-logo span { color: #00e1ff; }
 
-.split-layout { width: 100%; height: calc(100% - 48px); display: flex; flex-direction: row; overflow: hidden; }
+/* --- APP LAYOUT (Twitch/Netflix Style) --- */
+.split-layout { 
+    width: 100%; height: calc(100% - 48px); display: flex; flex-direction: row; 
+    overflow: hidden; background: #02040a;
+}
 
 /* LEFT PANE - CHANNEL SELECTION */
 .left-pane {
-    flex: 0 0 55%; height: 100%; padding: 20px;
+    flex: 0 0 450px; height: 100%; padding: 25px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     display: flex; flex-direction: column; overflow: hidden;
-    background: rgba(2, 4, 10, 0.4);
+    background: rgba(5, 10, 20, 0.4);
+    box-shadow: inset -20px 0 40px rgba(0,0,0,0.5);
 }
 
 .group-filter-bar {
@@ -55,10 +60,10 @@ body, html {
     flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0;
 }
 
-.section-header { flex-shrink: 0; margin-bottom: 5px; }
+.section-title { font-size: 24px; font-weight: 800; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
 
 .channel-grid { 
-    flex: 1; overflow-y: auto !important; padding-right: 8px; 
+    flex: 1; overflow-y: auto !important; padding-right: 10px; 
     -webkit-overflow-scrolling: touch; min-height: 0;
 }
 .channel-grid::-webkit-scrollbar { width: 6px; }
@@ -75,17 +80,17 @@ body, html {
 .card-title { font-weight: 700; font-size: 14px; margin-bottom: 3px; }
 .card-group { font-size: 10px; color: #00e1ff; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; }
 
-/* RIGHT PANE - PLAYER */
-.right-pane { flex: 0 0 45%; height: 100%; background: #000; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
+/* RIGHT PANE (Immersive Video) */
+.right-pane { flex: 1; height: 100%; background: #000; padding: 0; display: flex; flex-direction: column; overflow: hidden; }
 
-.hero-section { flex-grow: 1; display: flex; align-items: center; justify-content: center; background: #000; padding: 20px; }
+.hero-section { flex: 1; display: flex; align-items: center; justify-content: center; background: #000; padding: 0; position: relative; }
 
 .player-wrapper {
-    width: 100%; max-width: 100%; background: #000; position: relative;
-    box-shadow: 0 0 100px rgba(0, 225, 255, 0.1); border-radius: 0px;
-    padding-top: 56.25%; overflow: hidden;
+    width: 100%; height: 100%; background: #000; position: relative;
+    display: flex; align-items: center; justify-content: center;
 }
-#video-player { position: absolute; top:0; left:0; width:100%; height:100%; }
+
+#video-player { width: 100%; height: 100%; object-fit: contain; background: #000; }
 #player-overlay {
     position: absolute; bottom:0; left:0; width:100%; padding: 20px 15px 10px;
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 100%);
@@ -108,12 +113,13 @@ body, html {
 
 .app-info { margin-top: 25px; text-align: center; color: rgba(255,255,255,0.3); font-size: 10px; font-weight: 700; }
 
-/* MOBILE / VITA VERTICAL */
 @media (max-width: 800px) {
     body, html { overflow-y: auto; height: auto; }
-    .split-layout { height: auto; }
-    .left-pane, .right-pane { float: none; width: 100%; height: auto; border: none; }
-    .channel-grid { height: auto; overflow: visible; }
+    .split-layout { display: block; height: auto; }
+    .left-pane { width: 100%; height: auto; border: none; padding: 15px; }
+    .right-pane { width: 100%; height: auto; border: none; }
+    .player-wrapper { width: 100%; height: 211px; }
+    .channel-grid { height: 400px; overflow-y: auto; }
 }
 
 .clearfix::after { content: ""; clear: both; display: table; }
