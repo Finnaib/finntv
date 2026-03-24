@@ -61,9 +61,15 @@
                 
                 <div class="sync-row clearfix">
                     <div class="sync-input-wrapper">
-                        <input type="text" id="m3u-url" placeholder="Paste .m3u link" value="https://iptv-org.github.io/iptv/index.m3u">
+                        <input type="text" id="m3u-url" placeholder="Paste .m3u link" value="https://finntv.vercel.app/m3u/egypt.m3u">
                     </div>
                     <button id="load-btn">Load</button>
+                </div>
+
+                <div class="quick-presets" style="margin-top: 10px; text-align: center;">
+                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://finntv.vercel.app/m3u/egypt.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">Egypt M3U</button>
+                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://iptv-org.github.io/iptv/index.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">IPTV-ORG</button>
+                    <button class="preset-btn" onclick="document.getElementById('m3u-url').value='https://iptv-org.github.io/iptv/index.nsfw.m3u'; document.getElementById('load-btn').click();" style="background:#222; color:#fff; border:1px solid #444; border-radius:10px; padding:5px 10px; font-size:10px; cursor:pointer;">NSFW List</button>
                 </div>
                 
                 <div class="app-info">

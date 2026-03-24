@@ -20,13 +20,13 @@ body, html {
 .nav-logo { float: left; font-size: 20px; font-weight: 800; line-height: 48px; letter-spacing: -0.5px; }
 .nav-logo span { color: #00e1ff; }
 
-.split-layout { width: 100%; height: calc(100% - 48px); display: flex; overflow: hidden; }
+.split-layout { width: 100%; height: calc(100% - 48px); display: flex; flex-direction: row; overflow: hidden; }
 
 /* LEFT PANE - CHANNEL SELECTION */
 .left-pane {
-    width: 65%; height: 100%; padding: 15px;
+    flex: 0 0 50%; height: 100%; padding: 15px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
-    display: flex; flex-direction: column;
+    display: flex; flex-direction: column; overflow: hidden;
 }
 
 .group-filter-bar {
@@ -51,10 +51,15 @@ body, html {
 #search-input:focus { border-color: #00e1ff; background: rgba(255,255,255,0.06); }
 
 .content-section {
-    flex-grow: 1; display: flex; flex-direction: column; overflow: hidden;
+    flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0;
 }
 
-.channel-grid { flex-grow: 1; overflow-y: auto; padding-right: 5px; -webkit-overflow-scrolling: touch; }
+.section-header { flex-shrink: 0; margin-bottom: 5px; }
+
+.channel-grid { 
+    flex: 1; overflow-y: scroll; padding-right: 5px; 
+    -webkit-overflow-scrolling: touch; min-height: 0;
+}
 .channel-grid::-webkit-scrollbar { width: 3px; }
 .channel-grid::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
 
@@ -69,7 +74,7 @@ body, html {
 .card-group { font-size: 10px; color: #00e1ff; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; }
 
 /* RIGHT PANE - PLAYER */
-.right-pane { width: 35%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; overflow-y: auto; }
+.right-pane { flex: 0 0 50%; height: 100%; background: rgba(0,0,0,0.2); padding: 15px; overflow-y: auto; }
 
 .player-wrapper {
     width: 100%; background: #000; border-radius: 15px; position: relative;
