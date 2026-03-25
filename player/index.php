@@ -40,7 +40,7 @@ header("Expires: 0");
         }
         .scroller { 
             flex: 1; overflow-y: scroll !important; -webkit-overflow-scrolling: touch; 
-            padding: 5px;
+            padding: 5px; -webkit-transform: translate3d(0,0,0);
         }
         .card { 
             padding: 12px; border-bottom: 1px solid #1a1a1a; cursor:pointer; 
@@ -86,6 +86,21 @@ header("Expires: 0");
 
         var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
 
+        // Vita Scroll Fix
+        function applyVitaScrollFix(el) {
+            if (!el || !isVita) return;
+            var startY = 0, startScroll = 0;
+            el.addEventListener('touchstart', function(e) {
+                startY = e.touches[0].pageY;
+                startScroll = el.scrollTop;
+            }, { passive: true });
+            el.addEventListener('touchmove', function(e) {
+                var currentY = e.touches[0].pageY;
+                el.scrollTop = startScroll + (startY - currentY);
+                if (e.cancelable) e.preventDefault();
+            }, { passive: false });
+        }
+
         function safeBtoa(str) {
             try { return btoa(str); } catch (e) {
                 try { return btoa(unescape(encodeURIComponent(str))); } catch (e2) { return ''; }
@@ -113,7 +128,6 @@ header("Expires: 0");
         function render() {
             list.innerHTML = "";
             var fragment = document.createDocumentFragment();
-            // Limit to 500 for performance on Vita
             var limit = Math.min(filtered.length, 500); 
             for (var i=0; i<limit; i++) {
                 (function(c) {
@@ -124,32 +138,15 @@ header("Expires: 0");
                         var active = list.querySelector(".card.active");
                         if(active) active.classList.remove("active");
                         el.classList.add("active");
-                        
                         title.innerText = c.t;
                         grpText.innerText = c.g;
-                        
                         var lowerUrl = c.u.toLowerCase();
-                        var isTS = lowerUrl.indexOf('.ts') !== -1 || lowerUrl.indexOf('.m2t') !== -1;
-                        var isHttps = window.location.protocol === 'https:';
-                        var isInsecure = c.u.indexOf('http:') !== -1;
-                        
-                        // Use proxy for TS or Mixed Content or Vita for stability
-                        var needsProxy = (isHttps && isInsecure) || isTS || isVita;
+                        var needsProxy = (window.location.protocol === 'https:' && c.u.indexOf('http:') !== -1) || 
+                                       lowerUrl.indexOf('.ts') !== -1 || isVita;
                         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
-                        
                         player.removeAttribute('type');
-                        if (isVita && !lowerUrl.indexOf('.mp4') !== -1) {
-                            player.setAttribute('type', 'application/vnd.apple.mpegurl');
-                        }
-                        
-                        player.src = finalUrl;
-                        player.load();
-                        player.play().catch(function(e){
-                            console.log("Playback error, trying raw");
-                            player.removeAttribute('type');
-                            player.src = c.u;
-                            player.play().catch(function(){});
-                        });
+                        if (isVita && lowerUrl.indexOf('.mp4') === -1) player.setAttribute('type', 'application/vnd.apple.mpegurl');
+                        player.src = finalUrl; player.load(); player.play().catch(function(){});
                     };
                     fragment.appendChild(el);
                 })(filtered[i]);
@@ -157,12 +154,11 @@ header("Expires: 0");
             list.appendChild(fragment);
             if (filtered.length === 0) list.innerHTML = '<div style="padding:20px; color:#666;">No channels found.</div>';
         }
+        applyVitaScrollFix(list);
 
         search.oninput = function() {
             var q = search.value.toLowerCase();
-            filtered = channels.filter(function(c) {
-                return (c.t + c.g).toLowerCase().indexOf(q) !== -1;
-            });
+            filtered = channels.filter(function(c) { return (c.t + c.g).toLowerCase().indexOf(q) !== -1; });
             render();
         };
 
@@ -175,18 +171,12 @@ header("Expires: 0");
                 if(pair[0] == "m3u"){ m3u = decodeURIComponent(pair[1]); }
             }
         }
-        
-        // Default if none provided
         if (!m3u) m3u = "https://iptv-org.github.io/iptv/index.m3u";
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", m3u, true);
         xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                parse(xhr.responseText);
-            } else if (xhr.readyState === 4) {
-                list.innerHTML = '<div style="padding:20px; color:red;">Failed to load M3U. Check CORS or link.</div>';
-            }
+            if (xhr.readyState === 4 && xhr.status === 200) parse(xhr.responseText);
         };
         xhr.send();
     </script>

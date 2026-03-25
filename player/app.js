@@ -120,7 +120,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         channelCountText.innerText = filteredChannels.length;
+        // Keep pagination container clean but present
         channelListContainer.innerHTML = '';
+        channelListContainer.appendChild(paginationContainer);
         renderIndex = 0;
         renderNextChunk();
     }
@@ -142,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         renderIndex = limit;
         paginationContainer.innerHTML = '';
-        channelListContainer.appendChild(fragment);
+        channelListContainer.insertBefore(fragment, paginationContainer); // Insert before pagination container
 
         if (renderIndex < filteredChannels.length) {
             var btn = document.createElement('button');
@@ -237,6 +239,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     loadBtn.addEventListener('click', initLoad);
     searchInput.addEventListener('input', applyFilter);
+    
+    // PS Vita Scroll Polyfill - Fixes broken overflow (Touch + Mouse Drag)
+    function applyVitaScrollFix(el, isX) {
+        if (!el || !isVita) return;
+        var startPos = 0, startScroll = 0, isDown = false;
+
+        var startHandler = function(e) {
+            isDown = true;
+            startPos = isX ? (e.touches ? e.touches[0].pageX : e.pageX) : (e.touches ? e.touches[0].pageY : e.pageY);
+            startScroll = isX ? el.scrollLeft : el.scrollTop;
+        };
+
+        var moveHandler = function(e) {
+            if (!isDown) return;
+            var currentPos = isX ? (e.touches ? e.touches[0].pageX : e.pageX) : (e.touches ? e.touches[0].pageY : e.pageY);
+            var diff = startPos - currentPos;
+            if (isX) el.scrollLeft = startScroll + diff;
+            else el.scrollTop = startScroll + diff;
+            if (e.cancelable) e.preventDefault();
+        };
+
+        var endHandler = function() { isDown = false; };
+
+        el.addEventListener('touchstart', startHandler, { passive: true });
+        el.addEventListener('touchmove', moveHandler, { passive: false });
+        el.addEventListener('touchend', endHandler);
+        el.addEventListener('mousedown', startHandler);
+        window.addEventListener('mousemove', moveHandler);
+        window.addEventListener('mouseup', endHandler);
+    }
+
+    applyFilter();
+    applyVitaScrollFix(channelListContainer, false);
+    applyVitaScrollFix(groupFilterContainer, true);
     
     videoPlayer.addEventListener('error', function() {
         var err = videoPlayer.error ? videoPlayer.error.code : 'Unknown';
