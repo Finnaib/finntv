@@ -33,6 +33,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (url !== "") fetchM3U(url);
     }
 
+    window.loadPreset = function(url, group) {
+        m3uInput.value = url;
+        if (group) activeGroup = group;
+        else activeGroup = 'All';
+        initLoad();
+    };
+
     function fetchM3U(url) {
         channelListContainer.innerHTML = '<div class="message">Building Bridge...</div>';
         paginationContainer.innerHTML = '';

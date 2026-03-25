@@ -53,30 +53,33 @@ FAMOUS_KEYWORDS = [
     'ary digital', 'ary zindagi', 'hum tv', 'hum masala', 'bol tv', 'somoy', 'jamuna', 'ntv', 
     'channel i', 'desh tv', 'somoy tv', '24 ghanta', 'ptv', 'express news', 'dawn news', 'samaa',
     'etv', 'sun tv', 'kairali', 'asianet', 'surya', 'suvarna', 'vijay', 'raj tv', 'maa tv', 'gemini',
-    'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi'
+    'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi',
+    'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket'
 ]
 
-def is_filtered(name):
+def is_filtered(name, strict=True):
     nl = name.lower()
     # Check block list
     if any(k in nl for k in BLOCK_KEYWORDS):
         return True
     
-    # --- STRICT NAME VALIDATION ---
+    # Basic validation
     if not name or len(nl) < 3:
         return True
     
-    # Filter out technical IDs and paths like "q_85/..."
+    # Filter out technical IDs and paths
     if nl.startswith('q_') or nl.startswith('q-') or '/' in nl or '\\' in nl:
         return True
     
-    # Filter out VOD/Movie patterns (Years like 2023, 2024, etc.)
     if re.search(r'\(20\d{2}\)', nl) or re.search(r'\[20\d{2}\]', nl) or re.search(r'\b19\d{2}\b', nl):
         return True
 
-    # Filter out names that are just numbers/hex IDs
     if re.match(r'^[0-9a-f\-]+$', nl) and len(nl) > 5:
         return True
+
+    # If not strict, we only block NSFW
+    if not strict:
+        return False
 
     # Check matches for famous brands
     if any(k in nl for k in FAMOUS_KEYWORDS):
@@ -84,8 +87,8 @@ def is_filtered(name):
         
     return True
 
-def fetch_and_filter(url):
-    print(f"Fetching {url}...")
+def fetch_and_filter(url, strict=True):
+    print(f"Fetching {url} (Strict={strict})...")
     try:
         response = requests.get(url, timeout=15)
         response.raise_for_status()
@@ -94,9 +97,7 @@ def fetch_and_filter(url):
         filtered_channels = []
         current_extinf = None
         
-        # VOD Extension block list
         VOD_EXTS = ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.mpg']
-        # VOD Path block list
         VOD_PATHS = ['/movies/', '/vod/', '/series/', '/film/', '/cinema/']
         
         for line in lines:
@@ -105,14 +106,13 @@ def fetch_and_filter(url):
                 name_match = re.search(r',(.+?)$', line)
                 name = name_match.group(1).strip() if name_match else ""
                 
-                if not is_filtered(name):
+                if not is_filtered(name, strict):
                     current_extinf = line
                 else:
                     current_extinf = None
             elif line.startswith("http") and current_extinf:
                 stream_url = line.strip().lower()
                 
-                # Check if it's a VOD file
                 is_vod = any(stream_url.endswith(ext) for ext in VOD_EXTS) or \
                          any(p in stream_url for p in VOD_PATHS)
                 
@@ -126,20 +126,18 @@ def fetch_and_filter(url):
         print(f"Error: {e}")
         return []
 
-def rebuild_m3u(target_file, source_urls, label):
+def rebuild_m3u(target_file, source_urls, label, strict=True):
     all_channels = []
     seen_urls = set()
     
-    # India and Sport target files are merges (they contain provider channels already)
     is_merge = target_file in ['india.m3u', 'sport.m3u']
     
     if is_merge:
-        # Load existing provider channels first to avoid duplicates
         try:
             with open(f"m3u/{target_file}", "r", encoding="utf-8") as f:
                 for line in f:
                     if line.startswith("http"):
-                        seen_urls.add(line.strip())
+                        seen_urls.add(line.strip().lower())
         except FileNotFoundError:
             pass
 
@@ -147,37 +145,46 @@ def rebuild_m3u(target_file, source_urls, label):
         country_match = re.search(r'LiveTV/([^/]+)/', url)
         country = country_match.group(1) if country_match else "General"
         
-        channels = fetch_and_filter(url)
+        channels = fetch_and_filter(url, strict)
         for extinf, stream_url in channels:
-            if stream_url not in seen_urls:
-                seen_urls.add(stream_url)
-                # Clean up group title
-                extinf = re.sub(r'group-title="[^"]*"', f'group-title="{country}"', extinf)
+            if stream_url.lower() not in seen_urls:
+                seen_urls.add(stream_url.lower())
+                
+                # Intelligent Categorization
+                category = country
+                lc_extinf = extinf.lower()
+                if "kids" in lc_extinf or "cartoon" in lc_extinf or "disney" in lc_extinf:
+                    category = "Kids"
+                elif "cricket" in lc_extinf or "willow" in lc_extinf or "ten cricket" in lc_extinf:
+                    category = "Cricket"
+                
+                # Update group title
+                extinf = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf)
                 all_channels.append((extinf, stream_url))
 
     if not all_channels:
-        print(f"No new famous channels found for {target_file}")
+        print(f"No new channels found for {target_file}")
         return
 
-    # Write/Append
     mode = "a" if is_merge else "w"
     with open(f"m3u/{target_file}", mode, encoding="utf-8") as f:
         if mode == "w":
             f.write("#EXTM3U\n")
         
         f.write("\n" + "#" * 80 + "\n")
-        f.write(f"# EXTERNAL: FAMOUS {label} CHANNELS\n")
+        f.write(f"# EXTERNAL: {label} CHANNELS\n")
         f.write("#" * 80 + "\n\n")
         
         for extinf, stream_url in all_channels:
             f.write(extinf + "\n")
             f.write(stream_url + "\n\n")
             
-    print(f"Updated m3u/{target_file} with {len(all_channels)} new famous channels.")
+    print(f"Updated m3u/{target_file} with {len(all_channels)} new channels.")
 
 if __name__ == "__main__":
-    rebuild_m3u('indonesia.m3u', SOURCES['indonesia'], 'Indonesia')
-    rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia')
-    rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent')
-    rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports')
+    rebuild_m3u('indonesia.m3u', SOURCES['indonesia'], 'Indonesia', strict=True)
+    rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia', strict=True)
+    rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent', strict=False)
+    rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports', strict=True)
+
     print("\nCollection and filtering finished.")

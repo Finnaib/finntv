@@ -55,8 +55,22 @@ html, body {
 }
 #search-input:focus { border-color: #3498db; background: #fff; box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.05); }
 
+.presets-row { width: 100%; margin: 10px 0 20px; display: flex; gap: 8px; flex-wrap: wrap; }
+.preset-btn {
+    flex: 1; min-width: 80px; height: 38px; background: #f0f3f5;
+    border-radius: 12px; font-size: 11px; font-weight: 800; color: #7f8c8d;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; border: 1px solid #e1e8ed; transition: 0.15s;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+.preset-btn:active { transform: scale(0.96); opacity: 0.9; }
+.preset-btn.blue-btn {
+    background: #3498db !important; color: #fff !important; border: none !important;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2) !important;
+}
+
 .content-section {
-    position: absolute; top: 125px; left: 20px; right: 20px; bottom: 20px;
+    position: absolute; top: 185px; left: 20px; right: 20px; bottom: 20px;
     overflow: hidden;
 }
 .section-title { font-size: 15px; font-weight: 800; margin-bottom: 10px; color: #2d3748; }
