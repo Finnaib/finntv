@@ -168,18 +168,18 @@ document.addEventListener('DOMContentLoaded', function() {
         videoPlayer.src = "";
 
         var lowerUrl = channel.url.toLowerCase();
-        var isTS = lowerUrl.indexOf('.ts') !== -1;
+        var isTS = lowerUrl.indexOf('.ts') !== -1 || lowerUrl.indexOf('.m2t') !== -1;
         var isVOD = lowerUrl.indexOf('.mp4') !== -1 || lowerUrl.indexOf('.mkv') !== -1;
         var isXtream = lowerUrl.indexOf('/live/') !== -1 || lowerUrl.indexOf('/movie/') !== -1 || lowerUrl.indexOf('/series/') !== -1;
         
         // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
         var isHttps = window.location.protocol === 'https:';
         var isInsecure = channel.url.indexOf('http:') !== -1;
-        var needsProxy = (isInsecure && isHttps) || isTS || isXtream;
+        var needsProxy = (isInsecure && isHttps) || isTS || isXtream || isVita; // Force proxy on Vita for better stability
         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
 
-        // Path 1: MPEG-TS (VLC Mode)
-        if (isTS && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
+        // Path 1: MPEG-TS (VLC Mode) - Disable on Vita if native player can't handle it
+        if (isTS && !isVita && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
             flvPlayer = mpegts.createPlayer({ type: 'mse', isLive: !isVOD, url: finalUrl, enableWorker: true, enableStashBuffer: false });
             flvPlayer.attachMediaElement(videoPlayer);
             flvPlayer.load();
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (promise !== undefined) {
                 promise.catch(function() {
                     console.error("MPEG-TS Playback failed. Attempting native fallback.");
-                    videoPlayer.src = channel.url;
+                    videoPlayer.src = finalUrl;
                     videoPlayer.play().catch(function(){});
                 });
             }
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.removeAttribute('type');
             // If it's a PHP redirect or unknown type on Vita, hint that it's HLS
             if (isVita && lowerUrl.indexOf('.mp4') === -1) {
-                videoPlayer.setAttribute('type', 'application/x-mpegURL');
+                videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl'); // More explicit for Vita
             }
             videoPlayer.src = finalUrl;
             videoPlayer.load();

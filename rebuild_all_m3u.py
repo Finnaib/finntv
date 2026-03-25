@@ -63,12 +63,20 @@ for ch in catalog:
         section = 'Pakistan'
         if section not in india: india[section] = []
         india[section].append((ch['extinf'], ch['url']))
-    elif 'india' in gl:
-        # Check if Bangla
-        section = 'Bangladesh' if ('bangla' in nl or ch['name'].startswith('BD:')) else 'India'
+    elif any(k in gl + nl for k in ['kids', 'cartoon', 'doraemon', 'shinchan', 'nick', 'pogo', 'disney']):
+        section = 'KIDS 🍭 🎯 🎊'
         if section not in india: india[section] = []
         india[section].append((ch['extinf'], ch['url']))
-write_m3u('m3u/india.m3u', ['India', 'Pakistan', 'Bangladesh'], india)
+    elif any(k in gl + nl for k in ['cricket', 'willow', 'ten cricket']):
+        section = 'CRICKET 🏏'
+        if section not in india: india[section] = []
+        india[section].append((ch['extinf'], ch['url']))
+    elif 'india' in gl:
+        # Check if Bangla
+        section = 'Bangladesh' if ('bangla' in nl or ch['name'].startswith('BD:')) else 'INDIA 🇮🇳'
+        if section not in india: india[section] = []
+        india[section].append((ch['extinf'], ch['url']))
+write_m3u('m3u/india.m3u', ['INDIA 🇮🇳', 'Pakistan', 'Bangladesh', 'CRICKET 🏏', 'KIDS 🍭 🎯 🎊'], india)
 
 # ════════════════════════════════════════════════════════════════════════════
 # 2. WORLD.M3U - Updated group names

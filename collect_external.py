@@ -54,7 +54,8 @@ FAMOUS_KEYWORDS = [
     'channel i', 'desh tv', 'somoy tv', '24 ghanta', 'ptv', 'express news', 'dawn news', 'samaa',
     'etv', 'sun tv', 'kairali', 'asianet', 'surya', 'suvarna', 'vijay', 'raj tv', 'maa tv', 'gemini',
     'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi',
-    'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket'
+    'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket',
+    'doraemon', 'shinchan', 'oggy', 'pokemon'
 ]
 
 def is_filtered(name, strict=True):
@@ -153,10 +154,12 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
                 # Intelligent Categorization
                 category = country
                 lc_extinf = extinf.lower()
-                if "kids" in lc_extinf or "cartoon" in lc_extinf or "disney" in lc_extinf:
-                    category = "Kids"
-                elif "cricket" in lc_extinf or "willow" in lc_extinf or "ten cricket" in lc_extinf:
-                    category = "Cricket"
+                if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo"]):
+                    category = "KIDS 🍭 🎯 🎊"
+                elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket"]):
+                    category = "CRICKET 🏏"
+                elif country == "India":
+                    category = "INDIA 🇮🇳"
                 
                 # Update group title
                 extinf = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf)
