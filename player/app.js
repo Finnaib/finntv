@@ -205,16 +205,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
+            videoPlayer.removeAttribute('type');
+            // If it's a PHP redirect or unknown type on Vita, hint that it's HLS
+            if (isVita && lowerUrl.indexOf('.mp4') === -1) {
+                videoPlayer.setAttribute('type', 'application/x-mpegURL');
+            }
             videoPlayer.src = finalUrl;
             videoPlayer.load();
-            videoPlayer.play().catch(function() {
-                // Last ditch effort: Try native URL if proxied failed
-                if (finalUrl !== channel.url) {
-                    videoPlayer.src = channel.url;
-                    videoPlayer.load();
-                    videoPlayer.play().catch(function(){});
-                }
-            });
+            var nativePromise = videoPlayer.play();
+            if (nativePromise !== undefined) {
+                nativePromise.catch(function() {
+                    // Failover: Clear type and try again
+                    videoPlayer.removeAttribute('type');
+                    if (finalUrl !== channel.url) {
+                        videoPlayer.src = channel.url;
+                        videoPlayer.load();
+                        videoPlayer.play().catch(function(){});
+                    }
+                });
+            }
             channelNameHeader.innerText = channel.title;
         }
     }
