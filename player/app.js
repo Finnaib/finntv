@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var channelNameHeader = document.getElementById('channel-name');
     var channelGroupText = document.getElementById('status-text');
     var channelCountText = document.getElementById('channel-count');
+    var nativeLink = document.getElementById('vita-native-link');
 
     var channels = [];
     var filteredChannels = [];
@@ -241,6 +242,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 videoPlayer.load();
                 
+                if (nativeLink) {
+                    nativeLink.style.display = 'inline-block';
+                    nativeLink.href = sourceUrl;
+                }
+                
                 setTimeout(function() {
                     try {
                         var p = videoPlayer.play();
@@ -248,7 +254,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     } catch(e) {}
                 }, 300);
             } else {
-                videoPlayer.src = finalUrl;
+                if (nativeLink) nativeLink.style.display = 'none';
+                videoPlayer.src = sourceUrl;
                 if (lowerUrl.indexOf('.mp4') !== -1) videoPlayer.setAttribute('type', 'video/mp4');
                 
                 var nativePromise = videoPlayer.play();
