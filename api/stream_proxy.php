@@ -48,8 +48,9 @@ if ($is_ts) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, false); // Stream directly
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-    curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
-    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Higher timeout for chunks
+    curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
+    curl_setopt($ch, CURLOPT_REFERER, $url);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Long chunks allow more time
     header("Content-Type: video/mp2t");
     header("Cache-Control: public, max-age=3600");
     curl_exec($ch);
@@ -63,8 +64,9 @@ curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
-curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
+curl_setopt($ch, CURLOPT_REFERER, $url); // Mirror the URL as referer for basic bypass
+curl_setopt($ch, CURLOPT_TIMEOUT, 15); // Slightly higher for slow IPTV headers
 
 $response = curl_exec($ch);
 $content_type = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);

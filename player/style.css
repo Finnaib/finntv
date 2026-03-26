@@ -149,16 +149,24 @@ body, html {
     .split-layout { top: 55px; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
     
     .right-pane { 
-        position: relative; left: 0; width: 100%; height: 260px; 
+        position: relative; left: 0; width: 100%; height: auto; 
         z-index: 100; border-bottom: 3px solid #1e293b;
     }
-    .hero-section { height: 100%; }
-    .sync-row { position: fixed; height: 65px; bottom: 0; left: 0; width: 100%; z-index: 2000; border-top: 2px solid #3b82f6; }
+    .hero-section { height: 210px; }
+    .sync-row { 
+        position: relative; height: auto; min-height: 80px; bottom: auto; left: auto; width: 100%; 
+        z-index: 5000; border-bottom: 2px solid #3b82f6; 
+        background-color: #0f172a; padding: 18px 20px;
+        display: block !important;
+    }
+    .sync-input-wrapper { width: 75% !important; }
+    #load-btn { width: 22% !important; padding: 0 !important; }
+    .app-info { display: none !important; }
     
     .left-pane { 
         position: relative; top: 0; width: 100%; height: auto; min-height: 500px;
         border-right: none; padding: 20px;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
     }
     
     .group-filter-bar { margin-bottom: 12px; }

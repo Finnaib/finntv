@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             } else if (line.indexOf('http') === 0 && currentChannel) {
                 var streamUrl = line;
-                // Vita-specific optimization: Many Xtream servers support .m3u8 alternative for .ts
-                if (isVita && streamUrl.indexOf('/live/') !== -1 && streamUrl.toLowerCase().indexOf('.ts') !== -1) {
+                // Universal Optimization: Convert raw .ts links to HLS (.m3u8) for far better stability
+                if (streamUrl.indexOf('/live/') !== -1 && streamUrl.toLowerCase().indexOf('.ts') !== -1) {
                     streamUrl = streamUrl.substring(0, streamUrl.length - 3) + '.m3u8';
                 }
                 currentChannel.url = streamUrl;
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
         var isHttps = window.location.protocol === 'https:';
         var isInsecure = channel.url.indexOf('http:') !== -1;
-        var needsProxy = (isInsecure && isHttps) || isTS; // Only proxy if mixed-content or forced raw TS segments
+        var needsProxy = (isInsecure && isHttps) || isTS || isXtream || isVita; // Proxy for CORS (PC/Mobile) and Segment Rewriting (Vita)
         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
 
         // Path 1: MPEG-TS (VLC Mode) - Disable on Vita if native player can't handle it
