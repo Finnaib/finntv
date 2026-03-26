@@ -86,7 +86,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (t) currentChannel.title = t;
                 }
             } else if (line.indexOf('http') === 0 && currentChannel) {
-                currentChannel.url = line;
+                var streamUrl = line;
+                // Vita-specific optimization: Many Xtream servers support .m3u8 alternative for .ts
+                if (isVita && streamUrl.indexOf('/live/') !== -1 && streamUrl.toLowerCase().indexOf('.ts') !== -1) {
+                    streamUrl = streamUrl.substring(0, streamUrl.length - 3) + '.m3u8';
+                }
+                currentChannel.url = streamUrl;
                 channels.push(currentChannel);
                 currentChannel = null;
             }
@@ -181,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
         var isHttps = window.location.protocol === 'https:';
         var isInsecure = channel.url.indexOf('http:') !== -1;
-        var needsProxy = (isInsecure && isHttps) || isTS || isXtream || isVita; // Force proxy on Vita for better stability
+        var needsProxy = (isInsecure && isHttps) || isTS; // Only proxy if mixed-content or forced raw TS segments
         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
 
         // Path 1: MPEG-TS (VLC Mode) - Disable on Vita if native player can't handle it
@@ -219,17 +224,16 @@ document.addEventListener('DOMContentLoaded', function() {
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
             videoPlayer.pause();
-            videoPlayer.innerHTML = "";
             videoPlayer.removeAttribute("src");
-            videoPlayer.removeAttribute("type");
             
             var isMP4 = lowerUrl.indexOf('.mp4') !== -1;
             
             if (isVita) {
-                if (!isMP4) {
-                    videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl');
-                }
-                videoPlayer.src = finalUrl;
+                // Use the double source technique from the psvita reference
+                videoPlayer.innerHTML = 
+                    '<source src="' + finalUrl + '" type="application/vnd.apple.mpegurl">' +
+                    '<source src="' + finalUrl + '" type="application/x-mpegURL">';
+                
                 videoPlayer.load();
                 
                 setTimeout(function() {
@@ -238,8 +242,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (p && p.catch) p.catch(function(){});
                     } catch(e) {}
                     channelNameHeader.innerText = channel.title;
-                }, 400); // Longer delay for Vita stability
+                }, 400); 
             } else {
+                videoPlayer.innerHTML = "";
                 videoPlayer.src = finalUrl;
                 if (isMP4) videoPlayer.setAttribute('type', 'video/mp4');
                 
