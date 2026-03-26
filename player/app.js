@@ -186,8 +186,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
         var isHttps = window.location.protocol === 'https:';
         var isInsecure = channel.url.indexOf('http:') !== -1;
-        var needsProxy = (isInsecure && isHttps) || isTS || (isXtream && !isVita); // Allow direct HLS for Vita to avoid proxy bottlenecks
+        var needsProxy = (isInsecure && isHttps) || isTS || isXtream || isVita; // Proxy ALWAYS on Vita to fix SSL NW-8942-3 issues
         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
+        if (isVita && needsProxy && finalUrl.indexOf('&ext=') === -1) finalUrl += '&ext=.m3u8'; // Critical for native snuffing
 
         // Path 1: MPEG-TS (VLC Mode) - Disable on Vita if native player can't handle it
         if (isTS && !isVita && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
