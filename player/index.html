@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <!-- HLS.js for manifests (.m3u8) -->
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <!-- MPEGTS.js for raw VLC-style streams (.ts) -->
-    <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"></script>
-    <link rel="stylesheet" href="style.css?v=53">
+    <script>
+        var isVita = navigator.userAgent.indexOf('Vita') !== -1 || navigator.userAgent.indexOf('PlayStation') !== -1;
+        if (!isVita) {
+            document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"><\/script>');
+            document.write('<script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"><\/script>');
+        }
+    </script>
+    <link rel="stylesheet" href="style.css?v=54">
 </head>
 
 <body>

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var activeElement = null;
     var hls = null;
     var flvPlayer = null;
-    var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
+    var isVita = navigator.userAgent.indexOf('Vita') !== -1 || navigator.userAgent.indexOf('PlayStation') !== -1;
     var renderIndex = 0;
     var RENDER_CHUNK_SIZE = 50; 
 
@@ -219,50 +219,37 @@ document.addEventListener('DOMContentLoaded', function() {
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
             videoPlayer.pause();
-            videoPlayer.innerHTML = ""; // Clear existing sources
+            videoPlayer.innerHTML = "";
             videoPlayer.removeAttribute("src");
-            videoPlayer.load();
-
-            var source = document.createElement('source');
+            videoPlayer.removeAttribute("type");
+            
             var isMP4 = lowerUrl.indexOf('.mp4') !== -1;
             
             if (isVita) {
-                // On Vita, if it's not mp4, it's m3u8 (via proxy)
-                source.setAttribute('type', isMP4 ? 'video/mp4' : 'application/vnd.apple.mpegurl');
-                // Force an extension for Vita's browser "guess" logic if proxying
-                var vitaUrl = finalUrl;
-                if (!isMP4 && vitaUrl.indexOf('.m3u8') === -1) {
-                    vitaUrl += '&ext=.m3u8';
+                if (!isMP4) {
+                    videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl');
                 }
-                source.setAttribute('src', vitaUrl);
-            } else {
-                source.setAttribute('src', finalUrl);
-                if (isMP4) source.setAttribute('type', 'video/mp4');
-                else if (lowerUrl.indexOf('.m3u8') !== -1) source.setAttribute('type', 'application/vnd.apple.mpegurl');
-            }
-
-            videoPlayer.appendChild(source);
-            videoPlayer.load();
-
-            if (isVita) {
-                // Vita needs heartbeats to keep the system player alive on some versions
+                videoPlayer.src = finalUrl;
+                videoPlayer.load();
+                
                 setTimeout(function() {
-                    videoPlayer.play().catch(function(e){ 
-                        console.error("Vita Play Error:", e);
-                        // Fallback: บางครั้ง Vita ต้องใช้ .src ตรงๆ ถ้า <source> ไม่ติด
-                        videoPlayer.src = source.src;
-                        videoPlayer.play().catch(function(){});
-                    });
+                    try {
+                        var p = videoPlayer.play();
+                        if (p && p.catch) p.catch(function(){});
+                    } catch(e) {}
                     channelNameHeader.innerText = channel.title;
-                }, 200);
+                }, 400); // Longer delay for Vita stability
             } else {
+                videoPlayer.src = finalUrl;
+                if (isMP4) videoPlayer.setAttribute('type', 'video/mp4');
+                
                 var nativePromise = videoPlayer.play();
-                if (nativePromise !== undefined) {
+                if (nativePromise && nativePromise.catch) {
                     nativePromise.catch(function() {
                         if (finalUrl !== channel.url) {
                             videoPlayer.src = channel.url;
                             videoPlayer.load();
-                            videoPlayer.play().catch(function(){});
+                            videoPlayer.play();
                         }
                     });
                 }

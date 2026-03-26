@@ -77,7 +77,7 @@ if (!$response) {
 }
 
 $is_playlist = (strpos(strtolower($content_type), 'mpegurl') !== false || strpos(trim($response), '#EXTM3U') === 0);
-$is_vita = (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'PlayStation Vita') !== false);
+$is_vita = (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], 'Vita') !== false || strpos($_SERVER['HTTP_USER_AGENT'], 'PlayStation') !== false));
 
 if ($is_playlist) {
     header("Content-Type: application/vnd.apple.mpegurl");
@@ -114,14 +114,13 @@ if ($is_playlist) {
         if (strpos($line, '#') === 0) {
             if (strpos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);
-                $proxyUri = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)) . '&ext=.m3u8';
+                $proxyUri = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri));
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
             $output[] = $line;
         } else {
             $absUrl = resolve_url($final_url, $line);
-            $ext = (strpos($absUrl, '.ts') !== false) ? '&ext=.ts' : '&ext=.m3u8';
-            $output[] = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)) . $ext;
+            $output[] = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl));
         }
     }
     echo implode("\n", $output);
