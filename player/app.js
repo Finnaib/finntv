@@ -219,25 +219,35 @@ document.addEventListener('DOMContentLoaded', function() {
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
             videoPlayer.removeAttribute('type');
-            // If it's a PHP redirect or unknown type on Vita, hint that it's HLS
+            var lowerUrl = channel.url.toLowerCase();
+            
             if (isVita && lowerUrl.indexOf('.mp4') === -1) {
-                videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl'); // More explicit for Vita
+                videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl');
             }
+            
             videoPlayer.src = finalUrl;
             videoPlayer.load();
-            var nativePromise = videoPlayer.play();
-            if (nativePromise !== undefined) {
-                nativePromise.catch(function() {
-                    // Failover: Clear type and try again
-                    videoPlayer.removeAttribute('type');
-                    if (finalUrl !== channel.url) {
-                        videoPlayer.src = channel.url;
-                        videoPlayer.load();
-                        videoPlayer.play().catch(function(){});
-                    }
-                });
+
+            if (isVita) {
+                // Vita needs a moment to initialize the native player after setting src
+                setTimeout(function() {
+                    videoPlayer.play().catch(function(e){ console.error("Vita play error", e); });
+                    channelNameHeader.innerText = channel.title;
+                }, 150);
+            } else {
+                var nativePromise = videoPlayer.play();
+                if (nativePromise !== undefined) {
+                    nativePromise.catch(function() {
+                        videoPlayer.removeAttribute('type');
+                        if (finalUrl !== channel.url) {
+                            videoPlayer.src = channel.url;
+                            videoPlayer.load();
+                            videoPlayer.play().catch(function(){});
+                        }
+                    });
+                }
+                channelNameHeader.innerText = channel.title;
             }
-            channelNameHeader.innerText = channel.title;
         }
     }
 
