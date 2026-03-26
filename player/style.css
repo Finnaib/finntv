@@ -1,159 +1,219 @@
-/* style.css v45 - Ultimate Polished Light (PS Vita Focus) */
+/* style.css v50 - Premium Dark (Mobile & Vita Optimized) */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
-* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; outline: none; }
+:root {
+    --bg-color: #060913;
+    --surface-color: #0f1423;
+    --card-bg: #161c31;
+    --accent-color: #3b82f6;
+    --accent-glow: rgba(59, 130, 246, 0.3);
+    --text-main: #f8fafc;
+    --text-dim: #94a3b8;
+    --border-color: #1e293b;
+    --player-height-mobile: 240px;
+    --sidebar-width: 320px;
+}
+
+* { 
+    box-sizing: border-box; 
+    -webkit-tap-highlight-color: transparent; 
+    outline: none; 
+    -webkit-font-smoothing: antialiased;
+}
 
 html, body {
     margin: 0; padding: 0; width: 100%; height: 100%;
-    background-color: #f5f7fa;
-    color: #2c3e50; font-family: 'Inter', sans-serif;
-    overflow: hidden; user-select: none;
+    background-color: var(--bg-color);
+    color: var(--text-main); 
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden; 
+    user-select: none;
 }
 
 /* --- NAVIGATION --- */
 .navbar {
-    position: absolute; top: 0; left: 0; width: 100%; height: 60px;
-    background: #ffffff; border-bottom: 1px solid #e2e8f0;
+    position: fixed; top: 0; left: 0; width: 100%; height: 60px;
+    background: rgba(15, 20, 35, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border-color);
     line-height: 60px; padding: 0 24px; z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
 }
-.nav-logo { float: left; font-size: 20px; font-weight: 800; color: #1e293b; letter-spacing: -0.8px; font-family: 'Outfit', sans-serif; }
-.nav-logo span { background: linear-gradient(135deg, #3b82f6, #2563eb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-.nav-subtitle { float: right; font-size: 10px; font-weight: 800; color: #95a5a6; text-transform: uppercase; }
+.nav-logo { 
+    float: left; font-size: 22px; font-weight: 800; color: #fff; 
+    letter-spacing: -1px; 
+}
+.nav-logo span { color: var(--accent-color); text-shadow: 0 0 15px rgba(59, 130, 246, 0.5); }
+.nav-logo::after { content: '\1F4FA'; margin-left: 8px; font-size: 18px; filter: drop-shadow(0 0 5px var(--accent-glow)); }
 
 /* --- SPLIT PANEL --- */
 .split-layout {
     position: absolute; top: 60px; left: 0; right: 0; bottom: 0;
+    display: flex;
     overflow: hidden;
 }
 
 /* --- LEFT SIDEBAR (GUIDE) --- */
 .left-pane {
-    position: absolute; top: 0; left: 0; width: 340px; bottom: 0;
-    background: #ffffff; border-right: 1px solid #e1e8ed;
-    padding: 20px !important; z-index: 500;
+    width: var(--sidebar-width); height: 100%;
+    background: var(--surface-color); 
+    border-right: 1px solid var(--border-color);
+    padding: 20px;
     display: flex; flex-direction: column;
+    z-index: 500;
 }
 
 .group-filter-bar {
-    width: 100%; height: 40px; white-space: nowrap; overflow-x: auto;
+    width: 100%; height: 44px; white-space: nowrap; overflow-x: auto;
     margin-bottom: 15px; -webkit-overflow-scrolling: touch;
 }
 .group-filter-bar::-webkit-scrollbar { display: none; }
 .group-item {
-    display: inline-block; padding: 10px 18px; background: #f1f5f9;
-    border-radius: 12px; font-size: 13px; font-weight: 700; margin-right: 10px;
-    cursor: pointer; color: #64748b; border: 1.5px solid transparent; transition: all 0.2s ease;
-    font-family: 'Outfit', sans-serif;
+    display: inline-block; padding: 8px 16px; background: var(--card-bg);
+    border-radius: 10px; font-size: 13px; font-weight: 600; margin-right: 8px;
+    cursor: pointer; color: var(--text-dim); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid transparent;
 }
 .group-item.active { 
-    background: #3b82f6; color: #fff; 
-    box-shadow: 0 6px 15px rgba(59, 130, 246, 0.25);
-    transform: translateY(-1px);
+    background: var(--accent-color); color: #fff; 
+    box-shadow: 0 4px 12px var(--accent-glow);
 }
 
-.search-box { width: 100%; margin-bottom: 18px; }
+.search-box { width: 100%; margin-bottom: 15px; }
 #search-input {
-    width: 100%; height: 42px; background: #f8fafc;
-    border: 1.5px solid #edf2f7; border-radius: 12px;
-    padding: 0 14px; font-size: 14px; color: #2d3748; transition: 0.2s;
+    width: 100%; height: 44px; background: var(--card-bg);
+    border: 1px solid var(--border-color); border-radius: 12px;
+    padding: 0 16px; font-size: 14px; color: #fff; transition: 0.2s;
 }
-#search-input:focus { border-color: #3498db; background: #fff; box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.05); }
-
-
-
-.presets-row { width: 100%; margin: 10px 0 20px; display: flex; gap: 8px; flex-wrap: wrap; }
-.preset-btn {
-    flex: 1; min-width: 90px; height: 42px; background: #f8fafc;
-    border-radius: 14px; font-size: 13px; font-weight: 700; color: #64748b;
-    display: flex; align-items: center; justify-content: center;
-    cursor: pointer; border: 1.5px solid #edf2f7; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    letter-spacing: -0.2px; font-family: 'Outfit', sans-serif;
-}
-.preset-btn:hover { background: #f1f5f9; border-color: #cbd5e1; transform: translateY(-1px); }
-.preset-btn:active { transform: scale(0.96); opacity: 0.9; }
-.preset-btn.blue-btn {
-    background: #3b82f6 !important; color: #fff !important; border: none !important;
-    box-shadow: 0 6px 15px rgba(59, 130, 246, 0.25) !important;
-}
+#search-input:focus { border-color: var(--accent-color); box-shadow: 0 0 0 3px var(--accent-glow); }
 
 .content-section {
     flex: 1; width: 100%;
     overflow: hidden; display: flex; flex-direction: column;
 }
-.section-title { font-size: 15px; font-weight: 800; margin-bottom: 10px; color: #2d3748; }
+.section-header { margin-bottom: 12px; }
+.section-title { font-size: 14px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
 
 .channel-grid {
     flex: 1; width: 100%; overflow-y: scroll !important;
-    padding-right: 6px; -webkit-overflow-scrolling: touch;
-    -webkit-transform: translate3d(0,0,0); /* Hardware Acceleration for Vita */
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
-    min-height: 200px;
-    z-index: 10;
 }
-.channel-grid::-webkit-scrollbar { width: 5px; }
-.channel-grid::-webkit-scrollbar-thumb { background: #cbd5e0; border-radius: 10px; }
+.channel-grid::-webkit-scrollbar { width: 4px; }
+.channel-grid::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 10px; }
 
 .channel-card {
-    background: #ffffff; border-radius: 16px; padding: 16px 20px; margin-bottom: 14px;
-    border: 1.5px solid #f1f5f9; cursor: pointer; position: relative;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--card-bg); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px;
+    border: 1px solid transparent; cursor: pointer;
+    transition: all 0.2s ease;
 }
-.channel-card:hover { border-color: #cbd5e1; transform: scale(0.99); background: #f8fafc; }
-.channel-card.active { border-color: #3b82f6; border-width: 2px; background: #eff6ff; box-shadow: 0 2px 10px rgba(59, 130, 246, 0.1); }
-.card-title { font-size: 15px; font-weight: 700; color: #1e293b; font-family: 'Outfit', sans-serif; }
-.card-group { font-size: 11px; color: #3b82f6; font-weight: 800; margin-top: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+.channel-card:hover { background: #1e253d; border-color: #2e3752; }
+.channel-card.active { 
+    border-color: var(--accent-color); 
+    background: rgba(59, 130, 246, 0.1); 
+    box-shadow: inset 0 0 10px rgba(59, 130, 246, 0.05);
+}
+.card-title { font-size: 15px; font-weight: 600; color: #fff; }
+.card-group { font-size: 11px; color: var(--accent-color); font-weight: 700; margin-top: 4px; opacity: 0.8; }
 
 /* --- RIGHT PANEL (PLAYER) --- */
 .right-pane {
-    position: absolute; top: 0; left: 340px; right: 0; bottom: 0;
-    background: #000000; overflow: hidden; z-index: 400;
+    flex: 1; background: #000; overflow: hidden; 
+    display: flex; flex-direction: column;
 }
 
-.hero-section { width: 100%; height: calc(100% - 65px); background: #000; position: relative; }
-.player-wrapper { width: 100%; height: 100%; background: #000; position: relative; }
-#video-player { width: 100%; height: 100%; object-fit: contain; }
+.hero-section { flex: 1; width: 100%; background: #000; position: relative; }
+.player-wrapper { width: 100%; height: 100%; position: relative; }
+#video-player { width: 100%; height: 100%; object-fit: contain; background: #000; }
 
 #player-overlay {
-    position: absolute; top: 0; left: 0; width: 100%; padding: 25px 25px 50px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent); pointer-events: none;
+    position: absolute; top: 0; left: 0; width: 100%; padding: 20px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent 70%); pointer-events: none;
     z-index: 10;
 }
-#channel-name { font-size: 22px; font-weight: 800; color: #fff; margin: 0; text-shadow: 0 2px 15px rgba(0,0,0,0.5); }
-#status-text { font-size: 11px; color: #3498db; font-weight: 800; text-transform: uppercase; margin-top: 5px; }
+#channel-name { font-size: 20px; font-weight: 700; color: #fff; margin: 0; }
+#status-text { font-size: 11px; color: var(--accent-color); font-weight: 800; text-transform: uppercase; margin-top: 4px; }
 
 /* --- SYNC BAR (DOCK) --- */
 .sync-row {
-    position: absolute; bottom: 0; left: 0; width: 100%; height: 65px;
-    background: #ffffff; border-top: 1px solid #e1e8ed;
-    padding: 12px 20px; z-index: 2000;
+    height: 60px; background: var(--surface-color); border-top: 1px solid var(--border-color);
+    padding: 10px 20px; display: flex; align-items: center; gap: 15px;
 }
-.sync-input-wrapper { float: left; width: 85%; }
-.sync-input-wrapper input { width: 100%; height: 40px; border: none; font-size: 14px; font-weight: 500; padding: 0 12px; color: #2d3748; background: transparent; }
+.sync-input-wrapper { flex: 1; }
+.sync-input-wrapper input { 
+    width: 100%; height: 40px; border: none; font-size: 13px; 
+    color: var(--text-dim); background: transparent; 
+}
 #load-btn { 
-    float: right; width: 12%; height: 40px; background: #3498db; color: #fff; border: none; 
-    border-radius: 12px; font-weight: 800; font-size: 14px; cursor: pointer; transition: 0.15s;
-    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2); 
+    padding: 0 20px; height: 38px; background: var(--accent-color); color: #fff; border: none; 
+    border-radius: 10px; font-weight: 700; font-size: 13px; cursor: pointer; transition: 0.2s;
 }
-#load-btn:active { transform: scale(0.95); opacity: 0.9; }
+#load-btn:hover { background-color: #2563eb; }
+#load-btn:active { transform: scale(0.95); }
 
-/* --- MOBILE --- */
+#pagination-container { text-align: center; padding: 10px 0; width: 100%; }
+#load-more-btn {
+    width: 100%; padding: 14px; background: var(--card-bg); color: var(--text-dim);
+    border: 1px solid var(--border-color); border-radius: 12px; font-weight: 700;
+    cursor: pointer; margin-top: 5px; transition: all 0.2s;
+}
+#load-more-btn:active { background: var(--bg-color); transform: scale(0.98); }
+
+.app-info { font-size: 10px; color: #4b5563; text-align: center; padding: 10px; }
+
+/* --- RESPONSIVE / MOBILE PORTRAIT --- */
 @media (max-width: 800px) {
-    .left-pane { width: 100%; position: relative; top: 0; height: 500px; border-right: none; }
-    .right-pane { left: 0; position: relative; height: 320px; }
-    .sync-row { width: calc(100% - 40px); left: 20px; bottom: 15px; }
+    .navbar { height: 50px; line-height: 50px; }
+    .nav-logo { font-size: 18px; }
+    
+    .split-layout { 
+        top: 50px; flex-direction: column; overflow-y: auto; 
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .right-pane { 
+        flex: none; height: var(--player-height-mobile); 
+        position: sticky; top: 0; z-index: 100;
+        background: #000;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+    }
+    
+    .left-pane { 
+        width: 100%; height: auto; flex: none;
+        border-right: none; border-top: 1px solid var(--border-color);
+        padding-bottom: 80px;
+    }
+
+    .app-info { display: none; }
+    
+    .sync-row { 
+        position: fixed; bottom: 0; width: 100%; z-index: 1000;
+        background: rgba(15, 20, 35, 0.98); border-top: 1px solid var(--border-color);
+    }
+    
+    .left-pane { padding-bottom: 80px; } /* Space for sync-row */
+}
+
+/* --- PS VITA & LANDSCAPE MOBILE (Optimized Split) --- */
+@media screen and (max-device-width: 960px) and (orientation: landscape), 
+       screen and (min-width: 801px) and (max-width: 1024px) {
+    
+    :root { --sidebar-width: 250px; }
+    
+    .navbar { display: none; } /* Hide navbar to save height on small landscape screens */
+    .split-layout { top: 0; }
+    
+    .left-pane { width: var(--sidebar-width); }
+    .right-pane { flex: 1; }
+    
+    .sync-row { height: 50px; padding: 5px 15px; }
+    .sync-row input { font-size: 11px; }
+    #load-btn { height: 32px; font-size: 11px; padding: 0 12px; }
+    
+    #channel-name { font-size: 16px; }
 }
 
 .clearfix::after { content: ""; clear: both; display: table; }
-.channel-badge { float: right; font-size: 10px; color: #3498db; font-weight: 900; opacity: 0.8; }
-
-/* PS Vita Special Compatibility */
-@media screen and (max-device-width: 960px) {
-    body, html { overflow: auto !important; }
-    .split-layout { position: relative; height: auto; overflow: visible; }
-    .left-pane { width: 100%; position: relative; height: auto; min-height: 500px; border-bottom: 2px solid #eee; }
-    .right-pane { width: 100%; position: relative; left: 0; min-height: 400px; }
-    .channel-grid { height: 450px !important; overflow-y: scroll !important; -webkit-overflow-scrolling: touch; display: block !important; }
-    .sync-row { position: relative; width: 100%; margin-top: 20px; }
-}
+.channel-badge { float: right; font-size: 11px; color: var(--accent-color); font-weight: 700; }

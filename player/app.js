@@ -162,7 +162,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         channelNameHeader.innerText = '📡 Unlocking...';
         channelGroupText.innerText = channel.group;
-        window.scrollTo(0, 0);
+        
+        // Mobile-friendly scroll: Scroll the container to top to show the player
+        var splitLayout = document.querySelector('.split-layout');
+        if (splitLayout) splitLayout.scrollTop = 0;
+        else window.scrollTo(0, 0);
 
         if (hls) { hls.destroy(); hls = null; }
         if (flvPlayer) { flvPlayer.destroy(); flvPlayer = null; }
