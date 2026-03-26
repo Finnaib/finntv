@@ -87,8 +87,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             } else if (line.indexOf('http') === 0 && currentChannel) {
                 var streamUrl = line;
-                // Universal Optimization: Convert raw .ts links to HLS (.m3u8) for far better stability
-                if (streamUrl.indexOf('/live/') !== -1 && streamUrl.toLowerCase().indexOf('.ts') !== -1) {
+                var lowStreamUrl = streamUrl.toLowerCase();
+                // Universal Optimization: Convert raw .ts Xtream links to HLS (.m3u8) for native broad support
+                if ((lowStreamUrl.indexOf('/live/') !== -1 || lowStreamUrl.indexOf('/movie/') !== -1 || lowStreamUrl.indexOf('/series/') !== -1) && lowStreamUrl.indexOf('.ts') !== -1) {
                     streamUrl = streamUrl.substring(0, streamUrl.length - 3) + '.m3u8';
                 }
                 currentChannel.url = streamUrl;
@@ -227,11 +228,16 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.innerHTML = "";
             videoPlayer.removeAttribute("src");
             
+            var sourceUrl = finalUrl;
+            if (isVita && !isVOD && sourceUrl.indexOf('.mp4') === -1 && sourceUrl.indexOf('&ext=') === -1) {
+                sourceUrl += '&ext=.m3u8';
+            }
+            
             if (isVita) {
                 // Verified working pattern from psvita/app.js reference
                 videoPlayer.innerHTML = 
-                    '<source src="' + finalUrl + '" type="application/vnd.apple.mpegurl">' +
-                    '<source src="' + finalUrl + '" type="application/x-mpegURL">';
+                    '<source src="' + sourceUrl + '" type="application/vnd.apple.mpegurl">' +
+                    '<source src="' + sourceUrl + '" type="application/x-mpegURL">';
                 
                 videoPlayer.load();
                 
