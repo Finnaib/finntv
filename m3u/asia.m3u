@@ -81,10 +81,10 @@ https://piccpndali.v.myalicdn.com/audio/cctv11_2.m3u8
 http://182.150.23.74:808/hls/11/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
-http://23.237.228.134/live3/CCTV12.m3u8
+http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
-http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
+http://23.237.228.134/live3/CCTV12.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV12
 http://183.11.239.36:808/hls/30/index.m3u8
@@ -201,9 +201,6 @@ http://120.76.248.139/live/bfgd/4200000062.m3u8
 http://112.46.85.60:8009/hls/3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV4
-http://58.57.40.22:9901/tsfile/live/1003_1.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV4
 http://74.91.26.218:82/live/cctv4hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV4
@@ -214,6 +211,9 @@ http://183.11.239.36:808/hls/77/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV4
 http://183.11.239.36:808/hls/67/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV4
+http://120.76.248.139/live/bfgd/4200000063.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5
 http://58.57.40.22:9901/tsfile/live/1004_1.m3u8
@@ -312,6 +312,9 @@ http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV央视台球
+https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV央视台球
 http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV女性时尚
@@ -373,6 +376,15 @@ https://0472.org/hls/cgtnx.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CmoStar
+https://goodiptv.club/douyu/10282256
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",KBShinya
+https://goodiptv.club/douyu/8970851
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",Starshine刹那
+https://goodiptv.club/douyu/9191006
 
 #EXTINF:-1 tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="China",CCTV-1 综合
 http://218.13.14.6:60050/tsfile/live/1001_1.m3u8
@@ -715,15 +727,6 @@ https://7pal.short.gy/ssportsnw
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",EuroSport
 https://7pal.short.gy/eusport4k
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CmoStar
-https://goodiptv.club/douyu/10282256
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",KBShinya
-https://goodiptv.club/douyu/8970851
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",Starshine刹那
-https://goodiptv.club/douyu/9191006
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-1
 https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
@@ -1367,22 +1370,19 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/501/default_ott.mpd
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5050/default_ott.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/CINEMAX%20HD.png" group-title="Mixed",CINEMAX
-https://unifi.whacat.tech/Cinemax
+https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/HBO%20HD.png" group-title="Mixed",HBO
-https://unifi.whacat.tech/HBO
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/HBO%20HD.png" group-title="Mixed",HBO
-https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/HBO%20FAMILY%20HD.png" group-title="Mixed",HBO FAMILY HD
-https://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/HBO%20HITS%20HD.png" group-title="Mixed",HBO HITS HD
-https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/HBO_Signature_Asia.png" group-title="Mixed",HBO SIGNATURE HD
-https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/WARNER%20TV.png" group-title="Mixed",WARNER TV
 https://cdn10jtedge.indihometv.com/atm/DASH/warner/manifest.mpd
