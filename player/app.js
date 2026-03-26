@@ -235,24 +235,31 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             if (isVita) {
-                // Verified working pattern from psvita/app.js reference
-                videoPlayer.innerHTML = 
-                    '<source src="' + sourceUrl + '" type="application/vnd.apple.mpegurl">' +
-                    '<source src="' + sourceUrl + '" type="application/x-mpegURL">';
+                // Force reset to clear memory
+                videoPlayer.pause();
+                videoPlayer.src = "";
+                videoPlayer.load();
                 
+                // Verified working pattern for Vita: Direct src with specific extensions
+                var finalSource = sourceUrl;
+                if (finalSource.indexOf('.mp4') === -1 && finalSource.indexOf('.m3u8') === -1) {
+                    finalSource += (finalSource.indexOf('?') === -1 ? '?' : '&') + 'ext=.m3u8';
+                }
+                
+                videoPlayer.src = finalSource;
                 videoPlayer.load();
                 
                 if (nativeLink) {
                     nativeLink.style.display = 'inline-block';
-                    nativeLink.href = sourceUrl;
+                    nativeLink.href = finalSource;
                 }
                 
                 setTimeout(function() {
                     try {
                         var p = videoPlayer.play();
-                        if (p && p.catch) p.catch(function(){});
+                        if (p && p.catch) p.catch(function(e){ console.log("Vita Play Error:", e); });
                     } catch(e) {}
-                }, 300);
+                }, 500);
             } else {
                 if (nativeLink) nativeLink.style.display = 'none';
                 videoPlayer.src = sourceUrl;
@@ -312,8 +319,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     videoPlayer.addEventListener('error', function() {
         var err = videoPlayer.error ? videoPlayer.error.code : 'Unknown';
+        var status = 'Error ' + err;
+        if (err == 1) status = 'Aborted';
+        if (err == 2) status = 'Network Error';
+        if (err == 3) status = 'Decoding Error';
+        if (err == 4) status = 'Format Unsupported';
+        
         channelNameHeader.innerText = 'Cannot play this video';
-        channelGroupText.innerText = isVita && (err==3||err==4) ? 'Format Unsupported (Use SD/H264)' : 'Check stream link or try another channel';
+        channelGroupText.innerText = isVita && (err==3||err==4) ? 'Format Unsupported (Use SD/H264/M3U8)' : 'Check link or try another channel (' + status + ')';
+        console.error("Playback Error:", err, videoPlayer.src);
     }, true);
 
     setTimeout(function() {

@@ -7,12 +7,12 @@
     <title>FinnTV Premium Player</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <script>
         (function() {
             var ua = navigator.userAgent;
             var isVita = ua.indexOf('Vita') !== -1 || ua.indexOf('PlayStation') !== -1;
             if (!isVita) {
+                var f = document.createElement('link'); f.rel = "stylesheet"; f.href = "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap"; document.head.appendChild(f);
                 var s1 = document.createElement('script'); s1.src = "https://cdn.jsdelivr.net/npm/hls.js@latest"; document.head.appendChild(s1);
                 var s2 = document.createElement('script'); s2.src = "https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"; document.head.appendChild(s2);
             }

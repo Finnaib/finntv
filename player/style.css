@@ -179,12 +179,15 @@ body, html {
 @media screen and (max-device-width: 960px) and (orientation: landscape) {
     .navbar { display: none; }
     .split-layout { top: 0; }
-    .left-pane { width: 250px; border-right: 1px solid #1e293b; }
+    .left-pane { width: 250px; border-right: 1px solid #1e293b; background: #060913; box-shadow: none; }
     .right-pane { left: 250px; }
-    .sync-row { height: 55px; padding: 8px 15px; border-top: 1px solid #1e293b; }
+    .sync-row { height: 55px; padding: 8px 15px; border-top: 1px solid #1e293b; background: #0b0f1a; }
     .sync-input-wrapper input { font-size: 10px; }
-    #load-btn { height: 34px; font-size: 12px; padding: 0 15px; }
-    #channel-name { font-size: 16px; }
+    #load-btn { height: 34px; font-size: 12px; padding: 0 15px; box-shadow: none; }
+    #channel-name { font-size: 16px; text-shadow: none; }
+    .channel-card { box-shadow: none !important; border-radius: 4px; }
+    .group-item { box-shadow: none !important; border-radius: 4px; }
+    * { text-shadow: none !important; }
 }
 
 .clearfix::after { content: ""; clear: both; display: table; }
