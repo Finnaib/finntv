@@ -76,14 +76,21 @@ if (!$response) {
     die("IPTV Server Timeout");
 }
 
-header("Content-Type: $content_type");
-
 $is_playlist = (strpos(strtolower($content_type), 'mpegurl') !== false || strpos(trim($response), '#EXTM3U') === 0);
+$is_vita = (isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'PlayStation Vita') !== false);
+
+if ($is_playlist) {
+    header("Content-Type: application/vnd.apple.mpegurl");
+} else if (strpos($url, '.ts') !== false) {
+    header("Content-Type: video/mp2t");
+} else {
+    header("Content-Type: $content_type");
+}
+header("X-Content-Type-Options: nosniff");
 
 if ($is_playlist) {
     $lines = explode("\n", $response);
     $output = [];
-    $is_vita = (strpos($_SERVER['HTTP_USER_AGENT'], 'PlayStation Vita') !== false);
     
     $skip_next = false;
     foreach ($lines as $line) {
@@ -107,13 +114,14 @@ if ($is_playlist) {
         if (strpos($line, '#') === 0) {
             if (strpos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);
-                $proxyUri = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri));
+                $proxyUri = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)) . '&ext=.m3u8';
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
             $output[] = $line;
         } else {
             $absUrl = resolve_url($final_url, $line);
-            $output[] = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl));
+            $ext = (strpos($absUrl, '.ts') !== false) ? '&ext=.ts' : '&ext=.m3u8';
+            $output[] = '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)) . $ext;
         }
     }
     echo implode("\n", $output);

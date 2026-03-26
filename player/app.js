@@ -218,27 +218,47 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
-            videoPlayer.removeAttribute('type');
-            var lowerUrl = channel.url.toLowerCase();
+            videoPlayer.pause();
+            videoPlayer.innerHTML = ""; // Clear existing sources
+            videoPlayer.removeAttribute("src");
+            videoPlayer.load();
+
+            var source = document.createElement('source');
+            var isMP4 = lowerUrl.indexOf('.mp4') !== -1;
             
-            if (isVita && lowerUrl.indexOf('.mp4') === -1) {
-                videoPlayer.setAttribute('type', 'application/vnd.apple.mpegurl');
+            if (isVita) {
+                // On Vita, if it's not mp4, it's m3u8 (via proxy)
+                source.setAttribute('type', isMP4 ? 'video/mp4' : 'application/vnd.apple.mpegurl');
+                // Force an extension for Vita's browser "guess" logic if proxying
+                var vitaUrl = finalUrl;
+                if (!isMP4 && vitaUrl.indexOf('.m3u8') === -1) {
+                    vitaUrl += '&ext=.m3u8';
+                }
+                source.setAttribute('src', vitaUrl);
+            } else {
+                source.setAttribute('src', finalUrl);
+                if (isMP4) source.setAttribute('type', 'video/mp4');
+                else if (lowerUrl.indexOf('.m3u8') !== -1) source.setAttribute('type', 'application/vnd.apple.mpegurl');
             }
-            
-            videoPlayer.src = finalUrl;
+
+            videoPlayer.appendChild(source);
             videoPlayer.load();
 
             if (isVita) {
-                // Vita needs a moment to initialize the native player after setting src
+                // Vita needs heartbeats to keep the system player alive on some versions
                 setTimeout(function() {
-                    videoPlayer.play().catch(function(e){ console.error("Vita play error", e); });
+                    videoPlayer.play().catch(function(e){ 
+                        console.error("Vita Play Error:", e);
+                        // Fallback: บางครั้ง Vita ต้องใช้ .src ตรงๆ ถ้า <source> ไม่ติด
+                        videoPlayer.src = source.src;
+                        videoPlayer.play().catch(function(){});
+                    });
                     channelNameHeader.innerText = channel.title;
-                }, 150);
+                }, 200);
             } else {
                 var nativePromise = videoPlayer.play();
                 if (nativePromise !== undefined) {
                     nativePromise.catch(function() {
-                        videoPlayer.removeAttribute('type');
                         if (finalUrl !== channel.url) {
                             videoPlayer.src = channel.url;
                             videoPlayer.load();
