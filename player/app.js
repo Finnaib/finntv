@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var activeElement = null;
     var hls = null;
     var flvPlayer = null;
-    var isVita = navigator.userAgent.indexOf('Vita') !== -1 || navigator.userAgent.indexOf('PlayStation') !== -1;
+    var isVita = navigator.userAgent.indexOf('Vita') !== -1;
     var renderIndex = 0;
     var RENDER_CHUNK_SIZE = 50; 
 
@@ -186,9 +186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Smart Proxy Logic: Only proxy if strictly needed (Insecure on HTTPS, Xtream, or forced TS)
         var isHttps = window.location.protocol === 'https:';
         var isInsecure = channel.url.indexOf('http:') !== -1;
-        var needsProxy = (isInsecure && isHttps) || isTS || isXtream || isVita; // Proxy ALWAYS on Vita to fix SSL NW-8942-3 issues
+        var needsProxy = (isInsecure && isHttps) || isTS || isXtream; // PC/Mobile need proxy for CORS, Vita doesn't via Native Player
         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(channel.url))) : channel.url;
-        if (isVita && needsProxy && finalUrl.indexOf('&ext=') === -1) finalUrl += '&ext=.m3u8'; // Critical for native snuffing
 
         // Path 1: MPEG-TS (VLC Mode) - Disable on Vita if native player can't handle it
         if (isTS && !isVita && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mse) {
@@ -225,12 +224,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // Path 3: Native (PS Vita / Mobile / MP4)
         else {
             videoPlayer.pause();
+            videoPlayer.innerHTML = "";
             videoPlayer.removeAttribute("src");
             
-            var isMP4 = lowerUrl.indexOf('.mp4') !== -1;
-            
             if (isVita) {
-                // Use the double source technique from the psvita reference
+                // Verified working pattern from psvita/app.js reference
                 videoPlayer.innerHTML = 
                     '<source src="' + finalUrl + '" type="application/vnd.apple.mpegurl">' +
                     '<source src="' + finalUrl + '" type="application/x-mpegURL">';
@@ -242,12 +240,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         var p = videoPlayer.play();
                         if (p && p.catch) p.catch(function(){});
                     } catch(e) {}
-                    channelNameHeader.innerText = channel.title;
-                }, 400); 
+                }, 300);
             } else {
-                videoPlayer.innerHTML = "";
                 videoPlayer.src = finalUrl;
-                if (isMP4) videoPlayer.setAttribute('type', 'video/mp4');
+                if (lowerUrl.indexOf('.mp4') !== -1) videoPlayer.setAttribute('type', 'video/mp4');
                 
                 var nativePromise = videoPlayer.play();
                 if (nativePromise && nativePromise.catch) {
@@ -259,8 +255,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     });
                 }
-                channelNameHeader.innerText = channel.title;
             }
+            channelNameHeader.innerText = channel.title;
         }
     }
 

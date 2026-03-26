@@ -3,27 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <script>
-        var isVita = navigator.userAgent.indexOf('Vita') !== -1 || navigator.userAgent.indexOf('PlayStation') !== -1;
-        if (isVita) {
-            document.write('<meta name="viewport" content="width=640, user-scalable=yes">');
-        } else {
-            document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">');
-        }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinnTV Premium Player</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     <!-- HLS.js for manifests (.m3u8) -->
     <script>
-        var isVita = navigator.userAgent.indexOf('Vita') !== -1 || navigator.userAgent.indexOf('PlayStation') !== -1;
+        var isVita = navigator.userAgent.indexOf('Vita') !== -1;
         if (!isVita) {
             document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"><\/script>');
             document.write('<script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"><\/script>');
         }
     </script>
-    <link rel="stylesheet" href="style.css?v=57">
+    <link rel="stylesheet" href="style.css?v=27">
 </head>
 
 <body>
@@ -79,7 +72,7 @@
         </div>
 
     <!-- Ensure Vita compatibility by keeping JS light -->
-    <script src="app.js?v=25"></script>
+    <script src="app.js?v=27"></script>
 </body>
 
 </html>
