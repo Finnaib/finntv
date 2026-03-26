@@ -290,8 +290,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     videoPlayer.addEventListener('error', function() {
         var err = videoPlayer.error ? videoPlayer.error.code : 'Unknown';
-        channelNameHeader.innerText = 'Error ' + err;
-        channelGroupText.innerText = isVita && (err==3||err==4) ? 'Format Unsupported (Use SD/H264)' : 'Check stream link';
+        channelNameHeader.innerText = 'Cannot play this video';
+        channelGroupText.innerText = isVita && (err==3||err==4) ? 'Format Unsupported (Use SD/H264)' : 'Check stream link or try another channel';
     }, true);
 
     setTimeout(function() {

@@ -83,9 +83,27 @@ $is_playlist = (strpos(strtolower($content_type), 'mpegurl') !== false || strpos
 if ($is_playlist) {
     $lines = explode("\n", $response);
     $output = [];
+    $is_vita = (strpos($_SERVER['HTTP_USER_AGENT'], 'PlayStation Vita') !== false);
+    
+    $skip_next = false;
     foreach ($lines as $line) {
         $line = trim($line);
         if (empty($line)) continue;
+        
+        if ($is_vita && strpos($line, '#EXT-X-STREAM-INF') === 0) {
+            // PS Vita Optimization: Skip 1080p, 4K, or high bitrates if detectable in the line
+            if (preg_match('/RESOLUTION=(1920|3840)/i', $line) || strpos($line, '1080') !== false || strpos($line, '4K') !== false) {
+                $skip_next = true;
+                continue;
+            }
+        }
+        
+        if ($skip_next && strpos($line, '#') !== 0) {
+            $skip_next = false;
+            continue;
+        }
+        $skip_next = false;
+
         if (strpos($line, '#') === 0) {
             if (strpos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);

@@ -153,7 +153,7 @@ body, html {
         z-index: 100; border-bottom: 3px solid #1e293b;
     }
     .hero-section { height: 100%; }
-    .sync-row { position: fixed; height: 65px; bottom: 0; z-index: 2000; border-top: 2px solid #3b82f6; }
+    .sync-row { position: fixed; height: 65px; bottom: 0; left: 0; width: 100%; z-index: 2000; border-top: 2px solid #3b82f6; }
     
     .left-pane { 
         position: relative; top: 0; width: 100%; height: auto; min-height: 500px;
