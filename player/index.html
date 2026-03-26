@@ -3,20 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FinnTV Premium Player</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <!-- HLS.js for manifests (.m3u8) -->
     <script>
-        var isVita = navigator.userAgent.indexOf('Vita') !== -1;
-        if (!isVita) {
-            document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"><\/script>');
-            document.write('<script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"><\/script>');
-        }
+        (function() {
+            var ua = navigator.userAgent;
+            var isVita = ua.indexOf('Vita') !== -1 || ua.indexOf('PlayStation') !== -1;
+            if (!isVita) {
+                var s1 = document.createElement('script'); s1.src = "https://cdn.jsdelivr.net/npm/hls.js@latest"; document.head.appendChild(s1);
+                var s2 = document.createElement('script'); s2.src = "https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.min.js"; document.head.appendChild(s2);
+            }
+        })();
     </script>
-    <link rel="stylesheet" href="style.css?v=27">
+    <link rel="stylesheet" href="style.css?v=60">
 </head>
 
 <body>
@@ -25,55 +27,47 @@
         <div class="channel-badge"><span id="channel-count">0</span> Channels</div>
     </div>
 
-        <div class="split-layout">
-            <!-- Video Player (Order swapped to show at top on mobile) -->
-            <div class="right-pane">
-                <div class="hero-section">
-                    <div class="player-wrapper">
-                        <video id="video-player" controls preload="auto" playsinline webkit-playsinline x-webkit-airplay="allow"></video>
-                        <div id="player-overlay">
-                            <h1 id="channel-name">FinnTV Premium</h1>
-                            <div id="status-text">Ready to stream</div>
-                            <a id="vita-native-link" href="#" target="_blank" style="display:none; color: #3b82f6; font-size: 11px; font-weight: 800; text-decoration: none; margin-top: 8px; border: 1px solid #3b82f6; padding: 4px 10px; border-radius: 5px;">OPEN NATIVE PLAYER</a>
-                        </div>
+    <div class="split-layout">
+        <div class="right-pane">
+            <div class="hero-section">
+                <div class="player-wrapper">
+                    <video id="video-player" controls preload="auto" playsinline webkit-playsinline x-webkit-airplay="allow"></video>
+                    <div id="player-overlay">
+                        <h1 id="channel-name">FinnTV Premium</h1>
+                        <div id="status-text">Ready to stream</div>
+                        <a id="vita-native-link" href="#" target="_blank" style="display:none; color: #3b82f6; font-size: 11px; font-weight: 800; text-decoration: none; margin-top: 8px; border: 1px solid #3b82f6; padding: 4px 10px; border-radius: 5px;">OPEN NATIVE PLAYER</a>
                     </div>
-                </div>
-
-                <div class="sync-row clearfix">
-                    <div class="sync-input-wrapper">
-                        <input type="text" id="m3u-url" placeholder="Paste .m3u link"
-                            value="https://iptv-org.github.io/iptv/index.m3u">
-                    </div>
-                    <button id="load-btn">Load</button>
-                </div>
-
-                <div class="app-info">
-                    Designed for PS Vita & Mobile.
                 </div>
             </div>
 
-            <!-- Channel Guide -->
-            <div class="left-pane">
-                <div class="group-filter-bar clearfix" id="group-filter"></div>
-                <div class="action-bar clearfix">
-                    <div class="search-box">
-                        <input type="text" id="search-input" placeholder="Find channels...">
-                    </div>
+            <div class="sync-row clearfix">
+                <div class="sync-input-wrapper">
+                    <input type="text" id="m3u-url" placeholder="Paste .m3u link" value="https://iptv-org.github.io/iptv/index.m3u">
                 </div>
-
-                <div class="content-section">
-                    <div class="section-header clearfix">
-                        <h2 class="section-title">Channel Guide</h2>
-                    </div>
-                    <div class="channel-grid" id="channel-list">
-                        <div id="pagination-container"></div>
-                    </div>
-                </div>
+                <button id="load-btn">Load</button>
             </div>
         </div>
 
-    <!-- Ensure Vita compatibility by keeping JS light -->
-    <script src="app.js?v=28"></script>
+        <div class="left-pane">
+            <div class="group-filter-bar clearfix" id="group-filter"></div>
+            <div class="action-bar clearfix">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Find channels...">
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header clearfix">
+                    <h2 class="section-title">Channel Guide</h2>
+                </div>
+                <div class="channel-grid" id="channel-list">
+                    <div id="pagination-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=30"></script>
 </body>
 
 </html>

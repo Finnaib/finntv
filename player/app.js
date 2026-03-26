@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
         element.classList.add('active');
         activeElement = element;
 
-        channelNameHeader.innerText = '📡 Unlocking...';
+        channelNameHeader.innerText = 'Unlocking...';
         channelGroupText.innerText = channel.group;
         
         // Mobile-friendly scroll: Scroll the container to top to show the player
