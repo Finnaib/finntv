@@ -144,25 +144,35 @@ body, html {
 /* --- RESPONSIVE / MOBILE PORTRAIT --- */
 @media screen and (max-width: 800px) {
     .navbar { height: 50px; line-height: 50px; }
-    .nav-logo { font-size: 16px; }
+    .nav-logo { font-size: 18px; }
     
-    .split-layout { top: 50px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+    .split-layout { top: 50px; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
     
     .right-pane { 
-        position: relative; left: 0; width: 100%; height: 200px; 
-        z-index: 100; border-bottom: 2px solid #1e293b;
+        position: relative; left: 0; width: 100%; height: 260px; 
+        z-index: 100; background-color: #000;
+        border-bottom: 4px solid #111;
     }
+    
+    .hero-section { height: 100%; } /* Fill the right-pane on mobile */
+    .app-info { display: none; }
     
     .left-pane { 
-        position: relative; top: 0; width: 100%; height: auto; min-height: 500px;
-        border-right: none; border-top: 1px solid #1e293b;
-        padding-bottom: 80px;
+        position: relative; top: 0; width: 100%; height: auto; 
+        border-right: none; padding: 15px;
+        background-color: #060913;
+        padding-bottom: 100px; /* Space for fixed sync-row */
     }
     
-    .content-section { height: auto; min-height: 300px; overflow: visible; }
-    .channel-grid { position: relative; top: 0; height: auto; overflow: visible !important; display: block; }
+    .group-filter-bar { margin-bottom: 12px; }
+    
+    .content-section { position: relative; height: auto; min-height: 100px; overflow: visible; }
+    .channel-grid { position: relative; top: 0; height: auto; min-height: 100px; overflow: visible !important; display: block; }
 
-    .sync-row { position: fixed; bottom: 0; width: 100%; z-index: 1000; }
+    .sync-row { 
+        position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;
+        background-color: #0f1423; border-top: 2px solid #3b82f6;
+    }
 }
 
 /* --- PS VITA & LANDSCAPE MOBILE --- */

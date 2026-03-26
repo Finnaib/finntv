@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var q = window.location.search;
         if (q.indexOf('?m3u=') !== -1) { 
             m3uInput.value = decodeURIComponent(q.split('?m3u=')[1].split('&')[0]); 
-            initLoad();
         }
+        if (m3uInput.value) initLoad();
     }, 200);
 });
