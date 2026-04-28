@@ -29,10 +29,13 @@ if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !==
 }
 
 // Ensure Vita appends ?ext=.m3u8 for native player pickup
-$vita_url = $url;
+$vita_url = $proxy_url;
 if ($is_vita && strpos(strtolower($vita_url), '.m3u8') === false && strpos(strtolower($vita_url), '.mp4') === false) {
     $vita_url .= (strpos($vita_url, '?') === false ? '?' : '&') . 'ext=.m3u8';
 }
+
+// Force HTTP for DSi to avoid certificate errors if the stream is HTTPS
+$dsi_url = str_replace('https://', 'http://', $url);
 
 echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">';
 echo '<html><head>';
@@ -60,8 +63,9 @@ if ($is_vita) {
     echo '<br><br><a class="btn" href="' . htmlspecialchars($url) . '">Direct Stream Link</a>';
 } else {
     // PSP, DSi, and others - Web browser has no video support, rely entirely on direct linking
+    $fallback_url = $is_dsi ? $dsi_url : $url;
     echo '<div style="margin-bottom: 20px; font-size: 12px; color: #aaaaaa;">Click the button below to launch the media player. Your console must support the stream format.</div>';
-    echo '<a class="btn" href="' . htmlspecialchars($url) . '">LAUNCH STREAM</a>';
+    echo '<a class="btn" href="' . htmlspecialchars($fallback_url) . '">LAUNCH STREAM</a>';
 }
 
 echo '<a class="back-link" href="javascript:history.back()">[ Go Back ]</a>';
