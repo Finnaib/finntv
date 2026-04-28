@@ -617,6 +617,9 @@ http://mhav1.com:2095/live/ht2990/742579548/673.ts
 # ON Sport
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON Sport",Modern mti
+http://mhav1.com:2095/live/ht2990/742579548/274110.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 HD 720" tvg-logo="" group-title="ON Sport",ON  Sport 1 HD 720
 http://mhav1.com:2095/live/ht2990/742579548/3498.ts
 

@@ -1950,6 +1950,9 @@ http://mhav1.com:2095/live/ht2990/742579548/48830.ts
 # ON Sport
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON Sport",Modern mti
+http://mhav1.com:2095/live/ht2990/742579548/274110.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 HD 720" tvg-logo="" group-title="ON Sport",ON  Sport 1 HD 720
 http://mhav1.com:2095/live/ht2990/742579548/3498.ts
 
@@ -2170,12 +2173,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2558.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat Geo_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19393.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat_Geo_HD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat_Geo_HD
-http://mhav1.com:2095/live/ht2990/742579548/675.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_News_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_News_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19390.ts
@@ -2625,11 +2622,11 @@ http://mhav1.com:2095/live/ht2990/742579548/79420.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Movies-Thriller" tvg-logo="" group-title="Shahid",Shahid_Movies-Thriller
 http://mhav1.com:2095/live/ht2990/742579548/79419.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Shahid_Tarab" tvg-logo="" group-title="Shahid",Shahid_Tarab
+http://mhav1.com:2095/live/ht2990/742579548/79421.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Tash" tvg-logo="" group-title="Shahid",Shahid_Tash
 http://mhav1.com:2095/live/ht2990/742579548/79427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid_TopChef" tvg-logo="" group-title="Shahid",Shahid_TopChef
-http://mhav1.com:2095/live/ht2990/742579548/79421.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_aflam" tvg-logo="" group-title="Shahid",Shahid_aflam
 http://mhav1.com:2095/live/ht2990/742579548/79417.ts

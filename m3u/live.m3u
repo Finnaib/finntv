@@ -1,32 +1,5 @@
 #EXTM3U
 
-##### [AD Asia اسيا] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="AD SPORT ASIA 1" tvg-logo="" group-title="AD Asia اسيا",AD SPORT ASIA 1
-http://mhav1.com:2095/live/ht2990/742579548/46506.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AD SPORT ASIA 2" tvg-logo="" group-title="AD Asia اسيا",AD SPORT ASIA 2
-http://mhav1.com:2095/live/ht2990/742579548/46507.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 1080P" tvg-logo="" group-title="AD Asia اسيا",[STRZ] AD SPORT ASIA 1 1080P
-http://mhav1.com:2095/live/ht2990/742579548/74075.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 720P" tvg-logo="" group-title="AD Asia اسيا",[STRZ] AD SPORT ASIA 1 720P
-http://mhav1.com:2095/live/ht2990/742579548/74076.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 SD" tvg-logo="" group-title="AD Asia اسيا",[STRZ] AD SPORT ASIA 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/89776.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 2 720P" tvg-logo="" group-title="AD Asia اسيا",[STRZ] AD SPORT ASIA 2 720P
-http://mhav1.com:2095/live/ht2990/742579548/74192.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 2 SD" tvg-logo="" group-title="AD Asia اسيا",[STRZ] AD SPORT ASIA 2 SD
-http://mhav1.com:2095/live/ht2990/742579548/89777.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[STRZ]AD SPORT ASIA 2 1080P" tvg-logo="" group-title="AD Asia اسيا",[STRZ]AD SPORT ASIA 2 1080P
-http://mhav1.com:2095/live/ht2990/742579548/74193.ts
-
-
 ##### [ALBANIA] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="[LB]24 Kitchen" tvg-logo="" group-title="ALBANIA",[LB]24 Kitchen
@@ -5471,6 +5444,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4461.ts
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Heimatkanal" tvg-logo="" group-title="Germany",[DE]Heimatkanal
+http://mhav1.com:2095/live/ht2990/742579548/3384.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Nat_Geo_WILD" tvg-logo="" group-title="Germany",[DE]Nat_Geo_WILD
 http://mhav1.com:2095/live/ht2990/742579548/3546.ts
 
@@ -9911,6 +9887,9 @@ http://mhav1.com:2095/live/ht2990/742579548/123088.ts
 
 ##### [ON  Sport اون اسبورت] #####
 
+#EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON  Sport اون اسبورت",Modern mti
+http://mhav1.com:2095/live/ht2990/742579548/274110.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 HD 720" tvg-logo="" group-title="ON  Sport اون اسبورت",ON  Sport 1 HD 720
 http://mhav1.com:2095/live/ht2990/742579548/3498.ts
 
@@ -10129,12 +10108,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2558.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat Geo_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19393.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat_Geo_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat_Geo_HD
-http://mhav1.com:2095/live/ht2990/742579548/675.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_News_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_News_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19390.ts
@@ -12539,6 +12512,9 @@ http://mhav1.com:2095/live/ht2990/742579548/12158.ts
 #EXTINF:-1 tvg-id="" tvg-name="Almajd Taghareed [MAJ]" tvg-logo="" group-title="Saudi  - السعوديه",Almajd Taghareed [MAJ]
 http://mhav1.com:2095/live/ht2990/742579548/12155.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Asharq Documentary [SA]" tvg-logo="" group-title="Saudi  - السعوديه",Asharq Documentary [SA]
+http://mhav1.com:2095/live/ht2990/742579548/4587.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Bedaya [SA]" tvg-logo="" group-title="Saudi  - السعوديه",Bedaya [SA]
 http://mhav1.com:2095/live/ht2990/742579548/4627.ts
 
@@ -12764,11 +12740,11 @@ http://mhav1.com:2095/live/ht2990/742579548/79420.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Movies-Thriller" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Movies-Thriller
 http://mhav1.com:2095/live/ht2990/742579548/79419.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Shahid_Tarab" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Tarab
+http://mhav1.com:2095/live/ht2990/742579548/79421.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Tash" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Tash
 http://mhav1.com:2095/live/ht2990/742579548/79427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shahid_TopChef" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_TopChef
-http://mhav1.com:2095/live/ht2990/742579548/79421.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_aflam" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_aflam
 http://mhav1.com:2095/live/ht2990/742579548/79417.ts
@@ -14953,9 +14929,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3634.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Dubai TV [AE]" tvg-logo="" group-title="UAE - الامارات",Dubai TV [AE]
 http://mhav1.com:2095/live/ht2990/742579548/3689.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai Zaman [AE]" tvg-logo="" group-title="UAE - الامارات",Dubai Zaman [AE]
-http://mhav1.com:2095/live/ht2990/742579548/3635.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Emarat [AE]" tvg-logo="" group-title="UAE - الامارات",Emarat [AE]
 http://mhav1.com:2095/live/ht2990/742579548/3691.ts

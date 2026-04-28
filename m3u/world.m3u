@@ -2550,6 +2550,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4461.ts
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Heimatkanal" tvg-logo="" group-title="Germany",[DE]Heimatkanal
+http://mhav1.com:2095/live/ht2990/742579548/3384.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Nat_Geo_WILD" tvg-logo="" group-title="Germany",[DE]Nat_Geo_WILD
 http://mhav1.com:2095/live/ht2990/742579548/3546.ts
 
