@@ -25,6 +25,8 @@ if (!$url || filter_var($url, FILTER_VALIDATE_URL) === false) {
     die("Error: Invalid URL");
 }
 
+$noprx = isset($_GET['noprx']) ? 1 : 0;
+
 /**
  * Resolve relative URLs against a base URL
  */
@@ -132,14 +134,14 @@ if ($is_playlist) {
             // Rewrite URI in attributes (like EXT-X-KEY or sub-playlists)
             if (stripos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);
-                $proxyUri = $host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri));
+                $proxyUri = $noprx ? $absUri : ($host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)));
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
             $output[] = $line;
         } else {
             // Rewrite content URLs
             $absUrl = resolve_url($final_url, $line);
-            $output[] = $host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl));
+            $output[] = $noprx ? $absUrl : ($host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)));
         }
     }
     

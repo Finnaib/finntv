@@ -16,9 +16,6 @@ $is_psp = (stripos($ua, 'PlayStation Portable') !== false || stripos($ua, 'PSP')
 $is_3ds = (stripos($ua, 'Nintendo 3DS') !== false);
 $is_dsi = (stripos($ua, 'Nintendo DSi') !== false);
 
-// We will NOT use the Vercel proxy by default because it often gets blocked by IPTV providers (Timeout).
-// We rely on the native device fetching the stream directly using the user's home IP.
-
 // Convert raw Xtream Codes .ts streams to .m3u8 to force the IPTV server to provide an HLS playlist,
 // which is natively supported by the PS Vita.
 $lower_url = strtolower($url);
@@ -27,10 +24,12 @@ if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !==
 }
 
 // Vita requires the URL to end in an extension it recognizes, otherwise the native player won't attach.
-$vita_url = $url;
+// We MUST route the M3U8 through our proxy to strip out 1080p resolutions (which cause C0-14371-6 / C0-14350-3 crashes).
+// However, we pass &noprx=1 so the proxy does NOT proxy the actual video chunks, preventing Vercel timeouts!
+$host_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+$vita_url = $host_url . '/api/stream_proxy.php?noprx=1&url=' . urlencode(base64_encode($url));
 
-// Force HTTP for Vita. The Vita's native player has very strict certificate requirements and often 
-// throws error C0-14371-6 if the stream's HTTPS certificate is imperfect or not fully trusted.
+// Force HTTP for Vita. The Vita's native player has very strict certificate requirements.
 $vita_url = str_replace('https://', 'http://', $vita_url);
 
 if ($is_vita && stripos($vita_url, '.m3u8') === false && stripos($vita_url, '.mp4') === false) {
