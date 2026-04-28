@@ -19,6 +19,13 @@ $is_dsi = (stripos($ua, 'Nintendo DSi') !== false);
 // We will NOT use the Vercel proxy by default because it often gets blocked by IPTV providers (Timeout).
 // We rely on the native device fetching the stream directly using the user's home IP.
 
+// Convert raw Xtream Codes .ts streams to .m3u8 to force the IPTV server to provide an HLS playlist,
+// which is natively supported by the PS Vita.
+$lower_url = strtolower($url);
+if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !== false || strpos($lower_url, '/series/') !== false) && strpos($lower_url, '.ts') !== false) {
+    $url = substr($url, 0, strrpos($url, '.ts')) . '.m3u8';
+}
+
 // Vita requires the URL to end in an extension it recognizes, otherwise the native player won't attach.
 $vita_url = $url;
 if ($is_vita && stripos($vita_url, '.m3u8') === false && stripos($vita_url, '.mp4') === false) {
