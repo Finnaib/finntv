@@ -28,8 +28,10 @@ if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !==
     $proxy_url = $host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($url));
 }
 
-// Ensure Vita appends ?ext=.m3u8 for native player pickup
-$vita_url = $proxy_url;
+// Ensure Vita appends ?ext=.m3u8 for native player pickup. 
+// We bypass the proxy for Vita because its native player doesn't have CORS issues,
+// and the Vercel proxy might be blocked by the IPTV provider.
+$vita_url = $url;
 if ($is_vita && strpos(strtolower($vita_url), '.m3u8') === false && strpos(strtolower($vita_url), '.mp4') === false) {
     $vita_url .= (strpos($vita_url, '?') === false ? '?' : '&') . 'ext=.m3u8';
 }
