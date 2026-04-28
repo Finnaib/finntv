@@ -51,7 +51,7 @@ if ($is_vita) {
     echo 'Your PS Vita\'s browser cannot natively play 1080p IPTV streams without crashing. ';
     echo 'To watch this channel perfectly, please use the <b>NetStream</b> homebrew application.</div>';
     
-    echo '<a class="btn" href="' . htmlspecialchars($download_url) . '">Download for NetStream (.m3u)</a>';
+    echo '<a class="btn" href="' . htmlspecialchars($download_url) . '">Download for NetStream (.m3u8)</a>';
 
 } elseif ($is_3ds) {
     // 3DS requires the HTML5 video tag present in the DOM for its browser to hook the native player overlay.
