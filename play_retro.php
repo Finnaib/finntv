@@ -28,6 +28,11 @@ if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !==
 
 // Vita requires the URL to end in an extension it recognizes, otherwise the native player won't attach.
 $vita_url = $url;
+
+// Force HTTP for Vita. The Vita's native player has very strict certificate requirements and often 
+// throws error C0-14371-6 if the stream's HTTPS certificate is imperfect or not fully trusted.
+$vita_url = str_replace('https://', 'http://', $vita_url);
+
 if ($is_vita && stripos($vita_url, '.m3u8') === false && stripos($vita_url, '.mp4') === false) {
     $vita_url .= (strpos($vita_url, '?') === false ? '?' : '&') . 'ext=.m3u8';
 }
