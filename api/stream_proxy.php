@@ -51,7 +51,7 @@ function resolve_url($base, $rel) {
     $abs = $hostname . $dir . '/' . $rel;
     
     // Cleanup path
-    $re = array('#(/\.?/)#', '#/(?!\.\.)[^/]+/\.\./#');
+    $re = array('#(?<!:)(/\.?/)#', '#/(?!\.\.)[^/]+/\.\./#');
     for($n=1; $n>0; $abs=preg_replace($re, '/', $abs, -1, $n)) {}
     return $abs;
 }
