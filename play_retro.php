@@ -29,9 +29,6 @@ if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !==
 $host_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 $vita_url = $host_url . '/api/stream_proxy.php?noprx=1&url=' . urlencode(base64_encode($url));
 
-// Force HTTP for Vita. The Vita's native player has very strict certificate requirements.
-$vita_url = str_replace('https://', 'http://', $vita_url);
-
 if ($is_vita && stripos($vita_url, '.m3u8') === false && stripos($vita_url, '.mp4') === false) {
     $vita_url .= (strpos($vita_url, '?') === false ? '?' : '&') . 'ext=.m3u8';
 }

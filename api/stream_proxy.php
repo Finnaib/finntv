@@ -134,6 +134,9 @@ if ($is_playlist) {
             // Rewrite URI in attributes (like EXT-X-KEY or sub-playlists)
             if (stripos($line, 'URI=') !== false && preg_match('/URI="([^"]+)"/', $line, $matches)) {
                 $absUri = resolve_url($final_url, $matches[1]);
+                if ($noprx) {
+                    $absUri = str_replace('https://', 'http://', $absUri);
+                }
                 $proxyUri = $noprx ? $absUri : ($host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)));
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
@@ -141,6 +144,9 @@ if ($is_playlist) {
         } else {
             // Rewrite content URLs
             $absUrl = resolve_url($final_url, $line);
+            if ($noprx) {
+                $absUrl = str_replace('https://', 'http://', $absUrl);
+            }
             $output[] = $noprx ? $absUrl : ($host_url . '/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)));
         }
     }
