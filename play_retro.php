@@ -16,24 +16,14 @@ $is_psp = (stripos($ua, 'PlayStation Portable') !== false || stripos($ua, 'PSP')
 $is_3ds = (stripos($ua, 'Nintendo 3DS') !== false);
 $is_dsi = (stripos($ua, 'Nintendo DSi') !== false);
 
-// Convert raw Xtream Codes .ts streams to .m3u8 to force the IPTV server to provide an HLS playlist,
-// which is natively supported by the PS Vita.
+// Convert raw Xtream Codes .ts streams to .m3u8
 $lower_url = strtolower($url);
 if ((strpos($lower_url, '/live/') !== false || strpos($lower_url, '/movie/') !== false || strpos($lower_url, '/series/') !== false) && strpos($lower_url, '.ts') !== false) {
     $url = substr($url, 0, strrpos($url, '.ts')) . '.m3u8';
 }
 
-// Vita requires the URL to end in an extension it recognizes, otherwise the native player won't attach.
-// We MUST route the M3U8 through our proxy to strip out 1080p resolutions (which cause C0-14371-6 / C0-14350-3 crashes).
-// However, we pass &noprx=1 so the proxy does NOT proxy the actual video chunks, preventing Vercel timeouts!
-$host_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-$vita_url = $host_url . '/api/stream_proxy.php?noprx=1&url=' . urlencode(base64_encode($url));
-
-if ($is_vita && stripos($vita_url, '.m3u8') === false && stripos($vita_url, '.mp4') === false) {
-    $vita_url .= (strpos($vita_url, '?') === false ? '?' : '&') . 'ext=.m3u8';
-}
-
 $dsi_url = str_replace('https://', 'http://', $url);
+$host_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 
 echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">';
 echo '<html><head>';
@@ -52,19 +42,28 @@ echo '</head><body>';
 
 echo '<div class="header">Loading: ' . htmlspecialchars($name) . '</div>';
 
-if ($is_vita || $is_3ds) {
-    // Both Vita and 3DS require the HTML5 video tag present in the DOM for their browsers to hook the native player overlay.
-    $src = $is_vita ? $vita_url : $url;
+if ($is_vita) {
+    // PS Vita cannot decode modern 1080p streams. We provide a NetStream downloader.
+    $download_url = $host_url . '/api/download_m3u.php?name=' . urlencode($name) . '&url=' . urlencode(base64_encode($url));
     
+    echo '<div style="margin-bottom: 20px; font-size: 14px; color: #ff5555; font-weight: bold;">Hardware Limitation Detected</div>';
+    echo '<div style="margin-bottom: 20px; font-size: 13px; color: #aaaaaa; text-align: left; max-width: 400px; margin: 0 auto 20px auto;">';
+    echo 'Your PS Vita\'s browser cannot natively play 1080p IPTV streams without crashing. ';
+    echo 'To watch this channel perfectly, please use the <b>NetStream</b> homebrew application.</div>';
+    
+    echo '<a class="btn" href="' . htmlspecialchars($download_url) . '">Download for NetStream (.m3u)</a>';
+
+} elseif ($is_3ds) {
+    // 3DS requires the HTML5 video tag present in the DOM for its browser to hook the native player overlay.
     echo '<div id="player-container">';
     echo '<video id="retro-video" width="100%" controls preload="auto" playsinline webkit-playsinline x-webkit-airplay="allow"></video>';
     echo '</div>';
-    echo '<a class="btn" href="' . htmlspecialchars($src) . '">Force Native Player</a>';
+    echo '<a class="btn" href="' . htmlspecialchars($url) . '">Force Native Player</a>';
 
     echo '<script type="text/javascript">';
     echo '  var video = document.getElementById("retro-video");';
     echo '  video.pause();';
-    echo '  video.src = "' . htmlspecialchars($src) . '";';
+    echo '  video.src = "' . htmlspecialchars($url) . '";';
     echo '  video.load();';
     echo '  setTimeout(function() {';
     echo '      try {';
