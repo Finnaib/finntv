@@ -55,20 +55,15 @@ echo '</head><body>';
 
 echo '<div class="header">Now Playing: ' . htmlspecialchars($name) . '</div>';
 
-if ($is_vita) {
-    // PS Vita supports HTML5 video natively with HLS
-    echo '<video src="' . htmlspecialchars($vita_url) . '" controls autoplay></video>';
-    echo '<br><a class="btn" href="' . htmlspecialchars($vita_url) . '">Launch Native Video App</a>';
-} elseif ($is_3ds) {
-    // 3DS supports basic HTML5 MP4, doesn't support HLS, but we try anyway
-    echo '<video src="' . htmlspecialchars($url) . '" controls autoplay></video>';
-    echo '<br><br><a class="btn" href="' . htmlspecialchars($url) . '">Direct Stream Link</a>';
-} else {
-    // PSP, DSi, and others - Web browser has no video support, rely entirely on direct linking
-    $fallback_url = $is_dsi ? $dsi_url : $url;
-    echo '<div style="margin-bottom: 20px; font-size: 12px; color: #aaaaaa;">Click the button below to launch the media player. Your console must support the stream format.</div>';
-    echo '<a class="btn" href="' . htmlspecialchars($fallback_url) . '">LAUNCH STREAM</a>';
-}
+    $fallback_url = $url;
+    if ($is_vita) $fallback_url = $vita_url;
+    if ($is_dsi) $fallback_url = $dsi_url;
+    
+    echo '<div style="margin-bottom: 20px; font-size: 14px; color: #aaaaaa;">Launching stream in Native Media Player...<br><br>If it does not open automatically, click the button below.</div>';
+    echo '<a class="btn" href="' . htmlspecialchars($fallback_url) . '">LAUNCH NATIVE PLAYER</a>';
+    
+    // Auto-launch if possible
+    echo '<script>setTimeout(function(){ window.location.href = "' . htmlspecialchars($fallback_url) . '"; }, 1000);</script>';
 
 echo '<a class="back-link" href="javascript:history.back()">[ Go Back ]</a>';
 echo '</body></html>';
