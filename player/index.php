@@ -30,11 +30,11 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         .v-name { display:block; font-weight: 600; font-size: 14px; }
         .v-grp { font-size:10px; opacity:0.6; font-weight: bold; margin-top: 4px; display: block; }
         
-        /* Vita Tweaks */
-        .is-vita .video-pane { display: none; }
-        .is-vita .list-pane { width: 100%; border-left: none; }
-        .is-vita .card { padding: 20px; }
-        .is-vita .v-name { font-size: 18px; }
+        /* Legacy Console Tweaks (Vita, PSP, Nintendo) */
+        .is-vita .video-pane, .is-retro .video-pane { display: none; }
+        .is-vita .list-pane, .is-retro .list-pane { width: 100%; border-left: none; }
+        .is-vita .card, .is-retro .card { padding: 20px; }
+        .is-vita .v-name, .is-retro .v-name { font-size: 18px; }
     </style>
 </head>
 <body id="app-body">
@@ -64,8 +64,13 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             search = document.getElementById("search"),
             channels = [], filtered = [];
 
-        var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
-        if (isVita) document.getElementById("app-body").className += " is-vita";
+        var ua = navigator.userAgent;
+        var isVita = ua.indexOf('PlayStation Vita') !== -1;
+        var isRetro = ua.indexOf('Nintendo') !== -1 || ua.indexOf('PlayStation Portable') !== -1;
+        
+        var body = document.getElementById("app-body");
+        if (isVita) body.className += " is-vita";
+        if (isRetro) body.className += " is-retro";
 
         function safeBtoa(str) {
             try { return btoa(str); } catch (e) {
@@ -114,10 +119,10 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         for(var j=0; j<active.length; j++) active[j].className = "card";
                         el.className = "card active";
                         
-                        var needsProxy = isVita || c.u.indexOf('http:') !== -1;
+                        var needsProxy = isVita || isRetro || c.u.indexOf('http:') !== -1;
                         var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
                         
-                        if (isVita) {
+                        if (isVita || isRetro) {
                             window.location.href = finalUrl;
                             return;
                         }
