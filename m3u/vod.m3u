@@ -1034,9 +1034,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/182869.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Little Big Man" tvg-logo="http://images.vega-xt-mh.com:80/images/pLvUVqadEI9cPrRlTru6ee71EWU_big.jpg" group-title="Amazon",Little Big Man
 http://mhav1.com:2095/movie/ht2990/742579548/237899.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Little Man Tate" tvg-logo="http://images.vega-xt-mh.com:80/images/eXf4xhJEc9c2NElBrExmiWFe4Pz_big.jpg" group-title="Amazon",Little Man Tate
-http://mhav1.com:2095/movie/ht2990/742579548/266052.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="Love, Rosie" tvg-logo="http://images.vega-xt-mh.com:80/images/8Mf9GgyNv5jjLAAPGsom9skH2Du_big.jpg" group-title="Amazon",Love, Rosie
 http://mhav1.com:2095/movie/ht2990/742579548/239561.mkv
 
@@ -1762,6 +1759,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/9218.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Dragon Ball Super: Super Hero" tvg-logo="http://images.vega-xt-mh.com:80/images/rugyJdeoJm7cSJL1q4jBpTNbxyU_big.jpg" group-title="Animation",Dragon Ball Super: Super Hero
 http://mhav1.com:2095/movie/ht2990/742579548/70950.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Dragon Heart: Adventures Beyond This World" tvg-logo="http://images.vega-xt-mh.com:80/images/hCHDKw9DjSWEosRf7SX1yWTNH8Z_big.jpg" group-title="Animation",Dragon Heart: Adventures Beyond This World
+http://mhav1.com:2095/movie/ht2990/742579548/278645.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Dragon Quest: Your Story - 2019" tvg-logo="http://images.vega-xt-mh.com:80/images/5R70ehKGh5V0ZYOdikxwSfoLGMt_big.jpg" group-title="Animation",Dragon Quest: Your Story - 2019
 http://mhav1.com:2095/movie/ht2990/742579548/14961.mkv
@@ -4120,6 +4120,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/11443.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Super Monsters and the Wish Star - 2018" tvg-logo="http://images.vega-xt-mh.com:80/images/yXGlF7BKrbwgaGXyed2wJgRK9c_big.jpg" group-title="Arabic Kids",Super Monsters and the Wish Star - 2018
 http://mhav1.com:2095/movie/ht2990/742579548/11967.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Swapped مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/tHhxWxge06goXU6ZQH1hj7vK8Hd_big.jpg" group-title="Arabic Kids",Swapped مدبلج
+http://mhav1.com:2095/movie/ht2990/742579548/278680.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Tad, the Lost Explorer" tvg-logo="http://images.vega-xt-mh.com:80/images/vmysxjUJkYmp6CmjNOKOeHMOzFA_big.jpg" group-title="Arabic Kids",Tad, the Lost Explorer
 http://mhav1.com:2095/movie/ht2990/742579548/175049.mkv
@@ -7532,6 +7535,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/176360.mkv
 #EXTINF:-1 tvg-id="" tvg-name="No Mercy" tvg-logo="http://images.vega-xt-mh.com:80/images/e3GLsfBLy7fdM3dJKAkzQlTIqII_big.jpg" group-title="Asia  Movies",No Mercy
 http://mhav1.com:2095/movie/ht2990/742579548/19127.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="No Other Choice" tvg-logo="http://images.vega-xt-mh.com:80/images/sBpxTGLzKnvPSVtL5yQYpSxvKEb_big.jpg" group-title="Asia  Movies",No Other Choice
+http://mhav1.com:2095/movie/ht2990/742579548/277905.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="No Other Choice" tvg-logo="http://images.vega-xt-mh.com:80/images/vc2S0dvgpsM0XfSiXZDMVkRCSSU_big.jpg" group-title="Asia  Movies",No Other Choice
 http://mhav1.com:2095/movie/ht2990/742579548/259567.mkv
 
@@ -7622,8 +7628,11 @@ http://mhav1.com:2095/movie/ht2990/742579548/130037.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pamali: The Little Devil" tvg-logo="http://images.vega-xt-mh.com:80/images/gFngyELRl5T8k4I37cE1rqiUMgr_big.jpg" group-title="Asia  Movies",Pamali: The Little Devil
 http://mhav1.com:2095/movie/ht2990/742579548/259209.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Panda Plan" tvg-logo="http://images.vega-xt-mh.com:80/images/juiMX25vVnEIjyPT8C7O9XWbEEl_big.jpg" group-title="Asia  Movies",Panda Plan
-http://mhav1.com:2095/movie/ht2990/742579548/198110.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Panda Plan" tvg-logo="http://images.vega-xt-mh.com:80/images/8iMPQl13q89jQhaA5nXb6UiT0t0_big.jpg" group-title="Asia  Movies",Panda Plan
+http://mhav1.com:2095/movie/ht2990/742579548/277959.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Panda Plan: The Magical Tribe" tvg-logo="http://images.vega-xt-mh.com:80/images/asrLPsZMg75SxN1BooggGmpBwRO_big.jpg" group-title="Asia  Movies",Panda Plan: The Magical Tribe
+http://mhav1.com:2095/movie/ht2990/742579548/277960.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Pandora" tvg-logo="http://images.vega-xt-mh.com:80/images/elTrkTm5GjynK3H26cpOZsWDYjy_big.jpg" group-title="Asia  Movies",Pandora
 http://mhav1.com:2095/movie/ht2990/742579548/232656.mkv
@@ -8518,6 +8527,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/166880.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Woman Who Ran (2020)" tvg-logo="http://images.vega-xt-mh.com:80/images/uAxE3xIGDAlqQXGtOgLKaBADVHh_big.jpg" group-title="Asia  Movies",The Woman Who Ran (2020)
 http://mhav1.com:2095/movie/ht2990/742579548/25292.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The World of Love" tvg-logo="http://images.vega-xt-mh.com:80/images/cg679vCkXY9RH2iINLvdG68tzsQ_big.jpg" group-title="Asia  Movies",The World of Love
+http://mhav1.com:2095/movie/ht2990/742579548/278632.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Zombies 2024" tvg-logo="https://wecima.movie/watch/%d9%85%d8%b4%d8%a7%d9%87%d8%af%d8%a9-%d9%81%d9%8a%d9%84%d9%85-the-zombies-2024-%d9%85%d8%aa%d8%b1%d8%ac%d9%85-12/" group-title="Asia  Movies",The Zombies 2024
 http://mhav1.com:2095/movie/ht2990/742579548/196899.mkv
@@ -10139,6 +10151,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/148508.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Kidnap" tvg-logo="http://images.vega-xt-mh.com:80/images/fwdOX3PEZlOLXr9SMpgRnSmTVFp_big.jpg" group-title="English Action",Kidnap
 http://mhav1.com:2095/movie/ht2990/742579548/225463.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Kill Code" tvg-logo="http://images.vega-xt-mh.com:80/images/7dATQI6llREDFr8TJA2vptuTcx3_big.jpg" group-title="English Action",Kill Code
+http://mhav1.com:2095/movie/ht2990/742579548/278683.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Kill Craft" tvg-logo="http://images.vega-xt-mh.com:80/images/gT9ucV7bpkIYfU5ugxFOuhInp8p_big.jpg" group-title="English Action",Kill Craft
 http://mhav1.com:2095/movie/ht2990/742579548/156773.mkv
 
@@ -11042,6 +11057,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/170722.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Ingenious" tvg-logo="http://images.vega-xt-mh.com:80/images/ywEkkEVD2a1HXl0tditpit46RDH_big.jpg" group-title="English Comedy",Ingenious
 http://mhav1.com:2095/movie/ht2990/742579548/94645.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Je m'appelle Agneta" tvg-logo="http://images.vega-xt-mh.com:80/images/itQJWqOMwboEOaMD5aNBRmUcZE9_big.jpg" group-title="English Comedy",Je m'appelle Agneta
+http://mhav1.com:2095/movie/ht2990/742579548/277963.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="King's Ransom" tvg-logo="http://images.vega-xt-mh.com:80/images/lH8Nugl7DnMaMHfOChEFNXXQ3zX_big.jpg" group-title="English Comedy",King's Ransom
 http://mhav1.com:2095/movie/ht2990/742579548/84353.mkv
 
@@ -11681,6 +11699,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/49141.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Help" tvg-logo="http://images.vega-xt-mh.com:80/images/33Z4AmHQYUpMWiM0T1jYq3xPdKI_big.jpg" group-title="English Drama",Help
 http://mhav1.com:2095/movie/ht2990/742579548/46799.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Heresy" tvg-logo="http://images.vega-xt-mh.com:80/images/uzceD8FvRaXMbP2MZ0p10UuNGV_big.jpg" group-title="English Drama",Heresy
+http://mhav1.com:2095/movie/ht2990/742579548/277904.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Hunter" tvg-logo="https://m.media-amazon.com/images/M/MV5BZWEwZTcyNjctMjAzZC00ZGU0LWIxYWQtMDAwMmU1NzQ1ZjQ3XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg" group-title="English Drama",Hunter
 http://mhav1.com:2095/movie/ht2990/742579548/46607.mkv
 
@@ -11780,6 +11801,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/130270.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Luzzu" tvg-logo="http://images.vega-xt-mh.com:80/images/jO1DTZTfmCldXzKxuFZwln60lGg_big.jpg" group-title="English Drama",Luzzu
 http://mhav1.com:2095/movie/ht2990/742579548/49176.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Marie's Story" tvg-logo="http://images.vega-xt-mh.com:80/images/xEOVzmg8KFfypgFNqahvHDK7DPU_big.jpg" group-title="English Drama",Marie's Story
+http://mhav1.com:2095/movie/ht2990/742579548/277969.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Marriage Story" tvg-logo="http://images.vega-xt-mh.com:80/images/2JRyCKaRKyJAVpsIHeLvPw5nHmw_big.jpg" group-title="English Drama",Marriage Story
 http://mhav1.com:2095/movie/ht2990/742579548/179333.mkv
 
@@ -11873,6 +11897,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/47095.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Prime Time" tvg-logo="http://images.vega-xt-mh.com:80/images/mEegKDrhRZVnn0Y87TdKqGwjowo_big.jpg" group-title="English Drama",Prime Time
 http://mhav1.com:2095/movie/ht2990/742579548/178417.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Prince of Broadway" tvg-logo="http://images.vega-xt-mh.com:80/images/6rcVFsEwOyXsG0e7L9ql6KEPGJX_big.jpg" group-title="English Drama",Prince of Broadway
+http://mhav1.com:2095/movie/ht2990/742579548/278117.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Prisoners" tvg-logo="http://images.vega-xt-mh.com:80/images/tuZhZ6biFMr5n9YSVuHOJnNL1uU_big.jpg" group-title="English Drama",Prisoners
 http://mhav1.com:2095/movie/ht2990/742579548/39794.mkv
 
@@ -11938,6 +11965,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/246673.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Son of Saul" tvg-logo="http://images.vega-xt-mh.com:80/images/9ZcX6NjCJam5uwkooXffhHI29Lj_big.jpg" group-title="English Drama",Son of Saul
 http://mhav1.com:2095/movie/ht2990/742579548/178122.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Son-In-Law" tvg-logo="http://images.vega-xt-mh.com:80/images/gVkNgA7K5dnv26X6PFK8TkY2kFD_big.jpg" group-title="English Drama",Son-In-Law
+http://mhav1.com:2095/movie/ht2990/742579548/278682.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Sound of Metal" tvg-logo="http://images.vega-xt-mh.com:80/images/3178oOJKKPDeQ2legWQvMPpllv_big.jpg" group-title="English Drama",Sound of Metal
 http://mhav1.com:2095/movie/ht2990/742579548/178078.mkv
@@ -12682,6 +12712,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/16017.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Life with Mikey" tvg-logo="http://images.vega-xt-mh.com:80/images/dKsvF5t5xsm17HG3GJzQQGJpJzP_big.jpg" group-title="English Family",Life with Mikey
 http://mhav1.com:2095/movie/ht2990/742579548/69901.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Little Man Tate" tvg-logo="http://images.vega-xt-mh.com:80/images/eXf4xhJEc9c2NElBrExmiWFe4Pz_big.jpg" group-title="English Family",Little Man Tate
+http://mhav1.com:2095/movie/ht2990/742579548/278635.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Look Who's Talking Now!" tvg-logo="http://images.vega-xt-mh.com:80/images/73JahFiizkMVsrrslXInmNK54nC_big.jpg" group-title="English Family",Look Who's Talking Now!
 http://mhav1.com:2095/movie/ht2990/742579548/88105.mkv
@@ -13496,6 +13529,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/249630.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Expend4bles HD" tvg-logo="http://images.vega-xt-mh.com:80/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT_big.jpg" group-title="English HD 1080",Expend4bles HD
 http://mhav1.com:2095/movie/ht2990/742579548/196556.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Exterritorial HD" tvg-logo="http://images.vega-xt-mh.com:80/images/micQGmD3K7Ni0wzyaSgBKGxrFWn_big.jpg" group-title="English HD 1080",Exterritorial HD
+http://mhav1.com:2095/movie/ht2990/742579548/278640.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Extinction HD" tvg-logo="http://images.vega-xt-mh.com:80/images/zwIDreu9pYCqKpv4jomqVM9yX1e_big.jpg" group-title="English HD 1080",Extinction HD
 http://mhav1.com:2095/movie/ht2990/742579548/198773.mkv
 
@@ -13703,6 +13739,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/209628.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Highest 2 Lowest HD" tvg-logo="http://images.vega-xt-mh.com:80/images/kOzwIr0R7WhaFgoYUZFLPZA2RBZ_big.jpg" group-title="English HD 1080",Highest 2 Lowest HD
 http://mhav1.com:2095/movie/ht2990/742579548/243852.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Hold the Dark HD" tvg-logo="http://images.vega-xt-mh.com:80/images/1etEySwZQnBJpzgplgadPi5y4PL_big.jpg" group-title="English HD 1080",Hold the Dark HD
+http://mhav1.com:2095/movie/ht2990/742579548/278638.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Home Sweet Home Rebirth HD" tvg-logo="http://images.vega-xt-mh.com:80/images/9rCBCm9cyI4JfLEhx3EncyncMR3_big.jpg" group-title="English HD 1080",Home Sweet Home Rebirth HD
 http://mhav1.com:2095/movie/ht2990/742579548/225048.mkv
 
@@ -13874,6 +13913,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/277884.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Line of Duty HD" tvg-logo="http://images.vega-xt-mh.com:80/images/wMszdTo0UuGcAEEDHsQL9dmwLIG_big.jpg" group-title="English HD 1080",Line of Duty HD
 http://mhav1.com:2095/movie/ht2990/742579548/205785.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Little Man Tate HD" tvg-logo="http://images.vega-xt-mh.com:80/images/eXf4xhJEc9c2NElBrExmiWFe4Pz_big.jpg" group-title="English HD 1080",Little Man Tate HD
+http://mhav1.com:2095/movie/ht2990/742579548/278636.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Little Women HD" tvg-logo="http://images.vega-xt-mh.com:80/images/yn5ihODtZ7ofn8pDYfxCmxh8AXI_big.jpg" group-title="English HD 1080",Little Women HD
 http://mhav1.com:2095/movie/ht2990/742579548/213393.mkv
 
@@ -14003,8 +14045,14 @@ http://mhav1.com:2095/movie/ht2990/742579548/205784.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Never Let Go HD" tvg-logo="http://images.vega-xt-mh.com:80/images/3EpZ2ksjijmdr8BhISP03PYzNFW_big.jpg" group-title="English HD 1080",Never Let Go HD
 http://mhav1.com:2095/movie/ht2990/742579548/193730.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="New York I Love You HD" tvg-logo="http://images.vega-xt-mh.com:80/images/nnuoA0R0kUCu88xZGiv2mK02Hoz_big.jpg" group-title="English HD 1080",New York I Love You HD
+http://mhav1.com:2095/movie/ht2990/742579548/278634.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Next HD" tvg-logo="http://images.vega-xt-mh.com:80/images/td5uOBW41ib1KGz3g1Kc33BdFyj_big.jpg" group-title="English HD 1080",Next HD
 http://mhav1.com:2095/movie/ht2990/742579548/225712.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="No Escape HD" tvg-logo="http://images.vega-xt-mh.com:80/images/jIXZEvL4dmgkjyhD5JUDeOaASKB_big.jpg" group-title="English HD 1080",No Escape HD
+http://mhav1.com:2095/movie/ht2990/742579548/278637.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="No Time to Die HD" tvg-logo="http://images.vega-xt-mh.com:80/images/iUgygt3fscRoKWCV1d0C7FbM9TP_big.jpg" group-title="English HD 1080",No Time to Die HD
 http://mhav1.com:2095/movie/ht2990/742579548/201125.mkv
@@ -14056,6 +14104,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/259210.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Panda Plan HD" tvg-logo="http://images.vega-xt-mh.com:80/images/95EiKK6SM5k26cLlP37eGcJHzDQ_big.jpg" group-title="English HD 1080",Panda Plan HD
 http://mhav1.com:2095/movie/ht2990/742579548/210327.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Panda Plan: The Magical Tribe HD" tvg-logo="http://images.vega-xt-mh.com:80/images/asrLPsZMg75SxN1BooggGmpBwRO_big.jpg" group-title="English HD 1080",Panda Plan: The Magical Tribe HD
+http://mhav1.com:2095/movie/ht2990/742579548/277961.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Paradise City HD" tvg-logo="http://images.vega-xt-mh.com:80/images/xdmmd437QdjcCls8yCQxrH5YYM4_big.jpg" group-title="English HD 1080",Paradise City HD
 http://mhav1.com:2095/movie/ht2990/742579548/209011.mkv
@@ -14812,6 +14863,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/255548.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Triangle 2009 HD" tvg-logo="http://images.vega-xt-mh.com:80/images/cRlMrbc4Iof7vN0ZqHwJnMBYBLi_big.jpg" group-title="English HD 1080",Triangle 2009 HD
 http://mhav1.com:2095/movie/ht2990/742579548/198077.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Trigger Warning HD" tvg-logo="http://images.vega-xt-mh.com:80/images/6XJM3C47iGOK9nFU6yLFCSf4U5c_big.jpg" group-title="English HD 1080",Trigger Warning HD
+http://mhav1.com:2095/movie/ht2990/742579548/278639.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Triple Frontier HD" tvg-logo="http://images.vega-xt-mh.com:80/images/aBw8zYuAljVM1FeK5bZKITPH8ZD_big.jpg" group-title="English HD 1080",Triple Frontier HD
 http://mhav1.com:2095/movie/ht2990/742579548/203834.mkv
@@ -19169,6 +19223,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/18102.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Suzume" tvg-logo="http://images.vega-xt-mh.com:80/images/vIeu8WysZrTSFb2uhPViKjX9EcC_big.jpg" group-title="English Kids",Suzume
 http://mhav1.com:2095/movie/ht2990/742579548/107050.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Swapped" tvg-logo="http://images.vega-xt-mh.com:80/images/tHhxWxge06goXU6ZQH1hj7vK8Hd_big.jpg" group-title="English Kids",Swapped
+http://mhav1.com:2095/movie/ht2990/742579548/278681.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="TMNT 2007" tvg-logo="http://images.vega-xt-mh.com:80/images/6ZCWn7BGpDLBDigtdiuGyBdEqab_big.jpg" group-title="English Kids",TMNT 2007
 http://mhav1.com:2095/movie/ht2990/742579548/9105.mkv
 
@@ -20273,6 +20330,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/169904.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Eternal Sunshine of the Spotless Mind" tvg-logo="http://images.vega-xt-mh.com:80/images/5MwkWH9tYHv3mV9OdYTMR5qreIz_big.jpg" group-title="English Movies",Eternal Sunshine of the Spotless Mind
 http://mhav1.com:2095/movie/ht2990/742579548/175757.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Eternity and a Day" tvg-logo="http://images.vega-xt-mh.com:80/images/wH8sfLJCqNjsIw8zkXpvxdSzj60_big.jpg" group-title="English Movies",Eternity and a Day
+http://mhav1.com:2095/movie/ht2990/742579548/277967.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Ex Machina (2015)" tvg-logo="http://images.vega-xt-mh.com:80/images/weiMWhPoxMdGu89zE0UDbzQhCF_big.jpg" group-title="English Movies",Ex Machina (2015)
 http://mhav1.com:2095/movie/ht2990/742579548/21105.mkv
 
@@ -21097,6 +21157,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/137565.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Sydney White" tvg-logo="http://images.vega-xt-mh.com:80/images/ce3NNmhVZY5NkUe5Y8Je8CciKqf_big.jpg" group-title="English Movies",Sydney White
 http://mhav1.com:2095/movie/ht2990/742579548/211123.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Taste of Cherry" tvg-logo="http://images.vega-xt-mh.com:80/images/u6GYH4HyR0BVwpqFuTOc2g4KB1L_big.jpg" group-title="English Movies",Taste of Cherry
+http://mhav1.com:2095/movie/ht2990/742579548/277968.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Teen Spirit (2019)" tvg-logo="http://images.vega-xt-mh.com:80/images/aFPqJZ9vOcH7QroNxXV5wefX2qe_big.jpg" group-title="English Movies",Teen Spirit (2019)
 http://mhav1.com:2095/movie/ht2990/742579548/20986.mkv
@@ -31664,6 +31727,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/264209.mkv
 #EXTINF:-1 tvg-id="" tvg-name="New Jersey Devil" tvg-logo="http://images.vega-xt-mh.com:80/images/kFiJEG6JXJhN3o2AZh001ifhrZ1_big.jpg" group-title="English Movies 2026",New Jersey Devil
 http://mhav1.com:2095/movie/ht2990/742579548/265401.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="No Ordinary Heist" tvg-logo="http://images.vega-xt-mh.com:80/images/eA2uQxSMqyljAtt920084tDrw6G_big.jpg" group-title="English Movies 2026",No Ordinary Heist
+http://mhav1.com:2095/movie/ht2990/742579548/277962.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="One Last Adventure: The Making of Stranger Things 5" tvg-logo="http://images.vega-xt-mh.com:80/images/aZhrAx5CevLfjXcGIG3wBXxDiAL_big.jpg" group-title="English Movies 2026",One Last Adventure: The Making of Stranger Things 5
 http://mhav1.com:2095/movie/ht2990/742579548/260278.mkv
 
@@ -37072,6 +37138,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/178034.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="My Super Ex-Girlfriend" tvg-logo="http://images.vega-xt-mh.com:80/images/vs4jcY5NQA24zFGihY2EiqEA5hI_big.jpg" group-title="English Romance",My Super Ex-Girlfriend
 http://mhav1.com:2095/movie/ht2990/742579548/178048.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="New York I Love You" tvg-logo="http://images.vega-xt-mh.com:80/images/nnuoA0R0kUCu88xZGiv2mK02Hoz_big.jpg" group-title="English Romance",New York I Love You
+http://mhav1.com:2095/movie/ht2990/742579548/278633.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="No Strings Attached (2011)" tvg-logo="http://images.vega-xt-mh.com:80/images/9C09L1U9S13J4Ut029Qhu0oLcTQ_big.jpg" group-title="English Romance",No Strings Attached (2011)
 http://mhav1.com:2095/movie/ht2990/742579548/21125.mkv
@@ -51971,14 +52040,23 @@ http://mhav1.com:2095/movie/ht2990/742579548/238119.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Kraven the Hunter HC" tvg-logo="http://images.vega-xt-mh.com:80/images/i47IUSsN126K11JUzqQIOi1Mg1M_big.jpg" group-title="تصوير سينما",Kraven the Hunter HC
 http://mhav1.com:2095/movie/ht2990/742579548/208264.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Lee Cronin's The Mummy CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/8L8efNkz8rUmwR7sV0g3vnC9yjn_big.jpg" group-title="تصوير سينما",Lee Cronin's The Mummy CAM
+http://mhav1.com:2095/movie/ht2990/742579548/278644.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="MaXXXine" tvg-logo="http://images.vega-xt-mh.com:80/images/ArvoFK6nlouZRxYmtIOUzKIrg90_big.jpg" group-title="تصوير سينما",MaXXXine
 http://mhav1.com:2095/movie/ht2990/742579548/166293.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Maalik CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/etb6zsDB8SmIWBKXIUI2U73gfUH_big.jpg" group-title="تصوير سينما",Maalik CAM
 http://mhav1.com:2095/movie/ht2990/742579548/242058.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Michael CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/j57QWe3OoaXL9Idi9gLtsAybWLP_big.jpg" group-title="تصوير سينما",Michael CAM
+http://mhav1.com:2095/movie/ht2990/742579548/278105.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Monster Summer CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/ezTluGxSLLBPMWYWJHGGm96x7RY_big.jpg" group-title="تصوير سينما",Monster Summer CAM
 http://mhav1.com:2095/movie/ht2990/742579548/199419.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Mother Mary CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/qMgUI6pxkPtIuoXX4DcJ6X7bdt2_big.jpg" group-title="تصوير سينما",Mother Mary CAM
+http://mhav1.com:2095/movie/ht2990/742579548/278044.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Never Let Go CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/3EpZ2ksjijmdr8BhISP03PYzNFW_big.jpg" group-title="تصوير سينما",Never Let Go CAM
 http://mhav1.com:2095/movie/ht2990/742579548/191484.mkv
@@ -51991,9 +52069,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/247109.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Paddington in Peru CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/1ffZAucqfvQu36x1C49XfOdjuOG_big.jpg" group-title="تصوير سينما",Paddington in Peru CAM
 http://mhav1.com:2095/movie/ht2990/742579548/206124.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="Panda Plan CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/95EiKK6SM5k26cLlP37eGcJHzDQ_big.jpg" group-title="تصوير سينما",Panda Plan CAM
-http://mhav1.com:2095/movie/ht2990/742579548/206883.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Predator: Badlands (CAM)" tvg-logo="http://images.vega-xt-mh.com:80/images/ef2QSeBkrYhAdfsWGXmp0lvH0T1_big.jpg" group-title="تصوير سينما",Predator: Badlands (CAM)
 http://mhav1.com:2095/movie/ht2990/742579548/253465.mkv
@@ -52549,6 +52624,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/232410.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="باريس سان جيرمان و انتر ميامى" tvg-logo="https://i.ibb.co/1Yb9hKfG/WorldCup.jpg" group-title="رياضه",باريس سان جيرمان و انتر ميامى
 http://mhav1.com:2095/movie/ht2990/742579548/234377.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="باريس سان جيرمان و بايرن ميونيخ" tvg-logo="https://images2.imgbox.com/15/b8/GvdluqEG_o.jpg" group-title="رياضه",باريس سان جيرمان و بايرن ميونيخ
+http://mhav1.com:2095/movie/ht2990/742579548/278022.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="بايرن ميونخ و اوكلاند سيتى" tvg-logo="https://i.ibb.co/gFdR0TWX/bayern.jpg" group-title="رياضه",بايرن ميونخ و اوكلاند سيتى
 http://mhav1.com:2095/movie/ht2990/742579548/232409.mkv
