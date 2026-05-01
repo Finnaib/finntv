@@ -1953,35 +1953,14 @@ http://mhav1.com:2095/live/ht2990/742579548/48830.ts
 #EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON Sport",Modern mti
 http://mhav1.com:2095/live/ht2990/742579548/274110.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 HD 720" tvg-logo="" group-title="ON Sport",ON  Sport 1 HD 720
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport HD 720" tvg-logo="" group-title="ON Sport",ON  Sport HD 720
 http://mhav1.com:2095/live/ht2990/742579548/3498.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 SD" tvg-logo="" group-title="ON Sport",ON  Sport 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport SD" tvg-logo="" group-title="ON Sport",ON  Sport SD
 http://mhav1.com:2095/live/ht2990/742579548/12313.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 4K" tvg-logo="" group-title="ON Sport",ON Sport 1 4K
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport 4K" tvg-logo="" group-title="ON Sport",ON Sport 4K
 http://mhav1.com:2095/live/ht2990/742579548/2181.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 HD 1080" tvg-logo="" group-title="ON Sport",ON Sport 1 HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/677.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 LOW" tvg-logo="" group-title="ON Sport",ON Sport 1 LOW
-http://mhav1.com:2095/live/ht2990/742579548/248961.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 4K" tvg-logo="" group-title="ON Sport",ON Sport 2 4K
-http://mhav1.com:2095/live/ht2990/742579548/24235.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 HD 1080" tvg-logo="" group-title="ON Sport",ON Sport 2 HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/120292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 HD 720" tvg-logo="" group-title="ON Sport",ON Sport 2 HD 720
-http://mhav1.com:2095/live/ht2990/742579548/5456.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 LOW" tvg-logo="" group-title="ON Sport",ON Sport 2 LOW
-http://mhav1.com:2095/live/ht2990/742579548/248962.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 SD" tvg-logo="" group-title="ON Sport",ON Sport 2 SD
-http://mhav1.com:2095/live/ht2990/742579548/49535.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event1" tvg-logo="" group-title="ON Sport",ON Sport Event1
 http://mhav1.com:2095/live/ht2990/742579548/267867.ts
@@ -2007,17 +1986,44 @@ http://mhav1.com:2095/live/ht2990/742579548/267870.ts
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event4 SD" tvg-logo="" group-title="ON Sport",ON Sport Event4 SD
 http://mhav1.com:2095/live/ht2990/742579548/267874.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport HD 1080" tvg-logo="" group-title="ON Sport",ON Sport HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport LOW" tvg-logo="" group-title="ON Sport",ON Sport LOW
+http://mhav1.com:2095/live/ht2990/742579548/248961.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max 4K" tvg-logo="" group-title="ON Sport",ON Sport Max 4K
+http://mhav1.com:2095/live/ht2990/742579548/24235.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD" tvg-logo="" group-title="ON Sport",ON Sport Max HD
 http://mhav1.com:2095/live/ht2990/742579548/267086.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 1080" tvg-logo="" group-title="ON Sport",ON Sport Max HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/120292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 720" tvg-logo="" group-title="ON Sport",ON Sport Max HD 720
+http://mhav1.com:2095/live/ht2990/742579548/5456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sport",ON Sport Max LOW
+http://mhav1.com:2095/live/ht2990/742579548/248962.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sport",ON Sport Max LOW
 http://mhav1.com:2095/live/ht2990/742579548/267087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max SD" tvg-logo="" group-title="ON Sport",ON Sport Max SD
+http://mhav1.com:2095/live/ht2990/742579548/49535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus  HD 1080" tvg-logo="" group-title="ON Sport",ON Sport Plus  HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/278699.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus HD" tvg-logo="" group-title="ON Sport",ON Sport Plus HD
 http://mhav1.com:2095/live/ht2990/742579548/267083.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus LOW" tvg-logo="" group-title="ON Sport",ON Sport Plus LOW
 http://mhav1.com:2095/live/ht2990/742579548/267084.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON Sport",ON Sport Plus SD
+http://mhav1.com:2095/live/ht2990/742579548/278700.ts
 
 
 ################################################################################

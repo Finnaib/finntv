@@ -113,27 +113,6 @@
             box-shadow: 0 5px 15px rgba(26, 107, 179, 0.3);
         }
 
-        .nav-login-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(26, 107, 179, 0.5);
-        }
-
-        .mobile-menu-btn {
-            display: none;
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0.5rem 0.8rem;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .mobile-menu-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
         .hero {
             max-width: 1400px;
             margin: 0 auto;
@@ -149,7 +128,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: fadeInUp 1s ease-out;
         }
 
         .hero p {
@@ -157,9 +135,7 @@
             color: rgba(255, 255, 255, 0.8);
             margin-bottom: 3rem;
             max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            animation: fadeInUp 1s ease-out 0.2s backwards;
+            margin: 0 auto 3rem auto;
         }
 
         .hero-buttons {
@@ -167,7 +143,6 @@
             gap: 1.5rem;
             justify-content: center;
             flex-wrap: wrap;
-            animation: fadeInUp 1s ease-out 0.4s backwards;
         }
 
         .btn {
@@ -188,33 +163,11 @@
             box-shadow: 0 10px 30px rgba(26, 107, 179, 0.4);
         }
 
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(26, 107, 179, 0.6);
-        }
-
         .btn-secondary {
             background: rgba(255, 255, 255, 0.1);
             color: white;
             border: 2px solid rgba(255, 255, 255, 0.3);
             backdrop-filter: blur(10px);
-        }
-
-        .btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
 
         .features {
@@ -248,310 +201,6 @@
             transition: all 0.3s ease;
         }
 
-        .feature-card:hover {
-            transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .feature-icon {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: #64b5f6;
-        }
-
-        .feature-card p {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-
-
-
-        .contact {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
-        }
-
-        .contact h2 {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .contact-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 4rem;
-        }
-
-        .contact-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 30px;
-            padding: 4rem;
-        }
-
-        .contact-info {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .contact-info h3 {
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            color: #64b5f6;
-        }
-
-        .contact-email {
-            display: inline-flex;
-            align-items: center;
-            gap: 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem 2.5rem;
-            border-radius: 15px;
-            font-size: 1.3rem;
-            color: #fff;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .contact-email:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(26, 107, 179, 0.3);
-        }
-
-        .contact-details {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .contact-detail {
-            text-align: center;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-        }
-
-        .contact-detail-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .contact-detail h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: #64b5f6;
-        }
-
-        .contact-detail p {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .toast {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: linear-gradient(135deg, #1a6bb3 0%, #0f4c81 100%);
-            color: white;
-            padding: 1.5rem 2rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(26, 107, 179, 0.6);
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 1rem;
-            font-weight: 500;
-            opacity: 0;
-            transform: translateY(100px);
-            transition: all 0.4s ease;
-            z-index: 1000;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            max-width: 90%;
-        }
-
-        .toast.show {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .toast-icon {
-            font-size: 1.5rem;
-        }
-
-        footer {
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 3rem 2rem;
-            text-align: center;
-        }
-
-        .footer-content {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: #64b5f6;
-        }
-
-        .copyright {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 0.9rem;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgba(0, 0, 0, 0.95);
-                backdrop-filter: blur(10px);
-                flex-direction: column;
-                padding: 2rem;
-                border-top: 1px solid rgba(255, 255, 255, 0.1);
-                gap: 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links li {
-                width: 100%;
-                margin-bottom: 0.5rem;
-            }
-
-            .nav-links a {
-                display: block;
-                text-align: center;
-                padding: 1rem;
-            }
-
-            .logo {
-                font-size: 2rem;
-            }
-
-            .hero {
-                padding: 5rem 1.5rem;
-            }
-
-            .hero h1 {
-                font-size: 3rem;
-            }
-
-            .hero p {
-                font-size: 1.2rem;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .btn {
-                width: 100%;
-            }
-
-            .features h2,
-            .categories-showcase h2,
-            .contact h2 {
-                font-size: 2.5rem;
-            }
-
-            .features,
-            .categories-showcase,
-            .contact {
-                padding: 4rem 1.5rem;
-            }
-
-            .features-grid,
-            .categories-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-container {
-                padding: 2.5rem 1.5rem;
-            }
-
-            .contact-email {
-                font-size: 1rem;
-                padding: 1.2rem 1.5rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .toast {
-                bottom: 20px;
-                right: 20px;
-                left: 20px;
-                font-size: 0.95rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-
-            .hero p {
-                font-size: 1.1rem;
-            }
-
-            .features h2,
-            .categories-showcase h2,
-            .contact h2 {
-                font-size: 2rem;
-            }
-
-            .feature-card,
-            .category-card {
-                padding: 2rem 1.5rem;
-            }
-
-            .contact-container {
-                padding: 2rem 1.2rem;
-            }
-        }
         .categories-showcase {
             max-width: 1400px;
             margin: 0 auto;
@@ -566,13 +215,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-        }
-
-        .categories-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 4rem;
         }
 
         .categories-grid {
@@ -590,39 +232,6 @@
             text-align: center;
             transition: all 0.3s ease;
             cursor: pointer;
-            position: relative;
-            user-select: none;
-        }
-
-        .category-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            background: linear-gradient(135deg, rgba(26, 107, 179, 0.5) 0%, rgba(15, 76, 129, 0.5) 100%);
-            box-shadow: 0 20px 50px rgba(26, 107, 179, 0.4);
-        }
-
-        .category-card:active {
-            transform: translateY(-5px) scale(0.98);
-        }
-
-        .category-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .category-card h3 {
-            font-size: 1.5rem;
-            color: #fff;
-            margin-bottom: 0.5rem;
-        }
-
-        .category-hint {
-            font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.5);
-            margin-top: 0.5rem;
         }
 
         .card-actions {
@@ -681,7 +290,7 @@
                 <li><a href="#features" onclick="closeMenu()">Features</a></li>
                 <li><a href="#categories" onclick="closeMenu()">Categories</a></li>
                 <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-                <li><a href="player/index.php" onclick="closeMenu()">Web Player</a></li>
+                <li><a href="player/index.html" onclick="closeMenu()">Web Player</a></li>
                 <li><a href="retro.php" onclick="closeMenu()">🎮 Consoles</a></li>
                 <li><a href="admin.html" onclick="closeMenu()"
                         style="border:1px solid rgba(255,255,255,0.3); border-radius:8px">Admin Portal</a></li>
@@ -692,12 +301,13 @@
 
     <section id="home" class="hero">
         <h1>Welcome to FinnTV</h1>
-        <p>Experience premium IPTV streaming with thousands of channels from around the world. Crystal clear quality,
-            zero buffering.</p>
+        <p>Experience premium IPTV streaming with thousands of channels. Crystal clear quality, zero buffering.</p>
         <div class="hero-buttons">
             <a href="user_portal.html" class="btn btn-primary">User Portal</a>
-            <a href="player/index.php" class="btn btn-primary" style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
-            <a href="retro.php" class="btn btn-primary" style="background: linear-gradient(135deg, #4b0082 0%, #800080 100%);">Retro Consoles</a>
+            <a href="player/index.html" class="btn btn-primary"
+                style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
+            <a href="retro.php" class="btn btn-primary"
+                style="background: linear-gradient(135deg, #4b0082 0%, #800080 100%);">Retro Consoles</a>
             <a href="#categories" class="btn btn-secondary">Explore Categories</a>
         </div>
     </section>
@@ -706,52 +316,29 @@
         <h2>Why Choose FinnTV?</h2>
         <div class="features-grid">
             <div class="feature-card">
-                <div class="feature-icon">🎬</div>
-                <h3>Unlimited Content</h3>
-                <p>Access thousands of live TV channels, movies, and shows from multiple countries and categories.</p>
+                <h3>🎬 Unlimited Content</h3>
+                <p>Access thousands of live TV channels and movies.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Lightning Fast</h3>
-                <p>Experience zero buffering with our high-speed servers and optimized streaming technology.</p>
+                <h3>⚡ Lightning Fast</h3>
+                <p>Experience zero buffering with optimized streaming.</p>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>10 Devices</h3>
-                <p>Connect up to 10 devices simultaneously. Watch on Smart TV, mobile, tablet, or computer.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🌍</div>
-                <h3>Global Coverage</h3>
-                <p>Content from India, Asia, USA, Egypt, and more. Sports, entertainment, news - all in one place.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🔒</div>
-                <h3>Secure & Reliable</h3>
-                <p>Encrypted connections and 99.9% uptime guarantee. Your entertainment is always protected.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">👤</div>
-                <h3>User Portal</h3>
-                <p>Track your active connections, check device status, and manage your account in real-time.</p>
+                <h3>📱 Multi-Device</h3>
+                <p>Watch on PC, Mobile, and even PS Vita.</p>
             </div>
         </div>
     </section>
 
-
-
     <section id="categories" class="categories-showcase">
         <h2>Popular Categories</h2>
-        <p class="categories-subtitle">👇 Click any category to start streaming immediately</p>
+        <p class="categories-subtitle">👇 Click any category to copy the M3U URL to your clipboard</p>
         <div class="categories-grid">
             <div class="category-card" data-url="https://finntv.vercel.app/m3u/asia.m3u" data-name="Asia Channels">
                 <div class="category-icon">🌏</div>
                 <div class="category-info">
                     <h3>Asia Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/asia.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/asia.m3u', 'Asia Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
 
@@ -759,10 +346,7 @@
                 <div class="category-icon">🦅</div>
                 <div class="category-info">
                     <h3>Egypt Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/egypt.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/egypt.m3u', 'Egypt Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
 
@@ -770,10 +354,7 @@
                 <div class="category-icon">🇮🇳</div>
                 <div class="category-info">
                     <h3>India Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/india.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/india.m3u', 'India Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
 
@@ -781,21 +362,16 @@
                 <div class="category-icon">🌍</div>
                 <div class="category-info">
                     <h3>World Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/world.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/world.m3u', 'World Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
 
-            <div class="category-card" data-url="https://finntv.vercel.app/m3u/indonesia.m3u" data-name="Indonesia Channels">
+            <div class="category-card" data-url="https://finntv.vercel.app/m3u/indonesia.m3u"
+                data-name="Indonesia Channels">
                 <div class="category-icon">🇮🇩</div>
                 <div class="category-info">
                     <h3>Indonesia Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/indonesia.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/indonesia.m3u', 'Indonesia Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
 
@@ -803,10 +379,7 @@
                 <div class="category-icon">⚽</div>
                 <div class="category-info">
                     <h3>Sport Channels</h3>
-                    <div class="card-actions">
-                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/sport.m3u')">▶ Watch</button>
-                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/sport.m3u', 'Sport Channels')">📋 Copy</button>
-                    </div>
+                    <p>Click to copy URL</p>
                 </div>
             </div>
         </div>
@@ -857,7 +430,7 @@
                 <a href="#contact">Contact</a>
                 <a href="user_portal.html">User Portal</a>
                 <a href="admin.html">Admin Panel</a>
-                <a href="player/index.php">Web Player</a>
+                <a href="player/index.html">Web Player</a>
             </div>
             <p class="copyright">&copy; 2025 FinnTV. All rights reserved.</p>
         </div>
@@ -894,8 +467,8 @@
         function copyToClipboard(text, callback) {
             if (navigator.clipboard && window.isSecureContext) {
                 navigator.clipboard.writeText(text)
-                    .then(function() { callback(true); })
-                    .catch(function() { callback(false); });
+                    .then(function () { callback(true); })
+                    .catch(function () { callback(false); });
                 return;
             }
 
@@ -938,13 +511,13 @@
             toast.innerHTML = '<span class="toast-icon">' + (isError ? '❌' : '✅') + '</span><span>' + message + '</span>';
             document.body.appendChild(toast);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 toast.className += ' show';
             }, 100);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 toast.className = toast.className.replace(' show', '');
-                setTimeout(function() {
+                setTimeout(function () {
                     if (toast.parentNode) {
                         toast.parentNode.removeChild(toast);
                     }
@@ -952,23 +525,44 @@
             }, 3000);
         }
 
-        function streamM3U(e, relativePath) {
-            e.preventDefault();
-            e.stopPropagation();
-            window.location.href = 'player/index.php?m3u=' + encodeURIComponent(relativePath);
-        }
+        var cards = document.querySelectorAll('.category-card');
+        for (var j = 0; j < cards.length; j++) {
+            cards[j].addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
 
-        function copyM3U(e, url, name) {
-            e.preventDefault();
-            e.stopPropagation();
-            copyToClipboard(url, function(success) {
-                if (success) {
-                    showToast(name + ' URL copied to clipboard!');
-                } else {
-                    showToast('Could not copy automatically. URL: ' + url, true);
+                var url = this.getAttribute('data-url');
+                var name = this.getAttribute('data-name');
+                var self = this;
+
+                if (!url) {
+                    showToast('Error: URL not found', true);
+                    return;
                 }
+
+                self.style.transform = 'scale(0.95)';
+                setTimeout(function () {
+                    self.style.transform = '';
+                }, 200);
+
+                copyToClipboard(url, function (success) {
+                    if (success) {
+                        showToast(name + ' URL copied to clipboard!');
+                    } else {
+                        showToast('Could not copy automatically. URL: ' + url, true);
+                    }
+                });
             });
         }
+
+        document.addEventListener('click', function (e) {
+            var navLinks = document.getElementById('navLinks');
+            var menuBtn = document.querySelector('.mobile-menu-btn');
+
+            if (navLinks && menuBtn && !navLinks.contains(e.target) && !menuBtn.contains(e.target)) {
+                navLinks.className = navLinks.className.replace(' active', '');
+            }
+        });
     </script>
 </body>
 

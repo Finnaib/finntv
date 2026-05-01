@@ -920,17 +920,32 @@ http://mhav1.com:2095/live/ht2990/742579548/71938.ts
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1
 http://mhav1.com:2095/live/ht2990/742579548/518.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125579.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2
 http://mhav1.com:2095/live/ht2990/742579548/519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125580.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ART Cinema" tvg-logo="" group-title="ART ايه ارتى",ART Cinema
 http://mhav1.com:2095/live/ht2990/742579548/520.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Cinema SD" tvg-logo="" group-title="ART ايه ارتى",ART Cinema SD
+http://mhav1.com:2095/live/ht2990/742579548/125581.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1
 http://mhav1.com:2095/live/ht2990/742579548/521.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125582.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2
 http://mhav1.com:2095/live/ht2990/742579548/522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125583.ts
 
 
 ##### [Adoro Club H265 اريدو] #####
@@ -1477,6 +1492,9 @@ http://mhav1.com:2095/live/ht2990/742579548/5339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 6 [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 6 [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 7 El Maarifa [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 7 El Maarifa [DZ]
+http://mhav1.com:2095/live/ht2990/742579548/4571.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 8 Edhakira [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 8 Edhakira [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5345.ts
@@ -9890,35 +9908,14 @@ http://mhav1.com:2095/live/ht2990/742579548/123088.ts
 #EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON  Sport اون اسبورت",Modern mti
 http://mhav1.com:2095/live/ht2990/742579548/274110.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 HD 720" tvg-logo="" group-title="ON  Sport اون اسبورت",ON  Sport 1 HD 720
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport HD 720" tvg-logo="" group-title="ON  Sport اون اسبورت",ON  Sport HD 720
 http://mhav1.com:2095/live/ht2990/742579548/3498.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport 1 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON  Sport 1 SD
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON  Sport SD
 http://mhav1.com:2095/live/ht2990/742579548/12313.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 4K" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 1 4K
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport 4K" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 4K
 http://mhav1.com:2095/live/ht2990/742579548/2181.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 HD 1080" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 1 HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/677.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 1 LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 1 LOW
-http://mhav1.com:2095/live/ht2990/742579548/248961.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 4K" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 4K
-http://mhav1.com:2095/live/ht2990/742579548/24235.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 HD 1080" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/120292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 HD 720" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 HD 720
-http://mhav1.com:2095/live/ht2990/742579548/5456.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 LOW
-http://mhav1.com:2095/live/ht2990/742579548/248962.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 2 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport 2 SD
-http://mhav1.com:2095/live/ht2990/742579548/49535.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event1" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event1
 http://mhav1.com:2095/live/ht2990/742579548/267867.ts
@@ -9944,17 +9941,44 @@ http://mhav1.com:2095/live/ht2990/742579548/267870.ts
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event4 SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Event4 SD
 http://mhav1.com:2095/live/ht2990/742579548/267874.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport HD 1080" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport LOW
+http://mhav1.com:2095/live/ht2990/742579548/248961.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max 4K" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max 4K
+http://mhav1.com:2095/live/ht2990/742579548/24235.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max HD
 http://mhav1.com:2095/live/ht2990/742579548/267086.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 1080" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/120292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 720" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max HD 720
+http://mhav1.com:2095/live/ht2990/742579548/5456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max LOW
+http://mhav1.com:2095/live/ht2990/742579548/248962.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max LOW
 http://mhav1.com:2095/live/ht2990/742579548/267087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Max SD
+http://mhav1.com:2095/live/ht2990/742579548/49535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus  HD 1080" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus  HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/278699.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus HD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus HD
 http://mhav1.com:2095/live/ht2990/742579548/267083.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus LOW" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus LOW
 http://mhav1.com:2095/live/ht2990/742579548/267084.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON  Sport اون اسبورت",ON Sport Plus SD
+http://mhav1.com:2095/live/ht2990/742579548/278700.ts
 
 
 ##### [OSN  HD او اس ان] #####
