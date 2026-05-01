@@ -14,11 +14,7 @@
                                   }
                    },
                    {
-                       "src":  "retro.php",
-                       "use":  "vercel-php@0.7.1"
-                   },
-                   {
-                       "src":  "play_retro.php",
+                       "src":  "player/index.php",
                        "use":  "vercel-php@0.7.1"
                    },
                    {
