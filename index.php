@@ -139,7 +139,12 @@ header("Access-Control-Allow-Origin: *");
         if (isRetro) document.getElementById("app-body").classList.add("is-retro");
 
         function toggleSidebar() {
-            document.getElementById("sidebar").classList.toggle("active");
+            var sidebar = document.getElementById("sidebar");
+            if (sidebar.classList.contains("active")) {
+                sidebar.classList.remove("active");
+            } else {
+                sidebar.classList.add("active");
+            }
         }
 
         function safeBtoa(str) {
@@ -151,7 +156,9 @@ header("Access-Control-Allow-Origin: *");
         function loadM3U(url, el) {
             if (el) {
                 var items = document.querySelectorAll('.playlist-item');
-                items.forEach(i => i.classList.remove('active'));
+                for (var i = 0; i < items.length; i++) {
+                    items[i].classList.remove('active');
+                }
                 el.classList.add('active');
             }
             if (window.innerWidth <= 768) {
@@ -161,12 +168,18 @@ header("Access-Control-Allow-Origin: *");
 
             document.getElementById("channel-list").innerHTML = '<div style="padding:20px; text-align:center; color:#00d4ff;">🔄 Fetching Playlist...</div>';
             
-            fetch(url)
-                .then(r => r.text())
-                .then(txt => parseM3U(txt))
-                .catch(err => {
-                    document.getElementById("channel-list").innerHTML = '<div style="padding:20px; text-align:center; color:#ff4444;">❌ Load Failed</div>';
-                });
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        parseM3U(xhr.responseText);
+                    } else {
+                        document.getElementById("channel-list").innerHTML = '<div style="padding:20px; text-align:center; color:#ff4444;">❌ Load Failed (' + xhr.status + ')</div>';
+                    }
+                }
+            };
+            xhr.send();
         }
 
         function loadCustomM3U() {
@@ -204,7 +217,7 @@ header("Access-Control-Allow-Origin: *");
                 (function(c) {
                     var card = document.createElement("div");
                     card.className = "channel-card";
-                    card.innerHTML = `<span class="chan-name">${c.t}</span><span class="chan-grp">${c.g}</span>`;
+                    card.innerHTML = '<span class="chan-name">' + c.t + '</span><span class="chan-grp">' + c.g + '</span>';
                     card.onclick = function() {
                         playChannel(c);
                         var active = list.querySelector(".channel-card.active");
@@ -219,7 +232,13 @@ header("Access-Control-Allow-Origin: *");
 
         function filterChannels() {
             var q = document.getElementById("search").value.toLowerCase();
-            filtered = channels.filter(c => (c.t + c.g).toLowerCase().indexOf(q) !== -1);
+            filtered = [];
+            for (var i = 0; i < channels.length; i++) {
+                var c = channels[i];
+                if ((c.t + c.g).toLowerCase().indexOf(q) !== -1) {
+                    filtered.push(c);
+                }
+            }
             renderChannels();
         }
 
@@ -230,7 +249,7 @@ header("Access-Control-Allow-Origin: *");
             var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
             
             if (isVita || isRetro) {
-                // Native Mode for Vita/Retro
+                // High-stability mode for Vita: Jump straight to system player
                 window.location.href = finalUrl;
                 return;
             }
@@ -239,7 +258,7 @@ header("Access-Control-Allow-Origin: *");
             document.getElementById("current-chan-grp").innerText = c.g;
             var v = document.getElementById("video-player");
             v.src = finalUrl;
-            v.play().catch(e => {});
+            v.play().catch(function(e) {});
         }
 
         // Auto-load first playlist
