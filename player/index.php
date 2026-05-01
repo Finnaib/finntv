@@ -1,15 +1,13 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Cache-Control: no-cache, no-store, must-revalidate");
-header("Pragma: no-cache");
-header("Expires: 0");
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=640, user-scalable=yes">
-    <title>FinnTV Vita Player</title>
+    <title>FinnTV Premium Player</title>
     <style>
         * { box-sizing: border-box; }
         body, html { 
@@ -17,53 +15,35 @@ header("Expires: 0");
             overflow:hidden; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         }
         .app-layout { display: flex; height: 100vh; width: 100vw; }
-        
-        /* Video Section */
-        .video-pane { 
-            flex: 1; background:#000; position: relative; 
-            display: flex; flex-direction: column;
-        }
+        .video-pane { flex: 1; background:#000; position: relative; display: flex; flex-direction: column; }
         #player { width:100%; height: auto; flex: 1; background: #000; }
         .video-footer { padding: 12px; background: rgba(0,0,0,0.8); border-top: 1px solid #1a1a1a; }
         #ch-title { font-size: 18px; color: #00d4ff; font-weight: bold; }
         #ch-grp { font-size: 11px; color: #888; text-transform: uppercase; margin-top: 4px; }
-
-        /* List Section */
-        .list-pane { 
-            width: 280px; background:#0f121d; border-left: 1px solid #1a1a1a; 
-            display: flex; flex-direction: column;
-        }
+        .list-pane { width: 280px; background:#0f121d; border-left: 1px solid #1a1a1a; display: flex; flex-direction: column; }
         .search-container { padding: 10px; background: #161b2a; }
-        #search { 
-            width:100%; padding: 10px; background:#0a0d16; border:1px solid #2a2f3e; 
-            color:#fff; font-size:14px; border-radius: 8px;
-        }
-        .scroller { 
-            flex: 1; overflow-y: scroll !important; -webkit-overflow-scrolling: touch; 
-            padding: 5px; -webkit-transform: translate3d(0,0,0);
-        }
-        .card { 
-            padding: 12px; border-bottom: 1px solid #1a1a1a; cursor:pointer; 
-            background:#111625; margin-bottom: 5px; border-radius: 6px;
-            transition: background 0.2s;
-        }
+        #search { width:100%; padding: 10px; background:#0a0d16; border:1px solid #2a2f3e; color:#fff; font-size:14px; border-radius: 8px; }
+        .scroller { flex: 1; overflow-y: scroll !important; -webkit-overflow-scrolling: touch; padding: 5px; }
+        .card { padding: 12px; border-bottom: 1px solid #1a1a1a; cursor:pointer; background:#111625; margin-bottom: 5px; border-radius: 6px; }
         .card:active { background: #1a2238; }
         .card.active { background:#00d4ff; color:#000; border-color: #00d4ff; }
-        .card.active .v-grp { color: #000; opacity: 0.8; }
         .v-name { display:block; font-weight: 600; font-size: 14px; }
         .v-grp { font-size:10px; opacity:0.6; font-weight: bold; margin-top: 4px; display: block; }
         
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-thumb { background: #2a2f3e; border-radius: 2px; }
+        /* Legacy Console Tweaks (Vita, PSP, Nintendo) */
+        .is-vita .video-pane, .is-retro .video-pane { display: none; }
+        .is-vita .list-pane, .is-retro .list-pane { width: 100%; border-left: none; }
+        .is-vita .card, .is-retro .card { padding: 20px; }
+        .is-vita .v-name, .is-retro .v-name { font-size: 18px; }
     </style>
 </head>
-<body>
+<body id="app-body">
     <div class="app-layout">
         <div class="video-pane">
             <video id="player" controls playsinline preload="auto"></video>
             <div class="video-footer">
                 <div id="ch-title">FinnTV Premium</div>
-                <div id="ch-grp">Ready to stream</div>
+                <div id="ch-grp">Select a channel</div>
             </div>
         </div>
         <div class="list-pane">
@@ -71,7 +51,7 @@ header("Expires: 0");
                 <input type="text" id="search" placeholder="Search channels...">
             </div>
             <div class="scroller" id="list">
-                <div style="padding:20px; text-align:center; color:#666;">Loading Channels...</div>
+                <div style="padding:20px; text-align:center; color:#666;">Loading...</div>
             </div>
         </div>
     </div>
@@ -84,27 +64,27 @@ header("Expires: 0");
             search = document.getElementById("search"),
             channels = [], filtered = [];
 
-        var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
-
-        // Vita Scroll Fix
-        function applyVitaScrollFix(el) {
-            if (!el || !isVita) return;
-            var startY = 0, startScroll = 0;
-            el.addEventListener('touchstart', function(e) {
-                startY = e.touches[0].pageY;
-                startScroll = el.scrollTop;
-            }, { passive: true });
-            el.addEventListener('touchmove', function(e) {
-                var currentY = e.touches[0].pageY;
-                el.scrollTop = startScroll + (startY - currentY);
-                if (e.cancelable) e.preventDefault();
-            }, { passive: false });
-        }
+        var ua = navigator.userAgent;
+        var isVita = ua.indexOf('PlayStation Vita') !== -1;
+        var isRetro = ua.indexOf('Nintendo') !== -1 || ua.indexOf('PlayStation Portable') !== -1;
+        
+        var body = document.getElementById("app-body");
+        if (isVita) body.className += " is-vita";
+        if (isRetro) body.className += " is-retro";
 
         function safeBtoa(str) {
             try { return btoa(str); } catch (e) {
                 try { return btoa(unescape(encodeURIComponent(str))); } catch (e2) { return ''; }
             }
+        }
+
+        function loadPlaylist(url) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) parse(xhr.responseText);
+            };
+            xhr.send();
         }
 
         function parse(txt) {
@@ -127,38 +107,42 @@ header("Expires: 0");
 
         function render() {
             list.innerHTML = "";
-            var fragment = document.createDocumentFragment();
-            var limit = Math.min(filtered.length, 500); 
+            var frag = document.createDocumentFragment();
+            var limit = Math.min(filtered.length, 500);
             for (var i=0; i<limit; i++) {
                 (function(c) {
                     var el = document.createElement("div");
                     el.className = "card";
-                    el.innerHTML = "<span class=\"v-name\">" + c.t + "</span><span class=\"v-grp\">" + c.g + "</span>";
+                    el.innerHTML = '<span class="v-name">' + c.t + '</span><span class="v-grp">' + c.g + '</span>';
                     el.onclick = function() {
-                        var active = list.querySelector(".card.active");
-                        if(active) active.classList.remove("active");
-                        el.classList.add("active");
+                        var active = list.getElementsByClassName("card active");
+                        for(var j=0; j<active.length; j++) active[j].className = "card";
+                        el.className = "card active";
+                        
+                        var needsProxy = isVita || isRetro || c.u.indexOf('http:') !== -1;
+                        var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
+                        
+                        if (isVita || isRetro) {
+                            window.location.href = finalUrl;
+                            return;
+                        }
+
                         title.innerText = c.t;
                         grpText.innerText = c.g;
-                        var lowerUrl = c.u.toLowerCase();
-                        var needsProxy = (window.location.protocol === 'https:' && c.u.indexOf('http:') !== -1) || 
-                                       lowerUrl.indexOf('.ts') !== -1 || isVita;
-                        var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
-                        player.removeAttribute('type');
-                        if (isVita && lowerUrl.indexOf('.mp4') === -1) player.setAttribute('type', 'application/vnd.apple.mpegurl');
-                        player.src = finalUrl; player.load(); player.play().catch(function(){});
+                        player.src = finalUrl; player.play().catch(function(){});
                     };
-                    fragment.appendChild(el);
+                    frag.appendChild(el);
                 })(filtered[i]);
             }
-            list.appendChild(fragment);
-            if (filtered.length === 0) list.innerHTML = '<div style="padding:20px; color:#666;">No channels found.</div>';
+            list.appendChild(frag);
         }
-        applyVitaScrollFix(list);
 
         search.oninput = function() {
             var q = search.value.toLowerCase();
-            filtered = channels.filter(function(c) { return (c.t + c.g).toLowerCase().indexOf(q) !== -1; });
+            filtered = [];
+            for(var i=0; i<channels.length; i++) {
+                if((channels[i].t + channels[i].g).toLowerCase().indexOf(q) !== -1) filtered.push(channels[i]);
+            }
             render();
         };
 
@@ -168,17 +152,11 @@ header("Expires: 0");
             var vars = query.split("&");
             for (var i=0; i<vars.length; i++) {
                 var pair = vars[i].split("=");
-                if(pair[0] == "m3u"){ m3u = decodeURIComponent(pair[1]); }
+                if(pair[0] == "m3u") m3u = decodeURIComponent(pair[1]);
             }
         }
-        if (!m3u) m3u = "https://iptv-org.github.io/iptv/index.m3u";
-
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", m3u, true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) parse(xhr.responseText);
-        };
-        xhr.send();
+        if (!m3u) m3u = "../m3u/world.m3u";
+        loadPlaylist(m3u);
     </script>
 </body>
 </html>
