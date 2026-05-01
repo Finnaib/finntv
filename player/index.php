@@ -222,8 +222,20 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         for(var j=0; j<active.length; j++) active[j].className = "card";
                         el.className = "card active";
                         
-                        var needsProxy = isVita || isRetro || c.u.indexOf('http:') !== -1;
-                        var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
+                        var streamUrl = c.u;
+                        
+                        // Convert .ts to .m3u8 for Xtream Codes compatibility
+                        if ((streamUrl.indexOf('/live/') !== -1 || streamUrl.indexOf('/movie/') !== -1) && streamUrl.indexOf('.ts') !== -1) {
+                            streamUrl = streamUrl.substring(0, streamUrl.length - 3) + '.m3u8';
+                        }
+                        
+                        var needsProxy = isVita || isRetro || streamUrl.indexOf('http:') !== -1;
+                        var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(streamUrl))) : streamUrl;
+                        
+                        // Ensure Vita appends ?ext=.m3u8 for native player pickup
+                        if (isVita && finalUrl.toLowerCase().indexOf('.m3u8') === -1 && finalUrl.toLowerCase().indexOf('.mp4') === -1) {
+                            finalUrl += (finalUrl.indexOf('?') === -1 ? '?' : '&') + 'ext=.m3u8';
+                        }
                         
                         if (isVita || isRetro) {
                             window.location.href = finalUrl;
@@ -249,23 +261,9 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             var inputUrl = document.getElementById("custom-url").value.trim();
             if (!inputUrl) return;
 
-            var needsProxy = isVita || isRetro || inputUrl.indexOf('http:') !== -1;
-            var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(inputUrl))) : inputUrl;
-
-            if (isVita || isRetro) {
-                window.location.href = finalUrl;
-                return;
-            }
-
-            placeholder.style.opacity = '0';
-            setTimeout(function() { placeholder.style.display = 'none'; }, 500);
-
-            title.innerText = "Custom Stream";
-            grpText.innerText = "External Source";
-            document.getElementById("ch-url").innerText = inputUrl;
-            
-            player.src = finalUrl; 
-            player.play().catch(function(){});
+            // Load the custom URL as a playlist
+            document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>Loading Custom Playlist...</div>';
+            loadPlaylist(inputUrl);
         }
 
         search.oninput = function() {
