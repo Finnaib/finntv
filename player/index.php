@@ -55,9 +55,16 @@ header("Expires: 0");
         
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-thumb { background: #2a2f3e; border-radius: 2px; }
+
+        /* Vita Optimization */
+        .is-vita .video-pane { display: none; }
+        .is-vita .list-pane { width: 100%; border-left: none; }
+        .is-vita .card { padding: 20px; }
+        .is-vita .v-name { font-size: 18px; }
+        .is-vita .v-grp { font-size: 12px; }
     </style>
 </head>
-<body>
+<body id="app-body">
     <div class="app-layout">
         <div class="video-pane">
             <video id="player" controls playsinline preload="auto"></video>
@@ -94,6 +101,7 @@ header("Expires: 0");
             channels = [], filtered = [];
 
         var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
+        if (isVita) document.getElementById("app-body").classList.add("is-vita");
 
         // Vita Scroll Fix
         function applyVitaScrollFix(el) {
@@ -144,24 +152,26 @@ header("Expires: 0");
                     el.className = "card";
                     el.innerHTML = "<span class=\"v-name\">" + c.t + "</span><span class=\"v-grp\">" + c.g + "</span>";
                     el.onclick = function() {
-                        var active = list.querySelector(".card.active");
-                        if(active) active.classList.remove("active");
-                        el.classList.add("active");
-                        title.innerText = c.t;
-                        grpText.innerText = c.g;
                         var lowerUrl = c.u.toLowerCase();
                         var needsProxy = (window.location.protocol === 'https:' && c.u.indexOf('http:') !== -1) || 
                                        lowerUrl.indexOf('.ts') !== -1 || isVita;
                         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
                         
-                        // Native Play Logic
                         if (isVita) {
-                            nativeCtrl.style.display = "block";
-                            nativeBtn.href = finalUrl;
+                            // High-stability mode for Vita: Jump straight to system player
+                            el.style.background = "#28a745";
+                            el.innerHTML = "<span class=\"v-name\">🚀 Launching Player...</span><span class=\"v-grp\">Please wait</span>";
+                            window.location.href = finalUrl;
+                            setTimeout(function() { render(); }, 3000); // Reset list after 3s
+                            return;
                         }
 
+                        var active = list.querySelector(".card.active");
+                        if(active) active.classList.remove("active");
+                        el.classList.add("active");
+                        title.innerText = c.t;
+                        grpText.innerText = c.g;
                         player.removeAttribute('type');
-                        if (isVita && lowerUrl.indexOf('.mp4') === -1) player.setAttribute('type', 'application/vnd.apple.mpegurl');
                         player.src = finalUrl; player.load(); player.play().catch(function(){});
                     };
                     fragment.appendChild(el);
