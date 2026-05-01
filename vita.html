@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinnTV - PS Vita Portal</title>
+    <style>
+        body { background: #000; color: #fff; font-family: sans-serif; padding: 20px; }
+        .header { background: #1a6bb3; padding: 15px; text-align: center; font-size: 20px; font-weight: bold; border-radius: 10px; margin-bottom: 20px; }
+        .card { background: #222; padding: 15px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #333; }
+        .card h3 { margin: 0 0 10px 0; color: #00d4ff; }
+        .btn { display: block; background: #00d4ff; color: #000; text-align: center; padding: 12px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+        .btn-green { background: #28a745; color: #fff; }
+        input { width: 100%; padding: 10px; margin: 10px 0; background: #111; color: #fff; border: 1px solid #444; border-radius: 5px; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+    <div class="header">PS Vita IPTV Portal</div>
+    
+    <div class="card">
+        <h3>Step 1: Fix SSL Error</h3>
+        <p>If you see "NW-8942-3", use the local IP or make sure you are using HTTP.</p>
+        <a href="http://192.168.1.100" class="btn">Try Local HTTP</a>
+    </div>
+
+    <div class="card">
+        <h3>Step 2: Premium Playlists</h3>
+        <a href="player/index.php?m3u=m3u/world.m3u" class="btn">🌍 World Playlist</a>
+        <a href="player/index.php?m3u=m3u/asia.m3u" class="btn">🌏 Asia Playlist</a>
+        <a href="player/index.php?m3u=m3u/egypt.m3u" class="btn">🦅 Egypt Playlist</a>
+    </div>
+
+    <div class="card">
+        <h3>Step 3: Custom M3U</h3>
+        <p>Paste your playlist URL below:</p>
+        <form action="player/index.php" method="GET">
+            <input type="text" name="m3u" placeholder="http://example.com/playlist.m3u">
+            <button type="submit" class="btn btn-green">Launch Native Player</button>
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="color: #888; text-decoration: none;">&larr; Back to Main Site</a>
+    </div>
+</body>
+</html>
