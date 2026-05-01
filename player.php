@@ -99,11 +99,11 @@ header("Access-Control-Allow-Origin: *");
 
             <div class="menu-section">
                 <div class="menu-title">Select Playlist</div>
-                <div class="playlist-item active" onclick="loadM3U('/m3u/world.m3u', this)">🌍 World Channels</div>
-                <div class="playlist-item" onclick="loadM3U('/m3u/asia.m3u', this)">🌏 Asia Channels</div>
-                <div class="playlist-item" onclick="loadM3U('/m3u/egypt.m3u', this)">🦅 Egypt Channels</div>
-                <div class="playlist-item" onclick="loadM3U('/m3u/india.m3u', this)">🇮🇳 India Channels</div>
-                <div class="playlist-item" onclick="loadM3U('/m3u/sport.m3u', this)">⚽ Sport Channels</div>
+                <div class="playlist-item active" onclick="loadM3U('m3u/world.m3u', this)">🌍 World Channels</div>
+                <div class="playlist-item" onclick="loadM3U('m3u/asia.m3u', this)">🌏 Asia Channels</div>
+                <div class="playlist-item" onclick="loadM3U('m3u/egypt.m3u', this)">🦅 Egypt Channels</div>
+                <div class="playlist-item" onclick="loadM3U('m3u/india.m3u', this)">🇮🇳 India Channels</div>
+                <div class="playlist-item" onclick="loadM3U('m3u/sport.m3u', this)">⚽ Sport Channels</div>
             </div>
 
             <div class="custom-form">
@@ -132,18 +132,20 @@ header("Access-Control-Allow-Origin: *");
 
     <script>
         var channels = [], filtered = [];
-        var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
-        var isRetro = navigator.userAgent.indexOf('Nintendo') !== -1 || navigator.userAgent.indexOf('PlayStation Portable') !== -1;
+        var ua = navigator.userAgent;
+        var isVita = ua.indexOf('PlayStation Vita') !== -1;
+        var isRetro = ua.indexOf('Nintendo') !== -1 || ua.indexOf('PlayStation Portable') !== -1;
         
-        if (isVita) document.getElementById("app-body").classList.add("is-vita");
-        if (isRetro) document.getElementById("app-body").classList.add("is-retro");
+        var body = document.getElementById("app-body");
+        if (isVita) body.className += " is-vita";
+        if (isRetro) body.className += " is-retro";
 
         function toggleSidebar() {
             var sidebar = document.getElementById("sidebar");
-            if (sidebar.classList.contains("active")) {
-                sidebar.classList.remove("active");
+            if (sidebar.className.indexOf("active") !== -1) {
+                sidebar.className = sidebar.className.replace(" active", "");
             } else {
-                sidebar.classList.add("active");
+                sidebar.className += " active";
             }
         }
 
@@ -155,15 +157,15 @@ header("Access-Control-Allow-Origin: *");
 
         function loadM3U(url, el) {
             if (el) {
-                var items = document.querySelectorAll('.playlist-item');
+                var items = document.getElementsByClassName('playlist-item');
                 for (var i = 0; i < items.length; i++) {
-                    items[i].classList.remove('active');
+                    items[i].className = items[i].className.replace(" active", "");
                 }
-                el.classList.add('active');
+                el.className += " active";
             }
             if (window.innerWidth <= 768) {
                 var sidebar = document.getElementById("sidebar");
-                if (sidebar.classList.contains("active")) toggleSidebar();
+                if (sidebar.className.indexOf("active") !== -1) toggleSidebar();
             }
 
             document.getElementById("channel-list").innerHTML = '<div style="padding:20px; text-align:center; color:#00d4ff;">🔄 Fetching Playlist...</div>';
@@ -220,9 +222,12 @@ header("Access-Control-Allow-Origin: *");
                     card.innerHTML = '<span class="chan-name">' + c.t + '</span><span class="chan-grp">' + c.g + '</span>';
                     card.onclick = function() {
                         playChannel(c);
-                        var active = list.querySelector(".channel-card.active");
-                        if (active) active.classList.remove("active");
-                        card.classList.add("active");
+                        // Update active state
+                        var cards = list.getElementsByClassName("channel-card");
+                        for(var j=0; j<cards.length; j++) {
+                            cards[j].className = cards[j].className.replace(" active", "");
+                        }
+                        card.className += " active";
                     };
                     frag.appendChild(card);
                 })(filtered[i]);
@@ -246,10 +251,9 @@ header("Access-Control-Allow-Origin: *");
             var lowerUrl = c.u.toLowerCase();
             var needsProxy = (window.location.protocol === 'https:' && c.u.indexOf('http:') !== -1) || 
                            lowerUrl.indexOf('.ts') !== -1 || isVita;
-            var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
+            var finalUrl = needsProxy ? ('api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
             
             if (isVita || isRetro) {
-                // High-stability mode for Vita: Jump straight to system player
                 window.location.href = finalUrl;
                 return;
             }
@@ -261,8 +265,7 @@ header("Access-Control-Allow-Origin: *");
             v.play().catch(function(e) {});
         }
 
-        // Auto-load first playlist
-        loadM3U('/m3u/world.m3u');
+        loadM3U('m3u/world.m3u');
     </script>
 </body>
 </html>
