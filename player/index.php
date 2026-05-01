@@ -30,11 +30,18 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         .v-name { display:block; font-weight: 600; font-size: 14px; }
         .v-grp { font-size:10px; opacity:0.6; font-weight: bold; margin-top: 4px; display: block; }
         
-        /* Legacy Console Tweaks (Vita, PSP, Nintendo) */
+        /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
         .is-vita .video-pane, .is-retro .video-pane { display: none; }
         .is-vita .list-pane, .is-retro .list-pane { width: 100%; border-left: none; }
         .is-vita .card, .is-retro .card { padding: 20px; }
         .is-vita .v-name, .is-retro .v-name { font-size: 18px; }
+
+        /* Modern Mobile Responsive Tweaks */
+        @media (max-width: 768px) {
+            body:not(.is-vita):not(.is-retro) .app-layout { flex-direction: column; }
+            body:not(.is-vita):not(.is-retro) .video-pane { height: 35vh; flex: none; }
+            body:not(.is-vita):not(.is-retro) .list-pane { width: 100%; border-left: none; border-top: 1px solid #1a1a1a; flex: 1; }
+        }
     </style>
 </head>
 <body id="app-body">
@@ -66,7 +73,10 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
 
         var ua = navigator.userAgent;
         var isVita = ua.indexOf('PlayStation Vita') !== -1;
-        var isRetro = ua.indexOf('Nintendo') !== -1 || ua.indexOf('PlayStation Portable') !== -1;
+        var isRetro = ua.indexOf('Nintendo') !== -1 || 
+                      ua.indexOf('PlayStation Portable') !== -1 || 
+                      ua.indexOf('PlayStation 3') !== -1 || 
+                      ua.indexOf('Xbox') !== -1;
         
         var body = document.getElementById("app-body");
         if (isVita) body.className += " is-vita";
