@@ -26,7 +26,21 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             z-index: 20;
             box-shadow: 5px 0 20px rgba(0,0,0,0.3);
         }
-        .search-container { padding: 20px; background: #0f172a; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .search-container { padding: 15px 20px 5px 20px; background: #0f172a; }
+        .custom-url-container { padding: 5px 20px 15px 20px; background: #0f172a; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; }
+        #custom-url { 
+            flex: 1; padding: 10px; 
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); 
+            color:#fff; font-size:12px; border-radius: 8px; outline: none;
+            transition: all 0.3s ease;
+        }
+        #custom-url:focus { border-color: #3b82f6; background: rgba(255,255,255,0.1); }
+        #play-custom { 
+            padding: 10px 15px; background: #2563eb; color: #fff; 
+            border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 13px;
+            transition: background 0.2s;
+        }
+        #play-custom:hover { background: #1d4ed8; }
         #search { 
             width:100%; padding: 12px 15px; 
             background: rgba(255,255,255,0.05); 
@@ -89,6 +103,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         }
         #ch-title { font-size: 24px; color: #60a5fa; font-weight: 600; letter-spacing: 0.5px; }
         #ch-grp { font-size: 13px; color: #9ca3af; text-transform: uppercase; margin-top: 5px; letter-spacing: 1px;}
+        #ch-url { font-size: 11px; color: #4b5563; margin-top: 8px; font-family: monospace; word-break: break-all; }
         
         /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
         .is-vita .video-pane, .is-retro .video-pane { display: none; }
@@ -115,6 +130,10 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             <div class="search-container">
                 <input type="text" id="search" placeholder="Search channels...">
             </div>
+            <div class="custom-url-container">
+                <input type="text" id="custom-url" placeholder="Paste custom URL here...">
+                <button id="play-custom" onclick="playCustom()">Play</button>
+            </div>
             <div class="scroller" id="list">
                 <div style="padding:40px 20px; text-align:center; color:#666;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>
@@ -131,6 +150,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             <div class="video-footer">
                 <div id="ch-title">FinnTV Premium</div>
                 <div id="ch-grp">Ready to play</div>
+                <div id="ch-url"></div>
             </div>
         </div>
     </div>
@@ -216,12 +236,36 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         
                         title.innerText = c.t;
                         grpText.innerText = c.g;
+                        document.getElementById("ch-url").innerText = c.u;
                         player.src = finalUrl; player.play().catch(function(){});
                     };
                     frag.appendChild(el);
                 })(filtered[i]);
             }
             list.appendChild(frag);
+        }
+
+        function playCustom() {
+            var inputUrl = document.getElementById("custom-url").value.trim();
+            if (!inputUrl) return;
+
+            var needsProxy = isVita || isRetro || inputUrl.indexOf('http:') !== -1;
+            var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(inputUrl))) : inputUrl;
+
+            if (isVita || isRetro) {
+                window.location.href = finalUrl;
+                return;
+            }
+
+            placeholder.style.opacity = '0';
+            setTimeout(function() { placeholder.style.display = 'none'; }, 500);
+
+            title.innerText = "Custom Stream";
+            grpText.innerText = "External Source";
+            document.getElementById("ch-url").innerText = inputUrl;
+            
+            player.src = finalUrl; 
+            player.play().catch(function(){});
         }
 
         search.oninput = function() {
