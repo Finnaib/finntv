@@ -624,6 +624,48 @@
             color: rgba(255, 255, 255, 0.5);
             margin-top: 0.5rem;
         }
+
+        .card-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+            pointer-events: auto;
+        }
+
+        .action-btn {
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-play {
+            background: #1a6bb3;
+            color: white;
+        }
+
+        .btn-play:hover {
+            background: #2a7bc3;
+            transform: scale(1.05);
+        }
+
+        .btn-copy {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-copy:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.05);
+        }
     </style>
 </head>
 
@@ -639,7 +681,7 @@
                 <li><a href="#features" onclick="closeMenu()">Features</a></li>
                 <li><a href="#categories" onclick="closeMenu()">Categories</a></li>
                 <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-                <li><a href="player/index.html" onclick="closeMenu()">Web Player</a></li>
+                <li><a href="player/index.php" onclick="closeMenu()">Web Player</a></li>
                 <li><a href="retro.php" onclick="closeMenu()">🎮 Consoles</a></li>
                 <li><a href="admin.html" onclick="closeMenu()"
                         style="border:1px solid rgba(255,255,255,0.3); border-radius:8px">Admin Portal</a></li>
@@ -654,7 +696,7 @@
             zero buffering.</p>
         <div class="hero-buttons">
             <a href="user_portal.html" class="btn btn-primary">User Portal</a>
-            <a href="player/index.html" class="btn btn-primary" style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
+            <a href="player/index.php" class="btn btn-primary" style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
             <a href="retro.php" class="btn btn-primary" style="background: linear-gradient(135deg, #4b0082 0%, #800080 100%);">Retro Consoles</a>
             <a href="#categories" class="btn btn-secondary">Explore Categories</a>
         </div>
@@ -700,13 +742,16 @@
 
     <section id="categories" class="categories-showcase">
         <h2>Popular Categories</h2>
-        <p class="categories-subtitle">👇 Click any category to copy the M3U URL to your clipboard</p>
+        <p class="categories-subtitle">👇 Click any category to start streaming immediately</p>
         <div class="categories-grid">
             <div class="category-card" data-url="https://finntv.vercel.app/m3u/asia.m3u" data-name="Asia Channels">
                 <div class="category-icon">🌏</div>
                 <div class="category-info">
                     <h3>Asia Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/asia.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/asia.m3u', 'Asia Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
 
@@ -714,7 +759,10 @@
                 <div class="category-icon">🦅</div>
                 <div class="category-info">
                     <h3>Egypt Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/egypt.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/egypt.m3u', 'Egypt Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
 
@@ -722,7 +770,10 @@
                 <div class="category-icon">🇮🇳</div>
                 <div class="category-info">
                     <h3>India Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/india.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/india.m3u', 'India Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
 
@@ -730,7 +781,10 @@
                 <div class="category-icon">🌍</div>
                 <div class="category-info">
                     <h3>World Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/world.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/world.m3u', 'World Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
 
@@ -738,7 +792,10 @@
                 <div class="category-icon">🇮🇩</div>
                 <div class="category-info">
                     <h3>Indonesia Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/indonesia.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/indonesia.m3u', 'Indonesia Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
 
@@ -746,7 +803,10 @@
                 <div class="category-icon">⚽</div>
                 <div class="category-info">
                     <h3>Sport Channels</h3>
-                    <p>Click to copy URL</p>
+                    <div class="card-actions">
+                        <button class="action-btn btn-play" onclick="streamM3U(event, 'm3u/sport.m3u')">▶ Watch</button>
+                        <button class="action-btn btn-copy" onclick="copyM3U(event, 'https://finntv.vercel.app/m3u/sport.m3u', 'Sport Channels')">📋 Copy</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -797,7 +857,7 @@
                 <a href="#contact">Contact</a>
                 <a href="user_portal.html">User Portal</a>
                 <a href="admin.html">Admin Panel</a>
-                <a href="player/index.html">Web Player</a>
+                <a href="player/index.php">Web Player</a>
             </div>
             <p class="copyright">&copy; 2025 FinnTV. All rights reserved.</p>
         </div>
@@ -892,44 +952,23 @@
             }, 3000);
         }
 
-        var cards = document.querySelectorAll('.category-card');
-        for (var j = 0; j < cards.length; j++) {
-            cards[j].addEventListener('click', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                var url = this.getAttribute('data-url');
-                var name = this.getAttribute('data-name');
-                var self = this;
-
-                if (!url) {
-                    showToast('Error: URL not found', true);
-                    return;
-                }
-
-                self.style.transform = 'scale(0.95)';
-                setTimeout(function() {
-                    self.style.transform = '';
-                }, 200);
-
-                copyToClipboard(url, function(success) {
-                    if (success) {
-                        showToast(name + ' URL copied to clipboard!');
-                    } else {
-                        showToast('Could not copy automatically. URL: ' + url, true);
-                    }
-                });
-            });
+        function streamM3U(e, relativePath) {
+            e.preventDefault();
+            e.stopPropagation();
+            window.location.href = 'player/index.php?m3u=' + encodeURIComponent(relativePath);
         }
 
-        document.addEventListener('click', function (e) {
-            var navLinks = document.getElementById('navLinks');
-            var menuBtn = document.querySelector('.mobile-menu-btn');
-
-            if (navLinks && menuBtn && !navLinks.contains(e.target) && !menuBtn.contains(e.target)) {
-                navLinks.className = navLinks.className.replace(' active', '');
-            }
-        });
+        function copyM3U(e, url, name) {
+            e.preventDefault();
+            e.stopPropagation();
+            copyToClipboard(url, function(success) {
+                if (success) {
+                    showToast(name + ' URL copied to clipboard!');
+                } else {
+                    showToast('Could not copy automatically. URL: ' + url, true);
+                }
+            });
+        }
     </script>
 </body>
 
