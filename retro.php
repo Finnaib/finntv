@@ -40,12 +40,12 @@ if (empty($m3u_url)) {
     echo '<p style="text-align:center; font-size:12px; color:#aaa;">Optimized for PSP, PS Vita, 3DS, and DSi</p>';
     
     $playlists = [
-        "Asia" => "https://finntv.vercel.app/m3u/asia.m3u",
-        "Egypt" => "https://finntv.vercel.app/m3u/egypt.m3u",
-        "India" => "https://finntv.vercel.app/m3u/india.m3u",
-        "World" => "https://finntv.vercel.app/m3u/world.m3u",
-        "Indonesia" => "https://finntv.vercel.app/m3u/indonesia.m3u",
-        "Sport" => "https://finntv.vercel.app/m3u/sport.m3u"
+        "Asia" => "/m3u/asia.m3u",
+        "Egypt" => "/m3u/egypt.m3u",
+        "India" => "/m3u/india.m3u",
+        "World" => "/m3u/world.m3u",
+        "Indonesia" => "/m3u/indonesia.m3u",
+        "Sport" => "/m3u/sport.m3u"
     ];
     
     foreach ($playlists as $name => $url) {

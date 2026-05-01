@@ -17,13 +17,50 @@
         <span>FinnTV PS Vita</span>
         <a href="/player/index.html" class="open-btn">Open Web Player</a>
     </div>
+
+    <!-- Troubleshooting Section -->
+    <div style="background: rgba(255,0,0,0.1); border: 1px solid #ff4444; padding: 10px; margin: 10px; font-size: 12px; border-radius: 4px;">
+        <strong>Fixing NW-8942-3 Error:</strong><br>
+        1. Ensure your Vita's <b>Date & Time</b> is set via Internet.<br>
+        2. Access this site via <b>HTTP</b> (port 80) if not using iTLS-Enso.<br>
+        3. Try setting DNS to <code>8.8.8.8</code>.
+    </div>
+
     <table>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/asia.m3u">Stream Asia</a></td></tr>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/egypt.m3u">Stream Egypt</a></td></tr>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/india.m3u">Stream India</a></td></tr>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/world.m3u">Stream World</a></td></tr>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/indonesia.m3u">Stream Indonesia</a></td></tr>
-        <tr><td><a class="btn" href="/player/index.html?m3u=https://finntv.vercel.app/m3u/sport.m3u">Stream Sport</a></td></tr>
+        <tr>
+            <th style="text-align:left; padding:10px; font-size:12px; color:#00d4ff;">Category</th>
+            <th style="text-align:center; padding:10px; font-size:12px; color:#00d4ff;">Web Player</th>
+            <th style="text-align:center; padding:10px; font-size:12px; color:#00d4ff;">Native App</th>
+        </tr>
+        <tr>
+            <td style="padding:10px;">Asia</td>
+            <td><a class="btn" href="/player/index.html?m3u=/m3u/asia.m3u">Web</a></td>
+            <td><a class="btn" style="background:#28a745;" href="/m3u/asia.m3u">Native</a></td>
+        </tr>
+        <tr>
+            <td style="padding:10px;">Egypt</td>
+            <td><a class="btn" href="/player/index.html?m3u=/m3u/egypt.m3u">Web</a></td>
+            <td><a class="btn" style="background:#28a745;" href="/m3u/egypt.m3u">Native</a></td>
+        </tr>
+        <tr>
+            <td style="padding:10px;">India</td>
+            <td><a class="btn" href="/player/index.html?m3u=/m3u/india.m3u">Web</a></td>
+            <td><a class="btn" style="background:#28a745;" href="/m3u/india.m3u">Native</a></td>
+        </tr>
+        <tr>
+            <td style="padding:10px;">World</td>
+            <td><a class="btn" href="/player/index.html?m3u=/m3u/world.m3u">Web</a></td>
+            <td><a class="btn" style="background:#28a745;" href="/m3u/world.m3u">Native</a></td>
+        </tr>
+        <tr>
+            <td style="padding:10px;">Sport</td>
+            <td><a class="btn" href="/player/index.html?m3u=/m3u/sport.m3u">Web</a></td>
+            <td><a class="btn" style="background:#28a745;" href="/m3u/sport.m3u">Native</a></td>
+        </tr>
     </table>
+    
+    <div style="padding:20px; font-size:11px; color:#888; text-align:center;">
+        TIP: Use "Native" to open the playlist in apps like <b>NetStream</b> or the <b>System Video Player</b>.
+    </div>
 </body>
 </html>

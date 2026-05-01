@@ -62,8 +62,15 @@ header("Expires: 0");
         <div class="video-pane">
             <video id="player" controls playsinline preload="auto"></video>
             <div class="video-footer">
-                <div id="ch-title">FinnTV Premium</div>
-                <div id="ch-grp">Ready to stream</div>
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <div>
+                        <div id="ch-title">FinnTV Premium</div>
+                        <div id="ch-grp">Ready to stream</div>
+                    </div>
+                    <div id="native-ctrl" style="display:none;">
+                        <a id="native-btn" href="#" target="_blank" style="background:#28a745; color:#fff; text-decoration:none; padding:8px 12px; border-radius:4px; font-size:12px; font-weight:bold;">🚀 Native Play</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="list-pane">
@@ -82,6 +89,8 @@ header("Expires: 0");
             title = document.getElementById("ch-title"),
             grpText = document.getElementById("ch-grp"),
             search = document.getElementById("search"),
+            nativeCtrl = document.getElementById("native-ctrl"),
+            nativeBtn = document.getElementById("native-btn"),
             channels = [], filtered = [];
 
         var isVita = navigator.userAgent.indexOf('PlayStation Vita') !== -1;
@@ -144,6 +153,13 @@ header("Expires: 0");
                         var needsProxy = (window.location.protocol === 'https:' && c.u.indexOf('http:') !== -1) || 
                                        lowerUrl.indexOf('.ts') !== -1 || isVita;
                         var finalUrl = needsProxy ? ('/api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(c.u))) : c.u;
+                        
+                        // Native Play Logic
+                        if (isVita) {
+                            nativeCtrl.style.display = "block";
+                            nativeBtn.href = finalUrl;
+                        }
+
                         player.removeAttribute('type');
                         if (isVita && lowerUrl.indexOf('.mp4') === -1) player.setAttribute('type', 'application/vnd.apple.mpegurl');
                         player.src = finalUrl; player.load(); player.play().catch(function(){});
