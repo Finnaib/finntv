@@ -920,32 +920,17 @@ http://mhav1.com:2095/live/ht2990/742579548/71938.ts
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1
 http://mhav1.com:2095/live/ht2990/742579548/518.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/125579.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2
 http://mhav1.com:2095/live/ht2990/742579548/519.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2 SD
-http://mhav1.com:2095/live/ht2990/742579548/125580.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ART Cinema" tvg-logo="" group-title="ART ايه ارتى",ART Cinema
 http://mhav1.com:2095/live/ht2990/742579548/520.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ART Cinema SD" tvg-logo="" group-title="ART ايه ارتى",ART Cinema SD
-http://mhav1.com:2095/live/ht2990/742579548/125581.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1
 http://mhav1.com:2095/live/ht2990/742579548/521.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/125582.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2
 http://mhav1.com:2095/live/ht2990/742579548/522.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2 SD
-http://mhav1.com:2095/live/ht2990/742579548/125583.ts
 
 
 ##### [Adoro Club H265 اريدو] #####
@@ -1492,9 +1477,6 @@ http://mhav1.com:2095/live/ht2990/742579548/5339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 6 [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 6 [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5337.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV 7 El Maarifa [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 7 El Maarifa [DZ]
-http://mhav1.com:2095/live/ht2990/742579548/4571.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 8 Edhakira [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 8 Edhakira [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5345.ts
@@ -7063,6 +7045,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4664.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Altaghier[IRAQ]" tvg-logo="" group-title="Iraq - العراق",Altaghier[IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/17578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Altaleaa [IQ]" tvg-logo="" group-title="Iraq - العراق",Altaleaa [IQ]
+http://mhav1.com:2095/live/ht2990/742579548/3313.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Anb[IRAQ]" tvg-logo="" group-title="Iraq - العراق",Anb[IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/3409.ts
@@ -12737,9 +12722,6 @@ http://mhav1.com:2095/live/ht2990/742579548/168110.ts
 #EXTINF:-1 tvg-id="" tvg-name="Panorama FM" tvg-logo="" group-title="Shahid Live شاهد لايف",Panorama FM
 http://mhav1.com:2095/live/ht2990/742579548/168083.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid_ Turkish Drama" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_ Turkish Drama
-http://mhav1.com:2095/live/ht2990/742579548/79426.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Al_Leaba" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Al_Leaba
 http://mhav1.com:2095/live/ht2990/742579548/79429.ts
 
@@ -12748,6 +12730,9 @@ http://mhav1.com:2095/live/ht2990/742579548/79416.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_Bollywood" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Bollywood
 http://mhav1.com:2095/live/ht2990/742579548/79413.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shahid_Drama" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_Drama
+http://mhav1.com:2095/live/ht2990/742579548/79426.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_MBC-Plus-Drama" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_MBC-Plus-Drama
 http://mhav1.com:2095/live/ht2990/742579548/79412.ts
@@ -12773,11 +12758,11 @@ http://mhav1.com:2095/live/ht2990/742579548/79427.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_aflam" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_aflam
 http://mhav1.com:2095/live/ht2990/742579548/79417.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Shahid_alhufra" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_alhufra
-http://mhav1.com:2095/live/ht2990/742579548/79428.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_masrah-misr" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_masrah-misr
 http://mhav1.com:2095/live/ht2990/742579548/79414.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Shahid_mtv-lebanon" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_mtv-lebanon
+http://mhav1.com:2095/live/ht2990/742579548/79428.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-logo="" group-title="Shahid Live شاهد لايف",Spacetoon
 http://mhav1.com:2095/live/ht2990/742579548/168087.ts
@@ -13499,6 +13484,12 @@ http://mhav1.com:2095/live/ht2990/742579548/85242.ts
 #EXTINF:-1 tvg-id="" tvg-name="AL ALAM SYRIA [SY]" tvg-logo="" group-title="Syria - سوريا",AL ALAM SYRIA [SY]
 http://mhav1.com:2095/live/ht2990/742579548/4580.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Araby 2 [AR]" tvg-logo="" group-title="Syria - سوريا",Al Araby 2 [AR]
+http://mhav1.com:2095/live/ht2990/742579548/3314.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ana Sooria [SY]" tvg-logo="" group-title="Syria - سوريا",Ana Sooria [SY]
+http://mhav1.com:2095/live/ht2990/742579548/4583.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Halab Today [SY]" tvg-logo="" group-title="Syria - سوريا",Halab Today [SY]
 http://mhav1.com:2095/live/ht2990/742579548/4585.ts
 
@@ -13508,26 +13499,17 @@ http://mhav1.com:2095/live/ht2990/742579548/4590.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sham TV [SY]" tvg-logo="" group-title="Syria - سوريا",Sham TV [SY]
 http://mhav1.com:2095/live/ht2990/742579548/55040.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Syria 2 [SY]" tvg-logo="" group-title="Syria - سوريا",Syria 2 [SY]
+http://mhav1.com:2095/live/ht2990/742579548/55041.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Syria AlIkhbaria" tvg-logo="" group-title="Syria - سوريا",Syria AlIkhbaria
 http://mhav1.com:2095/live/ht2990/742579548/3316.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Syria Aloula [SY]" tvg-logo="" group-title="Syria - سوريا",Syria Aloula [SY]
 http://mhav1.com:2095/live/ht2990/742579548/3315.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Syria Altaleaa [AR]" tvg-logo="" group-title="Syria - سوريا",Syria Altaleaa [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3313.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Syria Drama [AR]" tvg-logo="" group-title="Syria - سوريا",Syria Drama [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3314.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Syria FM [SY]" tvg-logo="" group-title="Syria - سوريا",Syria FM [SY]
-http://mhav1.com:2095/live/ht2990/742579548/55041.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Syria NEWS [SY]" tvg-logo="" group-title="Syria - سوريا",Syria NEWS [SY]
+#EXTINF:-1 tvg-id="" tvg-name="Syria TV [SY]" tvg-logo="" group-title="Syria - سوريا",Syria TV [SY]
 http://mhav1.com:2095/live/ht2990/742579548/55042.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Syria [SY]" tvg-logo="" group-title="Syria - سوريا",Syria [SY]
-http://mhav1.com:2095/live/ht2990/742579548/4583.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Syria tv2 [SY]" tvg-logo="" group-title="Syria - سوريا",Syria tv2 [SY]
 http://mhav1.com:2095/live/ht2990/742579548/4584.ts
