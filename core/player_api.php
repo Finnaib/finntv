@@ -36,14 +36,20 @@ function json_out($data)
     header('Content-Type: application/json; charset=utf-8');
     $json = json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_INVALID_UTF8_IGNORE);
 
-    // file_put_contents(__DIR__ . '/../debug_json_out.txt', $json);
-
     if ($json === false) {
         $err = 'JSON Encoding Failed: ' . json_last_error_msg();
-        file_put_contents(__DIR__ . '/../debug_json_error.txt', $err);
         echo json_encode(['error' => $err]);
     } else {
-        echo $json;
+        // Compress payload to bypass Vercel 4.5MB limits and fix "stuck on half"
+        if (isset($_SERVER['HTTP_ACCEPT_ENCODING']) && stripos($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip') !== false) {
+            $gz = gzencode($json, 4); // Compression level 4 is fast and effective
+            header('Content-Encoding: gzip');
+            header('Content-Length: ' . strlen($gz));
+            echo $gz;
+        } else {
+            header('Content-Length: ' . strlen($json));
+            echo $json;
+        }
     }
     exit;
 }
