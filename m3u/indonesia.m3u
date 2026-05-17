@@ -127,9 +127,6 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/ind
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/AXN_2011.png/revision/latest?cb=20201126072546" group-title="Indonesia",AXN
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/y4q1ttt/cinemaworld-2-1.png" group-title="Indonesia",Cinemaworld
-https://cdn10jtedge.indihometv.com/atm/DASH/cinemaworld/manifest.mpd
-
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_0.png" group-title="Indonesia",TVN Premium
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
 
@@ -139,47 +136,26 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/096d5cf064294e7ea3a7f59ee2899669/in
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_23.png" group-title="Indonesia",Zee Bioskop
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
 
-#EXTINF:-1 tvg-logo="https://rubbyguntara.github.io/src/img/mca.jpg" group-title="Indonesia",My Cinema Asia
-http://op-group1-swiftservehd-1.dens.tv/h/h193/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Cinema_Asia
-
 #EXTINF:-1 tvg-logo="https://github.com/Qingtvnew/test/raw/main/one.png" group-title="Indonesia",Sony One
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zrxvFLV/images-6-modified.png" group-title="Indonesia",Paramount
-https://cdn10jtedge.indihometv.com/atm/DASH/paramount/manifest.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_9.png" group-title="Indonesia",Buddy Star
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79f8g.png" group-title="Indonesia",HBO
-https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfguXCrrRxsqWxVxUqe-SEEv-mhg9ehi0Rw&s" group-title="Indonesia",HBO
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79nwv.png" group-title="Indonesia",HBO Hits
-https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYRrgJyVxiORjqkL9Wo_HBGNHI6CTWAMtMeQ&s" group-title="Indonesia",HBO HITS
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79otR.png" group-title="Indonesia",HBO Family
-https://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
+#EXTINF:-1 tvg-logo="https://linear-poster.astro.com.my/prod/logo/HBO_Family.png" group-title="Indonesia",HBO FAMILY
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79IMN.png" group-title="Indonesia",HBO Signature
-https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
+#EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_160_115" group-title="Indonesia",HBO Signature
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
 
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79znp.png" group-title="Indonesia",Cinemax
-https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79f8g.png" group-title="Indonesia",HBO
-http://103.58.160.157:8278/720-HBO/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79nwv.png" group-title="Indonesia",HBO Hits
-http://103.58.160.157:8278/720-HBOHITS/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79otR.png" group-title="Indonesia",HBO Family
-http://103.58.160.157:8278/720-HBOFAMILY/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79IMN.png" group-title="Indonesia",HBO Signature
-http://103.58.160.157:8278/720-HBOSIG/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://iili.io/Ju79znp.png" group-title="Indonesia",Cinemax
-http://103.58.160.157:8278/720-CINEMAX/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Indonesia",CINEMAX
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Indonesia",HBO 🇮🇩
 https://cdnjkt913.transvision.co.id/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
@@ -1618,6 +1594,9 @@ https://kusnadipepenk.github.io/ntn/disturbo.m3u8
 #EXTINF:-1 tvg-logo="https://rubbyguntara.github.io/src/img/discoveryasia.png" group-title="Indonesia",Discovery Asia
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch302)/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-BW.png" group-title="Indonesia",Discovery Asia
+https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
+
 #EXTINF:-1 tvg-logo="https://mncvision.id/userfiles/image/channel/NGP_black_150x150px.png" group-title="Indonesia",Nat Geo People HD
 https://cempedak-cdn-fly.mncnow.id/live/eds/NatGeoPeople/sa_dash/NatGeoPeople.mpd|referer=https://www.visionplus.id/
 
@@ -1645,11 +1624,8 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/ind
 #EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_cnnindonesia_small1.png?v=2.0.0.13" group-title="Indonesia",CNN INDONESIA
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
 
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/335/473/png-transparent-cnn-international-fox-news-television-tv-channel-television-text-logo.png" group-title="Indonesia",CNN Int HD
-https://atemecdnbalancer-voe.sysln.id/live/eds/CNNIntHD/mediampd/CNNIntHD.mpd
-
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/aljazeera.png" group-title="Indonesia",Al Jazeera
-https://cdn10jtedge.indihometv.com/atm/DASH/aljazeera/aljazeera-avc1_2500000=7-3277707030000000.mpd
+https://op-group1-swiftservehd-1.dens.tv/h/h143/index2.m3u8?app_type=web&userid=lite&chname=Al_Jazeera_English
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="Indonesia",BBC World
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd
@@ -1673,31 +1649,22 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/in
 https://op-group1-swiftservehd-1.dens.tv/h/h241/02.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/ANIMALPLANET-OTT-88-HD.png" group-title="Indonesia",ANIMAL PLANET
-http://202.169.224.202:8800/udp/239.9.1.7:1234
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animal_planet_sd/default/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/bbc_earth150x150.jpg" group-title="Indonesia",BBC Earth
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_205.png" group-title="Indonesia",CGTN Documentary
-https://cdn10jtedge.indihometv.com/atm/DASH/CGTN_DOCUMENTARY/CGTN_DOCUMENTARY-avc1_2500000=7-3277707030000000.mpd
-
-#EXTINF:-1 tvg-logo="https://iili.io/JmoCv5u.png" group-title="Indonesia",Discovery Channel
-https://atemecdnbalancer-voe.sysln.id/live/eds/DiscoveryHD/mediampd/DiscoveryHD.mpd
-
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/482/735/png-transparent-discovery-channel-television-channel-logo-television-show-others-television-globe-logo.png" group-title="Indonesia",Discovery Channel
-https://cdn08jtedge.indihometv.com/dassdvr/133/disco/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://iili.io/JmoC8Ob.png" group-title="Indonesia",Discovery Asia
-https://cdn08jtedge.indihometv.com/dassdvr/194/discoveryasia/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sQ5GGdW/discoscience.png" group-title="Indonesia",DISCOVERY SCIENCE
-https://varun-iptv.netlify.app/m3u/Discovery_Science.m3u8
+https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/1200px-Nickelodeon_Junior.png" group-title="Indonesia",Nickelodeon Junior
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
 
 #EXTINF:-1 tvg-logo="https://www.citypng.com/public/uploads/preview/hd-nickelodeon-nick-splash-logo-icon-png-701751694710415awui6lgjdm.png?v=2025061816" group-title="Indonesia",Nickelodeon
 https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
+
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/335/473/png-transparent-cnn-international-fox-news-television-tv-channel-television-text-logo.png" group-title="Indonesia",CNN Int HD
+https://atemecdnbalancer-voe.sysln.id/live/eds/CNNIntHD/mediampd/CNNIntHD.mpd
 
 #EXTINF:-1 tvg-logo="https://www.mncvision.id/userfiles/image/channel/bloomberg.png" group-title="Indonesia",Bloomberg
 https://atemecdnbalancer-voe.sysln.id/live/eds/BloombergHD/mediampd/BloombergHD.mpd
@@ -1722,6 +1689,9 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/KBSWorldHD/mediampd/KBSWorldHD.mp
 
 #EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/694/46/png-clipart-animal-planet-logo-icons-logos-emojis-iconic-brands.png" group-title="Indonesia",Animal Planet
 https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mediampd/AnimalPlanetHD.mpd
+
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/482/735/png-transparent-discovery-channel-television-channel-logo-television-show-others-television-globe-logo.png" group-title="Indonesia",Discovery Channel
+https://atemecdnbalancer-voe.sysln.id/live/eds/DiscoveryHD/mediampd/DiscoveryHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/DISCOVERYASIA-OTT-135-BW.png" group-title="Indonesia",Discovery Asia
 https://atemeshield1-voe.sysln.id/live/eds/DiscoveryAsiaHD/mediampd/DiscoveryAsiaHD.mpd
@@ -2218,20 +2188,20 @@ https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016d05592
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/cinemax.jpg" group-title="Indonesia",CINEMAX
 https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/hbo.jpg" group-title="Indonesia",HBO 🇵🇭
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/Ju79f8g.png" group-title="Indonesia",HBO
+https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/hbohits.jpg" group-title="Indonesia",HBO HITS 🇵🇭
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/Ju79nwv.png" group-title="Indonesia",HBO Hits
+https://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/hbofam.jpg" group-title="Indonesia",HBO FAMILY 🇵🇭
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/Ju79otR.png" group-title="Indonesia",HBO Family
+https://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/hbosig.jpg" group-title="Indonesia",HBO SIGNATURE 🇵🇭
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/Ju79IMN.png" group-title="Indonesia",HBO Signature
+https://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/cinemax.jpg" group-title="Indonesia",CINEMAX 🇵🇭
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd
+#EXTINF:-1 tvg-logo="https://iili.io/Ju79znp.png" group-title="Indonesia",Cinemax
+https://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/movies/cinemaworld.jpg" group-title="Indonesia",CINEMAWORLD
 https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016d0555b83e37a3/manifest.mpd
@@ -2526,6 +2496,9 @@ http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/knowledge/cgtndoc.jpg" group-title="Indonesia",CGTN DOC
 https://atemecdnbalancer-voe.sysln.id/live/eds/CGTNDocumentaryHD/mediampd/CGTNDocumentaryHD.mpd
+
+#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/knowledge/discovery.jpg" group-title="Indonesia",DISCOVERY CHANNEL
+https://cdn08jtedge.indihometv.com/dassdvr/133/disco/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/knowledge/discovery.jpg" group-title="Indonesia",DISCOVERY CHANNEL
 https://dtv.vingt.qzz.io/dtv/8238/master.m3u8
@@ -3169,6 +3142,18 @@ http://home-tv.online:80/play/i5Pq38_EynhQK7sHjsHWeRL7CreBaHIahjZjCYjwZoI
 #EXTINF:-1 tvg-logo="http://home-tv.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqmIyRU5r1UatzoqFfSxYpnAn3qAi5b1DZFZtiA63TRCE.png" group-title="Indonesia",CNN INDONESIA
 http://home-tv.online:80/play/i5Pq38_EynhQK7sHjsHWeQT5N-MjBUcpjkI9kYA3C8o
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Indonesia",HBO
+http://103.58.160.157:8278/720-HBO/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Indonesia",HBO HITS
+http://103.58.160.157:8278/720-HBOHITS/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Indonesia",HBO FAMILY
+http://103.58.160.157:8278/720-HBOFAMILY/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Indonesia",CINEMAX
+http://103.58.160.157:8278/720-CINEMAX/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Indonesia",WARNER BROS.TV
 http://103.58.160.157:8278/720-WARNERTV/playlist.m3u8
 
@@ -3249,9 +3234,6 @@ https://malang.staratv.id/hls/0/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Indonesia",Stara TV Parahyangan (720p)
 https://parahyangan.staratv.id/hls/0/stream.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Indonesia",AXN Asia Indonesia (1080p) [Geo-blocked]
-http://103.58.160.157:8278/720-AXN/playlist.m3u8
 
 
 ################################################################################
@@ -3497,6 +3479,9 @@ http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="KIDS 🍭 🎯 🎊",Kids TV
 http://origin5.mediacdn.ru/live/kidstv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS 🍭 🎯 🎊",Nickelodeon Asia Indonesia (720p)
+http://202.169.224.202:8800/udp/239.9.1.17:1234
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gnhn867.png" group-title="KIDS 🍭 🎯 🎊",IndiKids
 http://aflaxtv.xyz:8080/test_acct/ohbo1veifa4AhD/298539
