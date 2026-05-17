@@ -27,7 +27,15 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             box-shadow: 5px 0 20px rgba(0,0,0,0.3);
         }
         .search-container { padding: 15px 20px 5px 20px; background: #0f172a; }
-        .custom-url-container { padding: 5px 20px 15px 20px; background: #0f172a; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; }
+        .custom-url-container { padding: 5px 20px 15px 20px; background: #0f172a; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; flex-wrap: wrap; }
+        #playlist-select { 
+            flex: 1; padding: 10px; width: 100%;
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); 
+            color:#fff; font-size:13px; border-radius: 8px; outline: none; cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #playlist-select:focus { border-color: #3b82f6; background: rgba(255,255,255,0.1); }
+        #playlist-select option { background: #0f172a; color: #fff; }
         #custom-url { 
             flex: 1; padding: 10px; 
             background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); 
@@ -131,8 +139,19 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 <input type="text" id="search" placeholder="Search channels...">
             </div>
             <div class="custom-url-container">
-                <input type="text" id="custom-url" placeholder="Paste custom URL here...">
-                <button id="play-custom" onclick="playCustom()">Play</button>
+                <select id="playlist-select" onchange="playCustom()">
+                    <option value="../m3u/world.m3u">🌍 World Channels</option>
+                    <option value="../m3u/vod.m3u">🍿 Movies (VOD)</option>
+                    <option value="../m3u/series.m3u">🎬 TV Series</option>
+                    <option value="../m3u/asia.m3u">🌏 Asia Channels</option>
+                    <option value="../m3u/egypt.m3u">🦅 Egypt Channels</option>
+                    <option value="../m3u/india.m3u">🇮🇳 India Channels</option>
+                    <option value="../m3u/indonesia.m3u">🇮🇩 Indonesia Channels</option>
+                    <option value="../m3u/sport.m3u">⚽ Sport Channels</option>
+                    <option value="custom">⚙️ Custom URL...</option>
+                </select>
+                <input type="text" id="custom-url" placeholder="Paste custom URL here..." style="display:none;">
+                <button id="play-custom" onclick="playCustom()" style="display:none;">Play</button>
             </div>
             <div class="scroller" id="list">
                 <div style="padding:40px 20px; text-align:center; color:#666;">
@@ -258,12 +277,25 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         }
 
         function playCustom() {
-            var inputUrl = document.getElementById("custom-url").value.trim();
-            if (!inputUrl) return;
+            var select = document.getElementById("playlist-select");
+            var inputUrl = document.getElementById("custom-url");
+            var playBtn = document.getElementById("play-custom");
+            
+            var url = "";
+            if (select.value === "custom") {
+                inputUrl.style.display = "block";
+                playBtn.style.display = "block";
+                url = inputUrl.value.trim();
+                if (!url) return;
+            } else {
+                inputUrl.style.display = "none";
+                playBtn.style.display = "none";
+                url = select.value;
+            }
 
             // Load the custom URL as a playlist
-            document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>Loading Custom Playlist...</div>';
-            loadPlaylist(inputUrl);
+            document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>Loading Playlist...</div>';
+            loadPlaylist(url);
         }
 
         search.oninput = function() {
@@ -285,6 +317,23 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             }
         }
         if (!m3u) m3u = "../m3u/world.m3u";
+        
+        var select = document.getElementById("playlist-select");
+        var found = false;
+        for (var i = 0; i < select.options.length; i++) {
+            if (select.options[i].value === m3u) {
+                select.selectedIndex = i;
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            select.value = "custom";
+            document.getElementById("custom-url").value = m3u;
+            document.getElementById("custom-url").style.display = "block";
+            document.getElementById("play-custom").style.display = "block";
+        }
+
         loadPlaylist(m3u);
     </script>
 </body>

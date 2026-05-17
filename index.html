@@ -555,6 +555,7 @@
                 padding: 2rem 1.2rem;
             }
         }
+
         .categories-showcase {
             max-width: 1400px;
             margin: 0 auto;
@@ -656,7 +657,8 @@
             zero buffering.</p>
         <div class="hero-buttons">
             <a href="user_portal.html" class="btn btn-primary">User Portal</a>
-            <a href="player/index.php" class="btn btn-primary" style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
+            <a href="player/index.php" class="btn btn-primary"
+                style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
             <a href="#categories" class="btn btn-secondary">Explore Categories</a>
         </div>
     </section>
@@ -735,7 +737,8 @@
                 </div>
             </div>
 
-            <div class="category-card" data-url="https://finntv.vercel.app/m3u/indonesia.m3u" data-name="Indonesia Channels">
+            <div class="category-card" data-url="https://finntv.vercel.app/m3u/indonesia.m3u"
+                data-name="Indonesia Channels">
                 <div class="category-icon">🇮🇩</div>
                 <div class="category-info">
                     <h3>Indonesia Channels</h3>
@@ -835,8 +838,8 @@
         function copyToClipboard(text, callback) {
             if (navigator.clipboard && window.isSecureContext) {
                 navigator.clipboard.writeText(text)
-                    .then(function() { callback(true); })
-                    .catch(function() { callback(false); });
+                    .then(function () { callback(true); })
+                    .catch(function () { callback(false); });
                 return;
             }
 
@@ -879,13 +882,13 @@
             toast.innerHTML = '<span class="toast-icon">' + (isError ? '❌' : '✅') + '</span><span>' + message + '</span>';
             document.body.appendChild(toast);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 toast.className += ' show';
             }, 100);
 
-            setTimeout(function() {
+            setTimeout(function () {
                 toast.className = toast.className.replace(' show', '');
-                setTimeout(function() {
+                setTimeout(function () {
                     if (toast.parentNode) {
                         toast.parentNode.removeChild(toast);
                     }
@@ -909,11 +912,11 @@
                 }
 
                 self.style.transform = 'scale(0.95)';
-                setTimeout(function() {
+                setTimeout(function () {
                     self.style.transform = '';
                 }, 200);
 
-                copyToClipboard(url, function(success) {
+                copyToClipboard(url, function (success) {
                     if (success) {
                         showToast(name + ' URL copied to clipboard!');
                     } else {

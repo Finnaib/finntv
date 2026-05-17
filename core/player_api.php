@@ -214,24 +214,15 @@ if ($action === '' || $action === 'get_panel_info') {
             'stream_type' => 'movie',
             'stream_id' => (int) $s['stream_id'],
             'stream_icon' => (string) ($s['stream_icon'] ?? ''),
-            'added' => (string) ($s['added'] ?? time()),
+            'added' => (string) ($s['added'] ?? '0'),
             'category_id' => (string) $s['category_id'],
             'container_extension' => (string) ($s['container_extension'] ?? 'mp4'),
-            'rating' => (string) ($s['rating'] ?? '5'),
+            'rating' => '5',
             'rating_5based' => 5,
-            'custom_sid' => (string) ($s['custom_sid'] ?? ""),
-            'direct_source' => ""
+            'custom_sid' => '',
+            'direct_source' => ''
         ];
 
-        // --- ULTRA-NUCLEAR PRUNING for ALL MOVIES ---
-        // To show ALL 17,897 movies on Vercel, we MUST be ultra-light.
-        if (!$cat_id) {
-            unset($item['added']);
-            unset($item['rating']);
-            unset($item['rating_5based']);
-            // NOTE: NEVER unset container_extension! IPTVSmarters breaks without it!
-            unset($item['direct_source']);
-        }
         $out[] = $item;
     }
     json_out($out);
