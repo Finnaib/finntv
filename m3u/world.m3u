@@ -2247,6 +2247,9 @@ http://mhav1.com:2095/live/ht2990/742579548/9270.ts
 #EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 [DE]" tvg-logo="" group-title="Germany",Eurosport 1 [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3559.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Filme10 [DE]" tvg-logo="" group-title="Germany",Filme10 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/30564.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="HR |DE|" tvg-logo="" group-title="Germany",HR |DE|
 http://mhav1.com:2095/live/ht2990/742579548/23959.ts
 
@@ -2504,9 +2507,6 @@ http://mhav1.com:2095/live/ht2990/742579548/30566.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stern Filme 9 [DE]" tvg-logo="" group-title="Germany",Stern Filme 9 [DE]
 http://mhav1.com:2095/live/ht2990/742579548/30565.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Stern Filme10 [DE]" tvg-logo="" group-title="Germany",Stern Filme10 [DE]
-http://mhav1.com:2095/live/ht2990/742579548/30564.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Super RTL HD [DE]" tvg-logo="" group-title="Germany",Super RTL HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3519.ts
