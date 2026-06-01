@@ -357,26 +357,31 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         // Smart dual-format: try m3u8, fall back to .ts on error
                         function tryPlay(url, fallbackUrl) {
                             player.src = url;
-                            player.load();
-                            var playPromise = player.play();
-                            if (playPromise !== undefined) {
-                                playPromise.catch(function() {
-                                    if (fallbackUrl && fallbackUrl !== url) {
-                                        grpText.innerText = c.g + ' (trying .ts...)';
-                                        player.src = fallbackUrl;
-                                        player.load();
-                                        player.play().catch(function() {
-                                            grpText.innerText = c.g + ' (stream unavailable)';
-                                        });
-                                    }
-                                });
+                            var fired = false;
+                            
+                            function onErr() {
+                                if (fired) return;
+                                fired = true;
+                                player.removeEventListener('error', onErr);
+                                if (fallbackUrl && fallbackUrl !== url) {
+                                    grpText.innerText = c.g + ' (switching format...)';
+                                    tryPlay(fallbackUrl, null);
+                                } else {
+                                    grpText.innerText = c.g + ' (stream unavailable)';
+                                }
+                            }
+                            
+                            player.addEventListener('error', onErr);
+                            var p = player.play();
+                            if (p !== undefined) {
+                                p.catch(function() { onErr(); });
                             }
                         }
                         
-                        // Determine proxy need (http streams need proxy for https pages)
-                        var needsProxy = urlM3u8.indexOf('http:') !== -1;
-                        var finalM3u8 = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(urlM3u8))) : urlM3u8;
-                        var finalTs   = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(urlTs))) : urlTs;
+                        // ALWAYS use proxy — it rewrites HTTP segment URLs so browser doesn't block mixed content
+                        var proxyBase = '/api/stream_proxy.php?url=';
+                        var finalM3u8 = proxyBase + encodeURIComponent(btoa(urlM3u8));
+                        var finalTs   = proxyBase + encodeURIComponent(btoa(urlTs));
                         
                         tryPlay(finalM3u8, finalTs);
                     };
