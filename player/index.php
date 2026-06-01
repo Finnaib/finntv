@@ -308,7 +308,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         function render() {
             list.innerHTML = "";
             var frag = document.createDocumentFragment();
-            var limit = Math.min(filtered.length, 500);
+            var limit = Math.min(filtered.length, 5000);
             for (var i=0; i<limit; i++) {
                 (function(c) {
                     var el = document.createElement("div");

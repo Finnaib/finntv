@@ -1,5 +1,4 @@
 @echo off
-chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ========================================
@@ -26,16 +25,22 @@ if not exist "%SCRIPT_FILE%" (
 for %%F in ("%M3U_DIR%\*.m3u") do (
     set "filename=%%~nF"
     
-    :: Skip live.m3u, vod.m3u, and series.m3u
+    :: Skip raw/external files - only reorganize Xtream-sourced files
     if /i not "!filename!"=="live" (
         if /i not "!filename!"=="vod" (
             if /i not "!filename!"=="series" (
-                echo Processing: %%~nxF
-                powershell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_FILE%" -InputFile "%%F"
-                if !errorlevel! neq 0 (
-                    echo   Error processing %%~nxF
+                if /i not "!filename!"=="spanish" (
+                    if /i not "!filename!"=="asia" (
+                        if /i not "!filename!"=="indonesia" (
+                            echo Processing: %%~nxF
+                            powershell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_FILE%" -InputFile "%%F"
+                            if !errorlevel! neq 0 (
+                                echo   Error processing %%~nxF
+                            )
+                            echo.
+                        )
+                    )
                 )
-                echo.
             )
         )
     )

@@ -1,5 +1,4 @@
-﻿#EXTM3U
-
+#EXTM3U
 
 ################################################################################
 # Alkass Sports
@@ -58,7 +57,6 @@ http://mhav1.com:2095/live/ht2990/742579548/185024.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 8 HD" tvg-logo="" group-title="Alkass Sports",BeIN Alkass 8 HD
 http://mhav1.com:2095/live/ht2990/742579548/185025.m3u8
-
 
 ################################################################################
 # Alwan Sports
@@ -136,7 +134,6 @@ http://mhav1.com:2095/live/ht2990/742579548/241384.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Alwan UFC 4K" tvg-logo="" group-title="Alwan Sports",Alwan UFC 4K
 http://mhav1.com:2095/live/ht2990/742579548/241386.m3u8
 
-
 ################################################################################
 # Arabic Sports
 ################################################################################
@@ -188,202 +185,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2534.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_News" tvg-logo="" group-title="Arabic Sports",beIN_Sport_News
 http://mhav1.com:2095/live/ht2990/742579548/2799.m3u8
-
-
-################################################################################
-# beIN Sports 4K
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS1_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS1_4K
-http://mhav1.com:2095/live/ht2990/742579548/59331.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS2_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS2_4K
-http://mhav1.com:2095/live/ht2990/742579548/59332.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS3_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS3_4K
-http://mhav1.com:2095/live/ht2990/742579548/59334.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS4_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS4_4K
-http://mhav1.com:2095/live/ht2990/742579548/59337.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS5_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS5_4K
-http://mhav1.com:2095/live/ht2990/742579548/59338.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS6_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS6_4K
-http://mhav1.com:2095/live/ht2990/742579548/59339.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS7_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS7_4K
-http://mhav1.com:2095/live/ht2990/742579548/59341.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS8_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS8_4K
-http://mhav1.com:2095/live/ht2990/742579548/59343.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS9_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS9_4K
-http://mhav1.com:2095/live/ht2990/742579548/59344.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS_1 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74006.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS_2 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74007.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS_3 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74008.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS_4 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74009.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS_5 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74010.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS_6 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74011.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS_7 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74012.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS_8 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74013.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS_9 FHD
-http://mhav1.com:2095/live/ht2990/742579548/74014.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS_1_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46028.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS_2_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46029.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS_3_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46030.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS_4_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46031.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS_5_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46032.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS_6_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46033.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS_7_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46034.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS_8_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46035.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS_9_1080FHD
-http://mhav1.com:2095/live/ht2990/742579548/46036.m3u8
-
-
-################################################################################
-# beIN Sports HD
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_1HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN Sports HD",beIN_1HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2449.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_1_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports HD",beIN_1_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3177.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_2HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/2.png" group-title="beIN Sports HD",beIN_2HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2454.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_2_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports HD",beIN_2_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3178.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_3HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/3.png" group-title="beIN Sports HD",beIN_3HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2455.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_3_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports HD",beIN_3_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3179.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_4HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/4.png" group-title="beIN Sports HD",beIN_4HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2442.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_4_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports HD",beIN_4_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3170.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_5HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/5.png" group-title="beIN Sports HD",beIN_5HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2443.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_5_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports HD",beIN_5_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3171.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_6HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/6.png" group-title="beIN Sports HD",beIN_6HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2444.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_6_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports HD",beIN_6_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3172.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_7HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/7.png" group-title="beIN Sports HD",beIN_7HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2445.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_7_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports HD",beIN_7_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3173.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_8HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/8.png" group-title="beIN Sports HD",beIN_8HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2446.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_8_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports HD",beIN_8_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3174.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_9HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN Sports HD",beIN_9HD_1080p
-http://mhav1.com:2095/live/ht2990/742579548/2447.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_9_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports HD",beIN_9_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3175.m3u8
-
-
-################################################################################
-# beIN Xtra
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_1080p" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_1080p
-http://mhav1.com:2095/live/ht2990/742579548/3246.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_HD720
-http://mhav1.com:2095/live/ht2990/742579548/3613.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_Low
-http://mhav1.com:2095/live/ht2990/742579548/25.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_VEGA
-http://mhav1.com:2095/live/ht2990/742579548/3844.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_1080p" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_1080p
-http://mhav1.com:2095/live/ht2990/742579548/40532.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_HD720
-http://mhav1.com:2095/live/ht2990/742579548/40531.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_Low
-http://mhav1.com:2095/live/ht2990/742579548/89760.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_VEGA
-http://mhav1.com:2095/live/ht2990/742579548/31153.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_1080
-http://mhav1.com:2095/live/ht2990/742579548/214704.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_HD720
-http://mhav1.com:2095/live/ht2990/742579548/115382.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_Low
-http://mhav1.com:2095/live/ht2990/742579548/115381.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_VEGA
-http://mhav1.com:2095/live/ht2990/742579548/115383.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_1080
-http://mhav1.com:2095/live/ht2990/742579548/214705.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_HD720
-http://mhav1.com:2095/live/ht2990/742579548/214711.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_Low
-http://mhav1.com:2095/live/ht2990/742579548/214698.m3u8
-
 
 ################################################################################
 # KSA Sports
@@ -439,7 +240,6 @@ http://mhav1.com:2095/live/ht2990/742579548/33096.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="[AR]KSA_SPORTS3" tvg-logo="" group-title="KSA Sports",[AR]KSA_SPORTS3
 http://mhav1.com:2095/live/ht2990/742579548/3603.m3u8
-
 
 ################################################################################
 # Live Sports
@@ -535,7 +335,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4686.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 3 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 3 | Event Only |
 http://mhav1.com:2095/live/ht2990/742579548/673.m3u8
 
-
 ################################################################################
 # ON Sport
 ################################################################################
@@ -615,9 +414,201 @@ http://mhav1.com:2095/live/ht2990/742579548/267084.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON Sport",ON Sport Plus SD
 http://mhav1.com:2095/live/ht2990/742579548/278700.m3u8
 
+################################################################################
+# beIN Sports 4K
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS1_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS1_4K
+http://mhav1.com:2095/live/ht2990/742579548/59331.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS2_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS2_4K
+http://mhav1.com:2095/live/ht2990/742579548/59332.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS3_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS3_4K
+http://mhav1.com:2095/live/ht2990/742579548/59334.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS4_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS4_4K
+http://mhav1.com:2095/live/ht2990/742579548/59337.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS5_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS5_4K
+http://mhav1.com:2095/live/ht2990/742579548/59338.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS6_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS6_4K
+http://mhav1.com:2095/live/ht2990/742579548/59339.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS7_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS7_4K
+http://mhav1.com:2095/live/ht2990/742579548/59341.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS8_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS8_4K
+http://mhav1.com:2095/live/ht2990/742579548/59343.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS9_4K" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS9_4K
+http://mhav1.com:2095/live/ht2990/742579548/59344.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS_1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74006.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS_2 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74007.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS_3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74008.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS_4 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74009.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS_5 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74010.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS_6 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74011.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS_7 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74012.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS_8 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74013.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9 FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS_9 FHD
+http://mhav1.com:2095/live/ht2990/742579548/74014.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports 4K",beIN_SPORTS_1_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46028.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports 4K",beIN_SPORTS_2_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46029.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports 4K",beIN_SPORTS_3_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46030.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports 4K",beIN_SPORTS_4_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46031.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports 4K",beIN_SPORTS_5_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46032.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports 4K",beIN_SPORTS_6_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46033.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports 4K",beIN_SPORTS_7_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46034.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports 4K",beIN_SPORTS_8_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46035.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9_1080FHD" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports 4K",beIN_SPORTS_9_1080FHD
+http://mhav1.com:2095/live/ht2990/742579548/46036.m3u8
 
 ################################################################################
-# Uncategorized
+# beIN Sports HD
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_1HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN Sports HD",beIN_1HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2449.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_1_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be1.png" group-title="beIN Sports HD",beIN_1_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3177.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_2HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/2.png" group-title="beIN Sports HD",beIN_2HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2454.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_2_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be2.png" group-title="beIN Sports HD",beIN_2_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3178.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_3HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/3.png" group-title="beIN Sports HD",beIN_3HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2455.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_3_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be3.png" group-title="beIN Sports HD",beIN_3_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3179.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_4HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/4.png" group-title="beIN Sports HD",beIN_4HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2442.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_4_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be4.png" group-title="beIN Sports HD",beIN_4_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3170.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_5HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/5.png" group-title="beIN Sports HD",beIN_5HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2443.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_5_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be5.png" group-title="beIN Sports HD",beIN_5_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3171.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_6HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/6.png" group-title="beIN Sports HD",beIN_6HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2444.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_6_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be6.png" group-title="beIN Sports HD",beIN_6_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3172.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_7HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/7.png" group-title="beIN Sports HD",beIN_7HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2445.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_7_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN Sports HD",beIN_7_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3173.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_8HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/8.png" group-title="beIN Sports HD",beIN_8HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2446.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_8_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN Sports HD",beIN_8_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3174.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_9HD_1080p" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN Sports HD",beIN_9HD_1080p
+http://mhav1.com:2095/live/ht2990/742579548/2447.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_9_HD720" tvg-logo="http://images.vega-xt-mh.com/bein/be9.png" group-title="beIN Sports HD",beIN_9_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3175.m3u8
+
+################################################################################
+# beIN Xtra
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_1080p" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_1080p
+http://mhav1.com:2095/live/ht2990/742579548/3246.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/3613.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/25.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_1Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_1Xtra_VEGA
+http://mhav1.com:2095/live/ht2990/742579548/3844.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_1080p" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_1080p
+http://mhav1.com:2095/live/ht2990/742579548/40532.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/40531.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/89760.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_2Xtra_VEGA
+http://mhav1.com:2095/live/ht2990/742579548/31153.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214704.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/115382.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/115381.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3Xtra_VEGA" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_3Xtra_VEGA
+http://mhav1.com:2095/live/ht2990/742579548/115383.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214705.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214711.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214698.m3u8
+
+
+################################################################################
+# EXTERNAL: Sports CHANNELS
 ################################################################################
 
 #EXTINF:-1, BEIN SPORT 1 🇶🇦
@@ -1051,3 +1042,4 @@ http://stvlive.net:8080/sonyten5/index.m3u8
 
 #EXTINF:11,ESPN 2 🇦🇷
 http://45.228.234.30:16000/play/a01l/index.m3u8
+

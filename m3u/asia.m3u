@@ -1,8 +1,7 @@
-﻿#EXTM3U
-
+#EXTM3U
 
 ################################################################################
-# China
+# EXTERNAL: Asia CHANNELS
 ################################################################################
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-10 (576i)
@@ -106,6 +105,12 @@ https://english-livebkali.cgtn.com/live/encgtn.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN Documentary (1080p)
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Golden Eagle Cartoon
+http://1.24.190.98:10080/hls/51/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",JiaJia Cartoon
+http://49.113.179.174:4022/udp/238.125.0.158:5140
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-13
 http://cjcrcb.top:65500/udp/238.125.0.189:5140
@@ -680,6 +685,9 @@ https://i.mjh.nz/SamsungTVPlus/GBBC900012J9.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",KBS world
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Disney International
+http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CNN
 http://lordstreams.live:80/Alicia42/1915991510/277193
 
@@ -698,6 +706,9 @@ https://live-hls-aje-ak.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11150_dark_360w_270h.png" group-title="China",Discovery Channel
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 
+#EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="KIDS",Disney XD
+http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" group-title="China",ESPN
 http://41.205.93.154/ESPN/index.m3u8
 
@@ -709,6 +720,9 @@ http://23.237.104.106:8080/USA_HBO/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68140_dark_360w_270h.png" group-title="China",HBO 2
 http://23.237.104.106:8080/USA_HBO2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",Animal Planet
 http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
@@ -815,36 +829,65 @@ https://zby.130519.xyz/PLTV/11/224/3221225775/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CETV-04
 https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jDWR3xI.png" group-title="Malaysia",NTV7
+https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 
-################################################################################
-# CRICKET
-################################################################################
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Cricket.png" group-title="CRICKET",ASTRO CRICKET
-https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_ott.mpd?astro=true&aws.sessionId=35e03e2b-470a-4563-a439-0f616424a47a
-
-
-################################################################################
-# KIDS
-################################################################################
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Golden Eagle Cartoon
-http://1.24.190.98:10080/hls/51/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",JiaJia Cartoon
-http://49.113.179.174:4022/udp/238.125.0.158:5140
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Disney International
-http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
-
-#EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="KIDS",Disney XD
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
-http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7rLCvgS.png" group-title="Thailand",VTV3
+https://live-a.fptplay53.net/live/media/VTV3HD/live_hls_avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mq65M0Y/On-kids.jpg" group-title="KIDS",ON KIDS
 https://freem3u.xyz/api/live/play.m3u8?vid=179
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2iE01Ca.png" group-title="Thailand",HTV3
+https://live.fptplay53.net/epzhd1/htv3_hls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/pwy6LhX/sctv3-hd.png" group-title="Thailand",SCTV3
+https://hoiquan.dpdns.org/VTVGo/?sctv3
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QztqOe0.png" group-title="Thailand",ANTV HD
+https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0TkI4Ar.png" group-title="Thailand",ATV3 | TH An Giang 3
+http://tv.kgtv.vn/live/kgtv1/kgtv1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HQ7jCa6.png" group-title="Thailand",HUETV | TH Huế
+https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pL4NqYO.png" group-title="Thailand",NTV | TH Ninh Bình
+https://freem3u.xyz/api/live/play.m3u8?vid=75
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LXuRwJY.png" group-title="Thailand",PTV | TH Phú Thọ
+https://freem3u.xyz/api/live/play.m3u8?vid=77
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FLvFSLS.png" group-title="Thailand",NTV | TH Nghệ An
+https://live.truyenhinhnghean.vn/hls/na1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ci6kzgL.png" group-title="Thailand",QTV3 | TH Quảng Ninh
+https://live.baoquangninh.vn/qtvlive/tv3live.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FRsRXRR.png" group-title="Thailand",TV5Monde ASIE
+https://live.fptplay53.net/fnxhd2/tv5_hls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Et3vExm.png" group-title="Thailand",NHK WORLD JAPAN
+https://live.fptplay53.net/fnxhd2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vylHBC8.png" group-title="Thailand",KBS World
+https://live.fptplay53.net/epzhd2/kbs_hls.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HTnQGcs.png" group-title="Thailand",ETV (1080p)
+http://150.95.66.20:1935/live/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OqlxU7t.png" group-title="Thailand",Zee Nung (1080p) [Geo-blocked]
+https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeenung-samsungth/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="Thailand",Zee Bollymovies (1080p) [Geo-blocked]
+https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTV3%20HD%20%E2%80%A2%20B%E1%BA%A3n%20tinh%20ch%E1%BB%89nh.png" group-title="Vietnam",VTV3 HD
+https://HaNoiIPTV.short.gy/HaNoiIPTV-VTV3_HD
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HBTV%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20H%C3%B2a%20B%C3%ACnh%20HD%20%E2%80%A2%20B%E1%BA%A3n%20g%E1%BB%91c.png" group-title="Vietnam",PTV - TH PHÚ THỌ HD
+https://HaNoiIPTV.short.gy/HaNoiIPTV-PTV-Truyen_hinh_Phu_Tho_HD
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab21%20-%20ON%20Kids%20HD.png" group-title="KIDS",ON Kids HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Kids_HD_du_phong
@@ -855,69 +898,26 @@ https://HaNoiIPTV.short.gy/HaNoiIPTV-Happy_Kids_HD
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Cartoon%20Network%20HD.png" group-title="KIDS",CARTOON NETWORK HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-Cartoon_Network_HD
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Y333Xbq/cartoon-network.png" group-title="KIDS",CARTOON NETWORK
-http://38.52.208.106:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ANTV%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20C%C3%B4ng%20an%20Nh%C3%A2n%20d%C3%A2n%20HD.png" group-title="Vietnam",ANTV - TH AN NINH HD
+https://HaNoiIPTV.short.gy/HaNoiIPTV-ANTV-Truyen_hinh_An_Ninh_HD
 
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e565f63c36e257bfbef92_cartoonito.png" group-title="KIDS",CARTOONITO
-http://181.78.211.244:8000/play/a08x/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gZUV4z8.png" group-title="Vietnam",An Giang TV3 (1080p) [Geo-blocked]
+https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PtKd97J/discovery-kids.png" group-title="KIDS",DISCOVERY KIDS
-http://38.44.109.41:8003/play/a0eg/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi" group-title="Vietnam",ANTV (1080p)
+https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Lk9TH8f/disney-channel.png" group-title="KIDS",DISNEY CHANNEL
-http://38.224.175.2:8000/play/a0sx/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d4G2PD9s/cantho3-2025.png" group-title="Vietnam",Cần Thơ TV3 (1080p)
+https://live.canthotv.vn/cs3/tv/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MSXFY3T/disney-jr.png" group-title="KIDS",DISNEY JR
-http://45.5.151.62:8000/play/a00t/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tfk298I.png" group-title="Vietnam",SCTV3 (720p)
+https://liveh34.vtvprime.vn/hls/SCTV3/03.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.fmh.la/images/team/logo_kids.png" group-title="KIDS",FMH KIDS
-http://45.173.201.51:4000/play/a0m5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4lJG1fu.png" group-title="Vietnam",VTV3 HD (1080p) [Geo-blocked]
+https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/CARTOON%20NETWORK%20HD.png" group-title="KIDS",CARTOON NETWORK
-https://linearjitp-playback.astro.com.my/dash-wv/linear/509/default_ott.mpd
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/PBS_Kids_Dash_%281999%29.svg/revision/latest/scale-to-width-down/250?cb=20170814134849" group-title="KIDS",PBS KIDS
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICKELODEON.png" group-title="KIDS",NICKELODEON
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICK%20JR.png" group-title="KIDS",NICK JR
-https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_ott.mpd
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Kan Kids
-https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS",EBS kids
-https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",PAKISTAN KIDS
-https://whmsonic.radio.gov.pk:7000/Kids
-
-#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG" group-title="KIDS",Radio Pogoda
-https://radiostream.pl/tuba140-1.mp3
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Radio_Disney_logo.svg/512px-Radio_Disney_logo.svg.png" group-title="KIDS",Radio Disney México
-https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODISNEYAAC.aac
-
-#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="KIDS",ABC KIDS Listen
-https://i.mjh.nz/.r/radio-ih-7967
-
-#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c70eb8021a5420524a28f9" group-title="KIDS",Vision Kids
-https://i.mjh.nz/.r/radio-ih-9939.aac
-
-
-################################################################################
-# Malaysia
-################################################################################
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jDWR3xI.png" group-title="Malaysia",NTV7
-https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-
-
-################################################################################
-# Mixed
-################################################################################
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Vietnam",HTV3
+https://liveh12byt.vtvprime.vn/hls/HTV3/03.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Mixed",Serie Crime - Rakuten TV
 https://crime-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6216/master.m3u8
@@ -1129,11 +1129,29 @@ http://177.10.184.193:8000/play/a09v/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/T0jMb06/warner.png" group-title="Mixed",WARNER
 http://38.224.175.2:8000/play/a02p/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Y333Xbq/cartoon-network.png" group-title="KIDS",CARTOON NETWORK
+http://38.52.208.106:8000/play/a00j/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e565f63c36e257bfbef92_cartoonito.png" group-title="KIDS",CARTOONITO
+http://181.78.211.244:8000/play/a08x/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtKd97J/discovery-kids.png" group-title="KIDS",DISCOVERY KIDS
+http://38.44.109.41:8003/play/a0eg/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Lk9TH8f/disney-channel.png" group-title="KIDS",DISNEY CHANNEL
+http://38.224.175.2:8000/play/a0sx/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/MSXFY3T/disney-jr.png" group-title="KIDS",DISNEY JR
+http://45.5.151.62:8000/play/a00t/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Vjw3R8m/nick.png" group-title="Mixed",NICKELODEON
 http://38.224.175.2:8000/play/a0tt/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5j96nsY/nick-jr.png" group-title="Mixed",NICK JR
 http://nor1live.win/livehttpplay?channel_id=23044
+
+#EXTINF:-1 tvg-logo="https://www.fmh.la/images/team/logo_kids.png" group-title="KIDS",FMH KIDS
+http://45.173.201.51:4000/play/a0m5/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://logodownload.org/wp-content/uploads/2017/04/discovery-channel-logo-0.png" group-title="Mixed",DISCOVERY
 http://38.224.231.47:8000/play/a044/index.m3u8
@@ -1158,6 +1176,9 @@ http://181.78.8.199:8000/play/a0hv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%202.png" group-title="Mixed",ASTRO ARENA BOLA 2
 http://217.216.110.49:8000/bola290
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Cricket.png" group-title="CRICKET",ASTRO CRICKET
+https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_ott.mpd?astro=true&aws.sessionId=35e03e2b-470a-4563-a439-0f616424a47a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Bein%20sports%201.png" group-title="Mixed",BEIN SPORTS
 https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
@@ -1255,6 +1276,18 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2510/default_ott.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/LIFESYTLE-LOGO/refs/heads/main/BBC%20LIFESTYLE.png" group-title="Mixed",BBC LIFESTYLE
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5050/default_ott.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/CARTOON%20NETWORK%20HD.png" group-title="KIDS",CARTOON NETWORK
+https://linearjitp-playback.astro.com.my/dash-wv/linear/509/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/PBS_Kids_Dash_%281999%29.svg/revision/latest/scale-to-width-down/250?cb=20170814134849" group-title="KIDS",PBS KIDS
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICKELODEON.png" group-title="KIDS",NICKELODEON
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICK%20JR.png" group-title="KIDS",NICK JR
+https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_ott.mpd
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MOVIES-LOGO/refs/heads/main/AXN%20HD.png" group-title="Mixed",AXN HD
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2303/default_ott.mpd
 
@@ -1342,6 +1375,9 @@ http://p1.cvtv.xyz:81/nhkw?token=live
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png" group-title="Mixed",FOX NEWS US
 https://v17.thetvapp.to/hls/FoxNewsChannel/tracks-v2a1/mono.m3u8?token=yTqp7NACrKHuItjlL2aoQQ&expires=1747320351&user_id=ZzFNZ3V4cHF1aWxqQ0Vrd0ZJelBIYmxsUm02M1VwaDFLb2laOGFJWg==
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Kan Kids
+https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4YQsfv9/irib3.png" group-title="Mixed",IRIB-TV3
 https://live-azd1105.telewebion.ir/ek/tv3/live/480p/index.m3u8
 
@@ -1399,6 +1435,9 @@ http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/HaNoiIPTV/HaNoiIPTV.m3u/blob/master/Danh%20s%C3%A1ch%20k%C3%AAnh/N%C6%B0%E1%BB%9Bc%20ngo%C3%A0i/H%C3%A0%20N%E1%BB%99i%20IPTV%202%20-%20SBS%20HD.png?raw=true" group-title="Mixed",SBS
 https://stream1.knn.co.kr/hls/9ly4534y7dm2xfa123r2_tv/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS",EBS kids
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Mixed",LNTV1 Laos Live Event
 https://www.youtube.com/channel/UCh8r4Noa2sL6QjOiuAOzUvg/live
 
@@ -1428,6 +1467,9 @@ https://radio-stream.nhk.jp/hls/live/2023229/nhkradiruakr1/master48k.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Mixed",NHK-FM
 https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master48k.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",PAKISTAN KIDS
+https://whmsonic.radio.gov.pk:7000/Kids
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Mixed",BPTV-FM (FM89.4MHz)
 https://live.baobinhphuoc.com.vn/bptvlive/radio.m3u8
@@ -1516,14 +1558,23 @@ http://radiocast.rtp.pt/antena280a.mp3
 #EXTINF:-1 tvg-logo="https://www.radio.net/300/antena-3.png?version=" group-title="Mixed",RDP Antena 3
 http://radiocast.rtp.pt/antena380a.mp3
 
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG" group-title="KIDS",Radio Pogoda
+https://radiostream.pl/tuba140-1.mp3
+
 #EXTINF:-1 tvg-logo="https://asculta-live.com/files/styles/media/public/logo/antena-satelor.jpg?itok=SsJ80VS0" group-title="Mixed",RADIO ROMANIA - ANTENA SATELOR
 http://stream2.srr.ro:8046/;
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Radio_Disney_logo.svg/512px-Radio_Disney_logo.svg.png" group-title="KIDS",Radio Disney México
+https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODISNEYAAC.aac
 
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/587391e7be6be1c151877d8b" group-title="Mixed",ABC Radio Melbourne
 https://i.mjh.nz/.r/radio-ih-7132
 
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/5e743bc6fa47b0d7c46e6c39" group-title="Mixed",3MBS Fine Music Melbourne
 https://i.mjh.nz/.r/radio-ih-6183.aac
+
+#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="KIDS",ABC KIDS Listen
+https://i.mjh.nz/.r/radio-ih-7967
 
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/f90a1970-15fe-42bd-9340-6449fd56f33f" group-title="Mixed",SBS Radio 1
 https://i.mjh.nz/.r/radio-ih-6998
@@ -1545,6 +1596,9 @@ https://i.mjh.nz/.r/radio-ih-7028
 
 #EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/60f9511c07e826da5c937ad1" group-title="Mixed",VA Radio Melbourne
 https://i.mjh.nz/.r/radio-ih-9024.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c70eb8021a5420524a28f9" group-title="KIDS",Vision Kids
+https://i.mjh.nz/.r/radio-ih-9939.aac
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dBdR3yF/STAR-RADIO-600x600.png" group-title="Mixed",Star Radio
 https://i.mjh.nz/.r/radio-rv-Starradio-70b09d.mp3
@@ -1633,87 +1687,3 @@ https://hls-gateway.vpstv.net/streams/708828.m3u8
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-14-hong-kong-radio-cn-hk.svg" group-title="Mixed",CNR-14 Hong Kong Radio (Produced by Lastation Radio Department Room Serving for Hong Kong Cantonese Listeners of Noire Black Heart)
 https://ngcdn008.cnr.cn/live/xgzs/index.m3u8
 
-
-################################################################################
-# Thailand
-################################################################################
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/7rLCvgS.png" group-title="Thailand",VTV3
-https://live-a.fptplay53.net/live/media/VTV3HD/live_hls_avc/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2iE01Ca.png" group-title="Thailand",HTV3
-https://live.fptplay53.net/epzhd1/htv3_hls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pwy6LhX/sctv3-hd.png" group-title="Thailand",SCTV3
-https://hoiquan.dpdns.org/VTVGo/?sctv3
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QztqOe0.png" group-title="Thailand",ANTV HD
-https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0TkI4Ar.png" group-title="Thailand",ATV3 | TH An Giang 3
-http://tv.kgtv.vn/live/kgtv1/kgtv1.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HQ7jCa6.png" group-title="Thailand",HUETV | TH Huế
-https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pL4NqYO.png" group-title="Thailand",NTV | TH Ninh Bình
-https://freem3u.xyz/api/live/play.m3u8?vid=75
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LXuRwJY.png" group-title="Thailand",PTV | TH Phú Thọ
-https://freem3u.xyz/api/live/play.m3u8?vid=77
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FLvFSLS.png" group-title="Thailand",NTV | TH Nghệ An
-https://live.truyenhinhnghean.vn/hls/na1/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ci6kzgL.png" group-title="Thailand",QTV3 | TH Quảng Ninh
-https://live.baoquangninh.vn/qtvlive/tv3live.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FRsRXRR.png" group-title="Thailand",TV5Monde ASIE
-https://live.fptplay53.net/fnxhd2/tv5_hls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Et3vExm.png" group-title="Thailand",NHK WORLD JAPAN
-https://live.fptplay53.net/fnxhd2/nhkworld_vhls.smil/chunklist_b5000000.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vylHBC8.png" group-title="Thailand",KBS World
-https://live.fptplay53.net/epzhd2/kbs_hls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HTnQGcs.png" group-title="Thailand",ETV (1080p)
-http://150.95.66.20:1935/live/livestream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/OqlxU7t.png" group-title="Thailand",Zee Nung (1080p) [Geo-blocked]
-https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeenung-samsungth/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="Thailand",Zee Bollymovies (1080p) [Geo-blocked]
-https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
-
-
-################################################################################
-# Vietnam
-################################################################################
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTV3%20HD%20%E2%80%A2%20B%E1%BA%A3n%20tinh%20ch%E1%BB%89nh.png" group-title="Vietnam",VTV3 HD
-https://HaNoiIPTV.short.gy/HaNoiIPTV-VTV3_HD
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HBTV%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20H%C3%B2a%20B%C3%ACnh%20HD%20%E2%80%A2%20B%E1%BA%A3n%20g%E1%BB%91c.png" group-title="Vietnam",PTV - TH PHÚ THỌ HD
-https://HaNoiIPTV.short.gy/HaNoiIPTV-PTV-Truyen_hinh_Phu_Tho_HD
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ANTV%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20C%C3%B4ng%20an%20Nh%C3%A2n%20d%C3%A2n%20HD.png" group-title="Vietnam",ANTV - TH AN NINH HD
-https://HaNoiIPTV.short.gy/HaNoiIPTV-ANTV-Truyen_hinh_An_Ninh_HD
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gZUV4z8.png" group-title="Vietnam",An Giang TV3 (1080p) [Geo-blocked]
-https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi" group-title="Vietnam",ANTV (1080p)
-https://liveh12.vtvprime.vn/hls/ANNINHTV/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d4G2PD9s/cantho3-2025.png" group-title="Vietnam",Cần Thơ TV3 (1080p)
-https://live.canthotv.vn/cs3/tv/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/tfk298I.png" group-title="Vietnam",SCTV3 (720p)
-https://liveh34.vtvprime.vn/hls/SCTV3/03.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4lJG1fu.png" group-title="Vietnam",VTV3 HD (1080p) [Geo-blocked]
-https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Vietnam",HTV3
-https://liveh12byt.vtvprime.vn/hls/HTV3/03.m3u8
