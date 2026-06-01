@@ -1,1077 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>FinnTV - Your Premium IPTV Experience</title>
+    <title>FinnTV - Premium Streaming</title>
     <style>
+        :root {
+            --bg-color: #060913;
+            --nav-bg: rgba(6, 9, 19, 0.85);
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.05);
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #0a0a0a;
-            color: #fff;
+            background-color: var(--bg-color);
+            color: var(--text-main);
             overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
         }
 
-        .bg-animation {
+        /* Netflix/iQIYI style Top Nav */
+        header {
             position: fixed;
             top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #0f4c81 0%, #1a6bb3 50%, #0d3a5f 100%);
-            z-index: -1;
-        }
-
-        .bg-animation::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background:
-                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(26, 107, 179, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 40% 80%, rgba(15, 76, 129, 0.2) 0%, transparent 50%);
-            animation: float 20s ease-in-out infinite;
-        }
-
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translate(0, 0) rotate(0deg);
-            }
-
-            33% {
-                transform: translate(30px, -50px) rotate(120deg);
-            }
-
-            66% {
-                transform: translate(-20px, 20px) rotate(240deg);
-            }
-        }
-
-        header {
-            position: relative;
-            padding: 2rem;
-            background: rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        nav {
-            max-width: 1400px;
-            margin: 0 auto;
+            padding: 20px 40px;
+            background: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 100;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-bottom: 1px solid var(--card-border);
+            transition: all 0.3s ease;
         }
 
-        .logo {
-            font-size: 2.5rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .brand {
+            font-size: 28px;
+            font-weight: 900;
+            color: #60a5fa;
+            text-transform: uppercase;
             letter-spacing: 2px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .nav-links {
             display: flex;
-            gap: 1rem;
-            list-style: none;
+            gap: 30px;
             align-items: center;
         }
 
-
         .nav-links a {
-            color: rgba(255, 255, 255, 0.9);
+            color: var(--text-main);
             text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            white-space: nowrap;
+            font-size: 15px;
+            font-weight: 600;
+            transition: color 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
-
 
         .nav-links a:hover {
-            color: #fff;
-            background: rgba(255, 255, 255, 0.1);
+            color: var(--primary);
         }
 
-        .nav-login-btn {
-            background: linear-gradient(135deg, #1a6bb3 0%, #0f4c81 100%) !important;
+        .action-btn {
+            background: var(--primary);
             color: white !important;
-            padding: 0.7rem 1.5rem !important;
-            border-radius: 25px !important;
-            font-weight: 600 !important;
-            box-shadow: 0 5px 15px rgba(26, 107, 179, 0.3);
-        }
-
-        .nav-login-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(26, 107, 179, 0.5);
-        }
-
-        .mobile-menu-btn {
-            display: none;
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0.5rem 0.8rem;
+            padding: 10px 24px;
             border-radius: 8px;
+            font-weight: 700;
             transition: all 0.3s ease;
         }
 
-        .mobile-menu-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
+        .action-btn:hover {
+            background: var(--primary-hover);
+            transform: scale(1.05);
         }
 
+        /* Cinematic Hero Section */
         .hero {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 8rem 2rem;
-            text-align: center;
+            position: relative;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            margin-top: 0;
+            background: radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 20% 80%, rgba(15, 23, 42, 0.8) 0%, var(--bg-color) 100%);
         }
 
-        .hero h1 {
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80') center/cover;
+            opacity: 0.15;
+            z-index: -1;
+            mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+        }
+
+        .hero-content {
+            max-width: 800px;
+            z-index: 10;
+        }
+
+        .hero-title {
             font-size: 5rem;
-            font-weight: 800;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #fff, #94a3b8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: fadeInUp 1s ease-out;
+            letter-spacing: -1px;
         }
 
-        .hero p {
-            font-size: 1.5rem;
-            color: rgba(255, 255, 255, 0.8);
-            margin-bottom: 3rem;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            animation: fadeInUp 1s ease-out 0.2s backwards;
+        .hero-desc {
+            font-size: 1.4rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            line-height: 1.5;
+            font-weight: 400;
         }
 
         .hero-buttons {
             display: flex;
-            gap: 1.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            animation: fadeInUp 1s ease-out 0.4s backwards;
+            gap: 20px;
         }
 
-        .btn {
-            padding: 1.2rem 3rem;
+        .btn-large {
+            padding: 16px 40px;
             font-size: 1.1rem;
-            font-weight: 600;
-            border-radius: 50px;
+            font-weight: 700;
+            border-radius: 12px;
             text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
             transition: all 0.3s ease;
             cursor: pointer;
             border: none;
-            display: inline-block;
         }
 
-        .btn-primary {
-            background: linear-gradient(135deg, #1a6bb3 0%, #0f4c81 100%);
-            color: white;
-            box-shadow: 0 10px 30px rgba(26, 107, 179, 0.4);
+        .btn-play {
+            background: #fff;
+            color: #000;
         }
 
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(26, 107, 179, 0.6);
+        .btn-play:hover {
+            background: rgba(255,255,255,0.8);
+            transform: scale(1.05);
         }
 
-        .btn-secondary {
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            border: 2px solid rgba(255, 255, 255, 0.3);
+        .btn-info {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
             backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
-        .btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
+        .btn-info:hover {
+            background: rgba(255,255,255,0.15);
+            transform: scale(1.05);
         }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        /* Streaming Categories Grid (iQIYI Style) */
+        .section-container {
+            padding: 60px 5%;
+            position: relative;
+            z-index: 5;
         }
 
-        .features {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
 
-        .features h2 {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 4rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .section-title::before {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 30px;
+            background: var(--primary);
+            border-radius: 4px;
         }
 
-        .features-grid {
+        .playlist-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .feature-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 2.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .feature-icon {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .feature-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: #64b5f6;
-        }
-
-        .feature-card p {
-            color: rgba(255, 255, 255, 0.7);
-            line-height: 1.6;
-        }
-
-
-
-        .contact {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
-        }
-
-        /* Copy M3U URLs Section */
-        .playlists-section {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-
-        .playlists-section h2 {
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .playlists-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
         }
 
         .playlist-card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
             border-radius: 16px;
-            padding: 1.5rem;
-            text-align: left;
-            transition: all 0.3s ease;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
         }
 
         .playlist-card:hover {
-            transform: translateY(-5px);
-            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-10px);
+            background: rgba(37, 99, 235, 0.1);
             border-color: rgba(96, 165, 250, 0.3);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
         }
 
-        .playlist-card h3 {
-            font-size: 1.2rem;
-            color: #fff;
-            margin-bottom: 1rem;
+        .card-icon {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #60a5fa;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
         }
 
-        .copy-group {
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        /* Integrated Copy Tool */
+        .copy-tool {
+            background: rgba(0,0,0,0.5);
+            border-radius: 10px;
+            padding: 8px;
             display: flex;
-            gap: 0.5rem;
-            background: rgba(0, 0, 0, 0.2);
-            padding: 0.5rem;
-            border-radius: 8px;
+            gap: 10px;
+            margin-top: auto;
             border: 1px solid rgba(255,255,255,0.05);
         }
 
-        .copy-group input {
-            flex: 1;
+        .copy-tool input {
             background: transparent;
             border: none;
-            color: #9ca3af;
+            color: var(--text-muted);
             font-family: monospace;
-            font-size: 0.9rem;
+            font-size: 13px;
+            padding: 8px;
+            width: 100%;
             outline: none;
-            padding: 0.5rem;
         }
 
         .copy-btn {
-            background: #2563eb;
-            color: white;
-            border: none;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s ease;
-        }
-
-        .copy-btn:hover {
-            background: #1d4ed8;
-        }
-
-        .copy-btn.copied {
-            background: #10b981;
-        }
-
-        .contact h2 {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .contact-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 4rem;
-        }
-
-        .contact-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 30px;
-            padding: 4rem;
-        }
-
-        .contact-info {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .contact-info h3 {
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            color: #64b5f6;
-        }
-
-        .contact-email {
-            display: inline-flex;
-            align-items: center;
-            gap: 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem 2.5rem;
-            border-radius: 15px;
-            font-size: 1.3rem;
+            background: var(--primary);
             color: #fff;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid rgba(255, 255, 255, 0.2);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
         }
 
-        .contact-email:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(26, 107, 179, 0.3);
-        }
+        .copy-btn:hover { background: var(--primary-hover); }
+        .copy-btn.copied { background: #10b981; }
 
-        .contact-details {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .contact-detail {
+        footer {
+            padding: 40px 5%;
+            background: #000;
             text-align: center;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--card-border);
         }
 
-        .contact-detail-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .contact-detail h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: #64b5f6;
-        }
-
-        .contact-detail p {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
+        /* Toast Notification */
         .toast {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: linear-gradient(135deg, #1a6bb3 0%, #0f4c81 100%);
+            background: #1e293b;
             color: white;
-            padding: 1.5rem 2rem;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(26, 107, 179, 0.6);
+            padding: 16px 24px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
             display: flex;
             align-items: center;
-            gap: 1rem;
-            font-size: 1rem;
-            font-weight: 500;
+            gap: 12px;
+            font-weight: 600;
             opacity: 0;
-            transform: translateY(100px);
+            transform: translateY(50px);
             transition: all 0.4s ease;
             z-index: 1000;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            max-width: 90%;
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .toast.show {
             opacity: 1;
             transform: translateY(0);
         }
-
-        .toast-icon {
-            font-size: 1.5rem;
-        }
-
-        footer {
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 3rem 2rem;
-            text-align: center;
-        }
-
-        .footer-content {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: #64b5f6;
-        }
-
-        .copyright {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 0.9rem;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: rgba(0, 0, 0, 0.95);
-                backdrop-filter: blur(10px);
-                flex-direction: column;
-                padding: 2rem;
-                border-top: 1px solid rgba(255, 255, 255, 0.1);
-                gap: 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links li {
-                width: 100%;
-                margin-bottom: 0.5rem;
-            }
-
-            .nav-links a {
-                display: block;
-                text-align: center;
-                padding: 1rem;
-            }
-
-            .logo {
-                font-size: 2rem;
-            }
-
-            .hero {
-                padding: 5rem 1.5rem;
-            }
-
-            .hero h1 {
-                font-size: 3rem;
-            }
-
-            .hero p {
-                font-size: 1.2rem;
-            }
-
-            .hero-buttons {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .btn {
-                width: 100%;
-            }
-
-            .features h2,
-            .categories-showcase h2,
-            .contact h2 {
-                font-size: 2.5rem;
-            }
-
-            .features,
-            .categories-showcase,
-            .contact {
-                padding: 4rem 1.5rem;
-            }
-
-            .features-grid,
-            .categories-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-container {
-                padding: 2.5rem 1.5rem;
-            }
-
-            .contact-email {
-                font-size: 1rem;
-                padding: 1.2rem 1.5rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .toast {
-                bottom: 20px;
-                right: 20px;
-                left: 20px;
-                font-size: 0.95rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-
-            .hero p {
-                font-size: 1.1rem;
-            }
-
-            .features h2,
-            .categories-showcase h2,
-            .contact h2 {
-                font-size: 2rem;
-            }
-
-            .feature-card,
-            .category-card {
-                padding: 2rem 1.5rem;
-            }
-
-            .contact-container {
-                padding: 2rem 1.2rem;
-            }
-        }
-
-        .categories-showcase {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
-        }
-
-        .categories-showcase h2 {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .categories-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 4rem;
-        }
-
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-        }
-
-        .category-card {
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.8) 100%);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 2.5rem 2rem;
-            text-align: center;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .category-card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(96, 165, 250, 0.4);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-        }
-
-        .category-icon {
-            font-size: 3rem;
-            font-weight: 800;
-            color: #2563eb;
-            margin-bottom: 1.5rem;
-            height: 80px;
-            width: 80px;
-            margin: 0 auto 1.5rem auto;
-            background: rgba(37, 99, 235, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid rgba(37, 99, 235, 0.3);
-        }
-
-        .category-card h3 {
-            font-size: 1.6rem;
-            color: #fff;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-        }
-
-        .copy-group {
-            display: flex;
-            gap: 0.5rem;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 0.5rem;
-            border-radius: 10px;
-            border: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .copy-group input {
-            flex: 1;
-            background: transparent;
-            border: none;
-            color: #9ca3af;
-            font-family: monospace;
-            font-size: 0.9rem;
-            outline: none;
-            padding: 0.5rem;
-            width: 100%;
-        }
-
-        .copy-btn {
-            background: #2563eb;
-            color: white;
-            border: none;
-            padding: 0.5rem 1.2rem;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s ease;
-        }
-
-        .copy-btn:hover {
-            background: #1d4ed8;
-        }
-
-        .copy-btn.copied {
-            background: #10b981;
-        }
-
-        .categories-showcase {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 6rem 2rem;
-        }
-
-        .categories-showcase h2 {
-            text-align: center;
-            font-size: 3rem;
-            margin-bottom: 2rem;
-            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .categories-subtitle {
-            text-align: center;
-            font-size: 1.2rem;
-            color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 4rem;
-        }
-
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .category-card {
-            background: linear-gradient(135deg, rgba(26, 107, 179, 0.3) 0%, rgba(15, 76, 129, 0.3) 100%);
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 20px;
-            padding: 3rem 2rem;
-            text-align: center;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            position: relative;
-            user-select: none;
-        }
-
-        .category-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            background: linear-gradient(135deg, rgba(26, 107, 179, 0.5) 0%, rgba(15, 76, 129, 0.5) 100%);
-            box-shadow: 0 20px 50px rgba(26, 107, 179, 0.4);
-        }
-
-        .category-card:active {
-            transform: translateY(-5px) scale(0.98);
-        }
-
-        .category-icon {
-            font-size: 4rem;
-            margin-bottom: 1rem;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .category-card h3 {
-            font-size: 1.5rem;
-            color: #fff;
-            margin-bottom: 0.5rem;
-        }
-
-        .category-hint {
-            font-size: 0.9rem;
-            color: rgba(255, 255, 255, 0.5);
-            margin-top: 0.5rem;
-        }
     </style>
 </head>
-
 <body>
-    <div class="bg-animation"></div>
 
     <header>
-        <nav>
-            <div class="logo">📺 FinnTV</div>
-            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" onclick="closeMenu()">Home</a></li>
-                <li><a href="#features" onclick="closeMenu()">Features</a></li>
-                <li><a href="#categories" onclick="closeMenu()">Categories</a></li>
-                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-                <li><a href="player/index.php" onclick="closeMenu()">Web Player</a></li>
-                <li><a href="admin.html" onclick="closeMenu()"
-                        style="border:1px solid rgba(255,255,255,0.3); border-radius:8px">Admin Portal</a></li>
-                <li><a href="user_portal.html" class="nav-login-btn">🔐 User Login</a></li>
-            </ul>
-        </nav>
+        <a href="#" class="brand">FinnTV</a>
+        <div class="nav-links">
+            <a href="player/index.php">Web Player</a>
+            <a href="user_portal.html">User Portal</a>
+            <a href="admin.html">Admin</a>
+            <a href="player/index.php" class="action-btn">Start Watching</a>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <h1>Welcome to FinnTV</h1>
-        <p>Experience premium IPTV streaming with thousands of channels from around the world. Crystal clear quality,
-            zero buffering.</p>
-        <div class="hero-buttons">
-            <a href="user_portal.html" class="btn btn-primary">User Portal</a>
-            <a href="player/index.php" class="btn btn-primary"
-                style="background: linear-gradient(135deg, #024707 0%, #157321 100%);">Web Player</a>
-            <a href="#categories" class="btn btn-secondary">Explore Categories</a>
-        </div>
-    </section>
-
-    <section id="features" class="features">
-        <h2>Why Choose FinnTV?</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">🎬</div>
-                <h3>Unlimited Content</h3>
-                <p>Access thousands of live TV channels, movies, and shows from multiple countries and categories.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Lightning Fast</h3>
-                <p>Experience zero buffering with our high-speed servers and optimized streaming technology.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>10 Devices</h3>
-                <p>Connect up to 10 devices simultaneously. Watch on Smart TV, mobile, tablet, or computer.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🌍</div>
-                <h3>Global Coverage</h3>
-                <p>Content from India, Asia, USA, Egypt, and more. Sports, entertainment, news - all in one place.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🔒</div>
-                <h3>Secure & Reliable</h3>
-                <p>Encrypted connections and 99.9% uptime guarantee. Your entertainment is always protected.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">👤</div>
-                <h3>User Portal</h3>
-                <p>Track your active connections, check device status, and manage your account in real-time.</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Premium Global Streaming</h1>
+            <p class="hero-desc">Experience thousands of live TV channels from around the world. Crystal clear quality, zero buffering, and direct M3U access for any device.</p>
+            <div class="hero-buttons">
+                <a href="player/index.php" class="btn-large btn-play">
+                    Launch Web Player
+                </a>
+                <a href="#playlists" class="btn-large btn-info">
+                    Get Direct Links
+                </a>
             </div>
         </div>
     </section>
 
-
-
-    <section id="categories" class="categories-showcase">
-        <h2>Direct M3U Playlists</h2>
-        <p class="categories-subtitle">Copy these URLs and paste them directly into VLC, Apple TV, or any IPTV player!</p>
-        <div class="categories-grid">
-            <div class="category-card">
-                <div class="category-icon">WO</div>
-                <h3>World Channels</h3>
-                <div class="copy-group">
+    <section class="section-container" id="playlists">
+        <h2 class="section-title">Direct M3U Playlists</h2>
+        <div class="playlist-grid">
+            
+            <div class="playlist-card">
+                <div class="card-icon">WO</div>
+                <h3 class="card-title">World Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/world.m3u" readonly id="url-world">
                     <button class="copy-btn" onclick="copyUrl('url-world')">COPY</button>
                 </div>
             </div>
 
-            <div class="category-card">
-                <div class="category-icon">AS</div>
-                <h3>Asia Channels</h3>
-                <div class="copy-group">
+            <div class="playlist-card">
+                <div class="card-icon">AS</div>
+                <h3 class="card-title">Asia Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/asia.m3u" readonly id="url-asia">
                     <button class="copy-btn" onclick="copyUrl('url-asia')">COPY</button>
                 </div>
             </div>
 
-            <div class="category-card">
-                <div class="category-icon">ID</div>
-                <h3>Indonesia Channels</h3>
-                <div class="copy-group">
+            <div class="playlist-card">
+                <div class="card-icon">ID</div>
+                <h3 class="card-title">Indonesia Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/indonesia.m3u" readonly id="url-indonesia">
                     <button class="copy-btn" onclick="copyUrl('url-indonesia')">COPY</button>
                 </div>
             </div>
 
-            <div class="category-card">
-                <div class="category-icon">IN</div>
-                <h3>India Channels</h3>
-                <div class="copy-group">
+            <div class="playlist-card">
+                <div class="card-icon">IN</div>
+                <h3 class="card-title">India Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/india.m3u" readonly id="url-india">
                     <button class="copy-btn" onclick="copyUrl('url-india')">COPY</button>
                 </div>
             </div>
 
-            <div class="category-card">
-                <div class="category-icon">EG</div>
-                <h3>Egypt Channels</h3>
-                <div class="copy-group">
+            <div class="playlist-card">
+                <div class="card-icon">EG</div>
+                <h3 class="card-title">Egypt Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/egypt.m3u" readonly id="url-egypt">
                     <button class="copy-btn" onclick="copyUrl('url-egypt')">COPY</button>
                 </div>
             </div>
 
-            <div class="category-card">
-                <div class="category-icon">SP</div>
-                <h3>Sport Channels</h3>
-                <div class="copy-group">
+            <div class="playlist-card">
+                <div class="card-icon">SP</div>
+                <h3 class="card-title">Sport Channels</h3>
+                <div class="copy-tool">
                     <input type="text" value="https://finntv.vercel.app/m3u/sport.m3u" readonly id="url-sport">
                     <button class="copy-btn" onclick="copyUrl('url-sport')">COPY</button>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="contact" id="contact">
-        <h2>Need Help?</h2>
-        <p class="contact-subtitle">Our customer support team is here to assist you 24/7</p>
-
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Get in Touch</h3>
-                <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 2rem;">
-                    Having issues with your service? Questions about subscriptions? We're here to help!
-                </p>
-                <a href="mailto:customer-care@finnaib.odoo.com?subject=FinnTV Support Request" class="contact-email">
-                    <span>📧</span>
-                    <span>customer-care@finnaib.odoo.com</span>
-                </a>
-            </div>
-
-            <div class="contact-details">
-                <div class="contact-detail">
-                    <div class="contact-detail-icon">⏰</div>
-                    <h4>Response Time</h4>
-                    <p>Within 24 hours</p>
-                </div>
-                <div class="contact-detail">
-                    <div class="contact-detail-icon">💬</div>
-                    <h4>Support Type</h4>
-                    <p>Email Support</p>
-                </div>
-                <div class="contact-detail">
-                    <div class="contact-detail-icon">🌐</div>
-                    <h4>Languages</h4>
-                    <p>Multi-language</p>
-                </div>
-            </div>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#features">Features</a>
-                <a href="#categories">Categories</a>
-                <a href="#contact">Contact</a>
-                <a href="user_portal.html">User Portal</a>
-                <a href="admin.html">Admin Panel</a>
-                <a href="player/index.php">Web Player</a>
-            </div>
-            <p class="copyright">&copy; 2025 FinnTV. All rights reserved.</p>
-        </div>
+        <p>&copy; 2026 FinnTV. All rights reserved.</p>
     </footer>
 
     <script>
-        function toggleMenu() {
-            var navLinks = document.getElementById('navLinks');
-            if (navLinks.className.indexOf('active') > -1) {
-                navLinks.className = navLinks.className.replace(' active', '');
-            } else {
-                navLinks.className += ' active';
-            }
-        }
-
-        function closeMenu() {
-            var navLinks = document.getElementById('navLinks');
-            navLinks.className = navLinks.className.replace(' active', '');
-        }
-
-        var anchors = document.querySelectorAll('a[href^="#"]');
-        for (var i = 0; i < anchors.length; i++) {
-            anchors[i].addEventListener('click', function (e) {
-                e.preventDefault();
-                var target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    if (target.scrollIntoView) {
-                        target.scrollIntoView();
-                    }
-                }
-            });
-        }
-
-        function copyToClipboard(text, callback) {
-            if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(text)
-                    .then(function () { callback(true); })
-                    .catch(function () { callback(false); });
-                return;
-            }
-
-            var textarea = document.createElement('textarea');
-            textarea.value = text;
-            textarea.style.position = 'fixed';
-            textarea.style.top = '0';
-            textarea.style.left = '0';
-            textarea.style.width = '2em';
-            textarea.style.height = '2em';
-            textarea.style.padding = '0';
-            textarea.style.border = 'none';
-            textarea.style.outline = 'none';
-            textarea.style.boxShadow = 'none';
-            textarea.style.background = 'transparent';
-
-            document.body.appendChild(textarea);
-            textarea.focus();
-            textarea.select();
-
-            try {
-                var successful = document.execCommand('copy');
-                document.body.removeChild(textarea);
-                callback(successful);
-            } catch (err) {
-                document.body.removeChild(textarea);
-                callback(false);
-            }
-        }
-
-        function showToast(message, isError) {
-            isError = isError || false;
+        function showToast(message) {
             var existingToast = document.querySelector('.toast');
             if (existingToast && existingToast.parentNode) {
                 existingToast.parentNode.removeChild(existingToast);
@@ -1079,61 +418,18 @@
 
             var toast = document.createElement('div');
             toast.className = 'toast';
-            toast.innerHTML = '<span class="toast-icon">' + (isError ? '❌' : '✅') + '</span><span>' + message + '</span>';
+            toast.innerHTML = '<span>✅</span><span>' + message + '</span>';
             document.body.appendChild(toast);
 
+            setTimeout(function () { toast.classList.add('show'); }, 10);
             setTimeout(function () {
-                toast.className += ' show';
-            }, 100);
-
-            setTimeout(function () {
-                toast.className = toast.className.replace(' show', '');
+                toast.classList.remove('show');
                 setTimeout(function () {
-                    if (toast.parentNode) {
-                        toast.parentNode.removeChild(toast);
-                    }
+                    if (toast.parentNode) toast.parentNode.removeChild(toast);
                 }, 400);
             }, 3000);
         }
 
-        var cards = document.querySelectorAll('.category-card');
-        for (var j = 0; j < cards.length; j++) {
-            cards[j].addEventListener('click', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                var url = this.getAttribute('data-url');
-                var name = this.getAttribute('data-name');
-                var self = this;
-
-                if (!url) {
-                    showToast('Error: URL not found', true);
-                    return;
-                }
-
-                self.style.transform = 'scale(0.95)';
-                setTimeout(function () {
-                    self.style.transform = '';
-                }, 200);
-
-                copyToClipboard(url, function (success) {
-                    if (success) {
-                        showToast(name + ' URL copied to clipboard!');
-                    } else {
-                        showToast('Could not copy automatically. URL: ' + url, true);
-                    }
-                });
-            });
-        }
-
-        document.addEventListener('click', function (e) {
-            var navLinks = document.getElementById('navLinks');
-            var menuBtn = document.querySelector('.mobile-menu-btn');
-
-            if (navLinks && menuBtn && !navLinks.contains(e.target) && !menuBtn.contains(e.target)) {
-                navLinks.className = navLinks.className.replace(' active', '');
-            }
-        });
         function copyUrl(elementId) {
             var copyText = document.getElementById(elementId);
             copyText.select();
@@ -1145,6 +441,8 @@
             btn.innerText = "COPIED!";
             btn.classList.add("copied");
             
+            showToast("URL copied to clipboard!");
+            
             setTimeout(function() {
                 btn.innerText = originalText;
                 btn.classList.remove("copied");
@@ -1152,5 +450,4 @@
         }
     </script>
 </body>
-
 </html>
