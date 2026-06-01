@@ -9,9 +9,9 @@
     <style>
         :root {
             --disney-bg: #040714;
-            --disney-nav: rgba(4, 7, 20, 0.92);
-            --disney-card: #1a1d29;
-            --disney-hover: #252840;
+            --disney-nav: rgba(4, 7, 20, 0.95);
+            --disney-card: rgba(26, 29, 41, 0.6);
+            --disney-hover: rgba(37, 40, 64, 0.5);
             --disney-blue: #0063e5;
             --disney-blue-hover: #0483ee;
             --disney-accent: #f9f9f9;
@@ -38,101 +38,135 @@
         header {
             position: fixed;
             top: 0; left: 0; right: 0;
-            height: 68px;
+            height: 72px;
             background: linear-gradient(to bottom, rgba(4,7,20,0.98) 0%, rgba(4,7,20,0.6) 100%);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             display: flex;
             align-items: center;
-            padding: 0 40px;
+            padding: 0 60px;
             z-index: 100;
             gap: 40px;
-            transition: background 0.3s;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
         }
 
         .brand-logo {
-            font-size: 26px;
+            font-size: 28px;
             font-weight: 900;
             color: #fff;
             text-decoration: none;
-            letter-spacing: -0.5px;
+            letter-spacing: -0.8px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 4px;
             flex-shrink: 0;
         }
 
-        .brand-logo span {
-            color: var(--disney-blue-hover);
+        .logo-badge {
+            background: linear-gradient(135deg, #0063e5 0%, #0483ee 100%);
+            color: #fff;
+            padding: 3px 9px;
+            border-radius: 6px;
+            font-size: 0.62em;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            box-shadow: 0 0 15px rgba(0, 99, 229, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            text-shadow: 0 1px 2px rgba(0,0,0,0.4);
         }
 
         nav {
             display: flex;
-            gap: 28px;
+            gap: 32px;
             align-items: center;
             flex: 1;
         }
 
         nav a {
-            color: rgba(255,255,255,0.75);
+            color: rgba(255,255,255,0.7);
             text-decoration: none;
             font-size: 15px;
-            font-weight: 600;
-            transition: color 0.2s;
-            letter-spacing: 0.3px;
+            font-weight: 700;
+            transition: all 0.25s ease;
+            letter-spacing: 0.8px;
+            position: relative;
+            padding: 6px 0;
+            text-transform: uppercase;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 2px;
+            background: #fff;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.25s ease-out;
         }
 
         nav a:hover {
             color: #fff;
         }
 
+        nav a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
         .nav-right {
             display: flex;
-            gap: 12px;
+            gap: 16px;
             align-items: center;
             margin-left: auto;
         }
 
         .btn-nav {
-            padding: 9px 22px;
-            border-radius: 6px;
-            font-size: 15px;
-            font-weight: 700;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 800;
             text-decoration: none;
             cursor: pointer;
             border: none;
-            transition: all 0.2s ease;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
 
         .btn-nav-outline {
             color: #fff;
-            background: transparent;
-            border: 2px solid rgba(255,255,255,0.25);
+            background: rgba(255,255,255,0.03);
+            border: 1.5px solid rgba(255,255,255,0.2);
         }
 
         .btn-nav-outline:hover {
             background: rgba(255,255,255,0.1);
-            border-color: rgba(255,255,255,0.5);
+            border-color: rgba(255,255,255,0.6);
+            box-shadow: 0 4px 15px rgba(255,255,255,0.05);
         }
 
         .btn-nav-solid {
             background: var(--disney-blue);
             color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 99, 229, 0.3);
         }
 
         .btn-nav-solid:hover {
             background: var(--disney-blue-hover);
-            transform: scale(1.03);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 99, 229, 0.5);
         }
 
-        /* ─── HERO BANNER ──────────────────────────────────── */
+        /* ─── HERO BANNER (Disney+ Style Backdrop) ────────── */
         .hero {
             position: relative;
-            height: 85vh;
-            min-height: 500px;
+            height: 90vh;
+            min-height: 600px;
             display: flex;
             align-items: flex-end;
-            padding: 0 5% 80px;
+            padding: 0 6% 100px;
             overflow: hidden;
         }
 
@@ -140,236 +174,282 @@
             position: absolute;
             inset: 0;
             background:
-                radial-gradient(ellipse 60% 80% at 80% 30%, rgba(0,99,229,0.25) 0%, transparent 60%),
-                radial-gradient(ellipse 80% 60% at 20% 70%, rgba(37,40,64,0.4) 0%, transparent 70%),
-                linear-gradient(to bottom, rgba(4,7,20,0.2) 0%, rgba(4,7,20,0.6) 60%, rgba(4,7,20,1) 100%);
+                radial-gradient(ellipse 70% 80% at 85% 20%, rgba(0,99,229,0.3) 0%, transparent 60%),
+                radial-gradient(ellipse 70% 60% at 15% 80%, rgba(37,40,64,0.4) 0%, transparent 70%),
+                linear-gradient(to bottom, rgba(4,7,20,0.1) 0%, rgba(4,7,20,0.7) 70%, rgba(4,7,20,1) 100%);
+            z-index: 1;
         }
 
-        /* Star field effect */
         .hero-bg::before {
             content: '';
             position: absolute;
             inset: 0;
             background-image:
-                radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
-                radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px),
                 radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
-            background-size: 200px 200px, 150px 150px, 100px 100px;
-            background-position: 0 0, 75px 75px, 30px 30px;
-            opacity: 0.25;
+            background-size: 180px 180px, 120px 120px;
+            background-position: 0 0, 60px 60px;
+            opacity: 0.15;
         }
 
         .hero-content {
             position: relative;
             z-index: 5;
-            max-width: 600px;
+            max-width: 650px;
         }
 
         .hero-badge {
             display: inline-block;
-            background: var(--disney-blue);
+            background: linear-gradient(135deg, #0063e5 0%, #0483ee 100%);
             color: #fff;
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 1.5px;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 2px;
             text-transform: uppercase;
-            padding: 5px 14px;
-            border-radius: 4px;
-            margin-bottom: 20px;
+            padding: 6px 16px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 4px 10px rgba(0, 99, 229, 0.2);
         }
 
         .hero-title {
-            font-size: 4.5rem;
+            font-size: 5rem;
             font-weight: 900;
-            line-height: 1.05;
-            margin-bottom: 18px;
-            letter-spacing: -1.5px;
+            line-height: 1.0;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+            color: #fff;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.6);
         }
 
         .hero-desc {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             color: var(--text-muted);
-            margin-bottom: 35px;
-            line-height: 1.65;
-            font-weight: 400;
-            max-width: 520px;
+            margin-bottom: 40px;
+            line-height: 1.7;
+            font-weight: 500;
+            max-width: 540px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
         }
 
         .hero-buttons {
             display: flex;
-            gap: 14px;
+            gap: 16px;
         }
 
         .btn-hero {
-            padding: 14px 36px;
-            font-size: 1rem;
-            font-weight: 700;
-            border-radius: 8px;
+            padding: 16px 40px;
+            font-size: 15px;
+            font-weight: 800;
+            border-radius: 10px;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
-            transition: all 0.25s ease;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             cursor: pointer;
             border: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .btn-hero-primary {
             background: #fff;
-            color: #000;
+            color: #040714;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
         }
 
         .btn-hero-primary:hover {
-            background: rgba(255,255,255,0.85);
-            transform: scale(1.04);
+            background: #fff;
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
         }
 
         .btn-hero-secondary {
-            background: rgba(255,255,255,0.12);
+            background: rgba(255, 255, 255, 0.08);
             color: #fff;
-            border: 2px solid rgba(255,255,255,0.2);
-            backdrop-filter: blur(10px);
+            border: 1.5px solid rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
 
         .btn-hero-secondary:hover {
-            background: rgba(255,255,255,0.2);
-            border-color: rgba(255,255,255,0.4);
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.6);
+            transform: scale(1.05);
         }
 
-        /* ─── BRAND HUB (Disney+ style blocks) ────────────── */
+        /* ─── DISNEY+ BRAND HUBS OVERHAUL ────────────────── */
         .brands-section {
-            padding: 10px 5% 50px;
-            display: flex;
-            gap: 18px;
+            padding: 0 6% 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 20px;
             justify-content: center;
-            flex-wrap: wrap;
+            position: relative;
+            z-index: 10;
         }
 
         .brand-hub {
             position: relative;
-            width: 160px;
-            height: 70px;
-            border-radius: 12px;
+            height: 100px;
+            border-radius: 16px;
+            background: radial-gradient(circle at center, rgba(26,29,41,0.85) 0%, rgba(12,14,21,0.95) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.06);
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 1.2rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #fff;
             cursor: pointer;
             overflow: hidden;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             text-decoration: none;
         }
 
-        .brand-hub::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: inherit;
-            filter: brightness(0.7);
-            transition: filter 0.3s;
-        }
-
-        .brand-hub:hover::before {
-            filter: brightness(1);
-        }
-
         .brand-hub:hover {
-            border-color: rgba(255,255,255,0.5);
-            transform: scale(1.07);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transform: scale(1.08) translateY(-4px);
+            border-color: rgba(249, 249, 249, 0.8);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 20px var(--glow-color);
         }
 
         .brand-hub span {
             position: relative;
-            z-index: 2;
+            z-index: 5;
+            font-size: 1.35rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(to right, #ffffff 0%, #e2e8f0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
         }
 
-        .hub-world  { background: linear-gradient(135deg, #1a237e, #283593); }
-        .hub-india  { background: linear-gradient(135deg, #b71c1c, #e53935); }
-        .hub-sport  { background: linear-gradient(135deg, #1b5e20, #388e3c); }
-        .hub-egypt  { background: linear-gradient(135deg, #e65100, #f4511e); }
-        .hub-asia   { background: linear-gradient(135deg, #880e4f, #c2185b); }
-        .hub-spain  { background: linear-gradient(135deg, #4a148c, #7b1fa2); }
+        /* SVG Crest behind text */
+        .brand-svg {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            z-index: 1;
+            opacity: 0.05;
+            fill: #fff;
+            transition: all 0.4s ease;
+            pointer-events: none;
+        }
+
+        .brand-hub:hover .brand-svg {
+            opacity: 0.16;
+            transform: scale(1.2);
+            fill: var(--glow-color);
+            filter: drop-shadow(0 0 10px var(--glow-color));
+        }
+
+        /* Ambient colored pulse glow on hover */
+        .brand-hub::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle, var(--glow-color) 0%, transparent 65%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .brand-hub:hover::before {
+            opacity: 0.22;
+        }
+
+        /* Define brand glow colors */
+        .hub-world { --glow-color: #3b82f6; }
+        .hub-india { --glow-color: #f97316; }
+        .hub-sport { --glow-color: #10b981; }
+        .hub-egypt { --glow-color: #facc15; }
+        .hub-asia  { --glow-color: #ec4899; }
+        .hub-spain { --glow-color: #a855f7; }
 
         /* ─── M3U PLAYLISTS SECTION ──────────────────────── */
         .section {
-            padding: 50px 5%;
+            padding: 60px 6%;
+            position: relative;
+            z-index: 10;
         }
 
         .section-header {
             display: flex;
             align-items: center;
-            gap: 14px;
-            margin-bottom: 30px;
+            gap: 16px;
+            margin-bottom: 40px;
         }
 
         .section-divider {
-            width: 5px;
-            height: 28px;
-            background: var(--disney-blue);
-            border-radius: 3px;
+            width: 6px;
+            height: 32px;
+            background: linear-gradient(to bottom, #0063e5, #0483ee);
+            border-radius: 4px;
             flex-shrink: 0;
+            box-shadow: 0 0 10px rgba(0, 99, 229, 0.5);
         }
 
         .section-header h2 {
-            font-size: 1.8rem;
-            font-weight: 800;
+            font-size: 2rem;
+            font-weight: 900;
             letter-spacing: -0.5px;
+            color: #fff;
         }
 
         .section-sub {
             font-size: 0.95rem;
             color: var(--text-muted);
             margin-left: auto;
+            font-weight: 600;
         }
 
-        /* Redesigned Premium Cards */
+        /* Glassmorphic Playlists Grid */
         .playlist-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 24px;
         }
 
         .playlist-card {
-            background: rgba(26, 29, 41, 0.6);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: rgba(26, 29, 41, 0.55);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border-radius: 16px;
             border: 1px solid rgba(255,255,255,0.06);
-            padding: 30px 24px;
+            padding: 32px 28px;
             display: flex;
             flex-direction: column;
             transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             position: relative;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
         }
 
-        /* Hover border glow */
+        /* Sleek glowing border on hover */
         .playlist-card::after {
             content: '';
             position: absolute;
             inset: 0;
             border-radius: 16px;
-            border: 2px solid transparent;
+            border: 1.5px solid transparent;
             background: linear-gradient(135deg, var(--accent-text), transparent) border-box;
             -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
             -webkit-mask-composite: xor;
             mask-composite: exclude;
             opacity: 0;
-            transition: opacity 0.4s;
+            transition: opacity 0.4s ease;
             pointer-events: none;
         }
 
         .playlist-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(96, 165, 250, 0.1);
-            background: rgba(37, 40, 64, 0.5);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 99, 229, 0.1);
+            background: rgba(37, 40, 64, 0.45);
         }
         
         .playlist-card:hover::after {
@@ -385,30 +465,31 @@
         }
 
         .card-abbr {
-            font-size: 3rem;
+            font-size: 3.2rem;
             font-weight: 900;
             color: var(--accent-text);
-            letter-spacing: -1.5px;
-            margin-bottom: 6px;
+            letter-spacing: -2px;
+            margin-bottom: 8px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.3);
         }
 
         .card-title {
-            font-size: 1.3rem;
+            font-size: 1.35rem;
             font-weight: 800;
             color: #fff;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
         }
 
         .card-link-text {
             font-size: 0.82rem;
             color: var(--text-muted);
-            margin-bottom: 24px;
+            margin-bottom: 28px;
             font-family: monospace;
             word-break: break-all;
-            background: rgba(0, 0, 0, 0.3);
-            padding: 10px 14px;
-            border-radius: 8px;
-            border: 1px solid rgba(255,255,255,0.04);
+            background: rgba(0, 0, 0, 0.4);
+            padding: 12px 16px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.03);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -418,10 +499,10 @@
             background: var(--disney-blue);
             color: #fff;
             border: none;
-            padding: 12px 24px;
-            border-radius: 10px;
-            font-weight: 700;
-            font-size: 14px;
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 13px;
             cursor: pointer;
             transition: all 0.3s ease;
             display: flex;
@@ -430,13 +511,15 @@
             gap: 8px;
             width: 100%;
             margin-top: auto;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
             box-shadow: 0 4px 15px rgba(0, 99, 229, 0.3);
+            border: 1px solid rgba(255,255,255,0.08);
         }
 
         .copy-btn:hover {
             background: var(--disney-blue-hover);
-            box-shadow: 0 6px 20px rgba(4, 131, 238, 0.4);
+            box-shadow: 0 6px 20px rgba(4, 131, 238, 0.5);
             transform: translateY(-2px);
         }
 
@@ -446,7 +529,8 @@
 
         .copy-btn.copied {
             background: #10b981;
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+            border-color: rgba(255,255,255,0.15);
         }
 
         .copy-icon {
@@ -462,19 +546,22 @@
 
         /* ─── FOOTER ────────────────────────────────────────── */
         footer {
-            padding: 40px 5%;
-            background: #000;
+            padding: 60px 6% 40px;
+            background: #0b0e17;
             text-align: center;
             color: var(--text-muted);
             font-size: 0.875rem;
             border-top: 1px solid rgba(255,255,255,0.05);
+            position: relative;
+            z-index: 10;
         }
 
         footer a {
             color: var(--text-muted);
             text-decoration: none;
-            margin: 0 10px;
-            transition: color 0.2s;
+            margin: 0 12px;
+            font-weight: 600;
+            transition: color 0.25s;
         }
 
         footer a:hover { color: #fff; }
@@ -482,9 +569,9 @@
         .footer-links {
             display: flex;
             justify-content: center;
-            gap: 5px;
+            gap: 10px;
             flex-wrap: wrap;
-            margin-bottom: 16px;
+            margin-bottom: 24px;
         }
 
         /* Toast */
@@ -493,38 +580,45 @@
             bottom: 30px; right: 30px;
             background: #1a1d29;
             color: #fff;
-            padding: 14px 22px;
-            border-radius: 10px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+            padding: 16px 24px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
             display: flex;
             align-items: center;
-            gap: 10px;
-            font-weight: 600;
+            gap: 12px;
+            font-weight: 700;
             font-size: 14px;
             opacity: 0;
             transform: translateY(30px);
-            transition: all 0.35s ease;
+            transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
             z-index: 9999;
-            border: 1px solid rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .toast.show { opacity: 1; transform: translateY(0); }
 
         /* ─── Mobile ────────────────────────────────────────── */
         @media (max-width: 768px) {
-            header { padding: 0 20px; gap: 16px; }
-            .hero { padding: 0 6% 60px; height: 75vh; }
-            .hero-title { font-size: 2.8rem; }
+            header { padding: 0 24px; gap: 16px; }
+            .hero { padding: 0 6% 80px; height: 80vh; }
+            .hero-title { font-size: 3.2rem; }
             .hero-desc { font-size: 1rem; }
-            .brand-hub { width: 130px; height: 55px; font-size: 1rem; }
+            .brands-section { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+            .brand-hub { height: 75px; border-radius: 12px; }
+            .brand-hub span { font-size: 0.95rem; letter-spacing: 1px; }
+            .brand-svg { width: 45px; height: 45px; }
             .section { padding: 40px 6%; }
+        }
+        @media (max-width: 480px) {
+            .brands-section { grid-template-columns: repeat(2, 1fr); }
+            nav { display: none; }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <a href="#" class="brand-logo">Finn<span>TV</span></a>
+    <a href="#" class="brand-logo">Finn<span class="logo-badge">TV</span></a>
     <nav>
         <a href="#playlists">Channels</a>
         <a href="user_portal.html">My Account</a>
@@ -550,14 +644,38 @@
     </div>
 </section>
 
-<!-- Brand Hubs (Disney+ style) -->
+<!-- Overhauled Brand Hubs (Disney+ style) -->
 <div class="brands-section">
-    <a href="player/index.php?m3u=../m3u/world.m3u" class="brand-hub hub-world"><span>World</span></a>
-    <a href="player/index.php?m3u=../m3u/india.m3u" class="brand-hub hub-india"><span>India</span></a>
-    <a href="player/index.php?m3u=../m3u/sport.m3u" class="brand-hub hub-sport"><span>Sports</span></a>
-    <a href="player/index.php?m3u=../m3u/egypt.m3u" class="brand-hub hub-egypt"><span>Egypt</span></a>
-    <a href="player/index.php?m3u=../m3u/asia.m3u" class="brand-hub hub-asia"><span>Asia</span></a>
-    <a href="player/index.php?m3u=../m3u/spanish.m3u" class="brand-hub hub-spain"><span>Spain</span></a>
+    <a href="player/index.php?m3u=../m3u/world.m3u" class="brand-hub hub-world">
+        <!-- Globe SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/></svg>
+        <span>World</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/india.m3u" class="brand-hub hub-india">
+        <!-- Dharma Chakra SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 2v20M2 12h20M5 5l14 14M5 19L19 5" stroke="currentColor" stroke-width="1.5"/></svg>
+        <span>India</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/sport.m3u" class="brand-hub hub-sport">
+        <!-- Trophy SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.48 4 4.88v2.12c0 2.2 1.8 4 4 4h2v2H9v2h6v-2h-2v-2h2c2.2 0 4-1.8 4-4v-2.12c2.28-.4 4-2.44 4-4.88V7c0-1.1-.9-2-2-2zM5 10V7h2v3H5zm14 0h-2V7h2v3z"/></svg>
+        <span>Sports</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/egypt.m3u" class="brand-hub hub-egypt">
+        <!-- Pyramid SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2L2 20h20L12 2zm0 4.8L18.6 18H5.4L12 6.8z"/></svg>
+        <span>Egypt</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/asia.m3u" class="brand-hub hub-asia">
+        <!-- Pagoda/Temple SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2L1 7h22L12 2zm0 4v3M3 11h18v2H3v-2zm2 4h14v2H5v-2zm-3 6h20v2H2v-2z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+        <span>Asia</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/spanish.m3u" class="brand-hub hub-spain">
+        <!-- Shield/Crown SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 4.5 9 10 10s10-4 10-10c0-5.5-4.5-10-10-10zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm-2-11h4v6h-4z"/></svg>
+        <span>Spain</span>
+    </a>
 </div>
 
 <!-- M3U Playlists -->

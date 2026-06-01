@@ -143,15 +143,21 @@ def main():
     data['live_streams'] = all_live_streams
     data['live_categories'] = format_categories(all_live_categories)
 
-    # 2. VOD (Skipped for performance)
-    print("\nSkipping VOD parsing...")
-    data['vod_streams'] = []
-    data['vod_categories'] = []
+    # 2. VOD
+    print("\nParsing VOD...")
+    vod_path = os.path.join(base_dir, "vod.m3u")
+    if os.path.exists(vod_path):
+        s, c = parse_m3u(vod_path, 'movie', id_map, cat_counter)
+        data['vod_streams'] = s
+        data['vod_categories'] = format_categories(c)
 
-    # 3. SERIES (Skipped for performance)
-    print("\nSkipping Series parsing...")
-    data['series'] = []
-    data['series_categories'] = []
+    # 3. SERIES
+    print("\nParsing Series...")
+    series_path = os.path.join(base_dir, "series.m3u")
+    if os.path.exists(series_path):
+        s, c = parse_m3u(series_path, 'series', id_map, cat_counter)
+        data['series'] = s
+        data['series_categories'] = format_categories(c)
 
     # Stats
     print(f"Stats: Live:{len(data['live_streams'])} VOD:{len(data['vod_streams'])} Series:{len(data['series'])}")
