@@ -1,0 +1,1678 @@
+﻿#EXTM3U
+
+
+################################################################################
+# General
+################################################################################
+
+#EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="General",BBC Drama (1080p)
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PTVCordoba.es@SD" tvg-logo="https://i.imgur.com/X3eIdVf.png" group-title="General",PTV Córdoba (1080p)
+https://streamer.zapitv.com/PTV_CORDOBA/index.m3u8
+
+#EXTINF:-1 tvg-id="PTVGranada.es@SD" tvg-logo="https://i.imgur.com/eOcAakM.png" group-title="General",PTV Granada (720p)
+https://streamer.zapitv.com/PTV-granada/index.m3u8
+
+#EXTINF:-1 tvg-id="PTVLinares.es@SD" tvg-logo="https://i.imgur.com/IqChsLQ.png" group-title="General",PTV Linares (720p)
+https://streamer.zapitv.com/ptv-linarez/index.m3u8
+
+#EXTINF:-1 tvg-id="PTVMalaga.es@SD" tvg-logo="https://i.imgur.com/4eZYIX1.png" group-title="General",PTV Málaga (1080p)
+https://streamer.zapitv.com/PTV-malaga/index.m3u8
+
+#EXTINF:-1 tvg-id="PTVSevilla.es@SD" tvg-logo="https://i.imgur.com/EcinFGu.png" group-title="General",PTV Sevilla (1080p)
+https://streamer.zapitv.com/PTV_sevilla/index.m3u8
+
+#EXTINF:-1 tvg-id="TVEStar.es@SD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="General",TVE Star (576p)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
+
+#EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="General",TVE Star HD (1080p)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
+
+#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="General",XPTV1 (720p)
+https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
+
+#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="General",XPTV2 (720p)
+https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
+
+#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="General",XPTV US (720p)
+https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
+
+
+################################################################################
+# KIDS
+################################################################################
+
+#EXTINF:-1 tvg-id="DisneyJunior.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" group-title="KIDS",Disney Junior (576p)
+https://bbb.exoadash.com/TVD1561/index.mpd
+
+#EXTINF:-1 tvg-id="Nickelodeon.es@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon (1080p)
+https://xykt-fix.github.io/iptv/streams/SP57.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8WJUbSD.png" group-title="KIDS",13 Kids
+https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="KIDS",4 Fun Kids
+http://178.219.128.68:64888/4FUNKIDS
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8ariztD.png" group-title="KIDS",Aghapy Kids
+https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/J5QNqJ0.png" group-title="KIDS",Biznet Kids
+http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/chunklist_w417362857_b2256000_slen_tkYml6a2V5bGl2ZXN0YXJ0dGltZT0wJmJpemtleWxpdmVlbmR0aW1lPTAmYml6a2V5bGl2ZUN1c3RvbVBhcmFtZXRlcj1teVBhcmFtZXRlciZiaXprZXlsaXZlaGFzaD1xQXJpMU0yeHVfTUFsbkh3VlJ0T3MyNGxSOFlfSFNEaWpOMkNSTmdoaWZVbGxoWXFRU0Rsa2QwcUU4Q2tad3hD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JcJ6fQ9.png" group-title="KIDS",Bravo! Kids TV
+https://streaming.social3.hr/play/r3CK_tdsFIFL3bN7w4NW1plrwsCToUBsRFjhxM68sZY/m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tk8G4CU.png" group-title="KIDS",CBBC
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="KIDS",CCTV-14
+http://bl.dchwtq.asia:10000/rtp/239.69.1.107:10280
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png" group-title="KIDS",Disney Channel
+http://109.233.89.166/Disney_Channel/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png" group-title="KIDS",Disney Channel
+http://193.106.124.204:3000/play/a036
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/512px-Disney_Channel_logo_%282014%29.svg.png" group-title="KIDS",Disney Channel East
+https://tvpass.org/live/DisneyChannelEast/hd/
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="KIDS",Disney Junior
+http://103.124.251.164:28015/play/a02m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="KIDS",Disney Junior
+http://109.233.89.166/Disney_Junior/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="KIDS",Disney Junior
+http://193.106.124.204:3000/play/a02b
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="KIDS",Disney Junior East
+https://tvpass.org/live/DisneyJuniorEast/hd/
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="KIDS",Disney XD
+http://178.219.128.68:64888/DISNXD
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/512px-Disney_XD_-_2015.svg.png" group-title="KIDS",Disney XD East
+https://tvpass.org/live/DisneyXDEast/hd/
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS",EBS Kids
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/deeQqYZ.png" group-title="KIDS",Forever Kids
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/56171fafada51f8004c4b40f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f171-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1acb41ce-ae24-4bbc-bf7d-831de72589e8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0TLG3Xk.png" group-title="KIDS",JiaJia Cartoon
+http://49.113.179.174:4022/udp/238.125.0.158:5140
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png" group-title="KIDS",KBS Kids
+http://mytv.dothome.co.kr/ch/catv/6.php
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tMfEsVr.png" group-title="KIDS",LEGO Kids TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb01a24795a6000762fe83/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=65f7a3a9-1736-46bc-aaa5-7e4778774536
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RasrA0s.png" group-title="KIDS",Little Stars Universe
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/51c75f7bb6f26ba1cd00002f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c298db3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=33174d1f-99cb-4190-85d6-69259af9a54b
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PVt8OPN.png" group-title="KIDS",MBC 3
+https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PVt8OPN.png" group-title="KIDS",MBC 3 USA
+https://mbc-3-usa-ak.akamaized.net/out/v1/8bbfec9446d84c9ea0dfa34edede6db9/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SbKkpuH.png" group-title="KIDS",M-Net Kids
+http://ares.mnet.mk/hls/mnet-kids.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g7GXmFY.png" group-title="KIDS",Mondo Kids
+https://mondotv-mondotvkids-1-it.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="KIDS",Moonbug Kids
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yxOuiqj.png" group-title="KIDS",Nick Clasico
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7c348520b40009c347e2/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Crip6wT.png" group-title="KIDS",Nick Classico
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12151794c1800007a8ae63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f12151794c1800007a8ae63&deviceLat=-23.5475&deviceLon=-46.6361&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=BR&serverSideAds=false&sid=730&terminate=false&userId=
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon
+https://0d26a00dfbb1.airspace-cdn.cbsivideo.com/nick1999/master/nick1999.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon
+http://185.189.225.150:85/nickelodeon/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon
+http://109.233.89.166/Nickelodeon/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon
+http://92.114.85.72:8000/play/a02o
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png" group-title="KIDS",Nickelodeon CIS
+http://31.148.48.15/Nickelodeon/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="KIDS",Nickelodeon East
+http://143.244.60.30/NICKELODEON/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Nickelodeon_Sonic_logo.png/512px-Nickelodeon_Sonic_logo.png" group-title="KIDS",Nickelodeon Sonic
+https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/G1J4IsT.png" group-title="KIDS",Nick en Espanol
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d08395f39465da6fb3ec4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5107-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=919bc5fd-6cce-44a6-bb39-2894dea1c988
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nJPbTet.png" group-title="KIDS",Nick HD+
+http://103.68.28.58:5001/live/1226.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png" group-title="KIDS",Nick Jr.
+https://prod-sports-north-gm.jiocinema.com/bpk-tv/Nick_Junior_voot_MOB/Fallback/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png" group-title="KIDS",Nick Jr.
+http://178.219.128.68:64888/NICKJR
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GCenuyl.png" group-title="KIDS",Nick Jr. Club
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7cb2cbb9010009b4fe32/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="KIDS",Nick Jr. East
+https://fl5.moveonjoy.com/NICK_JR/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8DAe8wr.png" group-title="KIDS",Nick Jr. Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tyHDvK8.png" group-title="KIDS",Nick Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ede448d3d50590007a4419e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae2b58-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d3f62f1d-7d8d-4d3f-a141-db9f502deb6b
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N7rQyzN.png" group-title="KIDS",Nick Pluto TV
+https://jmp2.uk/plu-62bdb6a83c6e37000726823b.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DNzsCLg.png" group-title="KIDS",Nick Space
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/619b82cc70a9ba00074429e2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ae5260-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c6835637-a922-4815-9f33-c332f95fd25c
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="KIDS",Nicktoons
+http://185.236.229.62:9981/play/a06a
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="KIDS",Nicktoons
+http://92.114.85.72:8000/play/a0a6
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="KIDS",Nicktoons CIS
+https://stream01.vnet.am/Boomerang/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nicktoons_Network_logo_2009.svg/512px-Nicktoons_Network_logo_2009.svg.png" group-title="KIDS",Nicktoons East
+http://143.244.60.30/NICKTOONS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/v5zkh4T.png" group-title="KIDS",PlanetaTV Kids
+https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MSGZ3S9.png" group-title="KIDS",Pluto TV Animakids
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1aabee6f4a2c00076a322c/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1aabee6f4a2c00076a322c&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=905&terminate=false&userId=
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UZf28c3.png" group-title="KIDS",Pluto TV Kids
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ad9b648e738977e2c312131/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aea085-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=68ca4400-31c3-45e1-ac30-9bcbc6aaefd8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eilI830.png" group-title="KIDS",Pluto TV Kids
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/51c75f7bb6f26ba1cd00002f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=51c75f7bb6f26ba1cd00002f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=989&terminate=false&userId=
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xYYJwTz.png" group-title="KIDS",Pluto TV Kids Animation
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8eba14a4ffb8000764e950/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e04dc42-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1894d5d0-76ab-4321-9f74-30abda806f6e
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cqYqBF3.png" group-title="KIDS",Pluto TV Kids Gaming
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/611e6ddc7fcd580007d1eb5f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c9-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e5e05ce9-206e-4e18-bc1a-aeaae6cc75d3
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/twXueoi.png" group-title="KIDS",Pluto TV Kids Series
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8eb99ff17815000784a3b0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e04dc41-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1b78d402-2a11-47c6-a674-a4b8f5098e41
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/f0FXTXJ.png" group-title="KIDS",Pluto TV Teen Stars
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60016a60a8e3520008e0d331/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/acuCGF8.png" group-title="KIDS",Roya Kids Originals
+https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BC0Ii7i.png" group-title="KIDS",SEO TV 2 Kids
+https://seo.tv.bo/tv/CTV2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/o9kLpAL.png" group-title="KIDS",STS kids
+http://stream02.vnet.am/DisneyChannel/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b4ck4Fg.png" group-title="KIDS",Super! Star
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6093f6f8351eb0000754afb8/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VTWleRc.png" group-title="KIDS",TeenNick
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f0d668b872e4400073acc68/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84af8ae4-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5a971f40-be5f-4406-a0a6-b014ec38a8ce
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KZq73CE.png" group-title="KIDS",TeenNick
+http://109.233.89.166/TeenNick/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/irTDbpn.png" group-title="KIDS",TNT Kids TV
+https://restreamer1.tnt.ba/hls/tntkids.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Zltlezm.png" group-title="KIDS",TV2 Kids
+http://146.59.85.40:89/tv2kids/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/512px-Tvokids-logo.svg.png" group-title="KIDS",TVOKids
+https://bcovlive-a.akamaihd.net/rf86f817779524249abf842af6d16f55f/us-east-1/15364602001/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hIlEfhl.png" group-title="KIDS",Retro Cartoon
+https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yxjPno5.png" group-title="KIDS",Gospel Cartoon
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SUPQAok.png" group-title="KIDS",3ABN Kids
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SRX6EPY.png" group-title="KIDS",Kuriakos Kids
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3YPvfPn.png" group-title="KIDS",NCM Educational & Kids Channel
+https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/nevco/G0644_005/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="KIDS",PBS Kids Alaska
+https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="KIDS",PBS Kids Mountain
+https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ambc9le.png" group-title="KIDS",PBS Kids Pacific
+https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VEk5aJ6.png" group-title="KIDS",Latino Kids TV
+https://6362ca6f1fc28.streamlock.net/8062/8062/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="KIDS",Magic Kids
+https://magicstream.ddns.net/magicstream/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/60ylWbQ.png" group-title="KIDS",Xtrema Retro Cartoons
+https://stmv1.cnarlatam.com/retroinfantil/retroinfantil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GnZicVH.png" group-title="KIDS",Dios Te Ve Kids
+https://s.emisoras.tv:8081/diostevekids/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Kr3U3Ub.png" group-title="KIDS",Logos TV Kids
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M0ik0i2.png" group-title="KIDS",Sat 7 Kids
+https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png" group-title="KIDS",Disney Junior Latin America
+http://168.181.122.234:8000/play/a037/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="KIDS",Golden Eagle Cartoon
+http://112.25.48.68/live/program/live/jykt/1300000/mnf.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/X2d8y4e.png" group-title="KIDS",Xtrema Cartoons
+https://stmv1.cnarlatam.com/cineinfantil/cineinfantil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GZInf2W.png" group-title="KIDS",You Man Cartoon Channel
+http://183.207.249.15/PLTV/4/224/3221225933/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fUjGHDa.png" group-title="KIDS",ETV 2
+https://sb.err.ee/live/etv2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4Pn0ADQ.png" group-title="KIDS",KidsFlix
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/avFk0Tt.png" group-title="KIDS",Kids Movie Club
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5db0ad56edc89300090d2ebb/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3a7777f6-4245-4af6-b0b4-ee772b6bbeac
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/disney-channel-es.png" group-title="KIDS",Disney Channel 🇪🇸ᴱˢ
+http://213.145.87.149:25461/live/mgwleor/4lhLaPDAOh/9867.m3u8?token=TEZcAhJfFg1BAARZCgJUCghbXF5TV1xWUAAOU1cHCFgEUQJWWQIBBFAWGBpBQ0BWWFU6UVNHX1wLAABNQEZKXEU7XQdDDRYBVQIFCgMVHhFNUQhdFV9VSRFGXgVACRsLAVYHUUMbFlIbQFFKXFZebF1dE1FUAEdfXUNbDU4RVldoAFEOAFlQFVkWBBoeFVtASRpfVkIJCUkRVF4VEFJNXBVeFlJYBwMVTxZXV0dZRkFAGl8aZSpHSRFTTxUHXUpQWAoWWUNaB0JbFhgaW0RtQVxLEUpSBAgAQRQNQ1MRFRtaBUw8AlhaWQZXQFFdWUERAxpUAAdHSUdeWVkIFlxLZkcNUEFbFQUHWwcHGk8=
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/disney-channel-es.png" group-title="KIDS",Disney Channel ᴱⁿ⁼ᵁᵏ
+https://wowza1.leisertv.com/live/disneychannel.stream/.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/disney-channel-es.png" group-title="KIDS",Disney Channel ᴱⁿ⁼ᵁˢ
+https://v4.thetvapp.to/hls/DisneyChannelEast/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/478FD8CFD6A5B1CF3A4FA161EB73ADD0739CE06476D9D4DF80E6498D24BADB33/scale?width=600&aspectRatio=1.78&format=png" group-title="KIDS",Disney JR 🇪🇸ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/4130868041/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn1.edgedatg.com/aws/v2/dnow/Images/tile/2057726/3c0997aa2d65d2c7bf27fcd0b83b94df/386x218-Q90_3c0997aa2d65d2c7bf27fcd0b83b94df.png" group-title="KIDS",Disney JR ᴱᴺ
+http://143.244.60.97/DISNEY_JR/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/1200px-Disney_XD_-_2015.svg.png" group-title="KIDS",Disney XD ᴱᴺ
+https://fl5.moveonjoy.com/DISNEY_XD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/1200px-Cartoon_Network_2010_logo.svg.png" group-title="KIDS",Cartoon Network ᴱˢ
+http://181.78.105.146:2000/play/a03k/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/1200px-Cartoon_Network_2010_logo.svg.png" group-title="KIDS",Cartoon Network ᴱᴺ
+http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/refs/heads/main/Channels/Images/Nick_Jr._logo_2023.png" group-title="KIDS",Nick JR ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/787563522/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/1200px-Cartoonito_-_Logo_2021.svg.png" group-title="KIDS",Cartoonito ᴱˢ
+https://jactvpro.xyz/Upb93ECM5B/RRzkDRt6w8/10296.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/1200px-Cartoonito_-_Logo_2021.svg.png" group-title="KIDS",Cartoonito ᴱᴺ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/2205543212/index.m3u8
+
+
+################################################################################
+# Spain
+################################################################################
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="Spain",1AlmereTV
+https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7ecgGIG.png" group-title="Spain",8NTV
+https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HYJzZc5.png" group-title="Spain",ARY Digital USA
+https://6zklx4wryw9b-hls-live.5centscdn.com/arydigitalusa/498f1704b692c3ad4dbfdf5ba5d04536.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/di3XX5L.png" group-title="Spain",Az Star TV
+http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/36KDxLg.png" group-title="Spain",BBC Alba
+https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_alba/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One Channel Islands
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_channel_islands/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One East
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One East Midlands
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_midlands/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One London
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One North East & Cumbria
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_east/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BBC_One_Northern_Ireland_2021.svg/512px-BBC_One_Northern_Ireland_2021.svg.png" group-title="Spain",BBC One Northern Ireland
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One North West
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_north_west/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/BBC_One_Scotland_2021.png" group-title="Spain",BBC One Scotland
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_scotland_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One South
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One South East
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_east/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One South West
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_south_west/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBC_One_Wales_2021.svg/512px-BBC_One_Wales_2021.svg.png" group-title="Spain",BBC One Wales
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_wales_hd/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One West
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One West Midlands
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_west_midlands/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One Yorkshire
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_east_yorkshire/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png" group-title="Spain",BBC One Yorkshire & Lincolnshire
+http://92.114.85.72:8000/play/a0mp
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/512px-BBC_Scotland_2021_%28channel%29.svg.png" group-title="Spain",BBC Scotland
+http://92.114.85.72:8000/play/a0mf
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/512px-BBC_Three_2022.svg.png" group-title="Spain",BBC Three
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_three_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uSX4YXL.png" group-title="Spain",BBC Toronto Gaunda Punjab
+http://start.agmediachandigarh.com/gaundapunjab/tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png" group-title="Spain",BBC Two England
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png" group-title="Spain",BBC Two Northern Ireland
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png" group-title="Spain",BBC Two Wales
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_wales_digital/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Spain",BBC UHD 1
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_01/iptv_uhd_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Spain",BBC UHD 2
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_02/iptv_uhd_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Spain",BBC UHD 3
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_03/iptv_uhd_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Spain",BBC UHD 4
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_04/iptv_uhd_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png" group-title="Spain",BBC UHD 5
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_05/iptv_uhd_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/VKv1Y6p.png" group-title="Spain",BCS StarCross TV
+https://webstreaming.viewmedia.tv/web_001/Stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/T4HwPUn.png" group-title="Spain",Bloomberg Quicktake
+https://ab1455372fed47d8a88264bab4831d5c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_QuickTake-1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="Spain",CCTV-1
+http://117.161.133.51:81/gitv_live/G_CCTV-1/G_CCTV-1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="Spain",CCTV-4 America
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="Spain",CCTV-4 Asia
+http://210.210.155.37/qwr9ew/s/s19/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5URjPgG.png" group-title="Spain",ETV
+https://sb.err.ee/live/etv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m5E2VP0.png" group-title="Spain",ETV
+https://edge.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" group-title="Spain",ETV Kayseri
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cvpDeYH.png" group-title="Spain",Fox TV
+http://stream-live.in:11037/hls/foxtv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qGddRW4.png" group-title="Spain",GenTV
+https://inliveserver.com:1936/14056/14056/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0aIH6V5.png" group-title="Spain",HGPTV
+https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/ABR1080v1/streams/284fce39-4456-2c6b-414a-1d41a03d17dd_1080p2500kbps.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DP6HmDV.png" group-title="Spain",Imagen Universal TV
+https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png" group-title="Spain",KBS 1TV
+http://202.60.106.14:21585/200/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png" group-title="Spain",KBSI-DT1
+https://live.field59.com/kbsi/kbsi1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7DqgELX.png" group-title="Spain",KBS World
+http://mytv.dothome.co.kr/ch/catv/7.php
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZiPL9ar.png" group-title="Spain",KempenTV
+http://ms7.mx-cd.net/tv/Omroep_de_Kempen.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CWZtYNi.png" group-title="Spain",KETV-DT1
+https://apollo.production-public.tubi.io/live/ac-ketv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/KMBC_9_ABC.svg/512px-KMBC_9_ABC.svg.png" group-title="Spain",KMBC-DT1
+https://apollo.production-public.tubi.io/live/ac-kmbc.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" group-title="Spain",KNTV-DT1
+https://amg00884-nbcuniversal-nbcsf-pcr-xumo-xetsp.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/d02uxkB.png" group-title="Spain",LenTV24
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5TdbQH4/LNTV-Liberia-Logo.png" group-title="Spain",LNTV
+http://185.59.221.131:8081/live/lntv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Dw4u9wT.png" group-title="Spain",Lokale Omroep Zeewolde
+https://5e2b3e3114872.streamlock.net:1443/lozlive/smil:lozlive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7afBZh2.png" group-title="Spain",MBC
+https://glb.bozztv.com/glb/ssh101/mbcmalawi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="Spain",MBC 1
+https://d3o3cim6uzorb4.cloudfront.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="Spain",MBC 1 USA
+https://mbc-1-usa-ak.akamaized.net/out/v1/8c1ce74bfd0743aab1026ef5b2aecfa4/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ronb1JP.png" group-title="Spain",MBC Gyeongnam TV
+https://624a79c87201d.streamlock.net/MBCTV/TV1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="Spain",MBC Iraq
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="Spain",MBC Masr
+https://mbc1-enc.edgenextcdn.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KHo7Gtn.png" group-title="Spain",MBC Masr 2
+https://shls-masr2-ak.akamaized.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="Spain",MBC Masr USA
+https://masr-usa-ak.akamaized.net/out/v1/5fcaf05b5cd64b3cb4a969e0470080c8/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4FXiyjn.png" group-title="Spain",MBC Persia
+https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JjB7U1q.png" group-title="Spain",MerweTV
+https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/w3yzJoK.png" group-title="Spain",naheTV
+https://s.ok54.de/nahetv/webstream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qqLXdHz.png" group-title="Spain",NTV
+https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2JbqbPY.png" group-title="Spain",NTV
+https://cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c7jUmGS.jpg" group-title="Spain",NTV
+https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jXbs8FZ.png" group-title="Spain",NTV
+https://dogus-live.daioncdn.net/ntv/ntv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QLuUIeB.png" group-title="Spain",NTV-Belarus
+http://82.209.197.187:8080/udp/239.0.100.6:1234
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="Spain",NTV HD
+https://cdn.ntv.ru/ntv0/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3c3QUSn.png" group-title="Spain",Omroep Zeeland
+https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/X3eIdVf.png" group-title="Spain",PTV Almeria
+https://streamer.zapitv.com/ptv_almeria/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kh3LGAP.png" group-title="Spain",Rede SPTV
+https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SEe2ki7.png" group-title="Spain",RedeTV! Tocantins
+https://59f1cbe63db89.streamlock.net:1443/redetvro/redetvro/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pB3yt49.png" group-title="Spain",RiversideTV
+https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/riversideca/G0879_001/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zmVKI26.jpg" group-title="Spain",SNTV Daljir
+https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/J3jB7Kr.png" group-title="Spain",Starnet
+https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e5eVHam.png" group-title="Spain",TNTV
+https://bcovlive-a.akamaihd.net/34b9e8a6345d4ee8acb351730d1dbe89/us-west-2/5816339219001/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rPAbMSu.png" group-title="Spain",TV5Monde Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WmRbudc.png" group-title="Spain",TV5Monde France Belgium Switzerland Monaco
+https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tGeHwxd.png" group-title="Spain",TVN
+https://bcovlive-a.akamaihd.net/628aecb4fccb4c52b4f9c8d5cc57fb73/us-west-2/6058004209001/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zoHBxn1.png" group-title="Spain",TVNBN
+https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Nx76HUE.png" group-title="Spain",TVNZ 1
+https://d2ce82tpc3p734.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_1/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9sV4dbH.png" group-title="Spain",TVNZ 2
+https://duoak7vltfob0.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_2/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tJf9DEI.png" group-title="Spain",TVNZ DUKE
+https://dayqb844napyo.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_Duke/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kerkvRX.png" group-title="Spain",TV Stara Tura
+http://95.105.193.219:88/hls/tvst.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1rDrKJG/Watan-E-Maa-Tv-Logo-300-Dpi.png" group-title="Spain",Watan-e-Maa TV
+https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oMIygVf.png" group-title="Spain",Handystar
+https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bXe7tYE.png" group-title="Spain",Lotte OneTV
+https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NcEygU5.png" group-title="Spain",OnTV4U
+https://stirr.b-cdn.net/stirr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TgO3Lzi.png" group-title="Spain",A2 CNN
+https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vMzCr8O.png" group-title="Spain",Al Jazeera Balkans
+https://live-hls-apps-ajb-v3-fa.getaj.net/AJB/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Spain",Al Jazeera Documentary
+https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="Spain",Al Jazeera English
+http://80.79.6.221:25461/smash/public/30
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aljazeera_Mubasher.svg/512px-Aljazeera_Mubasher.svg.png" group-title="Spain",Al Jazeera Mubasher
+https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aljazeera_Mubasher.svg/512px-Aljazeera_Mubasher.svg.png" group-title="Spain",Al Jazeera Mubasher 24
+https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aljazeera_Mubasher.svg/512px-Aljazeera_Mubasher.svg.png" group-title="Spain",Al Jazeera Mubasher Broadcast 2
+https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512" group-title="Spain",Antena 3 CNN
+https://live3vox.antenaplay.ro/a3free/a3free.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RNs3KM1.png" group-title="Spain",ANTv
+http://181.188.144.141/tmp_hls/ant_tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LrHGfdC.png" group-title="Spain",Asianet News
+https://vidcdn.vidgyor.com/asianet-origin/liveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/19joZ1o.png" group-title="Spain",Asianet News Kannada
+https://vidcdn.vidgyor.com/suvarna-origin/liveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pGA2R8l.png" group-title="Spain",Asianet News Tamil
+https://vidcdn.vidgyor.com/ptm-origin/aslive/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ScyTG6P.png" group-title="Spain",BBC Arabic
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="Spain",BBC News
+https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="Spain",BBC News Asia Pacific
+https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="Spain",BBC News North America
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Spain",BBC Persian
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="Spain",CCTV-13
+http://bl.dchwtq.asia:10000/rtp/239.254.96.161:9040
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="Spain",CCTV+ 1
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qSg862A.png" group-title="Spain",CCTV+ 2
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="Spain",CGTN
+http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225917/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AkFFrS7.png" group-title="Spain",CGTN Arabic
+https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BwhledK.png" group-title="Spain",CGTN French
+https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="Spain",CGTN Russian
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Poz3xfi.png" group-title="Spain",CGTN Spanish
+https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gSuWhWd.png" group-title="Spain",Dighvijay News 24x7
+https://vidcdn.vidgyor.com/dighvijay-origin/liveabr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ETV_Mongolia_logo.png/512px-ETV_Mongolia_logo.png" group-title="Spain",ETV
+https://cdn3.skygo.mn/live/disk1/ETV/HLS-FTA/ETV.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U6OW577.png" group-title="Spain",eTv Marche
+https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xYVI5OC.png" group-title="Spain",eTv Rete 7
+https://live.ipstream.it/etv/etv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="Spain",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Op4EsaB.png" group-title="Spain",Geo News
+https://jk3lz82elw79-hls-live.5centscdn.com/GEONEWS/3500ba09d0538297440ca620c9dd46bf.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="Spain",Jamuna TV
+http://113.212.111.246:8080/hls/col12.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="Spain",LiveNOW from FOX
+https://amg00488-foxdigital-newsnow-xumo-qbvgp.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/adjRrVx.png" group-title="Spain",Manorama News
+http://103.199.161.254/Content/manoramanews/Live/Channel(ManoramaNews)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/0a/NHK_Huayu_Shijie_Logo.jpg/512px-NHK_Huayu_Shijie_Logo.jpg" group-title="Spain",NHK Chinese
+https://nhkw-zh-hlscomp.akamaized.net/ixxemlzk1vqvy44o/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gtZLzxq.png" group-title="Spain",ntv
+https://protokolldns.xyz/ntv/livestream9956544786625444/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/News24.svg/512px-News24.svg.png" group-title="Spain",NTV NEWS24
+https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="Spain",PTV
+https://cdn10.live-tv.cloud/hrpl/hrpl-abr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4PrPG5j/Start-TV-Corfu-Radio-100-1-www-startmedia-gr-1.jpg" group-title="Spain",Start TV
+https://live.cast-control.eu/StartMedia/StartMedia/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AJx5Fy2.png" group-title="Spain",TV5Monde Info
+https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bu6bQMa.png" group-title="Spain",TVN24
+https://ss5.domint.net:3032/vozz_str/vozzmedia/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kkNtmAW.png" group-title="Spain",TVN-Bulgaria
+https://obs.friendshipchurch.eu/tvn/mystream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TKe35fJ.png" group-title="Spain",Zee Nepal
+http://43.245.85.211:5563/live/zeenepaltv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Zee_news.svg/512px-Zee_news.svg.png" group-title="Spain",Zee News
+https://d233nwklwv8p4.cloudfront.net/out/v1/860cb318d23a4c64b58c9d625281170c/index_3.m3u8
+
+#EXTINF:-1 tvg-logo="https://w1.pngwing.com/pngs/206/434/png-transparent-logo-cnn-news-logo-of-nbc-media-text-red-line-thumbnail.png" group-title="Spain",CNN International
+http://fl2.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",BBC World News
+https://143.244.60.30/BBC_WORLD_NEWS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="Spain",BBC America East
+http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/i4remZo.png" group-title="Spain",BBC Brit
+http://178.219.128.68:64889/BBCBRITHD
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="Spain",BBC First
+http://185.236.229.62:9981/play/a02n
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="Spain",CCTV-3
+http://bl.dchwtq.asia:10000/rtp/239.69.1.122:10370
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iNJu7Fu.png" group-title="Spain",Crossing Canal IPTV
+https://vivo.solumedia.com:19360/crossing/crossing.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/w4kAX1V.png" group-title="Spain",C Star
+http://213.246.39.14:8070/cstar/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/ETV%2B_logo.png" group-title="Spain",ETV+
+https://sb.err.ee/live/etvpluss.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kb165Ot.png" group-title="Spain",EuroStar
+http://185.234.111.229:8000/play/a01h
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hSDN9YQ.png" group-title="Spain",Fox
+http://109.233.89.166/FOX_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nr1Y67Z.png" group-title="Spain",Fox
+https://stream01.vnet.am/Fox/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png" group-title="Spain",KBS 2TV
+http://mytv.dothome.co.kr/ch/public/3.php
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png" group-title="Spain",KBS Drama
+http://mytv.dothome.co.kr/ch/catv/2.php
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png" group-title="Spain",KBS Joy
+http://mytv.dothome.co.kr/ch/catv/3.php
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png" group-title="Spain",KBS Story
+http://mytv.dothome.co.kr/ch/catv/4.php
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/MeTV_Logo.svg/512px-MeTV_Logo.svg.png" group-title="Spain",KMBC-DT2
+https://cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8
+
+#EXTINF:-1 tvg-logo="https://od.lk/s/MF8yMzMxMzM1NzJf/LoneStar_250x250.png" group-title="Spain",Lone Star
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-lonestar-cineverse/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KDELbnr.png" group-title="Spain",Lone Star Network
+https://6b88cde9.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/ec788187-7d6a-4887-aeb7-cbe7214a3dc7/2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fjgzW20.png" group-title="Spain",Mazhavil Manorama
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qPnolMM.png" group-title="Spain",MBC 2
+https://glb.bozztv.com/glb/ssh101/mbctv2mw/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BcXASJp.png" group-title="Spain",MBC 4
+https://shls-masr-prod-dub.shahid.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="Spain",MBC Drama
+https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Q20rqnX.png" group-title="Spain",MBC Drama
+http://mytv.dothome.co.kr/ch/catv/26.php
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="Spain",NHK World Premium
+https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/d4xEiXX.png" group-title="Spain",Popstar! TV
+https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/llpjrWU.jpeg" group-title="Spain",Sab TV
+https://guineetvdirect.online:3964/live/sabtvlive.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Spain",Star Channel
+http://livestar.siliconweb.com/media/star1/star1mediumhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Spain",Star Channel International
+https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Zee_One_present_logo.png/512px-Zee_One_present_logo.png" group-title="Spain",Zee One
+https://ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/800px-Star_Channel_2020.svg.png" group-title="Spain",STAR Channel ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/501658715/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Paramount Network ᴱˢ
+http://185.189.225.150:85/Paramount/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar + ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2881668464/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Acción ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/3697992438/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar SeriesMania ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1344073831/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Drama ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2748019555/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="Spain",CCTV-11
+http://bl.dchwtq.asia:10000/rtp/239.69.1.154:10560
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="Spain",CCTV-15
+http://bl.dchwtq.asia:10000/rtp/239.69.1.155:10566
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IiiRmrf.png" group-title="Spain",CCTV-Storm Music
+http://117.161.133.51:81/gitv_live/G_FENGYUNYY-CQ/G_FENGYUNYY-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://www.dancetv.net/img/icons/channels/algorhythm.jpg" group-title="Spain",DanceTV Algorhythm
+https://m2b2.worldcast.tv:7443/dancetelevisionfour/dancetelevisionfour.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.dancetv.net/img/icons/channels/chill-af.jpg" group-title="Spain",DanceTV Chill AF
+https://mbit1.worldcast.tv/dancetelevisioneight/multibit.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV Deep House District
+https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV EDM Mainstage
+https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV House Floor
+https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV Melodic Tech
+https://mbit1.worldcast.tv/dancetelevisionnine/multibit.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV Minimal Tech
+https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/dd/dance-tv-nl.png" group-title="Spain",DanceTV Techno Warehouse
+https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1nJl0Pv.png" group-title="Spain",INTV Australia
+http://tv1.intv.mk:1935/live/intv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Spain",KpopTV Play
+https://ssh101-fl.bozztv.com/ssh101/kpoptv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lF8UxvR.png" group-title="Spain",MBC FM
+https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mptwwLs.png" group-title="Spain",MBC Loud
+https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/NickMusic.svg/512px-NickMusic.svg.png" group-title="Spain",NickMusic
+http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E9ha9Or.png" group-title="Spain",POP STAR
+https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZEBOeGe.png" group-title="Spain",Portalfoxmix
+http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I60nQuR.png" group-title="Spain",RFPtv
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://star101.gu/images/fb_icon.jpg" group-title="Spain",Star 101 FM
+https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fM7FUgk.png" group-title="Spain",Star Folk TV
+https://live.muzickatv.mk/live/StarMusic.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/01yz22a.png" group-title="Spain",Star Plus Televizija
+https://live.muzickatv.mk/live/StarMusic2.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7oZaSDI.png" group-title="Spain",Fox Comedy
+http://178.219.128.68:64889/FOXCOMEHD
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JpKvjZe.png" group-title="Spain",Starz Comedy East
+http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="Spain",BBC Home & Garden
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5836fe745b600070fc743/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=844b6663-bad2-462b-9aef-d0f33d5dfaa0
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/BBC_Lifestyle2.svg/512px-BBC_Lifestyle2.svg.png" group-title="Spain",BBC Lifestyle
+http://178.219.128.68:64888/BBCLIFEHD
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QiuYWs9.png" group-title="Spain",BBC Travel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60e4519e6873180007d3cddb/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ac5694-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6c128a45-6314-4183-a002-254731ea91a6
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3yTuiOM.png" group-title="Spain",CCTV-12
+http://bl.dchwtq.asia:10000/rtp/239.69.1.106:10274
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Spain",CCTV-Women's Fashion
+http://117.161.133.51:81/gitv_live/G_NVXINGSS-CQ/G_NVXINGSS-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7Bigo7u.png" group-title="Spain",FashionTV Czech&Slovak
+http://lb.streaming.sk/fashiontv/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Spain",FashionTV Europe
+https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Spain",FashionTV Paris
+https://fash1043.cloudycdn.services/slive/ftv_paris_adaptive.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Spain",FashionTV PG16
+https://fash1043.cloudycdn.services/slive/ftv_pg16_adaptive.smil/media.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vQuyyWO.png" group-title="Spain",FashionTV UHD
+https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png" group-title="Spain",KBS Life
+http://mytv.dothome.co.kr/ch/catv/5.php
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rX6K6qT.png" group-title="Spain",NTV Style
+https://cdn.ntv.ru/th_hit/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cwC7Q2V.png" group-title="Spain",TV5Monde Style
+https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="Spain",BBC Drama
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EQZPSZx.png" group-title="Spain",BBC Drama
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d35a74c63c3c0008df6a90/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0614c5-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=eff52b4b-c804-4f5a-968a-d48a2898e184
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="Spain",MBC Drama USA
+https://mbcdrama-usa-ak.akamaized.net/out/v1/876f960feec24a8aba9e9d3f9023174b/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QdVa8tl.png" group-title="Spain",NTV Series
+https://cdn.ntv.ru/th_serial/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/S1n7T0k.png" group-title="Spain",Pluto TV Star Trek
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6152ee71bf99590007893a11/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84aeeea7-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3329cc1b-d91f-4194-b516-92fbd807049b
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8cvXYiT.png" group-title="Spain",Star Trek
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5efbd39f8c4ce900075d7698/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bd7a1-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d71afd5b-b301-46b0-bf30-b8f1833c66d5
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Spain",TVE Star HD
+https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OwSlGMu.png" group-title="Spain",Universal Crime East
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6549341853fc9700083901ac/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc200-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f8ea05b6-c631-4463-8491-a4394e906d3c
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/320px-AXN_logo_%282015%29.svg.png" group-title="Spain",AXN
+http://178.219.128.68:64888/AXN
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/AXN_Black_logo_%282015%29.svg/320px-AXN_Black_logo_%282015%29.svg.png" group-title="Spain",AXN Black
+http://185.236.229.62:9981/play/a075
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/AXN_White_logo_%282015%29.svg/320px-AXN_White_logo_%282015%29.svg.png" group-title="Spain",AXN White
+http://185.236.229.62:9981/play/a074
+
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png" group-title="Spain",BBC Red Button 1
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_01/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 10
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_10/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 11
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_11/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 12
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_12/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 13
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_13/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 14
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_14/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 15
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_15/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 16
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_16/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 17
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_17/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 18
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_18/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 19
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_19/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 2
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_02/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 20
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_20/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 21
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_21/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 22
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_22/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 23
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_23/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 24
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_24/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 3
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_03/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 4
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_04/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 5
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_05/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 6
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_06/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 7
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_07/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 8
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_08/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g2Aga13.png" group-title="Spain",BBC Red Button 9
+https://ve-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uk_sport_stream_09/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SRFzjja.png" group-title="Spain",CafeTV24
+https://srvx1.selftv.video/cafe/live/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/57iXCDh.png" group-title="Spain",Canada Star TV
+https://main.clickstreamcdn.com/agm/star-canada/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/320px-Cinemax_2016.svg.png" group-title="Spain",Cinemax
+http://109.233.89.166/CINEMAX_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/58/CINEMAX_2_logo.png" group-title="Spain",Cinemax 2
+http://109.233.89.166/CINEMAX_2_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zFgbobO.png" group-title="Spain",CPEtv
+https://stream.arcast.live/cpe/ngrp:cpe_all/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/0b232373-fb80-4704-976f-ecefeaa377b6-width200-quality90.png" group-title="Spain",DAZN Combat
+https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/1ccbd6b3-d27d-4f22-a4ae-3eabb4c9e062-width200-quality90.png" group-title="Spain",DAZN Women's Football
+https://dazn-daznwomensfootball-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-daznwomensfootball-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="Spain",ETV Manisa
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7mZnPO5.png" group-title="Spain",KBS LiveCam DokDo
+http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/512px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png" group-title="Spain",MBC Net
+http://mytv.dothome.co.kr/ch/catv/28.php
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CN2j8S3.png" group-title="Spain",Nova TV Star
+https://7.innovatestream.pe:19360/radionovastar/radionovastar.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SoBhuIb.png" group-title="Spain",NTV
+http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3ChnWGg.png" group-title="Spain",NTV Law
+https://cdn.ntv.ru/th_pravo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YEUhPBv.png" group-title="Spain",NTV+
+https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EzODUBO.png" group-title="Spain",ONTV
+https://cdn3.skygo.mn/live/disk1/ONTV/HLS-FTA/ONTV.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uu91Wqu.png" group-title="Spain",Pluto TV Star Trek
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61f93af0b253440007c54ad8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e0689f0-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=84850a7e-c30d-4988-863c-25f2007665d9
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MrjG6dC.png" group-title="Spain",PNTV
+https://livefta.malimarcdn.com/ftaedge00/pntv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P5erWzm.png" group-title="Spain",PONTV
+http://122.248.43.138:1935/ch15/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vPvR7dX.png" group-title="Spain",PTV
+https://glb.bozztv.com/glb/ssh101/centralptv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bNdpyAZ.png" group-title="Spain",Realitatea Star
+https://stream.realitatea.net/realitatea/star_md/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YC5FRmq.png" group-title="Spain",Red CCTV
+https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I3lTIeN.png" group-title="Spain",Shine Star TV
+https://f-tx-edge-87.christianworldmedia.com/shinetvpak2/mp4:shinetvpak2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Dut8Ftk.png" group-title="Spain",Sony Canal Competencias
+https://spt-competencias-1-us.xumo.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ohE9IgP.png" group-title="Spain",Sony Canal Escape Perfecto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/605e479d5b8229000763e697/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb095-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e52ea0d7-7d74-4383-8afa-27a135057740
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9Qq8DKh.png" group-title="Spain",Sony KAL Hindi
+https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NdITPCk.png" group-title="Spain",Stars TV
+http://178.219.128.68:64888/STARTVHD
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/R6hxJgl.png" group-title="Spain",Star TV
+https://cdn2.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="Spain",Star TV
+https://dogus-live.daioncdn.net/startv/startv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="Spain",Starz East
+https://tvpass.org/live/StarzEast/hd/
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MvH3Cz2.png" group-title="Spain",Starz Edge East
+http://fl2.moveonjoy.com/STARZ_EDGE/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5ieoKO1.png" group-title="Spain",Starz Encore East
+http://fl2.moveonjoy.com/STARZ_ENCORE/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vuF6PCJ.png" group-title="Spain",Swaraj Express SMBC
+https://live.wmncdn.net/highnews/swaraj.stream/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qSd8DTI.png" group-title="Spain",Telestar1
+http://89.47.97.15/telestar/telestar.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FRsRXRR.png" group-title="Spain",TV5Monde Asia
+https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mfZOYZI.png" group-title="Spain",TV5Monde Pacific
+https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="Spain",TVN
+https://panel.miplay.cl:8081/tvn/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/t8nUMAO.png" group-title="Spain",TVN
+https://s4.telset.ee/tvn/index.m3u8?filter.tracks=v1a1&token=tvn_token
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1aNEo6U.png" group-title="Spain",TVN 14
+http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XZS13xD.png" group-title="Spain",TVN Brasil
+http://painelvj.com.br:1935/tvnbrasil/tvnbrasil.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jzv1ssE.png" group-title="Spain",TVNET
+https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mQo8yWQ.png" group-title="Spain",TVNET
+https://mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1TcZUzH.png" group-title="Spain",TVN Global
+https://tvlatina.live:1936/8006/8006/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png" group-title="Spain",WPTV-DT1
+https://apollo.production-public.tubi.io/live/ac-wptv2.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/MegaTV.png" group-title="Spain",WSBS-DT1
+https://mdstrm.com/live-stream-playlist/660b066dae419408a11b6072.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RKrvmVo.png" group-title="Spain",Zee 24 Kalak
+https://livetv-channels.b-cdn.net/8077/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nUmsyGt.png" group-title="Spain",Zee Aflam
+https://weyyak-live.akamaized.net/weyyak_zee_aflam/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fBL7YrC.png" group-title="Spain",Zee Alwan
+https://weyyak-live.akamaized.net/weyyak_zee_alwan/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e26mQ7x.png" group-title="Spain",Zee Bihar Jharkhand
+https://d3dxf2v5wg5rcy.cloudfront.net/out/v1/349f643193e347609b16671d8e0bfb4a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Xl7MJnd.png" group-title="Spain",Zee Bioskop
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch161)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3eAZMxA.png" group-title="Spain",Zee Hindustan
+https://d336l5u76wvq7j.cloudfront.net/out/v1/5990b42d2b7b40bc8e581e90afe6ef94/index_4.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NileYZz.png" group-title="Spain",Zee Keralam
+https://cflive-esports-hindi.zee5.com/out/v1/c2a01fab468b452d9af1a1aa66644d9d/Zee_Keralam_ME_SD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YccuVVI.png" group-title="Spain",Zee Madhya Pradesh Chhattisgarh
+https://dg2v5dko941am.cloudfront.net/out/v1/176d62f6612f47a4b94e78c5bc1bcee6/index_4.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vv9ysD3.png" group-title="Spain",Zee Marathi
+https://d3vy3je10jkn7h.cloudfront.net/out/v1/f610383ba97c47e3b04d2e1593ff8549/index_4.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iYrrGlL.png" group-title="Spain",Zee Rajasthan
+https://d3596fuob34tr0.cloudfront.net/out/v1/dc9cd568b52340d9a694877ad4b103a8/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9wemlu5.png" group-title="Spain",Zee Salaam
+https://d3i8oqsdv88b3m.cloudfront.net/out/v1/08f6360f9104421f90319460c0e03f11/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9LEiQPJ.png" group-title="Spain",TVN3
+https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mgXeEE4.png" group-title="Spain",70s Cinema
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263252-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7c57f1f3-2078-4f92-a4b5-6cd444220a70
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Spain",AXN
+https://cvi.cdn.rcs.net.ar/mnp/axn_hls/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png" group-title="Spain",AXN Central America
+https://streamer1.nexgen.bz/AXN/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://biztv.uz/static/media/biz-cinema.286b83dc.png" group-title="Spain",BIZ Cinema
+https://st.biztv.uz/hls/c_hi/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FKBp987.png" group-title="Spain",Black Cinema
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58af4c093a41ca9d4ecabe96/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c271cb5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=93605d96-6c9d-457d-a2b4-d26d07474db9
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="Spain",CCTV-6
+http://1.85.0.62:808/hls/6/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="Spain",CCTV-Storm Theater
+http://117.161.133.51:81/gitv_live/G_FENGYUNJC-CQ/G_FENGYUNJC-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uV5cHDW.png" group-title="Spain",Cinema Hausa
+https://origin3.afxp.telemedia.co.za/PremiumFree/cinemahausa/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Spain",Cinema One
+https://cinemaone-abscbn-ono.amagi.tv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CD0sMAa.png" group-title="Spain",Cinema Segreto
+https://minerva-cinemasegreto-1-it.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Spain",CinemaWorld
+http://210.210.155.35/dr9445/h/h04/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bZWoDTg.png" group-title="Spain",Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FJoPnTb.png" group-title="Spain",Classic Cinema
+https://bozztv.com/gusa/gusa-classiccinema/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fewPTFE.png" group-title="Spain",EBS Cinema
+https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/gg/grand-cinema.png" group-title="Spain",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5Auduch.png" group-title="Spain",JOJ Cinema
+https://live.cdn.joj.sk/live/andromeda/cinema-720.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zXpROBj.png" group-title="Spain",Kairali We
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/wetv_nim_https/050522/wetv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OEamqFg.png" group-title="Spain",Maverick Black Cinema
+https://apollo.production-public.tubi.io/live/ac-maverick-black-cinema.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n9mSHuP.png" group-title="Spain",MBC 2
+https://edge66.magictvbox.com/liveApple/MBC_2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Spain",MBC Bollywood
+https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="Spain",MBC+ Drama
+https://mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BTmcTQO.png" group-title="Spain",My Cinema
+http://210.210.155.37/uq2663/h/h192/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4XVZLW0.png" group-title="Spain",My Cinema Asia
+http://210.210.155.37/uq2663/h/h193/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WXRBuOW.png" group-title="Spain",NETV Toronto
+https://eu1.vectromdigital.com:1936/netvtoronto/netvtoronto/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Spain",Paramount Movie Channel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7819-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a4a0712-cb24-4d05-b429-1b98c1f73f74
+
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg" group-title="Spain",Paramount+ Picks
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=86df5336-6268-4928-9b7d-3af618ca807b
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hgIro9r.png" group-title="Spain",Persiana Cinema
+https://cinehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/w3lUi4t.png" group-title="Spain",Pluto TV Cinema Italiano
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa7d8359b270007861489/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pGgp38I.png" group-title="Spain",Rotana Cinema KSA
+https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yijitpa.png" group-title="Spain",Sony Canal Novelas
+https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xC460sj.png" group-title="Spain",Star Gold
+http://103.81.104.118/hls/stream19.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wIf4X0i.png" group-title="Spain",Starz Encore Action East
+http://fl2.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="Spain",tvN Movies Asia
+http://210.210.155.37/dr9445/h/h21/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QtGQR0c.png" group-title="Spain",Warner TV
+http://109.233.89.166/TNT_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QWo0x7S.jpg" group-title="Spain",beIN Sports Haber
+https://canlitvulusal3.xyz/live/beinsportshaber/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uJosqHh.png" group-title="Spain",beIN SPORTS XTRA
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5df975e2b27cf5000921c102/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=cb932046-e001-4189-a871-1376aa2ec340
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Spain",beIN SPORTS XTRA en Espanol
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60492fdd9989d30007ccd30a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5f89b39e-273a-43e4-8664-6b0d3d3b0fef
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="Spain",CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/GxrCGmwST0ixsrc_QgB6qw/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Spain",CBS Sports HQ
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c27b8f5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3a15356b-8467-4ae7-b2f6-9c8467fcf41d
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A8CnA8g.png" group-title="Spain",CBS Sports Network USA
+http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="Spain",CCTV-16
+http://bl.dchwtq.asia:10000/rtp/239.69.1.247:11124
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nbmnGwE.png" group-title="Spain",CCTV-5
+http://1.85.0.62:808/hls/503/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="Spain",CCTV-5+
+http://bl.dchwtq.asia:10000/rtp/239.254.96.234:9484
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="Spain",CCTV-Billiards
+http://117.161.133.51:81/gitv_live/G_TAIQIU-CQ/G_TAIQIU-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Spain",CCTV-Storm Football
+http://117.161.133.51:81/gitv_live/G_FENGSHANGZQ-CQ/G_FENGSHANGZQ-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/512px-%C4%8CT_sport_logo.png" group-title="Spain",CT Sport
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/512px-FOX_Deportes_logo.png" group-title="Spain",Fox Deportes
+https://apollo.production-public.tubi.io/live/fox-sports-espanol.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xA0l7DP.png" group-title="Spain",Fox Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f173-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=46a3b8ff-5a4a-4952-bb4d-9461224acd54
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Spain",Fox Sports 1
+http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="Spain",Fox Sports 2
+https://tvpass.org/live/FoxSports2/hd/
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RngmCDn.png" group-title="Spain",Futbol
+https://live.teleradiocom.tj/8/3m.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MTgUVKx.png" group-title="Spain",NBC Sports Bay Area
+https://tvpass.org/live/nbc-sports-bay-area/hd/
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NBC_Sports_Boston.png/512px-NBC_Sports_Boston.png" group-title="Spain",NBC Sports Boston
+https://tvpass.org/live/nbc-sports-boston/hd/
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/NBC_Sports_Philadelphia.png/512px-NBC_Sports_Philadelphia.png" group-title="Spain",NBC Sports Philadelphia
+https://tvpass.org/live/nbc-sports-philadelphia/hd/
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5pvsIsL.png" group-title="Spain",NTV Spor
+http://46.4.193.238:8484/hls/ntvspor/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Spain",PTV Sports
+http://121.91.61.106:8000/play/a00l/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/40BbQUd.png" group-title="Spain",Sony Sports Ten 5
+http://103.81.104.118/hls/stream10.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/L9jTieL.png" group-title="Spain",Start Triumf
+https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Spain",Ten Sports Pakistan
+http://121.91.61.106:8000/play/a04h/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Spain",Trace Sport Stars
+http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/A5ui53C.png" group-title="Spain",Bloomberg Adria
+https://d3ojytvj4doga3.cloudfront.net/app-23764-1566/ngrp:Jq3SvH9h_all/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="Spain",Bloomberg HT
+https://bloomberght2dvr.blutv.com/blutv_bloomberght_dvr/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.theofficialboard.com/img/twitterCompanyBigImages/32361.jpg" group-title="Spain",Bloomberg Originals
+https://d7ec4f6950ed4c6d946e497bd44db7ef.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_QuickTake-1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/54ff7ba69222cb1c2624c584/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90859fb4-eb20-4022-bd6d-3413a8bf59c2
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Asia
+https://bloomberg.com/media-manifest/streams/asia.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Asia Live Event
+https://bloomberg.com/media-manifest/streams/asia-event.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Australia
+https://bloomberg.com/media-manifest/streams/aus.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV EMEA Live Event
+https://bloomberg.com/media-manifest/streams/eu-event.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Europe
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Live Event
+https://bloomberg.com/media-manifest/streams/us-event.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Mongolia
+https://cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xGlToly.png" group-title="Spain",Bloomberg TV+
+https://bloomberg-bloombergtv-1-fr.samsung.wurl.tv/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Spain",Bloomberg TV Politics Live Event
+https://bloomberg.com/media-manifest/streams/politics.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/512px-BNN_Bloomberg.svg.png" group-title="Spain",BNN Bloomberg
+https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILamhwU.png" group-title="Spain",CCTV-2
+http://117.161.133.51:81/gitv_live/G_CCTV-2/G_CCTV-2.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png" group-title="Spain",Fox Business Network
+http://41.205.93.154/FOXBUSINESS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vkWBtL4.png" group-title="Spain",Zee Business
+https://d8gy12azhr71i.cloudfront.net/out/v1/45be109c5b4f44319e882da947377364/index_3.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/91JLpxr.png" group-title="Spain",ACNN
+https://webstreaming.viewmedia.tv/web_014/Stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Spain",CGNTV Chinese
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5LNZeVq.png" group-title="Spain",CGNTV Japan
+http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zwZASOB.png" group-title="Spain",CGNTV South Korea
+https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IjzCv8f.png" group-title="Spain",Daystar TV
+https://hls-live-media.cdn01.net/dvr/stream_37099_1.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wQkmLSg/Channels4-profile-9.jpg" group-title="Spain",Excel Discovery TV
+http://connectiktv.ddns.me:8080/live/61f6352d2b4d5-1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wPzPUrK.png" group-title="Spain",Hope Channel India
+https://videodelivery.net/98334a974d26e45759c6baa8bceabbcf/manifest/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wzvgAch.png" group-title="Spain",Hope Channel Inter-America
+https://jstre.am/live/jsl:EC0Mq0i6HJU.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PNihgl2.png" group-title="Spain",Hope Channel International
+https://jstre.am/live/jsl:cZXINbwrFj6.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0mreWrM.jpg" group-title="Spain",LifeStyleTV
+https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jO8kAY2.png" group-title="Spain",LifeTv
+https://lifetv.mpks.sk/s.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pF6Wowj.jpg" group-title="Spain",LifevisionTV
+https://tgn.bozztv.com/lifevision/lifevision/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RVvsezV.jpeg" group-title="Spain",LNTV
+https://helga.iptv2022.com/sh/LNTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sDGZCpL.png" group-title="Spain",SafeTV
+http://18.191.91.130:1935/live/safetv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TIsk5zN.png" group-title="Spain",TV Universal
+https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Spain",CCTV-10
+http://bl.dchwtq.asia:10000/rtp/239.69.1.105:10268
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="Spain",CCTV-7
+http://bl.dchwtq.asia:10000/rtp/239.69.1.103:10256
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V2ncOXi.png" group-title="Spain",CCTV-World Geography
+http://117.161.133.51:81/gitv_live/G_SHIJIEDL-CQ/G_SHIJIEDL-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6sOHLq8.png" group-title="Spain",CETV-1
+http://117.161.133.51:81/gitv_live/G_CETV-1/G_CETV-1.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZD8XPmw.png" group-title="Spain",CETV-2
+http://117.161.133.51:81/gitv_live/G_CETV-2/G_CETV-2.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HTnQGcs.png" group-title="Spain",ETV
+http://150.95.66.20:1935/live/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kSMo53C.png" group-title="Spain",MINEDU IPTV 1
+http://iptv.perueduca.pe:1935/canal1/canal11/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mbJ1FCQ.png" group-title="Spain",MINEDU IPTV 2
+http://iptv.perueduca.pe:1935/canal2/canal22/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iv9Vfcb.png" group-title="Spain",Nashua ETV
+https://livestream.telvue.com/nashuanh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="Spain",CCTV-8
+http://bl.dchwtq.asia:10000/rtp/239.69.1.125:10388
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="Spain",Fox Soul
+https://apollo.production-public.tubi.io/live/ac-fox-soul-scte.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SqG9fbV.png" group-title="Spain",MeieTV
+https://stream.meietv.de/live/meietv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/512px-New_NatGeo_People_logo.svg.png" group-title="Spain",Nat Geo People
+http://185.236.229.62:9981/play/a06f
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9cmIv3q.png" group-title="Spain",USMPTV
+https://streamusmptv.ddns.net/live/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png" group-title="Spain",BBC Parliament
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ObNBL7L.png" group-title="Spain",BPTV
+https://buenapark.cablecast.tv/live/stream-1/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OOQqMQz.png" group-title="Spain",MPTV
+https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/moorpark/G0086_003/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fl8I3cg.png" group-title="Spain",SPTV
+https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/512px-Fox_Weather_logo.svg.png" group-title="Spain",Fox Weather
+https://247wlive.foxweather.com/stream/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oWKCBIz.png" group-title="Spain",NHK Kishou-Saigai
+https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="Spain",MBC 5
+https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/49LrRwJ.png" group-title="Spain",CONtv Anime
+https://contvanime-roku-ingest.cinedigm.com/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="Spain",CCTV-17
+http://bl.dchwtq.asia:10000/rtp/239.69.1.152:10548
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Spain",Paramount Network
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch309)/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Spain",Paramount Network
+http://109.233.89.166/Paramount_Channel_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Spain",Paramount Network East
+http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/512px-Star_Channel_2020.svg.png" group-title="Spain",Star Channel Central America
+https://streamer1.nexgen.bz/STAR/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kcmHcSx.png" group-title="Spain",BBC Food
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a0-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c628f2e9-ff30-4bd0-9ff6-99fb1649f628
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n79nkVC.png" group-title="Spain",NTV
+https://59f1cbe63db89.streamlock.net:1443/ntvnet/_definst_/ntvnet/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZBt6beo.png" group-title="Spain",Star Kentrikis Elladas
+https://stream.castr.com/651d8d36a57bf232bc830464/live_01fd9e80636111eebd0da35d4eac7f71/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/z4rLIVW.png" group-title="Spain",BBC Earth
+http://178.219.128.68:64888/BBCEARTHD
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Spain",CCTV-9
+http://bl.dchwtq.asia:10000/rtp/239.69.1.104:10262
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QlF96eS.png" group-title="Spain",CCTV-Weapon & Technology
+http://117.161.133.51:81/gitv_live/G_BINGQIKJ-CQ/G_BINGQIKJ-CQ.m3u8?p=GITV
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/a1N6wB7.png" group-title="Spain",CETV-4
+http://49.113.179.174:4022/udp/238.125.3.92:5140
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="Spain",CGTN Documentary
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="Spain",Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png" group-title="Spain",BBC Four
+https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6lklsyN.png" group-title="Spain",KBSV-DT1
+http://66.242.170.53/hls/live/temp/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8dml3im.png" group-title="Spain",NHK World Espanol
+https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="Spain",NHK World-Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NnkSyta.png" group-title="Spain",NTV
+https://marine2.miplay.cl/ntv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Spain",tvN
+http://210.210.155.37/dr9445/h/h20/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Discovery_logo_2021.svg/330px-Discovery_logo_2021.svg.png" group-title="Spain",Discovery Channel
+http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuqd8LpANErjfyHMVvz7EN81q9oiUzGlK0Q&s" group-title="Spain",Sky Sports - La Liga ᴱˢ
+http://181.78.105.146:2000/play/a08m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa02LLWr8M_-Yu6Q6vr_TRHRe6Y-h5vJYj7A&s" group-title="Spain",Eurosport 1 ᴱˢ
+http://185.189.225.157/EuroSport1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/800px-Eurosport_2_Logo_2015.svg.png" group-title="Spain",Eurosport 2 ᴱˢ
+http://185.189.225.157/EuroSport2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",NBC Sports
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6549306c83595c000815a696/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5102-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=21e31328-eadb-4828-8608-0cc14ce24586
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Deportes ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1188166343/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar F1 ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1826839470/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Golf ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2703480816/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",DAZN LaLiga ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/3461295847/index.m3u8
