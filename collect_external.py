@@ -155,11 +155,11 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
                 category = country
                 lc_extinf = extinf.lower()
                 if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo"]):
-                    category = "KIDS 🍭 🎯 🎊"
+                    category = "KIDS"
                 elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket"]):
-                    category = "CRICKET 🏏"
+                    category = "CRICKET"
                 elif country == "India":
-                    category = "INDIA 🇮🇳"
+                    category = "INDIA"
                 
                 # Update group title
                 extinf = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf)
