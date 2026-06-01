@@ -281,6 +281,92 @@
             padding: 6rem 2rem;
         }
 
+        /* Copy M3U URLs Section */
+        .playlists-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .playlists-section h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #fff 0%, #64b5f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .playlists-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .playlist-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .playlist-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(96, 165, 250, 0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .playlist-card h3 {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .copy-group {
+            display: flex;
+            gap: 0.5rem;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .copy-group input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: #9ca3af;
+            font-family: monospace;
+            font-size: 0.9rem;
+            outline: none;
+            padding: 0.5rem;
+        }
+
+        .copy-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .copy-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .copy-btn.copied {
+            background: #10b981;
+        }
+
         .contact h2 {
             text-align: center;
             font-size: 3rem;
@@ -756,7 +842,70 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section class="playlists-section" id="playlists">
+        <h2>Direct M3U Playlists</h2>
+        <p style="margin-bottom: 2rem; color: var(--text-muted); font-size: 1.2rem;">Copy these URLs and paste them directly into VLC, Apple TV, or any IPTV player!</p>
+        <div class="playlists-grid">
+            <div class="playlist-card">
+                <h3>World Channels</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/world.m3u" readonly id="url-world">
+                    <button class="copy-btn" onclick="copyUrl('url-world')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>Asia Channels</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/asia.m3u" readonly id="url-asia">
+                    <button class="copy-btn" onclick="copyUrl('url-asia')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>Indonesia Channels</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/indonesia.m3u" readonly id="url-indonesia">
+                    <button class="copy-btn" onclick="copyUrl('url-indonesia')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>India Channels</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/india.m3u" readonly id="url-india">
+                    <button class="copy-btn" onclick="copyUrl('url-india')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>Arabic Channels (Egypt)</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/egypt.m3u" readonly id="url-egypt">
+                    <button class="copy-btn" onclick="copyUrl('url-egypt')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>Sports Channels</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/sport.m3u" readonly id="url-sport">
+                    <button class="copy-btn" onclick="copyUrl('url-sport')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>Movies (VOD)</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/vod.m3u" readonly id="url-vod">
+                    <button class="copy-btn" onclick="copyUrl('url-vod')">COPY</button>
+                </div>
+            </div>
+            <div class="playlist-card">
+                <h3>TV Series</h3>
+                <div class="copy-group">
+                    <input type="text" value="https://finntv.vercel.app/m3u/series.m3u" readonly id="url-series">
+                    <button class="copy-btn" onclick="copyUrl('url-series')">COPY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
         <h2>Need Help?</h2>
         <p class="contact-subtitle">Our customer support team is here to assist you 24/7</p>
 
@@ -934,6 +1083,22 @@
                 navLinks.className = navLinks.className.replace(' active', '');
             }
         });
+        function copyUrl(elementId) {
+            var copyText = document.getElementById(elementId);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            
+            var btn = copyText.nextElementSibling;
+            var originalText = btn.innerText;
+            btn.innerText = "COPIED!";
+            btn.classList.add("copied");
+            
+            setTimeout(function() {
+                btn.innerText = originalText;
+                btn.classList.remove("copied");
+            }, 2000);
+        }
     </script>
 </body>
 
