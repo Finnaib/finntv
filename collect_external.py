@@ -54,7 +54,8 @@ INDIA_KEYWORDS = [
     'etv', 'sun tv', 'kairali', 'asianet', 'surya', 'suvarna', 'vijay', 'raj tv', 'maa tv', 'gemini',
     'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi',
     'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket',
-    'doraemon', 'shinchan', 'oggy', 'pokemon', 'pogo'
+    'doraemon', 'shinchan', 'oggy', 'pokemon', 'pogo', 'disney', 'nick', 'sonic', 'hungama', 'yay', 
+    'baby', 'toon', 'spacetoon', 'stars', 'buddy', 'junior'
 ]
 
 ASIA_KEYWORDS = [
@@ -177,7 +178,7 @@ def rebuild_m3u(target_file, source_urls, label, whitelist, strict=True):
                     category = 'Asia'
                 else:
                     lc_extinf = extinf.lower()
-                    if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo"]):
+                    if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo", "nick", "baby", "sonic", "hungama", "yay", "toon", "spacetoon", "stars", "buddy", "junior"]):
                         category = "KIDS"
                     elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket"]):
                         category = "CRICKET"

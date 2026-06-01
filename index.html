@@ -328,95 +328,137 @@
             margin-left: auto;
         }
 
-        /* Disney+ content card grid */
+        /* Redesigned Premium Cards */
         .playlist-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 18px;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 24px;
         }
 
         .playlist-card {
-            background: var(--disney-card);
-            border-radius: 14px;
-            padding: 24px;
+            background: rgba(26, 29, 41, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.06);
+            padding: 30px 24px;
             display: flex;
             flex-direction: column;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
             position: relative;
             overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
 
-        .playlist-card::before {
+        /* Hover border glow */
+        .playlist-card::after {
             content: '';
             position: absolute;
-            top: 0; right: 0;
-            width: 150px;
-            height: 100%;
-            background: var(--accent-color, rgba(0,99,229,0.08));
-            mask-image: radial-gradient(ellipse at right, black 0%, transparent 70%);
-            -webkit-mask-image: radial-gradient(ellipse at right, black 0%, transparent 70%);
+            inset: 0;
+            border-radius: 16px;
+            border: 2px solid transparent;
+            background: linear-gradient(135deg, var(--accent-text), transparent) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.4s;
+            pointer-events: none;
         }
 
         .playlist-card:hover {
-            background: var(--disney-hover);
-            border-color: rgba(255,255,255,0.12);
-            transform: translateY(-6px);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(96, 165, 250, 0.1);
+            background: rgba(37, 40, 64, 0.5);
+        }
+        
+        .playlist-card:hover::after {
+            opacity: 1;
+        }
+
+        .card-content {
+            position: relative;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
 
         .card-abbr {
-            font-size: 2.5rem;
+            font-size: 3rem;
             font-weight: 900;
-            margin-bottom: 8px;
-            letter-spacing: -1px;
-            color: var(--accent-text, #60a5fa);
+            color: var(--accent-text);
+            letter-spacing: -1.5px;
+            margin-bottom: 6px;
         }
 
         .card-title {
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-bottom: 20px;
+            font-size: 1.3rem;
+            font-weight: 800;
             color: #fff;
+            margin-bottom: 12px;
         }
 
-        .copy-tool {
-            background: rgba(0,0,0,0.5);
-            border-radius: 8px;
-            padding: 6px 6px 6px 12px;
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            margin-top: auto;
-            border: 1px solid rgba(255,255,255,0.06);
-        }
-
-        .copy-tool input {
-            background: transparent;
-            border: none;
+        .card-link-text {
+            font-size: 0.82rem;
             color: var(--text-muted);
+            margin-bottom: 24px;
             font-family: monospace;
-            font-size: 12px;
-            width: 100%;
-            outline: none;
-            min-width: 0;
+            word-break: break-all;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.04);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .copy-btn {
             background: var(--disney-blue);
             color: #fff;
             border: none;
-            padding: 8px 18px;
-            border-radius: 6px;
+            padding: 12px 24px;
+            border-radius: 10px;
             font-weight: 700;
-            font-size: 13px;
+            font-size: 14px;
             cursor: pointer;
-            transition: background 0.2s;
-            flex-shrink: 0;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-top: auto;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 15px rgba(0, 99, 229, 0.3);
         }
 
-        .copy-btn:hover { background: var(--disney-blue-hover); }
-        .copy-btn.copied { background: #10b981; }
+        .copy-btn:hover {
+            background: var(--disney-blue-hover);
+            box-shadow: 0 6px 20px rgba(4, 131, 238, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        .copy-btn.copied {
+            background: #10b981;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .copy-icon {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+            transition: transform 0.2s;
+        }
+
+        .copy-btn:hover .copy-icon {
+            transform: scale(1.1);
+        }
 
         /* ─── FOOTER ────────────────────────────────────────── */
         footer {
@@ -527,57 +569,75 @@
     </div>
     <div class="playlist-grid">
 
-        <div class="playlist-card" style="--accent-color: rgba(26,35,126,0.15); --accent-text: #7986cb;">
-            <div class="card-abbr">WO</div>
-            <div class="card-title">World Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/world.m3u" readonly id="url-world">
-                <button class="copy-btn" onclick="copyUrl('url-world')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/world.m3u" style="--accent-text: #7986cb;">
+            <div class="card-content">
+                <div class="card-abbr">WO</div>
+                <div class="card-title">World Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
-        <div class="playlist-card" style="--accent-color: rgba(183,28,28,0.15); --accent-text: #ef5350;">
-            <div class="card-abbr">IN</div>
-            <div class="card-title">India Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/india.m3u" readonly id="url-india">
-                <button class="copy-btn" onclick="copyUrl('url-india')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/india.m3u" style="--accent-text: #ef5350;">
+            <div class="card-content">
+                <div class="card-abbr">IN</div>
+                <div class="card-title">India Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
-        <div class="playlist-card" style="--accent-color: rgba(27,94,32,0.15); --accent-text: #66bb6a;">
-            <div class="card-abbr">SP</div>
-            <div class="card-title">Sport Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/sport.m3u" readonly id="url-sport">
-                <button class="copy-btn" onclick="copyUrl('url-sport')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/sport.m3u" style="--accent-text: #66bb6a;">
+            <div class="card-content">
+                <div class="card-abbr">SP</div>
+                <div class="card-title">Sport Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
-        <div class="playlist-card" style="--accent-color: rgba(230,81,0,0.15); --accent-text: #ffa726;">
-            <div class="card-abbr">EG</div>
-            <div class="card-title">Egypt Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/egypt.m3u" readonly id="url-egypt">
-                <button class="copy-btn" onclick="copyUrl('url-egypt')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/egypt.m3u" style="--accent-text: #ffa726;">
+            <div class="card-content">
+                <div class="card-abbr">EG</div>
+                <div class="card-title">Egypt Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
-        <div class="playlist-card" style="--accent-color: rgba(136,14,79,0.15); --accent-text: #ec407a;">
-            <div class="card-abbr">AS</div>
-            <div class="card-title">Asia Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/asia.m3u" readonly id="url-asia">
-                <button class="copy-btn" onclick="copyUrl('url-asia')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/asia.m3u" style="--accent-text: #ec407a;">
+            <div class="card-content">
+                <div class="card-abbr">AS</div>
+                <div class="card-title">Asia Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
-        <div class="playlist-card" style="--accent-color: rgba(74,20,140,0.15); --accent-text: #ab47bc;">
-            <div class="card-abbr">ES</div>
-            <div class="card-title">Spain Channels</div>
-            <div class="copy-tool">
-                <input type="text" value="https://finntv.vercel.app/m3u/spanish.m3u" readonly id="url-spain">
-                <button class="copy-btn" onclick="copyUrl('url-spain')">COPY</button>
+        <div class="playlist-card" data-url="/m3u/spanish.m3u" style="--accent-text: #ab47bc;">
+            <div class="card-content">
+                <div class="card-abbr">ES</div>
+                <div class="card-title">Spain Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
             </div>
         </div>
 
@@ -611,46 +671,59 @@
         }, 3000);
     }
 
-    function copyUrl(id) {
-        var el = document.getElementById(id);
-        var textToCopy = el.value;
+    // Set dynamic URLs and setup Copy logic
+    document.querySelectorAll('.playlist-card').forEach(function(card) {
+        var btn = card.querySelector('.copy-btn');
+        var path = card.getAttribute('data-url');
+        var fullUrl = window.location.origin + path;
         
-        el.select();
-        el.setSelectionRange(0, 99999);
-        
-        var btn = el.nextElementSibling;
-        var orig = btn.innerText;
-
-        function handleSuccess() {
-            btn.innerText = 'COPIED!';
-            btn.classList.add('copied');
-            showToast('URL copied to clipboard!');
-            setTimeout(function(){
-                btn.innerText = orig;
-                btn.classList.remove('copied');
-            }, 2500);
+        var linkTextEl = card.querySelector('.card-link-text');
+        if (linkTextEl) {
+            linkTextEl.innerText = fullUrl;
         }
 
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(textToCopy)
-                .then(handleSuccess)
-                .catch(function(err) {
-                    try {
-                        document.execCommand('copy');
-                        handleSuccess();
-                    } catch (e) {
-                        showToast('Failed to copy link.');
-                    }
-                });
-        } else {
-            try {
-                document.execCommand('copy');
-                handleSuccess();
-            } catch (e) {
-                showToast('Failed to copy link.');
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(fullUrl)
+                    .then(handleSuccess)
+                    .catch(fallbackCopy);
+            } else {
+                fallbackCopy();
             }
-        }
-    }
+
+            function fallbackCopy() {
+                var tempInput = document.createElement('input');
+                tempInput.value = fullUrl;
+                tempInput.style.position = 'absolute';
+                tempInput.style.left = '-9999px';
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                try {
+                    document.execCommand('copy');
+                    handleSuccess();
+                } catch (err) {
+                    showToast('Failed to copy. Please manually copy the link.');
+                }
+                document.body.removeChild(tempInput);
+            }
+
+            function handleSuccess() {
+                var label = btn.querySelector('span');
+                
+                btn.classList.add('copied');
+                label.innerText = 'COPIED!';
+                
+                showToast('Copied to clipboard!');
+                
+                setTimeout(function() {
+                    btn.classList.remove('copied');
+                    label.innerText = 'COPY LINK';
+                }, 2000);
+            }
+        });
+    });
 
     // Fade nav on scroll
     var header = document.querySelector('header');

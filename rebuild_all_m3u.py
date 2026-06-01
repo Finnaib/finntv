@@ -63,7 +63,7 @@ for ch in catalog:
         section = 'Pakistan'
         if section not in india: india[section] = []
         india[section].append((ch['extinf'], ch['url']))
-    elif any(k in gl + nl for k in ['kids', 'cartoon', 'doraemon', 'shinchan', 'nick', 'pogo', 'disney']):
+    elif any(k in gl + nl for k in ['kids', 'cartoon', 'doraemon', 'shinchan', 'nick', 'pogo', 'disney', 'baby', 'sonic', 'hungama', 'yay', 'toon', 'spacetoon', 'stars', 'junior']):
         section = 'KIDS'
         if section not in india: india[section] = []
         india[section].append((ch['extinf'], ch['url']))
