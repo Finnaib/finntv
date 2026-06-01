@@ -445,23 +445,14 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         el.className = "card active";
                         
                         var rawUrl = c.u;
-                        
-                        var urlM3u8 = rawUrl;
-                        var urlTs   = rawUrl;
-                        
-                        if (rawUrl.indexOf('.ts') !== -1 && rawUrl.indexOf('.ts?') === -1) {
-                            urlM3u8 = rawUrl.substring(0, rawUrl.length - 3) + '.m3u8';
-                        }
-                        if (rawUrl.indexOf('.m3u8') !== -1) {
-                            urlTs = rawUrl.replace('.m3u8', '.ts');
-                        }
+                        var needsProxy = rawUrl.indexOf('http:') !== -1 || rawUrl.indexOf('https:') !== -1;
+                        var proxyBase = '../api/stream_proxy.php?url=';
+                        var finalUrl = needsProxy ? (proxyBase + encodeURIComponent(safeBtoa(rawUrl))) : rawUrl;
                         
                         if (isVita || isRetro) {
-                            var vitaUrl = urlM3u8;
-                            var needsProxy = vitaUrl.indexOf('http:') !== -1;
-                            var finalVita = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(vitaUrl))) : vitaUrl;
-                            if (finalVita.toLowerCase().indexOf('.m3u8') === -1 && finalVita.toLowerCase().indexOf('.mp4') === -1) {
-                                finalVita += (finalVita.indexOf('?') === -1 ? '?' : '&') + 'ext=.m3u8';
+                            var finalVita = finalUrl;
+                            if (finalVita.toLowerCase().indexOf('.m3u8') === -1 && finalVita.toLowerCase().indexOf('.ts') === -1 && finalVita.toLowerCase().indexOf('.mp4') === -1) {
+                                finalVita += (finalVita.indexOf('?') === -1 ? '?' : '&') + 'ext=.ts';
                             }
                             window.location.href = finalVita;
                             return;
@@ -475,16 +466,16 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         grpText.innerText = c.g;
                         document.getElementById("ch-url").innerText = rawUrl;
                         
-                        var proxyBase = '../api/stream_proxy.php?url=';
-                        var finalM3u8 = proxyBase + encodeURIComponent(safeBtoa(urlM3u8));
-                        var finalTs   = proxyBase + encodeURIComponent(safeBtoa(urlTs));
-                        
-                        currentFallbackUrl = finalTs;
-                        
                         var isLive = checkIsLive(rawUrl);
                         initPlayer(isLive);
                         
-                        art.switchUrl(finalM3u8, 'm3u8');
+                        if (rawUrl.toLowerCase().indexOf('.ts') !== -1) {
+                            art.switchUrl(finalUrl, 'ts');
+                        } else if (rawUrl.toLowerCase().indexOf('.m3u8') !== -1) {
+                            art.switchUrl(finalUrl, 'm3u8');
+                        } else {
+                            art.switchUrl(finalUrl);
+                        }
                     };
                     frag.appendChild(el);
                 })(filtered[i]);
@@ -517,23 +508,20 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 grpText.innerText = "Custom Stream";
                 document.getElementById("ch-url").innerText = url;
                 
-                var urlM3u8 = url;
-                var urlTs = url;
-                if (url.indexOf('.ts') !== -1 && url.indexOf('.ts?') === -1) {
-                    urlM3u8 = url.substring(0, url.length - 3) + '.m3u8';
-                }
-                if (url.indexOf('.m3u8') !== -1) {
-                    urlTs = url.replace('.m3u8', '.ts');
-                }
-                
+                var needsProxy = url.indexOf('http:') !== -1 || url.indexOf('https:') !== -1;
                 var proxyBase = '../api/stream_proxy.php?url=';
-                var finalM3u8 = proxyBase + encodeURIComponent(safeBtoa(urlM3u8));
-                var finalTs   = proxyBase + encodeURIComponent(safeBtoa(urlTs));
+                var finalUrl = needsProxy ? (proxyBase + encodeURIComponent(safeBtoa(url))) : url;
                 
-                currentFallbackUrl = finalTs;
                 var isLive = checkIsLive(url);
                 initPlayer(isLive);
-                art.switchUrl(finalM3u8, 'm3u8');
+                
+                if (url.toLowerCase().indexOf('.ts') !== -1) {
+                    art.switchUrl(finalUrl, 'ts');
+                } else if (url.toLowerCase().indexOf('.m3u8') !== -1) {
+                    art.switchUrl(finalUrl, 'm3u8');
+                } else {
+                    art.switchUrl(finalUrl);
+                }
             } else {
                 document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div class="spinner"></div>Loading Playlist...</div>';
                 loadPlaylist(url);
