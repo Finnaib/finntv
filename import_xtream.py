@@ -91,7 +91,7 @@ def fetch_and_append(base_api, host, username, password, action, filename, type_
                     
                     final_url = ""
                     if type_code == "live":
-                        final_url = f"{host}/live/{username}/{password}/{stream_id}.m3u8"
+                        final_url = f"{host}/live/{username}/{password}/{stream_id}.ts"
                     elif type_code == "vod":
                         final_url = f"{host}/movie/{username}/{password}/{stream_id}.{container}"
                     elif type_code == "series":
