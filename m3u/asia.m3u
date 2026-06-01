@@ -805,93 +805,93 @@ https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
 
 
 ################################################################################
-# CRICKET 
+# CRICKET
 ################################################################################
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Cricket.png" group-title="CRICKET ",ASTRO CRICKET
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Cricket.png" group-title="CRICKET",ASTRO CRICKET
 https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_ott.mpd?astro=true&aws.sessionId=35e03e2b-470a-4563-a439-0f616424a47a
 
 
 ################################################################################
-# KIDS   
+# KIDS
 ################################################################################
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",Golden Eagle Cartoon
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Golden Eagle Cartoon
 http://1.24.190.98:10080/hls/51/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",JiaJia Cartoon
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",JiaJia Cartoon
 http://49.113.179.174:4022/udp/238.125.0.158:5140
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",Disney International
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Disney International
 http://sansat.net:88/HhPRf2nAlsVeRU9/AnzgPldGC8OHsyY/96284
 
-#EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="KIDS   ",Disney XD
+#EXTINF:-1 tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" group-title="KIDS",Disney XD
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",Cartoon Network
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mq65M0Y/On-kids.jpg" group-title="KIDS   ",ON KIDS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mq65M0Y/On-kids.jpg" group-title="KIDS",ON KIDS
 https://freem3u.xyz/api/live/play.m3u8?vid=179
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab21%20-%20ON%20Kids%20HD.png" group-title="KIDS   ",ON Kids HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab21%20-%20ON%20Kids%20HD.png" group-title="KIDS",ON Kids HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Kids_HD_du_phong
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Happy%20Kids%20HD.png" group-title="KIDS   ",HAPPY KIDS HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Happy%20Kids%20HD.png" group-title="KIDS",HAPPY KIDS HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-Happy_Kids_HD
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Cartoon%20Network%20HD.png" group-title="KIDS   ",CARTOON NETWORK HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/Cartoon%20Network%20HD.png" group-title="KIDS",CARTOON NETWORK HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-Cartoon_Network_HD
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Y333Xbq/cartoon-network.png" group-title="KIDS   ",CARTOON NETWORK
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Y333Xbq/cartoon-network.png" group-title="KIDS",CARTOON NETWORK
 http://38.52.208.106:8000/play/a00j/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e565f63c36e257bfbef92_cartoonito.png" group-title="KIDS   ",CARTOONITO
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e565f63c36e257bfbef92_cartoonito.png" group-title="KIDS",CARTOONITO
 http://181.78.211.244:8000/play/a08x/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PtKd97J/discovery-kids.png" group-title="KIDS   ",DISCOVERY KIDS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PtKd97J/discovery-kids.png" group-title="KIDS",DISCOVERY KIDS
 http://38.44.109.41:8003/play/a0eg/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Lk9TH8f/disney-channel.png" group-title="KIDS   ",DISNEY CHANNEL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Lk9TH8f/disney-channel.png" group-title="KIDS",DISNEY CHANNEL
 http://38.224.175.2:8000/play/a0sx/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MSXFY3T/disney-jr.png" group-title="KIDS   ",DISNEY JR
+#EXTINF:-1 tvg-logo="https://i.ibb.co/MSXFY3T/disney-jr.png" group-title="KIDS",DISNEY JR
 http://45.5.151.62:8000/play/a00t/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.fmh.la/images/team/logo_kids.png" group-title="KIDS   ",FMH KIDS
+#EXTINF:-1 tvg-logo="https://www.fmh.la/images/team/logo_kids.png" group-title="KIDS",FMH KIDS
 http://45.173.201.51:4000/play/a0m5/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/CARTOON%20NETWORK%20HD.png" group-title="KIDS   ",CARTOON NETWORK
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/CARTOON%20NETWORK%20HD.png" group-title="KIDS",CARTOON NETWORK
 https://linearjitp-playback.astro.com.my/dash-wv/linear/509/default_ott.mpd
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/PBS_Kids_Dash_%281999%29.svg/revision/latest/scale-to-width-down/250?cb=20170814134849" group-title="KIDS   ",PBS KIDS
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/PBS_Kids_Dash_%281999%29.svg/revision/latest/scale-to-width-down/250?cb=20170814134849" group-title="KIDS",PBS KIDS
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICKELODEON.png" group-title="KIDS   ",NICKELODEON
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICKELODEON.png" group-title="KIDS",NICKELODEON
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICK%20JR.png" group-title="KIDS   ",NICK JR
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/NICK%20JR.png" group-title="KIDS",NICK JR
 https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_ott.mpd
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",Kan Kids
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Kan Kids
 https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS   ",EBS kids
+#EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS",EBS kids
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS   ",PAKISTAN KIDS
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",PAKISTAN KIDS
 https://whmsonic.radio.gov.pk:7000/Kids
 
-#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG" group-title="KIDS   ",Radio Pogoda
+#EXTINF:-1 tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0001/6862/brand.gif?tuZbnYzHpCuxRlkN8e_XMwS3TUWd4mET&itok=L4cFGrbG" group-title="KIDS",Radio Pogoda
 https://radiostream.pl/tuba140-1.mp3
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Radio_Disney_logo.svg/512px-Radio_Disney_logo.svg.png" group-title="KIDS   ",Radio Disney México
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Radio_Disney_logo.svg/512px-Radio_Disney_logo.svg.png" group-title="KIDS",Radio Disney México
 https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODISNEYAAC.aac
 
-#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="KIDS   ",ABC KIDS Listen
+#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/new_assets/5cf84bc9fde6e9394e432456" group-title="KIDS",ABC KIDS Listen
 https://i.mjh.nz/.r/radio-ih-7967
 
-#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c70eb8021a5420524a28f9" group-title="KIDS   ",Vision Kids
+#EXTINF:-1 tvg-logo="https://i.iheart.com/v3/re/assets.streams/64c70eb8021a5420524a28f9" group-title="KIDS",Vision Kids
 https://i.mjh.nz/.r/radio-ih-9939.aac
 
 
