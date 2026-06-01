@@ -2,7 +2,7 @@
 collect_external.py
 ===================
 Downloads and filters external M3U channels from LiveTVCollector.
-Filters out: Adult content, duplicates, non-famous channels.
+Filters out: Adult content, duplicates, non-famous channels using strict category whitelists.
 """
 import requests
 import re
@@ -38,34 +38,38 @@ BLOCK_KEYWORDS = [
     'sexy', 'lust', 'passion', 'night', 'strictly', 'playboy', 'penthouse', 'hustler'
 ]
 
-# Famous brand keywords to whitelist (Case Insensitive)
-# Only channels matching these (or prefixes) will be kept from external sources
-FAMOUS_KEYWORDS = [
-    # General Premium
-    'hbo', 'fox', 'axn', 'tvn', 'kbs', 'sbs', 'mbc', 'nhk', 'cctv', 'cgtn', 'warner', 'paramount', 
-    'universal', 'cinema', 'discovery', 'nat geo', 'animal planet', 'cnn', 'bbc', 'al jazeera', 
-    'bloomberg', 'espn', 'star sports', 'bein', 'disney', 'nick', 'cartoon', 'pogo', 'tv5monde',
-    # Sports Specific
-    'arena sport', 'sky sport', 'dazn', 'eurosport', 'ten sports', 'sony ten', 'match!', 'futbol',
-    'super sport', 'tring sport', 'ksport', 'art sport', 'nova sport', 'ct sport', 'btvd', 'fox sports',
-    'willow', 'espn news', 'nbc sports', 'cbs sports', 'tnt sports', 'premier sports', 'ziggo sport', 'vsport',
-    # India / Subcontinent
+# Source-specific whitelists
+SPAIN_KEYWORDS = [
+    'tve', 'rtve', 'la 1', 'la 2', 'antena 3', 'telecinco', 'cuatro', 'la sexta', 'telemadrid',
+    '24h', 'clan', 'movistar', 'gol play', 'real madrid', 'barcelona tv', 'deportes',
+    'esport', 'canal sur', 'tv3', 'tv canaria', 'etb', 'tdp', '3cat', 'aragontv', 'canal extremadura', 
+    'ib3', 'la 8', 'trece', 'ten', 'energy', 'fdf', 'divinity', 'neox', 'nova', 'mega', 
+    'atreseries', 'bemad', 'dmax', 'dkiss', 'boing', 'laliga', 'liga de campeones', 'champions', 'sol musica'
+]
+
+INDIA_KEYWORDS = [
     'zee', 'sony', 'star', 'colors', 'sab tv', 'sab hd', 'geo news', 'geo ent', 'geo tv', 'ary news', 
     'ary digital', 'ary zindagi', 'hum tv', 'hum masala', 'bol tv', 'somoy', 'jamuna', 'ntv', 
     'channel i', 'desh tv', 'somoy tv', '24 ghanta', 'ptv', 'express news', 'dawn news', 'samaa',
     'etv', 'sun tv', 'kairali', 'asianet', 'surya', 'suvarna', 'vijay', 'raj tv', 'maa tv', 'gemini',
     'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi',
     'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket',
-    'doraemon', 'shinchan', 'oggy', 'pokemon',
-    # Spain / Spanish
-    'tve', 'rtve', 'la 1', 'la 2', 'antena 3', 'telecinco', 'cuatro', 'la sexta', 'telemadrid',
-    '24h', 'clan tv', 'movistar', 'gol play', 'real madrid tv', 'barcelona tv', 'deportes',
-    'esport', 'canal sur', 'tv3', 'a3', 'tv canaria', 'etb', 'rac1', 'cope', 'tdp', 'bein sports es',
-    '3cat', '7 telev', '101tv', 'activa', 'aragontv', 'canal extremadura', 'ib3', 'la 8',
-    'okdiario', 'rne', 'trece', 'ten', 'energy', 'factorvacion', 'paramount network'
+    'doraemon', 'shinchan', 'oggy', 'pokemon', 'pogo'
 ]
 
-def is_filtered(name, strict=True):
+ASIA_KEYWORDS = [
+    'tvn', 'kbs', 'sbs', 'mbc', 'nhk', 'cctv', 'cgtn', 'astro', '8tv', 'ntv7', 'tonton', 
+    'ch3', 'ch7', 'one31', 'gmm25', 'vtv', 'htv', 'thvl'
+]
+
+SPORT_KEYWORDS = [
+    'espn', 'star sports', 'bein', 'arena sport', 'sky sport', 'dazn', 'eurosport', 'ten sports', 
+    'sony ten', 'match!', 'futbol', 'super sport', 'tring sport', 'ksport', 'art sport', 'nova sport', 
+    'ct sport', 'btvd', 'fox sports', 'willow', 'espn news', 'nbc sports', 'cbs sports', 'tnt sports', 
+    'premier sports', 'ziggo sport', 'vsport'
+]
+
+def is_filtered(name, whitelist, strict=True):
     nl = name.lower()
     # Check block list
     if any(k in nl for k in BLOCK_KEYWORDS):
@@ -89,13 +93,20 @@ def is_filtered(name, strict=True):
     if not strict:
         return False
 
-    # Check matches for famous brands
-    if any(k in nl for k in FAMOUS_KEYWORDS):
-        return False
+    # Check matches for famous brands in category whitelist
+    for k in whitelist:
+        if len(k) <= 3:
+            # Word boundary check for short keywords to prevent false positives
+            pattern = r'\b' + re.escape(k) + r'(?:\d+)?\b'
+            if re.search(pattern, nl):
+                return False
+        else:
+            if k in nl:
+                return False
         
     return True
 
-def fetch_and_filter(url, strict=True):
+def fetch_and_filter(url, whitelist, strict=True):
     print(f"Fetching {url} (Strict={strict})...")
     try:
         response = requests.get(url, timeout=15)
@@ -114,7 +125,7 @@ def fetch_and_filter(url, strict=True):
                 name_match = re.search(r',(.+?)$', line)
                 name = name_match.group(1).strip() if name_match else ""
                 
-                if not is_filtered(name, strict):
+                if not is_filtered(name, whitelist, strict):
                     current_extinf = line
                 else:
                     current_extinf = None
@@ -134,7 +145,7 @@ def fetch_and_filter(url, strict=True):
         print(f"Error: {e}")
         return []
 
-def rebuild_m3u(target_file, source_urls, label, strict=True):
+def rebuild_m3u(target_file, source_urls, label, whitelist, strict=True):
     all_channels = []
     seen_urls = set()
     
@@ -153,23 +164,32 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
         country_match = re.search(r'LiveTV/([^/]+)/', url)
         country = country_match.group(1) if country_match else "General"
         
-        channels = fetch_and_filter(url, strict)
+        channels = fetch_and_filter(url, whitelist, strict)
         for extinf, stream_url in channels:
             if stream_url.lower() not in seen_urls:
                 seen_urls.add(stream_url.lower())
                 
                 # Intelligent Categorization
                 category = country
-                lc_extinf = extinf.lower()
-                if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo"]):
-                    category = "KIDS"
-                elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket"]):
-                    category = "CRICKET"
-                elif country == "India":
-                    category = "INDIA"
+                if label == 'Spain':
+                    category = 'Spain'
+                elif label == 'Asia':
+                    category = 'Asia'
+                else:
+                    lc_extinf = extinf.lower()
+                    if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo"]):
+                        category = "KIDS"
+                    elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket"]):
+                        category = "CRICKET"
+                    elif country == "India":
+                        category = "INDIA"
                 
-                # Update group title
-                extinf = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf)
+                # Ensure group-title exists and is set correctly
+                if 'group-title=' not in extinf:
+                    extinf = re.sub(r',([^,]+)$', f' group-title="{category}",\\1', extinf)
+                else:
+                    extinf = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf)
+                
                 all_channels.append((extinf, stream_url))
 
     if not all_channels:
@@ -192,9 +212,9 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
     print(f"Updated m3u/{target_file} with {len(all_channels)} new channels.")
 
 if __name__ == "__main__":
-    rebuild_m3u('spanish.m3u', SOURCES['spain'], 'Spain', strict=False)
-    rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia', strict=True)
-    rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent', strict=False)
-    rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports', strict=True)
+    rebuild_m3u('spanish.m3u', SOURCES['spain'], 'Spain', SPAIN_KEYWORDS, strict=True)
+    rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia', ASIA_KEYWORDS, strict=True)
+    rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent', INDIA_KEYWORDS, strict=True)
+    rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports', SPORT_KEYWORDS, strict=True)
 
     print("\nCollection and filtering finished.")

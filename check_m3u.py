@@ -25,7 +25,7 @@ def check_m3u(path, label):
 
 check_m3u('egypt.m3u', 'Egypt')
 check_m3u('india.m3u', 'India/Subcontinent')
-check_m3u('usa.m3u', 'USA/International')
+check_m3u('world.m3u', 'World')
 check_m3u('sport.m3u', 'Sport')
 check_m3u('spanish.m3u', 'Spain')
 check_m3u('asia.m3u', 'Asia')
