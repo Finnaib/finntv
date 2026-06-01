@@ -1,4 +1,9 @@
-#EXTM3U
+﻿#EXTM3U
+
+
+################################################################################
+# Spain
+################################################################################
 
 #EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-logo="https://i.imgur.com/zXy2kbe.png" group-title="Spain",3Cat Càmeres del temps (1080p)
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
