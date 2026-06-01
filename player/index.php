@@ -14,83 +14,103 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             margin:0; padding:0; background:#060913; color:#fff; 
             overflow:hidden; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
         }
-        .app-layout { display: flex; height: 100vh; width: 100vw; }
         
-        /* List Pane (Sidebar) */
-        .list-pane { 
-            width: 320px; 
-            background:#0f172a; 
-            border-right: 1px solid rgba(255,255,255,0.05); 
-            display: flex; 
-            flex-direction: column; 
-            z-index: 20;
-            box-shadow: 5px 0 20px rgba(0,0,0,0.3);
+        /* Modern Top Navigation Bar (YouTube/iQIYI Style) */
+        .top-nav {
+            height: 70px;
+            background: #0f172a;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            gap: 20px;
+            z-index: 50;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
         }
-        .search-container { padding: 15px 20px 5px 20px; background: #0f172a; }
-        .custom-url-container { padding: 5px 20px 15px 20px; background: #0f172a; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; gap: 8px; flex-wrap: wrap; }
+        
+        .nav-brand {
+            font-size: 24px;
+            font-weight: 800;
+            color: #60a5fa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+            max-width: 800px;
+        }
+
+        /* Large size fix for dropdown (Tabs) */
         #playlist-select { 
-            flex: 1; padding: 10px; width: 100%;
-            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); 
-            color:#fff; font-size:13px; border-radius: 8px; outline: none; cursor: pointer;
+            padding: 12px 15px; 
+            width: 250px;
+            background: rgba(255,255,255,0.05); 
+            border: 1px solid rgba(255,255,255,0.1); 
+            color: #fff; 
+            font-size: 16px; /* Size Fix */
+            font-weight: 600;
+            border-radius: 10px; 
+            outline: none; 
+            cursor: pointer;
             transition: all 0.3s ease;
         }
         #playlist-select:focus { border-color: #3b82f6; background: rgba(255,255,255,0.1); }
         #playlist-select option { background: #0f172a; color: #fff; }
+
         #custom-url { 
-            flex: 1; padding: 10px; 
+            flex: 1; padding: 12px 15px; 
             background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); 
-            color:#fff; font-size:12px; border-radius: 8px; outline: none;
+            color:#fff; font-size:14px; border-radius: 10px; outline: none;
             transition: all 0.3s ease;
         }
         #custom-url:focus { border-color: #3b82f6; background: rgba(255,255,255,0.1); }
+        
         #play-custom { 
-            padding: 10px 15px; background: #2563eb; color: #fff; 
-            border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 13px;
+            padding: 12px 20px; background: #2563eb; color: #fff; 
+            border: none; border-radius: 10px; cursor: pointer; font-weight: bold; font-size: 15px;
             transition: background 0.2s;
         }
         #play-custom:hover { background: #1d4ed8; }
+        
         #search { 
-            width:100%; padding: 12px 15px; 
+            flex: 1; padding: 12px 15px; 
             background: rgba(255,255,255,0.05); 
             border: 1px solid rgba(255,255,255,0.1); 
-            color:#fff; font-size:14px; 
+            color:#fff; font-size:16px; 
             border-radius: 10px; 
             transition: all 0.3s ease;
         }
         #search:focus { outline: none; border-color: #3b82f6; background: rgba(255,255,255,0.1); }
-        
-        .scroller { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 10px; }
-        
-        /* Custom Scrollbar */
-        .scroller::-webkit-scrollbar { width: 6px; }
-        .scroller::-webkit-scrollbar-track { background: transparent; }
-        .scroller::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
-        .scroller::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
 
-        .card { 
-            padding: 15px; 
-            cursor:pointer; 
-            background: transparent; 
-            margin-bottom: 8px; 
-            border-radius: 12px; 
-            transition: all 0.2s ease;
-            border: 1px solid transparent;
+        .app-layout { 
+            display: flex; 
+            height: calc(100vh - 70px); 
+            width: 100vw; 
         }
-        .card:hover { background: rgba(255,255,255,0.03); transform: translateX(5px); }
-        .card:active { transform: scale(0.98); }
-        .card.active { 
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); 
-            color:#fff; 
-            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
-        }
-        .card.active .v-grp { color: rgba(255,255,255,0.8); }
-        
-        .v-name { display:block; font-weight: 600; font-size: 1.4rem; margin-bottom: 6px; }
-        .v-grp { font-size: 1rem; color:#9ca3af; font-weight: 500; display: block; text-transform: uppercase; letter-spacing: 0.5px; }
 
-        /* Video Pane */
-        .video-pane { flex: 1; background: #000; position: relative; display: flex; flex-direction: column; }
+        /* Video Section (Main Left Area) */
+        .video-container { 
+            flex: 1; 
+            background: #000; 
+            position: relative; 
+            display: flex; 
+            flex-direction: column; 
+        }
         
+        .video-wrapper {
+            flex: 1;
+            position: relative;
+            background: transparent;
+        }
+
         .video-placeholder {
             position: absolute; top:0; left:0; right:0; bottom:0;
             display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -98,78 +118,136 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             z-index: 5; 
             transition: opacity 0.5s ease;
         }
-        .video-placeholder h2 { color: rgba(255,255,255,0.4); font-size: 1.8rem; font-weight: 300; margin-top: 20px;}
+        .video-placeholder h2 { color: rgba(255,255,255,0.4); font-size: 2rem; font-weight: 300; margin-top: 20px;}
         .video-placeholder .icon { font-size: 4rem; opacity: 0.5; display:none; }
 
         #player { width:100%; height: 100%; flex: 1; background: transparent; z-index: 2; position: relative; outline: none; }
         
         .video-footer { 
-            padding: 20px 30px; 
+            padding: 25px 40px; 
             background: #0b1120; 
             border-top: 1px solid rgba(255,255,255,0.05); 
             z-index: 3;
+            min-height: 140px;
         }
-        #ch-title { font-size: 32px; color: #60a5fa; font-weight: 600; letter-spacing: 0.5px; }
-        #ch-grp { font-size: 16px; color: #9ca3af; text-transform: uppercase; margin-top: 5px; letter-spacing: 1px;}
-        #ch-url { font-size: 11px; color: #4b5563; margin-top: 8px; font-family: monospace; word-break: break-all; }
-        
-        /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
-        .is-vita .video-pane, .is-retro .video-pane { display: none; }
-        .is-vita .list-pane, .is-retro .list-pane { width: 100%; border-right: none; box-shadow: none; }
-        .is-vita .card, .is-retro .card { padding: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); border-radius: 0; margin-bottom: 0; }
-        .is-vita .card:hover, .is-retro .card:hover { transform: none; background: transparent; }
-        .is-vita .card.active, .is-retro .card.active { background: #2563eb; }
-        .is-vita .v-name, .is-retro .v-name { font-size: 18px; }
+        #ch-title { font-size: 36px; color: #fff; font-weight: 700; letter-spacing: 0.5px; }
+        #ch-grp { font-size: 18px; color: #60a5fa; text-transform: uppercase; margin-top: 8px; letter-spacing: 1px; font-weight: 600;}
+        #ch-url { font-size: 12px; color: #4b5563; margin-top: 12px; font-family: monospace; word-break: break-all; }
 
+        /* Right Sidebar (Up Next / Channel List) */
+        .list-pane { 
+            width: 400px; 
+            background:#0f172a; 
+            border-left: 1px solid rgba(255,255,255,0.05); 
+            display: flex; 
+            flex-direction: column; 
+            z-index: 20;
+        }
+        
+        .list-header {
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .scroller { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 15px; }
+        
+        /* Custom Scrollbar */
+        .scroller::-webkit-scrollbar { width: 8px; }
+        .scroller::-webkit-scrollbar-track { background: transparent; }
+        .scroller::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
+        .scroller::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.3); }
+
+        .card { 
+            padding: 15px; 
+            cursor:pointer; 
+            background: rgba(255,255,255,0.02); 
+            margin-bottom: 10px; 
+            border-radius: 12px; 
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover { background: rgba(255,255,255,0.05); border-color: rgba(96,165,250,0.3); }
+        .card:active { transform: scale(0.98); }
+        .card.active { 
+            background: rgba(37, 99, 235, 0.15); 
+            border-color: #2563eb;
+        }
+        .card.active .v-name { color: #60a5fa; }
+        
+        .v-name { display:block; font-weight: 600; font-size: 1.2rem; margin-bottom: 6px; color: #e2e8f0; }
+        .v-grp { font-size: 0.9rem; color:#9ca3af; font-weight: 500; display: block; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
+        .is-vita .video-container, .is-retro .video-container { display: none; }
+        .is-vita .top-nav, .is-retro .top-nav { flex-wrap: wrap; height: auto; padding: 15px; }
+        .is-vita .nav-controls, .is-retro .nav-controls { flex-wrap: wrap; }
+        .is-vita .list-pane, .is-retro .list-pane { width: 100%; border-left: none; }
+        
         /* Modern Mobile Responsive Tweaks */
-        @media (max-width: 768px) {
-            body:not(.is-vita):not(.is-retro) .app-layout { flex-direction: column-reverse; } /* Video on top */
-            body:not(.is-vita):not(.is-retro) .video-pane { height: 35vh; flex: none; }
-            body:not(.is-vita):not(.is-retro) .list-pane { width: 100%; border-right: none; border-top: 1px solid rgba(255,255,255,0.05); flex: 1; }
-            body:not(.is-vita):not(.is-retro) .video-placeholder h2 { font-size: 1.2rem; }
-            body:not(.is-vita):not(.is-retro) .video-footer { padding: 15px; }
-            body:not(.is-vita):not(.is-retro) #ch-title { font-size: 18px; }
+        @media (max-width: 1024px) {
+            .app-layout { flex-direction: column; } /* Video on top, list on bottom */
+            .video-container { flex: none; height: 50vh; }
+            .list-pane { width: 100%; border-left: none; border-top: 1px solid rgba(255,255,255,0.05); flex: 1; }
+            .top-nav { height: auto; flex-wrap: wrap; padding: 15px; }
+            .nav-controls { min-width: 100%; }
         }
     </style>
 </head>
 <body id="app-body">
+    
+    <!-- Top Navigation (YouTube Style) -->
+    <div class="top-nav">
+        <a href="../" class="nav-brand">
+            FinnTV
+        </a>
+        <div class="nav-controls">
+            <!-- Removed Movies and Series from Dropdown -->
+            <select id="playlist-select" onchange="playCustom()">
+                <option value="../m3u/world.m3u">World Channels</option>
+                <option value="../m3u/asia.m3u">Asia Channels</option>
+                <option value="../m3u/egypt.m3u">Egypt Channels</option>
+                <option value="../m3u/india.m3u">India Channels</option>
+                <option value="../m3u/indonesia.m3u">Indonesia Channels</option>
+                <option value="../m3u/sport.m3u">Sport Channels</option>
+                <option value="custom">Custom URL...</option>
+            </select>
+            
+            <input type="text" id="custom-url" placeholder="Paste custom URL here..." style="display:none;">
+            <button id="play-custom" onclick="playCustom()" style="display:none;">Play</button>
+            
+            <input type="text" id="search" placeholder="Search channels...">
+        </div>
+    </div>
+
     <div class="app-layout">
+        <!-- Main Video Area -->
+        <div class="video-container">
+            <div class="video-wrapper">
+                <div class="video-placeholder" id="placeholder">
+                    <h2>Select a channel to start watching</h2>
+                </div>
+                <video id="player" controls playsinline preload="auto"></video>
+            </div>
+            <div class="video-footer">
+                <div id="ch-title">FinnTV Premium</div>
+                <div id="ch-grp">Ready to play</div>
+                <div id="ch-url"></div>
+            </div>
+        </div>
+        
+        <!-- Right Sidebar (Up Next) -->
         <div class="list-pane">
-            <div class="search-container">
-                <input type="text" id="search" placeholder="Search channels...">
-            </div>
-            <div class="custom-url-container">
-                <select id="playlist-select" onchange="playCustom()">
-                    <option value="../m3u/world.m3u">World Channels</option>
-                    <option value="../m3u/vod.m3u">Movies (VOD)</option>
-                    <option value="../m3u/series.m3u">TV Series</option>
-                    <option value="../m3u/asia.m3u">Asia Channels</option>
-                    <option value="../m3u/egypt.m3u">Egypt Channels</option>
-                    <option value="../m3u/india.m3u">India Channels</option>
-                    <option value="../m3u/indonesia.m3u">Indonesia Channels</option>
-                    <option value="../m3u/sport.m3u">Sport Channels</option>
-                    <option value="custom">Custom URL...</option>
-                </select>
-                <input type="text" id="custom-url" placeholder="Paste custom URL here..." style="display:none;">
-                <button id="play-custom" onclick="playCustom()" style="display:none;">Play</button>
-            </div>
+            <div class="list-header">Up Next</div>
             <div class="scroller" id="list">
                 <div style="padding:40px 20px; text-align:center; color:#666;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>
                     Loading Playlist...
                 </div>
-            </div>
-        </div>
-        <div class="video-pane">
-            <div class="video-placeholder" id="placeholder">
-                <div class="icon"></div>
-                <h2>Select a channel to start watching</h2>
-            </div>
-            <video id="player" controls playsinline preload="auto"></video>
-            <div class="video-footer">
-                <div id="ch-title">FinnTV Premium</div>
-                <div id="ch-grp">Ready to play</div>
-                <div id="ch-url"></div>
             </div>
         </div>
     </div>
