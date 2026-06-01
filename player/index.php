@@ -85,8 +85,8 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         }
         .card.active .v-grp { color: rgba(255,255,255,0.8); }
         
-        .v-name { display:block; font-weight: 600; font-size: 15px; margin-bottom: 4px; }
-        .v-grp { font-size:11px; color:#9ca3af; font-weight: 500; display: block; text-transform: uppercase; letter-spacing: 0.5px; }
+        .v-name { display:block; font-weight: 600; font-size: 1.4rem; margin-bottom: 6px; }
+        .v-grp { font-size: 1rem; color:#9ca3af; font-weight: 500; display: block; text-transform: uppercase; letter-spacing: 0.5px; }
 
         /* Video Pane */
         .video-pane { flex: 1; background: #000; position: relative; display: flex; flex-direction: column; }
@@ -99,7 +99,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             transition: opacity 0.5s ease;
         }
         .video-placeholder h2 { color: rgba(255,255,255,0.4); font-size: 1.8rem; font-weight: 300; margin-top: 20px;}
-        .video-placeholder .icon { font-size: 4rem; opacity: 0.5; }
+        .video-placeholder .icon { font-size: 4rem; opacity: 0.5; display:none; }
 
         #player { width:100%; height: 100%; flex: 1; background: transparent; z-index: 2; position: relative; outline: none; }
         
@@ -109,8 +109,8 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             border-top: 1px solid rgba(255,255,255,0.05); 
             z-index: 3;
         }
-        #ch-title { font-size: 24px; color: #60a5fa; font-weight: 600; letter-spacing: 0.5px; }
-        #ch-grp { font-size: 13px; color: #9ca3af; text-transform: uppercase; margin-top: 5px; letter-spacing: 1px;}
+        #ch-title { font-size: 32px; color: #60a5fa; font-weight: 600; letter-spacing: 0.5px; }
+        #ch-grp { font-size: 16px; color: #9ca3af; text-transform: uppercase; margin-top: 5px; letter-spacing: 1px;}
         #ch-url { font-size: 11px; color: #4b5563; margin-top: 8px; font-family: monospace; word-break: break-all; }
         
         /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
@@ -140,15 +140,15 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             </div>
             <div class="custom-url-container">
                 <select id="playlist-select" onchange="playCustom()">
-                    <option value="../m3u/world.m3u">🌍 World Channels</option>
-                    <option value="../m3u/vod.m3u">🍿 Movies (VOD)</option>
-                    <option value="../m3u/series.m3u">🎬 TV Series</option>
-                    <option value="../m3u/asia.m3u">🌏 Asia Channels</option>
-                    <option value="../m3u/egypt.m3u">🦅 Egypt Channels</option>
-                    <option value="../m3u/india.m3u">🇮🇳 India Channels</option>
-                    <option value="../m3u/indonesia.m3u">🇮🇩 Indonesia Channels</option>
-                    <option value="../m3u/sport.m3u">⚽ Sport Channels</option>
-                    <option value="custom">⚙️ Custom URL...</option>
+                    <option value="../m3u/world.m3u">World Channels</option>
+                    <option value="../m3u/vod.m3u">Movies (VOD)</option>
+                    <option value="../m3u/series.m3u">TV Series</option>
+                    <option value="../m3u/asia.m3u">Asia Channels</option>
+                    <option value="../m3u/egypt.m3u">Egypt Channels</option>
+                    <option value="../m3u/india.m3u">India Channels</option>
+                    <option value="../m3u/indonesia.m3u">Indonesia Channels</option>
+                    <option value="../m3u/sport.m3u">Sport Channels</option>
+                    <option value="custom">Custom URL...</option>
                 </select>
                 <input type="text" id="custom-url" placeholder="Paste custom URL here..." style="display:none;">
                 <button id="play-custom" onclick="playCustom()" style="display:none;">Play</button>
@@ -162,7 +162,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         </div>
         <div class="video-pane">
             <div class="video-placeholder" id="placeholder">
-                <div class="icon">📺</div>
+                <div class="icon"></div>
                 <h2>Select a channel to start watching</h2>
             </div>
             <video id="player" controls playsinline preload="auto"></video>
