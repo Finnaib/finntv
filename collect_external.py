@@ -11,8 +11,9 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 SOURCES = {
-    'indonesia': [
-        'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Indonesia/LiveTV.m3u'
+    'spain': [
+        'https://iptv-org.github.io/iptv/countries/es.m3u',
+        'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/Spain/LiveTV.m3u'
     ],
     'asia': [
         'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/LiveTV/China/LiveTV.m3u',
@@ -185,7 +186,7 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
     print(f"Updated m3u/{target_file} with {len(all_channels)} new channels.")
 
 if __name__ == "__main__":
-    rebuild_m3u('indonesia.m3u', SOURCES['indonesia'], 'Indonesia', strict=True)
+    rebuild_m3u('spanish.m3u', SOURCES['spain'], 'Spain', strict=True)
     rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia', strict=True)
     rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent', strict=False)
     rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports', strict=True)

@@ -212,7 +212,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 <option value="../m3u/asia.m3u">Asia Channels</option>
                 <option value="../m3u/egypt.m3u">Egypt Channels</option>
                 <option value="../m3u/india.m3u">India Channels</option>
-                <option value="../m3u/indonesia.m3u">Indonesia Channels</option>
+                <option value="../m3u/spanish.m3u">Spain Channels</option>
                 <option value="../m3u/sport.m3u">Sport Channels</option>
                 <option value="custom">Custom URL...</option>
             </select>

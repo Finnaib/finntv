@@ -2,258 +2,393 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinnTV - Premium Streaming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #060913;
-            --nav-bg: rgba(6, 9, 19, 0.85);
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --card-bg: rgba(255, 255, 255, 0.03);
-            --card-border: rgba(255, 255, 255, 0.05);
+            --disney-bg: #040714;
+            --disney-nav: rgba(4, 7, 20, 0.92);
+            --disney-card: #1a1d29;
+            --disney-hover: #252840;
+            --disney-blue: #0063e5;
+            --disney-blue-hover: #0483ee;
+            --disney-accent: #f9f9f9;
+            --text-main: #f9f9f9;
+            --text-muted: #a8a8b3;
         }
 
         * {
-            margin: 0;
-            padding: 0;
+            margin: 0; padding: 0;
             box-sizing: border-box;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
+
+        html { scroll-behavior: smooth; }
 
         body {
-            background-color: var(--bg-color);
+            background: var(--disney-bg);
             color: var(--text-main);
             overflow-x: hidden;
-            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
         }
 
-        /* Netflix/iQIYI style Top Nav */
+        /* ─── TOP NAV (Disney+ style) ─────────────────────── */
         header {
             position: fixed;
-            top: 0;
-            width: 100%;
-            padding: 20px 40px;
-            background: var(--nav-bg);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            z-index: 100;
+            top: 0; left: 0; right: 0;
+            height: 68px;
+            background: linear-gradient(to bottom, rgba(4,7,20,0.98) 0%, rgba(4,7,20,0.6) 100%);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid var(--card-border);
-            transition: all 0.3s ease;
+            padding: 0 40px;
+            z-index: 100;
+            gap: 40px;
+            transition: background 0.3s;
         }
 
-        .brand {
-            font-size: 28px;
+        .brand-logo {
+            font-size: 26px;
             font-weight: 900;
-            color: #60a5fa;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            color: #fff;
             text-decoration: none;
+            letter-spacing: -0.5px;
             display: flex;
             align-items: center;
             gap: 10px;
+            flex-shrink: 0;
         }
 
-        .nav-links {
+        .brand-logo span {
+            color: var(--disney-blue-hover);
+        }
+
+        nav {
             display: flex;
-            gap: 30px;
+            gap: 28px;
             align-items: center;
+            flex: 1;
         }
 
-        .nav-links a {
-            color: var(--text-main);
+        nav a {
+            color: rgba(255,255,255,0.75);
             text-decoration: none;
             font-size: 15px;
             font-weight: 600;
             transition: color 0.2s;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.3px;
         }
 
-        .nav-links a:hover {
-            color: var(--primary);
+        nav a:hover {
+            color: #fff;
         }
 
-        .action-btn {
-            background: var(--primary);
-            color: white !important;
-            padding: 10px 24px;
-            border-radius: 8px;
+        .nav-right {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .btn-nav {
+            padding: 9px 22px;
+            border-radius: 6px;
+            font-size: 15px;
             font-weight: 700;
-            transition: all 0.3s ease;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s ease;
         }
 
-        .action-btn:hover {
-            background: var(--primary-hover);
-            transform: scale(1.05);
+        .btn-nav-outline {
+            color: #fff;
+            background: transparent;
+            border: 2px solid rgba(255,255,255,0.25);
         }
 
-        /* Cinematic Hero Section */
+        .btn-nav-outline:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .btn-nav-solid {
+            background: var(--disney-blue);
+            color: #fff;
+        }
+
+        .btn-nav-solid:hover {
+            background: var(--disney-blue-hover);
+            transform: scale(1.03);
+        }
+
+        /* ─── HERO BANNER ──────────────────────────────────── */
         .hero {
             position: relative;
             height: 85vh;
+            min-height: 500px;
             display: flex;
-            align-items: center;
-            padding: 0 5%;
-            margin-top: 0;
-            background: radial-gradient(circle at 70% 30%, rgba(37, 99, 235, 0.2) 0%, transparent 50%),
-                        radial-gradient(circle at 20% 80%, rgba(15, 23, 42, 0.8) 0%, var(--bg-color) 100%);
+            align-items: flex-end;
+            padding: 0 5% 80px;
+            overflow: hidden;
         }
 
-        .hero::before {
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 60% 80% at 80% 30%, rgba(0,99,229,0.25) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 60% at 20% 70%, rgba(37,40,64,0.4) 0%, transparent 70%),
+                linear-gradient(to bottom, rgba(4,7,20,0.2) 0%, rgba(4,7,20,0.6) 60%, rgba(4,7,20,1) 100%);
+        }
+
+        /* Star field effect */
+        .hero-bg::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: url('https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80') center/cover;
-            opacity: 0.15;
-            z-index: -1;
-            mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-            -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+            inset: 0;
+            background-image:
+                radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+            background-size: 200px 200px, 150px 150px, 100px 100px;
+            background-position: 0 0, 75px 75px, 30px 30px;
+            opacity: 0.25;
         }
 
         .hero-content {
-            max-width: 800px;
-            z-index: 10;
+            position: relative;
+            z-index: 5;
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--disney-blue);
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 4px;
+            margin-bottom: 20px;
         }
 
         .hero-title {
-            font-size: 5rem;
+            font-size: 4.5rem;
             font-weight: 900;
-            line-height: 1.1;
-            margin-bottom: 20px;
-            background: linear-gradient(to right, #fff, #94a3b8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            letter-spacing: -1px;
+            line-height: 1.05;
+            margin-bottom: 18px;
+            letter-spacing: -1.5px;
         }
 
         .hero-desc {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
             color: var(--text-muted);
-            margin-bottom: 40px;
-            line-height: 1.5;
+            margin-bottom: 35px;
+            line-height: 1.65;
             font-weight: 400;
+            max-width: 520px;
         }
 
         .hero-buttons {
             display: flex;
-            gap: 20px;
+            gap: 14px;
         }
 
-        .btn-large {
-            padding: 16px 40px;
-            font-size: 1.1rem;
+        .btn-hero {
+            padding: 14px 36px;
+            font-size: 1rem;
             font-weight: 700;
-            border-radius: 12px;
+            border-radius: 8px;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            transition: all 0.3s ease;
+            gap: 8px;
+            transition: all 0.25s ease;
             cursor: pointer;
             border: none;
         }
 
-        .btn-play {
+        .btn-hero-primary {
             background: #fff;
             color: #000;
         }
 
-        .btn-play:hover {
-            background: rgba(255,255,255,0.8);
-            transform: scale(1.05);
+        .btn-hero-primary:hover {
+            background: rgba(255,255,255,0.85);
+            transform: scale(1.04);
         }
 
-        .btn-info {
-            background: rgba(255,255,255,0.1);
+        .btn-hero-secondary {
+            background: rgba(255,255,255,0.12);
             color: #fff;
+            border: 2px solid rgba(255,255,255,0.2);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.1);
         }
 
-        .btn-info:hover {
-            background: rgba(255,255,255,0.15);
-            transform: scale(1.05);
+        .btn-hero-secondary:hover {
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.4);
         }
 
-        /* Streaming Categories Grid (iQIYI Style) */
-        .section-container {
-            padding: 60px 5%;
+        /* ─── BRAND HUB (Disney+ style blocks) ────────────── */
+        .brands-section {
+            padding: 10px 5% 50px;
+            display: flex;
+            gap: 18px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .brand-hub {
             position: relative;
-            z-index: 5;
-        }
-
-        .section-title {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 30px;
+            width: 160px;
+            height: 70px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
-            gap: 15px;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-decoration: none;
         }
 
-        .section-title::before {
+        .brand-hub::before {
             content: '';
-            display: block;
-            width: 6px;
-            height: 30px;
-            background: var(--primary);
-            border-radius: 4px;
+            position: absolute;
+            inset: 0;
+            background: inherit;
+            filter: brightness(0.7);
+            transition: filter 0.3s;
         }
 
+        .brand-hub:hover::before {
+            filter: brightness(1);
+        }
+
+        .brand-hub:hover {
+            border-color: rgba(255,255,255,0.5);
+            transform: scale(1.07);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .brand-hub span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hub-world  { background: linear-gradient(135deg, #1a237e, #283593); }
+        .hub-india  { background: linear-gradient(135deg, #b71c1c, #e53935); }
+        .hub-sport  { background: linear-gradient(135deg, #1b5e20, #388e3c); }
+        .hub-egypt  { background: linear-gradient(135deg, #e65100, #f4511e); }
+        .hub-asia   { background: linear-gradient(135deg, #880e4f, #c2185b); }
+        .hub-spain  { background: linear-gradient(135deg, #4a148c, #7b1fa2); }
+
+        /* ─── M3U PLAYLISTS SECTION ──────────────────────── */
+        .section {
+            padding: 50px 5%;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 30px;
+        }
+
+        .section-divider {
+            width: 5px;
+            height: 28px;
+            background: var(--disney-blue);
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .section-header h2 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .section-sub {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-left: auto;
+        }
+
+        /* Disney+ content card grid */
         .playlist-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 18px;
         }
 
         .playlist-card {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 16px;
-            overflow: hidden;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            position: relative;
-            padding: 30px;
+            background: var(--disney-card);
+            border-radius: 14px;
+            padding: 24px;
             display: flex;
             flex-direction: column;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .playlist-card::before {
+            content: '';
+            position: absolute;
+            top: 0; right: 0;
+            width: 150px;
+            height: 100%;
+            background: var(--accent-color, rgba(0,99,229,0.08));
+            mask-image: radial-gradient(ellipse at right, black 0%, transparent 70%);
+            -webkit-mask-image: radial-gradient(ellipse at right, black 0%, transparent 70%);
         }
 
         .playlist-card:hover {
-            transform: translateY(-10px);
-            background: rgba(37, 99, 235, 0.1);
-            border-color: rgba(96, 165, 250, 0.3);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            background: var(--disney-hover);
+            border-color: rgba(255,255,255,0.12);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
         }
 
-        .card-icon {
+        .card-abbr {
             font-size: 2.5rem;
             font-weight: 900;
-            color: #60a5fa;
-            margin-bottom: 20px;
-            letter-spacing: 2px;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+            color: var(--accent-text, #60a5fa);
         }
 
         .card-title {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
+            color: #fff;
         }
 
-        /* Integrated Copy Tool */
         .copy-tool {
             background: rgba(0,0,0,0.5);
-            border-radius: 10px;
-            padding: 8px;
+            border-radius: 8px;
+            padding: 6px 6px 6px 12px;
             display: flex;
-            gap: 10px;
+            gap: 8px;
+            align-items: center;
             margin-top: auto;
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.06);
         }
 
         .copy-tool input {
@@ -261,193 +396,248 @@
             border: none;
             color: var(--text-muted);
             font-family: monospace;
-            font-size: 13px;
-            padding: 8px;
+            font-size: 12px;
             width: 100%;
             outline: none;
+            min-width: 0;
         }
 
         .copy-btn {
-            background: var(--primary);
+            background: var(--disney-blue);
             color: #fff;
             border: none;
-            padding: 8px 16px;
+            padding: 8px 18px;
             border-radius: 6px;
             font-weight: 700;
+            font-size: 13px;
             cursor: pointer;
             transition: background 0.2s;
+            flex-shrink: 0;
         }
 
-        .copy-btn:hover { background: var(--primary-hover); }
+        .copy-btn:hover { background: var(--disney-blue-hover); }
         .copy-btn.copied { background: #10b981; }
 
+        /* ─── FOOTER ────────────────────────────────────────── */
         footer {
             padding: 40px 5%;
             background: #000;
             text-align: center;
             color: var(--text-muted);
-            font-size: 0.9rem;
-            border-top: 1px solid var(--card-border);
+            font-size: 0.875rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
         }
 
-        /* Toast Notification */
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.2s;
+        }
+
+        footer a:hover { color: #fff; }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        /* Toast */
         .toast {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: #1e293b;
-            color: white;
-            padding: 16px 24px;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            bottom: 30px; right: 30px;
+            background: #1a1d29;
+            color: #fff;
+            padding: 14px 22px;
+            border-radius: 10px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.6);
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             font-weight: 600;
+            font-size: 14px;
             opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.4s ease;
-            z-index: 1000;
-            border: 1px solid rgba(255,255,255,0.1);
+            transform: translateY(30px);
+            transition: all 0.35s ease;
+            z-index: 9999;
+            border: 1px solid rgba(255,255,255,0.08);
         }
 
-        .toast.show {
-            opacity: 1;
-            transform: translateY(0);
+        .toast.show { opacity: 1; transform: translateY(0); }
+
+        /* ─── Mobile ────────────────────────────────────────── */
+        @media (max-width: 768px) {
+            header { padding: 0 20px; gap: 16px; }
+            .hero { padding: 0 6% 60px; height: 75vh; }
+            .hero-title { font-size: 2.8rem; }
+            .hero-desc { font-size: 1rem; }
+            .brand-hub { width: 130px; height: 55px; font-size: 1rem; }
+            .section { padding: 40px 6%; }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <a href="#" class="brand">FinnTV</a>
-        <div class="nav-links">
-            <a href="player/index.php">Web Player</a>
-            <a href="user_portal.html">User Portal</a>
-            <a href="admin.html">Admin</a>
-            <a href="player/index.php" class="action-btn">Start Watching</a>
+<header>
+    <a href="#" class="brand-logo">Finn<span>TV</span></a>
+    <nav>
+        <a href="#playlists">Channels</a>
+        <a href="user_portal.html">My Account</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+    <div class="nav-right">
+        <a href="player/index.php" class="btn-nav btn-nav-outline">Web Player</a>
+        <a href="user_portal.html" class="btn-nav btn-nav-solid">Sign In</a>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-badge">Premium Live TV</div>
+        <h1 class="hero-title">Stream Without Limits</h1>
+        <p class="hero-desc">Thousands of live channels from India, Spain, Asia, Egypt and worldwide — sports, news, entertainment. All in one place, any device.</p>
+        <div class="hero-buttons">
+            <a href="player/index.php" class="btn-hero btn-hero-primary">Launch Player</a>
+            <a href="#playlists" class="btn-hero btn-hero-secondary">View Channels</a>
         </div>
-    </header>
+    </div>
+</section>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Premium Global Streaming</h1>
-            <p class="hero-desc">Experience thousands of live TV channels from around the world. Crystal clear quality, zero buffering, and direct M3U access for any device.</p>
-            <div class="hero-buttons">
-                <a href="player/index.php" class="btn-large btn-play">
-                    Launch Web Player
-                </a>
-                <a href="#playlists" class="btn-large btn-info">
-                    Get Direct Links
-                </a>
+<!-- Brand Hubs (Disney+ style) -->
+<div class="brands-section">
+    <a href="player/index.php?m3u=../m3u/world.m3u" class="brand-hub hub-world"><span>World</span></a>
+    <a href="player/index.php?m3u=../m3u/india.m3u" class="brand-hub hub-india"><span>India</span></a>
+    <a href="player/index.php?m3u=../m3u/sport.m3u" class="brand-hub hub-sport"><span>Sports</span></a>
+    <a href="player/index.php?m3u=../m3u/egypt.m3u" class="brand-hub hub-egypt"><span>Egypt</span></a>
+    <a href="player/index.php?m3u=../m3u/asia.m3u" class="brand-hub hub-asia"><span>Asia</span></a>
+    <a href="player/index.php?m3u=../m3u/spanish.m3u" class="brand-hub hub-spain"><span>Spain</span></a>
+</div>
+
+<!-- M3U Playlists -->
+<section class="section" id="playlists">
+    <div class="section-header">
+        <div class="section-divider"></div>
+        <h2>Direct M3U Links</h2>
+        <span class="section-sub">Paste into VLC, Apple TV, or any IPTV player</span>
+    </div>
+    <div class="playlist-grid">
+
+        <div class="playlist-card" style="--accent-color: rgba(26,35,126,0.15); --accent-text: #7986cb;">
+            <div class="card-abbr">WO</div>
+            <div class="card-title">World Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/world.m3u" readonly id="url-world">
+                <button class="copy-btn" onclick="copyUrl('url-world')">COPY</button>
             </div>
         </div>
-    </section>
 
-    <section class="section-container" id="playlists">
-        <h2 class="section-title">Direct M3U Playlists</h2>
-        <div class="playlist-grid">
-            
-            <div class="playlist-card">
-                <div class="card-icon">WO</div>
-                <h3 class="card-title">World Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/world.m3u" readonly id="url-world">
-                    <button class="copy-btn" onclick="copyUrl('url-world')">COPY</button>
-                </div>
+        <div class="playlist-card" style="--accent-color: rgba(183,28,28,0.15); --accent-text: #ef5350;">
+            <div class="card-abbr">IN</div>
+            <div class="card-title">India Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/india.m3u" readonly id="url-india">
+                <button class="copy-btn" onclick="copyUrl('url-india')">COPY</button>
             </div>
-
-            <div class="playlist-card">
-                <div class="card-icon">AS</div>
-                <h3 class="card-title">Asia Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/asia.m3u" readonly id="url-asia">
-                    <button class="copy-btn" onclick="copyUrl('url-asia')">COPY</button>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <div class="card-icon">ID</div>
-                <h3 class="card-title">Indonesia Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/indonesia.m3u" readonly id="url-indonesia">
-                    <button class="copy-btn" onclick="copyUrl('url-indonesia')">COPY</button>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <div class="card-icon">IN</div>
-                <h3 class="card-title">India Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/india.m3u" readonly id="url-india">
-                    <button class="copy-btn" onclick="copyUrl('url-india')">COPY</button>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <div class="card-icon">EG</div>
-                <h3 class="card-title">Egypt Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/egypt.m3u" readonly id="url-egypt">
-                    <button class="copy-btn" onclick="copyUrl('url-egypt')">COPY</button>
-                </div>
-            </div>
-
-            <div class="playlist-card">
-                <div class="card-icon">SP</div>
-                <h3 class="card-title">Sport Channels</h3>
-                <div class="copy-tool">
-                    <input type="text" value="https://finntv.vercel.app/m3u/sport.m3u" readonly id="url-sport">
-                    <button class="copy-btn" onclick="copyUrl('url-sport')">COPY</button>
-                </div>
-            </div>
-
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2026 FinnTV. All rights reserved.</p>
-    </footer>
+        <div class="playlist-card" style="--accent-color: rgba(27,94,32,0.15); --accent-text: #66bb6a;">
+            <div class="card-abbr">SP</div>
+            <div class="card-title">Sport Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/sport.m3u" readonly id="url-sport">
+                <button class="copy-btn" onclick="copyUrl('url-sport')">COPY</button>
+            </div>
+        </div>
 
-    <script>
-        function showToast(message) {
-            var existingToast = document.querySelector('.toast');
-            if (existingToast && existingToast.parentNode) {
-                existingToast.parentNode.removeChild(existingToast);
-            }
+        <div class="playlist-card" style="--accent-color: rgba(230,81,0,0.15); --accent-text: #ffa726;">
+            <div class="card-abbr">EG</div>
+            <div class="card-title">Egypt Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/egypt.m3u" readonly id="url-egypt">
+                <button class="copy-btn" onclick="copyUrl('url-egypt')">COPY</button>
+            </div>
+        </div>
 
-            var toast = document.createElement('div');
-            toast.className = 'toast';
-            toast.innerHTML = '<span>✅</span><span>' + message + '</span>';
-            document.body.appendChild(toast);
+        <div class="playlist-card" style="--accent-color: rgba(136,14,79,0.15); --accent-text: #ec407a;">
+            <div class="card-abbr">AS</div>
+            <div class="card-title">Asia Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/asia.m3u" readonly id="url-asia">
+                <button class="copy-btn" onclick="copyUrl('url-asia')">COPY</button>
+            </div>
+        </div>
 
-            setTimeout(function () { toast.classList.add('show'); }, 10);
-            setTimeout(function () {
-                toast.classList.remove('show');
-                setTimeout(function () {
-                    if (toast.parentNode) toast.parentNode.removeChild(toast);
-                }, 400);
-            }, 3000);
+        <div class="playlist-card" style="--accent-color: rgba(74,20,140,0.15); --accent-text: #ab47bc;">
+            <div class="card-abbr">ES</div>
+            <div class="card-title">Spain Channels</div>
+            <div class="copy-tool">
+                <input type="text" value="https://finntv.vercel.app/m3u/spanish.m3u" readonly id="url-spain">
+                <button class="copy-btn" onclick="copyUrl('url-spain')">COPY</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-links">
+        <a href="player/index.php">Web Player</a>
+        <a href="user_portal.html">User Portal</a>
+        <a href="admin.html">Admin</a>
+        <a href="mailto:customer-care@finnaib.odoo.com">Contact</a>
+    </div>
+    <p>&copy; 2026 FinnTV. All rights reserved.</p>
+</footer>
+
+<script>
+    function showToast(message) {
+        var old = document.querySelector('.toast');
+        if (old && old.parentNode) old.parentNode.removeChild(old);
+
+        var t = document.createElement('div');
+        t.className = 'toast';
+        t.innerHTML = '<span style="color:#10b981;font-size:1.1em">&#10003;</span> ' + message;
+        document.body.appendChild(t);
+
+        setTimeout(function(){ t.classList.add('show'); }, 10);
+        setTimeout(function(){
+            t.classList.remove('show');
+            setTimeout(function(){ if (t.parentNode) t.parentNode.removeChild(t); }, 400);
+        }, 3000);
+    }
+
+    function copyUrl(id) {
+        var el = document.getElementById(id);
+        el.select();
+        el.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+
+        var btn = el.nextElementSibling;
+        var orig = btn.innerText;
+        btn.innerText = 'COPIED!';
+        btn.classList.add('copied');
+        showToast('URL copied to clipboard!');
+
+        setTimeout(function(){
+            btn.innerText = orig;
+            btn.classList.remove('copied');
+        }, 2500);
+    }
+
+    // Fade nav on scroll
+    var header = document.querySelector('header');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 60) {
+            header.style.background = 'rgba(4,7,20,0.98)';
+        } else {
+            header.style.background = '';
         }
-
-        function copyUrl(elementId) {
-            var copyText = document.getElementById(elementId);
-            copyText.select();
-            copyText.setSelectionRange(0, 99999);
-            document.execCommand("copy");
-            
-            var btn = copyText.nextElementSibling;
-            var originalText = btn.innerText;
-            btn.innerText = "COPIED!";
-            btn.classList.add("copied");
-            
-            showToast("URL copied to clipboard!");
-            
-            setTimeout(function() {
-                btn.innerText = originalText;
-                btn.classList.remove("copied");
-            }, 2000);
-        }
-    </script>
+    });
+</script>
 </body>
 </html>
