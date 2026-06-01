@@ -613,20 +613,43 @@
 
     function copyUrl(id) {
         var el = document.getElementById(id);
+        var textToCopy = el.value;
+        
         el.select();
         el.setSelectionRange(0, 99999);
-        document.execCommand('copy');
-
+        
         var btn = el.nextElementSibling;
         var orig = btn.innerText;
-        btn.innerText = 'COPIED!';
-        btn.classList.add('copied');
-        showToast('URL copied to clipboard!');
 
-        setTimeout(function(){
-            btn.innerText = orig;
-            btn.classList.remove('copied');
-        }, 2500);
+        function handleSuccess() {
+            btn.innerText = 'COPIED!';
+            btn.classList.add('copied');
+            showToast('URL copied to clipboard!');
+            setTimeout(function(){
+                btn.innerText = orig;
+                btn.classList.remove('copied');
+            }, 2500);
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(textToCopy)
+                .then(handleSuccess)
+                .catch(function(err) {
+                    try {
+                        document.execCommand('copy');
+                        handleSuccess();
+                    } catch (e) {
+                        showToast('Failed to copy link.');
+                    }
+                });
+        } else {
+            try {
+                document.execCommand('copy');
+                handleSuccess();
+            } catch (e) {
+                showToast('Failed to copy link.');
+            }
+        }
     }
 
     // Fade nav on scroll

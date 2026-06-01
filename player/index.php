@@ -55,7 +55,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             background: rgba(255,255,255,0.05); 
             border: 1px solid rgba(255,255,255,0.1); 
             color: #fff; 
-            font-size: 16px; /* Size Fix */
+            font-size: 16px; 
             font-weight: 600;
             border-radius: 10px; 
             outline: none; 
@@ -119,7 +119,6 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             transition: opacity 0.5s ease;
         }
         .video-placeholder h2 { color: rgba(255,255,255,0.4); font-size: 2rem; font-weight: 300; margin-top: 20px;}
-        .video-placeholder .icon { font-size: 4rem; opacity: 0.5; display:none; }
 
         #player { width:100%; height: 100%; flex: 1; background: transparent; z-index: 2; position: relative; outline: none; }
         
@@ -134,7 +133,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         #ch-grp { font-size: 18px; color: #60a5fa; text-transform: uppercase; margin-top: 8px; letter-spacing: 1px; font-weight: 600;}
         #ch-url { font-size: 12px; color: #4b5563; margin-top: 12px; font-family: monospace; word-break: break-all; }
 
-        /* Right Sidebar (Up Next / Channel List) */
+        /* Right Sidebar (Up Next) */
         .list-pane { 
             width: 400px; 
             background:#0f172a; 
@@ -182,7 +181,22 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         .v-name { display:block; font-weight: 600; font-size: 1.2rem; margin-bottom: 6px; color: #e2e8f0; }
         .v-grp { font-size: 0.9rem; color:#9ca3af; font-weight: 500; display: block; text-transform: uppercase; letter-spacing: 0.5px; }
 
-        /* Legacy Console Tweaks (Vita, PSP, Nintendo, Xbox) */
+        /* Premium Loader Spinner */
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border-left-color: #60a5fa;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Legacy Console Tweaks */
         .is-vita .video-container, .is-retro .video-container { display: none; }
         .is-vita .top-nav, .is-retro .top-nav { flex-wrap: wrap; height: auto; padding: 15px; }
         .is-vita .nav-controls, .is-retro .nav-controls { flex-wrap: wrap; }
@@ -190,13 +204,20 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
         
         /* Modern Mobile Responsive Tweaks */
         @media (max-width: 1024px) {
-            .app-layout { flex-direction: column; } /* Video on top, list on bottom */
+            .app-layout { flex-direction: column; }
             .video-container { flex: none; height: 50vh; }
             .list-pane { width: 100%; border-left: none; border-top: 1px solid rgba(255,255,255,0.05); flex: 1; }
             .top-nav { height: auto; flex-wrap: wrap; padding: 15px; }
             .nav-controls { min-width: 100%; }
         }
     </style>
+
+    <!-- Hls.js for HLS (.m3u8) native support -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <!-- Mpegts.js for MPEG-TS (.ts) native support -->
+    <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest/dist/mpegts.js"></script>
+    <!-- Artplayer for premium VLC-like video player UI -->
+    <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script>
 </head>
 <body id="app-body">
     
@@ -206,7 +227,6 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             FinnTV
         </a>
         <div class="nav-controls">
-            <!-- Removed Movies and Series from Dropdown -->
             <select id="playlist-select" onchange="playCustom()">
                 <option value="../m3u/world.m3u">World Channels</option>
                 <option value="../m3u/asia.m3u">Asia Channels</option>
@@ -217,8 +237,8 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 <option value="custom">Custom URL...</option>
             </select>
             
-            <input type="text" id="custom-url" placeholder="Paste custom URL here..." style="display:none;">
-            <button id="play-custom" onclick="playCustom()" style="display:none;">Play</button>
+            <input type="text" id="custom-url" placeholder="Paste custom URL here...">
+            <button id="play-custom" onclick="playCustom()">Play</button>
             
             <input type="text" id="search" placeholder="Search channels...">
         </div>
@@ -231,7 +251,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 <div class="video-placeholder" id="placeholder">
                     <h2>Select a channel to start watching</h2>
                 </div>
-                <video id="player" controls playsinline preload="auto"></video>
+                <div id="player"></div>
             </div>
             <div class="video-footer">
                 <div id="ch-title">FinnTV Premium</div>
@@ -245,7 +265,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             <div class="list-header">Up Next</div>
             <div class="scroller" id="list">
                 <div style="padding:40px 20px; text-align:center; color:#666;">
-                    <div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>
+                    <div class="spinner"></div>
                     Loading Playlist...
                 </div>
             </div>
@@ -253,13 +273,16 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
     </div>
 
     <script>
-        var player = document.getElementById("player"),
-            list = document.getElementById("list"),
+        var list = document.getElementById("list"),
             title = document.getElementById("ch-title"),
             grpText = document.getElementById("ch-grp"),
             search = document.getElementById("search"),
             placeholder = document.getElementById("placeholder"),
             channels = [], filtered = [];
+
+        var art = null;
+        var currentFallbackUrl = null;
+        var currentCategory = "";
 
         var ua = navigator.userAgent;
         var isVita = ua.indexOf('PlayStation Vita') !== -1;
@@ -276,6 +299,108 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             try { return btoa(str); } catch (e) {
                 try { return btoa(unescape(encodeURIComponent(str))); } catch (e2) { return ''; }
             }
+        }
+
+        function checkIsLive(url) {
+            var u = url.toLowerCase();
+            if (u.indexOf('.mp4') !== -1 || u.indexOf('.mkv') !== -1 || u.indexOf('.avi') !== -1 || u.indexOf('/movies/') !== -1 || u.indexOf('/vod/') !== -1 || u.indexOf('/series/') !== -1) {
+                return false;
+            }
+            return true;
+        }
+
+        function cleanUpPlayers(artInstance) {
+            if (!artInstance) return;
+            if (artInstance.hls) {
+                artInstance.hls.destroy();
+                artInstance.hls = null;
+            }
+            if (artInstance.mpegtsPlayer) {
+                artInstance.mpegtsPlayer.destroy();
+                artInstance.mpegtsPlayer = null;
+            }
+        }
+
+        function triggerFallback() {
+            if (currentFallbackUrl) {
+                var fallback = currentFallbackUrl;
+                currentFallbackUrl = null; // Prevent loop
+                grpText.innerText = currentCategory + ' (switching format...)';
+                if (art) {
+                    art.switchUrl(fallback, 'ts');
+                    art.play();
+                }
+            } else {
+                grpText.innerText = currentCategory + ' (stream unavailable)';
+            }
+        }
+
+        function initPlayer(isLiveStream) {
+            if (art) {
+                cleanUpPlayers(art);
+                art.destroy();
+                art = null;
+            }
+            
+            art = new Artplayer({
+                container: '#player',
+                url: '', 
+                setting: true,
+                volume: 0.8,
+                isLive: isLiveStream,
+                autoplay: true,
+                pip: true,
+                fullscreen: true,
+                fullscreenWeb: true,
+                playbackRate: !isLiveStream, 
+                aspectRatio: true,
+                hotkey: true,
+                theme: '#2563eb',
+                customType: {
+                    m3u8: function (video, url, artInstance) {
+                        cleanUpPlayers(artInstance);
+                        if (Hls.isSupported()) {
+                            const hls = new Hls();
+                            hls.loadSource(url);
+                            hls.attachMedia(video);
+                            artInstance.hls = hls;
+                            
+                            hls.on(Hls.Events.ERROR, function (event, data) {
+                                if (data.fatal) {
+                                    triggerFallback();
+                                }
+                            });
+                        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                            video.src = url;
+                        } else {
+                            artInstance.notice.show = 'HLS is not supported in this browser';
+                        }
+                    },
+                    ts: function (video, url, artInstance) {
+                        cleanUpPlayers(artInstance);
+                        if (mpegts.getFeatureList().mseLivePlayback) {
+                            const mpegtsPlayer = mpegts.createPlayer({
+                                type: 'mse',
+                                isLive: isLiveStream,
+                                url: url
+                            });
+                            mpegtsPlayer.attachMediaElement(video);
+                            mpegtsPlayer.load();
+                            artInstance.mpegtsPlayer = mpegtsPlayer;
+                        } else {
+                            video.src = url;
+                        }
+                    }
+                }
+            });
+
+            art.on('video:error', function(e) {
+                triggerFallback();
+            });
+            
+            art.on('destroy', function() {
+                cleanUpPlayers(art);
+            });
         }
 
         function loadPlaylist(url) {
@@ -321,20 +446,16 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         
                         var rawUrl = c.u;
                         
-                        // Build both variants
                         var urlM3u8 = rawUrl;
                         var urlTs   = rawUrl;
                         
-                        // If URL ends in .ts → also prepare .m3u8 variant
                         if (rawUrl.indexOf('.ts') !== -1 && rawUrl.indexOf('.ts?') === -1) {
                             urlM3u8 = rawUrl.substring(0, rawUrl.length - 3) + '.m3u8';
                         }
-                        // If URL ends in .m3u8 → also prepare .ts variant
                         if (rawUrl.indexOf('.m3u8') !== -1) {
                             urlTs = rawUrl.replace('.m3u8', '.ts');
                         }
                         
-                        // For Vita/Retro: redirect directly
                         if (isVita || isRetro) {
                             var vitaUrl = urlM3u8;
                             var needsProxy = vitaUrl.indexOf('http:') !== -1;
@@ -346,44 +467,24 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                             return;
                         }
 
-                        // Hide placeholder and update UI
                         placeholder.style.opacity = '0';
                         setTimeout(function() { placeholder.style.display = 'none'; }, 500);
                         
                         title.innerText = c.t;
+                        currentCategory = c.g;
                         grpText.innerText = c.g;
                         document.getElementById("ch-url").innerText = rawUrl;
                         
-                        // Smart dual-format: try m3u8, fall back to .ts on error
-                        function tryPlay(url, fallbackUrl) {
-                            player.src = url;
-                            var fired = false;
-                            
-                            function onErr() {
-                                if (fired) return;
-                                fired = true;
-                                player.removeEventListener('error', onErr);
-                                if (fallbackUrl && fallbackUrl !== url) {
-                                    grpText.innerText = c.g + ' (switching format...)';
-                                    tryPlay(fallbackUrl, null);
-                                } else {
-                                    grpText.innerText = c.g + ' (stream unavailable)';
-                                }
-                            }
-                            
-                            player.addEventListener('error', onErr);
-                            var p = player.play();
-                            if (p !== undefined) {
-                                p.catch(function() { onErr(); });
-                            }
-                        }
+                        var proxyBase = '../api/stream_proxy.php?url=';
+                        var finalM3u8 = proxyBase + encodeURIComponent(safeBtoa(urlM3u8));
+                        var finalTs   = proxyBase + encodeURIComponent(safeBtoa(urlTs));
                         
-                        // ALWAYS use proxy — it rewrites HTTP segment URLs so browser doesn't block mixed content
-                        var proxyBase = '/api/stream_proxy.php?url=';
-                        var finalM3u8 = proxyBase + encodeURIComponent(btoa(urlM3u8));
-                        var finalTs   = proxyBase + encodeURIComponent(btoa(urlTs));
+                        currentFallbackUrl = finalTs;
                         
-                        tryPlay(finalM3u8, finalTs);
+                        var isLive = checkIsLive(rawUrl);
+                        initPlayer(isLive);
+                        
+                        art.switchUrl(finalM3u8, 'm3u8');
                     };
                     frag.appendChild(el);
                 })(filtered[i]);
@@ -408,9 +509,35 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                 url = select.value;
             }
 
-            // Load the custom URL as a playlist
-            document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div style="font-size: 2rem; margin-bottom: 10px;">⏳</div>Loading Playlist...</div>';
-            loadPlaylist(url);
+            if (select.value === "custom" && (url.toLowerCase().indexOf('.m3u8') !== -1 || url.toLowerCase().indexOf('.ts') !== -1 || url.toLowerCase().indexOf('.mp4') !== -1) && url.toLowerCase().indexOf('.m3u') === -1) {
+                placeholder.style.opacity = '0';
+                placeholder.style.display = 'none';
+                title.innerText = "Custom Stream";
+                currentCategory = "Custom";
+                grpText.innerText = "Custom Stream";
+                document.getElementById("ch-url").innerText = url;
+                
+                var urlM3u8 = url;
+                var urlTs = url;
+                if (url.indexOf('.ts') !== -1 && url.indexOf('.ts?') === -1) {
+                    urlM3u8 = url.substring(0, url.length - 3) + '.m3u8';
+                }
+                if (url.indexOf('.m3u8') !== -1) {
+                    urlTs = url.replace('.m3u8', '.ts');
+                }
+                
+                var proxyBase = '../api/stream_proxy.php?url=';
+                var finalM3u8 = proxyBase + encodeURIComponent(safeBtoa(urlM3u8));
+                var finalTs   = proxyBase + encodeURIComponent(safeBtoa(urlTs));
+                
+                currentFallbackUrl = finalTs;
+                var isLive = checkIsLive(url);
+                initPlayer(isLive);
+                art.switchUrl(finalM3u8, 'm3u8');
+            } else {
+                document.getElementById("list").innerHTML = '<div style="padding:40px 20px; text-align:center; color:#666;"><div class="spinner"></div>Loading Playlist...</div>';
+                loadPlaylist(url);
+            }
         }
 
         search.oninput = function() {
@@ -447,6 +574,12 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             document.getElementById("custom-url").value = m3u;
             document.getElementById("custom-url").style.display = "block";
             document.getElementById("play-custom").style.display = "block";
+        }
+
+        // Hide custom controls by default on load
+        if (select.value !== "custom") {
+            document.getElementById("custom-url").style.display = "none";
+            document.getElementById("play-custom").style.display = "none";
         }
 
         loadPlaylist(m3u);
