@@ -56,7 +56,13 @@ FAMOUS_KEYWORDS = [
     'etv', 'sun tv', 'kairali', 'asianet', 'surya', 'suvarna', 'vijay', 'raj tv', 'maa tv', 'gemini',
     'mazhavil', 'manorama', 'colors bangla', 'colors gujarati', 'colors kannada', 'colors marathi',
     'kids', 'cartoon', 'willow', 'cricket', 'ten cricket', 'pvt cricket',
-    'doraemon', 'shinchan', 'oggy', 'pokemon'
+    'doraemon', 'shinchan', 'oggy', 'pokemon',
+    # Spain / Spanish
+    'tve', 'rtve', 'la 1', 'la 2', 'antena 3', 'telecinco', 'cuatro', 'la sexta', 'telemadrid',
+    '24h', 'clan tv', 'movistar', 'gol play', 'real madrid tv', 'barcelona tv', 'deportes',
+    'esport', 'canal sur', 'tv3', 'a3', 'tv canaria', 'etb', 'rac1', 'cope', 'tdp', 'bein sports es',
+    '3cat', '7 telev', '101tv', 'activa', 'aragontv', 'canal extremadura', 'ib3', 'la 8',
+    'okdiario', 'rne', 'trece', 'ten', 'energy', 'factorvacion', 'paramount network'
 ]
 
 def is_filtered(name, strict=True):
@@ -186,7 +192,7 @@ def rebuild_m3u(target_file, source_urls, label, strict=True):
     print(f"Updated m3u/{target_file} with {len(all_channels)} new channels.")
 
 if __name__ == "__main__":
-    rebuild_m3u('spanish.m3u', SOURCES['spain'], 'Spain', strict=True)
+    rebuild_m3u('spanish.m3u', SOURCES['spain'], 'Spain', strict=False)
     rebuild_m3u('asia.m3u', SOURCES['asia'], 'Asia', strict=True)
     rebuild_m3u('india.m3u', SOURCES['india_extra'], 'Subcontinent', strict=False)
     rebuild_m3u('sport.m3u', SOURCES['sport_extra'], 'Sports', strict=True)

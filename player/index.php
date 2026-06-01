@@ -319,23 +319,30 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         for(var j=0; j<active.length; j++) active[j].className = "card";
                         el.className = "card active";
                         
-                        var streamUrl = c.u;
+                        var rawUrl = c.u;
                         
-                        // Convert .ts to .m3u8 for Xtream Codes compatibility
-                        if ((streamUrl.indexOf('/live/') !== -1 || streamUrl.indexOf('/movie/') !== -1) && streamUrl.indexOf('.ts') !== -1) {
-                            streamUrl = streamUrl.substring(0, streamUrl.length - 3) + '.m3u8';
+                        // Build both variants
+                        var urlM3u8 = rawUrl;
+                        var urlTs   = rawUrl;
+                        
+                        // If URL ends in .ts → also prepare .m3u8 variant
+                        if (rawUrl.indexOf('.ts') !== -1 && rawUrl.indexOf('.ts?') === -1) {
+                            urlM3u8 = rawUrl.substring(0, rawUrl.length - 3) + '.m3u8';
+                        }
+                        // If URL ends in .m3u8 → also prepare .ts variant
+                        if (rawUrl.indexOf('.m3u8') !== -1) {
+                            urlTs = rawUrl.replace('.m3u8', '.ts');
                         }
                         
-                        var needsProxy = isVita || isRetro || streamUrl.indexOf('http:') !== -1;
-                        var finalUrl = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(streamUrl))) : streamUrl;
-                        
-                        // Ensure Vita appends ?ext=.m3u8 for native player pickup
-                        if (isVita && finalUrl.toLowerCase().indexOf('.m3u8') === -1 && finalUrl.toLowerCase().indexOf('.mp4') === -1) {
-                            finalUrl += (finalUrl.indexOf('?') === -1 ? '?' : '&') + 'ext=.m3u8';
-                        }
-                        
+                        // For Vita/Retro: redirect directly
                         if (isVita || isRetro) {
-                            window.location.href = finalUrl;
+                            var vitaUrl = urlM3u8;
+                            var needsProxy = vitaUrl.indexOf('http:') !== -1;
+                            var finalVita = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(vitaUrl))) : vitaUrl;
+                            if (finalVita.toLowerCase().indexOf('.m3u8') === -1 && finalVita.toLowerCase().indexOf('.mp4') === -1) {
+                                finalVita += (finalVita.indexOf('?') === -1 ? '?' : '&') + 'ext=.m3u8';
+                            }
+                            window.location.href = finalVita;
                             return;
                         }
 
@@ -345,8 +352,33 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
                         
                         title.innerText = c.t;
                         grpText.innerText = c.g;
-                        document.getElementById("ch-url").innerText = c.u;
-                        player.src = finalUrl; player.play().catch(function(){});
+                        document.getElementById("ch-url").innerText = rawUrl;
+                        
+                        // Smart dual-format: try m3u8, fall back to .ts on error
+                        function tryPlay(url, fallbackUrl) {
+                            player.src = url;
+                            player.load();
+                            var playPromise = player.play();
+                            if (playPromise !== undefined) {
+                                playPromise.catch(function() {
+                                    if (fallbackUrl && fallbackUrl !== url) {
+                                        grpText.innerText = c.g + ' (trying .ts...)';
+                                        player.src = fallbackUrl;
+                                        player.load();
+                                        player.play().catch(function() {
+                                            grpText.innerText = c.g + ' (stream unavailable)';
+                                        });
+                                    }
+                                });
+                            }
+                        }
+                        
+                        // Determine proxy need (http streams need proxy for https pages)
+                        var needsProxy = urlM3u8.indexOf('http:') !== -1;
+                        var finalM3u8 = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(urlM3u8))) : urlM3u8;
+                        var finalTs   = needsProxy ? ('../api/stream_proxy.php?url=' + encodeURIComponent(safeBtoa(urlTs))) : urlTs;
+                        
+                        tryPlay(finalM3u8, finalTs);
                     };
                     frag.appendChild(el);
                 })(filtered[i]);

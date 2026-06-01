@@ -29,6 +29,11 @@ python collect_external.py
 if %errorlevel% neq 0 (
     echo Warning: External collection had issues, check output above.
 )
+echo Building Spanish channels (build_spanish.py)...
+python build_spanish.py
+if %errorlevel% neq 0 (
+    echo Warning: Spanish build had issues, check output above.
+)
 echo.
 
 echo [3/4] Reorganizing M3U Files by Categories...
