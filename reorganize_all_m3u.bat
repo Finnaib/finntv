@@ -29,17 +29,13 @@ for %%F in ("%M3U_DIR%\*.m3u") do (
     if /i not "!filename!"=="live" (
         if /i not "!filename!"=="vod" (
             if /i not "!filename!"=="series" (
-                if /i not "!filename!"=="spanish" (
-                    if /i not "!filename!"=="asia" (
-                        if /i not "!filename!"=="indonesia" (
-                            echo Processing: %%~nxF
-                            powershell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_FILE%" -InputFile "%%F"
-                            if !errorlevel! neq 0 (
-                                echo   Error processing %%~nxF
-                            )
-                            echo.
-                        )
+                if /i not "!filename!"=="indonesia" (
+                    echo Processing: %%~nxF
+                    powershell -NoProfile -ExecutionPolicy Bypass -File "%SCRIPT_FILE%" -InputFile "%%F"
+                    if !errorlevel! neq 0 (
+                        echo   Error processing %%~nxF
                     )
+                    echo.
                 )
             )
         )

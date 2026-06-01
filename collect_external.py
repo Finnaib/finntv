@@ -173,9 +173,17 @@ def rebuild_m3u(target_file, source_urls, label, whitelist, strict=True):
                 # Intelligent Categorization
                 category = country
                 if label == 'Spain':
-                    category = 'Spain'
+                    lc_extinf = extinf.lower()
+                    if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo", "nick", "baby", "sonic", "hungama", "yay", "toon", "spacetoon", "stars", "buddy", "junior", "clan", "boing", "super3", "sx3"]):
+                        category = "Spain - Kids"
+                    elif any(k in lc_extinf for k in ["cricket", "willow", "ten cricket", "deportes", "esport", "gol play", "futbol", "real madrid", "barcelona tv", "tdp", "teledeporte", "laliga"]):
+                        category = "Spain - Sports"
+                    elif any(k in lc_extinf for k in ["24h", "news", "noticias", "rne", "cope", "okdiario"]):
+                        category = "Spain - News"
+                    else:
+                        category = "Spain"
                 elif label == 'Asia':
-                    category = 'Asia'
+                    category = country
                 else:
                     lc_extinf = extinf.lower()
                     if any(k in lc_extinf for k in ["kids", "cartoon", "disney", "doraemon", "shinchan", "pogo", "nick", "baby", "sonic", "hungama", "yay", "toon", "spacetoon", "stars", "buddy", "junior"]):
