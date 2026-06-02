@@ -1,5 +1,6 @@
 import requests
 import urllib3
+import urllib.parse
 import time
 import json
 import os
@@ -44,11 +45,12 @@ def make_request(url, headers, use_proxy=False, timeout=120, allow_direct_fallba
     if use_proxy:
         base_url = get_vercel_base_url()
         b64_url = base64.b64encode(url.encode('utf-8')).decode('utf-8')
-        # Use dedicated xtream_proxy.php for API JSON calls (not the video stream proxy)
-        proxy_url = f"{base_url}/api/xtream_proxy.php?url={b64_url}"
+        # URL-encode the base64 so = and + chars don't corrupt the query param
+        encoded = urllib.parse.quote(b64_url, safe='')
+        proxy_url = f"{base_url}/api/xtream_proxy.php?url={encoded}"
         r = requests.get(proxy_url, headers=headers, verify=False, timeout=timeout)
-        if r.status_code == 500 and allow_direct_fallback:
-            print(f"  -> Proxy returned 500 (payload too large for Vercel). Falling back to direct connection...")
+        if r.status_code != 200 and allow_direct_fallback:
+            print(f"  -> Proxy returned {r.status_code}. Falling back to direct connection...")
             return requests.get(url, headers=headers, verify=False, timeout=timeout)
         return r
     else:
@@ -159,6 +161,8 @@ def fetch_and_append(base_api, host, username, password, action, filename, type_
     print(f"  Full fetch failed. Switching to per-category mode ({len(cat_map)} categories)...")
     total_written = 0
     failed_cats   = 0
+    empty_cats    = 0
+    first_cat     = True  # debug first request
 
     for cat_id, cat_name in cat_map.items():
         cat_url = f"{url}&category_id={cat_id}"
@@ -166,12 +170,17 @@ def fetch_and_append(base_api, host, username, password, action, filename, type_
             try:
                 r = make_request(cat_url, headers=headers, use_proxy=use_proxy,
                                  timeout=60, allow_direct_fallback=True)
+                if first_cat:
+                    print(f"  [debug] First cat request -> HTTP {r.status_code}, {len(r.content)} bytes")
+                    first_cat = False
                 if r.status_code == 200 and r.content:
                     cat_data = r.json()
                     if isinstance(cat_data, list) and cat_data:
                         n = write_items(cat_data, filename, type_code, cat_map, host, username, password)
                         total_written += n
                         print(f"  [{safe(cat_name)}]: {n} items")
+                    elif isinstance(cat_data, list):
+                        empty_cats += 1  # provider returned [] for this category
                     break
             except Exception as e:
                 if attempt == 1:
