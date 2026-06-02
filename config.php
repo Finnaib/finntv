@@ -297,4 +297,4 @@ function parseMoviesAndSeries()
 // Run Parser (Optimized: Execution moved to player_api.php)
 // parseMoviesAndSeries();
 
-// End of file
+// End of file (Rebuild Trigger)
