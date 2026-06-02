@@ -9,15 +9,13 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FinnTV Premium Player</title>
 
-    <!-- Video.js Core -->
-    <link href="https://cdn.jsdelivr.net/npm/video.js@8.10.0/dist/video-js.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/video.js@8.10.0/dist/video.min.js"></script>
+    <!-- Video.js v10 Core -->
+    <link href="https://cdn.jsdelivr.net/npm/video.js@10/dist/video-js.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/video.js@10/dist/video.min.js"></script>
     <!-- HLS.js for HLS streams -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
     <!-- mpegts.js for raw TS streams -->
     <script src="https://cdn.jsdelivr.net/npm/mpegts.js@1.7.3/dist/mpegts.min.js"></script>
-    <!-- videojs-http-streaming (native HLS fallback) -->
-    <script src="https://cdn.jsdelivr.net/npm/@videojs/http-streaming@3.14.0/dist/videojs-http-streaming.min.js"></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
