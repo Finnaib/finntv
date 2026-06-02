@@ -21,13 +21,21 @@ def get_vercel_base_url():
             pass
     return base_url.rstrip('/')
 
-def make_request(url, headers, use_proxy=False, timeout=120):
+def make_request(url, headers, use_proxy=False, timeout=120, allow_direct_fallback=True):
+    """
+    Fetch a URL, optionally through the Vercel proxy.
+    If the proxy returns a 500 (e.g. Vercel timeout on large JSON), auto-falls back to direct.
+    """
     if use_proxy:
         base_url = get_vercel_base_url()
         b64_url = base64.b64encode(url.encode('utf-8')).decode('utf-8')
-        # Use dedicated xtream_proxy.php for API JSON calls (stream_proxy.php is for video streams)
+        # Use dedicated xtream_proxy.php for API JSON calls (not the video stream proxy)
         proxy_url = f"{base_url}/api/xtream_proxy.php?url={b64_url}"
-        return requests.get(proxy_url, headers=headers, verify=False, timeout=timeout)
+        r = requests.get(proxy_url, headers=headers, verify=False, timeout=timeout)
+        if r.status_code == 500 and allow_direct_fallback:
+            print(f"  -> Proxy returned 500 (payload too large for Vercel). Falling back to direct connection...")
+            return requests.get(url, headers=headers, verify=False, timeout=timeout)
+        return r
     else:
         return requests.get(url, headers=headers, verify=False, timeout=timeout)
 
@@ -37,10 +45,11 @@ def get_category_map(base_api, action, headers, use_proxy=False):
             print(f"Fetching categories: {action} (Attempt {attempt+1})...")
             url = f"{base_api}&action={action}"
             r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=120)
-            if r.status_code != 200: 
+            if r.status_code != 200:
+                print(f"  -> HTTP {r.status_code} for {action}")
                 time.sleep(5)
                 continue
-                
+
             data = r.json()
             # Map category_id -> category_name
             mapping = {}
@@ -53,7 +62,7 @@ def get_category_map(base_api, action, headers, use_proxy=False):
         except Exception as e:
             print(f"  Error fetching categories: {e}")
             time.sleep(5)
-    
+
     return {}
 
 def fetch_and_append(base_api, host, username, password, action, filename, type_code, cat_map, headers, use_proxy=False):
@@ -61,7 +70,8 @@ def fetch_and_append(base_api, host, username, password, action, filename, type_
         print(f"\nFetching {filename} via {action} (Attempt {attempt+1})...")
         try:
             url = f"{base_api}&action={action}"
-            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=120)
+            # allow_direct_fallback=True so large VOD/Series JSON auto-falls back to direct
+            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=180, allow_direct_fallback=True)
             r.raise_for_status()
             data = r.json()
             
