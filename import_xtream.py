@@ -65,87 +65,113 @@ def get_category_map(base_api, action, headers, use_proxy=False):
 
     return {}
 
-def fetch_and_append(base_api, host, username, password, action, filename, type_code, cat_map, headers, use_proxy=False):
-    for attempt in range(3):
-        print(f"\nFetching {filename} via {action} (Attempt {attempt+1})...")
-        try:
-            url = f"{base_api}&action={action}"
-            # allow_direct_fallback=True so large VOD/Series JSON auto-falls back to direct
-            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=180, allow_direct_fallback=True)
-            r.raise_for_status()
-            data = r.json()
-            
-            if not isinstance(data, list):
-                if isinstance(data, dict):
-                    # sometimes empty streams return dict like {"error": ...}
-                    print(f"Warning: Expected list but got dict for {filename}. This may be an error stream.")
-                    return
-                print(f"Warning: Expected list but got {type(data)} for {filename}.")
-                return
-            elif len(data) == 1 and data[0].get('name') == 'شاهد الخطآ':
-                 print(f"Warning: Account error/expired stream detected. Skipping this credential.")
-                 return
-            
-            print(f"  Found {len(data)} items. Writing to file...")
-            
-            # Sort by category name then channel name for tidiness
-            def sort_key(item):
-                cid = item.get('category_id')
-                cname = cat_map.get(cid, "Uncategorized")
-                return (cname, item.get('name', ''))
-            
-            data.sort(key=sort_key)
-            
-            with open(f"m3u/{filename}", 'a', encoding='utf-8') as f:
-                current_group = None
-                
-                for item in data:
-                    name = item.get('name', 'Unknown')
-                    
-                    # Improved Logo Extraction
-                    logo = item.get('stream_icon') or item.get('icon_url') or item.get('icon') or item.get('cover') or ""
-                    
-                    # Resolve Category Name
-                    cat_id = item.get('category_id') # Some use category_id
-                    
-                    if cat_id in cat_map:
-                        cat_name = cat_map[cat_id]
-                    elif cat_id:
-                        # Fallback to ID if name missing
-                        cat_name = f"Category {cat_id}"
-                    else:
-                        cat_name = "All Movies" if type_code == "vod" else "Uncategorized"
-                    
-                    # Add Visual Headers for new groups
-                    if cat_name != current_group:
-                        f.write(f"\n##### [{cat_name}] #####\n\n")
-                        current_group = cat_name
-                    
-                    stream_id = item.get('stream_id') or item.get('series_id')
-                    container = item.get('container_extension', 'ts')
-                    
-                    final_url = ""
-                    if type_code == "live":
-                        final_url = f"{host}/live/{username}/{password}/{stream_id}.ts"
-                    elif type_code == "vod":
-                        final_url = f"{host}/movie/{username}/{password}/{stream_id}.{container}"
-                    elif type_code == "series":
-                        final_url = f"{host}/series/{username}/{password}/{stream_id}.{container}"
-                        
-                    meta = f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{cat_name}",{name}'
-                    f.write(meta + "\n")
-                    f.write(final_url + "\n")
-                    f.write("\n")
-                    
-            print(f"  Success! Appended to {filename}")
-            return # Success, exit retry loop
-            
-        except Exception as e:
-            print(f"  Error fetching {action} (Attempt {attempt+1}): {e}")
-            if attempt < 2:
-                time.sleep(5)
+def write_items(items, filename, type_code, cat_map, host, username, password):
+    """Write a list of stream items to an M3U file."""
+    if not items:
+        return 0
+    items.sort(key=lambda item: (cat_map.get(item.get('category_id'), 'Uncategorized'), item.get('name', '')))
+    written = 0
+    with open(f"m3u/{filename}", 'a', encoding='utf-8') as f:
+        current_group = None
+        for item in items:
+            name       = item.get('name', 'Unknown')
+            logo       = item.get('stream_icon') or item.get('icon_url') or item.get('icon') or item.get('cover') or ''
+            cat_id     = item.get('category_id')
+            cat_name   = cat_map.get(cat_id) or (f"Category {cat_id}" if cat_id else ("All Movies" if type_code == "vod" else "Uncategorized"))
+            stream_id  = item.get('stream_id') or item.get('series_id')
+            container  = item.get('container_extension', 'ts')
+
+            if cat_name != current_group:
+                f.write(f"\n##### [{cat_name}] #####\n\n")
+                current_group = cat_name
+
+            if type_code == "live":
+                final_url = f"{host}/live/{username}/{password}/{stream_id}.ts"
+            elif type_code == "vod":
+                final_url = f"{host}/movie/{username}/{password}/{stream_id}.{container}"
             else:
-                print(f"  Failed to fetch {filename} after 3 attempts.")
+                final_url = f"{host}/series/{username}/{password}/{stream_id}.{container}"
+
+            f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{name}" tvg-logo="{logo}" group-title="{cat_name}",{name}\n')
+            f.write(final_url + "\n\n")
+            written += 1
+    return written
+
+
+def fetch_and_append(base_api, host, username, password, action, filename, type_code, cat_map, headers, use_proxy=False):
+    """
+    Fetch streams from Xtream API and write to M3U file.
+    Strategy:
+      1. Try full fetch via proxy (fast, one request)
+      2. If proxy 500 (too large), try direct connection
+      3. If direct also blocked (ISP), fall back to per-category fetching through proxy
+         - Each category is small enough to pass through Vercel
+    """
+    url = f"{base_api}&action={action}"
+
+    # ── Attempt 1: Full fetch ────────────────────────────────────
+    print(f"\nFetching {filename} via {action}...")
+    full_data = None
+    for attempt in range(2):
+        try:
+            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=180, allow_direct_fallback=True)
+            if r.status_code == 200 and r.content:
+                data = r.json()
+                if isinstance(data, list) and len(data) > 0:
+                    if len(data) == 1 and data[0].get('name') == 'شاهد الخطآ':
+                        print("  Warning: Account error detected. Skipping.")
+                        return
+                    full_data = data
+                    break
+                elif isinstance(data, dict):
+                    print(f"  Warning: Got dict response (may be error): {list(data.keys())[:3]}")
+                    break
+        except Exception as e:
+            print(f"  Full fetch attempt {attempt+1} failed: {e}")
+        time.sleep(3)
+
+    if full_data is not None:
+        print(f"  Found {len(full_data)} items. Writing to file...")
+        n = write_items(full_data, filename, type_code, cat_map, host, username, password)
+        print(f"  Success! Wrote {n} entries to {filename}")
+        return
+
+    # ── Attempt 2: Per-category fallback ─────────────────────────
+    if not cat_map:
+        print(f"  No categories available and full fetch failed. Skipping {filename}.")
+        return
+
+    print(f"  Full fetch failed. Switching to per-category mode ({len(cat_map)} categories)...")
+    total_written = 0
+    failed_cats   = 0
+
+    for cat_id, cat_name in cat_map.items():
+        cat_url = f"{url}&category_id={cat_id}"
+        for attempt in range(2):
+            try:
+                r = make_request(cat_url, headers=headers, use_proxy=use_proxy,
+                                 timeout=60, allow_direct_fallback=True)
+                if r.status_code == 200 and r.content:
+                    cat_data = r.json()
+                    if isinstance(cat_data, list) and cat_data:
+                        n = write_items(cat_data, filename, type_code, cat_map, host, username, password)
+                        total_written += n
+                        print(f"  [{cat_name}]: {n} items")
+                    break
+            except Exception as e:
+                if attempt == 1:
+                    failed_cats += 1
+                    print(f"  [{cat_name}]: failed ({e})")
+                else:
+                    time.sleep(2)
+        time.sleep(0.3)  # be nice to the server
+
+    if total_written > 0:
+        print(f"\n  Per-category complete: {total_written} total entries written to {filename} ({failed_cats} categories failed)")
+    else:
+        print(f"\n  Failed to fetch any data for {filename}. Check your connection or credentials.")
+
+
 
 def main():
     print("=== Xtream Codes Importer (API Mode) ===")
