@@ -5,8 +5,23 @@ import json
 import os
 import base64
 import re
+import sys
+
+# Fix Windows console Unicode errors (Arabic category names etc.)
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except AttributeError:
+    pass  # Python < 3.7
+
+def safe(s):
+    """Safely convert any string for printing on Windows console."""
+    try:
+        return str(s).encode(sys.stdout.encoding or 'utf-8', errors='replace').decode(sys.stdout.encoding or 'utf-8', errors='replace')
+    except Exception:
+        return repr(s)
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 def get_vercel_base_url():
     base_url = "https://finntv.vercel.app"
@@ -156,12 +171,12 @@ def fetch_and_append(base_api, host, username, password, action, filename, type_
                     if isinstance(cat_data, list) and cat_data:
                         n = write_items(cat_data, filename, type_code, cat_map, host, username, password)
                         total_written += n
-                        print(f"  [{cat_name}]: {n} items")
+                        print(f"  [{safe(cat_name)}]: {n} items")
                     break
             except Exception as e:
                 if attempt == 1:
                     failed_cats += 1
-                    print(f"  [{cat_name}]: failed ({e})")
+                    print(f"  [{safe(cat_name)}]: failed ({safe(e)})")
                 else:
                     time.sleep(2)
         time.sleep(0.3)  # be nice to the server
