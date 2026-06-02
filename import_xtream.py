@@ -1,6 +1,5 @@
 import requests
 import urllib3
-import urllib.parse
 import time
 import json
 import os
@@ -45,12 +44,11 @@ def make_request(url, headers, use_proxy=False, timeout=120, allow_direct_fallba
     if use_proxy:
         base_url = get_vercel_base_url()
         b64_url = base64.b64encode(url.encode('utf-8')).decode('utf-8')
-        # URL-encode the base64 so = and + chars don't corrupt the query param
-        encoded = urllib.parse.quote(b64_url, safe='')
-        proxy_url = f"{base_url}/api/xtream_proxy.php?url={encoded}"
+        # Pass base64 directly — PHP $_GET handles = signs in query values correctly
+        proxy_url = f"{base_url}/api/xtream_proxy.php?url={b64_url}"
         r = requests.get(proxy_url, headers=headers, verify=False, timeout=timeout)
-        if r.status_code != 200 and allow_direct_fallback:
-            print(f"  -> Proxy returned {r.status_code}. Falling back to direct connection...")
+        if r.status_code == 500 and allow_direct_fallback:
+            print(f"  -> Proxy returned 500 (payload too large). Falling back to direct connection...")
             return requests.get(url, headers=headers, verify=False, timeout=timeout)
         return r
     else:
