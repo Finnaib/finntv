@@ -3,15 +3,40 @@ import urllib3
 import time
 import json
 import os
+import base64
+import re
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-def get_category_map(base_api, action, headers):
+def get_vercel_base_url():
+    base_url = "https://finntv.vercel.app"
+    if os.path.exists("config.php"):
+        try:
+            with open("config.php", "r", encoding="utf-8") as f:
+                content = f.read()
+                m = re.search(r"'base_url'\s*=>\s*'([^']+)'", content)
+                if m:
+                    base_url = m.group(1)
+        except Exception:
+            pass
+    return base_url.rstrip('/')
+
+def make_request(url, headers, use_proxy=False, timeout=120):
+    if use_proxy:
+        base_url = get_vercel_base_url()
+        b64_url = base64.b64encode(url.encode('utf-8')).decode('utf-8')
+        # Use dedicated xtream_proxy.php for API JSON calls (stream_proxy.php is for video streams)
+        proxy_url = f"{base_url}/api/xtream_proxy.php?url={b64_url}"
+        return requests.get(proxy_url, headers=headers, verify=False, timeout=timeout)
+    else:
+        return requests.get(url, headers=headers, verify=False, timeout=timeout)
+
+def get_category_map(base_api, action, headers, use_proxy=False):
     for attempt in range(3):
         try:
             print(f"Fetching categories: {action} (Attempt {attempt+1})...")
             url = f"{base_api}&action={action}"
-            r = requests.get(url, headers=headers, verify=False, timeout=120)
+            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=120)
             if r.status_code != 200: 
                 time.sleep(5)
                 continue
@@ -31,12 +56,12 @@ def get_category_map(base_api, action, headers):
     
     return {}
 
-def fetch_and_append(base_api, host, username, password, action, filename, type_code, cat_map, headers):
+def fetch_and_append(base_api, host, username, password, action, filename, type_code, cat_map, headers, use_proxy=False):
     for attempt in range(3):
         print(f"\nFetching {filename} via {action} (Attempt {attempt+1})...")
         try:
             url = f"{base_api}&action={action}"
-            r = requests.get(url, headers=headers, verify=False, timeout=120)
+            r = make_request(url, headers=headers, use_proxy=use_proxy, timeout=120)
             r.raise_for_status()
             data = r.json()
             
@@ -149,9 +174,35 @@ def main():
         print(f"\n--- Processing credentials for: {username}@{host} ---")
         base_api = f"{host}/player_api.php?username={username}&password={password}"
         
+        # Check connectivity and determine if proxy fallback is needed
+        use_proxy = False
+        print("Checking connection to provider...")
+        try:
+            r = requests.get(base_api, headers=headers, verify=False, timeout=10)
+            if "tedata" in r.url or "megaplusredirection" in r.url or "tedata" in r.text or "megaplusredirection" in r.text:
+                print("-> ISP redirection detected (Telecom Egypt). Activating Vercel Proxy fallback.")
+                use_proxy = True
+            elif r.status_code != 200:
+                print(f"-> Direct connection status: {r.status_code}. Activating Vercel Proxy fallback.")
+                use_proxy = True
+            else:
+                try:
+                    r.json()
+                except json.JSONDecodeError:
+                    print("-> Direct connection returned non-JSON. Activating Vercel Proxy fallback.")
+                    use_proxy = True
+        except Exception as e:
+            print(f"-> Direct connection failed: {e}. Activating Vercel Proxy fallback.")
+            use_proxy = True
+
+        if use_proxy:
+            print(f"Routing traffic via Vercel proxy: {get_vercel_base_url()}/api/stream_proxy.php")
+        else:
+            print("Direct connection OK.")
+        
         # Check auth
         try:
-            r = requests.get(base_api, headers=headers, verify=False, timeout=30)
+            r = make_request(base_api, headers=headers, use_proxy=use_proxy, timeout=30)
             if r.status_code != 200:
                 print(f"Auth failed for {username}. Status code: {r.status_code}")
                 continue
@@ -181,21 +232,21 @@ def main():
             continue
 
         # Fetch maps first
-        live_cats = get_category_map(base_api, "get_live_categories", headers)
+        live_cats = get_category_map(base_api, "get_live_categories", headers, use_proxy=use_proxy)
         time.sleep(1)
-        vod_cats = get_category_map(base_api, "get_vod_categories", headers)
+        vod_cats = get_category_map(base_api, "get_vod_categories", headers, use_proxy=use_proxy)
         time.sleep(1)
-        series_cats = get_category_map(base_api, "get_series_categories", headers)
+        series_cats = get_category_map(base_api, "get_series_categories", headers, use_proxy=use_proxy)
         time.sleep(1)
 
         # 1. LIVE
-        fetch_and_append(base_api, host, username, password, "get_live_streams", "live.m3u", "live", live_cats, headers)
+        fetch_and_append(base_api, host, username, password, "get_live_streams", "live.m3u", "live", live_cats, headers, use_proxy=use_proxy)
         
         # 2. VOD
-        fetch_and_append(base_api, host, username, password, "get_vod_streams", "vod.m3u", "vod", vod_cats, headers)
+        fetch_and_append(base_api, host, username, password, "get_vod_streams", "vod.m3u", "vod", vod_cats, headers, use_proxy=use_proxy)
         
         # 3. SERIES
-        fetch_and_append(base_api, host, username, password, "get_series", "series.m3u", "series", series_cats, headers)
+        fetch_and_append(base_api, host, username, password, "get_series", "series.m3u", "series", series_cats, headers, use_proxy=use_proxy)
         
     print("\nAll imports finished.")
 

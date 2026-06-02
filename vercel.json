@@ -28,6 +28,10 @@
                        "dest":  "/api/m3u.php"
                    },
                    {
+                       "src":  "/api/xtream_proxy.php",
+                       "dest":  "/api/xtream_proxy.php"
+                   },
+                   {
                        "src":  "/m3u/(.*\\.m3u)",
                        "dest":  "/m3u/$1",
                        "headers":  {
