@@ -468,8 +468,7 @@ class App {
                     if (this.currentView === 'series') {
                         this.showSeriesDetails(streamId, name, stream);
                     } else {
-                        // Force .m3u8 for ALL VODs to avoid format unsupported and proxy buffering errors
-                        const ext = this.currentView === 'vod' ? 'm3u8' : (stream.container_extension || 'ts');
+                        const ext = stream.container_extension || (this.currentView === 'vod' ? 'mp4' : 'ts');
                         const url = this.api.buildStreamUrl(streamId, this.currentView === 'vod' ? 'movie' : 'live', ext);
                         this.playVideo(url, name, stream.category_name || 'Channel');
                     }
@@ -564,13 +563,13 @@ class App {
                     this.player.src({ src: proxyUrl, type: 'video/mp2t' });
                     this.player.play().catch(e => console.warn(e));
                 }
-            } else if (stype === 'm3u8' || stype === 'hls' || this.currentView === 'vod' || this.currentView === 'series') {
+            } else if (stype === 'm3u8' || stype === 'hls') {
                 // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
-                // Since we forced VOD/Series to use .m3u8, they will ALWAYS hit this block.
                 this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
                 this.player.play().catch(e => console.warn(e));
             } else {
-                this.player.src({ src: streamUrl, type: 'video/mp4' });
+                // Omit the type so the browser can sniff MKV vs MP4 natively
+                this.player.src({ src: streamUrl });
                 this.player.play().catch(e => console.warn(e));
             }
         });
@@ -667,8 +666,8 @@ class App {
                     `;
                     
                     row.onclick = () => {
-                        // Force .m3u8 for series streams to trigger Xtream HLS remuxing, bypassing codec issues!
-                        const url = this.api.buildStreamUrl(ep.id, 'series', 'm3u8');
+                        const ext = ep.container_extension || 'mp4';
+                        const url = this.api.buildStreamUrl(ep.id, 'series', ext);
                         this.playVideo(url, ep.title || `S${season} E${ep.episode_num}`, seriesName);
                     };
                     episodesContainer.appendChild(row);
