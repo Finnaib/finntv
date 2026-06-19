@@ -9,7 +9,8 @@
                                                            "core/**",
                                                            "data/data.json",
                                                            "data/id_map.json",
-                                                           "config.php"
+                                                           "config.php",
+                                                           "xtream_config.json"
                                                        ]
                                   }
                    },
