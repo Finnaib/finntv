@@ -143,14 +143,24 @@ class App {
                 <h2>Loading...</h2>
             </div>
 
-            <!-- Series Details Overlay -->
-            <div id="series-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg-color); z-index:900; overflow-y:auto; padding: 20px;">
-                <div class="series-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-                    <h2 id="series-title" class="brand-font">Series Name</h2>
-                    <button class="btn btn-primary" id="btn-close-series"><i-lucide name="x"></i-lucide> Close</button>
+            <!-- Series Details Overlay (Netflix Style) -->
+            <div id="series-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg-base); z-index:900; overflow-y:auto;">
+                <button class="btn btn-primary" id="btn-close-series"><i-lucide name="x"></i-lucide></button>
+                <div class="series-hero" id="series-hero">
+                    <div class="series-hero-content">
+                        <h2 id="series-title" class="series-hero-title brand-font">Series Name</h2>
+                        <div class="series-hero-meta" id="series-meta">
+                            <!-- Meta like year, rating goes here -->
+                        </div>
+                    </div>
                 </div>
-                <div id="series-seasons" style="display:flex; gap:10px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 10px;"></div>
-                <div id="series-episodes" class="grid-container"></div>
+                <div class="series-body">
+                    <div class="season-selector">
+                        <h3 class="brand-font" style="font-size:1.5rem">Episodes</h3>
+                        <select id="season-select"></select>
+                    </div>
+                    <div id="series-episodes" class="episode-list"></div>
+                </div>
             </div>
         `;
 
@@ -456,9 +466,10 @@ class App {
             card.onclick = () => {
                 if (this.authMode === 'xtream') {
                     if (this.currentView === 'series') {
-                        this.showSeriesDetails(streamId, name);
+                        this.showSeriesDetails(streamId, name, stream);
                     } else {
-                        const ext = stream.container_extension || (this.currentView === 'vod' ? 'mp4' : 'ts');
+                        // Force .m3u8 for ALL VODs to avoid format unsupported and proxy buffering errors
+                        const ext = this.currentView === 'vod' ? 'm3u8' : (stream.container_extension || 'ts');
                         const url = this.api.buildStreamUrl(streamId, this.currentView === 'vod' ? 'movie' : 'live', ext);
                         this.playVideo(url, name, stream.category_name || 'Channel');
                     }
@@ -553,12 +564,12 @@ class App {
                     this.player.src({ src: proxyUrl, type: 'video/mp2t' });
                     this.player.play().catch(e => console.warn(e));
                 }
-            } else if (stype === 'm3u8' || stype === 'hls') {
+            } else if (stype === 'm3u8' || stype === 'hls' || this.currentView === 'vod' || this.currentView === 'series') {
                 // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
+                // Since we forced VOD/Series to use .m3u8, they will ALWAYS hit this block.
                 this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
                 this.player.play().catch(e => console.warn(e));
             } else {
-                // Bypass proxy for direct MP4/MKV to prevent server buffer limits/timeouts
                 this.player.src({ src: streamUrl, type: 'video/mp4' });
                 this.player.play().catch(e => console.warn(e));
             }
@@ -579,17 +590,34 @@ class App {
         return 'ts'; // Default assumption for IPTV
     }
 
-    async showSeriesDetails(seriesId, seriesName) {
+    async showSeriesDetails(seriesId, seriesName, seriesObj) {
         this.setLoading(true);
         try {
             const data = await this.api.getSeriesInfo(seriesId);
             if (!data || (!data.episodes && !Array.isArray(data))) throw new Error("Could not load series info");
             
-            document.getElementById('series-title').innerText = seriesName;
-            const seasonsContainer = document.getElementById('series-seasons');
+            const info = data.info || seriesObj || {};
+            const backdrop = info.backdrop_path && info.backdrop_path.length > 0 ? info.backdrop_path[0] : (info.cover || '');
+            
+            const hero = document.getElementById('series-hero');
+            if (backdrop) {
+                hero.style.backgroundImage = `url('${backdrop}')`;
+            } else {
+                hero.style.background = 'linear-gradient(to right, var(--primary), var(--bg-base))';
+            }
+            
+            document.getElementById('series-title').innerText = info.name || seriesName;
+            
+            const metaContainer = document.getElementById('series-meta');
+            metaContainer.innerHTML = '';
+            if (info.releaseDate) metaContainer.innerHTML += `<span>${info.releaseDate.substring(0,4)}</span>`;
+            if (info.rating) metaContainer.innerHTML += `<span>⭐ ${info.rating}</span>`;
+            if (info.genre) metaContainer.innerHTML += `<span>${info.genre}</span>`;
+            
+            const seasonSelect = document.getElementById('season-select');
             const episodesContainer = document.getElementById('series-episodes');
             
-            seasonsContainer.innerHTML = '';
+            seasonSelect.innerHTML = '';
             episodesContainer.innerHTML = '';
             
             // Normalize episodes data into { "Season X": [eps] }
@@ -615,40 +643,53 @@ class App {
                 episodesContainer.innerHTML = '';
                 const eps = groupedEps[season] || [];
                 eps.forEach(ep => {
-                    const card = document.createElement('div');
-                    card.className = 'media-card vod';
-                    const imgHtml = ep.info && ep.info.movie_image ? `<img src="${ep.info.movie_image}" class="card-img" onerror="this.style.display='none'">` : `<div class="card-fallback">EP</div>`;
+                    const row = document.createElement('div');
+                    row.className = 'episode-row';
                     
-                    card.innerHTML = `
-                        <div class="card-img-wrapper">${imgHtml}</div>
-                        <div class="card-info">
-                            <div class="card-title">${ep.title || 'Episode ' + ep.episode_num}</div>
+                    const epInfo = ep.info || {};
+                    const imgHtml = epInfo.movie_image ? `<img src="${epInfo.movie_image}">` : '';
+                    const duration = epInfo.duration ? `<div class="episode-duration">${epInfo.duration}</div>` : '';
+                    const plot = epInfo.plot ? `<div class="episode-desc">${epInfo.plot}</div>` : '';
+                    
+                    row.innerHTML = `
+                        <div class="episode-num">${ep.episode_num}</div>
+                        <div class="episode-thumb">
+                            ${imgHtml}
+                            <div class="play-icon"><i-lucide name="play" color="white" size="32"></i-lucide></div>
+                        </div>
+                        <div class="episode-details">
+                            <div class="episode-title-row">
+                                <div class="episode-title">${ep.title || 'Episode ' + ep.episode_num}</div>
+                                ${duration}
+                            </div>
+                            ${plot}
                         </div>
                     `;
-                    card.onclick = () => {
-                        const ext = ep.container_extension || 'mp4';
-                        const url = this.api.buildStreamUrl(ep.id, 'series', ext);
+                    
+                    row.onclick = () => {
+                        // Force .m3u8 for series streams to trigger Xtream HLS remuxing, bypassing codec issues!
+                        const url = this.api.buildStreamUrl(ep.id, 'series', 'm3u8');
                         this.playVideo(url, ep.title || `S${season} E${ep.episode_num}`, seriesName);
                     };
-                    episodesContainer.appendChild(card);
+                    episodesContainer.appendChild(row);
                 });
+                lucide.createIcons();
             };
             
             seasons.forEach(s => {
-                const btn = document.createElement('button');
-                btn.className = 'btn btn-primary';
-                btn.style.marginRight = '10px';
-                btn.innerText = `Season ${s}`;
-                btn.onclick = () => {
-                    currentSeason = s;
-                    renderEpisodes(s);
-                };
-                seasonsContainer.appendChild(btn);
+                const opt = document.createElement('option');
+                opt.value = s;
+                opt.innerText = `Season ${s}`;
+                seasonSelect.appendChild(opt);
             });
+            
+            seasonSelect.onchange = (e) => {
+                renderEpisodes(e.target.value);
+            };
             
             if (currentSeason) renderEpisodes(currentSeason);
             
-            document.getElementById('series-overlay').style.display = 'block';
+            document.getElementById('series-overlay').style.display = 'flex';
             lucide.createIcons();
         } catch (e) {
             console.error("Series error:", e);
