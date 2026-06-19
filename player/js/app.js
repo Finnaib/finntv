@@ -474,40 +474,43 @@ class App {
         lucide.createIcons();
 
         this.initVideoJS();
-        this.teardownSubPlayers();
 
-        // Use Proxy to bypass CORS
-        // Assuming we are hosted inside the finntv/player directory
-        const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(url))))}`;
-        
-        const isLive = this.currentView === 'live' || this.authMode === 'm3u';
-        const stype = this.getStreamType(url);
-        const vidEl = this.player.tech(true).el();
+        this.player.ready(() => {
+            this.teardownSubPlayers();
 
-        if (stype === 'ts') {
-            if (mpegts.getFeatureList().mseLivePlayback) {
+            // Use Proxy to bypass CORS
+            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(url))))}`;
+            
+            const isLive = this.currentView === 'live' || this.authMode === 'm3u';
+            const stype = this.getStreamType(url);
+            const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
+
+            // Give video.js a dummy source to stop it from complaining or spinning indefinitely
+            this.player.src({ src: proxyUrl, type: (stype === 'mp4' ? 'video/mp4' : (stype === 'ts' ? 'video/mp2t' : 'application/x-mpegURL')) });
+
+            if (stype === 'ts' && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback && vidEl) {
+                // If it's a raw TS stream and mpegts is available, use it over the video tag
                 this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
                 this.mpegts.attachMediaElement(vidEl);
                 this.mpegts.load();
-                this.player.play();
-            } else {
-                this.player.src({ src: proxyUrl, type: 'video/mp2t' });
-                this.player.play();
-            }
-        } else if (stype === 'm3u8' || stype === 'hls') {
-            if (Hls.isSupported()) {
+                this.mpegts.on(mpegts.Events.ERROR, (e) => { console.error('MPEG-TS Error:', e); });
+                this.player.play().catch(e => console.error(e));
+            } else if ((stype === 'm3u8' || stype === 'hls') && typeof Hls !== 'undefined' && Hls.isSupported() && vidEl) {
+                // Use HLS.js for better HLS performance than native Video.js VHS
                 this.hls = new Hls({ lowLatencyMode: isLive });
                 this.hls.loadSource(proxyUrl);
                 this.hls.attachMedia(vidEl);
-                this.hls.on(Hls.Events.MANIFEST_PARSED, () => { this.player.play(); });
+                this.hls.on(Hls.Events.MANIFEST_PARSED, () => { 
+                    this.player.play().catch(e => console.error(e)); 
+                });
+                this.hls.on(Hls.Events.ERROR, (e, data) => {
+                    if (data.fatal) console.error('HLS Error:', data);
+                });
             } else {
-                this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
-                this.player.play();
+                // Fallback to native Video.js (works for mp4, or native HLS on Safari)
+                this.player.play().catch(e => console.error(e));
             }
-        } else {
-            this.player.src({ src: proxyUrl, type: 'video/mp4' });
-            this.player.play();
-        }
+        });
     }
 
     stopPlayer() {
