@@ -221,7 +221,10 @@ class App {
                 const url = document.getElementById('x-url').value;
                 if (!user || !pass || !url) throw new Error("Please fill all Xtream fields.");
                 this.api = new XtreamAPI(url, user, pass);
-                await this.api.authenticate();
+                const authResult = await this.api.authenticate();
+                if (!authResult || !authResult.success) {
+                    throw new Error(authResult?.error || "Invalid credentials or server URL.");
+                }
             } else {
                 const mUrl = document.getElementById('m-url').value;
                 if (!mUrl) throw new Error("Please enter M3U URL.");
@@ -482,14 +485,9 @@ class App {
         
         // HLS Logic (Live TV)
         if (ext === 'm3u8' || ext === 'ts') {
-            // Use stream_proxy ONLY for Live TV if needed, or directly
             let finalUrl = streamUrl;
-            if (ext === 'ts') {
-                // XTream API allows treating TS as M3U8 directly by changing extension
-                finalUrl = streamUrl.replace('.ts', '.m3u8');
-            }
+            if (ext === 'ts') finalUrl = streamUrl.replace('.ts', '.m3u8');
             
-            // Route through PHP proxy for CORS and to ensure HLS chunking works
             const encoded = encodeURIComponent(btoa(finalUrl));
             const proxyUrl = `../api/stream_proxy.php?url=${encoded}`;
 
@@ -510,20 +508,20 @@ class App {
         else {
             this.player = new Plyr(videoEl, { autoplay: true });
             
-            // Handle native HTML5 video errors for MKV/HEVC
             videoEl.addEventListener('error', (e) => {
                 const error = videoEl.error;
-                // If format is unsupported (code 4)
                 if (error && error.code === 4) {
                     this.showVlcFallback(streamUrl);
                 }
             });
 
-            // Set source directly (bypass proxy to prevent 4.5MB Vercel crash)
-            videoEl.src = streamUrl;
+            // Route through Vercel Edge Proxy to bypass CORS and Mixed Content limits safely
+            const encoded = encodeURIComponent(btoa(streamUrl));
+            const edgeProxyUrl = `../api/video_proxy.js?url=${encoded}`;
+            
+            videoEl.src = edgeProxyUrl;
             this.player.play().catch(e => {
                 console.warn("Autoplay or decode failed", e);
-                // The error listener above will catch format issues
             });
         }
     }
