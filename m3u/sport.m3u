@@ -373,6 +373,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Two" tvg-logo="" group-title="Arabic Sports",Alkass Two
 http://mhav1.com:2095/live/ht2990/742579548/4510.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Alkass three" tvg-logo="" group-title="Arabic Sports",Alkass three
+http://mhav1.com:2095/live/ht2990/742579548/56164.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="" group-title="Arabic Sports",BeIN Sport NBA HD
 http://mhav1.com:2095/live/ht2990/742579548/3249.ts
 
@@ -494,6 +497,9 @@ http://mhav1.com:2095/live/ht2990/742579548/7048.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_7_H265" tvg-logo="http://images.vega-xt-mh.com/bein/be7.png" group-title="beIN H-265 -8M",beIN_Sport_7_H265
 http://mhav1.com:2095/live/ht2990/742579548/7049.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_7_H265" tvg-logo="" group-title="beIN H-265 -8M",beIN_Sport_7_H265
+http://mhav1.com:2095/live/ht2990/742579548/7052.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_8_H265" tvg-logo="http://images.vega-xt-mh.com/bein/be8.png" group-title="beIN H-265 -8M",beIN_Sport_8_H265
 http://mhav1.com:2095/live/ht2990/742579548/7050.ts
@@ -661,6 +667,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3655.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN FataFeat" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN FataFeat
 http://mhav1.com:2095/live/ht2990/742579548/3871.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN HGTV HD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN HGTV HD
+http://mhav1.com:2095/live/ht2990/742579548/12198.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_BBC Earth HD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_BBC Earth HD
 http://mhav1.com:2095/live/ht2990/742579548/12199.ts
 
@@ -672,6 +681,9 @@ http://mhav1.com:2095/live/ht2990/742579548/20439.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Cartoonito" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Cartoonito
 http://mhav1.com:2095/live/ht2990/742579548/12202.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_DLife" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_DLife
+http://mhav1.com:2095/live/ht2990/742579548/4144.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Drama" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Drama
 http://mhav1.com:2095/live/ht2990/742579548/5154.ts
@@ -687,6 +699,9 @@ http://mhav1.com:2095/live/ht2990/742579548/22581.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_FATAFAIT_SD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_FATAFAIT_SD
 http://mhav1.com:2095/live/ht2990/742579548/20428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Fine_Living" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Fine_Living
+http://mhav1.com:2095/live/ht2990/742579548/12200.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_GURME" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_GURME
 http://mhav1.com:2095/live/ht2990/742579548/4126.ts
@@ -745,6 +760,9 @@ http://mhav1.com:2095/live/ht2990/742579548/22574.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere_1SD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Movies_Premiere_1SD
 http://mhav1.com:2095/live/ht2990/742579548/20418.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_OutDoor" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_OutDoor
+http://mhav1.com:2095/live/ht2990/742579548/4142.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Series" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Series
 http://mhav1.com:2095/live/ht2990/742579548/4143.ts
 
@@ -775,11 +793,17 @@ http://mhav1.com:2095/live/ht2990/742579548/4109.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS [H265]" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Star_FILMS [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22585.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS_SD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Star_FILMS_SD
+http://mhav1.com:2095/live/ht2990/742579548/20425.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_LIFE" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Star_LIFE
 http://mhav1.com:2095/live/ht2990/742579548/4132.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Series" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Star_Series
 http://mhav1.com:2095/live/ht2990/742579548/4026.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Travel_HD" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",beIN_Travel_HD
+http://mhav1.com:2095/live/ht2990/742579548/12201.ts
 
 
 ################################################################################
@@ -958,6 +982,12 @@ http://mhav1.com:2095/live/ht2990/742579548/3250.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_2French_HD720" tvg-logo="" group-title="beIN SPORTS English",beIN_SPORTS_2French_HD720
 http://mhav1.com:2095/live/ht2990/742579548/32902.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3English_1080p" tvg-logo="" group-title="beIN SPORTS English",beIN_SPORTS_3English_1080p
+http://mhav1.com:2095/live/ht2990/742579548/3247.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_3English_HD720" tvg-logo="" group-title="beIN SPORTS English",beIN_SPORTS_3English_HD720
+http://mhav1.com:2095/live/ht2990/742579548/32900.ts
+
 
 ################################################################################
 # beIN SPORTS H265 SD
@@ -1016,6 +1046,9 @@ http://mhav1.com:2095/live/ht2990/742579548/24177.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_9_H265_SD" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN SPORTS H265 SD",beIN_9_H265_SD
 http://mhav1.com:2095/live/ht2990/742579548/19329.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_7_H265_HQ" tvg-logo="" group-title="beIN SPORTS H265 SD",beIN_Sport_7_H265_HQ
+http://mhav1.com:2095/live/ht2990/742579548/24178.ts
 
 
 ################################################################################
@@ -1194,6 +1227,15 @@ http://mhav1.com:2095/live/ht2990/742579548/2461.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_9_VEGA" tvg-logo="http://images.vega-xt-mh.com:80/bein/be9.png" group-title="beIN SPORTS VEGA",beIN_9_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/3647.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7SD" tvg-logo="" group-title="beIN SPORTS VEGA",beIN_SPORTS_7SD
+http://mhav1.com:2095/live/ht2990/742579548/2462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="انتهاء الاشتراك" tvg-logo="{"type":1}" group-title="beIN SPORTS VEGA",انتهاء الاشتراك
+http://mhav1.com:2095/live/ht2990/742579548/6962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ايقاف الاشتراك" tvg-logo="{"type":1}" group-title="beIN SPORTS VEGA",ايقاف الاشتراك
+http://mhav1.com:2095/live/ht2990/742579548/6963.ts
+
 
 ################################################################################
 # beIN Xtra
@@ -1243,6 +1285,51 @@ http://mhav1.com:2095/live/ht2990/742579548/214711.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_4Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_4Xtra_Low
 http://mhav1.com:2095/live/ht2990/742579548/214698.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_5Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214706.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_5Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_5Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_5Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214699.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_6Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214707.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_6Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_6Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_6Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214700.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_7Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214708.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_7Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_7Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_7Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214701.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_8Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214709.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_8Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_8Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_8Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214702.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9Xtra_1080" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_9Xtra_1080
+http://mhav1.com:2095/live/ht2990/742579548/214710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9Xtra_HD720" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_9Xtra_HD720
+http://mhav1.com:2095/live/ht2990/742579548/214716.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_9Xtra_Low" tvg-logo="" group-title="beIN Xtra",beIN_SPORTS_9Xtra_Low
+http://mhav1.com:2095/live/ht2990/742579548/214703.ts
 
 
 ################################################################################
@@ -1454,6 +1541,197 @@ https://jmp2.uk/stvp-CA200052YY
 
 
 ################################################################################
+# Category 12
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[GOBX]Fox_Crime_HD" tvg-logo="" group-title="Category 12",[GOBX]Fox_Crime_HD
+http://mhav1.com:2095/live/ht2990/742579548/4130.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[GOBX]Fox_Life_HD" tvg-logo="" group-title="Category 12",[GOBX]Fox_Life_HD
+http://mhav1.com:2095/live/ht2990/742579548/5332.ts
+
+
+################################################################################
+# Category 442
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_DREAM_WORKS_SD" tvg-logo="" group-title="Category 442",beIN_DREAM_WORKS_SD
+http://mhav1.com:2095/live/ht2990/742579548/20441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Discovery_Kids_SD" tvg-logo="" group-title="Category 442",beIN_Discovery_Kids_SD
+http://mhav1.com:2095/live/ht2990/742579548/20429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Fine_Living_SD" tvg-logo="" group-title="Category 442",beIN_Fine_Living_SD
+http://mhav1.com:2095/live/ht2990/742579548/20436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_HGTV_SD" tvg-logo="" group-title="Category 442",beIN_HGTV_SD
+http://mhav1.com:2095/live/ht2990/742579548/20434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Sundance_SD" tvg-logo="" group-title="Category 442",beIN_Sundance_SD
+http://mhav1.com:2095/live/ht2990/742579548/20431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Travel_SD" tvg-logo="" group-title="Category 442",beIN_Travel_SD
+http://mhav1.com:2095/live/ht2990/742579548/20437.ts
+
+
+################################################################################
+# Category 558
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="AD SPORT ASIA 1" tvg-logo="" group-title="Category 558",AD SPORT ASIA 1
+http://mhav1.com:2095/live/ht2990/742579548/46506.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AD SPORT ASIA 2" tvg-logo="" group-title="Category 558",AD SPORT ASIA 2
+http://mhav1.com:2095/live/ht2990/742579548/46507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 1080P" tvg-logo="" group-title="Category 558",[STRZ] AD SPORT ASIA 1 1080P
+http://mhav1.com:2095/live/ht2990/742579548/74075.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 720P" tvg-logo="" group-title="Category 558",[STRZ] AD SPORT ASIA 1 720P
+http://mhav1.com:2095/live/ht2990/742579548/74076.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 1 SD" tvg-logo="" group-title="Category 558",[STRZ] AD SPORT ASIA 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/89776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 2 720P" tvg-logo="" group-title="Category 558",[STRZ] AD SPORT ASIA 2 720P
+http://mhav1.com:2095/live/ht2990/742579548/74192.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ] AD SPORT ASIA 2 SD" tvg-logo="" group-title="Category 558",[STRZ] AD SPORT ASIA 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/89777.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[STRZ]AD SPORT ASIA 2 1080P" tvg-logo="" group-title="Category 558",[STRZ]AD SPORT ASIA 2 1080P
+http://mhav1.com:2095/live/ht2990/742579548/74193.ts
+
+
+################################################################################
+# Category 588
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Skyrock" tvg-logo="" group-title="Category 588",Skyrock
+http://mhav1.com:2095/live/ht2990/742579548/54784.ts
+
+
+################################################################################
+# Category 610
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 4K" tvg-logo="" group-title="Category 610",beIN MAX 1 4K
+http://mhav1.com:2095/live/ht2990/742579548/132900.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 FHD" tvg-logo="" group-title="Category 610",beIN MAX 1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/133624.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 HD" tvg-logo="" group-title="Category 610",beIN MAX 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/132898.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 Low" tvg-logo="" group-title="Category 610",beIN MAX 1 Low
+http://mhav1.com:2095/live/ht2990/742579548/132906.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 SD" tvg-logo="" group-title="Category 610",beIN MAX 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/132902.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 1 VEGA" tvg-logo="" group-title="Category 610",beIN MAX 1 VEGA
+http://mhav1.com:2095/live/ht2990/742579548/132904.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 4K" tvg-logo="" group-title="Category 610",beIN MAX 2 4K
+http://mhav1.com:2095/live/ht2990/742579548/132901.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 FHD" tvg-logo="" group-title="Category 610",beIN MAX 2 FHD
+http://mhav1.com:2095/live/ht2990/742579548/133625.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 HD" tvg-logo="" group-title="Category 610",beIN MAX 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/132899.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 Low" tvg-logo="" group-title="Category 610",beIN MAX 2 Low
+http://mhav1.com:2095/live/ht2990/742579548/132907.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 SD" tvg-logo="" group-title="Category 610",beIN MAX 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/132903.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 2 VEGA" tvg-logo="" group-title="Category 610",beIN MAX 2 VEGA
+http://mhav1.com:2095/live/ht2990/742579548/132905.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 4K" tvg-logo="" group-title="Category 610",beIN MAX 3 4K
+http://mhav1.com:2095/live/ht2990/742579548/157173.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 FHD" tvg-logo="" group-title="Category 610",beIN MAX 3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/157172.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 HD" tvg-logo="" group-title="Category 610",beIN MAX 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/157171.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 Low" tvg-logo="" group-title="Category 610",beIN MAX 3 Low
+http://mhav1.com:2095/live/ht2990/742579548/157175.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 SD" tvg-logo="" group-title="Category 610",beIN MAX 3 SD
+http://mhav1.com:2095/live/ht2990/742579548/157176.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN MAX 3 VEGA" tvg-logo="" group-title="Category 610",beIN MAX 3 VEGA
+http://mhav1.com:2095/live/ht2990/742579548/157174.ts
+
+
+################################################################################
+# Category 614
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="|DSTV| Racing 240" tvg-logo="" group-title="Category 614",|DSTV| Racing 240
+http://mhav1.com:2095/live/ht2990/742579548/136651.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DSTV| Sky News" tvg-logo="" group-title="Category 614",|DSTV| Sky News
+http://mhav1.com:2095/live/ht2990/742579548/136645.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|NG| Ginx eSports TV" tvg-logo="" group-title="Category 614",|NG| Ginx eSports TV
+http://mhav1.com:2095/live/ht2990/742579548/136599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|NG| Sky News" tvg-logo="" group-title="Category 614",|NG| Sky News
+http://mhav1.com:2095/live/ht2990/742579548/136569.ts
+
+
+################################################################################
+# Category 622
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]BEINSPORT1 H265" tvg-logo="" group-title="Category 622",[FR]BEINSPORT1 H265
+http://mhav1.com:2095/live/ht2990/742579548/156099.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]BEINSPORT2 H265" tvg-logo="" group-title="Category 622",[FR]BEINSPORT2 H265
+http://mhav1.com:2095/live/ht2990/742579548/156098.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]BEINSPORT3 H265" tvg-logo="" group-title="Category 622",[FR]BEINSPORT3 H265
+http://mhav1.com:2095/live/ht2990/742579548/156097.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]CANAL+SPORT H265" tvg-logo="" group-title="Category 622",[FR]CANAL+SPORT H265
+http://mhav1.com:2095/live/ht2990/742579548/156131.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY CHANNEL H265" tvg-logo="" group-title="Category 622",[FR]DISNEY CHANNEL H265
+http://mhav1.com:2095/live/ht2990/742579548/156085.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY JUNIOR H265" tvg-logo="" group-title="Category 622",[FR]DISNEY JUNIOR H265
+http://mhav1.com:2095/live/ht2990/742579548/156084.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY+ H265" tvg-logo="" group-title="Category 622",[FR]DISNEY+ H265
+http://mhav1.com:2095/live/ht2990/742579548/156083.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]EUROSPORT1 H265" tvg-logo="" group-title="Category 622",[FR]EUROSPORT1 H265
+http://mhav1.com:2095/live/ht2990/742579548/156094.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]EUROSPORT2 H265" tvg-logo="" group-title="Category 622",[FR]EUROSPORT2 H265
+http://mhav1.com:2095/live/ht2990/742579548/156093.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]GOLF+ H265" tvg-logo="" group-title="Category 622",[FR]GOLF+ H265
+http://mhav1.com:2095/live/ht2990/742579548/156090.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]INFOSPORT H265" tvg-logo="" group-title="Category 622",[FR]INFOSPORT H265
+http://mhav1.com:2095/live/ht2990/742579548/156092.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]RMC SPORT1 H265" tvg-logo="" group-title="Category 622",[FR]RMC SPORT1 H265
+http://mhav1.com:2095/live/ht2990/742579548/156096.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[FR]RMC SPORT2 H265" tvg-logo="" group-title="Category 622",[FR]RMC SPORT2 H265
+http://mhav1.com:2095/live/ht2990/742579548/156095.ts
+
+
+################################################################################
 # Czech
 ################################################################################
 
@@ -1521,6 +1799,14 @@ http://mhav1.com:2095/live/ht2990/742579548/121477.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|DK| V sport golf HD" tvg-logo="" group-title="Denmark",|DK| V sport golf HD
 http://mhav1.com:2095/live/ht2990/742579548/121475.ts
+
+
+################################################################################
+# Egypt - قنوات مصريه
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[AR]Alerth Alnbawi" tvg-logo="" group-title="Egypt - قنوات مصريه",[AR]Alerth Alnbawi
+http://mhav1.com:2095/live/ht2990/742579548/5149.ts
 
 
 ################################################################################
@@ -2236,6 +2522,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3532.ts
 #EXTINF:-1 tvg-id="" tvg-name="SKY Krimi [DE]" tvg-logo="" group-title="Germany",SKY Krimi [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3542.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Sky 1 |DE|" tvg-logo="" group-title="Germany",Sky 1 |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3534.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3553.ts
 
@@ -2353,8 +2642,35 @@ http://mhav1.com:2095/live/ht2990/742579548/33773.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport News |DE|" tvg-logo="" group-title="Germany",Sky Sport News |DE|
 http://mhav1.com:2095/live/ht2990/742579548/44615.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 1 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 1 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 2 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 2 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 3 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 3 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 4 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 4 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9290.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 5 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 5 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 6 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 6 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 7 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 7 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9293.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_HD_DE
+http://mhav1.com:2095/live/ht2990/742579548/9273.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DE]TELECOM SPORT 8 HD" tvg-logo="" group-title="Germany",[DE]TELECOM SPORT 8 HD
+http://mhav1.com:2095/live/ht2990/742579548/9286.ts
 
 #EXTINF:-1 tvg-chno="569" tvg-id="DEBA2200008NL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA2200008NL_20251125T102245SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 569. Tennis Channel Deutschland
 https://jmp2.uk/stvp-DEBA2200008NL
@@ -2570,6 +2886,36 @@ http://mhav1.com:2095/live/ht2990/742579548/2682.ts
 #EXTINF:-1 tvg-id="" tvg-name="[IT]SKY_TG_Com24" tvg-logo="" group-title="Italya",[IT]SKY_TG_Com24
 http://mhav1.com:2095/live/ht2990/742579548/4990.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila1_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila1_HD
+http://mhav1.com:2095/live/ht2990/742579548/1825.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_10_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_10_HD
+http://mhav1.com:2095/live/ht2990/742579548/1826.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_2_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_2_HD
+http://mhav1.com:2095/live/ht2990/742579548/1827.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_3_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_3_HD
+http://mhav1.com:2095/live/ht2990/742579548/1828.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_4_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_4_HD
+http://mhav1.com:2095/live/ht2990/742579548/1829.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_5_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_5_HD
+http://mhav1.com:2095/live/ht2990/742579548/1830.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_6_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_6_HD
+http://mhav1.com:2095/live/ht2990/742579548/1831.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_7_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_7_HD
+http://mhav1.com:2095/live/ht2990/742579548/1832.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_8_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_8_HD
+http://mhav1.com:2095/live/ht2990/742579548/1833.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Primafila_9_HD" tvg-logo="" group-title="Italya",[IT]Sky_Primafila_9_HD
+http://mhav1.com:2095/live/ht2990/742579548/1834.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[IT]Sky_Sport_24_HD" tvg-logo="" group-title="Italya",[IT]Sky_Sport_24_HD
 http://mhav1.com:2095/live/ht2990/742579548/2662.ts
 
@@ -2752,6 +3098,9 @@ http://mhav1.com:2095/live/ht2990/742579548/33096.ts
 #EXTINF:-1 tvg-id="" tvg-name="[AR]KSA_SPORTS3" tvg-logo="" group-title="KSA Sports",[AR]KSA_SPORTS3
 http://mhav1.com:2095/live/ht2990/742579548/3603.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[AR]KSA_SPORTS4" tvg-logo="" group-title="KSA Sports",[AR]KSA_SPORTS4
+http://mhav1.com:2095/live/ht2990/742579548/3604.ts
+
 
 ################################################################################
 # Kurdish
@@ -2916,8 +3265,34 @@ http://mhav1.com:2095/live/ht2990/742579548/4688.ts
 #EXTINF:-1 tvg-id="" tvg-name="[FR]_RMC_SPORT_HD1" tvg-logo="" group-title="Live Sports",[FR]_RMC_SPORT_HD1
 http://mhav1.com:2095/live/ht2990/742579548/4686.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 1 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 1 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/111524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 2 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 2 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/111525.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 3 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 3 | Event Only |
 http://mhav1.com:2095/live/ht2990/742579548/673.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 4 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 4 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 5 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 5 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/2180.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 7 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 7 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/2214.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 8 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 8 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/2215.ts
+
+
+################################################################################
+# MH Club ام اتش
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Majestic_wwe_hd" tvg-logo="" group-title="MH Club ام اتش",Majestic_wwe_hd
+http://mhav1.com:2095/live/ht2990/742579548/5381.ts
 
 
 ################################################################################
@@ -3160,6 +3535,9 @@ http://mhav1.com:2095/live/ht2990/742579548/278700.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN Bloomberg" tvg-logo="" group-title="OSN  HD او اس ان",OSN Bloomberg
 http://mhav1.com:2095/live/ht2990/742579548/25201.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN FashionTV" tvg-logo="" group-title="OSN  HD او اس ان",OSN FashionTV
+http://mhav1.com:2095/live/ht2990/742579548/25188.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN MTV 00S" tvg-logo="" group-title="OSN  HD او اس ان",OSN MTV 00S
 http://mhav1.com:2095/live/ht2990/742579548/25193.ts
 
@@ -3232,11 +3610,17 @@ http://mhav1.com:2095/live/ht2990/742579548/19388.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Alyoum_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Alyoum_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19383.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Baby_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Baby_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19402.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_1HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Cinema_1HD
 http://mhav1.com:2095/live/ht2990/742579548/1780.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_2HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Cinema_2HD
 http://mhav1.com:2095/live/ht2990/742579548/1781.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_FHD off" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Cinema_FHD off
+http://mhav1.com:2095/live/ht2990/742579548/19356.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Comedy_Central_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Comedy_Central_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19377.ts
@@ -3247,11 +3631,26 @@ http://mhav1.com:2095/live/ht2990/742579548/19375.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery ID_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Discovery ID_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19397.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery SC_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Discovery SC_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19398.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_Channel_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Discovery_Channel_HD
 http://mhav1.com:2095/live/ht2990/742579548/3275.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Discovery_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19396.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_ID_X" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Discovery_ID_X
+http://mhav1.com:2095/live/ht2990/742579548/3947.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney XD_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Disney XD_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19400.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Disney_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19399.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_Junior" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Disney_Junior
+http://mhav1.com:2095/live/ht2990/742579548/676.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_E!_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_E!_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19378.ts
@@ -3274,11 +3673,20 @@ http://mhav1.com:2095/live/ht2990/742579548/19369.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_LIVING" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_LIVING
+http://mhav1.com:2095/live/ht2990/742579548/4939.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Living_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Living_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19379.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_MEZZE" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_MEZZE
+http://mhav1.com:2095/live/ht2990/742579548/7097.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Meezze_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Meezze_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19380.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Movies Disney_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19367.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Hollywood_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Movies Hollywood_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19364.ts
@@ -3298,6 +3706,15 @@ http://mhav1.com:2095/live/ht2990/742579548/2558.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat Geo_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19393.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat People_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat People_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19394.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat_Geo_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat_Geo_HD
+http://mhav1.com:2095/live/ht2990/742579548/675.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_News_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_News_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19390.ts
 
@@ -3310,14 +3727,29 @@ http://mhav1.com:2095/live/ht2990/742579548/19404.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nickelodeon_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nickelodeon_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19406.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_On Demand" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_On Demand
+http://mhav1.com:2095/live/ht2990/742579548/19376.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Series Comedy_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Series Comedy_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19371.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Series First_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Series First_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19370.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Star Movies_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Star Movies_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19372.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Star World_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Star World_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19373.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_TLC_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_TLC_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19374.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_TLC_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_TLC_HD
 http://mhav1.com:2095/live/ht2990/742579548/2218.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Woman" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Woman
+http://mhav1.com:2095/live/ht2990/742579548/3946.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_YaHala_Aflam_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_YaHala_Aflam_HD
 http://mhav1.com:2095/live/ht2990/742579548/3069.ts
@@ -3337,11 +3769,17 @@ http://mhav1.com:2095/live/ht2990/742579548/19366.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_series prime" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_series prime
 http://mhav1.com:2095/live/ht2990/742579548/3865.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn MTV LIVE" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn MTV LIVE
+http://mhav1.com:2095/live/ht2990/742579548/3816.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Action_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Action_HD
 http://mhav1.com:2095/live/ht2990/742579548/2207.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Animal_Planet" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Animal_Planet
 http://mhav1.com:2095/live/ht2990/742579548/2227.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_BBC_Fisrt" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_BBC_Fisrt
+http://mhav1.com:2095/live/ht2990/742579548/3825.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_COMEDY_CENTRAL" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_COMEDY_CENTRAL
 http://mhav1.com:2095/live/ht2990/742579548/2559.ts
@@ -3364,11 +3802,17 @@ http://mhav1.com:2095/live/ht2990/742579548/542.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_History_HD
 http://mhav1.com:2095/live/ht2990/742579548/3277.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Kids_Zone
+http://mhav1.com:2095/live/ht2990/742579548/4940.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Premiere_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Movies_Premiere_HD
 http://mhav1.com:2095/live/ht2990/742579548/2217.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Music_Now" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Music_Now
+http://mhav1.com:2095/live/ht2990/742579548/3868.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_NatGeo_Wild_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_NatGeo_Wild_HD
 http://mhav1.com:2095/live/ht2990/742579548/2874.ts
@@ -3396,11 +3840,17 @@ http://mhav1.com:2095/live/ht2990/742579548/12182.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Animal_Planet_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Animal_Planet_SD
 http://mhav1.com:2095/live/ht2990/742579548/2873.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Baby_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Baby_SD
+http://mhav1.com:2095/live/ht2990/742579548/19457.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_1_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_1_SD
 http://mhav1.com:2095/live/ht2990/742579548/4119.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_2_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_2_SD
 http://mhav1.com:2095/live/ht2990/742579548/4120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Cinema_SD
+http://mhav1.com:2095/live/ht2990/742579548/6110.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime Investigation_SD
 http://mhav1.com:2095/live/ht2990/742579548/19455.ts
@@ -3441,6 +3891,12 @@ http://mhav1.com:2095/live/ht2990/742579548/2561.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Action_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Action_SD
 http://mhav1.com:2095/live/ht2990/742579548/4484.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Disney_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Disney_SD
+http://mhav1.com:2095/live/ht2990/742579548/19444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_HD_Frist+2_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_HD_Frist+2_SD
+http://mhav1.com:2095/live/ht2990/742579548/4150.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Premiere_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Premiere_SD
 http://mhav1.com:2095/live/ht2990/742579548/2212.ts
 
@@ -3453,8 +3909,14 @@ http://mhav1.com:2095/live/ht2990/742579548/525.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Musalsalat_SD
 http://mhav1.com:2095/live/ht2990/742579548/5986.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_SD
+http://mhav1.com:2095/live/ht2990/742579548/19452.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_Wild_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_Wild_SD
 http://mhav1.com:2095/live/ht2990/742579548/4923.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_People_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_People_SD
+http://mhav1.com:2095/live/ht2990/742579548/19453.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_News_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_News_SD
 http://mhav1.com:2095/live/ht2990/742579548/4121.ts
@@ -3470,6 +3932,9 @@ http://mhav1.com:2095/live/ht2990/742579548/19461.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Showcase Classic_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Showcase Classic_SD
 http://mhav1.com:2095/live/ht2990/742579548/19456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Star_Movies_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Star_Movies_SD
+http://mhav1.com:2095/live/ht2990/742579548/2560.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_TLC_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_TLC_SD
 http://mhav1.com:2095/live/ht2990/742579548/19445.ts
@@ -3948,6 +4413,15 @@ http://mhav1.com:2095/live/ht2990/742579548/244604.ts
 # STC TV
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior" tvg-logo="" group-title="STC TV",Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/178538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 1 TV" tvg-logo="" group-title="STC TV",Stc Sport 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/173375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 2 TV" tvg-logo="" group-title="STC TV",Stc Sport 2 TV
+http://mhav1.com:2095/live/ht2990/742579548/170194.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:2095/live/ht2990/742579548/243882.ts
 
@@ -3961,6 +4435,9 @@ http://mhav1.com:2095/live/ht2990/742579548/259480.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Neelain Sport [AR]" tvg-logo="" group-title="Sudan - السودان",Neelain Sport [AR]
 http://mhav1.com:2095/live/ht2990/742579548/4509.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sudan Sport [AR]" tvg-logo="" group-title="Sudan - السودان",Sudan Sport [AR]
+http://mhav1.com:2095/live/ht2990/742579548/4561.ts
 
 
 ################################################################################
@@ -4432,6 +4909,9 @@ http://mhav1.com:2095/live/ht2990/742579548/12369.ts
 #EXTINF:-1 tvg-id="" tvg-name="NBC Sports Boston [US]" tvg-logo="" group-title="U S A",NBC Sports Boston [US]
 http://mhav1.com:2095/live/ht2990/742579548/12368.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Chicago [US]" tvg-logo="" group-title="U S A",NBC Sports Chicago [US]
+http://mhav1.com:2095/live/ht2990/742579548/12367.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="NBC Sports Northwest [US]" tvg-logo="" group-title="U S A",NBC Sports Northwest [US]
 http://mhav1.com:2095/live/ht2990/742579548/6654.ts
 
@@ -4499,6 +4979,17 @@ http://mhav1.com:2095/live/ht2990/742579548/3634.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sharjah Sport [AE]" tvg-logo="" group-title="UAE - الامارات",Sharjah Sport [AE]
 http://mhav1.com:2095/live/ht2990/742579548/4061.ts
+
+
+################################################################################
+# Uncategorized
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Ote Sport 1 HD[GR]" tvg-logo="" group-title="Uncategorized",Ote Sport 1 HD[GR]
+http://mhav1.com:2095/live/ht2990/742579548/4884.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ote Sport 2 HD[GR]" tvg-logo="" group-title="Uncategorized",Ote Sport 2 HD[GR]
+http://mhav1.com:2095/live/ht2990/742579548/4883.ts
 
 
 ################################################################################

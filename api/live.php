@@ -79,6 +79,24 @@ if (!$target_url) {
     die("Stream not found. ID: $id, Type: $type");
 }
 
-// Redirect to the actual stream
+// Enhanced Headers for IPTV Pro and Smarters Compatibility
+if (ob_get_length()) ob_clean();
+
+http_response_code(302);
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, HEAD, OPTIONS");
+header("Access-Control-Allow-Headers: *");
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+if (strpos($target_url, '.m3u8') !== false) {
+    header("Content-Type: application/vnd.apple.mpegurl");
+} elseif ($ext === 'ts') {
+    header("Content-Type: video/mp2t");
+} else {
+    header("Content-Type: video/mp4");
+}
+
 header("Location: " . $target_url);
 exit;
