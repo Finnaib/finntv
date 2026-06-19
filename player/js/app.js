@@ -278,7 +278,7 @@ class App {
         
         toast.innerHTML = `<i-lucide name="${icon}"></i-lucide> <span>${message}</span>`;
         container.appendChild(toast);
-        lucide.createIcons();
+        lucide.createIcons({ root: toast });
         
         setTimeout(() => {
             toast.style.opacity = '0';
@@ -533,7 +533,7 @@ class App {
         document.getElementById('np-category').innerText = category;
         const overlay = document.getElementById('player-overlay');
         overlay.classList.add('active');
-        lucide.createIcons();
+        lucide.createIcons({ root: overlay });
 
         this.initVideoJS();
 
@@ -633,7 +633,7 @@ class App {
                 this.playVideo(url, name, 'Movie');
             };
             
-            lucide.createIcons();
+            lucide.createIcons({ root: document.getElementById('movie-info-overlay') });
         } catch (e) {
             this.showToast('Failed to load movie info', 'error');
         }
@@ -700,7 +700,10 @@ class App {
         const container = document.getElementById('series-episodes');
         container.innerHTML = '';
         
-        episodes.forEach(ep => {
+        // Prevent browser freeze if a season has thousands of episodes
+        const safeEpisodes = episodes.slice(0, 500);
+        
+        safeEpisodes.forEach(ep => {
             const card = document.createElement('div');
             card.style.cssText = 'display: flex; background: rgba(30, 42, 71, 0.7); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; overflow: hidden; cursor: pointer; transition: 0.2s; height: 120px;';
             card.onmouseenter = () => { card.style.borderColor = 'var(--primary)'; card.style.transform = 'translateX(10px)'; };
@@ -727,7 +730,7 @@ class App {
             };
             container.appendChild(card);
         });
-        lucide.createIcons();
+        lucide.createIcons({ root: container });
     }
 }
 
