@@ -199,6 +199,20 @@ class App {
         const playerOverlay = document.getElementById('player-overlay');
         const playerHeader = playerOverlay.querySelector('.player-header');
         playerHeader.classList.remove('idle');
+        
+        // Infinite scroll listener
+        const contentArea = document.querySelector('.content-area');
+        if (contentArea) {
+            contentArea.addEventListener('scroll', (e) => {
+                const { scrollTop, scrollHeight, clientHeight } = e.target;
+                if (scrollTop + clientHeight >= scrollHeight - 200) {
+                    if (this.currentRenderLimit < this.filteredStreams.length) {
+                        this.currentRenderLimit += 150;
+                        this.renderStreams(true);
+                    }
+                }
+            });
+        }
     }
 
     showLogin() {
@@ -380,12 +394,33 @@ class App {
         });
     }
 
-    renderStreams() {
+    renderStreams(append = false) {
         const grid = document.getElementById('content-grid');
-        grid.innerHTML = '';
         
-        // Limit rendering for performance
-        const renderList = this.filteredStreams.slice(0, 500);
+        if (!append) {
+            grid.innerHTML = '';
+            this.currentRenderLimit = 150; // Start with 150
+            // Reset scroll position on the container
+            const container = document.querySelector('.content-area');
+            if (container) container.scrollTop = 0;
+        }
+        
+        let toRender = this.filteredStreams;
+        if (this.currentCategory && this.currentCategory !== 'All' && this.authMode === 'm3u') {
+            toRender = toRender.filter(s => 
+                (s.category_id && s.category_id == this.currentCategory) ||
+                (s.category_name && s.category_name === this.currentCategory)
+            );
+        }
+        
+        if (toRender.length === 0) {
+            if (!append) grid.innerHTML = '<div class="empty-state">No content found</div>';
+            return;
+        }
+        
+        // Slice for infinite scroll
+        const startIndex = append ? this.currentRenderLimit - 150 : 0;
+        const renderList = toRender.slice(startIndex, this.currentRenderLimit);
         
         renderList.forEach(stream => {
             const card = document.createElement('div');
