@@ -31,11 +31,20 @@ class App {
                         <h1 class="brand-font" style="color:var(--primary)">FINNTV</h1>
                         <p style="color:#aaa">Sign in to start watching.</p>
                     </div>
+                    <div class="auth-tabs" style="display:flex; margin-bottom:20px; border-bottom:1px solid #333;">
+                        <div class="auth-tab active" data-mode="xtream" style="flex:1; padding:10px; text-align:center; cursor:pointer; color:#fff; border-bottom:2px solid var(--primary);">Xtream Codes</div>
+                        <div class="auth-tab" data-mode="m3u" style="flex:1; padding:10px; text-align:center; cursor:pointer; color:#8c8c8c;">M3U Playlist</div>
+                    </div>
                     
                     <form id="login-form">
-                        <input type="text" id="x-user" class="form-input" placeholder="Username" required>
-                        <input type="password" id="x-pass" class="form-input" placeholder="Password" required>
-                        <input type="url" id="x-url" class="form-input" placeholder="http://domain.com:port" required>
+                        <div id="xtream-fields">
+                            <input type="text" id="x-user" class="form-input" placeholder="Username">
+                            <input type="password" id="x-pass" class="form-input" placeholder="Password">
+                            <input type="url" id="x-url" class="form-input" placeholder="http://domain.com:port">
+                        </div>
+                        <div id="m3u-fields" style="display:none;">
+                            <input type="url" id="m-url" class="form-input" placeholder="http://domain.com/playlist.m3u">
+                        </div>
                         <button type="submit" class="btn-primary">Sign In</button>
                     </form>
                 </div>
@@ -118,6 +127,19 @@ class App {
             this.handleLogin();
         });
 
+        const tabs = document.querySelectorAll('.auth-tab');
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                tabs.forEach(t => { t.style.color = '#8c8c8c'; t.style.borderBottom = 'none'; t.classList.remove('active'); });
+                e.target.style.color = '#fff';
+                e.target.style.borderBottom = '2px solid var(--primary)';
+                e.target.classList.add('active');
+                this.authMode = e.target.dataset.mode;
+                document.getElementById('xtream-fields').style.display = this.authMode === 'xtream' ? 'block' : 'none';
+                document.getElementById('m3u-fields').style.display = this.authMode === 'm3u' ? 'block' : 'none';
+            });
+        });
+
         const navBtns = document.querySelectorAll('.nav-btn');
         navBtns.forEach(btn => {
             btn.addEventListener('click', (e) => {
@@ -164,14 +186,21 @@ class App {
     }
 
     async handleLogin() {
-        const user = document.getElementById('x-user').value;
-        const pass = document.getElementById('x-pass').value;
-        const url = document.getElementById('x-url').value;
-        
         this.setLoading(true);
         try {
-            this.api = new XtreamAPI(url, user, pass);
-            await this.api.authenticate();
+            if (this.authMode === 'xtream') {
+                const user = document.getElementById('x-user').value;
+                const pass = document.getElementById('x-pass').value;
+                const url = document.getElementById('x-url').value;
+                if (!user || !pass || !url) throw new Error("Please fill all Xtream fields.");
+                this.api = new XtreamAPI(url, user, pass);
+                await this.api.authenticate();
+            } else {
+                const mUrl = document.getElementById('m-url').value;
+                if (!mUrl) throw new Error("Please enter M3U URL.");
+                this.m3uChannels = await M3UParser.fetchAndParse(mUrl);
+                this.api = null; // Mark as M3U mode
+            }
             document.getElementById('login-screen').classList.remove('active');
             document.getElementById('dashboard-screen').classList.add('active');
             this.loadNetflixData();
@@ -184,8 +213,30 @@ class App {
     async loadNetflixData() {
         this.setLoading(true);
         try {
-            // 1. Fetch Categories
-            this.categories = await this.api.getCategories(this.currentView);
+            if (this.authMode === 'm3u') {
+                this.currentView = 'live'; // M3U is usually live channels
+                this.categories = [];
+                this.streamsByCategory = {};
+                
+                this.m3uChannels.forEach(ch => {
+                    const group = ch.group || 'Uncategorized';
+                    if (!this.categories.find(c => c.category_name === group)) {
+                        this.categories.push({ category_id: group, category_name: group });
+                    }
+                    if (!this.streamsByCategory[group]) this.streamsByCategory[group] = [];
+                    this.streamsByCategory[group].push({
+                        name: ch.name,
+                        stream_icon: ch.logo,
+                        stream_id: ch.url, // URL acts as stream_id for M3U
+                        is_m3u: true
+                    });
+                });
+                this.renderNetflixRows();
+            } else {
+                // 1. Fetch Categories
+            if (this.currentView === 'live') this.categories = await this.api.getLiveCategories();
+            else if (this.currentView === 'vod') this.categories = await this.api.getVodCategories();
+            else if (this.currentView === 'series') this.categories = await this.api.getSeriesCategories();
             
             // 2. Fetch ALL streams for this view to build rows efficiently without 100 API calls
             let allStreams = [];
@@ -202,6 +253,7 @@ class App {
             });
             
             this.renderNetflixRows();
+            } // End of else block
         } catch (e) {
             console.error(e);
             alert("Failed to load content.");
@@ -283,7 +335,9 @@ class App {
         }
 
         playBtn.onclick = () => {
-            if (this.currentView === 'series') {
+            if (stream.is_m3u) {
+                this.playVideo(stream.stream_id, stream.name);
+            } else if (this.currentView === 'series') {
                 this.showSeriesDetails(stream.series_id, stream.name, stream);
             } else {
                 const ext = stream.container_extension || (this.currentView === 'vod' ? 'mp4' : 'ts');
