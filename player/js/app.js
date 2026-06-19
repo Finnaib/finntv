@@ -195,14 +195,10 @@ class App {
             this.stopPlayer();
         });
         
-        let headerTimeout;
+        // Make sure header is always visible
         const playerOverlay = document.getElementById('player-overlay');
         const playerHeader = playerOverlay.querySelector('.player-header');
-        playerOverlay.addEventListener('mousemove', () => {
-            playerHeader.classList.remove('idle');
-            clearTimeout(headerTimeout);
-            headerTimeout = setTimeout(() => playerHeader.classList.add('idle'), 3000);
-        });
+        playerHeader.classList.remove('idle');
     }
 
     showLogin() {
@@ -317,24 +313,22 @@ class App {
         this.setLoading(false);
     }
 
-    async loadCategoryStreams(catId) {
+    async loadCategoryStreams(categoryId) {
         this.setLoading(true);
-        this.currentCategory = catId;
-        this.renderCategories(); // Update active state
-        
         try {
-            const fetchId = catId === 'all' ? null : catId;
+            const fetchCatId = categoryId === 'all' ? null : categoryId;
             if (this.currentView === 'live') {
-                this.streams = await this.api.getLiveStreams(fetchId);
+                this.streams = await this.api.getLiveStreams(fetchCatId);
             } else if (this.currentView === 'vod') {
-                this.streams = await this.api.getVodStreams(fetchId);
+                this.streams = await this.api.getVodStreams(fetchCatId);
             } else if (this.currentView === 'series') {
-                this.streams = await this.api.getSeries(fetchId);
+                this.streams = await this.api.getSeries(fetchCatId);
             }
+            this.currentCategory = categoryId;
             this.filteredStreams = [...this.streams];
             this.renderStreams();
-        } catch(e) {
-            this.showToast('Failed to load streams', 'error');
+        } catch (e) {
+            this.showToast("Failed to load streams", "error");
         }
         this.setLoading(false);
     }
@@ -490,32 +484,27 @@ class App {
                 return;
             }
 
+            // Always clear previous errors
+            this.player.error(null);
+
             if (stype === 'ts') {
                 if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
                     this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
                     this.mpegts.attachMediaElement(vidEl);
                     this.mpegts.load();
-                    this.mpegts.on(mpegts.Events.ERROR, (t) => { console.error('MPEG-TS Error:', t); });
+                    this.mpegts.on(mpegts.Events.ERROR, (t) => { 
+                        console.error('MPEG-TS Error:', t); 
+                        this.showToast('Stream Error: ' + t, 'error');
+                    });
                     this.player.play().catch(e => console.warn(e));
                 } else {
                     this.player.src({ src: proxyUrl, type: 'video/mp2t' });
                     this.player.play().catch(e => console.warn(e));
                 }
             } else if (stype === 'm3u8' || stype === 'hls') {
-                if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                    this.hls = new Hls({ lowLatencyMode: isLive });
-                    this.hls.loadSource(proxyUrl);
-                    this.hls.attachMedia(vidEl);
-                    this.hls.on(Hls.Events.MANIFEST_PARSED, () => { 
-                        this.player.play().catch(e => console.warn(e)); 
-                    });
-                    this.hls.on(Hls.Events.ERROR, (e, data) => {
-                        if (data.fatal) console.error('HLS Error:', data);
-                    });
-                } else {
-                    this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
-                    this.player.play().catch(e => console.warn(e));
-                }
+                // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
+                this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
+                this.player.play().catch(e => console.warn(e));
             } else {
                 this.player.src({ src: proxyUrl, type: 'video/mp4' });
                 this.player.play().catch(e => console.warn(e));

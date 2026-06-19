@@ -112,12 +112,14 @@ export class M3UParser {
                 const logoMatch = line.match(/tvg-logo="([^"]+)"/);
                 if (logoMatch) currentChannel.logo = logoMatch[1];
                 
-                // Extract name
+                // Extract name (everything after the last comma or first comma)
                 const parts = line.split(',');
                 if (parts.length > 1) {
-                    currentChannel.name = parts[parts.length - 1].trim();
+                    currentChannel.name = parts.slice(1).join(',').trim();
+                } else {
+                    currentChannel.name = line.replace(/#EXTINF:.*?,/, '').trim();
                 }
-            } else if (line.startsWith('http') && currentChannel) {
+            } else if (line !== '' && !line.startsWith('#') && currentChannel) {
                 currentChannel.url = line;
                 channels.push(currentChannel);
                 currentChannel = null;
