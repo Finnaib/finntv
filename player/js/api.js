@@ -4,12 +4,17 @@ export class XtreamAPI {
         this.serverUrl = serverUrl.replace(/\/$/, '');
         this.username = username;
         this.password = password;
-        this.baseUrl = `${this.serverUrl}/player_api.php?username=${username}&password=${password}`;
+        this.baseParams = `?username=${username}&password=${password}`;
+    }
+
+    getProxyUrl(actionUrl) {
+        return `../api/xtream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(actionUrl))))}`;
     }
 
     async authenticate() {
         try {
-            const res = await fetch(this.baseUrl);
+            const url = `${this.serverUrl}/player_api.php${this.baseParams}`;
+            const res = await fetch(this.getProxyUrl(url));
             if (!res.ok) throw new Error("Network response was not ok");
             const data = await res.json();
             if (data.user_info && data.user_info.auth === 1) {
@@ -61,7 +66,8 @@ export class XtreamAPI {
 
     async _fetchAction(action) {
         try {
-            const res = await fetch(`${this.baseUrl}&action=${action}`);
+            const url = `${this.serverUrl}/player_api.php${this.baseParams}&action=${action}`;
+            const res = await fetch(this.getProxyUrl(url));
             return await res.json();
         } catch (e) {
             console.error(`Error fetching ${action}:`, e);

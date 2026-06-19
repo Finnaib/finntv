@@ -265,12 +265,14 @@ class App {
                 const url = document.getElementById('m-url').value.trim();
                 if (!url) throw new Error("Please enter M3U URL");
                 
-                // For M3U, proxy is required to avoid CORS in browser
-                // We'll use the existing stream_proxy if needed, but for M3U parsing
-                // we might need a PHP proxy to fetch the file contents.
-                // Assuming the URL is accessible or we use a proxy.
-                const proxyUrl = `../api/download_m3u.php?url=${encodeURIComponent(url)}`;
-                this.m3uChannels = await M3UParser.fetchAndParse(proxyUrl);
+                // First try fetching directly (works for local files like ../m3u/sport.m3u)
+                try {
+                    this.m3uChannels = await M3UParser.fetchAndParse(url);
+                } catch (err) {
+                    console.warn("Direct fetch failed, attempting proxy...", err);
+                    const proxyUrl = `../api/m3u_proxy.php?url=${encodeURIComponent(url)}`;
+                    this.m3uChannels = await M3UParser.fetchAndParse(proxyUrl);
+                }
                 
                 if (this.m3uChannels.length > 0) {
                     this.showToast(`Loaded ${this.m3uChannels.length} channels`, 'success');
