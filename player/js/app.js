@@ -133,8 +133,15 @@ class App {
                         <p id="np-category">Please wait</p>
                     </div>
                 </div>
-                <div class="video-wrapper">
-                    <video id="vjs-player" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
+                <div class="video-wrapper" style="width:100%; height:100%; position:relative; background:black; display:flex; align-items:center; justify-content:center;">
+                    <video id="plyr-player" playsinline controls style="width:100%; height:100%;"></video>
+                    <!-- VLC Fallback Overlay -->
+                    <div id="vlc-fallback" style="display:none; position:absolute; z-index:100; text-align:center; background:rgba(0,0,0,0.8); padding:40px; border-radius:8px; color:white">
+                        <i-lucide name="alert-triangle" color="var(--primary)" size="48" style="margin-bottom:16px"></i-lucide>
+                        <h2>Format Not Supported by Browser</h2>
+                        <p style="color:#aaa; margin:16px 0; max-width:400px">This video uses an MKV/HEVC codec which browsers cannot natively play. You can play it using an external player.</p>
+                        <button id="btn-open-vlc" class="btn btn-primary" style="width:auto; padding:12px 24px; font-size:1.1rem">Open in VLC Media Player</button>
+                    </div>
                 </div>
             </div>
             
@@ -482,18 +489,10 @@ class App {
     }
 
     // Video Player Logic
-    initVideoJS() {
+    initPlayer() {
         if (!this.player) {
-            this.player = videojs('vjs-player', {
-                controls: true,
-                autoplay: true,
-                preload: 'auto',
-                liveui: true,
-                playbackRates: [1, 1.25, 1.5, 2]
-            });
-            this.player.on('error', () => {
-                this.showToast('Playback error occurred', 'error');
-            });
+            const videoEl = document.getElementById('plyr-player');
+            this.player = new Plyr(videoEl, { autoplay: true });
         }
     }
 
@@ -502,78 +501,75 @@ class App {
             this.hls.destroy();
             this.hls = null;
         }
-        if (this.mpegts) {
-            this.mpegts.unload();
-            this.mpegts.detachMediaElement();
-            this.mpegts.destroy();
-            this.mpegts = null;
-        }
         if (this.player) {
-            this.player.pause();
-            this.player.reset();
+            this.player.stop();
+            this.player.destroy();
+            this.player = null;
         }
     }
 
     playVideo(url, title, category) {
         document.getElementById('np-title').innerText = title;
         document.getElementById('np-category').innerText = category;
+        document.getElementById('vlc-fallback').style.display = 'none';
         const overlay = document.getElementById('player-overlay');
         overlay.classList.add('active');
         lucide.createIcons();
 
-        this.initVideoJS();
+        this.teardownSubPlayers();
+        const videoEl = document.getElementById('plyr-player');
 
-        this.player.ready(() => {
-            this.teardownSubPlayers();
+        let streamUrl = url;
+        if (window.location.protocol === 'https:' && streamUrl.startsWith('http://')) {
+            streamUrl = streamUrl.replace('http://', 'https://');
+        }
 
-            // Convert raw live .ts streams to .m3u8 HLS playlists.
-            // Raw .ts streams are infinite and will cause timeouts on serverless proxies (Vercel).
-            // HLS chunks are small and finite, allowing the proxy to handle them successfully.
-            let streamUrl = url;
-            if (streamUrl.includes('/live/') && streamUrl.split('?')[0].endsWith('.ts')) {
-                streamUrl = streamUrl.replace(/\.ts(\?|$)/, '.m3u8$1');
-            }
-
-            // Use Proxy to bypass CORS
-            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+        const ext = streamUrl.split('.').pop().split('?')[0].toLowerCase();
+        
+        if (ext === 'm3u8' || ext === 'ts') {
+            let finalUrl = streamUrl;
+            if (ext === 'ts') finalUrl = streamUrl.replace('.ts', '.m3u8');
             
-            const isLive = this.currentView === 'live' || this.authMode === 'm3u';
-            const stype = this.getStreamType(streamUrl);
-            const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
+            const encoded = encodeURIComponent(btoa(finalUrl));
+            const proxyUrl = `../api/stream_proxy.php?url=${encoded}`;
 
-            if (!vidEl) {
-                console.error("Video element not ready");
-                return;
+            if (Hls.isSupported()) {
+                this.hls = new Hls();
+                this.hls.loadSource(proxyUrl);
+                this.hls.attachMedia(videoEl);
+                this.player = new Plyr(videoEl, { autoplay: true });
+                this.hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    this.player.play();
+                });
+            } else if (videoEl.canPlayType('application/vnd.apple.mpegurl')) {
+                videoEl.src = proxyUrl;
+                this.player = new Plyr(videoEl, { autoplay: true });
             }
-
-            // Always clear previous errors
-            this.player.error(null);
-
-            if (stype === 'ts') {
-                if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
-                    this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
-                    this.mpegts.attachMediaElement(vidEl);
-                    this.mpegts.load();
-                    this.mpegts.on(mpegts.Events.ERROR, (t) => { 
-                        console.error('MPEG-TS Error:', t); 
-                        this.showToast('Stream Error: ' + t, 'error');
-                    });
-                    this.player.play().catch(e => console.warn(e));
-                } else {
-                    this.player.src({ src: proxyUrl, type: 'video/mp2t' });
-                    this.player.play().catch(e => console.warn(e));
+        } 
+        else {
+            this.player = new Plyr(videoEl, { autoplay: true });
+            
+            videoEl.addEventListener('error', (e) => {
+                const error = videoEl.error;
+                if (error && error.code === 4) {
+                    this.showVlcFallback(streamUrl);
                 }
-            } else if (stype === 'm3u8' || stype === 'hls') {
-                // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
-                this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
-                this.player.play().catch(e => console.warn(e));
-            } else {
-                // Route through Edge streaming proxy for VOD/Series
-                const edgeProxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(streamUrl))}`;
-                this.player.src({ src: edgeProxyUrl });
-                this.player.play().catch(e => console.warn(e));
-            }
-        });
+            });
+
+            const encoded = encodeURIComponent(btoa(streamUrl));
+            const edgeProxyUrl = `../api/video_proxy.js?url=${encoded}`;
+            
+            videoEl.src = edgeProxyUrl;
+            this.player.play().catch(e => console.warn("Autoplay or decode failed", e));
+        }
+    }
+
+    showVlcFallback(streamUrl) {
+        document.getElementById('vlc-fallback').style.display = 'block';
+        const btn = document.getElementById('btn-open-vlc');
+        btn.onclick = () => {
+            window.location.href = `vlc://${streamUrl}`;
+        };
     }
 
     stopPlayer() {
