@@ -3,17 +3,17 @@ import { XtreamAPI, M3UParser } from './api.js';
 class App {
     constructor() {
         this.appEl = document.getElementById('app');
-        this.api = null;
-        this.authMode = 'xtream';
-        this.currentView = 'live'; 
+        this.api = null; // XtreamAPI instance
+        this.m3uChannels = []; // Array of M3U channels
+        this.authMode = 'xtream'; // 'xtream' or 'm3u'
+        this.currentView = 'live'; // 'live', 'vod', 'series'
         
         this.categories = [];
         this.streams = [];
         this.filteredStreams = [];
         this.currentCategory = null;
-        this.currentRenderLimit = 150;
 
-        this.player = null; // video.js instance
+        this.player = null; // Video.js instance
         this.hls = null;
         this.mpegts = null;
 
@@ -28,24 +28,35 @@ class App {
         const urlParams = new URLSearchParams(window.location.search);
         const m3uUrl = urlParams.get('m3u');
         if (m3uUrl) {
+            // Switch to M3U tab
+            const tabs = document.querySelectorAll('.auth-tab');
+            tabs.forEach(t => t.classList.remove('active'));
+            const m3uTab = document.querySelector('.auth-tab[data-mode="m3u"]');
+            if (m3uTab) m3uTab.classList.add('active');
+            
             this.authMode = 'm3u';
             document.getElementById('xtream-fields').style.display = 'none';
             document.getElementById('m3u-fields').style.display = 'block';
+            
+            // Fill input and submit
             document.getElementById('m-url').value = m3uUrl;
             this.handleLogin();
         }
 
+        // Initialize Lucide icons
         lucide.createIcons();
     }
 
     renderShell() {
         this.appEl.innerHTML = `
+            <div class="app-bg"></div>
+            
             <!-- Login Screen -->
             <div id="login-screen" class="screen">
                 <div class="login-card">
                     <div class="login-header">
-                        <h1 class="brand-font" style="color:white; font-size:2.5rem; margin-bottom:10px">FinnTV</h1>
-                        <p style="color:var(--text-muted)">Premium IPTV Player</p>
+                        <h1 class="brand-font">FinnTV Player</h1>
+                        <p>Sign in to your premium IPTV account</p>
                     </div>
                     
                     <div class="auth-tabs">
@@ -55,13 +66,27 @@ class App {
                     
                     <form id="login-form">
                         <div id="xtream-fields">
-                            <input type="text" id="x-user" class="form-input" placeholder="Username">
-                            <input type="password" id="x-pass" class="form-input" placeholder="Password">
-                            <input type="url" id="x-url" class="form-input" placeholder="http://domain.com:port">
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input type="text" id="x-user" class="form-input" placeholder="Enter username">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" id="x-pass" class="form-input" placeholder="Enter password">
+                            </div>
+                            <div class="form-group">
+                                <label>Server URL</label>
+                                <input type="url" id="x-url" class="form-input" placeholder="http://domain.com:port">
+                            </div>
                         </div>
+                        
                         <div id="m3u-fields" style="display: none;">
-                            <input type="url" id="m-url" class="form-input" placeholder="http://domain.com/playlist.m3u">
+                            <div class="form-group">
+                                <label>M3U URL</label>
+                                <input type="url" id="m-url" class="form-input" placeholder="http://domain.com/playlist.m3u">
+                            </div>
                         </div>
+                        
                         <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
                             <i-lucide name="log-in"></i-lucide> Login
                         </button>
@@ -69,46 +94,27 @@ class App {
                 </div>
             </div>
 
-            <!-- Home Dashboard (Smarters Style) -->
-            <div id="home-screen" class="screen">
-                <div class="home-header">
-                    <h1 class="brand-font" style="color:white; font-size:2rem">FinnTV</h1>
-                    <div class="home-user-info">
-                        <div>
-                            <div id="h-user" style="font-weight:bold; font-size:1.1rem">Username</div>
-                            <div id="h-exp" style="color:var(--text-muted); font-size:0.9rem">Active</div>
-                        </div>
-                        <div class="home-avatar"><i-lucide name="user" size="28" color="white"></i-lucide></div>
-                        <button id="btn-logout" class="btn btn-outline" style="margin-left:20px"><i-lucide name="log-out"></i-lucide></button>
-                    </div>
-                </div>
-                <div class="home-grid">
-                    <div class="home-tile" data-target="live">
-                        <i-lucide name="tv" size="64"></i-lucide>
-                        <h2 class="brand-font">Live TV</h2>
-                    </div>
-                    <div class="home-tile" data-target="vod">
-                        <i-lucide name="film" size="64"></i-lucide>
-                        <h2 class="brand-font">Movies</h2>
-                    </div>
-                    <div class="home-tile" data-target="series">
-                        <i-lucide name="clapperboard" size="64"></i-lucide>
-                        <h2 class="brand-font">Series</h2>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Main Dashboard (Sidebar + Grid) -->
+            <!-- Dashboard Screen -->
             <div id="dashboard-screen" class="screen">
-                <div class="dash-header">
-                    <button class="btn btn-outline" id="btn-back-home"><i-lucide name="arrow-left"></i-lucide> Back</button>
-                    <h2 id="dash-title" class="brand-font">Live TV</h2>
-                    <div style="width:100px"></div>
-                </div>
-                <div class="dash-layout">
+                <nav class="top-nav">
+                    <div class="nav-brand">FinnTV</div>
+                    <div class="nav-links">
+                        <button class="nav-btn active" data-view="live">Live TV</button>
+                        <button class="nav-btn" data-view="vod">Movies</button>
+                        <button class="nav-btn" data-view="series">Series</button>
+                    </div>
+                    <div class="nav-user">
+                        <a href="../index.html" class="btn-home"><i-lucide name="home"></i-lucide> <span>Back to Home</span></a>
+                        <button id="btn-logout" class="btn-logout"><i-lucide name="log-out"></i-lucide> <span>Logout</span></button>
+                    </div>
+                </nav>
+                <div class="main-content">
                     <aside class="sidebar">
-                        <div class="search-box">
-                            <input type="text" id="search-input" placeholder="Search...">
+                        <div class="sidebar-header">
+                            <div class="search-box">
+                                <i-lucide name="search"></i-lucide>
+                                <input type="text" id="search-input" placeholder="Search channels...">
+                            </div>
                         </div>
                         <div class="category-list" id="category-list"></div>
                     </aside>
@@ -118,60 +124,52 @@ class App {
                 </div>
             </div>
 
-            <!-- Movie Info Overlay (Smarters Style) -->
-            <div id="movie-info-overlay">
-                <div class="movie-info-card">
-                    <button class="mi-close" id="btn-close-mi"><i-lucide name="x"></i-lucide></button>
-                    <div class="mi-poster" id="mi-poster"></div>
-                    <div class="mi-details">
-                        <h1 class="mi-title brand-font" id="mi-title">Movie Title</h1>
-                        <div class="mi-meta" id="mi-meta"></div>
-                        <p class="mi-plot" id="mi-plot">Plot description goes here...</p>
-                        <div class="mi-cast" id="mi-cast"></div>
-                        <div class="mi-buttons">
-                            <button class="btn btn-primary" id="btn-mi-play"><i-lucide name="play"></i-lucide> Play Now</button>
-                            <button class="btn btn-outline" id="btn-mi-trailer" style="display:none"><i-lucide name="youtube"></i-lucide> Trailer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Series Chooser Overlay (Smarters Style) -->
-            <div id="series-overlay">
-                <div class="series-header">
-                    <button class="btn btn-outline" id="btn-close-series"><i-lucide name="arrow-left"></i-lucide> Back</button>
-                    <h2 class="brand-font" id="series-title" style="font-size:2rem">Series Name</h2>
-                </div>
-                <div class="series-content">
-                    <div class="series-seasons" id="series-seasons"></div>
-                    <div class="series-episodes" id="series-episodes"></div>
-                </div>
-            </div>
-
             <!-- Video Player Overlay -->
             <div id="player-overlay">
                 <div class="player-header">
-                    <button class="btn btn-outline" id="btn-close-player" style="border:none; background:transparent"><i-lucide name="arrow-left" size="32"></i-lucide></button>
+                    <button class="btn-close" id="btn-close-player"><i-lucide name="x"></i-lucide></button>
                     <div class="now-playing-info">
-                        <h2 id="np-title" style="margin:0">Loading...</h2>
-                        <p id="np-category" style="margin:0; color:#aaa">Please wait</p>
+                        <h2 id="np-title">Loading...</h2>
+                        <p id="np-category">Please wait</p>
                     </div>
                 </div>
-                <div class="video-wrapper" style="flex:1; width:100%; position:relative; background:black;">
-                    <video id="vjs-player" class="video-js vjs-default-skin vjs-big-play-centered" playsinline style="width:100%; height:100%"></video>
-                    
-                    <!-- VLC Fallback Overlay -->
-                    <div id="vlc-fallback" style="display:none; position:absolute; inset:0; z-index:100; text-align:center; background:rgba(0,0,0,0.8); flex-direction:column; align-items:center; justify-content:center; color:white">
-                        <i-lucide name="alert-triangle" color="var(--primary)" size="48" style="margin-bottom:16px"></i-lucide>
-                        <h2>Format Not Supported by Browser</h2>
-                        <p style="color:#aaa; margin:16px 0; max-width:400px">This video uses an MKV/HEVC codec which browsers cannot natively play. You can play it using an external player.</p>
-                        <button id="btn-open-vlc" class="btn btn-primary" style="width:auto; padding:12px 24px; font-size:1.1rem">Open in VLC Media Player</button>
-                    </div>
+                <div class="video-wrapper">
+                    <video id="vjs-player" class="video-js vjs-default-skin vjs-big-play-centered" playsinline></video>
                 </div>
             </div>
             
             <div id="loader" class="loader-screen" style="display: none;">
                 <div class="spinner"></div>
+                <h2>Loading...</h2>
+            </div>
+
+            <!-- Movie Info Overlay -->
+            <div id="movie-info-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
+                <div class="movie-info-card" style="display:flex; background:#111; border:1px solid #333; border-radius:12px; width:90%; max-width:900px; height:600px; overflow:hidden; position:relative;">
+                    <button class="btn-close" id="btn-close-mi" style="position:absolute; top:20px; right:20px; background:rgba(0,0,0,0.5); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer;"><i-lucide name="x"></i-lucide></button>
+                    <div class="mi-poster" id="mi-poster" style="width:350px; background:#000;"></div>
+                    <div class="mi-details" style="flex:1; padding:40px; display:flex; flex-direction:column; overflow-y:auto;">
+                        <h1 class="mi-title brand-font" id="mi-title" style="font-size:2.5rem; margin-bottom:10px;">Movie Title</h1>
+                        <div class="mi-meta" id="mi-meta" style="color:#aaa; font-size:1rem; margin-bottom:24px; display:flex; gap:16px;"></div>
+                        <p class="mi-plot" id="mi-plot" style="font-size:1.1rem; line-height:1.6; margin-bottom:30px; color:#e2e8f0;">Plot description goes here...</p>
+                        <div class="mi-cast" id="mi-cast" style="margin-bottom:30px; color:#aaa;"></div>
+                        <div class="mi-buttons" style="display:flex; gap:16px; margin-top:auto;">
+                            <button class="btn btn-primary" id="btn-mi-play"><i-lucide name="play"></i-lucide> Play Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Series Chooser Overlay -->
+            <div id="series-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg-dark); z-index:900; flex-direction:column;">
+                <div class="series-header" style="display:flex; align-items:center; padding:24px 40px; background:rgba(0,0,0,0.4); border-bottom:1px solid #333; gap:20px;">
+                    <button class="btn btn-outline" id="btn-close-series"><i-lucide name="arrow-left"></i-lucide> Back</button>
+                    <h2 class="brand-font" id="series-title" style="font-size:2rem">Series Name</h2>
+                </div>
+                <div class="series-content" style="display:flex; flex:1; overflow:hidden;">
+                    <div class="series-seasons" id="series-seasons" style="width:250px; background:rgba(0,0,0,0.2); border-right:1px solid #333; overflow-y:auto; padding:20px 0;"></div>
+                    <div class="series-episodes" id="series-episodes" style="flex:1; overflow-y:auto; padding:40px; display:flex; flex-direction:column; gap:16px;"></div>
+                </div>
             </div>
         `;
 
@@ -192,26 +190,24 @@ class App {
             this.handleLogin();
         });
 
-        // Home screen tiles
-        document.querySelectorAll('.home-tile').forEach(tile => {
-            tile.addEventListener('click', (e) => {
-                if (this.authMode === 'm3u' && e.currentTarget.dataset.target !== 'live') {
+        // Bind Nav Events
+        const navBtns = document.querySelectorAll('.nav-btn');
+        navBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                if (this.authMode === 'm3u') {
                     this.showToast('M3U Playlists only support Live TV view', 'info');
                     return;
                 }
-                this.currentView = e.currentTarget.dataset.target;
-                document.getElementById('dash-title').innerText = this.currentView === 'live' ? 'Live TV' : (this.currentView === 'vod' ? 'Movies' : 'Series');
-                this.showDashboard();
+                navBtns.forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                this.currentView = e.target.dataset.view;
                 this.loadViewData();
             });
         });
 
-        document.getElementById('btn-back-home').addEventListener('click', () => {
-            this.showHome();
-        });
-
         document.getElementById('btn-logout').addEventListener('click', () => {
             this.api = null;
+            this.m3uChannels = [];
             this.showLogin();
         });
 
@@ -221,18 +217,26 @@ class App {
                 const name = s.name || s.title || '';
                 return name.toLowerCase().includes(query);
             });
-            this.currentRenderLimit = 150;
             this.renderStreams();
         });
 
-        document.getElementById('btn-close-player').addEventListener('click', () => this.stopPlayer());
+        document.getElementById('btn-close-player').addEventListener('click', () => {
+            this.stopPlayer();
+        });
+        
         document.getElementById('btn-close-mi').addEventListener('click', () => {
             document.getElementById('movie-info-overlay').style.display = 'none';
         });
+        
         document.getElementById('btn-close-series').addEventListener('click', () => {
             document.getElementById('series-overlay').style.display = 'none';
         });
 
+        // Make sure header is always visible
+        const playerOverlay = document.getElementById('player-overlay');
+        const playerHeader = playerOverlay.querySelector('.player-header');
+        playerHeader.classList.remove('idle');
+        
         // Infinite scroll listener
         const contentArea = document.querySelector('.content-area');
         if (contentArea) {
@@ -249,18 +253,12 @@ class App {
     }
 
     showLogin() {
-        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+        document.getElementById('dashboard-screen').classList.remove('active');
         document.getElementById('login-screen').classList.add('active');
     }
 
-    showHome() {
-        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-        document.getElementById('home-screen').classList.add('active');
-        lucide.createIcons();
-    }
-
     showDashboard() {
-        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+        document.getElementById('login-screen').classList.remove('active');
         document.getElementById('dashboard-screen').classList.add('active');
         lucide.createIcons();
     }
@@ -303,24 +301,34 @@ class App {
                 const res = await this.api.authenticate();
                 
                 if (res.success) {
-                    document.getElementById('h-user').innerText = res.info.username || u;
-                    const exp = res.info.exp_date ? new Date(res.info.exp_date * 1000).toLocaleDateString() : 'Active';
-                    document.getElementById('h-exp').innerText = `Expires: ${exp}`;
                     this.showToast(`Welcome, ${u}`, 'success');
-                    this.showHome();
+                    this.currentView = 'live';
+                    this.showDashboard();
+                    await this.loadViewData();
                 } else {
-                    throw new Error(res.error || "Invalid credentials");
+                    throw new Error(res.error);
                 }
             } else {
                 const url = document.getElementById('m-url').value.trim();
                 if (!url) throw new Error("Please enter M3U URL");
                 
-                this.m3uChannels = await M3UParser.fetchAndParse(url);
-                this.api = null;
-                document.getElementById('h-user').innerText = 'M3U User';
-                document.getElementById('h-exp').innerText = `${this.m3uChannels.length} Channels`;
-                this.showToast('Playlist loaded', 'success');
-                this.showHome();
+                // First try fetching directly (works for local files like ../m3u/sport.m3u)
+                try {
+                    this.m3uChannels = await M3UParser.fetchAndParse(url);
+                } catch (err) {
+                    console.warn("Direct fetch failed, attempting proxy...", err);
+                    const proxyUrl = `../api/m3u_proxy.php?url=${encodeURIComponent(url)}`;
+                    this.m3uChannels = await M3UParser.fetchAndParse(proxyUrl);
+                }
+                
+                if (this.m3uChannels.length > 0) {
+                    this.showToast(`Loaded ${this.m3uChannels.length} channels`, 'success');
+                    this.currentView = 'live';
+                    this.showDashboard();
+                    this.buildM3UDashboard();
+                } else {
+                    throw new Error("No channels found in playlist");
+                }
             }
         } catch (e) {
             this.showToast(e.message, 'error');
@@ -329,47 +337,78 @@ class App {
     }
 
     async loadViewData() {
+        if (!this.api) return;
         this.setLoading(true);
+        this.categories = [];
+        this.streams = [];
+        this.filteredStreams = [];
+        
         try {
-            if (this.authMode === 'm3u') {
-                this.categories = [];
-                this.streams = this.m3uChannels.map(ch => ({
-                    stream_id: ch.url,
-                    name: ch.name,
-                    stream_icon: ch.logo,
-                    category_name: ch.group || 'All',
-                    url: ch.url
-                }));
-                
-                // Extract unique groups
-                const groups = [...new Set(this.streams.map(s => s.category_name))];
-                this.categories = groups.map((g, i) => ({ category_id: `m3u_${i}`, category_name: g }));
-            } else {
-                if (this.currentView === 'live') {
-                    this.categories = await this.api.getLiveCategories();
-                    this.streams = await this.api.getLiveStreams();
-                } else if (this.currentView === 'vod') {
-                    this.categories = await this.api.getVodCategories();
-                    this.streams = await this.api.getVodStreams();
-                } else if (this.currentView === 'series') {
-                    this.categories = await this.api.getSeriesCategories();
-                    this.streams = await this.api.getSeries();
-                }
+            if (this.currentView === 'live') {
+                this.categories = await this.api.getLiveCategories();
+            } else if (this.currentView === 'vod') {
+                this.categories = await this.api.getVodCategories();
+            } else if (this.currentView === 'series') {
+                this.categories = await this.api.getSeriesCategories();
             }
-
-            // Always add "All" category
-            this.categories.unshift({ category_id: 'all', category_name: 'All Channels' });
-            this.renderCategories();
             
-            // Select first category by default
-            if (this.categories.length > 0) {
-                this.selectCategory(this.categories[0].category_id);
-            }
-        } catch (e) {
-            this.showToast('Failed to load data', 'error');
-            console.error(e);
+            // Add 'All' category
+            this.categories.unshift({ category_id: 'all', category_name: 'All Categories' });
+            this.currentCategory = 'all';
+            this.renderCategories();
+            await this.loadCategoryStreams('all');
+            
+        } catch(e) {
+            this.showToast('Failed to load categories', 'error');
         }
         this.setLoading(false);
+    }
+
+    async loadCategoryStreams(categoryId) {
+        this.setLoading(true);
+        try {
+            const fetchCatId = categoryId === 'all' ? null : categoryId;
+            if (this.currentView === 'live') {
+                this.streams = await this.api.getLiveStreams(fetchCatId);
+            } else if (this.currentView === 'vod') {
+                this.streams = await this.api.getVodStreams(fetchCatId);
+            } else if (this.currentView === 'series') {
+                this.streams = await this.api.getSeries(fetchCatId);
+            }
+            this.currentCategory = categoryId;
+            this.filteredStreams = [...this.streams];
+            this.renderStreams();
+        } catch (e) {
+            this.showToast("Failed to load streams", "error");
+        }
+        this.setLoading(false);
+    }
+
+    buildM3UDashboard() {
+        // Build categories based on groups
+        const groups = new Set();
+        this.m3uChannels.forEach(c => groups.add(c.group));
+        
+        this.categories = [{category_id: 'all', category_name: 'All Channels'}];
+        Array.from(groups).sort().forEach(g => {
+            if (g) this.categories.push({ category_id: g, category_name: g });
+        });
+        
+        this.currentCategory = 'all';
+        this.renderCategories();
+        this.loadM3UCategory('all');
+    }
+
+    loadM3UCategory(group) {
+        this.currentCategory = group;
+        this.renderCategories();
+        if (group === 'all') {
+            this.streams = this.m3uChannels;
+        } else {
+            this.streams = this.m3uChannels.filter(c => c.group === group);
+        }
+        this.filteredStreams = [...this.streams];
+        this.renderStreams();
     }
 
     renderCategories() {
@@ -377,53 +416,50 @@ class App {
         list.innerHTML = '';
         
         this.categories.forEach(cat => {
-            const el = document.createElement('div');
-            el.className = 'cat-item';
-            el.innerText = cat.category_name;
-            el.dataset.id = cat.category_id;
+            const div = document.createElement('div');
+            div.className = `cat-item ${this.currentCategory === cat.category_id ? 'active' : ''}`;
+            div.innerHTML = `<span>${cat.category_name}</span>`;
             
-            el.onclick = () => this.selectCategory(cat.category_id);
-            list.appendChild(el);
+            div.onclick = () => {
+                if (this.authMode === 'xtream') {
+                    this.loadCategoryStreams(cat.category_id);
+                } else {
+                    this.loadM3UCategory(cat.category_id);
+                }
+            };
+            list.appendChild(div);
         });
-    }
-
-    selectCategory(catId) {
-        document.querySelectorAll('.cat-item').forEach(el => el.classList.remove('active'));
-        const activeEl = document.querySelector(`.cat-item[data-id="${catId}"]`);
-        if (activeEl) activeEl.classList.add('active');
-
-        this.currentCategory = catId;
-        document.getElementById('search-input').value = '';
-        
-        if (catId === 'all') {
-            this.filteredStreams = this.streams;
-        } else {
-            if (this.authMode === 'm3u') {
-                const catName = this.categories.find(c => c.category_id === catId)?.category_name;
-                this.filteredStreams = this.streams.filter(s => s.category_name === catName);
-            } else {
-                this.filteredStreams = this.streams.filter(s => String(s.category_id) === String(catId));
-            }
-        }
-        
-        this.currentRenderLimit = 150;
-        this.renderStreams();
     }
 
     renderStreams(append = false) {
         const grid = document.getElementById('content-grid');
-        if (!append) grid.innerHTML = '';
         
-        const start = append ? this.currentRenderLimit - 150 : 0;
-        const toRender = this.filteredStreams.slice(start, this.currentRenderLimit);
-
-        toRender.forEach(stream => {
+        if (!append) {
+            grid.innerHTML = '';
+            this.currentRenderLimit = 150; // Start with 150
+            // Reset scroll position on the container
+            const container = document.querySelector('.content-area');
+            if (container) container.scrollTop = 0;
+        }
+        
+        let toRender = this.filteredStreams;
+        
+        if (toRender.length === 0) {
+            if (!append) grid.innerHTML = '<div class="empty-state">No content found</div>';
+            return;
+        }
+        
+        // Slice for infinite scroll
+        const startIndex = append ? this.currentRenderLimit - 150 : 0;
+        const renderList = toRender.slice(startIndex, this.currentRenderLimit);
+        
+        renderList.forEach(stream => {
             const card = document.createElement('div');
-            card.className = `card ${this.currentView === 'live' ? 'live' : ''}`;
+            card.className = `media-card ${this.currentView === 'vod' || this.currentView === 'series' ? 'vod' : ''}`;
             
-            const name = stream.name || stream.title;
-            const logo = stream.stream_icon || stream.cover || '';
-            const streamId = stream.stream_id || stream.series_id;
+            const name = stream.name || stream.title || 'Unknown';
+            const logo = stream.stream_icon || stream.cover || stream.logo || '';
+            const streamId = stream.stream_id || stream.series_id || null;
             
             let imgHtml = logo ? `<img src="${logo}" class="card-img" onerror="this.style.display='none'">` 
                                : `<div class="card-fallback">${name.substring(0,2)}</div>`;
@@ -434,6 +470,9 @@ class App {
                 </div>
                 <div class="card-info">
                     <div class="card-title">${name}</div>
+                    <div class="card-meta">
+                        <span>${this.currentView === 'live' ? 'LIVE' : 'VOD'}</span>
+                    </div>
                 </div>
             `;
             
@@ -444,19 +483,124 @@ class App {
                     } else if (this.currentView === 'vod') {
                         this.showMovieDetails(streamId, name, stream);
                     } else {
-                        const ext = stream.container_extension || 'ts';
-                        const url = this.api.buildStreamUrl(streamId, 'live', ext);
+                        const url = this.api.buildStreamUrl(streamId, 'live');
                         this.playVideo(url, name, stream.category_name || 'Channel');
                     }
                 } else {
-                    this.playVideo(stream.url, name, stream.category_name);
+                    // M3U stream
+                    this.playVideo(stream.url, name, stream.group);
                 }
             };
             grid.appendChild(card);
         });
     }
 
-    // --- Smarters Details Screens ---
+    // Video Player Logic
+    initVideoJS() {
+        if (!this.player) {
+            this.player = videojs('vjs-player', {
+                controls: true,
+                autoplay: true,
+                preload: 'auto',
+                liveui: true,
+                playbackRates: [1, 1.25, 1.5, 2]
+            });
+            this.player.on('error', () => {
+                this.showToast('Playback error occurred', 'error');
+            });
+        }
+    }
+
+    teardownSubPlayers() {
+        if (this.hls) {
+            this.hls.destroy();
+            this.hls = null;
+        }
+        if (this.mpegts) {
+            this.mpegts.unload();
+            this.mpegts.detachMediaElement();
+            this.mpegts.destroy();
+            this.mpegts = null;
+        }
+        if (this.player) {
+            this.player.pause();
+            this.player.reset();
+        }
+    }
+
+    playVideo(url, title, category) {
+        document.getElementById('np-title').innerText = title;
+        document.getElementById('np-category').innerText = category;
+        const overlay = document.getElementById('player-overlay');
+        overlay.classList.add('active');
+        lucide.createIcons();
+
+        this.initVideoJS();
+
+        this.player.ready(() => {
+            this.teardownSubPlayers();
+
+            // Convert raw live .ts streams to .m3u8 HLS playlists.
+            // Raw .ts streams are infinite and will cause timeouts on serverless proxies (Vercel).
+            // HLS chunks are small and finite, allowing the proxy to handle them successfully.
+            let streamUrl = url;
+            if (streamUrl.includes('/live/') && streamUrl.split('?')[0].endsWith('.ts')) {
+                streamUrl = streamUrl.replace(/\.ts(\?|$)/, '.m3u8$1');
+            }
+
+            // Use Proxy to bypass CORS
+            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+            
+            const isLive = this.currentView === 'live' || this.authMode === 'm3u';
+            const stype = this.getStreamType(streamUrl);
+            const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
+
+            if (!vidEl) {
+                console.error("Video element not ready");
+                return;
+            }
+
+            // Always clear previous errors
+            this.player.error(null);
+
+            if (stype === 'ts') {
+                if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
+                    this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
+                    this.mpegts.attachMediaElement(vidEl);
+                    this.mpegts.load();
+                    this.mpegts.on(mpegts.Events.ERROR, (t) => { 
+                        console.error('MPEG-TS Error:', t); 
+                        this.showToast('Stream Error: ' + t, 'error');
+                    });
+                    this.player.play().catch(e => console.warn(e));
+                } else {
+                    this.player.src({ src: proxyUrl, type: 'video/mp2t' });
+                    this.player.play().catch(e => console.warn(e));
+                }
+            } else if (stype === 'm3u8' || stype === 'hls') {
+                // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
+                this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
+                this.player.play().catch(e => console.warn(e));
+            } else {
+                this.player.src({ src: proxyUrl, type: 'video/mp4' });
+                this.player.play().catch(e => console.warn(e));
+            }
+        });
+    }
+
+    stopPlayer() {
+        const overlay = document.getElementById('player-overlay');
+        overlay.classList.remove('active');
+        this.teardownSubPlayers();
+    }
+
+    getStreamType(url) {
+        const u = url.toLowerCase().split('?')[0];
+        if (u.includes('.m3u8')) return 'm3u8';
+        if (u.includes('.ts')) return 'ts';
+        if (u.includes('.mp4') || u.includes('.mkv')) return 'mp4';
+        return 'ts'; // Default assumption for IPTV
+    }
 
     async showMovieDetails(streamId, name, streamObj) {
         this.setLoading(true);
@@ -467,7 +611,7 @@ class App {
             document.getElementById('movie-info-overlay').style.display = 'flex';
             
             const posterImg = info.movie_image || info.cover || streamObj.stream_icon;
-            document.getElementById('mi-poster').innerHTML = posterImg ? `<img src="${posterImg}">` : '';
+            document.getElementById('mi-poster').innerHTML = posterImg ? `<img src="${posterImg}" style="width:100%; height:100%; object-fit:cover;">` : '';
             document.getElementById('mi-title').innerText = info.name || name;
             
             document.getElementById('mi-meta').innerHTML = `
@@ -527,11 +671,17 @@ class App {
             
             seasons.forEach((s, idx) => {
                 const el = document.createElement('div');
-                el.className = `season-item ${idx === 0 ? 'active' : ''}`;
+                el.style.cssText = `padding: 16px 24px; font-size: 1.2rem; font-weight: 600; cursor: pointer; transition: 0.2s; border-left: 4px solid ${idx === 0 ? 'var(--primary)' : 'transparent'}; background: ${idx === 0 ? 'rgba(59, 130, 246, 0.15)' : 'transparent'}; color: ${idx === 0 ? 'var(--primary)' : 'inherit'};`;
                 el.innerText = `Season ${s}`;
                 el.onclick = () => {
-                    document.querySelectorAll('.season-item').forEach(x => x.classList.remove('active'));
-                    el.classList.add('active');
+                    Array.from(seasonsContainer.children).forEach(x => {
+                        x.style.borderLeftColor = 'transparent';
+                        x.style.background = 'transparent';
+                        x.style.color = 'inherit';
+                    });
+                    el.style.borderLeftColor = 'var(--primary)';
+                    el.style.background = 'rgba(59, 130, 246, 0.15)';
+                    el.style.color = 'var(--primary)';
                     this.renderSmartersEpisodes(groupedEps[s], s);
                 };
                 seasonsContainer.appendChild(el);
@@ -552,18 +702,20 @@ class App {
         
         episodes.forEach(ep => {
             const card = document.createElement('div');
-            card.className = 'ep-card';
+            card.style.cssText = 'display: flex; background: rgba(30, 42, 71, 0.7); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; overflow: hidden; cursor: pointer; transition: 0.2s; height: 120px;';
+            card.onmouseenter = () => { card.style.borderColor = 'var(--primary)'; card.style.transform = 'translateX(10px)'; };
+            card.onmouseleave = () => { card.style.borderColor = 'rgba(255,255,255,0.1)'; card.style.transform = 'translateX(0)'; };
             
             const img = ep.info?.movie_image || ep.info?.cover || '';
-            const imgHtml = img ? `<img src="${img}">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#444">No Image</div>`;
+            const imgHtml = img ? `<img src="${img}" style="width:100%; height:100%; object-fit:cover;">` : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#444;background:#000;">No Image</div>`;
             
             card.innerHTML = `
-                <div class="ep-img">${imgHtml}</div>
-                <div class="ep-info">
-                    <div class="ep-title">${ep.title || `Episode ${ep.episode_num}`}</div>
-                    <div style="color:var(--text-muted); font-size:0.9rem">Season ${season} • Episode ${ep.episode_num}</div>
+                <div style="width: 200px; background: #000;">${imgHtml}</div>
+                <div style="padding: 20px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.2rem; font-weight: 600; margin-bottom: 8px;">${ep.title || `Episode ${ep.episode_num}`}</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Season ${season} • Episode ${ep.episode_num}</div>
                 </div>
-                <div class="ep-play">
+                <div style="margin-left: auto; padding: 0 30px; display: flex; align-items: center; color: var(--primary);">
                     <i-lucide name="play-circle" size="32"></i-lucide>
                 </div>
             `;
@@ -577,129 +729,9 @@ class App {
         });
         lucide.createIcons();
     }
-
-    // --- Video Player Logic ---
-
-    initVideoJS() {
-        if (!this.player) {
-            this.player = videojs('vjs-player', {
-                controls: true,
-                autoplay: true,
-                preload: 'auto',
-                liveui: true,
-                playbackRates: [1, 1.25, 1.5, 2]
-            });
-            this.player.on('error', () => {
-                const error = this.player.error();
-                if (error && error.code === 4) {
-                    this.showVlcFallback(this.player.currentSrc());
-                } else {
-                    this.showToast('Playback error occurred', 'error');
-                }
-            });
-        }
-    }
-
-    teardownSubPlayers() {
-        if (this.hls) {
-            this.hls.destroy();
-            this.hls = null;
-        }
-        if (this.mpegts) {
-            this.mpegts.unload();
-            this.mpegts.detachMediaElement();
-            this.mpegts.destroy();
-            this.mpegts = null;
-        }
-        if (this.player) {
-            this.player.pause();
-            this.player.reset();
-        }
-    }
-
-    playVideo(url, title, category) {
-        document.getElementById('np-title').innerText = title;
-        document.getElementById('np-category').innerText = category;
-        document.getElementById('vlc-fallback').style.display = 'none';
-        
-        const overlay = document.getElementById('player-overlay');
-        overlay.style.display = 'flex';
-        lucide.createIcons();
-
-        this.initVideoJS();
-
-        this.player.ready(() => {
-            this.teardownSubPlayers();
-
-            let streamUrl = url;
-            if (window.location.protocol === 'https:' && streamUrl.startsWith('http://')) {
-                streamUrl = streamUrl.replace('http://', 'https://');
-            }
-
-            const isLive = this.currentView === 'live' || this.authMode === 'm3u';
-            const stype = this.getStreamType(streamUrl);
-            const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
-
-            if (!vidEl) {
-                console.error("Video element not ready");
-                return;
-            }
-
-            this.player.error(null);
-
-            if (isLive) {
-                // Route through Edge proxy for CORS without Vercel timeouts
-                const proxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(streamUrl))}`;
-                
-                if (stype === 'ts') {
-                    if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
-                        this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: true, url: proxyUrl, cors: true });
-                        this.mpegts.attachMediaElement(vidEl);
-                        this.mpegts.load();
-                        this.mpegts.on(mpegts.Events.ERROR, (t) => { 
-                            console.error('MPEG-TS Error:', t); 
-                            this.showToast('Stream Error: ' + t, 'error');
-                        });
-                        this.player.play().catch(e => console.warn(e));
-                    } else {
-                        this.player.src({ src: proxyUrl, type: 'video/mp2t' });
-                        this.player.play().catch(e => console.warn(e));
-                    }
-                } else {
-                    this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
-                    this.player.play().catch(e => console.warn(e));
-                }
-            } else {
-                // Route VOD/Series through Edge Proxy to bypass limits and CORS
-                const edgeProxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(streamUrl))}`;
-                this.player.src({ src: edgeProxyUrl });
-                this.player.play().catch(e => console.warn(e));
-            }
-        });
-    }
-
-    showVlcFallback(streamUrl) {
-        document.getElementById('vlc-fallback').style.display = 'flex';
-        const btn = document.getElementById('btn-open-vlc');
-        btn.onclick = () => {
-            window.location.href = `vlc://${streamUrl}`;
-        };
-    }
-
-    stopPlayer() {
-        document.getElementById('player-overlay').style.display = 'none';
-        this.teardownSubPlayers();
-    }
-
-    getStreamType(url) {
-        const u = url.toLowerCase().split('?')[0];
-        if (u.includes('.m3u8')) return 'm3u8';
-        if (u.includes('.ts')) return 'ts';
-        if (u.includes('.mp4') || u.includes('.mkv') || u.includes('.avi')) return 'mp4';
-        return 'ts'; // Default assumption for IPTV
-    }
 }
 
+// Start App
 document.addEventListener('DOMContentLoaded', () => {
-    window.app = new App();
+    window.finntvApp = new App();
 });
