@@ -406,12 +406,6 @@ class App {
         }
         
         let toRender = this.filteredStreams;
-        if (this.currentCategory && this.currentCategory !== 'All' && this.authMode === 'm3u') {
-            toRender = toRender.filter(s => 
-                (s.category_id && s.category_id == this.currentCategory) ||
-                (s.category_name && s.category_name === this.currentCategory)
-            );
-        }
         
         if (toRender.length === 0) {
             if (!append) grid.innerHTML = '<div class="empty-state">No content found</div>';
