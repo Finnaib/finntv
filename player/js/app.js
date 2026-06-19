@@ -540,18 +540,23 @@ class App {
         this.player.ready(() => {
             this.teardownSubPlayers();
 
-            // Convert raw live .ts streams to .m3u8 HLS playlists.
-            // Raw .ts streams are infinite and will cause timeouts on serverless proxies (Vercel).
-            // HLS chunks are small and finite, allowing the proxy to handle them successfully.
+            // Convert raw live .ts streams to .m3u8 HLS playlists where possible.
             let streamUrl = url;
             if (streamUrl.includes('/live/') && streamUrl.split('?')[0].endsWith('.ts')) {
                 streamUrl = streamUrl.replace(/\.ts(\?|$)/, '.m3u8$1');
             }
 
-            // Use Proxy to bypass CORS
-            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
-            
             const isLive = this.currentView === 'live' || this.authMode === 'm3u';
+            
+            // Use stream_proxy.php for Live TV to parse tiny text playlists
+            // Use video_proxy.js (Edge function) for VOD/Series to stream huge MP4/MKV files without freezing
+            let proxyUrl;
+            if (isLive) {
+                proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+            } else {
+                proxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+            }
+            
             const stype = this.getStreamType(streamUrl);
             const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
 
@@ -560,7 +565,6 @@ class App {
                 return;
             }
 
-            // Always clear previous errors
             this.player.error(null);
 
             if (stype === 'ts') {
@@ -578,7 +582,6 @@ class App {
                     this.player.play().catch(e => console.warn(e));
                 }
             } else if (stype === 'm3u8' || stype === 'hls') {
-                // Trust video.js VHS engine for HLS, it is much more stable and won't throw SRC_NOT_SUPPORTED conflicts
                 this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
                 this.player.play().catch(e => console.warn(e));
             } else {
