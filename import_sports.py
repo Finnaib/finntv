@@ -51,7 +51,13 @@ def main():
             
             # Match keywords in category name
             cname_lower = cname.lower()
-            if 'sport' in cname_lower or 'fifa' in cname_lower or 'facebook' in cname_lower or 'bein' in cname_lower:
+            keywords = [
+                'sport', 'fifa', 'facebook', 'bein', 'wwe', 'ufc', 'boxing', 'nba', 'nfl', 'mlb', 'nhl', 
+                'cricket', 'tennis', 'golf', 'rugby', 'racing', 'f1', 'sky', 'espn', 'fox', 'supersport', 
+                'bt', 'sn', 'tsn', 'optus', 'dazn', 'football', 'soccer', 'wrestling'
+            ]
+            
+            if any(k in cname_lower for k in keywords):
                 target_cat_ids.add(cid)
 
         # 2. Fetch Live Streams
@@ -68,17 +74,16 @@ def main():
             cid = str(s.get('category_id', ''))
             name = s.get('name', '').lower()
             
-            # Include if category matches OR channel name matches keywords
-            if cid in target_cat_ids or 'sport' in name or 'fifa' in name or 'facebook' in name or 'bein' in name:
+            if cid in target_cat_ids or any(k in name for k in keywords):
                 target_streams.append(s)
 
         # 3. Write to sport.m3u
         if target_streams:
             m3u_path = "m3u/sport.m3u"
-            print(f"Found {len(target_streams)} matching channels. Writing to {m3u_path}...")
+            print(f"Found {len(target_streams)} matching channels. Appending to {m3u_path}...")
             
-            with open(m3u_path, "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n")
+            with open(m3u_path, "a", encoding="utf-8") as f:
+                f.write("\n\n##### [IMPORTED FROM XTREAM] #####\n\n")
                 
                 current_group = None
                 for item in target_streams:

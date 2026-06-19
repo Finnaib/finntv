@@ -133,10 +133,24 @@ SPORT_GROUP_MAP = {
     'beIN MAX':             'beIN Max',
 }
 
+sport_keywords = [
+    'sport', 'fifa', 'facebook', 'bein', 'wwe', 'ufc', 'boxing', 'nba', 'nfl', 'mlb', 'nhl', 
+    'cricket', 'tennis', 'golf', 'rugby', 'racing', 'f1', 'sky', 'espn', 'fox', 'supersport', 
+    'bt', 'sn', 'tsn', 'optus', 'dazn', 'football', 'soccer', 'wrestling'
+]
+
 for ch in catalog:
-    friendly = SPORT_GROUP_MAP.get(ch['group'])
+    gl = ch['group']
+    friendly = SPORT_GROUP_MAP.get(gl)
     if friendly:
         if friendly not in sport: sport[friendly] = []
         sport[friendly].append((ch['extinf'], ch['url']))
+    else:
+        name_lower = ch['name'].lower()
+        group_lower = gl.lower()
+        if any(k in group_lower for k in sport_keywords) or any(k in name_lower for k in sport_keywords):
+            fallback_cat = gl if gl else "General Sports"
+            if fallback_cat not in sport: sport[fallback_cat] = []
+            sport[fallback_cat].append((ch['extinf'], ch['url']))
 
-write_m3u('m3u/sport.m3u', sorted(SPORT_GROUP_MAP.values()), sport)
+write_m3u('m3u/sport.m3u', sorted(list(sport.keys())), sport)
