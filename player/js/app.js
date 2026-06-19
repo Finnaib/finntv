@@ -558,7 +558,8 @@ class App {
                 this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
                 this.player.play().catch(e => console.warn(e));
             } else {
-                this.player.src({ src: proxyUrl, type: 'video/mp4' });
+                // Bypass proxy for direct MP4/MKV to prevent server buffer limits/timeouts
+                this.player.src({ src: streamUrl, type: 'video/mp4' });
                 this.player.play().catch(e => console.warn(e));
             }
         });
@@ -582,7 +583,7 @@ class App {
         this.setLoading(true);
         try {
             const data = await this.api.getSeriesInfo(seriesId);
-            if (!data || !data.episodes) throw new Error("Could not load series info");
+            if (!data || (!data.episodes && !Array.isArray(data))) throw new Error("Could not load series info");
             
             document.getElementById('series-title').innerText = seriesName;
             const seasonsContainer = document.getElementById('series-seasons');
@@ -591,12 +592,28 @@ class App {
             seasonsContainer.innerHTML = '';
             episodesContainer.innerHTML = '';
             
-            const seasons = Object.keys(data.episodes);
+            // Normalize episodes data into { "Season X": [eps] }
+            let groupedEps = {};
+            let rawEpisodes = data.episodes || data;
+            
+            if (Array.isArray(rawEpisodes)) {
+                rawEpisodes.forEach(ep => {
+                    const s = ep.season || 1;
+                    if (!groupedEps[s]) groupedEps[s] = [];
+                    groupedEps[s].push(ep);
+                });
+            } else if (typeof rawEpisodes === 'object') {
+                groupedEps = rawEpisodes;
+            }
+            
+            const seasons = Object.keys(groupedEps).sort((a,b) => parseInt(a) - parseInt(b));
+            if (seasons.length === 0) throw new Error("No episodes found");
+            
             let currentSeason = seasons[0];
             
             const renderEpisodes = (season) => {
                 episodesContainer.innerHTML = '';
-                const eps = data.episodes[season] || [];
+                const eps = groupedEps[season] || [];
                 eps.forEach(ep => {
                     const card = document.createElement('div');
                     card.className = 'media-card vod';
@@ -634,6 +651,7 @@ class App {
             document.getElementById('series-overlay').style.display = 'block';
             lucide.createIcons();
         } catch (e) {
+            console.error("Series error:", e);
             this.showToast(e.message, 'error');
         }
         this.setLoading(false);
