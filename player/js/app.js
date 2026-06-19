@@ -485,30 +485,40 @@ class App {
             const stype = this.getStreamType(url);
             const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
 
-            // Give video.js a dummy source to stop it from complaining or spinning indefinitely
-            this.player.src({ src: proxyUrl, type: (stype === 'mp4' ? 'video/mp4' : (stype === 'ts' ? 'video/mp2t' : 'application/x-mpegURL')) });
+            if (!vidEl) {
+                console.error("Video element not ready");
+                return;
+            }
 
-            if (stype === 'ts' && typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback && vidEl) {
-                // If it's a raw TS stream and mpegts is available, use it over the video tag
-                this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
-                this.mpegts.attachMediaElement(vidEl);
-                this.mpegts.load();
-                this.mpegts.on(mpegts.Events.ERROR, (e) => { console.error('MPEG-TS Error:', e); });
-                this.player.play().catch(e => console.error(e));
-            } else if ((stype === 'm3u8' || stype === 'hls') && typeof Hls !== 'undefined' && Hls.isSupported() && vidEl) {
-                // Use HLS.js for better HLS performance than native Video.js VHS
-                this.hls = new Hls({ lowLatencyMode: isLive });
-                this.hls.loadSource(proxyUrl);
-                this.hls.attachMedia(vidEl);
-                this.hls.on(Hls.Events.MANIFEST_PARSED, () => { 
-                    this.player.play().catch(e => console.error(e)); 
-                });
-                this.hls.on(Hls.Events.ERROR, (e, data) => {
-                    if (data.fatal) console.error('HLS Error:', data);
-                });
+            if (stype === 'ts') {
+                if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
+                    this.mpegts = mpegts.createPlayer({ type: 'mse', isLive: isLive, url: proxyUrl, cors: true });
+                    this.mpegts.attachMediaElement(vidEl);
+                    this.mpegts.load();
+                    this.mpegts.on(mpegts.Events.ERROR, (t) => { console.error('MPEG-TS Error:', t); });
+                    this.player.play().catch(e => console.warn(e));
+                } else {
+                    this.player.src({ src: proxyUrl, type: 'video/mp2t' });
+                    this.player.play().catch(e => console.warn(e));
+                }
+            } else if (stype === 'm3u8' || stype === 'hls') {
+                if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                    this.hls = new Hls({ lowLatencyMode: isLive });
+                    this.hls.loadSource(proxyUrl);
+                    this.hls.attachMedia(vidEl);
+                    this.hls.on(Hls.Events.MANIFEST_PARSED, () => { 
+                        this.player.play().catch(e => console.warn(e)); 
+                    });
+                    this.hls.on(Hls.Events.ERROR, (e, data) => {
+                        if (data.fatal) console.error('HLS Error:', data);
+                    });
+                } else {
+                    this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
+                    this.player.play().catch(e => console.warn(e));
+                }
             } else {
-                // Fallback to native Video.js (works for mp4, or native HLS on Safari)
-                this.player.play().catch(e => console.error(e));
+                this.player.src({ src: proxyUrl, type: 'video/mp4' });
+                this.player.play().catch(e => console.warn(e));
             }
         });
     }
