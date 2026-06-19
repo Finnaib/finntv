@@ -648,7 +648,8 @@ class App {
             this.player.error(null);
 
             if (isLive) {
-                const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+                // Route through Edge proxy for CORS without Vercel timeouts
+                const proxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(streamUrl))}`;
                 
                 if (stype === 'ts') {
                     if (typeof mpegts !== 'undefined' && mpegts.getFeatureList().mseLivePlayback) {
