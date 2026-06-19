@@ -12431,41 +12431,20 @@ http://mhav1.com:2095/live/ht2990/742579548/178106.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nat. Geo. Wild HD" tvg-logo="" group-title="STC TV",Nat. Geo. Wild HD
 http://mhav1.com:2095/live/ht2990/742579548/178107.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema + US" tvg-logo="" group-title="STC TV",Rotana Cinema + US
-http://mhav1.com:2095/live/ht2990/742579548/178101.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="STC Cartonito" tvg-logo="" group-title="STC TV",STC Cartonito
 http://mhav1.com:2095/live/ht2990/742579548/173377.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="STC TV Cinema" tvg-logo="" group-title="STC TV",STC TV Cinema
 http://mhav1.com:2095/live/ht2990/742579548/173372.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="STC TV Drama" tvg-logo="" group-title="STC TV",STC TV Drama
-http://mhav1.com:2095/live/ht2990/742579548/173373.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="STC TV family" tvg-logo="" group-title="STC TV",STC TV family
-http://mhav1.com:2095/live/ht2990/742579548/173376.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="STC_Tv_8" tvg-logo="" group-title="STC TV",STC_Tv_8
 http://mhav1.com:2095/live/ht2990/742579548/170285.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SmartZone" tvg-logo="" group-title="STC TV",SmartZone
-http://mhav1.com:2095/live/ht2990/742579548/174135.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 1 TV" tvg-logo="" group-title="STC TV",Stc Sport 1 TV
-http://mhav1.com:2095/live/ht2990/742579548/173375.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 2 TV" tvg-logo="" group-title="STC TV",Stc Sport 2 TV
-http://mhav1.com:2095/live/ht2990/742579548/170194.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:2095/live/ht2990/742579548/243882.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 4 TV" tvg-logo="" group-title="STC TV",Stc Sport 4 TV
 http://mhav1.com:2095/live/ht2990/742579548/259480.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TRACE SPORT STARTS [GOBX]" tvg-logo="" group-title="STC TV",TRACE SPORT STARTS [GOBX]
-http://mhav1.com:2095/live/ht2990/742579548/30541.ts
 
 
 ##### [Saudi  - السعوديه] #####
@@ -15578,6 +15557,9 @@ http://mhav1.com:2095/live/ht2990/742579548/40802.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_1080p
 http://mhav1.com:2095/live/ht2990/742579548/40809.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_H265
+http://mhav1.com:2095/live/ht2990/742579548/285156.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_HD
 http://mhav1.com:2095/live/ht2990/742579548/11213.ts
 
@@ -15587,11 +15569,17 @@ http://mhav1.com:2095/live/ht2990/742579548/40805.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_SD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_SD
 http://mhav1.com:2095/live/ht2990/742579548/40815.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Ultra_4K" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_Ultra_4K
+http://mhav1.com:2095/live/ht2990/742579548/285158.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40803.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_1080p
 http://mhav1.com:2095/live/ht2990/742579548/40810.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_H265
+http://mhav1.com:2095/live/ht2990/742579548/285157.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HD
 http://mhav1.com:2095/live/ht2990/742579548/11214.ts
@@ -15602,8 +15590,41 @@ http://mhav1.com:2095/live/ht2990/742579548/40806.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_SD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_SD
 http://mhav1.com:2095/live/ht2990/742579548/40816.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Ultra_4K" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_Ultra_4K
+http://mhav1.com:2095/live/ht2990/742579548/285159.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40804.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_1080p
+http://mhav1.com:2095/live/ht2990/742579548/284746.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_HD
+http://mhav1.com:2095/live/ht2990/742579548/284748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_Low
+http://mhav1.com:2095/live/ht2990/742579548/41079.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_SD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_SD
+http://mhav1.com:2095/live/ht2990/742579548/41081.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_VEGA
+http://mhav1.com:2095/live/ht2990/742579548/41077.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_1080p
+http://mhav1.com:2095/live/ht2990/742579548/284747.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HD
+http://mhav1.com:2095/live/ht2990/742579548/284749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_Low
+http://mhav1.com:2095/live/ht2990/742579548/41080.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_SD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_SD
+http://mhav1.com:2095/live/ht2990/742579548/41082.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_VEGA
+http://mhav1.com:2095/live/ht2990/742579548/41078.ts
 
 
 ##### [beIN Movies - بي ان الترفهيه] #####
