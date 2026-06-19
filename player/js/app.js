@@ -552,7 +552,7 @@ class App {
             // Use video_proxy.js (Edge function) for VOD/Series to stream huge MP4/MKV files without freezing
             let proxyUrl;
             if (isLive) {
-                proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+                proxyUrl = `../api/stream_proxy_fixed.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
             } else {
                 proxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
             }

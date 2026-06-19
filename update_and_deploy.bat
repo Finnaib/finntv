@@ -29,6 +29,11 @@ python collect_external.py
 if %errorlevel% neq 0 (
     echo Warning: External collection had issues, check output above.
 )
+echo Collecting Samsung TV Plus channels (fetch_samsung.py)...
+python fetch_samsung.py
+if %errorlevel% neq 0 (
+    echo Warning: Samsung TV Plus collection had issues, check output above.
+)
 echo Building Spanish channels (collect_external.py already generated spanish.m3u)...
 REM python build_spanish.py
 REM if %errorlevel% neq 0 (
