@@ -501,11 +501,19 @@ class App {
         this.player.ready(() => {
             this.teardownSubPlayers();
 
+            // Convert raw live .ts streams to .m3u8 HLS playlists.
+            // Raw .ts streams are infinite and will cause timeouts on serverless proxies (Vercel).
+            // HLS chunks are small and finite, allowing the proxy to handle them successfully.
+            let streamUrl = url;
+            if (streamUrl.includes('/live/') && streamUrl.split('?')[0].endsWith('.ts')) {
+                streamUrl = streamUrl.replace(/\.ts(\?|$)/, '.m3u8$1');
+            }
+
             // Use Proxy to bypass CORS
-            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(url))))}`;
+            const proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
             
             const isLive = this.currentView === 'live' || this.authMode === 'm3u';
-            const stype = this.getStreamType(url);
+            const stype = this.getStreamType(streamUrl);
             const vidEl = this.player.tech(true) ? this.player.tech(true).el() : null;
 
             if (!vidEl) {
