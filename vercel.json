@@ -39,7 +39,8 @@
                        "src":  "/m3u/(.*\\.m3u)",
                        "dest":  "/m3u/$1",
                        "headers":  {
-                                       "Content-Type":  "application/x-mpegurl"
+                                       "Content-Type":  "application/x-mpegurl",
+                                       "Cache-Control":  "public, max-age=0, must-revalidate"
                                    }
                    },
 
