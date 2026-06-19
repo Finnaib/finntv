@@ -599,10 +599,10 @@ class App {
 
     getStreamType(url) {
         const u = url.toLowerCase().split('?')[0];
-        if (u.includes('.m3u8')) return 'm3u8';
+        if (u.includes('.m3u8') || u.includes('jmp2.uk') || u.includes('samsungtvplus')) return 'm3u8';
         if (u.includes('.ts')) return 'ts';
         if (u.includes('.mp4') || u.includes('.mkv')) return 'mp4';
-        return 'ts'; // Default assumption for IPTV
+        return 'm3u8'; // Defaulting to HLS since it's the standard for most modern web playlists
     }
 
     async showMovieDetails(streamId, name, streamObj) {
