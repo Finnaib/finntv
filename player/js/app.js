@@ -142,6 +142,16 @@ class App {
                 <div class="spinner"></div>
                 <h2>Loading...</h2>
             </div>
+
+            <!-- Series Details Overlay -->
+            <div id="series-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg-color); z-index:900; overflow-y:auto; padding: 20px;">
+                <div class="series-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+                    <h2 id="series-title" class="brand-font">Series Name</h2>
+                    <button class="btn btn-primary" id="btn-close-series"><i-lucide name="x"></i-lucide> Close</button>
+                </div>
+                <div id="series-seasons" style="display:flex; gap:10px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 10px;"></div>
+                <div id="series-episodes" class="grid-container"></div>
+            </div>
         `;
 
         // Bind Login Events
@@ -199,6 +209,10 @@ class App {
         const playerOverlay = document.getElementById('player-overlay');
         const playerHeader = playerOverlay.querySelector('.player-header');
         playerHeader.classList.remove('idle');
+
+        document.getElementById('btn-close-series').addEventListener('click', () => {
+            document.getElementById('series-overlay').style.display = 'none';
+        });
         
         // Infinite scroll listener
         const contentArea = document.querySelector('.content-area');
@@ -442,9 +456,10 @@ class App {
             card.onclick = () => {
                 if (this.authMode === 'xtream') {
                     if (this.currentView === 'series') {
-                        this.showToast('Series details view coming soon', 'info');
+                        this.showSeriesDetails(streamId, name);
                     } else {
-                        const url = this.api.buildStreamUrl(streamId, this.currentView === 'vod' ? 'movie' : 'live');
+                        const ext = stream.container_extension || (this.currentView === 'vod' ? 'mp4' : 'ts');
+                        const url = this.api.buildStreamUrl(streamId, this.currentView === 'vod' ? 'movie' : 'live', ext);
                         this.playVideo(url, name, stream.category_name || 'Channel');
                     }
                 } else {
@@ -559,8 +574,69 @@ class App {
         const u = url.toLowerCase().split('?')[0];
         if (u.includes('.m3u8')) return 'm3u8';
         if (u.includes('.ts')) return 'ts';
-        if (u.includes('.mp4') || u.includes('.mkv')) return 'mp4';
+        if (u.includes('.mp4') || u.includes('.mkv') || u.includes('.avi')) return 'mp4';
         return 'ts'; // Default assumption for IPTV
+    }
+
+    async showSeriesDetails(seriesId, seriesName) {
+        this.setLoading(true);
+        try {
+            const data = await this.api.getSeriesInfo(seriesId);
+            if (!data || !data.episodes) throw new Error("Could not load series info");
+            
+            document.getElementById('series-title').innerText = seriesName;
+            const seasonsContainer = document.getElementById('series-seasons');
+            const episodesContainer = document.getElementById('series-episodes');
+            
+            seasonsContainer.innerHTML = '';
+            episodesContainer.innerHTML = '';
+            
+            const seasons = Object.keys(data.episodes);
+            let currentSeason = seasons[0];
+            
+            const renderEpisodes = (season) => {
+                episodesContainer.innerHTML = '';
+                const eps = data.episodes[season] || [];
+                eps.forEach(ep => {
+                    const card = document.createElement('div');
+                    card.className = 'media-card vod';
+                    const imgHtml = ep.info && ep.info.movie_image ? `<img src="${ep.info.movie_image}" class="card-img" onerror="this.style.display='none'">` : `<div class="card-fallback">EP</div>`;
+                    
+                    card.innerHTML = `
+                        <div class="card-img-wrapper">${imgHtml}</div>
+                        <div class="card-info">
+                            <div class="card-title">${ep.title || 'Episode ' + ep.episode_num}</div>
+                        </div>
+                    `;
+                    card.onclick = () => {
+                        const ext = ep.container_extension || 'mp4';
+                        const url = this.api.buildStreamUrl(ep.id, 'series', ext);
+                        this.playVideo(url, ep.title || `S${season} E${ep.episode_num}`, seriesName);
+                    };
+                    episodesContainer.appendChild(card);
+                });
+            };
+            
+            seasons.forEach(s => {
+                const btn = document.createElement('button');
+                btn.className = 'btn btn-primary';
+                btn.style.marginRight = '10px';
+                btn.innerText = `Season ${s}`;
+                btn.onclick = () => {
+                    currentSeason = s;
+                    renderEpisodes(s);
+                };
+                seasonsContainer.appendChild(btn);
+            });
+            
+            if (currentSeason) renderEpisodes(currentSeason);
+            
+            document.getElementById('series-overlay').style.display = 'block';
+            lucide.createIcons();
+        } catch (e) {
+            this.showToast(e.message, 'error');
+        }
+        this.setLoading(false);
     }
 }
 

@@ -54,6 +54,10 @@ export class XtreamAPI {
         return this._fetchAction(action);
     }
 
+    async getSeriesInfo(seriesId) {
+        return this._fetchAction(`get_series_info&series_id=${seriesId}`);
+    }
+
     buildStreamUrl(streamId, type = 'live', extension = 'ts') {
         if (type === 'live') {
             return `${this.serverUrl}/live/${this.username}/${this.password}/${streamId}.${extension}`;

@@ -56,7 +56,7 @@ function resolve_url($base, $rel) {
     return $abs;
 }
 
-$is_ts = (stripos($url, '.ts') !== false || stripos($url, '.m2t') !== false);
+$is_direct_stream = (stripos($url, '.ts') !== false || stripos($url, '.m2t') !== false || stripos($url, '.mp4') !== false || stripos($url, '.mkv') !== false || stripos($url, '.avi') !== false);
 $ua = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 $is_vita = (stripos($ua, 'Vita') !== false || stripos($ua, 'PlayStation') !== false);
 
@@ -70,10 +70,16 @@ curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) A
 curl_setopt($ch, CURLOPT_REFERER, $url);
 curl_setopt($ch, CURLOPT_TIMEOUT, 20); // Longer timeout to prevent "No Video" on slow sources
 
-if ($is_ts) {
+if ($is_direct_stream) {
     // Stream segments directly for memory efficiency
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
-    header("Content-Type: video/mp2t");
+    
+    $content_type = "video/mp2t"; // default
+    if (stripos($url, '.mp4') !== false) $content_type = "video/mp4";
+    elseif (stripos($url, '.mkv') !== false) $content_type = "video/x-matroska";
+    elseif (stripos($url, '.avi') !== false) $content_type = "video/x-msvideo";
+
+    header("Content-Type: " . $content_type);
     header("Cache-Control: public, max-age=3600");
     curl_exec($ch);
     curl_close($ch);
