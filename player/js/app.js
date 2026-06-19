@@ -568,8 +568,9 @@ class App {
                 this.player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
                 this.player.play().catch(e => console.warn(e));
             } else {
-                // Omit the type so the browser can sniff MKV vs MP4 natively
-                this.player.src({ src: streamUrl });
+                // Route through Edge streaming proxy for VOD/Series
+                const edgeProxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(streamUrl))}`;
+                this.player.src({ src: edgeProxyUrl });
                 this.player.play().catch(e => console.warn(e));
             }
         });
