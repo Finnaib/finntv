@@ -20,6 +20,33 @@ class App {
         this.renderShell();
         this.showLogin();
         lucide.createIcons();
+
+        // Auto-login logic for M3U links passed from the main site
+        const urlParams = new URLSearchParams(window.location.search);
+        const m3uUrl = urlParams.get('m3u');
+        if (m3uUrl) {
+            // Switch to M3U tab
+            const tabs = document.querySelectorAll('.auth-tab');
+            tabs.forEach(t => {
+                t.style.color = '#8c8c8c';
+                t.style.borderBottom = 'none';
+                t.classList.remove('active');
+            });
+            const m3uTab = document.querySelector('.auth-tab[data-mode="m3u"]');
+            if (m3uTab) {
+                m3uTab.style.color = '#fff';
+                m3uTab.style.borderBottom = '2px solid var(--primary)';
+                m3uTab.classList.add('active');
+            }
+            
+            this.authMode = 'm3u';
+            document.getElementById('xtream-fields').style.display = 'none';
+            document.getElementById('m3u-fields').style.display = 'block';
+            
+            // Fill input and auto-submit
+            document.getElementById('m-url').value = m3uUrl;
+            this.handleLogin();
+        }
     }
 
     renderShell() {
