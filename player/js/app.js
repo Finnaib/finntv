@@ -557,7 +557,9 @@ class App {
                     proxyUrl += '&noprx=1';
                 }
             } else {
-                proxyUrl = `../api/video_proxy.js?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+                // VOD/Series (MP4/MKV) are too large for Vercel Edge/Serverless limits to proxy continuously.
+                // We MUST stream them directly to the browser.
+                proxyUrl = streamUrl;
             }
             
             const stype = this.getStreamType(streamUrl);

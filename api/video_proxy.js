@@ -28,6 +28,13 @@ export default async function handler(req) {
         const fetchHeaders = new Headers();
         fetchHeaders.set('User-Agent', 'VLC/3.0.16 LibVLC/3.0.16');
         
+        // Forward client IP to prevent provider blocks
+        const clientIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
+        if (clientIp) {
+            fetchHeaders.set('X-Forwarded-For', clientIp);
+            fetchHeaders.set('X-Real-IP', clientIp);
+        }
+        
         const range = req.headers.get('range');
         if (range) fetchHeaders.set('range', range);
 
