@@ -59,12 +59,19 @@ echo Playlists updated and categorized successfully!
 echo.
 
 echo ==============================================
-set /p deploy="Do you want to commit and deploy to GitHub/Vercel? (Y/N): "
-if /i "%deploy%" neq "Y" (
-    echo.
-    echo Deployment skipped. Changes are ready but not committed.
-    pause
-    exit /b 0
+if /i "%~1" == "/auto" (
+    set deploy=Y
+    echo Auto mode enabled: Deployment proceeding without prompt.
+) else (
+    set /p deploy="Do you want to commit and deploy to GitHub/Vercel? (Y/N): "
+)
+
+if /i "!deploy!" neq "Y" (
+    if /i "%deploy%" neq "Y" (
+        echo.
+        echo Deployment skipped. Changes are ready but not committed.
+        exit /b 0
+    )
 )
 
 echo.
@@ -108,4 +115,4 @@ echo.
 echo You can check deployment status at:
 echo https://vercel.com/dashboard
 echo.
-pause
+if /i "%~1" neq "/auto" pause

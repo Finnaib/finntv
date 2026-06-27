@@ -38,5 +38,5 @@ jobs:
 
       - name: Run Update and Deploy (Using your script)
         run: |
-          echo Y | call update_and_deploy.bat
+          call update_and_deploy.bat /auto
         shell: cmd
