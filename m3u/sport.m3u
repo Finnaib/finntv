@@ -5,12 +5,6 @@
 # India
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: BTV Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/176fb982faacd039573803549e283510.png" group-title="India",IN: BTV Bangla
-http://mhav1.com:2095/live/ht2990/742579548/212395.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: BTV World Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-07/9ab1e84bd991823885308abaa9e6bef9.png" group-title="India",IN: BTV World Bangla
-http://mhav1.com:2095/live/ht2990/742579548/212394.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
 http://mhav1.com:2095/live/ht2990/742579548/212605.ts
 
@@ -38,37 +32,37 @@ http://mhav1.com:2095/live/ht2990/742579548/212594.ts
 #EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
 http://mhav1.com:2095/live/ht2990/742579548/212593.ts
 
-#EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260506T005134SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
+#EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260623T014724SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
 https://jmp2.uk/stvp-IN1300001NN
 
-#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260506T005137SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
+#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260623T014854SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
 https://jmp2.uk/stvp-IN270000230
 
-#EXTINF:-1 tvg-chno="1167" tvg-id="INBD4700014DU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700014DU_20240417T022455SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1167. MAVTV Motorsports
+#EXTINF:-1 tvg-chno="1167" tvg-id="INBD4700014DU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700014DU_20260623T015231SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1167. MAVTV Motorsports
 https://jmp2.uk/stvp-INBD4700014DU
 
-#EXTINF:-1 tvg-chno="1168" tvg-id="INBA49000067X" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA49000067X_20240131T032322SQUARE.png_20240131032323.png" tvg-country="IN" group-title="India",[Sports] 1168. INTROUBLE
+#EXTINF:-1 tvg-chno="1168" tvg-id="INBA49000067X" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA49000067X_20260623T012359SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1168. INTROUBLE
 https://jmp2.uk/stvp-INBA49000067X
 
-#EXTINF:-1 tvg-chno="1169" tvg-id="INBA4900030PY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900030PY_20240131T032331SQUARE.png_20240131032331.png" tvg-country="IN" group-title="India",[Sports] 1169. Motorvision.TV
+#EXTINF:-1 tvg-chno="1169" tvg-id="INBA4900030PY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900030PY_20260623T012602SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1169. Motorvision.TV
 https://jmp2.uk/stvp-INBA4900030PY
 
-#EXTINF:-1 tvg-chno="2217" tvg-id="IN8000085E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN8000085E_20250910T004955SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2217. TRACE Sport Stars
+#EXTINF:-1 tvg-chno="2217" tvg-id="IN8000085E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN8000085E_20260623T015705SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2217. TRACE Sport Stars
 https://jmp2.uk/stvp-IN8000085E
 
-#EXTINF:-1 tvg-chno="2589" tvg-id="IN400057EZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400057EZ_20260325T012305SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2589. Golf Network
+#EXTINF:-1 tvg-chno="2589" tvg-id="IN400057EZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400057EZ_20260623T014948SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2589. Golf Network
 https://jmp2.uk/stvp-IN400057EZ
 
-#EXTINF:-1 tvg-chno="2605" tvg-id="IN300086YL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300086YL_20260325T012302SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2605. Fight TV
+#EXTINF:-1 tvg-chno="2605" tvg-id="IN300086YL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN300086YL_20260623T014859SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2605. Fight TV
 https://jmp2.uk/stvp-IN300086YL
 
-#EXTINF:-1 tvg-chno="2640" tvg-id="IN4600020Q3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600020Q3_20260415T004751SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2640. Pickleball Now
+#EXTINF:-1 tvg-chno="2640" tvg-id="IN4600020Q3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600020Q3_20260623T015532SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2640. Pickleball Now
 https://jmp2.uk/stvp-IN4600020Q3
 
-#EXTINF:-1 tvg-chno="2641" tvg-id="IN3000899C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000899C_20260422T010209SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2641. Sports Live
+#EXTINF:-1 tvg-chno="2641" tvg-id="IN3000899C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000899C_20260623T015652SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2641. Sports Live
 https://jmp2.uk/stvp-IN3000899C
 
-#EXTINF:-1 tvg-chno="2642" tvg-id="IN400056QQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400056QQ_20260408T011456SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2642. Ace TV
+#EXTINF:-1 tvg-chno="2642" tvg-id="IN400056QQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400056QQ_20260623T013607SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2642. Ace TV
 https://jmp2.uk/stvp-IN400056QQ
 
 
@@ -1374,7 +1368,7 @@ https://jmp2.uk/stvp-CA700002VS
 #EXTINF:-1 tvg-chno="2316" tvg-id="CA1700007YN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1700007YN_20251125T031020SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2316. Donut
 https://jmp2.uk/stvp-CA1700007YN
 
-#EXTINF:-1 tvg-chno="2706" tvg-id="CA1000004ZW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1000004ZW_20260602T091745SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2706. MotoAmerica TV
+#EXTINF:-1 tvg-chno="2706" tvg-id="CA1000004ZW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1000004ZW_20260622T060242SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2706. MotoAmerica TV
 https://jmp2.uk/stvp-CA1000004ZW
 
 #EXTINF:-1 tvg-chno="298" tvg-id="CA1400001PI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400001PI_20260428T032050SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 298. MLB Channel
@@ -1431,7 +1425,7 @@ https://jmp2.uk/stvp-CA46000098X
 #EXTINF:-1 tvg-chno="2019" tvg-id="CA11000032G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA11000032G_20250523T232021SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2019. Unbeaten Sports Channel
 https://jmp2.uk/stvp-CA11000032G
 
-#EXTINF:-1 tvg-chno="2036" tvg-id="CA1300004QB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1300004QB_20260616T032318SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2036. PGA Tour
+#EXTINF:-1 tvg-chno="2036" tvg-id="CA1300004QB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1300004QB_20260622T060254SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2036. PGA Tour
 https://jmp2.uk/stvp-CA1300004QB
 
 #EXTINF:-1 tvg-chno="2134" tvg-id="CA210000317" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA210000317_20250819T224301SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2134. MeatEater
@@ -1451,6 +1445,9 @@ https://jmp2.uk/stvp-CA4100006T3
 
 #EXTINF:-1 tvg-chno="2647" tvg-id="CA200052YY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA200052YY_20260512T070212SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2647. Victory+
 https://jmp2.uk/stvp-CA200052YY
+
+#EXTINF:-1 tvg-chno="2791" tvg-id="CA1800005O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1800005O1_20260622T060303SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2791. Triton Poker
+https://jmp2.uk/stvp-CA1800005O1
 
 
 ################################################################################
@@ -1687,7 +1684,7 @@ https://jmp2.uk/stvp-FR5000002SW
 #EXTINF:-1 tvg-chno="2028" tvg-id="FR200016Y5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR200016Y5_20250422T103213SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2028. L'Equipe
 https://jmp2.uk/stvp-FR200016Y5
 
-#EXTINF:-1 tvg-chno="2029" tvg-id="FR1100002RF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1100002RF_20260609T043348SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2029. AFTER FOOT TV
+#EXTINF:-1 tvg-chno="2029" tvg-id="FR1100002RF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1100002RF_20260622T063925SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2029. AFTER FOOT TV
 https://jmp2.uk/stvp-FR1100002RF
 
 #EXTINF:-1 tvg-chno="2561" tvg-id="FR110000354" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR110000354_20260224T031013SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2561. Top Barça
@@ -2534,6 +2531,9 @@ https://jmp2.uk/stvp-IT800003V4
 
 #EXTINF:-1 tvg-chno="2761" tvg-id="IT16000070D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT16000070D_20260528T053649SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2761. Sportface
 https://jmp2.uk/stvp-IT16000070D
+
+#EXTINF:-1 tvg-chno="2796" tvg-id="IT4000089R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4000089R_20260622T064242SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2796. LBA Classics
+https://jmp2.uk/stvp-IT4000089R
 
 
 ################################################################################
@@ -3896,9 +3896,6 @@ https://jmp2.uk/stvp-ESBD2600001ME
 #EXTINF:-1 tvg-chno="618" tvg-id="ES30000091V" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES30000091V_20241022T050555SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 618. MyPadel TV
 https://jmp2.uk/stvp-ES30000091V
 
-#EXTINF:-1 tvg-chno="620" tvg-id="ESBD3600001Q1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3600001Q1_20241022T050545SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 620. La Liga Inside
-https://jmp2.uk/stvp-ESBD3600001Q1
-
 #EXTINF:-1 tvg-chno="621" tvg-id="ES3200003OC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3200003OC_20251230T030907SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 621. DFB Play TV
 https://jmp2.uk/stvp-ES3200003OC
 
@@ -4571,6 +4568,12 @@ https://jmp2.uk/stvp-GB4200009EC
 #EXTINF:-1 tvg-chno="2693" tvg-id="GB500013LT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500013LT_20260505T035911SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Sport] 2693. Wrestling Legends TV
 https://jmp2.uk/stvp-GB500013LT
 
+#EXTINF:-1 tvg-chno="2794" tvg-id="GB380000473" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB380000473_20260622T064057SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Sport] 2794. Sports First TV
+https://jmp2.uk/stvp-GB380000473
+
+#EXTINF:-1 tvg-chno="2795" tvg-id="GB4700003NV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4700003NV_20260622T064044SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Sport] 2795. Padel Time TV
+https://jmp2.uk/stvp-GB4700003NV
+
 
 ################################################################################
 # United States
@@ -4609,8 +4612,11 @@ https://jmp2.uk/stvp-US17000281T
 #EXTINF:-1 tvg-chno="2394" tvg-id="US3500007C4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3500007C4_20260421T143306SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 2394. MotoGP Channel
 https://jmp2.uk/stvp-US3500007C4
 
-#EXTINF:-1 tvg-chno="2765" tvg-id="US1000014I6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000014I6_20260616T032113SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 2765. MotoAmerica TV
+#EXTINF:-1 tvg-chno="2765" tvg-id="US1000014I6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000014I6_20260622T055749SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 2765. MotoAmerica TV
 https://jmp2.uk/stvp-US1000014I6
+
+#EXTINF:-1 tvg-chno="2798" tvg-id="US190002290" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US190002290_20260622T055742SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 2798. Carwow
+https://jmp2.uk/stvp-US190002290
 
 #EXTINF:-1 tvg-chno="1797" tvg-id="US2600007WJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600007WJ_20260421T143233SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1797. NFL Channel
 https://jmp2.uk/stvp-US2600007WJ
@@ -4756,7 +4762,7 @@ https://jmp2.uk/stvp-US20000131M
 #EXTINF:-1 tvg-chno="2597" tvg-id="US4100032W9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100032W9_20260421T143026SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2597. MiLB
 https://jmp2.uk/stvp-US4100032W9
 
-#EXTINF:-1 tvg-chno="2668" tvg-id="US100000704" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US100000704_20260602T091447SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2668. CBS Sports Golazo Network
+#EXTINF:-1 tvg-chno="2668" tvg-id="US100000704" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US100000704_20260622T055734SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2668. CBS Sports Golazo Network
 https://jmp2.uk/stvp-US100000704
 
 #EXTINF:-1 tvg-chno="2669" tvg-id="US1000006HT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000006HT_20260421T142118SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2669. Bellator MMA
@@ -4767,6 +4773,9 @@ https://jmp2.uk/stvp-US1000012ML
 
 #EXTINF:-1 tvg-chno="2682" tvg-id="US400221W2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400221W2_20260609T035216SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2682. Scripps Sports Network
 https://jmp2.uk/stvp-US400221W2
+
+#EXTINF:-1 tvg-chno="2799" tvg-id="US18000206C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000206C_20260622T055821SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2799. Triton Poker
+https://jmp2.uk/stvp-US18000206C
 
 
 ################################################################################

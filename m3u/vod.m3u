@@ -143,6 +143,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/181927.mkv
 #EXTINF:-1 tvg-id="" tvg-name="A Family Reunion Christmas" tvg-logo="http://images.vega-xt-mh.com:80/images/dQBdhl5ogydQVjoWIqagC6jJPzi_big.jpg" group-title="Amazon",A Family Reunion Christmas
 http://mhav1.com:2095/movie/ht2990/742579548/166792.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="A Good Year" tvg-logo="http://images.vega-xt-mh.com:80/images/10ErazhJxfL68rWg2KLfwiRuIou_big.jpg" group-title="Amazon",A Good Year
+http://mhav1.com:2095/movie/ht2990/742579548/286870.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="A Mothers Fury" tvg-logo="http://images.vega-xt-mh.com:80/images/gwrIt6UKSey489CH4mtZKt5lwVQ_big.jpg" group-title="Amazon",A Mothers Fury
 http://mhav1.com:2095/movie/ht2990/742579548/49213.mkv
 
@@ -1642,6 +1645,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/258786.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Wild Pear Tree" tvg-logo="http://images.vega-xt-mh.com:80/images/9QNUj1e6MdyuRKxWg4v2riG97In_big.jpg" group-title="Amazon",The Wild Pear Tree
 http://mhav1.com:2095/movie/ht2990/742579548/182911.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Words" tvg-logo="http://images.vega-xt-mh.com:80/images/aJtPLZS7tlpiQl6pEr8H42K565x_big.jpg" group-title="Amazon",The Words
+http://mhav1.com:2095/movie/ht2990/742579548/286871.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The.Island 2005" tvg-logo="https://i.redd.it/fcftk3m9c8cb1.jpg" group-title="Amazon",The.Island 2005
 http://mhav1.com:2095/movie/ht2990/742579548/244820.mkv
@@ -3389,6 +3395,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/241010.mkv
 #EXTINF:-1 tvg-id="" tvg-name="HD الهوى سلطان" tvg-logo="http://images.vega-xt-mh.com:80/images/vJ9598K1QL8nTYzWgKyw80e6snX_big.jpg" group-title="Arabic HD 1080",HD الهوى سلطان
 http://mhav1.com:2095/movie/ht2990/742579548/251206.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HD ان غاب القط" tvg-logo="http://images.vega-xt-mh.com:80/images/gjeRJALgxL1lTN0pn8r1pyoBH3Y_big.jpg" group-title="Arabic HD 1080",HD ان غاب القط
+http://mhav1.com:2095/movie/ht2990/742579548/286679.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="HD انا لحبيبى" tvg-logo="http://images.vega-xt-mh.com:80/images/oVPmgVlR2DphW6l7c0LjhoWaCrQ_big.jpg" group-title="Arabic HD 1080",HD انا لحبيبى
 http://mhav1.com:2095/movie/ht2990/742579548/233691.mkv
 
@@ -3502,6 +3511,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/247525.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="HD كنغر حبنا" tvg-logo="http://images.vega-xt-mh.com:80/images/c8Z7nluZrevLLwdIuKI3mF9eRqr_big.jpg" group-title="Arabic HD 1080",HD كنغر حبنا
 http://mhav1.com:2095/movie/ht2990/742579548/246049.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="HD كولونيا" tvg-logo="http://images.vega-xt-mh.com:80/images/vX33QkMNErYXisALNoz81UFG2VS_big.jpg" group-title="Arabic HD 1080",HD كولونيا
+http://mhav1.com:2095/movie/ht2990/742579548/286680.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="HD ليلة هنا وسرور" tvg-logo="http://images.vega-xt-mh.com:80/images/i7wK2vqBpfrIgpIW1Lym3mUngcj_big.jpg" group-title="Arabic HD 1080",HD ليلة هنا وسرور
 http://mhav1.com:2095/movie/ht2990/742579548/272892.mkv
@@ -5240,8 +5252,8 @@ http://mhav1.com:2095/movie/ht2990/742579548/71695.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الانسه مامي" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1RWwv2otEB8agBDc6ktVilKNsL.jpg" group-title="Arabic premier",الانسه مامي
 http://mhav1.com:2095/movie/ht2990/742579548/14829.mp4
 
-#EXTINF:-1 tvg-id="" tvg-name="الباب يفوت امل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/b7cP73s7bWZ4rGZY8KqsHweoLot.jpg" group-title="Arabic premier",الباب يفوت امل
-http://mhav1.com:2095/movie/ht2990/742579548/6625.mkv
+#EXTINF:-1 tvg-id="" tvg-name="الباب يفوت أمل" tvg-logo="http://images.vega-xt-mh.com:80/images/b7cP73s7bWZ4rGZY8KqsHweoLot_big.jpg" group-title="Arabic premier",الباب يفوت أمل
+http://mhav1.com:2095/movie/ht2990/742579548/286467.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="البار" tvg-logo="http://images.vega-xt-mh.com:80/images/oMZtSQ53ZYG6ViallocxrzWl8Bl_big.jpg" group-title="Arabic premier",البار
 http://mhav1.com:2095/movie/ht2990/742579548/180262.mkv
@@ -5281,9 +5293,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/33236.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الحرب العالمية الثالثة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hbw2igiPv6I1yhcs6D9gZ4af9y7.jpg" group-title="Arabic premier",الحرب العالمية الثالثة
 http://mhav1.com:2095/movie/ht2990/742579548/14767.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="الحفلة " tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/asOQbAa5vQFmCVuJFUUP43TJ9u2.jpg" group-title="Arabic premier",الحفلة 
-http://mhav1.com:2095/movie/ht2990/742579548/15450.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الحكايه فيها منة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ovz2hgaKbcyelVGLJTJom03JtNQ.jpg" group-title="Arabic premier",الحكايه فيها منة
 http://mhav1.com:2095/movie/ht2990/742579548/37315.mkv
@@ -5465,8 +5474,8 @@ http://mhav1.com:2095/movie/ht2990/742579548/14254.mkv
 #EXTINF:-1 tvg-id="" tvg-name="بالالوان الطبيعية" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/e7QZOFhP80WJpByaNQIbJCqLebX.jpg" group-title="Arabic premier",بالالوان الطبيعية
 http://mhav1.com:2095/movie/ht2990/742579548/15530.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="بالعربي سندريلا" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s6b9ffSeRMkOChU0OLM5j4KNo7K.jpg" group-title="Arabic premier",بالعربي سندريلا
-http://mhav1.com:2095/movie/ht2990/742579548/15521.mkv
+#EXTINF:-1 tvg-id="" tvg-name="بالعربي سندريلا" tvg-logo="http://images.vega-xt-mh.com:80/images/s6b9ffSeRMkOChU0OLM5j4KNo7K_big.jpg" group-title="Arabic premier",بالعربي سندريلا
+http://mhav1.com:2095/movie/ht2990/742579548/286468.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="بث مباشر" tvg-logo="http://images.vega-xt-mh.com:80/images/5iaoYQaFDbEosWDGL1PmcpSxYWY_big.jpg" group-title="Arabic premier",بث مباشر
 http://mhav1.com:2095/movie/ht2990/742579548/271449.mkv
@@ -5794,9 +5803,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/15532.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="سمير وشهير وبهير" tvg-logo="http://images.vega-xt-mh.com:80/images/gzu1WCHOL13DdZLfwP1AL98AFRQ_big.jpg" group-title="Arabic premier",سمير وشهير وبهير
 http://mhav1.com:2095/movie/ht2990/742579548/242110.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="سنه اولي نصب" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/s1MoIltVQN1ggUpJU5KayO4c17n.jpg" group-title="Arabic premier",سنه اولي نصب
-http://mhav1.com:2095/movie/ht2990/742579548/14445.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="سوء تفاهم" tvg-logo="http://images.vega-xt-mh.com:80/images/qcT2a7G0TMD1ABSNqrdCWHC089y_big.jpg" group-title="Arabic premier",سوء تفاهم
 http://mhav1.com:2095/movie/ht2990/742579548/158514.mkv
@@ -6818,6 +6824,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/207362.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Blade of the 47 Ronin" tvg-logo="http://images.vega-xt-mh.com:80/images/kjFDIlUCJkcpFxYKtE6OsGcAfQQ_big.jpg" group-title="Asia  Movies",Blade of the 47 Ronin
 http://mhav1.com:2095/movie/ht2990/742579548/82473.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Blades of the Guardians" tvg-logo="http://images.vega-xt-mh.com:80/images/4QZwryGm8l7N5XdEjPchNPl0BV7_big.jpg" group-title="Asia  Movies",Blades of the Guardians
+http://mhav1.com:2095/movie/ht2990/742579548/286402.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Bleed For Justice" tvg-logo="http://images.vega-xt-mh.com:80/images/iTEqLT7ki9ovDcJnzM6xCH0kAS7_big.jpg" group-title="Asia  Movies",Bleed For Justice
 http://mhav1.com:2095/movie/ht2990/742579548/214789.mkv
 
@@ -7118,6 +7127,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/264235.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Everything Everywhere All at Once" tvg-logo="http://images.vega-xt-mh.com:80/images/w3LxiVYdWWRvEVdn5RYq6jIqkb1_big.jpg" group-title="Asia  Movies",Everything Everywhere All at Once
 http://mhav1.com:2095/movie/ht2990/742579548/63976.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Evil's Return" tvg-logo="http://images.vega-xt-mh.com:80/images/l6jzWopN47S1EC7g7bplMcG0adO_big.jpg" group-title="Asia  Movies",Evil's Return
+http://mhav1.com:2095/movie/ht2990/742579548/286440.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Exhuma" tvg-logo="http://images.vega-xt-mh.com:80/images/pQYHouPsDw32FhDLr7E3jmw0WTk_big.jpg" group-title="Asia  Movies",Exhuma
 http://mhav1.com:2095/movie/ht2990/742579548/151934.mkv
 
@@ -7408,6 +7420,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/57461.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Introduction" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTk1ODZjMDctMWY3Yy00ZGVmLWExYzAtZGI2M2Y4YTI0ODYyXkEyXkFqcGdeQXVyNzAzOTU3OTU@._V1_UY98_CR1,0,67,98_AL_.jpg" group-title="Asia  Movies",Introduction
 http://mhav1.com:2095/movie/ht2990/742579548/42550.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Inuyashiki" tvg-logo="http://images.vega-xt-mh.com:80/images/lyqkQ6y7d4YGVQrRjtmGTRMVcDY_big.jpg" group-title="Asia  Movies",Inuyashiki
+http://mhav1.com:2095/movie/ht2990/742579548/286860.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Invincible Swordsman" tvg-logo="http://images.vega-xt-mh.com:80/images/7Xzf7IHltlUHosVKKW7cKWtTv1n_big.jpg" group-title="Asia  Movies",Invincible Swordsman
 http://mhav1.com:2095/movie/ht2990/742579548/225668.mkv
@@ -8806,6 +8821,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/149576.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Werewolf" tvg-logo="https://akwam.link/uploads/L34rc.jpg" group-title="Asia  Movies",The Werewolf
 http://mhav1.com:2095/movie/ht2990/742579548/41792.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Wild Blade of Strangers" tvg-logo="http://images.vega-xt-mh.com:80/images/9DZOU5qibB8WeXtzQ00Nl6tiqfw_big.jpg" group-title="Asia  Movies",The Wild Blade of Strangers
+http://mhav1.com:2095/movie/ht2990/742579548/286473.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Witch: Part 1. The Subversion" tvg-logo="http://images.vega-xt-mh.com:80/images/4i2wo2ja5g2PmUxWa1a2eYIboZf_big.jpg" group-title="Asia  Movies",The Witch: Part 1. The Subversion
 http://mhav1.com:2095/movie/ht2990/742579548/124899.mkv
@@ -19574,6 +19592,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/202533.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Greta HD" tvg-logo="http://images.vega-xt-mh.com:80/images/9hBpFyJ3pGdupXbaC2L7nGvLMBn_big.jpg" group-title="English HD 1080",Greta HD
 http://mhav1.com:2095/movie/ht2990/742579548/230336.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HUNGRY HD" tvg-logo="http://images.vega-xt-mh.com:80/images/n6mTo0YXafeoOUbHZxB9muKEjhX_big.jpg" group-title="English HD 1080",HUNGRY HD
+http://mhav1.com:2095/movie/ht2990/742579548/286598.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Hammer of the Gods HD" tvg-logo="http://images.vega-xt-mh.com:80/images/6qfATvarIf0xlbE9WJRnXP1P37R_big.jpg" group-title="English HD 1080",Hammer of the Gods HD
 http://mhav1.com:2095/movie/ht2990/742579548/230854.mkv
 
@@ -20677,6 +20698,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/228124.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Shawshank Redemption HD" tvg-logo="http://images.vega-xt-mh.com:80/images/9cqNxx0GxF0bflZmeSMuL5tnGzr_big.jpg" group-title="English HD 1080",The Shawshank Redemption HD
 http://mhav1.com:2095/movie/ht2990/742579548/193712.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Sheep Detectives HD" tvg-logo="http://images.vega-xt-mh.com:80/images/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU_big.jpg" group-title="English HD 1080",The Sheep Detectives HD
+http://mhav1.com:2095/movie/ht2990/742579548/286585.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Shepherd Border Patrol HD" tvg-logo="http://images.vega-xt-mh.com:80/images/gntsO8yN1xiFp1CldoJkk0jzxh7_big.jpg" group-title="English HD 1080",The Shepherd Border Patrol HD
 http://mhav1.com:2095/movie/ht2990/742579548/210782.mkv
@@ -29516,6 +29540,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/285419.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Capture" tvg-logo="http://images.vega-xt-mh.com:80/images/jB2P7VlYfRxJA6ajOEuiD4k8mTK_big.jpg" group-title="English Movies 2026",Capture
 http://mhav1.com:2095/movie/ht2990/742579548/274593.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Carolina Caroline" tvg-logo="http://images.vega-xt-mh.com:80/images/9Jkylw7Y5NQyi7C8IwXLBvVSrH2_big.jpg" group-title="English Movies 2026",Carolina Caroline
+http://mhav1.com:2095/movie/ht2990/742579548/286464.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Citizen Vigilante" tvg-logo="http://images.vega-xt-mh.com:80/images/d7flcqCOeJK4lrwc2HrFb3eH1hl_big.jpg" group-title="English Movies 2026",Citizen Vigilante
 http://mhav1.com:2095/movie/ht2990/742579548/286109.mkv
 
@@ -29543,6 +29570,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/274408.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Dorothea" tvg-logo="http://images.vega-xt-mh.com:80/images/2oKJN4xy0MKM59FzA3Z7cpbC83E_big.jpg" group-title="English Movies 2026",Dorothea
 http://mhav1.com:2095/movie/ht2990/742579548/274403.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Empire of Lies" tvg-logo="http://images.vega-xt-mh.com:80/images/2uAFDuOCv6jjbRolZQDnVsbjU8n_big.jpg" group-title="English Movies 2026",Empire of Lies
+http://mhav1.com:2095/movie/ht2990/742579548/286399.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Faces of Death" tvg-logo="http://images.vega-xt-mh.com:80/images/vPVY3S57lEooBLJCg6KGdMHkUxm_big.jpg" group-title="English Movies 2026",Faces of Death
 http://mhav1.com:2095/movie/ht2990/742579548/280083.mkv
 
@@ -29555,11 +29585,20 @@ http://mhav1.com:2095/movie/ht2990/742579548/277883.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Fuze" tvg-logo="http://images.vega-xt-mh.com:80/images/huKckuD90OblEHH8MYfekHvCPfp_big.jpg" group-title="English Movies 2026",Fuze
 http://mhav1.com:2095/movie/ht2990/742579548/283298.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HUNGRY" tvg-logo="http://images.vega-xt-mh.com:80/images/n6mTo0YXafeoOUbHZxB9muKEjhX_big.jpg" group-title="English Movies 2026",HUNGRY
+http://mhav1.com:2095/movie/ht2990/742579548/286597.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Hair of the Bear" tvg-logo="http://images.vega-xt-mh.com:80/images/eyKa9kOdCtEcLLGkiUOnVbhf9li_big.jpg" group-title="English Movies 2026",Hair of the Bear
+http://mhav1.com:2095/movie/ht2990/742579548/286482.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="He Kills at Night" tvg-logo="http://images.vega-xt-mh.com:80/images/aoB8DAgVielL5qTySxpSlAU7PF3_big.jpg" group-title="English Movies 2026",He Kills at Night
 http://mhav1.com:2095/movie/ht2990/742579548/275828.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Hell in Paradise" tvg-logo="http://images.vega-xt-mh.com:80/images/nCL9LCKau7c0PBbkRMh7fKHjRRI_big.jpg" group-title="English Movies 2026",Hell in Paradise
 http://mhav1.com:2095/movie/ht2990/742579548/285915.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="In the Hand of Dante" tvg-logo="http://images.vega-xt-mh.com:80/images/nPPIufTBnzEg0d7NoR5RLL1oPra_big.jpg" group-title="English Movies 2026",In the Hand of Dante
+http://mhav1.com:2095/movie/ht2990/742579548/286596.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Infiltrate" tvg-logo="http://images.vega-xt-mh.com:80/images/mynArbZ3KvIT3iceRnOKCYm9lVE_big.jpg" group-title="English Movies 2026",Infiltrate
 http://mhav1.com:2095/movie/ht2990/742579548/274486.mkv
@@ -29578,6 +29617,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/278801.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Lee Cronin's The Mummy" tvg-logo="http://images.vega-xt-mh.com:80/images/lTQoEczVEnkuxHFEGgWYfJB98tL_big.jpg" group-title="English Movies 2026",Lee Cronin's The Mummy
 http://mhav1.com:2095/movie/ht2990/742579548/281422.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Little Brother" tvg-logo="http://images.vega-xt-mh.com:80/images/hIJpXb7Xaje2mebN9ylsS7blQzP_big.jpg" group-title="English Movies 2026",Little Brother
+http://mhav1.com:2095/movie/ht2990/742579548/286847.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Marama" tvg-logo="http://images.vega-xt-mh.com:80/images/tD9yi1i2t6cgXDrqaBRzjUy7bEX_big.jpg" group-title="English Movies 2026",Marama
 http://mhav1.com:2095/movie/ht2990/742579548/285095.mkv
@@ -29636,6 +29678,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/285900.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pitfall" tvg-logo="http://images.vega-xt-mh.com:80/images/kIwc4DgHpAQwEKBB6bPEsCRHnNB_big.jpg" group-title="English Movies 2026",Pitfall
 http://mhav1.com:2095/movie/ht2990/742579548/284989.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Power Ballad" tvg-logo="http://images.vega-xt-mh.com:80/images/sGgX2K0SJqw90Ju8TONdhDVwlzT_big.jpg" group-title="English Movies 2026",Power Ballad
+http://mhav1.com:2095/movie/ht2990/742579548/286466.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Pressure" tvg-logo="http://images.vega-xt-mh.com:80/images/9RkDrI8V8QJBjhtyRX7y6Qow3aq_big.jpg" group-title="English Movies 2026",Pressure
 http://mhav1.com:2095/movie/ht2990/742579548/285902.mkv
 
@@ -29681,6 +29726,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/285440.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Sarah's Oil" tvg-logo="http://images.vega-xt-mh.com:80/images/Av1CK61z33v2OBFLD1yF5rdRxQ1_big.jpg" group-title="English Movies 2026",Sarah's Oil
 http://mhav1.com:2095/movie/ht2990/742579548/278731.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Savage House" tvg-logo="http://images.vega-xt-mh.com:80/images/vPBy6cDPYMcj35lpl3W5kPEc2OB_big.jpg" group-title="English Movies 2026",Savage House
+http://mhav1.com:2095/movie/ht2990/742579548/286848.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Signal One" tvg-logo="http://images.vega-xt-mh.com:80/images/dINJlQVlDCpsEVqhjFyOjpymxsg_big.jpg" group-title="English Movies 2026",Signal One
 http://mhav1.com:2095/movie/ht2990/742579548/284702.mkv
 
@@ -29705,6 +29753,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/284736.mkv
 #EXTINF:-1 tvg-id="" tvg-name="The Magic Faraway Tree" tvg-logo="http://images.vega-xt-mh.com:80/images/udXvLxC5gAqN8SinemyFBEcHpTf_big.jpg" group-title="English Movies 2026",The Magic Faraway Tree
 http://mhav1.com:2095/movie/ht2990/742579548/281075.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="The Mandalorian and Grogu" tvg-logo="http://images.vega-xt-mh.com:80/images/5Vi8dSauVwH1HOsiZceDMbRr1Ca_big.jpg" group-title="English Movies 2026",The Mandalorian and Grogu
+http://mhav1.com:2095/movie/ht2990/742579548/286403.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="The Marked Woman" tvg-logo="http://images.vega-xt-mh.com:80/images/dyUZ6IKbzmgtdshHevJahpH51Eq_big.jpg" group-title="English Movies 2026",The Marked Woman
 http://mhav1.com:2095/movie/ht2990/742579548/284687.mkv
 
@@ -29723,8 +29774,14 @@ http://mhav1.com:2095/movie/ht2990/742579548/274404.mkv
 #EXTINF:-1 tvg-id="" tvg-name="The Punisher: One Last Kill" tvg-logo="http://images.vega-xt-mh.com:80/images/wjcPbV53ovhlogVFYdmkTDBooqg_big.jpg" group-title="English Movies 2026",The Punisher: One Last Kill
 http://mhav1.com:2095/movie/ht2990/742579548/280231.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="The Sheep Detectives" tvg-logo="http://images.vega-xt-mh.com:80/images/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU_big.jpg" group-title="English Movies 2026",The Sheep Detectives
+http://mhav1.com:2095/movie/ht2990/742579548/286584.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="The Sheriff" tvg-logo="http://images.vega-xt-mh.com:80/images/pba15JjYAoyuFIM6kkZ7qE6oqG2_big.jpg" group-title="English Movies 2026",The Sheriff
 http://mhav1.com:2095/movie/ht2990/742579548/283511.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Voices of Our Mother" tvg-logo="http://images.vega-xt-mh.com:80/images/fD0wfZifpJQGOTPboSVXQ3XI3DV_big.jpg" group-title="English Movies 2026",The Voices of Our Mother
+http://mhav1.com:2095/movie/ht2990/742579548/286428.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Whisper" tvg-logo="http://images.vega-xt-mh.com:80/images/mm5uTCD55btSNijo7ApFhdeFCGS_big.jpg" group-title="English Movies 2026",The Whisper
 http://mhav1.com:2095/movie/ht2990/742579548/279699.mkv
@@ -32827,6 +32884,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/60577.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Semi-Soeter" tvg-logo="http://images.vega-xt-mh.com:80/images/bxaVu3DNh0cSmXO5fqTFoLhNPsJ_big.jpg" group-title="English Romance",Semi-Soeter
 http://mhav1.com:2095/movie/ht2990/742579548/233669.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Serendipity" tvg-logo="http://images.vega-xt-mh.com:80/images/4jS66Qmq2Ru5S2YzHVknGd4xJyT_big.jpg" group-title="English Romance",Serendipity
+http://mhav1.com:2095/movie/ht2990/742579548/286805.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="She Taught Love" tvg-logo="http://images.vega-xt-mh.com:80/images/hTcsoaYkQnOj6YSPDpeLv9kpaPm_big.jpg" group-title="English Romance",She Taught Love
 http://mhav1.com:2095/movie/ht2990/742579548/190085.mkv
@@ -42143,6 +42203,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/278866.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Bison Kaalamaadan" tvg-logo="http://images.vega-xt-mh.com:80/images/5IPFJ2XFbYjdIw4912ZufCMolX_big.jpg" group-title="Indian Movies New",Bison Kaalamaadan
 http://mhav1.com:2095/movie/ht2990/742579548/254199.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Blast" tvg-logo="http://images.vega-xt-mh.com:80/images/ho824aZtnBzE6FuJRn2znQCq4qQ_big.jpg" group-title="Indian Movies New",Blast
+http://mhav1.com:2095/movie/ht2990/742579548/286830.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Border 2" tvg-logo="http://images.vega-xt-mh.com:80/images/hju9XncHxUxUS1GAJ4YqpdFCa5t_big.jpg" group-title="Indian Movies New",Border 2
 http://mhav1.com:2095/movie/ht2990/742579548/271081.mkv
 
@@ -42301,6 +42364,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/279204.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Raat Akeli Hai: The Bansal Murders" tvg-logo="http://images.vega-xt-mh.com:80/images/8EpDSwnjMBc9dmTPEYBF4Bixmwf_big.jpg" group-title="Indian Movies New",Raat Akeli Hai: The Bansal Murders
 http://mhav1.com:2095/movie/ht2990/742579548/257612.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Raja Shivaji" tvg-logo="http://images.vega-xt-mh.com:80/images/9e2Wc6sbeU1YdBWLJIDyMcEWrN2_big.jpg" group-title="Indian Movies New",Raja Shivaji
+http://mhav1.com:2095/movie/ht2990/742579548/286849.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Razor" tvg-logo="http://images.vega-xt-mh.com:80/images/la5XLMTI7HpzEdrWAZe5vMtyGqt_big.jpg" group-title="Indian Movies New",Razor
 http://mhav1.com:2095/movie/ht2990/742579548/286197.mkv
@@ -45848,6 +45914,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/277639.mkv
 #EXTINF:-1 tvg-id="" tvg-name="WWE RAW 21.04.2025" tvg-logo="https://www.bing.com/images/search?view=detailV2&ccid=ohgXYw4%2f&id=780617D1B7A7DE43FE4FF74E27964E9AEBD81686&thid=OIP.ohgXYw4_56k_23gzROX48gHaD8&mediaurl=https%3a%2f%2fwrestlingheadlines.com%2fwp-content%2fuploads%2f2022%2f09%2fwwe-raw-logo.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a21817630e3fe7a93fdb783344e5f8f2%3frik%3dhhbY65pOlidO9w%26pid%3dImgRaw%26r%3d0&exph=661&expw=1239&q=WWE+RAW+21.04.2025&simid=608019915390862870&FORM=IRPRST&ck=4DEEA99536FF1B58F22998A48EE3AEEA&selectedIndex=0&itb=0" group-title="WWE",WWE RAW 21.04.2025
 http://mhav1.com:2095/movie/ht2990/742579548/226729.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="WWE RAW 22.06.2026 " tvg-logo="https://www.wrestleview.com/wwe-raw-results/385994-live-wwe-raw-results-june-22-2026-london/" group-title="WWE",WWE RAW 22.06.2026 
+http://mhav1.com:2095/movie/ht2990/742579548/286869.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="WWE RAW 22.07.2024" tvg-logo="https://th.bing.com/th/id/OIP.jRQFxWpg0iy2OoB2xD5f9wHaD2?rs=1&pid=ImgDetMain" group-title="WWE",WWE RAW 22.07.2024
 http://mhav1.com:2095/movie/ht2990/742579548/178335.mkv
 
@@ -47312,6 +47381,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/276838.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Cheetahs Up Close with Bertie Gregory" tvg-logo="http://images.vega-xt-mh.com:80/images/pSmSgFb1cnRQep0OzcuKWMYWeqR_big.jpg" group-title="documentary film",Cheetahs Up Close with Bertie Gregory
 http://mhav1.com:2095/movie/ht2990/742579548/259981.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Chris & Martina: The Final Set" tvg-logo="http://images.vega-xt-mh.com:80/images/m6XxbOjeDyHChXlJ7CVEolNCq2o_big.jpg" group-title="documentary film",Chris & Martina: The Final Set
+http://mhav1.com:2095/movie/ht2990/742579548/286846.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Cover-Up" tvg-logo="http://images.vega-xt-mh.com:80/images/8I7fIZ4yVWrQldZ0yMv7DM0h9Kv_big.jpg" group-title="documentary film",Cover-Up
 http://mhav1.com:2095/movie/ht2990/742579548/258727.mkv
 
@@ -47987,17 +48059,20 @@ http://mhav1.com:2095/movie/ht2990/742579548/14598.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الباحثات عن الحرية" tvg-logo="http://images.vega-xt-mh.com:80/images/_big.jpg" group-title="احمد عز",الباحثات عن الحرية
 http://mhav1.com:2095/movie/ht2990/742579548/7559.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="الجريمة" tvg-logo="http://images.vega-xt-mh.com:80/images/m5iNNGGqPttIUAIraOJSIWTQHti_big.jpg" group-title="احمد عز",الجريمة
-http://mhav1.com:2095/movie/ht2990/742579548/71036.mkv
+#EXTINF:-1 tvg-id="" tvg-name="الجريمة" tvg-logo="http://images.vega-xt-mh.com:80/images/zxLL3IrwMI58oLw7YxTr8R5VsHK_big.jpg" group-title="احمد عز",الجريمة
+http://mhav1.com:2095/movie/ht2990/742579548/286461.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="الخلية" tvg-logo="http://images.vega-xt-mh.com:80/images/yiX9ma6ImZRBGOgm9peWGjPg7xe_big.jpg" group-title="احمد عز",الخلية
-http://mhav1.com:2095/movie/ht2990/742579548/6484.mkv
+#EXTINF:-1 tvg-id="" tvg-name="الحفلة" tvg-logo="http://images.vega-xt-mh.com:80/images/kdx2mpCe5f27PhamzAm3ik6D3s_big.jpg" group-title="احمد عز",الحفلة
+http://mhav1.com:2095/movie/ht2990/742579548/286460.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="الرهينة" tvg-logo="http://images.vega-xt-mh.com:80/images/vXo4Z0LlfUOuZAcGnokj0UEccqC_big.jpg" group-title="احمد عز",الرهينة
-http://mhav1.com:2095/movie/ht2990/742579548/80153.mkv
+#EXTINF:-1 tvg-id="" tvg-name="الخلية" tvg-logo="http://images.vega-xt-mh.com:80/images/hqVVnReH1UCsMQ2tarQVOvagf8T_big.jpg" group-title="احمد عز",الخلية
+http://mhav1.com:2095/movie/ht2990/742579548/286458.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="الرهينة" tvg-logo="http://images.vega-xt-mh.com:80/images/4FYiEot1ERkgUzgCEPueQWnwy7g_big.jpg" group-title="احمد عز",الرهينة
+http://mhav1.com:2095/movie/ht2990/742579548/286459.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الشبح" tvg-logo="http://images.vega-xt-mh.com:80/images/jvQNej68frHx72oBuo3N0KsqzHY_big.jpg" group-title="احمد عز",الشبح
-http://mhav1.com:2095/movie/ht2990/742579548/15363.mkv
+http://mhav1.com:2095/movie/ht2990/742579548/286462.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="العارف" tvg-logo="http://images.vega-xt-mh.com:80/images/8VW9mR2YIS2YORfTHcJy9VLZmeu_big.jpg" group-title="احمد عز",العارف
 http://mhav1.com:2095/movie/ht2990/742579548/283354.mkv
@@ -48017,6 +48092,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/16924.mkv
 #EXTINF:-1 tvg-id="" tvg-name="حلم عزيز" tvg-logo="http://images.vega-xt-mh.com:80/images/9gnfk0WYdzgkFG4HZbg9Cx694GP_big.jpg" group-title="احمد عز",حلم عزيز
 http://mhav1.com:2095/movie/ht2990/742579548/274586.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="سنة أولى نصب" tvg-logo="http://images.vega-xt-mh.com:80/images/8onDMwt85gSXRnHRuYlWX7M2ZC5_big.jpg" group-title="احمد عز",سنة أولى نصب
+http://mhav1.com:2095/movie/ht2990/742579548/286463.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="كيرة  والجن HD" tvg-logo="http://images.vega-xt-mh.com:80/images/mMGbNF3lGIZIarAc8pmiqX1mDAo_big.jpg" group-title="احمد عز",كيرة  والجن HD
 http://mhav1.com:2095/movie/ht2990/742579548/102279.mkv
 
@@ -48024,7 +48102,7 @@ http://mhav1.com:2095/movie/ht2990/742579548/102279.mkv
 http://mhav1.com:2095/movie/ht2990/742579548/6657.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مسجون ترانزيت" tvg-logo="http://images.vega-xt-mh.com:80/images/vNUbTP4rCBuAUDxXJCFk9AkHrFD_big.jpg" group-title="احمد عز",مسجون ترانزيت
-http://mhav1.com:2095/movie/ht2990/742579548/7860.mkv
+http://mhav1.com:2095/movie/ht2990/742579548/286465.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ملاكي اسكندرية" tvg-logo="http://images.vega-xt-mh.com:80/images/dJ8kfYEt9UHjLDKYMlZpOyD7i3b_big.jpg" group-title="احمد عز",ملاكي اسكندرية
 http://mhav1.com:2095/movie/ht2990/742579548/17491.mkv
@@ -49841,6 +49919,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/72066.mkv
 #EXTINF:-1 tvg-id="" tvg-name="امرأة على الهامش" tvg-logo="http://images.vega-xt-mh.com:80/images/im4LJWbBvZC8gzqmjFvIuXc4zlG_big.jpg" group-title="افلام كلاسيك",امرأة على الهامش
 http://mhav1.com:2095/movie/ht2990/742579548/73449.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="امرأة في الطريق" tvg-logo="http://images.vega-xt-mh.com:80/images/w6EDHrMvbfsnFZGWsT3fdB6S09g_big.jpg" group-title="افلام كلاسيك",امرأة في الطريق
+http://mhav1.com:2095/movie/ht2990/742579548/286801.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="امرأة في دمي" tvg-logo="http://images.vega-xt-mh.com:80/images/AoX81QRkxvbRB3z4l9RKOffhes4_big.jpg" group-title="افلام كلاسيك",امرأة في دمي
 http://mhav1.com:2095/movie/ht2990/742579548/206141.mkv
 
@@ -49970,8 +50051,8 @@ http://mhav1.com:2095/movie/ht2990/742579548/224825.mkv
 #EXTINF:-1 tvg-id="" tvg-name="بنات اليوم" tvg-logo="http://images.vega-xt-mh.com:80/images/kZk7qkJ5V9dVfsDal8bA3rgZMjW_big.jpg" group-title="افلام كلاسيك",بنات اليوم
 http://mhav1.com:2095/movie/ht2990/742579548/206167.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="بنات بحرى" tvg-logo="https://media0021.elcinema.com/uploads/_640x_c2e66c79e40d68c051bf7912488ffd2e90aa84f5eea0bbc6f544bf766f44f86a.jpg" group-title="افلام كلاسيك",بنات بحرى
-http://mhav1.com:2095/movie/ht2990/742579548/102408.mkv
+#EXTINF:-1 tvg-id="" tvg-name="بنات بحري" tvg-logo="http://images.vega-xt-mh.com:80/images/c9v7xeywDFa7FDA6AwzlSpWC6bA_big.jpg" group-title="افلام كلاسيك",بنات بحري
+http://mhav1.com:2095/movie/ht2990/742579548/286471.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="بنات حارتنا" tvg-logo="http://images.vega-xt-mh.com:80/images/sbcIPjS1Ht3cObKEV8wc2cS162q_big.jpg" group-title="افلام كلاسيك",بنات حارتنا
 http://mhav1.com:2095/movie/ht2990/742579548/194375.mkv
@@ -50143,9 +50224,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/68210.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="حب وكبرياء" tvg-logo="http://images.vega-xt-mh.com:80/images/nyPVTo1ZA31ozjAnbX2syqvFMD8_big.jpg" group-title="افلام كلاسيك",حب وكبرياء
 http://mhav1.com:2095/movie/ht2990/742579548/205940.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="حبيب حياتي" tvg-logo="https://media0026.elcinema.com/uploads/_640x_788af8bfe44a8c6c32b4a5b0857c1ad7b4e344dba8cb10c679478e927648cb60.jpg" group-title="افلام كلاسيك",حبيب حياتي
-http://mhav1.com:2095/movie/ht2990/742579548/119334.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="حبيبة غيري" tvg-logo="https://media0026.elcinema.com/uploads/_640x_868765d495b13131fdfe9cb27882a6b3789663b4fd294468e841fb7ed45dd94d.jpg" group-title="افلام كلاسيك",حبيبة غيري
 http://mhav1.com:2095/movie/ht2990/742579548/73346.mkv
@@ -50990,6 +51068,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/11561.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مصري في لبنان" tvg-logo="http://images.vega-xt-mh.com:80/images/sDadk1xPrPwvYr0DK4Jz92Fylbx_big.jpg" group-title="افلام كلاسيك",مصري في لبنان
 http://mhav1.com:2095/movie/ht2990/742579548/215709.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مصطفى كامل" tvg-logo="http://images.vega-xt-mh.com:80/images/2bU9IL06lWEkNdUNMn58pOiDqcV_big.jpg" group-title="افلام كلاسيك",مصطفى كامل
+http://mhav1.com:2095/movie/ht2990/742579548/286469.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مطاردة غرامية" tvg-logo="http://images.vega-xt-mh.com:80/images/1oRjk9nW47T1qLzR3RfeqDgea39_big.jpg" group-title="افلام كلاسيك",مطاردة غرامية
 http://mhav1.com:2095/movie/ht2990/742579548/190372.mkv
 
@@ -51310,6 +51391,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/137696.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Parent Trap" tvg-logo="http://images.vega-xt-mh.com:80/images/dNqgjqxHIdfsQRQL5XTujNfX9pj_big.jpg" group-title="افلام مدبلجه",The Parent Trap
 http://mhav1.com:2095/movie/ht2990/742579548/137698.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Sheep Detectives مدبلج" tvg-logo="http://images.vega-xt-mh.com:80/images/6QtL9rl3Zb4d8qW6EJ4qO5hSSfU_big.jpg" group-title="افلام مدبلجه",The Sheep Detectives مدبلج
+http://mhav1.com:2095/movie/ht2990/742579548/286661.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="There's Someone Inside Your House" tvg-logo="http://images.vega-xt-mh.com:80/images/fJUdQ4BZAtlQK9Ny59TulkQGisB_big.jpg" group-title="افلام مدبلجه",There's Someone Inside Your House
 http://mhav1.com:2095/movie/ht2990/742579548/137701.mkv
@@ -52355,6 +52439,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/241009.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الهوى سلطان" tvg-logo="http://images.vega-xt-mh.com:80/images/5TKfFaNXDaI85qeGT7av2K4n2Mi_big.jpg" group-title="افلام مصري حديثه",الهوى سلطان
 http://mhav1.com:2095/movie/ht2990/742579548/213597.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="ان غاب القط" tvg-logo="http://images.vega-xt-mh.com:80/images/gjeRJALgxL1lTN0pn8r1pyoBH3Y_big.jpg" group-title="افلام مصري حديثه",ان غاب القط
+http://mhav1.com:2095/movie/ht2990/742579548/286678.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="انا لحبيبي" tvg-logo="http://images.vega-xt-mh.com:80/images/2ij8uiCWbXhTXiAAqasgzBCYi8e_big.jpg" group-title="افلام مصري حديثه",انا لحبيبي
 http://mhav1.com:2095/movie/ht2990/742579548/135737.mkv
 
@@ -52480,6 +52567,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/156017.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="كامله" tvg-logo="https://i.ibb.co/Ct95FzV/42944620.jpg" group-title="افلام مصري حديثه",كامله
 http://mhav1.com:2095/movie/ht2990/742579548/137258.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="كولونيا" tvg-logo="http://images.vega-xt-mh.com:80/images/vX33QkMNErYXisALNoz81UFG2VS_big.jpg" group-title="افلام مصري حديثه",كولونيا
+http://mhav1.com:2095/movie/ht2990/742579548/286677.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="لعبه شيطان" tvg-logo="http://images.vega-xt-mh.com:80/images/aHfx3rnjEjgQA5CiQjzoBtSSfi8_big.jpg" group-title="افلام مصري حديثه",لعبه شيطان
 http://mhav1.com:2095/movie/ht2990/742579548/135747.mkv
@@ -52928,6 +53018,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/116064.mkv
 #EXTINF:-1 tvg-id="" tvg-name="صاحبك راجل" tvg-logo="http://images.vega-xt-mh.com:80/images/pnKObT0hvIpbtgf6tL600MI1T0r_big.jpg" group-title="تصوير سينما",صاحبك راجل
 http://mhav1.com:2095/movie/ht2990/742579548/214623.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="صقر وكناريا  CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/2V2CvncmHamx9cvYnXSWFzY1kqb_big.jpg" group-title="تصوير سينما",صقر وكناريا  CAM
+http://mhav1.com:2095/movie/ht2990/742579548/286843.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="طلقني CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/uDPVi84WZrtj0MHjWjleEuyYSJu_big.jpg" group-title="تصوير سينما",طلقني CAM
 http://mhav1.com:2095/movie/ht2990/742579548/258548.mkv
 
@@ -53300,6 +53393,12 @@ http://mhav1.com:2095/movie/ht2990/742579548/222449.mkv
 #EXTINF:-1 tvg-id="" tvg-name="HD1080 مباراة مصر و بلجيكا" tvg-logo="https://images2.imgbox.com/17/05/HJKZx63o_o.jpg" group-title="رياضه",HD1080 مباراة مصر و بلجيكا
 http://mhav1.com:2095/movie/ht2990/742579548/285888.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HD1080 مصر و نيوزيلندا خليل البلوشى" tvg-logo="https://images2.imgbox.com/48/b8/ks6ukmyd_o.jpg" group-title="رياضه",HD1080 مصر و نيوزيلندا خليل البلوشى
+http://mhav1.com:2095/movie/ht2990/742579548/286347.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="HD1080 مصر و نيوزيلندا على محمد على" tvg-logo="https://images2.imgbox.com/68/b4/pfJLH4u9_o.jpg" group-title="رياضه",HD1080 مصر و نيوزيلندا على محمد على
+http://mhav1.com:2095/movie/ht2990/742579548/286349.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="HD1080 ملخص مان سيتى و بورنموث" tvg-logo="https://i.ibb.co/tpB3RjtP/Football-VS.jpg" group-title="رياضه",HD1080 ملخص مان سيتى و بورنموث
 http://mhav1.com:2095/movie/ht2990/742579548/230122.mkv
 
@@ -53311,6 +53410,12 @@ http://mhav1.com:2095/movie/ht2990/742579548/228771.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="HD720 مباراة مصر و بلجيكا" tvg-logo="https://images2.imgbox.com/17/05/HJKZx63o_o.jpg" group-title="رياضه",HD720 مباراة مصر و بلجيكا
 http://mhav1.com:2095/movie/ht2990/742579548/285887.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="HD720 مصر و نيوزيلندا خليل البلوشى" tvg-logo="https://images2.imgbox.com/48/b8/ks6ukmyd_o.jpg" group-title="رياضه",HD720 مصر و نيوزيلندا خليل البلوشى
+http://mhav1.com:2095/movie/ht2990/742579548/286346.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="HD720 مصر و نيوزيلندا على محمد على" tvg-logo="https://images2.imgbox.com/68/b4/pfJLH4u9_o.jpg" group-title="رياضه",HD720 مصر و نيوزيلندا على محمد على
+http://mhav1.com:2095/movie/ht2990/742579548/286348.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Jake vs. Mike Tyson كامل" tvg-logo="http://images.vega-xt-mh.com:80/images/mkEYETLHejoG07pg4DMDqMnLKuf_big.jpg" group-title="رياضه",Jake vs. Mike Tyson كامل
 http://mhav1.com:2095/movie/ht2990/742579548/201308.mkv
@@ -53426,6 +53531,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/218279.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة اتلتيكو مدريد و ريال مدريد" tvg-logo="https://i.ibb.co/8XffXtG/Football-VS.jpg" group-title="رياضه",مباراة اتلتيكو مدريد و ريال مدريد
 http://mhav1.com:2095/movie/ht2990/742579548/190876.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة اسبانيا و السعودية" tvg-logo="https://images2.imgbox.com/ad/41/HsByMaQz_o.jpg" group-title="رياضه",مباراة اسبانيا و السعودية
+http://mhav1.com:2095/movie/ht2990/742579548/286273.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة استون فيلا و ليفربول" tvg-logo="https://i.ibb.co/PV2STHj/aston.jpg" group-title="رياضه",مباراة استون فيلا و ليفربول
 http://mhav1.com:2095/movie/ht2990/742579548/218280.mkv
 
@@ -53441,6 +53549,12 @@ http://mhav1.com:2095/movie/ht2990/742579548/218596.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة الاتحاد و النصر HD" tvg-logo="https://i.ibb.co/KhDb35Q/Nasr.jpg" group-title="رياضه",مباراة الاتحاد و النصر HD
 http://mhav1.com:2095/movie/ht2990/742579548/206274.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة الارجنتين و النمسا" tvg-logo="https://images2.imgbox.com/9a/92/OTtx1mSV_o.jpg" group-title="رياضه",مباراة الارجنتين و النمسا
+http://mhav1.com:2095/movie/ht2990/742579548/286424.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة الاردن و الجزائر" tvg-logo="https://images2.imgbox.com/9b/02/kWOvmErl_o.jpg" group-title="رياضه",مباراة الاردن و الجزائر
+http://mhav1.com:2095/movie/ht2990/742579548/286427.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة الاكوادور و كوت ديفوار" tvg-logo="https://images2.imgbox.com/b8/22/FEGrLlGF_o.jpg" group-title="رياضه",مباراة الاكوادور و كوت ديفوار
 http://mhav1.com:2095/movie/ht2990/742579548/285608.mkv
 
@@ -53450,11 +53564,17 @@ http://mhav1.com:2095/movie/ht2990/742579548/138078.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة الاهلي × مونتيري كاس العالم للاندية" tvg-logo="" group-title="رياضه",مباراة الاهلي × مونتيري كاس العالم للاندية
 http://mhav1.com:2095/movie/ht2990/742579548/137730.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة البرازيل و اسكتلندا" tvg-logo="https://images2.imgbox.com/6f/f5/waD2oY0u_o.jpg" group-title="رياضه",مباراة البرازيل و اسكتلندا
+http://mhav1.com:2095/movie/ht2990/742579548/286714.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة البرازيل و هايتى" tvg-logo="https://images2.imgbox.com/12/a5/IIc5XKkH_o.jpg" group-title="رياضه",مباراة البرازيل و هايتى
 http://mhav1.com:2095/movie/ht2990/742579548/286188.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة البرتغال و الكنغو" tvg-logo="https://images2.imgbox.com/da/29/EAKRXz5R_o.jpg" group-title="رياضه",مباراة البرتغال و الكنغو
 http://mhav1.com:2095/movie/ht2990/742579548/285948.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة البرتغال و اوزبكستان" tvg-logo="https://images2.imgbox.com/e2/45/XgiQ4TQ6_o.jpg" group-title="رياضه",مباراة البرتغال و اوزبكستان
+http://mhav1.com:2095/movie/ht2990/742579548/286490.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة الترجى و فلامنجو" tvg-logo="https://i.ibb.co/8Dvh5YFk/WorldCup.jpg" group-title="رياضه",مباراة الترجى و فلامنجو
 http://mhav1.com:2095/movie/ht2990/742579548/232551.mkv
@@ -53471,8 +53591,17 @@ http://mhav1.com:2095/movie/ht2990/742579548/203752.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة السعودية و اوروجواى" tvg-logo="https://images2.imgbox.com/a2/ee/mGZmit5Z_o.jpg" group-title="رياضه",مباراة السعودية و اوروجواى
 http://mhav1.com:2095/movie/ht2990/742579548/285898.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة السنغال و النرويج" tvg-logo="https://images2.imgbox.com/73/4a/wjrRR8fm_o.jpg" group-title="رياضه",مباراة السنغال و النرويج
+http://mhav1.com:2095/movie/ht2990/742579548/286425.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة العراق و السنغال" tvg-logo="https://images2.imgbox.com/be/fa/RHy3e4kq_o.jpg" group-title="رياضه",مباراة العراق و السنغال
+http://mhav1.com:2095/movie/ht2990/742579548/286872.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة العراق و النرويج" tvg-logo="https://images2.imgbox.com/41/f0/IifIDhJE_o.jpg" group-title="رياضه",مباراة العراق و النرويج
 http://mhav1.com:2095/movie/ht2990/742579548/285928.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة العراق و فرنسا" tvg-logo="https://images2.imgbox.com/22/6e/fNZ9Sq0Q_o.jpg" group-title="رياضه",مباراة العراق و فرنسا
+http://mhav1.com:2095/movie/ht2990/742579548/286426.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة المانيا و كوت ديفوار" tvg-logo="https://images2.imgbox.com/04/a2/hCsemnSc_o.jpg" group-title="رياضه",مباراة المانيا و كوت ديفوار
 http://mhav1.com:2095/movie/ht2990/742579548/286206.mkv
@@ -53492,6 +53621,12 @@ http://mhav1.com:2095/movie/ht2990/742579548/184360.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة المغرب و السنغال" tvg-logo="" group-title="رياضه",مباراة المغرب و السنغال
 http://mhav1.com:2095/movie/ht2990/742579548/260932.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة المغرب و هايتى" tvg-logo="https://images2.imgbox.com/9f/17/aVPDt0BK_o.jpg" group-title="رياضه",مباراة المغرب و هايتى
+http://mhav1.com:2095/movie/ht2990/742579548/286774.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة المكسيك و التشيك" tvg-logo="https://images2.imgbox.com/cd/9b/iEsUZqAo_o.jpg" group-title="رياضه",مباراة المكسيك و التشيك
+http://mhav1.com:2095/movie/ht2990/742579548/286715.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة الهلال و الاتحاد كامله" tvg-logo="https://i.ibb.co/tCBdC8F/Etihad.jpg" group-title="رياضه",مباراة الهلال و الاتحاد كامله
 http://mhav1.com:2095/movie/ht2990/742579548/138298.mkv
 
@@ -53506,6 +53641,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/233754.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة اليابان و هولندا" tvg-logo="https://images2.imgbox.com/74/35/99lMz2RU_o.jpg" group-title="رياضه",مباراة اليابان و هولندا
 http://mhav1.com:2095/movie/ht2990/742579548/285607.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة امريكا و استراليا" tvg-logo="https://images2.imgbox.com/e0/32/a3KDaja5_o.jpg" group-title="رياضه",مباراة امريكا و استراليا
+http://mhav1.com:2095/movie/ht2990/742579548/286404.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة امريكا و باراجواى" tvg-logo="https://images2.imgbox.com/7b/ab/UqWuuUBa_o.jpg" group-title="رياضه",مباراة امريكا و باراجواى
 http://mhav1.com:2095/movie/ht2990/742579548/285477.mkv
@@ -53533,6 +53671,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/227047.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة تركيا و استراليا" tvg-logo="https://images2.imgbox.com/fb/20/sFQgCihQ_o.jpg" group-title="رياضه",مباراة تركيا و استراليا
 http://mhav1.com:2095/movie/ht2990/742579548/285560.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة تركيا و امريكا" tvg-logo="https://images2.imgbox.com/53/67/LzPBG0HF_o.jpg" group-title="رياضه",مباراة تركيا و امريكا
+http://mhav1.com:2095/movie/ht2990/742579548/286862.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة تشيلسى و الترجى" tvg-logo="https://i.ibb.co/XM315Ty/WorldCup.jpg" group-title="رياضه",مباراة تشيلسى و الترجى
 http://mhav1.com:2095/movie/ht2990/742579548/233875.mkv
@@ -53647,6 +53788,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/185274.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة هولندا و السويد" tvg-logo="https://images2.imgbox.com/c5/2b/4dIS9jhw_o.jpg" group-title="رياضه",مباراة هولندا و السويد
 http://mhav1.com:2095/movie/ht2990/742579548/286207.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="مباراة هولندا و تونس" tvg-logo="https://images2.imgbox.com/60/f2/2F1ANktW_o.jpg" group-title="رياضه",مباراة هولندا و تونس
+http://mhav1.com:2095/movie/ht2990/742579548/286842.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مباراة وولفرهامبتون و ليفربول كامله" tvg-logo="https://i.ibb.co/ws9g6Ln/Football-VS.jpg" group-title="رياضه",مباراة وولفرهامبتون و ليفربول كامله
 http://mhav1.com:2095/movie/ht2990/742579548/190354.mkv
@@ -54421,6 +54565,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/156637.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مرزوقة" tvg-logo="http://images.vega-xt-mh.com:80/images/eIRlgkxAoZ9o1b7dVRod2MrSAP7_big.jpg" group-title="فريد شوقي",مرزوقة
 http://mhav1.com:2095/movie/ht2990/742579548/123562.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="وتمضي الأيام" tvg-logo="http://images.vega-xt-mh.com:80/images/wUNWihVxAg7zGixY1hoLBMVp2Ej_big.jpg" group-title="فريد شوقي",وتمضي الأيام
+http://mhav1.com:2095/movie/ht2990/742579548/286470.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ومضى قطار العمر 1975" tvg-logo="http://images.vega-xt-mh.com:80/images/uyBR4JLaEnq32biZR436jW0gHDo_big.jpg" group-title="فريد شوقي",ومضى قطار العمر 1975
 http://mhav1.com:2095/movie/ht2990/742579548/110703.mkv
