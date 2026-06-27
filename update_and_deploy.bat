@@ -97,6 +97,14 @@ if %errorlevel% neq 0 (
     echo Continuing anyway...
 )
 
+REM Pull latest changes to avoid non-fast-forward errors
+git pull origin main --rebase
+if %errorlevel% neq 0 (
+    echo Error: Failed to pull from GitHub! You may have conflicts to resolve.
+    pause
+    exit /b %errorlevel%
+)
+
 REM Push to GitHub
 git push origin main
 if %errorlevel% neq 0 (
