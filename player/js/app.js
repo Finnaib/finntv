@@ -88,7 +88,7 @@ class App {
                         </div>
                         
                         <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
-                            <i-lucide name="log-in"></i-lucide> Login
+                            <i data-lucide="log-in"></i> Login
                         </button>
                     </form>
                 </div>
@@ -104,15 +104,15 @@ class App {
                         <button class="nav-btn" data-view="series">Series</button>
                     </div>
                     <div class="nav-user">
-                        <a href="../index.html" class="btn-home"><i-lucide name="home"></i-lucide> <span>Back to Home</span></a>
-                        <button id="btn-logout" class="btn-logout"><i-lucide name="log-out"></i-lucide> <span>Logout</span></button>
+                        <a href="../index.html" class="btn-home"><i data-lucide="home"></i> <span>Back to Home</span></a>
+                        <button id="btn-logout" class="btn-logout"><i data-lucide="log-out"></i> <span>Logout</span></button>
                     </div>
                 </nav>
                 <div class="main-content">
                     <aside class="sidebar">
                         <div class="sidebar-header">
                             <div class="search-box">
-                                <i-lucide name="search"></i-lucide>
+                                <i data-lucide="search"></i>
                                 <input type="text" id="search-input" placeholder="Search channels...">
                             </div>
                         </div>
@@ -127,7 +127,7 @@ class App {
             <!-- Video Player Overlay -->
             <div id="player-overlay">
                 <div class="player-header">
-                    <button class="btn-close" id="btn-close-player"><i-lucide name="arrow-left"></i-lucide></button>
+                    <button class="btn-close" id="btn-close-player"><i data-lucide="arrow-left"></i></button>
                     <div class="now-playing-info">
                         <h2 id="np-title">Loading...</h2>
                         <p id="np-category">Please wait</p>
@@ -146,7 +146,7 @@ class App {
             <!-- Movie Info Overlay -->
             <div id="movie-info-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
                 <div class="movie-info-card" style="display:flex; background:#111; border:1px solid #333; border-radius:12px; width:90%; max-width:900px; height:600px; overflow:hidden; position:relative;">
-                    <button class="btn-close" id="btn-close-mi" style="position:absolute; top:20px; right:20px; background:rgba(0,0,0,0.5); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer;"><i-lucide name="arrow-left"></i-lucide></button>
+                    <button class="btn-close" id="btn-close-mi" style="position:absolute; top:20px; right:20px; background:rgba(0,0,0,0.5); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer;"><i data-lucide="arrow-left"></i></button>
                     <div class="mi-poster" id="mi-poster" style="width:350px; background:#000;"></div>
                     <div class="mi-details" style="flex:1; padding:40px; display:flex; flex-direction:column; overflow-y:auto;">
                         <h1 class="mi-title brand-font" id="mi-title" style="font-size:2.5rem; margin-bottom:10px;">Movie Title</h1>
@@ -154,7 +154,7 @@ class App {
                         <p class="mi-plot" id="mi-plot" style="font-size:1.1rem; line-height:1.6; margin-bottom:30px; color:#e2e8f0;">Plot description goes here...</p>
                         <div class="mi-cast" id="mi-cast" style="margin-bottom:30px; color:#aaa;"></div>
                         <div class="mi-buttons" style="display:flex; gap:16px; margin-top:auto;">
-                            <button class="btn btn-primary" id="btn-mi-play"><i-lucide name="play"></i-lucide> Play Now</button>
+                            <button class="btn btn-primary" id="btn-mi-play"><i data-lucide="play"></i> Play Now</button>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ class App {
             <!-- Series Chooser Overlay -->
             <div id="series-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:var(--bg-dark); z-index:900; flex-direction:column;">
                 <div class="series-header" style="display:flex; align-items:center; padding:24px 40px; background:rgba(0,0,0,0.4); border-bottom:1px solid #333; gap:20px;">
-                    <button class="btn btn-outline" id="btn-close-series"><i-lucide name="arrow-left"></i-lucide> Back</button>
+                    <button class="btn btn-outline" id="btn-close-series"><i data-lucide="arrow-left"></i> Back</button>
                     <h2 class="brand-font" id="series-title" style="font-size:2rem">Series Name</h2>
                 </div>
                 <div class="series-content" style="display:flex; flex:1; overflow:hidden;">
@@ -308,7 +308,7 @@ class App {
         if (type === 'error') icon = 'alert-circle';
         if (type === 'success') icon = 'check-circle';
         
-        toast.innerHTML = `<i-lucide name="${icon}"></i-lucide> <span>${message}</span>`;
+        toast.innerHTML = `<i data-lucide="${icon}"></i> <span>${message}</span>`;
         container.appendChild(toast);
         lucide.createIcons({ root: toast });
         
