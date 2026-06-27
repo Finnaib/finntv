@@ -127,7 +127,7 @@ class App {
             <!-- Video Player Overlay -->
             <div id="player-overlay">
                 <div class="player-header">
-                    <button class="btn-close" id="btn-close-player"><i-lucide name="x"></i-lucide></button>
+                    <button class="btn-close" id="btn-close-player"><i-lucide name="arrow-left"></i-lucide></button>
                     <div class="now-playing-info">
                         <h2 id="np-title">Loading...</h2>
                         <p id="np-category">Please wait</p>
@@ -146,7 +146,7 @@ class App {
             <!-- Movie Info Overlay -->
             <div id="movie-info-overlay" class="screen" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:1000; align-items:center; justify-content:center;">
                 <div class="movie-info-card" style="display:flex; background:#111; border:1px solid #333; border-radius:12px; width:90%; max-width:900px; height:600px; overflow:hidden; position:relative;">
-                    <button class="btn-close" id="btn-close-mi" style="position:absolute; top:20px; right:20px; background:rgba(0,0,0,0.5); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer;"><i-lucide name="x"></i-lucide></button>
+                    <button class="btn-close" id="btn-close-mi" style="position:absolute; top:20px; right:20px; background:rgba(0,0,0,0.5); border:none; color:white; width:40px; height:40px; border-radius:50%; cursor:pointer;"><i-lucide name="arrow-left"></i-lucide></button>
                     <div class="mi-poster" id="mi-poster" style="width:350px; background:#000;"></div>
                     <div class="mi-details" style="flex:1; padding:40px; display:flex; flex-direction:column; overflow-y:auto;">
                         <h1 class="mi-title brand-font" id="mi-title" style="font-size:2.5rem; margin-bottom:10px;">Movie Title</h1>
@@ -221,15 +221,47 @@ class App {
         });
 
         document.getElementById('btn-close-player').addEventListener('click', () => {
-            this.stopPlayer();
+            if (window.location.hash === '#playing') {
+                history.back();
+            } else {
+                this.stopPlayer();
+            }
         });
         
         document.getElementById('btn-close-mi').addEventListener('click', () => {
-            document.getElementById('movie-info-overlay').style.display = 'none';
+            if (window.location.hash === '#movie-info') {
+                history.back();
+            } else {
+                document.getElementById('movie-info-overlay').style.display = 'none';
+            }
         });
         
         document.getElementById('btn-close-series').addEventListener('click', () => {
-            document.getElementById('series-overlay').style.display = 'none';
+            if (window.location.hash === '#series') {
+                history.back();
+            } else {
+                document.getElementById('series-overlay').style.display = 'none';
+            }
+        });
+
+        // History API popstate event to handle browser back button
+        window.addEventListener('popstate', (e) => {
+            const hash = window.location.hash;
+            
+            // If we're no longer playing a video, but the player overlay is active, stop it
+            if (hash !== '#playing' && document.getElementById('player-overlay').classList.contains('active')) {
+                this.stopPlayer();
+            }
+            
+            // Handle movie info overlay
+            if (hash !== '#movie-info' && document.getElementById('movie-info-overlay').style.display === 'flex') {
+                document.getElementById('movie-info-overlay').style.display = 'none';
+            }
+            
+            // Handle series overlay
+            if (hash !== '#series' && document.getElementById('series-overlay').style.display === 'flex') {
+                document.getElementById('series-overlay').style.display = 'none';
+            }
         });
 
         // Make sure header is always visible
@@ -535,6 +567,11 @@ class App {
         overlay.classList.add('active');
         lucide.createIcons({ root: overlay });
 
+        // Push state to history for back button support
+        if (window.location.hash !== '#playing') {
+            history.pushState({overlay: 'player'}, '', '#playing');
+        }
+
         this.initVideoJS();
 
         this.player.ready(() => {
@@ -618,6 +655,11 @@ class App {
             
             document.getElementById('movie-info-overlay').style.display = 'flex';
             
+            // Push state for back button
+            if (window.location.hash !== '#movie-info') {
+                history.pushState({overlay: 'movie-info'}, '', '#movie-info');
+            }
+            
             const posterImg = info.movie_image || info.cover || streamObj.stream_icon;
             document.getElementById('mi-poster').innerHTML = posterImg ? `<img src="${posterImg}" style="width:100%; height:100%; object-fit:cover;">` : '';
             document.getElementById('mi-title').innerText = info.name || name;
@@ -656,6 +698,11 @@ class App {
             
             document.getElementById('series-overlay').style.display = 'flex';
             document.getElementById('series-title').innerText = seriesName;
+            
+            // Push state for back button
+            if (window.location.hash !== '#series') {
+                history.pushState({overlay: 'series'}, '', '#series');
+            }
             
             const seasonsContainer = document.getElementById('series-seasons');
             const episodesContainer = document.getElementById('series-episodes');
