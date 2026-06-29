@@ -3,192 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>FinnTV - Vita Edition</title>
+    <title>FinnTV Universal Legacy Player</title>
     <style>
-        /* Base Reset - Flat & Fast for PS Vita */
-        body {
-            background-color: #121212;
-            color: #ffffff;
-            font-family: sans-serif;
+        /* Modern-looking premium CSS constructed entirely with legacy-safe rules (No Flexbox, No Grid) */
+        * {
             margin: 0;
             padding: 0;
-            height: 100%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #0b0d19;
+            color: #f1f3f9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            padding-bottom: 40px;
         }
 
-        /* Header */
-        .header {
-            background: #1e1e1e;
-            border-bottom: 2px solid #333;
-            padding: 15px;
-            text-align: center;
+        /* Top Header Bar */
+        .top-navbar {
+            background-color: #121526;
+            border-bottom: 2px solid #1f2544;
+            padding: 15px 20px;
+            clear: both;
         }
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #00ccff;
+        .navbar-brand {
+            float: left;
+            font-size: 22px;
+            font-weight: 800;
+            color: #00a8ff;
+            text-decoration: none;
+            letter-spacing: 0.5px;
             text-transform: uppercase;
         }
-
-        /* Settings Bar */
-        .settings-bar {
-            background: #252525;
-            padding: 15px;
-            text-align: center;
-            border-bottom: 2px solid #333;
+        .settings-inline {
+            float: right;
+            margin-top: 4px;
         }
         .settings-label {
-            font-size: 16px;
-            color: #ccc;
+            font-size: 14px;
+            color: #a0aec0;
+            cursor: pointer;
         }
         .settings-checkbox {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             vertical-align: middle;
-            margin-right: 10px;
+            margin-right: 6px;
+        }
+        .clear-fix {
+            clear: both;
         }
 
-        /* Menu */
-        .menu-bar {
-            background: #1e1e1e;
-            padding: 10px;
-            text-align: center;
-        }
-        .menu-btn {
-            display: inline-block;
-            background: #333;
-            color: #fff;
-            text-decoration: none;
-            padding: 12px 20px;
-            margin: 5px;
-            border-radius: 5px;
-            font-size: 16px;
-            font-weight: bold;
-            border: 2px solid #444;
-        }
-        .menu-btn.active {
-            background: #0077aa;
-            border-color: #00ccff;
-        }
-
-        /* Player Area */
-        .player-container {
+        /* Video Container - Responsive Aspect Ratio */
+        .video-container {
             width: 100%;
-            background: #000;
+            background-color: #020205;
+            border-bottom: 3px solid #00a8ff;
             text-align: center;
-            border-bottom: 2px solid #0077aa;
+            position: relative;
         }
         video {
             width: 100%;
-            max-height: 350px;
-            background: #000;
-            display: block;
+            max-width: 800px;
+            max-height: 450px;
+            background-color: #000;
+            display: inline-block;
+            vertical-align: middle;
         }
 
-        /* Pagination & Search */
-        .controls-bar {
-            padding: 15px;
+        /* Categories Bar - Horizontal scroll using inline-block */
+        .categories-container {
+            background-color: #121526;
+            border-bottom: 1px solid #1f2544;
+            padding: 10px;
+            white-space: nowrap;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .category-tab {
+            display: inline-block;
+            background-color: #1c2035;
+            color: #e2e8f0;
+            text-decoration: none;
+            padding: 10px 18px;
+            margin-right: 8px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            border: 1px solid #2d3250;
+        }
+        .category-tab.active {
+            background-color: #00a8ff;
+            color: #ffffff;
+            border-color: #00c0ff;
+        }
+
+        /* Search & Controls Block */
+        .controls-wrapper {
+            padding: 20px 15px 10px 15px;
             text-align: center;
         }
-        .search-input {
-            width: 90%;
-            padding: 15px;
-            font-size: 18px;
-            background: #222;
-            color: #fff;
-            border: 2px solid #444;
-            border-radius: 5px;
+        .search-field {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 16px;
+            font-size: 16px;
+            background-color: #121526;
+            color: #ffffff;
+            border: 2px solid #2d3250;
+            border-radius: 8px;
+            outline: none;
             margin-bottom: 15px;
         }
-        .page-btn {
-            background: #444;
-            color: #fff;
-            border: none;
-            padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 5px;
-            margin: 0 10px;
-            cursor: pointer;
-        }
-        .page-btn:disabled {
-            background: #222;
-            color: #555;
-        }
-        .page-info {
-            font-size: 16px;
-            color: #aaa;
-            display: inline-block;
-            margin: 10px 0;
+        .search-field:focus {
+            border-color: #00a8ff;
         }
 
-        /* Channel List */
-        .channel-list {
-            padding: 10px;
-        }
-        .channel-item {
+        /* Pagination Controls */
+        .pagination-container {
             display: block;
-            padding: 20px;
-            background: #1e1e1e;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: 2px solid #333;
-            color: #fff;
-            font-size: 18px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .channel-item:active {
-            background: #0077aa;
-        }
-        .loading-text {
+            margin: 10px 0;
             text-align: center;
-            padding: 30px;
-            color: #888;
-            font-size: 18px;
+        }
+        .page-button {
+            display: inline-block;
+            background-color: #1c2035;
+            color: #ffffff;
+            border: 1px solid #2d3250;
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 700;
+            border-radius: 6px;
+            margin: 0 8px;
+            cursor: pointer;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        .page-button:active {
+            background-color: #00a8ff;
+        }
+        .page-button:disabled {
+            background-color: #0d0f19;
+            color: #4a5568;
+            border-color: #1f2544;
+            cursor: default;
+        }
+        .page-label {
+            display: inline-block;
+            font-size: 14px;
+            color: #a0aec0;
+            margin: 10px 0;
+            vertical-align: middle;
+        }
+
+        /* Premium Card Grid - Constructed with legacy float layouts (Fully responsive) */
+        .grid-wrapper {
+            padding: 10px;
+            clear: both;
+        }
+        .channel-card-container {
+            width: 50%; /* 2 cards per row on mobile */
+            float: left;
+            padding: 6px;
+        }
+        @media (min-width: 600px) {
+            .channel-card-container {
+                width: 33.33%; /* 3 cards per row on tablets/Vita */
+            }
+        }
+        @media (min-width: 900px) {
+            .channel-card-container {
+                width: 25%; /* 4 cards per row on desktops */
+            }
+        }
+        .channel-card {
+            background-color: #121526;
+            border: 1px solid #1f2544;
+            border-radius: 8px;
+            padding: 18px 12px;
+            text-align: center;
+            cursor: pointer;
+            min-height: 80px;
+            display: block;
+            text-decoration: none;
+            color: #f1f3f9;
+        }
+        .channel-card:active {
+            background-color: #1c2035;
+            border-color: #00a8ff;
+        }
+        .channel-name {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+
+        /* Status / Loader text */
+        .loader-text {
+            text-align: center;
+            padding: 40px;
+            color: #718096;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <div class="logo">FinnTV</div>
+    <!-- Header bar -->
+    <div class="top-navbar">
+        <a href="#" class="navbar-brand">FinnTV</a>
+        <div class="settings-inline">
+            <label class="settings-label">
+                <input type="checkbox" id="direct-play-toggle" class="settings-checkbox"> 
+                Force Direct Play
+            </label>
+        </div>
+        <div class="clear-fix"></div>
     </div>
 
-    <div class="player-container">
-        <video id="video-player" controls preload="none" poster="assets/poster.png"></video>
+    <!-- Video Area -->
+    <div class="video-container">
+        <video id="video-player" controls preload="none" playsinline webkit-playsinline poster="assets/poster.png"></video>
     </div>
 
-    <div class="settings-bar">
-        <label class="settings-label">
-            <input type="checkbox" id="direct-play-toggle" class="settings-checkbox"> 
-            Force Direct Play (Bypass Proxy)
-        </label>
+    <!-- Category selector -->
+    <div class="categories-container">
+        <a href="vita.html?m3u=m3u/world.m3u" class="category-tab" id="btn-world">World</a>
+        <a href="vita.html?m3u=m3u/india.m3u" class="category-tab" id="btn-india">India</a>
+        <a href="vita.html?m3u=m3u/sport.m3u" class="category-tab" id="btn-sport">Sports</a>
+        <a href="vita.html?m3u=m3u/egypt.m3u" class="category-tab" id="btn-egypt">Egypt</a>
+        <a href="vita.html?m3u=m3u/asia.m3u" class="category-tab" id="btn-asia">Asia</a>
+        <a href="vita.html?m3u=m3u/spanish.category" class="category-tab" id="btn-spanish">Spain</a>
     </div>
 
-    <div class="menu-bar">
-        <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn" id="btn-world">World</a>
-        <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn" id="btn-india">India</a>
-        <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn" id="btn-sport">Sports</a>
-        <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn" id="btn-egypt">Egypt</a>
-        <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn" id="btn-asia">Asia</a>
-        <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn" id="btn-spanish">Spain</a>
+    <!-- Search box & pagination -->
+    <div class="controls-wrapper">
+        <input type="text" id="search-input" class="search-field" placeholder="Search channels..." onkeyup="handleSearch()">
+        
+        <div class="pagination-container">
+            <button id="btn-prev" class="page-button" onclick="prevPage()">&#9664; Prev</button>
+            <span class="page-label" id="page-info">Page 1 of 1</span>
+            <button id="btn-next" class="page-button" onclick="nextPage()">Next &#9654;</button>
+        </div>
     </div>
 
-    <div class="controls-bar">
-        <input type="text" id="search-input" class="search-input" placeholder="Search channels..." onkeyup="handleSearch()">
-        <br>
-        <button id="btn-prev" class="page-btn" onclick="prevPage()">&#9664; Prev</button>
-        <div class="page-info" id="page-info">Page 1</div>
-        <button id="btn-next" class="page-btn" onclick="nextPage()">Next &#9654;</button>
+    <!-- Channels Grid -->
+    <div class="grid-wrapper" id="channel-grid">
+        <div class="loader-text">Select a category above to load TV channels.</div>
     </div>
-
-    <div class="channel-list" id="channel-list">
-        <div class="loading-text">Select a category to start.</div>
-    </div>
+    <div class="clear-fix"></div>
 
     <script>
-        // STRICT ES5 + VITA OPTIMIZATION
+        // STRICT ES5 COMPATIBILITY FOR LEGACY ENGINES (iOS 6+, Android 4+, Vita, Blackberry)
         var player = document.getElementById('video-player');
-        var channelList = document.getElementById('channel-list');
+        var channelGrid = document.getElementById('channel-grid');
         var pageInfo = document.getElementById('page-info');
         var btnPrev = document.getElementById('btn-prev');
         var btnNext = document.getElementById('btn-next');
@@ -197,7 +268,7 @@
         var allChannels = [];
         var filteredChannels = [];
         var currentPage = 1;
-        var itemsPerPage = 50; // Prevents DOM freezing on Vita
+        var itemsPerPage = 48; // Must be divisible by 2, 3, and 4 for perfect grid fitting
 
         function getQueryParam(name) {
             var match = new RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
@@ -209,7 +280,7 @@
                 if (typeof window.btoa === 'function') {
                     return window.btoa(unescape(encodeURIComponent(str)));
                 }
-            } catch (e) { }
+            } catch (e) {}
             return str;
         }
 
@@ -224,8 +295,11 @@
             }
             
             player.src = finalUrl;
+            player.load();
             player.play();
-            window.scrollTo(0, 0); // Scroll to top for player
+            
+            // Scroll to video tag smoothly
+            window.scrollTo(0, 0);
         }
 
         function handleSearch() {
@@ -255,10 +329,10 @@
         }
 
         function renderPage() {
-            channelList.innerHTML = '';
+            channelGrid.innerHTML = '';
             
             if (filteredChannels.length === 0) {
-                channelList.innerHTML = '<div class="loading-text">No channels found.</div>';
+                channelGrid.innerHTML = '<div class="loader-text">No channels match your search.</div>';
                 pageInfo.innerHTML = 'Page 1 of 1';
                 btnPrev.disabled = true;
                 btnNext.disabled = true;
@@ -277,19 +351,34 @@
 
             for (var i = startIndex; i < endIndex; i++) {
                 var c = filteredChannels[i];
-                var div = document.createElement('div');
-                div.className = 'channel-item';
-                div.innerHTML = c.name;
                 
-                // Closure for click handler
+                var cardContainer = document.createElement('div');
+                cardContainer.className = 'channel-card-container';
+                
+                var card = document.createElement('div');
+                card.className = 'channel-card';
+                
+                var nameSpan = document.createElement('div');
+                nameSpan.className = 'channel-name';
+                nameSpan.innerHTML = c.name;
+                
+                card.appendChild(nameSpan);
+                cardContainer.appendChild(card);
+                
+                // ES5 Closure scope binding for click callback
                 (function(url) {
-                    div.onclick = function() {
+                    card.onclick = function() {
                         playChannel(url);
                     };
                 })(c.url);
 
-                channelList.appendChild(div);
+                channelGrid.appendChild(cardContainer);
             }
+            
+            // Add a final clear-fix to prevent float breaking
+            var clearDiv = document.createElement('div');
+            clearDiv.className = 'clear-fix';
+            channelGrid.appendChild(clearDiv);
         }
 
         function parseM3U(data) {
@@ -316,17 +405,17 @@
         }
 
         function highlightActiveMenu(url) {
-            var buttons = document.getElementsByClassName('menu-btn');
+            var buttons = document.getElementsByClassName('category-tab');
             for (var i = 0; i < buttons.length; i++) {
-                buttons[i].className = 'menu-btn';
+                buttons[i].className = 'category-tab';
                 if (url && buttons[i].href.indexOf(url) !== -1) {
-                    buttons[i].className = 'menu-btn active';
+                    buttons[i].className = 'category-tab active';
                 }
             }
         }
 
         function loadM3U(url) {
-            channelList.innerHTML = '<div class="loading-text">Loading channels...</div>';
+            channelGrid.innerHTML = '<div class="loader-text">Downloading IPTV playlist...</div>';
             highlightActiveMenu(url);
             
             var xhr = new XMLHttpRequest();
@@ -343,21 +432,25 @@
                                 playChannel(allChannels[0].url);
                             }
                         } else {
-                            channelList.innerHTML = '<div class="loading-text">Empty playlist.</div>';
+                            channelGrid.innerHTML = '<div class="loader-text">Received empty channel list.</div>';
                         }
                     } else {
-                        channelList.innerHTML = '<div class="loading-text">Failed to connect to server.</div>';
+                        channelGrid.innerHTML = '<div class="loader-text">Failed to fetch channels. Connection error.</div>';
                     }
                 }
             };
             xhr.send();
         }
 
-        // Init
+        // Boot
         var m3uUrl = getQueryParam('m3u');
         if (m3uUrl) {
+            // Fix relative paths (m3u/world.m3u instead of ../m3u/world.m3u)
             m3uUrl = m3uUrl.replace('../', '');
             loadM3U(m3uUrl);
+        } else {
+            // Default to loading sports if nothing is chosen
+            loadM3U('m3u/sport.m3u');
         }
     </script>
 </body>
