@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FinnTV - Vita Player</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #header {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        #player-container {
+            width: 100%;
+            background: #000;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-height: 40vh;
+            background: #000;
+        }
+        #channel-list {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            padding: 10px;
+            background: #1a1a1a;
+            height: 400px;
+        }
+        .channel-item {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+        .channel-item:hover, .channel-item:focus {
+            background-color: #333;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+        .menu-bar {
+            overflow-x: auto;
+            background: #222;
+            padding: 10px;
+            white-space: nowrap;
+        }
+        .menu-btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .menu-btn:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        FinnTV Vita Player
+    </div>
+
+    <div id="player-container">
+        <!-- Older consoles and Vita support HTML5 video with M3U8 natively -->
+        <video id="video-player" controls preload="auto"></video>
+    </div>
+
+    <div class="menu-bar" id="menu-bar">
+        <!-- Links to predefined playlists -->
+        <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn">World</a>
+        <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn">India</a>
+        <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn">Sports</a>
+        <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn">Egypt</a>
+        <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn">Asia</a>
+        <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn">Spain</a>
+    </div>
+
+    <div id="channel-list">
+        <div class="loading">Select a playlist or load one...</div>
+    </div>
+
+    <script>
+        // Using ES5 to ensure compatibility with old browsers (PS Vita, old consoles)
+        var player = document.getElementById('video-player');
+        var channelList = document.getElementById('channel-list');
+
+        // Function to get query params
+        function getQueryParam(name) {
+            var match = new RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+            return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+
+        // Simple M3U parser for ES5
+        function parseM3U(data) {
+            var lines = data.replace(/\r/g, '').split('\n');
+            var channels = [];
+            var currentName = 'Unknown';
+
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i];
+                if (line.indexOf('#EXTINF:') === 0) {
+                    var parts = line.split(',');
+                    if (parts.length > 1) {
+                        currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
+                    }
+                } else if (line !== '' && line.indexOf('#') !== 0) {
+                    channels.push({
+                        name: currentName,
+                        url: line.replace(/^\s+|\s+$/g, '')
+                    });
+                    currentName = 'Unknown';
+                }
+            }
+            return channels;
+        }
+
+        function playChannel(url) {
+            player.src = url;
+            player.play();
+        }
+
+        function renderChannels(channels) {
+            channelList.innerHTML = '';
+            if (channels.length === 0) {
+                channelList.innerHTML = '<div class="loading">No channels found.</div>';
+                return;
+            }
+
+            for (var i = 0; i < channels.length; i++) {
+                var c = channels[i];
+                var div = document.createElement('div');
+                div.className = 'channel-item';
+                div.innerHTML = c.name;
+                
+                // Closure to capture URL
+                (function(url) {
+                    div.onclick = function() {
+                        playChannel(url);
+                    };
+                })(c.url);
+
+                channelList.appendChild(div);
+            }
+        }
+
+        function loadM3U(url) {
+            channelList.innerHTML = '<div class="loading">Loading channels...</div>';
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200 || xhr.status === 0) {
+                        var channels = parseM3U(xhr.responseText);
+                        renderChannels(channels);
+                        if (channels.length > 0) {
+                            playChannel(channels[0].url);
+                        }
+                    } else {
+                        channelList.innerHTML = '<div class="loading">Failed to load playlist.</div>';
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        // Initialize
+        var m3uUrl = getQueryParam('m3u');
+        if (m3uUrl) {
+            // Fix path if it came from index.html (which is ../m3u/...)
+            m3uUrl = m3uUrl.replace('../', '');
+            loadM3U(m3uUrl);
+        } else {
+            channelList.innerHTML = '<div class="loading">Select a category from the menu above to start watching.</div>';
+        }
+    </script>
+</body>
+</html>
