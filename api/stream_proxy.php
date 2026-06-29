@@ -143,7 +143,7 @@ if ($is_playlist) {
                 if ($noprx) {
                     $absUri = str_replace('https://', 'http://', $absUri);
                 }
-                $proxyUri = $noprx ? $absUri : ('/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)));
+                $proxyUri = $noprx ? $absUri : ('stream_proxy.php?url=' . urlencode(base64_encode($absUri)));
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
             $output[] = $line;
@@ -153,7 +153,7 @@ if ($is_playlist) {
             if ($noprx) {
                 $absUrl = str_replace('https://', 'http://', $absUrl);
             }
-            $output[] = $noprx ? $absUrl : ('/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)));
+            $output[] = $noprx ? $absUrl : ('stream_proxy.php?url=' . urlencode(base64_encode($absUrl)));
         }
     }
     

@@ -140,96 +140,156 @@
                     }
                 } else if (line !== '' && line.indexOf('#') !== 0) {
                     channels.push({
-                        name: currentName,
-                        url: line.replace(/^\s+|\s+$/g, '')
-                    });
-                    currentName = 'Unknown';
-                }
-            }
-            return channels;
-        }
-
-        var allChannels = [];
-
-        // Polyfill for base64 encoding (just in case old Vita browser struggles)
         function encodeBase64(str) {
-            if (typeof btoa === 'function') {
-                return btoa(unescape(encodeURIComponent(str)));
+            try {
+                if (typeof btoa === 'function') {
+                    return btoa(unescape(encodeURIComponent(str)));
+                }
+            } catch (e) {
+                logDebug('Base64 error: ' + e.message);
             }
-            return str; // Fallback
+            return str;
         }
 
         function playChannel(url) {
-            // Fix SSL Error on PS Vita: Route through local HTTP proxy so Vita doesn't have to connect to modern HTTPS
-            var proxyUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
-            player.src = proxyUrl;
-            player.play();
+            try {
+                var useDirect = document.getElementById('direct-play-toggle').checked;
+                var finalUrl = url;
+                
+                if (useDirect) {
+                    // Bypass proxy and force HTTP to avoid SSL errors directly
+                    finalUrl = url.replace('https://', 'http://');
+                    logDebug('Playing direct: ' + finalUrl);
+                } else {
+                    // Use PHP Proxy
+                    finalUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
+                    logDebug('Playing via proxy: ' + finalUrl);
+                }
+                
+                player.src = finalUrl;
+                player.play();
+            } catch(e) {
+                logDebug('Play error: ' + e.message);
+            }
         }
 
         function filterChannels() {
-            var query = document.getElementById('search-input').value.toLowerCase();
-            var filtered = [];
-            for (var i = 0; i < allChannels.length; i++) {
-                if (allChannels[i].name.toLowerCase().indexOf(query) !== -1) {
-                    filtered.push(allChannels[i]);
+            try {
+                var query = document.getElementById('search-input').value.toLowerCase();
+                var filtered = [];
+                for (var i = 0; i < allChannels.length; i++) {
+                    if (allChannels[i].name.toLowerCase().indexOf(query) !== -1) {
+                        filtered.push(allChannels[i]);
+                    }
                 }
+                renderChannels(filtered);
+            } catch (e) {
+                logDebug('Filter error: ' + e.message);
             }
-            renderChannels(filtered);
         }
 
         function renderChannels(channels) {
-            channelList.innerHTML = '';
-            if (channels.length === 0) {
-                channelList.innerHTML = '<div class="loading">No channels found.</div>';
-                return;
+            try {
+                channelList.innerHTML = '';
+                if (channels.length === 0) {
+                    channelList.innerHTML = '<div class="loading">No channels found.</div>';
+                    return;
+                }
+
+                for (var i = 0; i < channels.length; i++) {
+                    var c = channels[i];
+                    var div = document.createElement('div');
+                    div.className = 'channel-item';
+                    div.innerHTML = c.name;
+                    
+                    (function(url) {
+                        div.onclick = function() {
+                            playChannel(url);
+                        };
+                    })(c.url);
+
+                    channelList.appendChild(div);
+                }
+                logDebug('Rendered ' + channels.length + ' channels.');
+            } catch(e) {
+                logDebug('Render error: ' + e.message);
             }
+        }
 
-            for (var i = 0; i < channels.length; i++) {
-                var c = channels[i];
-                var div = document.createElement('div');
-                div.className = 'channel-item';
-                div.innerHTML = c.name;
-                
-                // Closure to capture URL
-                (function(url) {
-                    div.onclick = function() {
-                        playChannel(url);
-                    };
-                })(c.url);
+        function parseM3U(data) {
+            try {
+                var lines = data.replace(/\r/g, '').split('\n');
+                var channels = [];
+                var currentName = 'Unknown';
 
-                channelList.appendChild(div);
+                for (var i = 0; i < lines.length; i++) {
+                    var line = lines[i];
+                    if (line.indexOf('#EXTINF:') === 0) {
+                        var parts = line.split(',');
+                        if (parts.length > 1) {
+                            currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
+                        }
+                    } else if (line !== '' && line.indexOf('#') !== 0) {
+                        channels.push({
+                            name: currentName,
+                            url: line.replace(/^\s+|\s+$/g, '')
+                        });
+                        currentName = 'Unknown';
+                    }
+                }
+                logDebug('Parsed ' + channels.length + ' channels from M3U.');
+                return channels;
+            } catch(e) {
+                logDebug('Parse error: ' + e.message);
+                return [];
             }
         }
 
         function loadM3U(url) {
+            logDebug('Loading playlist: ' + url);
             channelList.innerHTML = '<div class="loading">Loading channels...</div>';
             
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, true);
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState === 4) {
-                    if (xhr.status === 200 || xhr.status === 0) {
-                        allChannels = parseM3U(xhr.responseText);
-                        renderChannels(allChannels);
-                        if (allChannels.length > 0) {
-                            playChannel(allChannels[0].url);
+            try {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4) {
+                        logDebug('XHR status: ' + xhr.status);
+                        if (xhr.status === 200 || xhr.status === 0) {
+                            if (!xhr.responseText || xhr.responseText.length === 0) {
+                                logDebug('Error: Empty response from server');
+                                channelList.innerHTML = '<div class="loading">Playlist is empty.</div>';
+                                return;
+                            }
+                            allChannels = parseM3U(xhr.responseText);
+                            renderChannels(allChannels);
+                            if (allChannels.length > 0) {
+                                playChannel(allChannels[0].url);
+                            }
+                        } else {
+                            logDebug('HTTP Error ' + xhr.status + ' loading M3U');
+                            channelList.innerHTML = '<div class="loading">Failed to load playlist. Server returned ' + xhr.status + '</div>';
                         }
-                    } else {
-                        channelList.innerHTML = '<div class="loading">Failed to load playlist.</div>';
                     }
-                }
-            };
-            xhr.send();
+                };
+                xhr.send();
+            } catch(e) {
+                logDebug('XHR exception: ' + e.message);
+                channelList.innerHTML = '<div class="loading">Network exception occurred.</div>';
+            }
         }
 
-        // Initialize
-        var m3uUrl = getQueryParam('m3u');
-        if (m3uUrl) {
-            // Fix path if it came from index.html (which is ../m3u/...)
-            m3uUrl = m3uUrl.replace('../', '');
-            loadM3U(m3uUrl);
-        } else {
-            channelList.innerHTML = '<div class="loading">Select a category from the menu above to start watching.</div>';
+        try {
+            var m3uUrl = getQueryParam('m3u');
+            if (m3uUrl) {
+                m3uUrl = m3uUrl.replace('../', '');
+                loadM3U(m3uUrl);
+            } else {
+                logDebug('Waiting for user to select a category.');
+                channelList.innerHTML = '<div class="loading">Select a category from the menu above to start watching.</div>';
+            }
+        } catch(e) {
+            logDebug('Init error: ' + e.message);
         }
     </script>
 </body>
