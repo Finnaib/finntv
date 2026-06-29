@@ -19,7 +19,7 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
             
             if (isLegacyConsole || isLegacyBrowser) {
                 var search = window.location.search;
-                window.location.href = '../vita.html' + search;
+                window.location.href = '/vita.html' + search;
             }
         })();
     </script>
