@@ -5,58 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FinnTV - Vita Edition</title>
     <style>
-        /* Base Reset */
+        /* Base Reset - Flat & Fast for PS Vita */
         body {
-            background-color: #0d0f12;
-            color: #e4e6eb;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
             height: 100%;
-            -webkit-font-smoothing: antialiased;
         }
 
-        /* Header - Block layout for older WebKit */
+        /* Header */
         .header {
-            background: #181a1f;
-            border-bottom: 1px solid #2d3036;
-            padding: 12px 15px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            background: #1e1e1e;
+            border-bottom: 2px solid #333;
+            padding: 15px;
             text-align: center;
         }
         .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #fff;
-            display: inline-block;
-            vertical-align: middle;
+            color: #00ccff;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            background: -webkit-linear-gradient(#00d2ff, #3a7bd5);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
 
-        /* Search Bar */
-        .search-container {
-            display: block;
-            margin: 15px;
+        /* Settings Bar */
+        .settings-bar {
+            background: #252525;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 2px solid #333;
         }
-        .search-input {
-            width: 100%;
-            padding: 12px;
-            box-sizing: border-box;
-            background: #24272e;
-            border: 1px solid #3a3d46;
-            border-radius: 8px;
-            color: #fff;
+        .settings-label {
             font-size: 16px;
-            outline: none;
-            -webkit-appearance: none;
+            color: #ccc;
         }
-        .search-input:focus {
-            border-color: #3a7bd5;
-            box-shadow: 0 0 8px rgba(58,123,213,0.5);
+        .settings-checkbox {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        /* Menu */
+        .menu-bar {
+            background: #1e1e1e;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu-btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #444;
+        }
+        .menu-btn.active {
+            background: #0077aa;
+            border-color: #00ccff;
         }
 
         /* Player Area */
@@ -64,110 +75,75 @@
             width: 100%;
             background: #000;
             text-align: center;
-            border-bottom: 2px solid #3a7bd5;
+            border-bottom: 2px solid #0077aa;
         }
         video {
             width: 100%;
-            max-height: 40vh;
+            max-height: 350px;
             background: #000;
             display: block;
         }
 
-        /* Settings Bar */
-        .settings-bar {
-            padding: 10px 15px;
-            background: #181a1f;
-            border-bottom: 1px solid #2d3036;
+        /* Pagination & Search */
+        .controls-bar {
+            padding: 15px;
             text-align: center;
         }
-        .settings-label {
-            font-size: 14px;
-            color: #aaa;
+        .search-input {
+            width: 90%;
+            padding: 15px;
+            font-size: 18px;
+            background: #222;
+            color: #fff;
+            border: 2px solid #444;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .page-btn {
+            background: #444;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            margin: 0 10px;
             cursor: pointer;
         }
-        .settings-checkbox {
-            vertical-align: middle;
-            margin-right: 5px;
+        .page-btn:disabled {
+            background: #222;
+            color: #555;
         }
-
-        /* Horizontal Menu Scroll */
-        .menu-bar {
-            background: #1e2128;
-            padding: 12px 15px;
-            border-bottom: 1px solid #2d3036;
-        }
-        .menu-scroll {
-            overflow-x: auto;
-            white-space: nowrap;
-            -webkit-overflow-scrolling: touch;
-        }
-        .menu-btn {
+        .page-info {
+            font-size: 16px;
+            color: #aaa;
             display: inline-block;
-            background: #2a2e38;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin-right: 10px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: bold;
-            border: 1px solid #3a3d46;
-        }
-        .menu-btn.active, .menu-btn:active {
-            background: #3a7bd5;
-            border-color: #00d2ff;
+            margin: 10px 0;
         }
 
         /* Channel List */
         .channel-list {
-            padding: 10px 15px;
-            height: 350px;
-            overflow-y: auto;
-            -webkit-overflow-scrolling: touch;
+            padding: 10px;
         }
         .channel-item {
             display: block;
-            padding: 15px;
-            background: #24272e;
+            padding: 20px;
+            background: #1e1e1e;
             margin-bottom: 10px;
-            border-radius: 8px;
-            border: 1px solid #2d3036;
-            cursor: pointer;
-            color: #e4e6eb;
-            font-size: 16px;
+            border-radius: 5px;
+            border: 2px solid #333;
+            color: #fff;
+            font-size: 18px;
             text-decoration: none;
+            cursor: pointer;
         }
-        .channel-item:hover, .channel-item:active {
-            background: #2d3036;
-            border-color: #3a7bd5;
+        .channel-item:active {
+            background: #0077aa;
         }
-        
         .loading-text {
             text-align: center;
             padding: 30px;
             color: #888;
-            font-size: 16px;
-        }
-
-        /* Debug Console (Hidden by default) */
-        .debug-console {
-            background: #000;
-            color: #0f0;
-            font-family: monospace;
-            font-size: 12px;
-            padding: 10px;
-            height: 120px;
-            overflow-y: auto;
-            border-top: 2px solid #333;
-            display: none;
-        }
-        .debug-toggle {
-            text-align: center;
-            padding: 10px;
-            background: #111;
-            color: #555;
-            font-size: 12px;
-            cursor: pointer;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -178,59 +154,50 @@
     </div>
 
     <div class="player-container">
-        <video id="video-player" controls preload="auto" poster="assets/poster.png"></video>
+        <video id="video-player" controls preload="none" poster="assets/poster.png"></video>
     </div>
 
     <div class="settings-bar">
         <label class="settings-label">
             <input type="checkbox" id="direct-play-toggle" class="settings-checkbox"> 
-            Force Direct Play (Fixes SSL/Proxy Issues)
+            Force Direct Play (Bypass Proxy)
         </label>
     </div>
 
-    <div class="search-container">
-        <input type="text" id="search-input" class="search-input" placeholder="Search channels..." onkeyup="filterChannels()">
+    <div class="menu-bar">
+        <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn" id="btn-world">World</a>
+        <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn" id="btn-india">India</a>
+        <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn" id="btn-sport">Sports</a>
+        <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn" id="btn-egypt">Egypt</a>
+        <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn" id="btn-asia">Asia</a>
+        <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn" id="btn-spanish">Spain</a>
     </div>
 
-    <div class="menu-bar">
-        <div class="menu-scroll">
-            <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn" id="btn-world">World</a>
-            <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn" id="btn-india">India</a>
-            <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn" id="btn-sport">Sports</a>
-            <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn" id="btn-egypt">Egypt</a>
-            <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn" id="btn-asia">Asia</a>
-            <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn" id="btn-spanish">Spain</a>
-        </div>
+    <div class="controls-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Search channels..." onkeyup="handleSearch()">
+        <br>
+        <button id="btn-prev" class="page-btn" onclick="prevPage()">&#9664; Prev</button>
+        <div class="page-info" id="page-info">Page 1</div>
+        <button id="btn-next" class="page-btn" onclick="nextPage()">Next &#9654;</button>
     </div>
 
     <div class="channel-list" id="channel-list">
-        <div class="loading-text">Select a category to start watching.</div>
-    </div>
-
-    <div class="debug-toggle" onclick="toggleDebug()">Show Debug Log</div>
-    <div class="debug-console" id="debug-log">
-        [System Booting...]
+        <div class="loading-text">Select a category to start.</div>
     </div>
 
     <script>
-        // ES5 Strict compatibility for maximum legacy support
+        // STRICT ES5 + VITA OPTIMIZATION
         var player = document.getElementById('video-player');
         var channelList = document.getElementById('channel-list');
-        var debugLog = document.getElementById('debug-log');
+        var pageInfo = document.getElementById('page-info');
+        var btnPrev = document.getElementById('btn-prev');
+        var btnNext = document.getElementById('btn-next');
+        var searchInput = document.getElementById('search-input');
+        
         var allChannels = [];
-
-        function toggleDebug() {
-            if (debugLog.style.display === 'none' || debugLog.style.display === '') {
-                debugLog.style.display = 'block';
-            } else {
-                debugLog.style.display = 'none';
-            }
-        }
-
-        function logDebug(msg) {
-            debugLog.innerHTML += '<br>' + msg;
-            debugLog.scrollTop = debugLog.scrollHeight;
-        }
+        var filteredChannels = [];
+        var currentPage = 1;
+        var itemsPerPage = 50; // Prevents DOM freezing on Vita
 
         function getQueryParam(name) {
             var match = new RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
@@ -242,112 +209,116 @@
                 if (typeof window.btoa === 'function') {
                     return window.btoa(unescape(encodeURIComponent(str)));
                 }
-            } catch (e) {
-                logDebug('Base64 Encoding Error: ' + e.message);
-            }
+            } catch (e) { }
             return str;
         }
 
         function playChannel(url) {
-            try {
-                var useDirect = document.getElementById('direct-play-toggle').checked;
-                var finalUrl = url;
-                
-                if (useDirect) {
-                    // Bypass PHP Proxy and force HTTP protocol
-                    finalUrl = url.replace('https://', 'http://');
-                    logDebug('Playing directly: ' + finalUrl);
-                } else {
-                    // Use standard proxy to bypass CORS and device SSL limits
-                    finalUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
-                    logDebug('Playing via proxy: ' + finalUrl);
+            var useDirect = document.getElementById('direct-play-toggle').checked;
+            var finalUrl = url;
+            
+            if (useDirect) {
+                finalUrl = url.replace('https://', 'http://');
+            } else {
+                finalUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
+            }
+            
+            player.src = finalUrl;
+            player.play();
+            window.scrollTo(0, 0); // Scroll to top for player
+        }
+
+        function handleSearch() {
+            var query = searchInput.value.toLowerCase();
+            filteredChannels = [];
+            for (var i = 0; i < allChannels.length; i++) {
+                if (allChannels[i].name.toLowerCase().indexOf(query) !== -1) {
+                    filteredChannels.push(allChannels[i]);
                 }
-                
-                player.src = finalUrl;
-                player.play();
-                window.scrollTo(0, 0); // Scroll to top to see video
-            } catch (e) {
-                logDebug('Video Player Error: ' + e.message);
+            }
+            currentPage = 1;
+            renderPage();
+        }
+
+        function nextPage() {
+            if ((currentPage * itemsPerPage) < filteredChannels.length) {
+                currentPage++;
+                renderPage();
             }
         }
 
-        function filterChannels() {
-            try {
-                var query = document.getElementById('search-input').value.toLowerCase();
-                var filtered = [];
-                for (var i = 0; i < allChannels.length; i++) {
-                    if (allChannels[i].name.toLowerCase().indexOf(query) !== -1) {
-                        filtered.push(allChannels[i]);
-                    }
-                }
-                renderChannels(filtered);
-            } catch (e) {
-                logDebug('Search Error: ' + e.message);
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderPage();
             }
         }
 
-        function renderChannels(channels) {
-            try {
-                channelList.innerHTML = '';
-                if (channels.length === 0) {
-                    channelList.innerHTML = '<div class="loading-text">No channels found.</div>';
-                    return;
-                }
+        function renderPage() {
+            channelList.innerHTML = '';
+            
+            if (filteredChannels.length === 0) {
+                channelList.innerHTML = '<div class="loading-text">No channels found.</div>';
+                pageInfo.innerHTML = 'Page 1 of 1';
+                btnPrev.disabled = true;
+                btnNext.disabled = true;
+                return;
+            }
 
-                for (var i = 0; i < channels.length; i++) {
-                    var c = channels[i];
-                    var div = document.createElement('div');
-                    div.className = 'channel-item';
-                    div.innerHTML = c.name;
-                    
-                    // Scope closure for ES5 loop event binding
-                    (function(url) {
-                        div.onclick = function() {
-                            playChannel(url);
-                        };
-                    })(c.url);
+            var totalPages = Math.ceil(filteredChannels.length / itemsPerPage);
+            pageInfo.innerHTML = 'Page ' + currentPage + ' of ' + totalPages;
+            
+            btnPrev.disabled = (currentPage === 1);
+            btnNext.disabled = (currentPage === totalPages);
 
-                    channelList.appendChild(div);
-                }
-                logDebug('Rendered ' + channels.length + ' channels to UI.');
-            } catch (e) {
-                logDebug('Render Error: ' + e.message);
+            var startIndex = (currentPage - 1) * itemsPerPage;
+            var endIndex = startIndex + itemsPerPage;
+            if (endIndex > filteredChannels.length) endIndex = filteredChannels.length;
+
+            for (var i = startIndex; i < endIndex; i++) {
+                var c = filteredChannels[i];
+                var div = document.createElement('div');
+                div.className = 'channel-item';
+                div.innerHTML = c.name;
+                
+                // Closure for click handler
+                (function(url) {
+                    div.onclick = function() {
+                        playChannel(url);
+                    };
+                })(c.url);
+
+                channelList.appendChild(div);
             }
         }
 
         function parseM3U(data) {
-            try {
-                var lines = data.replace(/\r/g, '').split('\n');
-                var channels = [];
-                var currentName = 'Unknown Channel';
+            var lines = data.replace(/\r/g, '').split('\n');
+            var channels = [];
+            var currentName = 'Unknown Channel';
 
-                for (var i = 0; i < lines.length; i++) {
-                    var line = lines[i];
-                    if (line.indexOf('#EXTINF:') === 0) {
-                        var parts = line.split(',');
-                        if (parts.length > 1) {
-                            currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
-                        }
-                    } else if (line !== '' && line.indexOf('#') !== 0) {
-                        channels.push({
-                            name: currentName,
-                            url: line.replace(/^\s+|\s+$/g, '')
-                        });
-                        currentName = 'Unknown Channel';
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i];
+                if (line.indexOf('#EXTINF:') === 0) {
+                    var parts = line.split(',');
+                    if (parts.length > 1) {
+                        currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
                     }
+                } else if (line !== '' && line.indexOf('#') !== 0) {
+                    channels.push({
+                        name: currentName,
+                        url: line.replace(/^\s+|\s+$/g, '')
+                    });
+                    currentName = 'Unknown Channel';
                 }
-                logDebug('Parsed ' + channels.length + ' channels from playlist.');
-                return channels;
-            } catch (e) {
-                logDebug('M3U Parse Error: ' + e.message);
-                return [];
             }
+            return channels;
         }
 
         function highlightActiveMenu(url) {
             var buttons = document.getElementsByClassName('menu-btn');
             for (var i = 0; i < buttons.length; i++) {
-                buttons[i].className = 'menu-btn'; // Reset
+                buttons[i].className = 'menu-btn';
                 if (url && buttons[i].href.indexOf(url) !== -1) {
                     buttons[i].className = 'menu-btn active';
                 }
@@ -355,59 +326,38 @@
         }
 
         function loadM3U(url) {
-            logDebug('Downloading playlist from network: ' + url);
-            channelList.innerHTML = '<div class="loading-text">Loading channels from server...</div>';
+            channelList.innerHTML = '<div class="loading-text">Loading channels...</div>';
             highlightActiveMenu(url);
             
-            try {
-                var xhr = new XMLHttpRequest();
-                xhr.open('GET', url, true);
-                
-                // Set a timeout to prevent infinite hanging
-                xhr.timeout = 15000;
-                xhr.ontimeout = function () {
-                    logDebug('Network timeout while loading playlist.');
-                    channelList.innerHTML = '<div class="loading-text">Network timeout. Please try again.</div>';
-                };
-
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState === 4) {
-                        logDebug('Network request finished with HTTP Status: ' + xhr.status);
-                        if (xhr.status === 200 || xhr.status === 0) {
-                            if (!xhr.responseText || xhr.responseText.length === 0) {
-                                logDebug('Error: Server returned empty data block.');
-                                channelList.innerHTML = '<div class="loading-text">Playlist data is empty.</div>';
-                                return;
-                            }
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200 || xhr.status === 0) {
+                        if (xhr.responseText) {
                             allChannels = parseM3U(xhr.responseText);
-                            renderChannels(allChannels);
+                            filteredChannels = [].concat(allChannels);
+                            currentPage = 1;
+                            renderPage();
                             if (allChannels.length > 0) {
                                 playChannel(allChannels[0].url);
                             }
                         } else {
-                            logDebug('Server rejection: ' + xhr.status);
-                            channelList.innerHTML = '<div class="loading-text">Failed to connect to server. HTTP ' + xhr.status + '</div>';
+                            channelList.innerHTML = '<div class="loading-text">Empty playlist.</div>';
                         }
+                    } else {
+                        channelList.innerHTML = '<div class="loading-text">Failed to connect to server.</div>';
                     }
-                };
-                xhr.send();
-            } catch (e) {
-                logDebug('Network Exception: ' + e.message);
-                channelList.innerHTML = '<div class="loading-text">A critical network error occurred.</div>';
-            }
+                }
+            };
+            xhr.send();
         }
 
-        // Boot Sequence
-        try {
-            var m3uUrl = getQueryParam('m3u');
-            if (m3uUrl) {
-                // Safely convert paths if opened from main directory
-                m3uUrl = m3uUrl.replace('../', '');
-                loadM3U(m3uUrl);
-            }
-            logDebug('Boot sequence complete.');
-        } catch (e) {
-            logDebug('Initialization Error: ' + e.message);
+        // Init
+        var m3uUrl = getQueryParam('m3u');
+        if (m3uUrl) {
+            m3uUrl = m3uUrl.replace('../', '');
+            loadM3U(m3uUrl);
         }
     </script>
 </body>

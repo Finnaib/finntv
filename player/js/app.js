@@ -590,9 +590,6 @@ class App {
             let proxyUrl;
             if (isLive) {
                 proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
-                if (streamUrl.includes('jmp2.uk') || streamUrl.includes('samsungtvplus')) {
-                    proxyUrl += '&noprx=1';
-                }
             } else {
                 // VOD/Series (MP4/MKV) are too large for Vercel Edge/Serverless limits to proxy continuously.
                 // We MUST stream them directly to the browser.

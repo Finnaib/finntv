@@ -72,8 +72,6 @@ curl_setopt($ch, CURLOPT_TIMEOUT, 20); // Longer timeout to prevent "No Video" o
 
 if ($is_direct_stream) {
     // Stream segments directly for memory efficiency
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
-    
     $content_type = "video/mp2t"; // default
     if (stripos($url, '.mp4') !== false) $content_type = "video/mp4";
     elseif (stripos($url, '.mkv') !== false) $content_type = "video/x-matroska";
@@ -81,6 +79,18 @@ if ($is_direct_stream) {
 
     header("Content-Type: " . $content_type);
     header("Cache-Control: public, max-age=3600");
+    header("X-Accel-Buffering: no"); // Prevent Vercel from buffering video chunks in memory
+
+    // Flush chunk by chunk to prevent 10s Serverless timeouts
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+    curl_setopt($ch, CURLOPT_BUFFERSIZE, 128000); 
+    curl_setopt($ch, CURLOPT_WRITEFUNCTION, function($curl, $data) {
+        echo $data;
+        if (ob_get_level() > 0) ob_flush();
+        flush();
+        return strlen($data);
+    });
+
     curl_exec($ch);
     curl_close($ch);
     exit;
