@@ -286,24 +286,19 @@
 
         function playChannel(url) {
             var useDirect = document.getElementById('direct-play-toggle').checked;
-            var finalUrl = url;
-            
-            // Convert progressive .ts live streams to HLS .m3u8 to prevent Vercel timeouts and allow native browser playback
-            if (finalUrl.indexOf('/live/') !== -1 && finalUrl.indexOf('.ts') !== -1) {
-                finalUrl = finalUrl.replace('.ts', '.m3u8');
-            }
+            var finalUrl;
             
             if (useDirect) {
-                finalUrl = finalUrl.replace('https://', 'http://');
+                finalUrl = url.replace('https://', 'http://');
             } else {
-                finalUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(finalUrl));
+                finalUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
             }
             
             player.src = finalUrl;
             player.load();
             player.play();
             
-            // Scroll to video tag smoothly
+            // Scroll to video tag
             window.scrollTo(0, 0);
         }
 

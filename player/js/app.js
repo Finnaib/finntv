@@ -577,11 +577,7 @@ class App {
         this.player.ready(() => {
             this.teardownSubPlayers();
 
-            // Convert raw live .ts streams to .m3u8 HLS playlists where possible.
             let streamUrl = url;
-            if (streamUrl.includes('/live/') && streamUrl.split('?')[0].endsWith('.ts')) {
-                streamUrl = streamUrl.replace(/\.ts(\?|$)/, '.m3u8$1');
-            }
 
             const isLive = this.currentView === 'live' || this.authMode === 'm3u';
             
