@@ -82,6 +82,10 @@
                        "dest":  "/admin.html"
                    },
                    {
+                       "src":  "/old.html",
+                       "dest":  "/old.html"
+                   },
+                   {
                        "src":  "/player/(.*)",
                        "dest":  "/player/$1"
                    },
