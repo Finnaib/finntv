@@ -34,6 +34,18 @@ python fetch_samsung.py
 if %errorlevel% neq 0 (
     echo Warning: Samsung TV Plus collection had issues, check output above.
 )
+echo Fetching Sports and Facebook channels (import_sports.py)...
+python import_sports.py
+if %errorlevel% neq 0 (
+    echo Warning: Sports import had issues, check output above.
+)
+
+echo Merging external India channels (m3u\merge_script.py)...
+python m3u\merge_script.py
+if %errorlevel% neq 0 (
+    echo Warning: India merge had issues, check output above.
+)
+
 echo Building Spanish channels (collect_external.py already generated spanish.m3u)...
 REM python build_spanish.py
 REM if %errorlevel% neq 0 (
@@ -45,7 +57,12 @@ echo [3/4] Reorganizing M3U Files by Categories...
 call reorganize_all_m3u.bat
 echo.
 
-
+echo Organizing VOD and Series playlists (m3u\organize_playlists.py)...
+python m3u\organize_playlists.py
+if %errorlevel% neq 0 (
+    echo Warning: VOD/Series organize had issues, check output above.
+)
+echo.
 echo [4/4] Building Optimized Data Cache ^& ID Map...
 python build_data.py
 if %errorlevel% neq 0 (
