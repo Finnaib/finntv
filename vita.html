@@ -54,10 +54,23 @@
             color: #aaa;
         }
         .menu-bar {
-            overflow-x: auto;
             background: #222;
             padding: 10px;
+        }
+        .menu-scroll {
+            overflow-x: auto;
             white-space: nowrap;
+            margin-bottom: 10px;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            background: #333;
+            color: #fff;
+            border: 1px solid #444;
+            border-radius: 5px;
+            font-size: 16px;
         }
         .menu-btn {
             display: inline-block;
@@ -86,13 +99,15 @@
     </div>
 
     <div class="menu-bar" id="menu-bar">
-        <!-- Links to predefined playlists -->
-        <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn">World</a>
-        <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn">India</a>
-        <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn">Sports</a>
-        <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn">Egypt</a>
-        <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn">Asia</a>
-        <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn">Spain</a>
+        <div class="menu-scroll">
+            <a href="vita.html?m3u=m3u/world.m3u" class="menu-btn">World</a>
+            <a href="vita.html?m3u=m3u/india.m3u" class="menu-btn">India</a>
+            <a href="vita.html?m3u=m3u/sport.m3u" class="menu-btn">Sports</a>
+            <a href="vita.html?m3u=m3u/egypt.m3u" class="menu-btn">Egypt</a>
+            <a href="vita.html?m3u=m3u/asia.m3u" class="menu-btn">Asia</a>
+            <a href="vita.html?m3u=m3u/spanish.m3u" class="menu-btn">Spain</a>
+        </div>
+        <input type="text" id="search-input" class="search-box" placeholder="Search channels..." onkeyup="filterChannels()">
     </div>
 
     <div id="channel-list">
@@ -134,9 +149,32 @@
             return channels;
         }
 
+        var allChannels = [];
+
+        // Polyfill for base64 encoding (just in case old Vita browser struggles)
+        function encodeBase64(str) {
+            if (typeof btoa === 'function') {
+                return btoa(unescape(encodeURIComponent(str)));
+            }
+            return str; // Fallback
+        }
+
         function playChannel(url) {
-            player.src = url;
+            // Fix SSL Error on PS Vita: Route through local HTTP proxy so Vita doesn't have to connect to modern HTTPS
+            var proxyUrl = 'api/stream_proxy.php?url=' + encodeURIComponent(encodeBase64(url));
+            player.src = proxyUrl;
             player.play();
+        }
+
+        function filterChannels() {
+            var query = document.getElementById('search-input').value.toLowerCase();
+            var filtered = [];
+            for (var i = 0; i < allChannels.length; i++) {
+                if (allChannels[i].name.toLowerCase().indexOf(query) !== -1) {
+                    filtered.push(allChannels[i]);
+                }
+            }
+            renderChannels(filtered);
         }
 
         function renderChannels(channels) {
@@ -171,10 +209,10 @@
             xhr.onreadystatechange = function() {
                 if (xhr.readyState === 4) {
                     if (xhr.status === 200 || xhr.status === 0) {
-                        var channels = parseM3U(xhr.responseText);
-                        renderChannels(channels);
-                        if (channels.length > 0) {
-                            playChannel(channels[0].url);
+                        allChannels = parseM3U(xhr.responseText);
+                        renderChannels(allChannels);
+                        if (allChannels.length > 0) {
+                            playChannel(allChannels[0].url);
                         }
                     } else {
                         channelList.innerHTML = '<div class="loading">Failed to load playlist.</div>';
