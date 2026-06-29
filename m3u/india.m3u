@@ -1885,16 +1885,16 @@ https://server.itcnbd.live/stream/sony_sports_5_hd.m3u8
 http://119.156.228.231:9983/stream/channelid/679185749?ticket=DED82FB8AE85893524A1035AAE7CD187020FFA04&profile=pass
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/8e998f20a9cc52cb8eb1f52a5bf38204" group-title="Bangladesh",Channel I
-https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8?e=1782665440&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=e957d2959b2f3e041ef5f976b45f8055
+https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8?e=1782697096&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=3537cffd601426bfaea579b4032c5b0f
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/1a619c9b917eb35898020cd323e415a7" group-title="Bangladesh",NTV
-https://tvsen5.aynaott.com/JHPxHAWonztVucyc4GzF/index.m3u8?e=1782665440&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=7f955e1c0f7b6e3afa3d8b92c3f19359
+https://tvsen5.aynaott.com/JHPxHAWonztVucyc4GzF/index.m3u8?e=1782697096&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=8b032793dae0177bd4ea5b58f2aff0e4
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/8a1af81802b0728c064c2adabcdc72c8" group-title="Bangladesh",ETV
-https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8?e=1782665440&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=d46cb17c34e3a883a30eb49cf7b19ecf
+https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8?e=1782697096&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=ebf51b5200913d7badf594ea41abb3c0
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/d10390e5434e8cb44172257abd714beb" group-title="Bangladesh",Desh TV
-https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8?e=1782665440&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=71276953925d15b87ac90054732d98b3
+https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8?e=1782697096&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=0187266f027b149059522ff0727a6d76
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Channel%20I.png" group-title="Bangladesh",Channel I
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8
@@ -1915,7 +1915,7 @@ https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8" group-title="Bangladesh",Jamuna TV
-https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8?e=1782665441&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=fbc061923a200151ba88ccb2690c8e3a
+https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8?e=1782697098&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=1aabe6a2284168682d38d0e1a3e6a8cb
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/b3564688d9964a0da7cee6174fda39ef" group-title="Bangladesh",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
@@ -1923,11 +1923,14 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
 #EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="Bangladesh",Jamuna TV (1080p)
 https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
+https://bozztv.com/rongo/rongo-somoy/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="Bangladesh",PTV Sports
-https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1782665442&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&ip=128.24.161.84&token=f4b9d420cb096b1db190b98f4baef1dd
+https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1782697099&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&ip=135.232.224.98&token=0273e06656c53eb1bc98252d6bc9c0fa
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports 1 HD
 http://41.205.93.154/STARSPORTS1/index.m3u8
@@ -1981,10 +1984,10 @@ http://103.182.170.32:8888/play/a034
 http://163.61.227.29:8000/play/a05l/40652310.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/fea79ac5193dd9fb80aa1996f2adc1e2" group-title="Bangladesh",Zee 24 Ghanta
-https://tvsen6.aynaott.com/zee24/index.m3u8?e=1782665443&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=f60d3eb9ef0c46d458add1eccebbe223
+https://tvsen6.aynaott.com/zee24/index.m3u8?e=1782697100&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=099dabacc0640283340a193426bf60a0
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b" group-title="Bangladesh",Nat Geo TV
-https://tvsen6.aynaott.com/natgeo/index.m3u8?e=1782665444&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=8eb2f64ae88f4e9c53966b74f012142a
+https://tvsen6.aynaott.com/natgeo/index.m3u8?e=1782697101&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=577eba67b94d0cd46d8e595e585ea5e8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/1tmcNHW3/Star-Jalsha-HD.jpg" group-title="Bangladesh",Star Jalsha HD
 https://dhoomtv.xyz/live/P4B9TB9xR8/humongous2tonight/23218.ts
@@ -1997,9 +2000,6 @@ https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV (1080p)
 https://bozztv.com/rongo/rongo-DeshTV/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Somoy News TV (1080p)
-https://bozztv.com/rongo/rongo-somoy/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
 https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
@@ -2079,21 +2079,6 @@ http://103.229.254.25:7001/play/a076/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="Bangladesh",Colors Bangla HD
 https://ultra02jibon02by1.jibon02premium.workers.dev/JIBON-COLORS-BNAGLA-CINEMA/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20BBC%20Earth.jpeg" group-title="Bangladesh",Sony BBC Earth HD
-http://103.175.73.12:8080/live/255/255_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity SD
-http://103.175.73.12:8080/live/28/28_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity HD
-http://103.229.254.25:7001/play/a0du/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast HD
-http://103.175.73.12:8080/live/326/326_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast
-http://103.175.73.12:8080/live/327/327_0.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Bangladesh",Star Movies
 http://198.195.239.50:8095/StarMovies/tracks-v1a1/mono.m3u8
 
@@ -2108,6 +2093,21 @@ http://103.182.170.32:8888/play/a027
 
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/401/logo/240x240/mobile_logo_394610001675857887.png" group-title="Bangladesh",Zee Cafe
 http://103.182.170.32:8888/play/a01w
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20BBC%20Earth.jpeg" group-title="Bangladesh",Sony BBC Earth HD
+http://103.175.73.12:8080/live/255/255_0.m3u8
+
+#EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity SD
+http://103.175.73.12:8080/live/28/28_0.m3u8
+
+#EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity HD
+http://103.229.254.25:7001/play/a0du/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast HD
+http://103.175.73.12:8080/live/326/326_0.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast
+http://103.175.73.12:8080/live/327/327_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com//Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="Bangladesh",Somoy TV
 http://114.130.57.233:8080/Somoy-TV-3Mb/video.m3u8?token=SkQuhAXZxgBan1
@@ -2715,16 +2715,16 @@ http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579823.m3u8
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579821.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4" group-title="CRICKET",Cricket Gold
-https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8?e=1782665442&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=8eab8630c2ef12d18203294d3a9e9faf
+https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8?e=1782697099&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=be52f42cd3b2d951339a8a584fb8daeb
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788" group-title="CRICKET",Willow TV
-https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1782665442&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=7c1b26f0f2fa1463d2903b93291cb03f
+https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1782697099&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=b4348dc25f6116e7e1e84c8823ed49d4
 
 #EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png" group-title="CRICKET",CR | Cricket Gold
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg" group-title="CRICKET",CR | Fox Cricket 501 HD
-http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8
+http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/301891/logo/240x240/mobile_logo_578686001735197654.png" group-title="CRICKET",SONY TEN Cricket
 https://sm-monirul.top/toffee/play/ten_cricket.m3u8
@@ -3575,22 +3575,22 @@ https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8
 https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb" group-title="KIDS",Cartoon Network
-https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=3791526d42245fa845a3347151df0bfc
+https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1782697102&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=91c0f90afd058cffac43911531c272a4
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/e15930189f48df6d429c269bd1edea99" group-title="KIDS",PBS Kids
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6" group-title="KIDS",Disney JR
-https://tvsen7.aynaott.com/disneyjr/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=04aae090b884383ad55f5d93b9a843b6
+https://tvsen7.aynaott.com/disneyjr/index.m3u8?e=1782697102&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=34f9f954df846af4e56efc8a54e36dba
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e" group-title="KIDS",Nicktoons
-https://tvsen5.aynaott.com/nicktoons/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=e78838e22008e137d587c803bbc8fc16
+https://tvsen5.aynaott.com/nicktoons/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=6ebdda69f128437633b23da1ed2f8aeb
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e" group-title="KIDS",Nickjr
-https://tvsen5.aynaott.com/nickjr/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=825ae7dc88d466e9218fbb025d1db1db
+https://tvsen5.aynaott.com/nickjr/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=75678d1ef88312c5f7ed31f2f88ca1ed
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814" group-title="KIDS",3ABN Kids
-https://tvsen6.aynaott.com/3abnkids/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=b9f2df6d06b7350f488e19a683060e7b
+https://tvsen6.aynaott.com/3abnkids/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=b74e8e680fbfeef4c54bf2fd0a7f5c55
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67" group-title="KIDS",Dios Te Ve Kids
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
@@ -3599,19 +3599,19 @@ https://s.emisoras.tv:8081/diostevekids/index.m3u8
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/d9b8deaf735ee0954260c7b3b61f508d" group-title="KIDS",Moonbug Kids
-https://tvsen6.aynaott.com/MoonbugKids/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=2dd8a314c039bb72f00e6cec45cdb901
+https://tvsen6.aynaott.com/MoonbugKids/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=2cc380df6e4078dd09830f0be76205b8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a0c74b576321da5aa33a69806401caf1" group-title="KIDS",Disney Channel
-https://tvsen7.aynaott.com/disney/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=9657cd7d7abe21f20c63eda8953202bd
+https://tvsen7.aynaott.com/disney/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=92c003e80e14bb6a4143c4c59f686cdf
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f9b945284524683f1de8beb07ded8989" group-title="KIDS",Disney XD
-https://tvsen5.aynaott.com/disneyxd/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=86aebdac1f8fadd020fda01509c9311e
+https://tvsen5.aynaott.com/disneyxd/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=cb6bdb41033d4504f8020a574de55e98
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/bb2375af2d1ff8666f2c24fbcec3c541" group-title="KIDS",Nickelodeon
-https://tvsen7.aynaott.com/nicklodean/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=1f89e5137df4a6e3701d5c49b5e37bf8
+https://tvsen7.aynaott.com/nicklodean/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=f305346750195474ab25e981deac9aad
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/5739277278d596533abbacc60ea694be" group-title="KIDS",Teen Nick
-https://tvsen7.aynaott.com/teennick/index.m3u8?e=1782665446&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=ef64e58101c22de2a1cee15bdbafe68a
+https://tvsen7.aynaott.com/teennick/index.m3u8?e=1782697103&u=f54c14f5-0c1d-4106-885c-3bcd7626f69f&token=55cc865a9917817ea013567784a66934
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6" group-title="KIDS",TVCARiB Kids & Teens
 https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
@@ -3626,7 +3626,7 @@ http://103.175.73.12:8080/live/128/128_0.m3u8
 http://103.182.170.32:8888/play/a04b
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
+https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",0. LooLoo Kids TV
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
@@ -3722,10 +3722,7 @@ http://api.toonamiaftermath.com:3000/est/playlist.m3u8
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg" group-title="KIDS",MIXER | Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Doraemon TV
-https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Oggy and the Cockroaches
 https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
@@ -3768,6 +3765,9 @@ http://103.175.73.12:8080/live/321/321_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Disney JR
 http://103.175.73.12:8080/live/129/129_0.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Doraemon
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/26942/logo/240x240/mobile_logo_443429001678950505.png" group-title="KIDS",Cartoon Network HD
 https://sm-monirul.top/toffee/play/cartoon_network_hd.m3u8
