@@ -920,17 +920,32 @@ http://mhav1.com:2095/live/ht2990/742579548/71938.ts
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1
 http://mhav1.com:2095/live/ht2990/742579548/518.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125579.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2
 http://mhav1.com:2095/live/ht2990/742579548/519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Aflam 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Aflam 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125580.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ART Cinema" tvg-logo="" group-title="ART ايه ارتى",ART Cinema
 http://mhav1.com:2095/live/ht2990/742579548/520.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Cinema SD" tvg-logo="" group-title="ART ايه ارتى",ART Cinema SD
+http://mhav1.com:2095/live/ht2990/742579548/125581.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1
 http://mhav1.com:2095/live/ht2990/742579548/521.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 1 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/125582.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2
 http://mhav1.com:2095/live/ht2990/742579548/522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ART Hekayat 2 SD" tvg-logo="" group-title="ART ايه ارتى",ART Hekayat 2 SD
+http://mhav1.com:2095/live/ht2990/742579548/125583.ts
 
 
 ##### [Adoro Club H265 اريدو] #####
@@ -1477,6 +1492,9 @@ http://mhav1.com:2095/live/ht2990/742579548/5339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 6 [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 6 [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5337.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 7 El Maarifa [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 7 El Maarifa [DZ]
+http://mhav1.com:2095/live/ht2990/742579548/4571.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="TV 8 Edhakira [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 8 Edhakira [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5345.ts
