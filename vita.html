@@ -127,19 +127,34 @@
 
         // Simple M3U parser for ES5
         function parseM3U(data) {
-            var lines = data.replace(/\r/g, '').split('\n');
-            var channels = [];
-            var currentName = 'Unknown';
+            try {
+                var lines = data.replace(/\r/g, '').split('\n');
+                var channels = [];
+                var currentName = 'Unknown';
 
-            for (var i = 0; i < lines.length; i++) {
-                var line = lines[i];
-                if (line.indexOf('#EXTINF:') === 0) {
-                    var parts = line.split(',');
-                    if (parts.length > 1) {
-                        currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
+                for (var i = 0; i < lines.length; i++) {
+                    var line = lines[i];
+                    if (line.indexOf('#EXTINF:') === 0) {
+                        var parts = line.split(',');
+                        if (parts.length > 1) {
+                            currentName = parts.slice(1).join(',').replace(/^\s+|\s+$/g, '');
+                        }
+                    } else if (line !== '' && line.indexOf('#') !== 0) {
+                        channels.push({
+                            name: currentName,
+                            url: line.replace(/^\s+|\s+$/g, '')
+                        });
+                        currentName = 'Unknown';
                     }
-                } else if (line !== '' && line.indexOf('#') !== 0) {
-                    channels.push({
+                }
+                logDebug('Parsed ' + channels.length + ' channels from M3U.');
+                return channels;
+            } catch(e) {
+                logDebug('Parse error: ' + e.message);
+                return [];
+            }
+        }
+
         function encodeBase64(str) {
             try {
                 if (typeof btoa === 'function') {
