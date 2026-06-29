@@ -9,21 +9,6 @@ header("Cache-Control: no-cache, no-store, must-revalidate");
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FinnTV Premium Player</title>
 
-    <script>
-        // Auto-detect legacy browsers (PS Vita, PS3, old Smart TVs) or browsers lacking modern features
-        // and redirect them to the native HTML5 player.
-        (function() {
-            var ua = navigator.userAgent.toLowerCase();
-            var isLegacyConsole = (ua.indexOf('playstation vita') !== -1 || ua.indexOf('playstation 3') !== -1 || ua.indexOf('nintendo wiiu') !== -1);
-            var isLegacyBrowser = (typeof Promise === 'undefined' || typeof fetch === 'undefined');
-            
-            if (isLegacyConsole || isLegacyBrowser) {
-                var search = window.location.search;
-                window.location.href = '/old.html' + search;
-            }
-        })();
-    </script>
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

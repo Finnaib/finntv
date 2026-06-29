@@ -66,23 +66,21 @@ curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-curl_setopt($ch, CURLOPT_USERAGENT, "VLC/3.0.16 LibVLC/3.0.16");
+curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
 curl_setopt($ch, CURLOPT_REFERER, $url);
 curl_setopt($ch, CURLOPT_TIMEOUT, 20); // Longer timeout to prevent "No Video" on slow sources
 
 if ($is_direct_stream) {
     // Stream segments directly for memory efficiency
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+    
     $content_type = "video/mp2t"; // default
     if (stripos($url, '.mp4') !== false) $content_type = "video/mp4";
     elseif (stripos($url, '.mkv') !== false) $content_type = "video/x-matroska";
     elseif (stripos($url, '.avi') !== false) $content_type = "video/x-msvideo";
 
     header("Content-Type: " . $content_type);
-    header("Cache-Control: public, max-age=86400");
-    header("X-Accel-Buffering: no"); // Prevent Vercel from buffering video chunks in memory
-
-    // Let cURL stream directly to stdout natively to avoid PHP memory exhaustion and callback errors
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+    header("Cache-Control: public, max-age=3600");
     curl_exec($ch);
     curl_close($ch);
     exit;
@@ -92,7 +90,7 @@ if ($is_direct_stream) {
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 $info = curl_getinfo($ch);
-$content_type = isset($info['content_type']) ? strtolower($info['content_type']) : '';
+$content_type = strtolower($info['content_type']);
 $final_url = $info['url'];
 curl_close($ch);
 
@@ -110,11 +108,7 @@ if ($is_playlist) {
     
     $lines = explode("\n", $response);
     $output = [];
-    
-    // Resolve absolute base URL with proper proxy protocol detection
-    $proto = isset($_SERVER['HTTP_X_FORWARDED_PROTO']) ? $_SERVER['HTTP_X_FORWARDED_PROTO'] : (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http");
-    $host_url = $proto . "://$_SERVER[HTTP_HOST]";
-    $proxy_base = $host_url . '/api/stream_proxy.php?url=';
+    $host_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
     
     $skip_next = false;
     foreach ($lines as $line) {
@@ -131,8 +125,8 @@ if ($is_playlist) {
                  }
             }
             if (stripos($line, '1080') !== false || stripos($line, '4K') !== false || stripos($line, 'UHD') !== false) {
-                 $skip_next = true;
-                 continue;
+                $skip_next = true;
+                continue;
             }
         }
         
@@ -149,7 +143,7 @@ if ($is_playlist) {
                 if ($noprx) {
                     $absUri = str_replace('https://', 'http://', $absUri);
                 }
-                $proxyUri = $noprx ? $absUri : ($proxy_base . urlencode(base64_encode($absUri)));
+                $proxyUri = $noprx ? $absUri : ('/api/stream_proxy.php?url=' . urlencode(base64_encode($absUri)));
                 $line = str_replace($matches[1], $proxyUri, $line);
             }
             $output[] = $line;
@@ -159,7 +153,7 @@ if ($is_playlist) {
             if ($noprx) {
                 $absUrl = str_replace('https://', 'http://', $absUrl);
             }
-            $output[] = $noprx ? $absUrl : ($proxy_base . urlencode(base64_encode($absUrl)));
+            $output[] = $noprx ? $absUrl : ('/api/stream_proxy.php?url=' . urlencode(base64_encode($absUrl)));
         }
     }
     
