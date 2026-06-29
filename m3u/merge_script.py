@@ -24,9 +24,13 @@ def is_blocked(channel):
             return True
     return False
 
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+india_path = os.path.join(current_dir, 'india.m3u')
+
 # Read local file
 try:
-    with open(r'c:\Users\Finnaib\Desktop\finntv\m3u\india.m3u', 'r', encoding='utf-8') as f:
+    with open(india_path, 'r', encoding='utf-8') as f:
         local_content = f.read()
 except:
     local_content = "#EXTM3U\n"
@@ -58,7 +62,7 @@ for c in all_channels:
     filtered_channels.append(c)
 
 # Write output
-with open(r'c:\Users\Finnaib\Desktop\finntv\m3u\india.m3u', 'w', encoding='utf-8') as f:
+with open(india_path, 'w', encoding='utf-8') as f:
     f.write("#EXTM3U\n\n")
     for c in filtered_channels:
         f.write(c['info'] + '\n')
