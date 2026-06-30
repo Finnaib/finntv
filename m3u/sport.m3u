@@ -715,15 +715,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3249.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass 5" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass 5
 http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54576.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54578.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass One
 http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 
@@ -732,6 +723,15 @@ http://mhav1.com:2095/live/ht2990/742579548/4510.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass Fuor
 http://mhav1.com:2095/live/ht2990/742579548/4513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Mouritana Arriadia TV [AR]
 http://mhav1.com:2095/live/ht2990/742579548/5348.ts
@@ -5485,20 +5485,11 @@ http://mhav1.com:2095/live/ht2990/742579548/19369.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_LIVING" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_LIVING
-http://mhav1.com:2095/live/ht2990/742579548/4939.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Living_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Living_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19379.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_MEZZE" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_MEZZE
-http://mhav1.com:2095/live/ht2990/742579548/7097.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Meezze_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Meezze_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19380.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Movies Disney_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19367.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Hollywood_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Movies Hollywood_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19364.ts
@@ -5583,9 +5574,6 @@ http://mhav1.com:2095/live/ht2990/742579548/542.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_History_HD
 http://mhav1.com:2095/live/ht2990/742579548/3277.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Kids_Zone
-http://mhav1.com:2095/live/ht2990/742579548/4940.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
@@ -5830,18 +5818,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3274.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_History_HD
 http://mhav1.com:2095/live/ht2990/742579548/3277.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Movies Disney_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19367.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_MEZZE" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_MEZZE
-http://mhav1.com:2095/live/ht2990/742579548/7097.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_LIVING" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_LIVING
-http://mhav1.com:2095/live/ht2990/742579548/4939.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Kids_Zone
-http://mhav1.com:2095/live/ht2990/742579548/4940.ts
-
 
 ################################################################################
 # OSN  SD او اس ان
@@ -5913,9 +5889,6 @@ http://mhav1.com:2095/live/ht2990/742579548/525.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Musalsalat_SD
 http://mhav1.com:2095/live/ht2990/742579548/5986.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_SD
-http://mhav1.com:2095/live/ht2990/742579548/19452.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_Wild_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_Wild_SD
 http://mhav1.com:2095/live/ht2990/742579548/4923.ts
 
@@ -6047,9 +6020,6 @@ http://mhav1.com:2095/live/ht2990/742579548/19450.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Animal_Planet_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Animal_Planet_SD
 http://mhav1.com:2095/live/ht2990/742579548/2873.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_SD
-http://mhav1.com:2095/live/ht2990/742579548/19452.ts
 
 
 ################################################################################
