@@ -929,14 +929,14 @@ http://mhav1.com:2095/live/ht2990/742579548/7051.ts
 # beIN MAX 2026 كاس العالم
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_1080p" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X1-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_1080p
-http://mhav1.com:2095/live/ht2990/742579548/40807.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_H265
 http://mhav1.com:2095/live/ht2990/742579548/40811.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_HD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X1-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_HD
 http://mhav1.com:2095/live/ht2990/742579548/3607.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_HDD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X1-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_HDD
+http://mhav1.com:2095/live/ht2990/742579548/40807.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Low" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MAX1-SD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_Low
 http://mhav1.com:2095/live/ht2990/742579548/5952.ts
@@ -950,14 +950,14 @@ http://mhav1.com:2095/live/ht2990/742579548/83077.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_VEGA" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MAX1-SD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40801.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_1080p" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X2-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_1080p
-http://mhav1.com:2095/live/ht2990/742579548/40808.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_H265
 http://mhav1.com:2095/live/ht2990/742579548/40812.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_HD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MAX2-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_HD
 http://mhav1.com:2095/live/ht2990/742579548/3608.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_HDD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X2-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_HDD
+http://mhav1.com:2095/live/ht2990/742579548/40808.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_Low" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MAX2-SD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_Low
 http://mhav1.com:2095/live/ht2990/742579548/5953.ts
@@ -971,14 +971,14 @@ http://mhav1.com:2095/live/ht2990/742579548/83078.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_VEGA" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MAX2-SD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40802.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_1080p
-http://mhav1.com:2095/live/ht2990/742579548/40809.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_H265
 http://mhav1.com:2095/live/ht2990/742579548/285156.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_HD
 http://mhav1.com:2095/live/ht2990/742579548/11213.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_HDD
+http://mhav1.com:2095/live/ht2990/742579548/40809.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_Low
 http://mhav1.com:2095/live/ht2990/742579548/40805.ts
@@ -992,14 +992,14 @@ http://mhav1.com:2095/live/ht2990/742579548/285158.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40803.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_1080p
-http://mhav1.com:2095/live/ht2990/742579548/40810.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_H265
 http://mhav1.com:2095/live/ht2990/742579548/285157.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HD
 http://mhav1.com:2095/live/ht2990/742579548/11214.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HDD
+http://mhav1.com:2095/live/ht2990/742579548/40810.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_Low
 http://mhav1.com:2095/live/ht2990/742579548/40806.ts
@@ -1013,11 +1013,11 @@ http://mhav1.com:2095/live/ht2990/742579548/285159.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40804.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_1080p
-http://mhav1.com:2095/live/ht2990/742579548/284746.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_HD
 http://mhav1.com:2095/live/ht2990/742579548/284748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_HDD
+http://mhav1.com:2095/live/ht2990/742579548/284746.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_Low
 http://mhav1.com:2095/live/ht2990/742579548/41079.ts
@@ -1028,12 +1028,12 @@ http://mhav1.com:2095/live/ht2990/742579548/41081.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/41077.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HD
+http://mhav1.com:2095/live/ht2990/742579548/284749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284747.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HD
-http://mhav1.com:2095/live/ht2990/742579548/284749.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_Low" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_Low
 http://mhav1.com:2095/live/ht2990/742579548/41080.ts
 
@@ -1091,16 +1091,16 @@ http://mhav1.com:2095/live/ht2990/742579548/11213.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HD
 http://mhav1.com:2095/live/ht2990/742579548/11214.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_1080p" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X1-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_HDD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X1-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_HDD
 http://mhav1.com:2095/live/ht2990/742579548/40807.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_1080p" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X2-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_HDD" tvg-logo="http://138.199.27.237:8080/BEIN/BEIN-MAX/bein_sports-MA-X2-HD.png" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_HDD
 http://mhav1.com:2095/live/ht2990/742579548/40808.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_HDD
 http://mhav1.com:2095/live/ht2990/742579548/40809.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HDD
 http://mhav1.com:2095/live/ht2990/742579548/40810.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_H265
@@ -1151,10 +1151,10 @@ http://mhav1.com:2095/live/ht2990/742579548/284748.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HD
 http://mhav1.com:2095/live/ht2990/742579548/284749.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284746.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_1080p" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_1080p
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_6_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284747.ts
 
 
