@@ -32,10 +32,10 @@ http://mhav1.com:2095/live/ht2990/742579548/212594.ts
 #EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
 http://mhav1.com:2095/live/ht2990/742579548/212593.ts
 
-#EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260623T014724SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
+#EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260701T005037SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
 https://jmp2.uk/stvp-IN1300001NN
 
-#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260623T014854SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
+#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260701T005052SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
 https://jmp2.uk/stvp-IN270000230
 
 #EXTINF:-1 tvg-chno="1167" tvg-id="INBD4700014DU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700014DU_20260623T015231SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1167. MAVTV Motorsports
@@ -2488,7 +2488,7 @@ https://jmp2.uk/stvp-CA700002VS
 #EXTINF:-1 tvg-chno="2316" tvg-id="CA1700007YN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1700007YN_20251125T031020SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2316. Donut
 https://jmp2.uk/stvp-CA1700007YN
 
-#EXTINF:-1 tvg-chno="2706" tvg-id="CA1000004ZW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1000004ZW_20260622T060242SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2706. MotoAmerica TV
+#EXTINF:-1 tvg-chno="2706" tvg-id="CA1000004ZW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1000004ZW_20260701T010324SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 2706. MotoAmerica TV
 https://jmp2.uk/stvp-CA1000004ZW
 
 #EXTINF:-1 tvg-chno="298" tvg-id="CA1400001PI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400001PI_20260428T032050SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 298. MLB Channel
@@ -2560,7 +2560,7 @@ https://jmp2.uk/stvp-CA20000016D
 #EXTINF:-1 tvg-chno="2544" tvg-id="CA4700011LV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700011LV_20260421T140840SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2544. SLVR
 https://jmp2.uk/stvp-CA4700011LV
 
-#EXTINF:-1 tvg-chno="2572" tvg-id="CA4100006T3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4100006T3_20260421T140757SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2572. MiLB
+#EXTINF:-1 tvg-chno="2572" tvg-id="CA4100006T3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4100006T3_20260701T010320SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2572. MiLB
 https://jmp2.uk/stvp-CA4100006T3
 
 #EXTINF:-1 tvg-chno="2647" tvg-id="CA200052YY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA200052YY_20260512T070212SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2647. Victory+
@@ -8053,7 +8053,7 @@ https://jmp2.uk/stvp-US400001M2
 #EXTINF:-1 tvg-chno="1822" tvg-id="USBB400000145" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB400000145_20260421T143321SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1822. GolfPass
 https://jmp2.uk/stvp-USBB400000145
 
-#EXTINF:-1 tvg-chno="1823" tvg-id="USBC600001QL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC600001QL_20251125T030835SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1823. T2
+#EXTINF:-1 tvg-chno="1823" tvg-id="USBC600001QL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC600001QL_20260701T010135SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1823. T2
 https://jmp2.uk/stvp-USBC600001QL
 
 #EXTINF:-1 tvg-chno="1824" tvg-id="USBD4200016QR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200016QR_20240520T220130SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1824. PickleballTV
@@ -8125,7 +8125,7 @@ https://jmp2.uk/stvp-US20000131M
 #EXTINF:-1 tvg-chno="2597" tvg-id="US4100032W9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100032W9_20260421T143026SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2597. MiLB
 https://jmp2.uk/stvp-US4100032W9
 
-#EXTINF:-1 tvg-chno="2668" tvg-id="US100000704" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US100000704_20260622T055734SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2668. CBS Sports Golazo Network
+#EXTINF:-1 tvg-chno="2668" tvg-id="US100000704" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US100000704_20260701T010049SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2668. CBS Sports Golazo Network
 https://jmp2.uk/stvp-US100000704
 
 #EXTINF:-1 tvg-chno="2669" tvg-id="US1000006HT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000006HT_20260421T142118SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2669. Bellator MMA
