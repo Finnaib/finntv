@@ -4232,9 +4232,6 @@ http://mhav1.com:2095/live/ht2990/742579548/78272.ts
 #EXTINF:-1 tvg-id="" tvg-name="PL: teleTOON+ FHD" tvg-logo="" group-title="KIDS",PL: teleTOON+ FHD
 http://mhav1.com:2095/live/ht2990/742579548/78367.ts
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lPa11rU.png" group-title="KIDS",D2h Kids (720p)
-https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="KIDS",Disney International HD (1080p)
 http://149.71.34.166:8002/play/a01p/index.m3u8
 
@@ -4510,9 +4507,6 @@ http://103.250.28.74:8000/play/a04m/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xv9cWSh.png" group-title="Kids",Chithiram (576p)
 https://cdn-6.pishow.tv/live/1243/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_STORIES/images/LOGO_HD/LOGO_HD_image.png" group-title="Kids",like Gecko) Chrome/146.0.0.0 Safari/537.36" group-title="Kids",Disney Stories (1080p)
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Chikitoonz/playlist.m3u8
 
 
 ################################################################################
@@ -5743,8 +5737,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE_HD/images/LOGO_HD/LOGO_HD_F6ILcp4Kk_UNITE8-SPORTS-1_HD_264X144.webp" group-title="Sports",Unite8 Sports 1 HD (1080p)
 http://103.114.11.37:8081/UNITEDHINDI/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX_HD/images/LOGO_HD/LOGO_HD_qVrE3q5rN_UNITE8-SPORTS-2_HD_264X144.webp" group-title="Sports",Unite8 Sports 2 HD (1080p)
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX_HD/images/LOGO_HD/LOGO_HD_qVrE3q5rN_UNITE8-SPORTS-2_HD_264X144.webp" group-title="Sports",Unite8 Sports 2 HD
+https://mini.allinonereborn.fun/tata.php?id=11624
 
 
 ################################################################################
