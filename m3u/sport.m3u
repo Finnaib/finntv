@@ -1103,18 +1103,6 @@ http://mhav1.com:2095/live/ht2990/742579548/40809.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_HDD" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_HDD
 http://mhav1.com:2095/live/ht2990/742579548/40810.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_H265
-http://mhav1.com:2095/live/ht2990/742579548/40811.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_H265
-http://mhav1.com:2095/live/ht2990/742579548/40812.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_H265
-http://mhav1.com:2095/live/ht2990/742579548/285156.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_H265
-http://mhav1.com:2095/live/ht2990/742579548/285157.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_Ultra_4K" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_Ultra_4K
 http://mhav1.com:2095/live/ht2990/742579548/83077.ts
 
@@ -1126,6 +1114,18 @@ http://mhav1.com:2095/live/ht2990/742579548/285158.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_Ultra_4K" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_Ultra_4K
 http://mhav1.com:2095/live/ht2990/742579548/285159.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_1_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_1_H265
+http://mhav1.com:2095/live/ht2990/742579548/40811.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_2_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_2_H265
+http://mhav1.com:2095/live/ht2990/742579548/40812.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_3_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_3_H265
+http://mhav1.com:2095/live/ht2990/742579548/285156.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_H265" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_4_H265
+http://mhav1.com:2095/live/ht2990/742579548/285157.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_VEGA" tvg-logo="" group-title="beIN MAX 2026 كاس العالم",beIN_Max_5_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/41077.ts
