@@ -759,17 +759,8 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_ott.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/8TV.png" group-title="Mixed",8TV
 https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Citra.png" group-title="Mixed",ASTRO CITRA
-http://217.216.110.49:8000/citrap90
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Oasis.png" group-title="Mixed",ASTRO OASIS HD
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Prima.png" group-title="Mixed",ASTRO PRIMA
-http://217.216.110.49:8000/primap90
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Ria.png" group-title="Mixed",ASTRO RIA
-http://217.216.110.49:8000/riap90
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Tutor%20TV.png" group-title="Mixed",ASTRO TUTUR TV
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5071/default_ott.mpd
