@@ -3377,6 +3377,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/241069.mkv
 #EXTINF:-1 tvg-id="" tvg-name="HD العارف" tvg-logo="http://images.vega-xt-mh.com:80/images/8VW9mR2YIS2YORfTHcJy9VLZmeu_big.jpg" group-title="Arabic HD 1080",HD العارف
 http://mhav1.com:2095/movie/ht2990/742579548/283355.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HD العرافة واللعنة" tvg-logo="http://images.vega-xt-mh.com:80/images/E5aJj7U70he0TsWrOlfJqsfW51_big.jpg" group-title="Arabic HD 1080",HD العرافة واللعنة
+http://mhav1.com:2095/movie/ht2990/742579548/288015.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="HD الفيل الأزرق 2" tvg-logo="http://images.vega-xt-mh.com:80/images/o5mG2rs6W4Q1lNUJ3aCn7gAkTlV_big.jpg" group-title="Arabic HD 1080",HD الفيل الأزرق 2
 http://mhav1.com:2095/movie/ht2990/742579548/248149.mkv
 
@@ -28400,9 +28403,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/19021.mkv
 #EXTINF:-1 tvg-id="" tvg-name="InstaPsycho" tvg-logo="http://images.vega-xt-mh.com:80/images/xqxAS8eRKWfPKAdD4PFtop7TOzw_big.jpg" group-title="English Movies",InstaPsycho
 http://mhav1.com:2095/movie/ht2990/742579548/40859.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Into the Blue 2005" tvg-logo="http://images.vega-xt-mh.com:80/images/h5oXcjRu0EOiAxSxYuGq58897tu_big.jpg" group-title="English Movies",Into the Blue 2005
-http://mhav1.com:2095/movie/ht2990/742579548/101859.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="Into the Storm" tvg-logo="https://th.bing.com/th/id/OIP.Oev8odv6ms7wG9LXvg5s5QHaKj?w=284&h=405&rs=1&pid=ImgDetMain" group-title="English Movies",Into the Storm
 http://mhav1.com:2095/movie/ht2990/742579548/224289.mkv
 
@@ -52505,6 +52505,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/169525.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الصف الأخير" tvg-logo="http://images.vega-xt-mh.com:80/images/6bZWaDsDNA8dB22TTCI7tpDRWT0_big.jpg" group-title="افلام مصري حديثه",الصف الأخير
 http://mhav1.com:2095/movie/ht2990/742579548/157181.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="العرافة واللعنة" tvg-logo="http://images.vega-xt-mh.com:80/images/E5aJj7U70he0TsWrOlfJqsfW51_big.jpg" group-title="افلام مصري حديثه",العرافة واللعنة
+http://mhav1.com:2095/movie/ht2990/742579548/288014.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="العميل صفر FULL HD" tvg-logo="http://images.vega-xt-mh.com:80/images/fVen48cxu3Qt65wKRDsczBLyzZ7_big.jpg" group-title="افلام مصري حديثه",العميل صفر FULL HD
 http://mhav1.com:2095/movie/ht2990/742579548/147312.mkv
 
@@ -52918,9 +52921,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/244317.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name=" CAM ماما وبابا" tvg-logo="http://images.vega-xt-mh.com:80/images/cGG5r59JTFJOaanJPHTuXNKq9ra_big.jpg" group-title="تصوير سينما", CAM ماما وبابا
 http://mhav1.com:2095/movie/ht2990/742579548/243369.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name=" العرافة واللعنة CAM" tvg-logo="https://media0090.elcinema.com/uploads/_320x_882fc2700c3ad2537bbd17a2442aa8ad60beb4996560f5c1e22d9e1268436f4f.jpg" group-title="تصوير سينما", العرافة واللعنة CAM
-http://mhav1.com:2095/movie/ht2990/742579548/257633.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="7 Dogs CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/66n5bB6iYTWsWMz0mh3Qv7qmzIJ_big.jpg" group-title="تصوير سينما",7 Dogs CAM
 http://mhav1.com:2095/movie/ht2990/742579548/283486.mkv

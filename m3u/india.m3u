@@ -1561,12 +1561,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121386.ts
 #EXTINF:-1 tvg-id="" tvg-name="Capital [PK]" tvg-logo="" group-title="Pakistan",Capital [PK]
 http://mhav1.com:2095/live/ht2990/742579548/121417.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Channel  24 [PK]" tvg-logo="" group-title="Pakistan",Channel  24 [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121409.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Channel 24 [PK]" tvg-logo="" group-title="Pakistan",Channel 24 [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121399.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="City 41 [PK]" tvg-logo="" group-title="Pakistan",City 41 [PK]
 http://mhav1.com:2095/live/ht2990/742579548/121425.ts
 
@@ -1899,6 +1893,9 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/NTV.png" group-title="Bangladesh",NTV UK
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="http://openboxv8s.com/india/star_jalsha.png" group-title="Bangladesh",STAR JALSHA HD (Ads Only)
+https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8
+
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" group-title="Bangladesh",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 
@@ -1928,24 +1925,6 @@ https://bozztv.com/rongo/rongo-somoy/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
 https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Aath.jpeg" group-title="Bangladesh",Sony Aath
-http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/mAathStar%20Jalsha.png" group-title="Bangladesh",Star Jalsha
-http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" group-title="Bangladesh",Star Jalsha HD
-https://tvsen3.aynaott.com/n64PH4YL/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/zee%20Bangla.png" group-title="Bangladesh",Zee Bangla HD
-http://103.161.153.165:8000/play/zeebnhd/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="Bangladesh",Colors Bangla
-http://103.229.254.25:7001/play/a076/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="Bangladesh",Colors Bangla HD
-https://ultra02jibon02by1.jibon02premium.workers.dev/JIBON-COLORS-BNAGLA-CINEMA/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Anmol TV
 http://103.175.73.12:8080/live/256/256_0.m3u8
@@ -1986,6 +1965,24 @@ http://198.195.239.50:8095/ColorsCineplex/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Cineplax.png" group-title="Bangladesh",Colors Cineplex HD
 http://66.102.126.10:8000/play/a076/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Aath.jpeg" group-title="Bangladesh",Sony Aath
+http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/mAathStar%20Jalsha.png" group-title="Bangladesh",Star Jalsha
+http://198.195.239.50:8095/bdixbd.net_StarJalshaHD/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Jalsha.png" group-title="Bangladesh",Star Jalsha HD
+https://tvsen3.aynaott.com/n64PH4YL/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/zee%20Bangla.png" group-title="Bangladesh",Zee Bangla HD
+http://103.161.153.165:8000/play/zeebnhd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="Bangladesh",Colors Bangla
+http://103.229.254.25:7001/play/a076/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Bangla.png" group-title="Bangladesh",Colors Bangla HD
+https://ultra02jibon02by1.jibon02premium.workers.dev/JIBON-COLORS-BNAGLA-CINEMA/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Bangladesh",Star Movies
 http://198.195.239.50:8095/StarMovies/tracks-v1a1/mono.m3u8
 
@@ -1995,14 +1992,14 @@ http://66.102.126.10:8000/play/a021/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Bangladesh",Star Movies Select HD
 http://66.102.126.10:8000/play/a020/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity HD
+http://66.102.126.10:8000/play/a014/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20BBC%20Earth.jpeg" group-title="Bangladesh",Sony BBC Earth HD
 http://103.175.73.12:8080/live/255/255_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity SD
 http://103.175.73.12:8080/live/28/28_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://gd.mdsharifulislamnayon.workers.dev/1:/TV%20LOGO/colors%20infinity.jpeg" group-title="Bangladesh",Colors Infinity HD
-http://66.102.126.10:8000/play/a014/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast HD
 http://103.175.73.12:8080/live/326/326_0.m3u8
@@ -2776,7 +2773,7 @@ https://atc.hopto.org/sly-sprts-cricket-hd-sport/playlist.m3u8
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg" group-title="CRICKET",CR | Fox Cricket 501 HD
-http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8
+http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/willow-cricket.png" group-title="CRICKET",Willow Cricket
 https://earnvid.assadikb.workers.dev/?id=willowusa
@@ -3614,9 +3611,6 @@ http://mhav1.com:2095/live/ht2990/742579548/72468.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nickelodeon HD" tvg-logo="" group-title="KIDS",Ex-Yu | Hr: Nickelodeon HD
 http://mhav1.com:2095/live/ht2990/742579548/72412.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Baby TV" tvg-logo="" group-title="KIDS",Ex-Yu | Srb: Baby TV
-http://mhav1.com:2095/live/ht2990/742579548/72580.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nickelodeon HD" tvg-logo="" group-title="KIDS",Ex-Yu | Srb: Nickelodeon HD
 http://mhav1.com:2095/live/ht2990/742579548/72527.ts
 
@@ -3878,15 +3872,6 @@ http://mhav1.com:2095/live/ht2990/742579548/26298.ts
 #EXTINF:-1 tvg-id="" tvg-name="MH_Kids Enime" tvg-logo="" group-title="KIDS",MH_Kids Enime
 http://mhav1.com:2095/live/ht2990/742579548/23031.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Majestic_KIDS_hd" tvg-logo="" group-title="KIDS",Majestic_KIDS_hd
-http://mhav1.com:2095/live/ht2990/742579548/5379.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ahmed Helmy" tvg-logo="" group-title="KIDS",Ahmed Helmy
-http://mhav1.com:2095/live/ht2990/742579548/11251.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Karim Abd Alaziz" tvg-logo="" group-title="KIDS",Karim Abd Alaziz
-http://mhav1.com:2095/live/ht2990/742579548/6379.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="MH_Adel_Emam" tvg-logo="" group-title="KIDS",MH_Adel_Emam
 http://mhav1.com:2095/live/ht2990/742579548/19655.ts
 
@@ -3974,18 +3959,6 @@ http://mhav1.com:2095/live/ht2990/742579548/25202.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN Disney Junior" tvg-logo="" group-title="KIDS",[Vip]OSN Disney Junior
 http://mhav1.com:2095/live/ht2990/742579548/19401.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Baby_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Baby_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19402.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney XD_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Disney XD_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19400.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Disney_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19399.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_Junior" tvg-logo="" group-title="KIDS",[Vip]OSN_Disney_Junior
-http://mhav1.com:2095/live/ht2990/742579548/676.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids Zone_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Kids Zone_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19405.ts
 
@@ -3994,9 +3967,6 @@ http://mhav1.com:2095/live/ht2990/742579548/19369.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="KIDS",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Movies Disney_FHD
-http://mhav1.com:2095/live/ht2990/742579548/19367.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nick Jr_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Nick Jr_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19403.ts
@@ -4007,14 +3977,8 @@ http://mhav1.com:2095/live/ht2990/742579548/19404.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nickelodeon_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Nickelodeon_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19406.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="KIDS",[Vip]Osn_Kids_Zone
-http://mhav1.com:2095/live/ht2990/742579548/4940.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="KIDS",[Vip]Osn_Nick_Toons
 http://mhav1.com:2095/live/ht2990/742579548/3274.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Baby_SD" tvg-logo="" group-title="KIDS",OSN_Baby_SD
-http://mhav1.com:2095/live/ht2990/742579548/19457.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Disney_Junior_SD" tvg-logo="" group-title="KIDS",OSN_Disney_Junior_SD
 http://mhav1.com:2095/live/ht2990/742579548/3605.ts
@@ -4027,9 +3991,6 @@ http://mhav1.com:2095/live/ht2990/742579548/19460.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Moonbug Kids_SD" tvg-logo="" group-title="KIDS",OSN_Moonbug Kids_SD
 http://mhav1.com:2095/live/ht2990/742579548/2561.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Disney_SD" tvg-logo="" group-title="KIDS",OSN_Movies_Disney_SD
-http://mhav1.com:2095/live/ht2990/742579548/19444.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nick_Jr_SD" tvg-logo="" group-title="KIDS",OSN_Nick_Jr_SD
 http://mhav1.com:2095/live/ht2990/742579548/19458.ts
@@ -4124,9 +4085,6 @@ http://mhav1.com:2095/live/ht2990/742579548/188882.ts
 #EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
 http://mhav1.com:2095/live/ht2990/742579548/188958.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Disney Junior" tvg-logo="" group-title="KIDS",Disney Junior
-http://mhav1.com:2095/live/ht2990/742579548/178538.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Al Majd KIDS" tvg-logo="" group-title="KIDS",Al Majd KIDS
 http://mhav1.com:2095/live/ht2990/742579548/12151.ts
 
@@ -4199,9 +4157,6 @@ http://mhav1.com:2095/live/ht2990/742579548/123411.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nicktoons |UK|" tvg-logo="" group-title="KIDS",Nicktoons |UK|
 http://mhav1.com:2095/live/ht2990/742579548/123410.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="|UK| Cartoonito" tvg-logo="" group-title="KIDS",|UK| Cartoonito
-http://mhav1.com:2095/live/ht2990/742579548/123406.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="|UK| Nick Jr. HD" tvg-logo="" group-title="KIDS",|UK| Nick Jr. HD
 http://mhav1.com:2095/live/ht2990/742579548/123409.ts
 
@@ -4225,60 +4180,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4997.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[US]Nickelodeon_HD-US" tvg-logo="" group-title="KIDS",[US]Nickelodeon_HD-US
 http://mhav1.com:2095/live/ht2990/742579548/4951.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]CARTOON NETWORK H265" tvg-logo="" group-title="KIDS",[FR]CARTOON NETWORK H265
-http://mhav1.com:2095/live/ht2990/742579548/156079.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY CHANNEL H265" tvg-logo="" group-title="KIDS",[FR]DISNEY CHANNEL H265
-http://mhav1.com:2095/live/ht2990/742579548/156085.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY JUNIOR H265" tvg-logo="" group-title="KIDS",[FR]DISNEY JUNIOR H265
-http://mhav1.com:2095/live/ht2990/742579548/156084.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]DISNEY+ H265" tvg-logo="" group-title="KIDS",[FR]DISNEY+ H265
-http://mhav1.com:2095/live/ht2990/742579548/156083.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]NICKELODEON H265" tvg-logo="" group-title="KIDS",[FR]NICKELODEON H265
-http://mhav1.com:2095/live/ht2990/742579548/156082.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]NICKELODEON JUNIOR h265" tvg-logo="" group-title="KIDS",[FR]NICKELODEON JUNIOR h265
-http://mhav1.com:2095/live/ht2990/742579548/156081.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]NICKELODEON TEEN H265" tvg-logo="" group-title="KIDS",[FR]NICKELODEON TEEN H265
-http://mhav1.com:2095/live/ht2990/742579548/156080.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]TELETOON+ H265" tvg-logo="" group-title="KIDS",[FR]TELETOON+ H265
-http://mhav1.com:2095/live/ht2990/742579548/156072.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR]TOONAMI H265" tvg-logo="" group-title="KIDS",[FR]TOONAMI H265
-http://mhav1.com:2095/live/ht2990/742579548/156070.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Discovery_Kids_SD" tvg-logo="" group-title="KIDS",beIN_Discovery_Kids_SD
-http://mhav1.com:2095/live/ht2990/742579548/20429.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DSTV| Moonbug Kids" tvg-logo="" group-title="KIDS",|DSTV| Moonbug Kids
-http://mhav1.com:2095/live/ht2990/742579548/136671.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DSTV| Nick Jr" tvg-logo="" group-title="KIDS",|DSTV| Nick Jr
-http://mhav1.com:2095/live/ht2990/742579548/136658.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DSTV| NickTOONS" tvg-logo="" group-title="KIDS",|DSTV| NickTOONS
-http://mhav1.com:2095/live/ht2990/742579548/136656.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DSTV| Nickelodeon" tvg-logo="" group-title="KIDS",|DSTV| Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/136657.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DSTV| PBS Kids" tvg-logo="" group-title="KIDS",|DSTV| PBS Kids
-http://mhav1.com:2095/live/ht2990/742579548/136653.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NG| NickTOONS" tvg-logo="" group-title="KIDS",|NG| NickTOONS
-http://mhav1.com:2095/live/ht2990/742579548/136578.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NG| Nickelodeon" tvg-logo="" group-title="KIDS",|NG| Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/136579.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NG| PBS Kids" tvg-logo="" group-title="KIDS",|NG| PBS Kids
-http://mhav1.com:2095/live/ht2990/742579548/136576.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Watch it Kids" tvg-logo="" group-title="KIDS",Watch it Kids
 http://mhav1.com:2095/live/ht2990/742579548/41034.ts
@@ -4382,9 +4283,6 @@ https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png" group-title="KIDS",Kids Stars
 https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
-https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",PBS Kids
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 
@@ -4395,7 +4293,7 @@ http://103.175.73.12:8080/live/128/128_0.m3u8
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",0. LooLoo Kids TV
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
@@ -4468,6 +4366,9 @@ https://d2f1o3sb3u36tf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SbBKr8L.png" group-title="KIDS",Baby Shark TV 2
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/Motu-patlu-cover.jpg" group-title="KIDS",Cartoon Anima
+https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png" group-title="KIDS",Cartoon Network (Retro Blast)
 https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f
