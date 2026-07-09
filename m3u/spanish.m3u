@@ -179,6 +179,27 @@ http://88.212.15.19/live/nova_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Qo3Hj3t.png" group-title="Spain",TV NOVA 12
 http://151.236.247.171:8080/nova/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/1/19/20181027153732%21Logo_TVE-1.svg/120px-Logo_TVE-1.svg.png" group-title="Spain",La 1 ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/2673626663/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/188px-Logo_TVE-2.svg.png" group-title="Spain",La 2 ᴱˢ
+https://rtvelivestream.akamaized.net/rtvesec/cat/la2_cat_main.m3u8
+
+#EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/antena%203.png?raw=true" group-title="Spain",Antena 3 ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/2255480833/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/refs/heads/main/Channels/Images/PNG%20image.png" group-title="Spain",Cuatro HD ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/4194733823/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/telecinco.png?raw=true" group-title="Spain",Telecinco HD ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/353095972/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/9E30380F-5FB6-45C1-9F50-8A0D0C60473D.jpeg?raw=true" group-title="Spain",La Sexta ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/238901671/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/EEF4B033-EED9-4711-A947-1DD2A5A49984.jpeg?raw=true" group-title="Spain",Canal Sur Andalucía
+https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99vVbTd.png" group-title="Spain",E Ten TV
 https://iptvbd.live/test/1080.m3u8
 
@@ -211,6 +232,18 @@ https://stream.agatin.hr:3727/live/tvnovalive.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MhoHk6I.png" group-title="Spain",TV Nova Play
 https://srv4.zcast.com.br/tvnovaplay/tvnovaplay/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar + ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2881668464/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Acción ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/3697992438/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar SeriesMania ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1344073831/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Drama ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2748019555/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/otnIdEu.png" group-title="Spain",KurdMax Music
 https://6476e46b58f91.streamlock.net/music/livestream/playlist.m3u8
@@ -352,6 +385,15 @@ https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cgN2hfm.png" group-title="Spain",Nova TV Agrotour
 https://video01.kshost.com.br/marcelo6682/marcelo6682/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/DMAX_Spain_2023_Logo.svg/338px-DMAX_Spain_2023_Logo.svg.png" group-title="Spain",DMAX
+https://tvnoov.com/fadoo/dmax.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar F1 ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1826839470/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Golf ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/2703480816/index.m3u8
 
 #EXTINF:-1 tvg-chno="581" tvg-id="ES700004C8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20260127T040120SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 581. Runtime Familia
 https://jmp2.uk/stvp-ES700004C8
@@ -871,6 +913,9 @@ https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/X5VcCXI.png" group-title="Spain - Kids",Megavision Canal 19
 https://mgv-channel19.akamaized.net/hls/live/2093190/MGV_CHANNEL19/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Boing_2020.svg/1200px-Boing_2020.svg.png" group-title="Spain - Kids",Boing ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/3971769720/index.m3u8
+
 
 ################################################################################
 # Spain - News
@@ -902,6 +947,9 @@ https://pctv-meganoticias-1-mx.tcl.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="Spain - News",Mega TV
 https://ott3.streann.com/loadbalancer/services/public/channels-secure/5e62b96e2cdcfac2dd8885dd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/702px-Logo_TVE-24h.svg.png" group-title="Spain - News",Canal 24h
+https://ztnr.rtve.es/ztnr/1694255.m3u8
 
 
 ################################################################################
@@ -952,3 +1000,12 @@ https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_dat
 
 #EXTINF:-1 tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Spain - Sports",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain - Sports",Movistar Deportes ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+http://oha.to/play/1188166343/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain - Sports",LaLiga TV Hypermotion ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/3958277473/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain - Sports",DAZN LaLiga ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
+https://oha.to/play/3461295847/index.m3u8
