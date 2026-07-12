@@ -715,7 +715,7 @@ https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serv
 https://amg01821-amg01821c38-rakuten-it-10669.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaydisastroaereo-rakutenit/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3NmJZNb/tvn.png" group-title="Mixed",TVN
-http://38.226.49.253:8000/play/a06c/index.m3u8
+https://cdn-live.mundogo.cl/tvn/tvn.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena.png" group-title="Mixed",ASTRO ARENA
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
