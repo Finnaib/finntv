@@ -12398,9 +12398,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6047.ts
 
 ##### [عربي يعرض الان] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="Underage" tvg-logo="http://images.vega-xt-mh.com:80/images/yRXS84CV4CpyoDKeErHz5mBAjkY_big.jpg" group-title="عربي يعرض الان",Underage
-http://mhav1.com:2095/series/ht2990/742579548/7143.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="السفارة ٨٧" tvg-logo="http://images.vega-xt-mh.com:80/images/5MP0AspDpVQidR4RHpoX8AsLdLp_big.jpg" group-title="عربي يعرض الان",السفارة ٨٧
 http://mhav1.com:2095/series/ht2990/742579548/7019.ts
 
@@ -12409,6 +12406,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7148.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بنج كلى" tvg-logo="http://images.vega-xt-mh.com:80/images/9UQxEYzezejMAD02oYKopICX82q_big.jpg" group-title="عربي يعرض الان",بنج كلى
 http://mhav1.com:2095/series/ht2990/742579548/7163.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="تحت السن" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yRXS84CV4CpyoDKeErHz5mBAjkY.jpg" group-title="عربي يعرض الان",تحت السن
+http://mhav1.com:2095/series/ht2990/742579548/7143.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حب ع ورق" tvg-logo="http://images.vega-xt-mh.com:80/images/kB9Td5xoWr2fSozBM2YCPZWe2mJ_big.jpg" group-title="عربي يعرض الان",حب ع ورق
 http://mhav1.com:2095/series/ht2990/742579548/7017.ts
