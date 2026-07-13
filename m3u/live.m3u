@@ -12158,14 +12158,32 @@ http://mhav1.com:2095/live/ht2990/742579548/178106.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nat. Geo. Wild HD" tvg-logo="" group-title="STC TV",Nat. Geo. Wild HD
 http://mhav1.com:2095/live/ht2990/742579548/178107.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema + US" tvg-logo="" group-title="STC TV",Rotana Cinema + US
+http://mhav1.com:2095/live/ht2990/742579548/178101.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="STC Cartonito" tvg-logo="" group-title="STC TV",STC Cartonito
 http://mhav1.com:2095/live/ht2990/742579548/173377.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="STC TV Cinema" tvg-logo="" group-title="STC TV",STC TV Cinema
 http://mhav1.com:2095/live/ht2990/742579548/173372.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="STC TV Drama" tvg-logo="" group-title="STC TV",STC TV Drama
+http://mhav1.com:2095/live/ht2990/742579548/173373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="STC TV family" tvg-logo="" group-title="STC TV",STC TV family
+http://mhav1.com:2095/live/ht2990/742579548/173376.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="STC_Tv_8" tvg-logo="" group-title="STC TV",STC_Tv_8
 http://mhav1.com:2095/live/ht2990/742579548/170285.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SmartZone" tvg-logo="" group-title="STC TV",SmartZone
+http://mhav1.com:2095/live/ht2990/742579548/174135.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 1 TV" tvg-logo="" group-title="STC TV",Stc Sport 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/173375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 2 TV" tvg-logo="" group-title="STC TV",Stc Sport 2 TV
+http://mhav1.com:2095/live/ht2990/742579548/170194.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:2095/live/ht2990/742579548/243882.ts

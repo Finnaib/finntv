@@ -6846,6 +6846,12 @@ http://mhav1.com:2095/live/ht2990/742579548/244604.ts
 # STC TV
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 1 TV" tvg-logo="" group-title="STC TV",Stc Sport 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/173375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 2 TV" tvg-logo="" group-title="STC TV",Stc Sport 2 TV
+http://mhav1.com:2095/live/ht2990/742579548/170194.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:2095/live/ht2990/742579548/243882.ts
 
@@ -6857,6 +6863,12 @@ http://mhav1.com:2095/live/ht2990/742579548/259480.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stc Sport 3 TV" tvg-logo="" group-title="STC TV",Stc Sport 3 TV
 http://mhav1.com:2095/live/ht2990/742579548/243882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 1 TV" tvg-logo="" group-title="STC TV",Stc Sport 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/173375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stc Sport 2 TV" tvg-logo="" group-title="STC TV",Stc Sport 2 TV
+http://mhav1.com:2095/live/ht2990/742579548/170194.ts
 
 
 ################################################################################
