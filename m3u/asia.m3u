@@ -1699,16 +1699,16 @@ https://HaNoiIPTV.short.gy/HaNoiIPTV-THVL1_HD
 https://HaNoiIPTV.short.gy/HaNoiIPTV-THVL2_HD
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vZYlGIW.png" group-title="Vietnam",VTV1 HD (1080p)
-https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qWWpYRR.png" group-title="Vietnam",VTV2 HD (1080p)
-https://live.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4lJG1fu.png" group-title="Vietnam",VTV3 HD (1080p)
 https://live.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WsLLmR2.png" group-title="Vietnam",VTV4 HD (1080p)
-https://live.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vnnna1C.png" group-title="Vietnam",VTV5 HD (1080p)
 https://live-a.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8
@@ -1720,16 +1720,16 @@ https://live-a.fptplay53.net/live/media/vtv5tnb/live-hls-avc/index.m3u8
 https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZwoP823.png" group-title="Vietnam",VTV7 HD (1080p)
-https://live.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv7/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rf9adGJ.png" group-title="Vietnam",VTV8 HD (1080p)
-https://live.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv8/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QiY55sy.png" group-title="Vietnam",VTV9 HD (1080p)
-https://live.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv9/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam",VTV10 (1080p)
-https://live.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv10/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam",VTV10 (1080p) [Geo-blocked]
 https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8
@@ -1738,4 +1738,4 @@ https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8
 https://liveh12.vtvprime.vn/hls/HTVKey/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png" group-title="Vietnam",VTV6 (1080p)
-https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
+https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
