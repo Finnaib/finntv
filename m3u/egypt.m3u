@@ -2085,6 +2085,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3064.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Musalsalat_2HD" tvg-logo="" group-title="OSN",[Vip]OSN_Musalsalat_2HD
 http://mhav1.com:2095/live/ht2990/742579548/3278.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_NEWS" tvg-logo="" group-title="OSN",[Vip]OSN_NEWS
+http://mhav1.com:2095/live/ht2990/742579548/2558.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
 
@@ -2133,6 +2136,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2207.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Animal_Planet" tvg-logo="" group-title="OSN",[Vip]Osn_Animal_Planet
 http://mhav1.com:2095/live/ht2990/742579548/2227.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_COMEDY_CENTRAL" tvg-logo="" group-title="OSN",[Vip]Osn_COMEDY_CENTRAL
+http://mhav1.com:2095/live/ht2990/742579548/2559.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Comedy_HD" tvg-logo="" group-title="OSN",[Vip]Osn_Comedy_HD
 http://mhav1.com:2095/live/ht2990/742579548/2211.ts
 
@@ -2148,6 +2154,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4941.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Fann" tvg-logo="" group-title="OSN",[Vip]Osn_Fann
 http://mhav1.com:2095/live/ht2990/742579548/542.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN",[Vip]Osn_History_HD
+http://mhav1.com:2095/live/ht2990/742579548/3277.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
 
@@ -2156,6 +2165,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2217.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_NatGeo_Wild_HD" tvg-logo="" group-title="OSN",[Vip]Osn_NatGeo_Wild_HD
 http://mhav1.com:2095/live/ht2990/742579548/2874.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="OSN",[Vip]Osn_Nick_Toons
+http://mhav1.com:2095/live/ht2990/742579548/3274.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_YaHala_HD" tvg-logo="" group-title="OSN",[Vip]Osn_YaHala_HD
 http://mhav1.com:2095/live/ht2990/742579548/2204.ts

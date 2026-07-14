@@ -1893,6 +1893,9 @@ http://163.61.227.29:8000/play/a05l/40652310.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Somoy News TV (1080p)
 https://bozztv.com/rongo/rongo-somoy/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
+https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Aath.jpeg" group-title="Bangladesh",Sony Aath
 http://103.165.93.31:8095/sonyAath/index.m3u8
 
@@ -1913,9 +1916,6 @@ http://103.175.73.12:8080/live/256/256_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Cineplex HD
-http://66.102.126.10:8000/play/a076/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sony%20Max.png" group-title="Bangladesh",Sony Max
 http://103.99.249.139/sonymax/index.m3u8
@@ -1947,6 +1947,9 @@ http://103.229.254.25:7001/play/a032/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Cineplax.png" group-title="Bangladesh",Colors Cineplex
 http://198.195.239.50:8095/ColorsCineplex/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Colors%20Cineplax.png" group-title="Bangladesh",Colors Cineplex HD
+http://66.102.126.10:8000/play/a076/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="Bangladesh",Star Movies
 http://198.195.239.50:8095/StarMovies/tracks-v1a1/mono.m3u8
 
@@ -1970,9 +1973,6 @@ http://103.175.73.12:8080/live/326/326_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Zast
 http://103.175.73.12:8080/live/327/327_0.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/desh-tv.png" group-title="Bangladesh",Desh TV
-https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/8z5yuaoyryedp6l/ZB.jpg" group-title="Bangladesh",Zee Bangla HD
 http://103.159.180.34:5001/live/625.m3u8
@@ -2737,7 +2737,7 @@ http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg" group-title="CRICKET",CR | Fox Cricket 501 HD
-http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
+http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/willow-cricket.png" group-title="CRICKET",Willow Cricket
 https://earnvid.assadikb.workers.dev/?id=willowusa
@@ -3941,6 +3941,9 @@ http://mhav1.com:2095/live/ht2990/742579548/19404.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nickelodeon_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Nickelodeon_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19406.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="KIDS",[Vip]Osn_Nick_Toons
+http://mhav1.com:2095/live/ht2990/742579548/3274.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Disney_Junior_SD" tvg-logo="" group-title="KIDS",OSN_Disney_Junior_SD
 http://mhav1.com:2095/live/ht2990/742579548/3605.ts
 
@@ -4238,9 +4241,6 @@ https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png" group-title="KIDS",Kids Stars
 https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",PBS Kids
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
 https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 
@@ -4250,8 +4250,11 @@ http://103.175.73.12:8080/live/128/128_0.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="KIDS",Kids Creation
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ubZMeQv.jpg" group-title="KIDS",PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
+https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",0. LooLoo Kids TV
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
@@ -4332,7 +4335,7 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f
 
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900015RO_20250217T210812SQUARE.png" group-title="KIDS",Kartoon Channel!
-https://d2z0ysa6dgxhlc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ajxyy4yaic6nq/kchan.m3u8
+https://amg01076-lightningintern-kartoonchannel-samsungnz-t8blu.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png" group-title="KIDS",PBS Kids (Eastern Feed)
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
