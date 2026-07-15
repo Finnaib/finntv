@@ -1875,6 +1875,9 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png" group-title="Bangladesh",Jamuna TV (1080p)
 https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/i54AQic.png" group-title="Bangladesh",Somoy News TV (1080p)
+https://bozztv.com/rongo/rongo-somoy/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
@@ -1889,9 +1892,6 @@ http://103.99.249.139/sonyten3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/PTV%20Sports.png" group-title="Bangladesh",PTV Sports
 http://163.61.227.29:8000/play/a05l/40652310.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Somoy News TV (1080p)
-https://bozztv.com/rongo/rongo-somoy/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
 https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
@@ -1989,23 +1989,14 @@ https://dwby15d04agvq.cloudfront.net/index_1.m3u8
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max-hd.png" group-title="Bangladesh",Sony MAX HD
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247
 
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-gold.png" group-title="Bangladesh",Star Gold
-http://maxotts.maxdigitaltv.com/x-media/C103/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-plus.png" group-title="Bangladesh",Star Plus
-http://book4u.top/royr/index.php?id=StarPlusIN
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-cinema-hd-veqq3heoalzv.png" group-title="Bangladesh",Zee Cinema HD
-https://book4u.top/worker/index.php?path=api/63785f090e/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/0919f3ba6d/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/hum-tv.png" group-title="Bangladesh",Hum TV
 https://backuptof.rustimfahum.workers.dev/media.m3u8?id=7c21a6364fde
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/jamuna-tv.png" group-title="Bangladesh",Jamuna TV
 https://ftp.assadikb.workers.dev/stream.m3u8?id=jamuna_tv
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/somoy-news-tv.png" group-title="Bangladesh",Somoy News TV
-http://ubuntu.moonplex.net:8080/Somoy_TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/desh-tv.png" group-title="Bangladesh",Desh TV
 https://ftp.assadikb.workers.dev/stream.m3u8?id=desh_tv
@@ -2017,19 +2008,16 @@ https://ftp.assadikb.workers.dev/stream.m3u8?id=/channel_i
 https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-bbc-earth-hd.png" group-title="Bangladesh",Sony BBC Earth HD
-https://book4u.top/worker/index.php?path=api/3e9d231a84/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/977c97b3a8/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-sab-hd.png" group-title="Bangladesh",Sony SAB
-https://book4u.top/worker/index.php?path=api/f10c3b5c0e/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/901c59806a/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-jalsha-hd-uk.png" group-title="Bangladesh",Star Jalsha HD
 http://book4u.top/royr/index.php?id=STAR_JALSHA_FAAH
 
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png" group-title="Bangladesh",Colors Bangla Cinema
-https://madanitv.assadikb.workers.dev/live.php?id=1657&e=.m3u8
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bangla-cinema.png" group-title="Bangladesh",Zee Bangla Cinema
-https://book4u.top/worker/index.php?path=api/c6a422650e/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/b128fb8dd9/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-aath.png" group-title="Bangladesh",Sony aath
 https://book4u.top/worker/index.php?path=api/fdf6e4d104/playlist.m3u8
@@ -2038,10 +2026,7 @@ https://book4u.top/worker/index.php?path=api/fdf6e4d104/playlist.m3u8
 https://madanitv.assadikb.workers.dev/live.php?id=756&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bangla-hd.png" group-title="Bangladesh",Zee Bangla HD
-https://book4u.top/worker/index.php?path=api/81d038ac44/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/ptv-sports.png" group-title="Bangladesh",PTV Sports
-https://earnvid.assadikb.workers.dev/?id=ptvpk
+https://ftp.assadikb.workers.dev/stream.m3u8?id=/zee_bangla
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-sports-ten-5.png" group-title="Bangladesh",Sony Sports Ten 5
 https://book4u.top/worker/index.php?path=api/d74ec2f219/playlist.m3u8
@@ -2052,29 +2037,17 @@ https://book4u.top/worker/index.php?path=api/45dc1e0f41/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-sports-ten-1.link" group-title="Bangladesh",Sony Sports Ten 1
 https://book4u.top/worker/index.php?path=api/762cf859a8/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-sports-2-hd.png" group-title="Bangladesh",Star Sports 2 HD
-https://book4u.top/xyz/player.m3u8?id=edge2/star-sports-2
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-sports-1-hd.png" group-title="Bangladesh",Star Sports 1 HD
-https://book4u.top/xyz/player.m3u8?id=edge2/star-sports-1
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-sport-select-2.png" group-title="Bangladesh",Star Sport Select 2
-https://cdn.dlhub4u.top/vids/hoi/stream.m3u8?id=StarSportsSelect2
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/star-sport-select-1.png" group-title="Bangladesh",Star Sport Select 1
-https://cdn.dlhub4u.top/vids/hoi/stream.m3u8?id=StarSportsSelect1
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-pix-hd.png" group-title="Bangladesh",Sony PIX HD
-https://book4u.top/worker/index.php?path=api/0d6787eb3a/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/a244056d3f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-marathi.png" group-title="Bangladesh",Sony Marathi
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009259
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-cineplex-bollywood.png" group-title="Bangladesh",Colors Cineplex Bollywood
-https://djplabon.aminmuaz636.workers.dev/live.php?id=1763
+https://madanitv.assadikb.workers.dev/live.php?id=1763&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-cineplex-superhit.png" group-title="Bangladesh",Colors Cineplex Superhit
-https://djplabon.aminmuaz636.workers.dev/live.php?id=1450
+https://madanitv.assadikb.workers.dev/live.php?id=1450&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-action.png" group-title="Bangladesh",Zee Action
 https://book4u.top/worker/index.php?path=api/f3311c7bbe/playlist.m3u8
@@ -2083,22 +2056,19 @@ https://book4u.top/worker/index.php?path=api/f3311c7bbe/playlist.m3u8
 https://book4u.top/worker/index.php?path=api/3547925ef0/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max2.png" group-title="Bangladesh",Sony MAX2
-https://book4u.top/worker/index.php?path=api/a5d2c9a383/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/61888f1b6c/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-cineplex-hd.png" group-title="Bangladesh",Colors Cineplex HD
 https://madanitv.assadikb.workers.dev/live.php?id=1477&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max.png" group-title="Bangladesh",Sony MAX
-https://book4u.top/worker/index.php?path=api/9bcb965282/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/6d7f4e0717/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-wah.png" group-title="Bangladesh",Sony Wah
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-cafe-hd.png" group-title="Bangladesh",Zee Cafe HD
 https://book4u.top/worker/index.php?path=api/f914787389/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-infinity-hd.png" group-title="Bangladesh",Colors Infinity HD
-https://madanitv.assadikb.workers.dev/live.php?id=1158&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-anmol.png" group-title="Bangladesh",Zee Anmol
 https://book4u.top/worker/index.php?path=api/cf342d11fc/playlist.m3u8
@@ -2116,7 +2086,7 @@ https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248
 https://madanitv.assadikb.workers.dev/live.php?id=144&e=.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-tv-hd.png" group-title="Bangladesh",Zee TV HD
-https://book4u.top/worker/index.php?path=api/526bde04a5/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/37788832c8/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="Bangladesh",Somoy TV
 https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8
@@ -2737,10 +2707,7 @@ http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg" group-title="CRICKET",CR | Fox Cricket 501 HD
-http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/willow-cricket.png" group-title="CRICKET",Willow Cricket
-https://earnvid.assadikb.workers.dev/?id=willowusa
+http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCvTmUhiKDs4ehoVpFLh7xwdCNK2-N_gNFqnaOM4YRQ&s=10" group-title="CRICKET",Willow
 http://103.165.93.31:8095/WiLLow/index.m3u8
@@ -4049,6 +4016,9 @@ http://mhav1.com:2095/live/ht2990/742579548/188882.ts
 #EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
 http://mhav1.com:2095/live/ht2990/742579548/188958.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="SOLO KIDS FHD" tvg-logo="" group-title="KIDS",SOLO KIDS FHD
+http://mhav1.com:2095/live/ht2990/742579548/288268.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Majd KIDS" tvg-logo="" group-title="KIDS",Al Majd KIDS
 http://mhav1.com:2095/live/ht2990/742579548/12151.ts
 
@@ -4254,7 +4224,7 @@ http://103.175.73.12:8080/live/128/128_0.m3u8
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",0. LooLoo Kids TV
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
@@ -4374,7 +4344,7 @@ http://103.175.73.12:8080/live/321/321_0.m3u8
 http://103.175.73.12:8080/live/129/129_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-yay-bangla.png" group-title="KIDS",Sony Yay Bangla
-https://book4u.top/worker/index.php?path=api/b45f637d05/playlist.m3u8
+https://book4u.top/worker/index.php?path=api/010df4656f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sonic-bangla.png" group-title="KIDS",Sonic Bangla
 https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8
