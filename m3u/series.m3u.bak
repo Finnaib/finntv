@@ -17693,6 +17693,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4352.ts
 #EXTINF:-1 tvg-id="" tvg-name="واحة الغروب" tvg-logo="http://images.vega-xt-mh.com:80/images/i2oltChjUYqVGbkDRROsnSlGLe5_big.jpg" group-title="مسلسلات مصريه",واحة الغروب
 http://mhav1.com:2095/series/ht2990/742579548/6020.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="وادى الجن" tvg-logo="http://images.vega-xt-mh.com:80/images/7DYUy3qj9FNynale92vEFmq2Vxw_big.jpg" group-title="مسلسلات مصريه",وادى الجن
+http://mhav1.com:2095/series/ht2990/742579548/509.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="وش تاني" tvg-logo="http://images.vega-xt-mh.com:80/images/xPg42sigcKnFD8ahnwq6b7BmcNg_big.jpg" group-title="مسلسلات مصريه",وش تاني
 http://mhav1.com:2095/series/ht2990/742579548/853.ts
 
@@ -18307,9 +18310,6 @@ http://mhav1.com:2095/series/ht2990/742579548/360.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="هوجان" tvg-logo="http://images.vega-xt-mh.com:80/images/syQwBS2vys9hGf4sg9F8VprQ5rP_big.jpg" group-title="مسلسلات مصريه حديثه",هوجان
 http://mhav1.com:2095/series/ht2990/742579548/58.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="وادى الجن" tvg-logo="http://images.vega-xt-mh.com:80/images/7DYUy3qj9FNynale92vEFmq2Vxw_big.jpg" group-title="مسلسلات مصريه حديثه",وادى الجن
-http://mhav1.com:2095/series/ht2990/742579548/509.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="وبينا ميعاد" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zvsPxU9ZigSYfHtqhkVRfhowmlw.jpg" group-title="مسلسلات مصريه حديثه",وبينا ميعاد
 http://mhav1.com:2095/series/ht2990/742579548/2043.ts
