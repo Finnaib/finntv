@@ -473,17 +473,6 @@ http://mhav1.com:2095/live/ht2990/742579548/185025.ts
 
 
 ################################################################################
-# Alwan Club 4K
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan WWE 4K" tvg-logo="" group-title="Alwan Club 4K",Alwan WWE 4K
-http://mhav1.com:2095/live/ht2990/742579548/243640.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan WWE 4K" tvg-logo="" group-title="Alwan Club 4K",Alwan WWE 4K
-http://mhav1.com:2095/live/ht2990/742579548/243640.ts
-
-
-################################################################################
 # Alwan Sports
 ################################################################################
 
@@ -2631,6 +2620,14 @@ http://mhav1.com:2095/live/ht2990/742579548/57473.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
 http://mhav1.com:2095/live/ht2990/742579548/4441.ts
+
+
+################################################################################
+# Category 662
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan WWE 4K" tvg-logo="" group-title="Category 662",Alwan WWE 4K
+http://mhav1.com:2095/live/ht2990/742579548/243640.ts
 
 
 ################################################################################
@@ -7037,6 +7034,14 @@ https://jmp2.uk/stvp-ES1100001MT
 
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
+
+
+################################################################################
+# Sports
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan WWE 4K" tvg-logo="" group-title="Sports",Alwan WWE 4K
+http://mhav1.com:2095/live/ht2990/742579548/243640.ts
 
 
 ################################################################################
