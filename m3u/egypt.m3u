@@ -2067,11 +2067,20 @@ http://mhav1.com:2095/live/ht2990/742579548/19369.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="OSN",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_LIVING" tvg-logo="" group-title="OSN",[Vip]OSN_LIVING
+http://mhav1.com:2095/live/ht2990/742579548/4939.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Living_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Living_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19379.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_MEZZE" tvg-logo="" group-title="OSN",[Vip]OSN_MEZZE
+http://mhav1.com:2095/live/ht2990/742579548/7097.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Meezze_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Meezze_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19380.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Movies Disney_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19367.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Hollywood_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Movies Hollywood_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19364.ts
@@ -2157,6 +2166,9 @@ http://mhav1.com:2095/live/ht2990/742579548/542.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN",[Vip]Osn_History_HD
 http://mhav1.com:2095/live/ht2990/742579548/3277.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="OSN",[Vip]Osn_Kids_Zone
+http://mhav1.com:2095/live/ht2990/742579548/4940.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
 
@@ -2240,6 +2252,9 @@ http://mhav1.com:2095/live/ht2990/742579548/525.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_SD" tvg-logo="" group-title="OSN",OSN_Musalsalat_SD
 http://mhav1.com:2095/live/ht2990/742579548/5986.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_SD" tvg-logo="" group-title="OSN",OSN_Nat_Geo_SD
+http://mhav1.com:2095/live/ht2990/742579548/19452.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_Wild_SD" tvg-logo="" group-title="OSN",OSN_Nat_Geo_Wild_SD
 http://mhav1.com:2095/live/ht2990/742579548/4923.ts
