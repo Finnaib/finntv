@@ -809,6 +809,9 @@ http://stb-air.wasmer.app/play.php?id=LIVETV_LIVETVCHANNEL_SET_HD&pass=krish-ka&
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" group-title="INDIA",Sony Marathi (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="INDIA",Star Jalsha HD (720p)
+http://tvsen7.aynascope.net/sjhdbd/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8v4JXYu.png" group-title="INDIA",Star Maa Gold (576p)
 http://103.121.6.5:8000/play/a063/index.m3u8
 
@@ -889,6 +892,12 @@ https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kHerF19.png" group-title="INDIA",Star Sports 2 Hindi HD (1080p)
 http://103.157.248.140:8000/play/a01m/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Mh9tKPx.png" group-title="INDIA",Star Sports Select 1 HD (720p)
+http://tvsen7.aynascope.net/sspts1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="INDIA",Star Sports Select 2 HD (720p)
+http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4900003U3_20251106T195117SQUARE.png" group-title="INDIA",ETV Comedy (1080p)
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
@@ -1787,9 +1796,6 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="Bangladesh",Star Jalsha HD (720p)
-http://tvsen7.aynascope.net/sjhdbd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports 1 HD
 http://41.205.93.154/STARSPORTS1/index.m3u8
@@ -5158,8 +5164,8 @@ https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lT8rihP.png" group-title="News",News Daily 24 (576p)
 https://cdn-6.pishow.tv/live/10009/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540" group-title="News",News India 24x7
-https://cdn-3.pishow.tv/live/273/master.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002N1TXH.png?lock=720x540" group-title="News",News India 24x7 (576p)
+http://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_J/images/LOGO_HD/image.png" group-title="News",News J (720p) [Not 24/7]
 https://cdn-3.pishow.tv/live/1279/master.m3u8
@@ -5289,6 +5295,9 @@ https://cdn-1.pishow.tv/live/385/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s144000_ld_h15_aa.png?lock=720x540" group-title="News",Thanthi TV (576p)
 https://cdn-3.pishow.tv/live/1612/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yxpeWnY.png" group-title="News",Time TV (576p)
+http://tvsen5.aynascope.net/timetv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qvuOBP7.png" group-title="News",Time Vision News (720p)
 http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8
