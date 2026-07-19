@@ -2013,12 +2013,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6255.ts
 http://mhav1.com:2095/series/ht2990/742579548/5862.ts
 
 
-##### [Category 645] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="The Dark" tvg-logo="http://images.vega-xt-mh.com:80/images/mcrx2gcVd5mVVOQrdEWXayFbvVB_big.jpg" group-title="Category 645",The Dark
-http://mhav1.com:2095/series/ht2990/742579548/7186.ts
-
-
 ##### [Documentary  Series] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="Cocaine Air: Smugglers at 30,000 Ft." tvg-logo="http://images.vega-xt-mh.com:80/images/dOfobfSR7b0gCLwfqNMDj5ks42k_big.jpg" group-title="Documentary  Series",Cocaine Air: Smugglers at 30,000 Ft.
@@ -3559,6 +3553,12 @@ http://mhav1.com:2095/series/ht2990/742579548/4225.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سلسلة افلام Laurel And Hardy" tvg-logo="https://th.bing.com/th/id/R.4d3fc37040136cc9bff6b67929e7b1fc?rik=dwT4hA4tOP8DbA&riu=http%3a%2f%2fwww.traumfalter-filmwerkstatt.de%2fblog%2fwp-content%2fuploads%2f2019%2f07%2flaurel-and-hardy.jpg&ehk=sW70hK4m01kR%2f3WKLgLgf3nSEW3Xsirh5XiWKwcDtF4%3d&risl=&p" group-title="English Series",سلسلة افلام Laurel And Hardy
 http://mhav1.com:2095/series/ht2990/742579548/4597.ts
+
+
+##### [English Series [2025]] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="The Dark" tvg-logo="http://images.vega-xt-mh.com:80/images/mcrx2gcVd5mVVOQrdEWXayFbvVB_big.jpg" group-title="English Series [2025]",The Dark
+http://mhav1.com:2095/series/ht2990/742579548/7186.ts
 
 
 ##### [English Series [2026]] #####
@@ -9257,7 +9257,7 @@ http://mhav1.com:2095/series/ht2990/742579548/3491.ts
 #EXTINF:-1 tvg-id="" tvg-name="مذكرات زوج" tvg-logo="http://images.vega-xt-mh.com:80/images/3YUCdMWuKEZHyy3kaZYwhO9ZR03_big.jpg" group-title="Ramdan Egypt",مذكرات زوج
 http://mhav1.com:2095/series/ht2990/742579548/2203.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="مزاد الشر" tvg-logo="http://images.vega-xt-mh.com:80/images/4icCClhPJ4E3y9lkSguWbHYAgKP_big.jpg" group-title="Ramdan Egypt",مزاد الشر
+#EXTINF:-1 tvg-id="" tvg-name="مزاد الشر" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cs2REWkIunyEdI18Lxq5o9KAjkd.jpg" group-title="Ramdan Egypt",مزاد الشر
 http://mhav1.com:2095/series/ht2990/742579548/1237.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="مسار اجبارى" tvg-logo="http://images.vega-xt-mh.com:80/Ramdan/Masar.Egbari.png" group-title="Ramdan Egypt",مسار اجبارى

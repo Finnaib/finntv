@@ -2777,9 +2777,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/118873.mkv
 #EXTINF:-1 tvg-id="" tvg-name="ابناء الشيطان" tvg-logo="https://media.elcinema.com/uploads/_640x_6f00eb7c1f5d406b3bd68ef6549b6301b867a1d014d3f6b7d259e62c5f45bb69.jpg" group-title="Arabic Classic New",ابناء الشيطان
 http://mhav1.com:2095/movie/ht2990/742579548/74780.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="ابناء وقتلة" tvg-logo="http://images.vega-xt-mh.com:80/images/bh4xX8jY5cPkjM21gou2NfLoeNG_big.jpg" group-title="Arabic Classic New",ابناء وقتلة
-http://mhav1.com:2095/movie/ht2990/742579548/182974.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="ابو حلموس 1947" tvg-logo="https://i.postimg.cc/qRBBnJd9/0783026bf4a17.jpg" group-title="Arabic Classic New",ابو حلموس 1947
 http://mhav1.com:2095/movie/ht2990/742579548/98316.mkv
 
@@ -2839,9 +2836,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/79317.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الحقيقة اسمها سالم" tvg-logo="https://th.bing.com/th/id/OIP.GbCYtb8szYj0TdyIvEtUPAHaFj?w=231&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" group-title="Arabic Classic New",الحقيقة اسمها سالم
 http://mhav1.com:2095/movie/ht2990/742579548/119051.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="الحناكيش" tvg-logo="http://images.vega-xt-mh.com:80/images/lOBQX004DhWDP7lO1SYuqMXvPnO_big.jpg" group-title="Arabic Classic New",الحناكيش
-http://mhav1.com:2095/movie/ht2990/742579548/80001.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الخادمة" tvg-logo="http://images.vega-xt-mh.com:80/images/33MjBxohRpeiyes7ycU6Z6kAITb_big.jpg" group-title="Arabic Classic New",الخادمة
 http://mhav1.com:2095/movie/ht2990/742579548/81064.mkv
@@ -3565,6 +3559,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/233690.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="HD مش انا" tvg-logo="http://images.vega-xt-mh.com:80/images/c2s9KtPxMZbX83zlQfsDylQ0HjU_big.jpg" group-title="Arabic HD 1080",HD مش انا
 http://mhav1.com:2095/movie/ht2990/742579548/272077.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="HD معلش احنا بنتبهدل" tvg-logo="http://images.vega-xt-mh.com:80/images/wGh8RL86oElTrLRsmiLcbhQpmrb_big.jpg" group-title="Arabic HD 1080",HD معلش احنا بنتبهدل
+http://mhav1.com:2095/movie/ht2990/742579548/288732.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="HD موسى" tvg-logo="http://images.vega-xt-mh.com:80/images/dOlvk3ePs1PDgZtRvr4FE9nLDTb_big.jpg" group-title="Arabic HD 1080",HD موسى
 http://mhav1.com:2095/movie/ht2990/742579548/224833.mkv
@@ -5717,8 +5714,8 @@ http://mhav1.com:2095/movie/ht2990/742579548/21559.mkv
 #EXTINF:-1 tvg-id="" tvg-name="خالي من الكوليسترول" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8IcWlBZMUP6Dj2qI7e3a5dfYmtB.jpg" group-title="Arabic premier",خالي من الكوليسترول
 http://mhav1.com:2095/movie/ht2990/742579548/115895.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="خسسني شكراً" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/z5pnXDm8UjM3ahsoqOTeVr89jkw.jpg" group-title="Arabic premier",خسسني شكراً
-http://mhav1.com:2095/movie/ht2990/742579548/12393.mkv
+#EXTINF:-1 tvg-id="" tvg-name="خسسني شكراً" tvg-logo="http://images.vega-xt-mh.com:80/images/z5pnXDm8UjM3ahsoqOTeVr89jkw_big.jpg" group-title="Arabic premier",خسسني شكراً
+http://mhav1.com:2095/movie/ht2990/742579548/288729.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="خطة بديلة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zQmjtGT1YyGWK1hLIDks5qhDDk3.jpg" group-title="Arabic premier",خطة بديلة
 http://mhav1.com:2095/movie/ht2990/742579548/14674.mkv
@@ -6224,8 +6221,8 @@ http://mhav1.com:2095/movie/ht2990/742579548/15721.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مصور قتيل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dXXn6eTLRsttMUKH4sYPk7PfpCH.jpg" group-title="Arabic premier",مصور قتيل
 http://mhav1.com:2095/movie/ht2990/742579548/19310.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="معلش إحنا بنتبهدل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wGh8RL86oElTrLRsmiLcbhQpmrb.jpg" group-title="Arabic premier",معلش إحنا بنتبهدل
-http://mhav1.com:2095/movie/ht2990/742579548/19284.mkv
+#EXTINF:-1 tvg-id="" tvg-name="معلش احنا بنتبهدل" tvg-logo="http://images.vega-xt-mh.com:80/images/wGh8RL86oElTrLRsmiLcbhQpmrb_big.jpg" group-title="Arabic premier",معلش احنا بنتبهدل
+http://mhav1.com:2095/movie/ht2990/742579548/288731.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="مفيش فايدة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6Eo5KntR5tuVuiqV30cdElzVku1.jpg" group-title="Arabic premier",مفيش فايدة
 http://mhav1.com:2095/movie/ht2990/742579548/46797.mkv
@@ -48206,9 +48203,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/14667.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الراعي والنساء" tvg-logo="http://images.vega-xt-mh.com:80/images/memfGBMPK7R4FVYq330oKjH2hpO_big.jpg" group-title="احمد زكى",الراعي والنساء
 http://mhav1.com:2095/movie/ht2990/742579548/22274.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="الراقصة والطبال" tvg-logo="http://photo.elcinema.com.s3.amazonaws.com/uploads/_640x_723db518fa6bffa257f55936c99093889cfce8c8fcfba4a4071c313958db943a.jpg" group-title="احمد زكى",الراقصة والطبال
-http://mhav1.com:2095/movie/ht2990/742579548/15068.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="الرجل الثالث (1995)" tvg-logo="http://images.vega-xt-mh.com:80/images/uhv2SO0uYq0HXrgBu1s6TOaxZjC_big.jpg" group-title="احمد زكى",الرجل الثالث (1995)
 http://mhav1.com:2095/movie/ht2990/742579548/22272.mkv
 
@@ -49181,9 +49175,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/101231.mkv
 #EXTINF:-1 tvg-id="" tvg-name=" هل أقتل زوجى" tvg-logo="https://i.ytimg.com/vi/TTyHXh_mEvw/hqdefault.jpg" group-title="افلام كلاسيك", هل أقتل زوجى
 http://mhav1.com:2095/movie/ht2990/742579548/215712.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="(1984) التخشيبة" tvg-logo="http://images.vega-xt-mh.com:80/images/uJ6CvsiiSzPZ5Rsn6AG67P6r02P_big.jpg" group-title="افلام كلاسيك",(1984) التخشيبة
-http://mhav1.com:2095/movie/ht2990/742579548/22971.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="(1986) الكومندان" tvg-logo="http://images.vega-xt-mh.com:80/images/zGJEbqgjLLRskNHsuFD6mhvuJEt_big.jpg" group-title="افلام كلاسيك",(1986) الكومندان
 http://mhav1.com:2095/movie/ht2990/742579548/263354.mkv
 
@@ -49846,9 +49837,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/30545.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="العذاب فوق شفاه تبتسم" tvg-logo="http://images.vega-xt-mh.com:80/images/pvB3bVr7gPEzYgPzvmtJx0oI9St_big.jpg" group-title="افلام كلاسيك",العذاب فوق شفاه تبتسم
 http://mhav1.com:2095/movie/ht2990/742579548/248131.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="العذراء والشعر الأبيض" tvg-logo="http://images.vega-xt-mh.com:80/images/68i0bggWNTcvEbaKUKiKdWU1BiM_big.jpg" group-title="افلام كلاسيك",العذراء والشعر الأبيض
-http://mhav1.com:2095/movie/ht2990/742579548/35949.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="العربجي" tvg-logo="http://images.vega-xt-mh.com:80/images/bzUITLuh9zvGQ6oUi02jLI2AXP9_big.jpg" group-title="افلام كلاسيك",العربجي
 http://mhav1.com:2095/movie/ht2990/742579548/184908.mkv
@@ -53891,6 +53879,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/287643.mkv
 #EXTINF:-1 tvg-id="" tvg-name="مباراة انجلترا و النرويج" tvg-logo="https://images2.imgbox.com/a3/8d/NQUUBFEw_o.jpg" group-title="رياضه",مباراة انجلترا و النرويج
 http://mhav1.com:2095/movie/ht2990/742579548/288178.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="مباراة انجلترا و فرنسا" tvg-logo="https://images2.imgbox.com/a6/47/9n3lhKLP_o.jpg" group-title="رياضه",مباراة انجلترا و فرنسا
+http://mhav1.com:2095/movie/ht2990/742579548/288753.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="مباراة انجلترا و كرواتيا" tvg-logo="https://images2.imgbox.com/b1/14/qLlyUrrr_o.jpg" group-title="رياضه",مباراة انجلترا و كرواتيا
 http://mhav1.com:2095/movie/ht2990/742579548/285947.mkv
 
@@ -54302,9 +54293,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/209469.mkv
 #EXTINF:-1 tvg-id="" tvg-name="أذكياء لكن أغبياء" tvg-logo="http://images.vega-xt-mh.com:80/images/3DFNZm2c4wJ3AsdtfBt3UTbZvFY_big.jpg" group-title="عادل امام",أذكياء لكن أغبياء
 http://mhav1.com:2095/movie/ht2990/742579548/11311.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="أمهات في المنفى" tvg-logo="http://images.vega-xt-mh.com:80/images/yK9jjBqcMB7DGn7jD82y1ushREi_big.jpg" group-title="عادل امام",أمهات في المنفى
-http://mhav1.com:2095/movie/ht2990/742579548/11307.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="أنا اللي قتلت الحنش" tvg-logo="http://images.vega-xt-mh.com:80/images/dAuhHcgj2JZIQtQoZio1tbDXtdo_big.jpg" group-title="عادل امام",أنا اللي قتلت الحنش
 http://mhav1.com:2095/movie/ht2990/742579548/232658.mkv
 
@@ -54421,6 +54409,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/233971.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الواد محروس بتاع الوزير" tvg-logo="http://images.vega-xt-mh.com:80/images/vohNcYRn8vZc3Fv2lXUTESacYT7_big.jpg" group-title="عادل امام",الواد محروس بتاع الوزير
 http://mhav1.com:2095/movie/ht2990/742579548/232916.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="امهات في المنفى" tvg-logo="http://images.vega-xt-mh.com:80/images/c3QZ9NvsVtQrYlGd2FjY5gEYkfq_big.jpg" group-title="عادل امام",امهات في المنفى
+http://mhav1.com:2095/movie/ht2990/742579548/288730.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="امير الظلام" tvg-logo="http://images.vega-xt-mh.com:80/images/kJ7U9hfuJbpXaeYcEB75uxPWSuD_big.jpg" group-title="عادل امام",امير الظلام
 http://mhav1.com:2095/movie/ht2990/742579548/232570.mkv
@@ -56394,6 +56385,24 @@ http://mhav1.com:2095/movie/ht2990/742579548/77475.mkv
 http://mhav1.com:2095/movie/ht2990/742579548/228562.mkv
 
 
+##### [نبيلة عبيد] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="ابناء وقتلة" tvg-logo="http://images.vega-xt-mh.com:80/images/bh4xX8jY5cPkjM21gou2NfLoeNG_big.jpg" group-title="نبيلة عبيد",ابناء وقتلة
+http://mhav1.com:2095/movie/ht2990/742579548/182974.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="ادم والنساء" tvg-logo="http://images.vega-xt-mh.com:80/images/p1rSLS45fJ9C02i27CK4OkRVGT2_big.jpg" group-title="نبيلة عبيد",ادم والنساء
+http://mhav1.com:2095/movie/ht2990/742579548/288754.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="الاعتراف الأخير" tvg-logo="http://25.mhpro1.xyz:80/images/nk0wncNga0BdH30Cd5cBFQndO4O_big.jpg" group-title="نبيلة عبيد",الاعتراف الأخير
+http://mhav1.com:2095/movie/ht2990/742579548/288757.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="الحناكيش" tvg-logo="http://25.mhpro1.xyz:80/images/lOBQX004DhWDP7lO1SYuqMXvPnO_big.jpg" group-title="نبيلة عبيد",الحناكيش
+http://mhav1.com:2095/movie/ht2990/742579548/288756.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="العذراء والشعر الابيض" tvg-logo="http://25.mhpro1.xyz:80/images/pb2tKVHoWoUyy1o7GssQRU0DkaR_big.jpg" group-title="نبيلة عبيد",العذراء والشعر الابيض
+http://mhav1.com:2095/movie/ht2990/742579548/288755.mkv
+
+
 ##### [نور الشريف] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="The Piper" tvg-logo="http://images.vega-xt-mh.com:80/images/hAzi9MubPwUheywGaS5ZluUo80h_big.jpg" group-title="نور الشريف",The Piper
@@ -56411,9 +56420,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/79605.mkv
 #EXTINF:-1 tvg-id="" tvg-name="الأبرياء" tvg-logo="http://images.vega-xt-mh.com:80/images/mn01ExXbFaHtwPNoyCYFwbF9yEy_big.jpg" group-title="نور الشريف",الأبرياء
 http://mhav1.com:2095/movie/ht2990/742579548/79557.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="الاعتراف الاخير	" tvg-logo="https://a.ltrbxd.com/resized/film-poster/5/0/2/1/5/1/502151-al-eeteraf-al-akhir-0-230-0-345-crop.jpg?v=fc4cd91945" group-title="نور الشريف",الاعتراف الاخير	
-http://mhav1.com:2095/movie/ht2990/742579548/179707.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="البحث عن سيد مرزوق" tvg-logo="http://images.vega-xt-mh.com:80/images/nDSlORo9TDEAeUW5FP4VToVN1eG_big.jpg" group-title="نور الشريف",البحث عن سيد مرزوق
 http://mhav1.com:2095/movie/ht2990/742579548/272429.mkv
 
@@ -56425,9 +56431,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/79475.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="السراب" tvg-logo="http://images.vega-xt-mh.com:80/images/uB9XUEvfDwY75dBRfLIxqr8ApYZ_big.jpg" group-title="نور الشريف",السراب
 http://mhav1.com:2095/movie/ht2990/742579548/72010.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="الشيطان يعظ" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gmclGb5hGYlMxIYyUFdVSVTrT0d.jpg" group-title="نور الشريف",الشيطان يعظ
-http://mhav1.com:2095/movie/ht2990/742579548/80030.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الصرخة" tvg-logo="http://images.vega-xt-mh.com:80/images/u6OTxLrKfBNFQVxbSHVvNlGGWmh_big.jpg" group-title="نور الشريف",الصرخة
 http://mhav1.com:2095/movie/ht2990/742579548/228559.mkv
