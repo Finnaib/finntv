@@ -35,7 +35,7 @@ http://mhav1.com:2095/live/ht2990/742579548/212593.ts
 #EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260701T005037SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
 https://jmp2.uk/stvp-IN1300001NN
 
-#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260715T005749SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
+#EXTINF:-1 tvg-chno="1163" tvg-id="IN270000230" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20260722T004243SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1163. FIFA+
 https://jmp2.uk/stvp-IN270000230
 
 #EXTINF:-1 tvg-chno="1167" tvg-id="INBD4700014DU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4700014DU_20260623T015231SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1167. MAVTV Motorsports
@@ -4153,9 +4153,6 @@ https://jmp2.uk/stvp-IT600001L6
 #EXTINF:-1 tvg-chno="1313" tvg-id="IT2400001AE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2400001AE_20241022T043908SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 1313. Top Gear
 https://jmp2.uk/stvp-IT2400001AE
 
-#EXTINF:-1 tvg-chno="1315" tvg-id="ITBD10000040W" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD10000040W_20260721T094003SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 1315. The Boat Show
-https://jmp2.uk/stvp-ITBD10000040W
-
 #EXTINF:-1 tvg-chno="1316" tvg-id="ITBD29000015E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD29000015E_20241022T043942SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 1316. World Poker Tour
 https://jmp2.uk/stvp-ITBD29000015E
 
@@ -4194,6 +4191,9 @@ https://jmp2.uk/stvp-IT16000070D
 
 #EXTINF:-1 tvg-chno="2796" tvg-id="IT4000089R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4000089R_20260622T064242SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2796. LBA Classics
 https://jmp2.uk/stvp-IT4000089R
+
+#EXTINF:-1 tvg-chno="2831" tvg-id="IT18000098G" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000098G_20260721T040410SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2831. The Boat Show
+https://jmp2.uk/stvp-IT18000098G
 
 
 ################################################################################

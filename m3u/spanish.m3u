@@ -509,6 +509,9 @@ https://jmp2.uk/stvp-ESAJ4500016BH
 #EXTINF:-1 tvg-chno="608" tvg-id="ESBC2700008SK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2700008SK_20241022T051028SQUARE.png" tvg-country="ES" group-title="Spain",[Comedia] 608. Just For Laughs
 https://jmp2.uk/stvp-ESBC2700008SK
 
+#EXTINF:-1 tvg-chno="2821" tvg-id="ES1600006S8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1600006S8_20260721T035558SQUARE.png" tvg-country="ES" group-title="Spain",[Comedia] 2821. LOL España
+https://jmp2.uk/stvp-ES1600006S8
+
 #EXTINF:-1 tvg-chno="609" tvg-id="ESBA3300029UG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBA3300029UG_20241022T051014SQUARE.png" tvg-country="ES" group-title="Spain",[Crimen] 609. El Comisario
 https://jmp2.uk/stvp-ESBA3300029UG
 
@@ -796,6 +799,9 @@ https://jmp2.uk/stvp-ES4400005EJ
 
 #EXTINF:-1 tvg-chno="2519" tvg-id="ES4400001N3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400001N3_20260421T125609SQUARE.png" tvg-country="ES" group-title="Spain",[Niños] 2519. Las 3 Mellizas
 https://jmp2.uk/stvp-ES4400001N3
+
+#EXTINF:-1 tvg-chno="2822" tvg-id="ES1600007AI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1600007AI_20260721T035643SQUARE.png" tvg-country="ES" group-title="Spain",[Niños] 2822. Teletubbies
+https://jmp2.uk/stvp-ES1600007AI
 
 #EXTINF:-1 tvg-chno="682" tvg-id="ESBD3400001AA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3400001AA_20260407T040053SQUARE.png" tvg-country="ES" group-title="Spain",[Noticias] 682. Negocios TV
 https://jmp2.uk/stvp-ESBD3400001AA
