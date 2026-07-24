@@ -1907,6 +1907,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/178809.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Bobbleheads: The Movie" tvg-logo="http://images.vega-xt-mh.com:80/images/t7gNfiDRZLgNka0Q7hPmRgmxLoG_big.jpg" group-title="Animation",Bobbleheads: The Movie
 http://mhav1.com:2095/movie/ht2990/742579548/30511.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Boonie Bears: The Hidden Protector" tvg-logo="http://images.vega-xt-mh.com:80/images/4MFMZRDTWngjVCQILVkg2JaT7kL_big.jpg" group-title="Animation",Boonie Bears: The Hidden Protector
+http://mhav1.com:2095/movie/ht2990/742579548/289244.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Boonie Bears: The Wild Life" tvg-logo="http://images.vega-xt-mh.com:80/images/dYk08R0bAY8v1QhePp3bwSbUpLp_big.jpg" group-title="Animation",Boonie Bears: The Wild Life
 http://mhav1.com:2095/movie/ht2990/742579548/44909.mkv
 
@@ -6199,9 +6202,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/272891.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ليلك" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fCtT99Rml7e2RE2ToszBOM6Dljh.jpg" group-title="Arabic premier",ليلك
 http://mhav1.com:2095/movie/ht2990/742579548/14253.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="ماشيين بالعكس" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jkQLfo1qJf6P0VXHrXE8TR1eXR1.jpg" group-title="Arabic premier",ماشيين بالعكس
-http://mhav1.com:2095/movie/ht2990/742579548/119201.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ماكس وعنتر" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yfBWA4w590pUwOFPS9FtggmmfxV.jpg" group-title="Arabic premier",ماكس وعنتر
 http://mhav1.com:2095/movie/ht2990/742579548/6350.mkv
@@ -29614,6 +29614,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/275669.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="23 000 Lives" tvg-logo="http://images.vega-xt-mh.com:80/images/8ZPoxkREjC92rGIOm2jwWMugl3g_big.jpg" group-title="English Movies 2026",23 000 Lives
 http://mhav1.com:2095/movie/ht2990/742579548/288600.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="40 Dates and 40 Nights" tvg-logo="http://images.vega-xt-mh.com:80/images/lWEhjO801M52CY5Gx6OAwZZ6m7o_big.jpg" group-title="English Movies 2026",40 Dates and 40 Nights
+http://mhav1.com:2095/movie/ht2990/742579548/289243.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="A Foggy Tale" tvg-logo="http://images.vega-xt-mh.com:80/images/nj1QyqHN48Wn66U9JYXIywNX8Nj_big.jpg" group-title="English Movies 2026",A Foggy Tale
 http://mhav1.com:2095/movie/ht2990/742579548/283518.mkv

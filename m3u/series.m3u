@@ -12428,9 +12428,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7148.ts
 #EXTINF:-1 tvg-id="" tvg-name="بنج كلى" tvg-logo="http://images.vega-xt-mh.com:80/images/9UQxEYzezejMAD02oYKopICX82q_big.jpg" group-title="عربي يعرض الان",بنج كلى
 http://mhav1.com:2095/series/ht2990/742579548/7163.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="تحت السن" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yRXS84CV4CpyoDKeErHz5mBAjkY.jpg" group-title="عربي يعرض الان",تحت السن
-http://mhav1.com:2095/series/ht2990/742579548/7143.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="حب ع ورق" tvg-logo="http://images.vega-xt-mh.com:80/images/kB9Td5xoWr2fSozBM2YCPZWe2mJ_big.jpg" group-title="عربي يعرض الان",حب ع ورق
 http://mhav1.com:2095/series/ht2990/742579548/7017.ts
 
@@ -12439,9 +12436,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7145.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="كارما" tvg-logo="http://images.vega-xt-mh.com:80/images/2HrTPRoariHtr0oNgLmVlX85mFK_big.jpg" group-title="عربي يعرض الان",كارما
 http://mhav1.com:2095/series/ht2990/742579548/7151.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="للعدالة وجه آخر" tvg-logo="http://images.vega-xt-mh.com:80/images/iBfMmmYqcEg0Env1mFgjwCdYzgh_big.jpg" group-title="عربي يعرض الان",للعدالة وجه آخر
-http://mhav1.com:2095/series/ht2990/742579548/7113.ts
 
 
 ##### [فوازيرمصريه] #####
@@ -17834,6 +17828,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6411.ts
 #EXTINF:-1 tvg-id="" tvg-name="بيت بابا" tvg-logo="http://images.vega-xt-mh.com:80/images/qTFHoGxcsqykxe3mFnFcvuCy9Ui_big.jpg" group-title="مسلسلات مصريه 2026",بيت بابا
 http://mhav1.com:2095/series/ht2990/742579548/6375.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="تحت السن" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yRXS84CV4CpyoDKeErHz5mBAjkY.jpg" group-title="مسلسلات مصريه 2026",تحت السن
+http://mhav1.com:2095/series/ht2990/742579548/7143.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="حرب الجبالي" tvg-logo="http://images.vega-xt-mh.com:80/images/pVb4cWsKjB1V4SkzUgIgNe1C7fJ_big.jpg" group-title="مسلسلات مصريه 2026",حرب الجبالي
 http://mhav1.com:2095/series/ht2990/742579548/5592.ts
 
@@ -17881,6 +17878,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6277.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="لعبة وقلبت بجد" tvg-logo="http://images.vega-xt-mh.com:80/images/j17Cl4STpXKUkIluxgDLTh1rTzD_big.jpg" group-title="مسلسلات مصريه 2026",لعبة وقلبت بجد
 http://mhav1.com:2095/series/ht2990/742579548/6373.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="للعدالة وجه آخر" tvg-logo="http://images.vega-xt-mh.com:80/images/iBfMmmYqcEg0Env1mFgjwCdYzgh_big.jpg" group-title="مسلسلات مصريه 2026",للعدالة وجه آخر
+http://mhav1.com:2095/series/ht2990/742579548/7113.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="لينك" tvg-logo="http://images.vega-xt-mh.com:80/images/xVHu6LJUziAxGOH8k128M4Lg8Rr_big.jpg" group-title="مسلسلات مصريه 2026",لينك
 http://mhav1.com:2095/series/ht2990/742579548/6045.ts
