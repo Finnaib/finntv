@@ -3187,6 +3187,9 @@ https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Entertainment",Big Magic (576p)
 https://mumt05.tangotv.in/87NeALx2BIGMAGIC/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="Entertainment",like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Entertainment",Colors HD
+http://59.103.38.46:8000/play/a00b/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BEr1r7L.png" group-title="Entertainment",Dangal 2 (720p)
 http://103.213.31.109:90/Dangal2/playlist.m3u8
 
@@ -4027,6 +4030,9 @@ http://mhav1.com:2095/live/ht2990/742579548/19404.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nickelodeon_FHD" tvg-logo="" group-title="KIDS",[Vip]OSN_Nickelodeon_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19406.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="KIDS",[Vip]Osn_Nick_Toons
+http://mhav1.com:2095/live/ht2990/742579548/3274.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Disney_Junior_SD" tvg-logo="" group-title="KIDS",OSN_Disney_Junior_SD
 http://mhav1.com:2095/live/ht2990/742579548/3605.ts
