@@ -12410,6 +12410,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7114.ts
 #EXTINF:-1 tvg-id="" tvg-name="اطفال الجنة" tvg-logo="http://images.vega-xt-mh.com:80/images/czFCUX2WfQ21s0Jd9SoJFI7iIcN_big.jpg" group-title="تركي يعرض الان",اطفال الجنة
 http://mhav1.com:2095/series/ht2990/742579548/5984.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="الاعراف" tvg-logo="http://images.vega-xt-mh.com:80/images/4yYZoYgeNshoS2aODwUvCXIa8yn_big.jpg" group-title="تركي يعرض الان",الاعراف
+http://mhav1.com:2095/series/ht2990/742579548/6192.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الورود" tvg-logo="http://images.vega-xt-mh.com:80/images/t5uM9N0Hz8d5uDuI1dlX3Ce8bWX_big.jpg" group-title="تركي يعرض الان",الورود
 http://mhav1.com:2095/series/ht2990/742579548/6893.ts
 
@@ -13501,9 +13504,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3654.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الاطار الأخير" tvg-logo="http://images.vega-xt-mh.com:80/images/jwVRYnc6IwReY9bURd2svzJezP6_big.jpg" group-title="مسلسلات تركيه حديثه",الاطار الأخير
 http://mhav1.com:2095/series/ht2990/742579548/6454.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الاعراف" tvg-logo="http://images.vega-xt-mh.com:80/images/4yYZoYgeNshoS2aODwUvCXIa8yn_big.jpg" group-title="مسلسلات تركيه حديثه",الاعراف
-http://mhav1.com:2095/series/ht2990/742579548/6192.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الامام الغازى" tvg-logo="http://images.vega-xt-mh.com:80/images/cSmjwtqphOL3GVgwkBz3gKrZHxi_big.jpg" group-title="مسلسلات تركيه حديثه",الامام الغازى
 http://mhav1.com:2095/series/ht2990/742579548/6960.ts
