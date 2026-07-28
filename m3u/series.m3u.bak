@@ -3413,6 +3413,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1427.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Office 2005" tvg-logo="http://images.vega-xt-mh.com:80/images/qWnJzyZhyy74gjpSjIXWmuk0ifX_big.jpg" group-title="English Series",The Office 2005
 http://mhav1.com:2095/series/ht2990/742579548/868.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Originals" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/keJOhJXGiLL54EW6QocbyvQGquA.jpg" group-title="English Series",The Originals
+http://mhav1.com:2095/series/ht2990/742579548/7217.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The Orville" tvg-logo="http://images.vega-xt-mh.com:80/images/78xnHh9H5wYcUeZoB0bt1UgInAW_big.jpg" group-title="English Series",The Orville
 http://mhav1.com:2095/series/ht2990/742579548/1565.ts
 
@@ -5932,9 +5935,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1541.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Ones Who Live" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/emC7NU8Z1KbkE6TCKNU5RxusEB4.jpg" group-title="English Series [حديثه]",The Ones Who Live
 http://mhav1.com:2095/series/ht2990/742579548/3466.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Originals" tvg-logo="http://images.vega-xt-mh.com:80/images/2llbXc2BOkLkBGgcNJCRbrWedUO_big.jpg" group-title="English Series [حديثه]",The Originals
-http://mhav1.com:2095/series/ht2990/742579548/555.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Outsider" tvg-logo="http://images.vega-xt-mh.com:80/images/aMiPwPQjQI1EZN3xP2V0sSU37dc_big.jpg" group-title="English Series [حديثه]",The Outsider
 http://mhav1.com:2095/series/ht2990/742579548/153.ts
