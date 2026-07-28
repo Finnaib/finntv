@@ -791,6 +791,17 @@ https://jmp2.uk/stvp-AT3200009QJ
 
 
 ################################################################################
+# Azerbaijan
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="CBC Sport HD [AZ]" tvg-logo="" group-title="Azerbaijan",CBC Sport HD [AZ]
+http://mhav1.com:2095/live/ht2990/742579548/123165.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBC Sport HD [AZ]" tvg-logo="" group-title="Azerbaijan",CBC Sport HD [AZ]
+http://mhav1.com:2095/live/ht2990/742579548/123165.ts
+
+
+################################################################################
 # Bahrain - البحرين
 ################################################################################
 
@@ -2620,86 +2631,6 @@ http://mhav1.com:2095/live/ht2990/742579548/57473.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
 http://mhav1.com:2095/live/ht2990/742579548/4441.ts
-
-
-################################################################################
-# Category 595
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="A SPORT HD [PK]" tvg-logo="" group-title="Category 595",A SPORT HD [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Category 595",PTV Sports HD 
-http://mhav1.com:2095/live/ht2990/742579548/121403.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Category 595",TEN Sports [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121449.ts
-
-
-################################################################################
-# Category 596
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel HD [NO]" tvg-logo="" group-title="Category 596",Disney Channel HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123130.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EuroSport 2 HD [NO]" tvg-logo="" group-title="Category 596",EuroSport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123123.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 HD [NO]" tvg-logo="" group-title="Category 596",Eurosport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123126.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Eurosport N HD  [NO]" tvg-logo="" group-title="Category 596",Eurosport N HD  [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123125.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV 2 Sport 1 HD [NO]" tvg-logo="" group-title="Category 596",TV 2 Sport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123097.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport 2 HD [NO]" tvg-logo="" group-title="Category 596",TV2 Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123124.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 1 HD [NO]" tvg-logo="" group-title="Category 596",TV2 Sport Premium 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123127.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 2 HD [NO]" tvg-logo="" group-title="Category 596",TV2 Sport Premium 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123128.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="V Sport 2 HD [NO]" tvg-logo="" group-title="Category 596",V Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123117.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="V Sport 3 HD [NO]" tvg-logo="" group-title="Category 596",V Sport 3 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123118.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 1 HD [NO]" tvg-logo="" group-title="Category 596",Viasat Sport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123119.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 2 HD [NO]" tvg-logo="" group-title="Category 596",Viasat Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123120.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 3 HD [NO]" tvg-logo="" group-title="Category 596",Viasat Sport 3 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123121.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport+ HD [NO]" tvg-logo="" group-title="Category 596",Viasat Sport+ HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123129.ts
-
-
-################################################################################
-# Category 597
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="CBC Sport HD [AZ]" tvg-logo="" group-title="Category 597",CBC Sport HD [AZ]
-http://mhav1.com:2095/live/ht2990/742579548/123165.ts
-
-
-################################################################################
-# Category 599
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="SNTV 2" tvg-logo="" group-title="Category 599",SNTV 2
-http://mhav1.com:2095/live/ht2990/742579548/125517.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SNTV HB" tvg-logo="" group-title="Category 599",SNTV HB
-http://mhav1.com:2095/live/ht2990/742579548/125516.ts
 
 
 ################################################################################
@@ -5180,6 +5111,95 @@ http://mhav1.com:2095/live/ht2990/742579548/3713.ts
 
 
 ################################################################################
+# Norway
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel HD [NO]" tvg-logo="" group-title="Norway",Disney Channel HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123130.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EuroSport 2 HD [NO]" tvg-logo="" group-title="Norway",EuroSport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123123.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 HD [NO]" tvg-logo="" group-title="Norway",Eurosport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport N HD  [NO]" tvg-logo="" group-title="Norway",Eurosport N HD  [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123125.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 2 Sport 1 HD [NO]" tvg-logo="" group-title="Norway",TV 2 Sport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123097.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport 2 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123124.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 1 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport Premium 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123127.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 2 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport Premium 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123128.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="V Sport 2 HD [NO]" tvg-logo="" group-title="Norway",V Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123117.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="V Sport 3 HD [NO]" tvg-logo="" group-title="Norway",V Sport 3 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123118.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 1 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123119.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 2 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 3 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 3 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123121.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport+ HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport+ HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123129.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV 2 Sport 1 HD [NO]" tvg-logo="" group-title="Norway",TV 2 Sport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123097.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="V Sport 2 HD [NO]" tvg-logo="" group-title="Norway",V Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123117.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="V Sport 3 HD [NO]" tvg-logo="" group-title="Norway",V Sport 3 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123118.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 1 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123119.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 2 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 3 HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport 3 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123121.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EuroSport 2 HD [NO]" tvg-logo="" group-title="Norway",EuroSport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123123.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport 2 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123124.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport N HD  [NO]" tvg-logo="" group-title="Norway",Eurosport N HD  [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123125.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 HD [NO]" tvg-logo="" group-title="Norway",Eurosport 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 1 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport Premium 1 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123127.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 2 HD [NO]" tvg-logo="" group-title="Norway",TV2 Sport Premium 2 HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123128.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport+ HD [NO]" tvg-logo="" group-title="Norway",Viasat Sport+ HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123129.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel HD [NO]" tvg-logo="" group-title="Norway",Disney Channel HD [NO]
+http://mhav1.com:2095/live/ht2990/742579548/123130.ts
+
+
+################################################################################
 # Oman - عمان
 ################################################################################
 
@@ -6006,6 +6026,29 @@ http://mhav1.com:2095/live/ht2990/742579548/19450.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Animal_Planet_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Animal_Planet_SD
 http://mhav1.com:2095/live/ht2990/742579548/2873.ts
+
+
+################################################################################
+# Pakistani
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="A SPORT HD [PK]" tvg-logo="" group-title="Pakistani",A SPORT HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Pakistani",PTV Sports HD 
+http://mhav1.com:2095/live/ht2990/742579548/121403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Pakistani",TEN Sports [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Pakistani",PTV Sports HD 
+http://mhav1.com:2095/live/ht2990/742579548/121403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Pakistani",TEN Sports [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="A SPORT HD [PK]" tvg-logo="" group-title="Pakistani",A SPORT HD [PK]
+http://mhav1.com:2095/live/ht2990/742579548/121450.ts
 
 
 ################################################################################
@@ -6924,6 +6967,23 @@ http://mhav1.com:2095/live/ht2990/742579548/288306.ts
 
 
 ################################################################################
+# Somali
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="SNTV 2" tvg-logo="" group-title="Somali",SNTV 2
+http://mhav1.com:2095/live/ht2990/742579548/125517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SNTV HB" tvg-logo="" group-title="Somali",SNTV HB
+http://mhav1.com:2095/live/ht2990/742579548/125516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SNTV HB" tvg-logo="" group-title="Somali",SNTV HB
+http://mhav1.com:2095/live/ht2990/742579548/125516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SNTV 2" tvg-logo="" group-title="Somali",SNTV 2
+http://mhav1.com:2095/live/ht2990/742579548/125517.ts
+
+
+################################################################################
 # Spain
 ################################################################################
 
@@ -6965,71 +7025,6 @@ https://jmp2.uk/stvp-ES1100001MT
 
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
-
-
-################################################################################
-# Sports
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="PTV Sports HD " tvg-logo="" group-title="Sports",PTV Sports HD 
-http://mhav1.com:2095/live/ht2990/742579548/121403.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TEN Sports [PK]" tvg-logo="" group-title="Sports",TEN Sports [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="A SPORT HD [PK]" tvg-logo="" group-title="Sports",A SPORT HD [PK]
-http://mhav1.com:2095/live/ht2990/742579548/121450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV 2 Sport 1 HD [NO]" tvg-logo="" group-title="Sports",TV 2 Sport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123097.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="V Sport 2 HD [NO]" tvg-logo="" group-title="Sports",V Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123117.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="V Sport 3 HD [NO]" tvg-logo="" group-title="Sports",V Sport 3 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123118.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 1 HD [NO]" tvg-logo="" group-title="Sports",Viasat Sport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123119.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 2 HD [NO]" tvg-logo="" group-title="Sports",Viasat Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123120.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport 3 HD [NO]" tvg-logo="" group-title="Sports",Viasat Sport 3 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123121.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="EuroSport 2 HD [NO]" tvg-logo="" group-title="Sports",EuroSport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123123.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport 2 HD [NO]" tvg-logo="" group-title="Sports",TV2 Sport 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123124.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Eurosport N HD  [NO]" tvg-logo="" group-title="Sports",Eurosport N HD  [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123125.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 HD [NO]" tvg-logo="" group-title="Sports",Eurosport 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123126.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 1 HD [NO]" tvg-logo="" group-title="Sports",TV2 Sport Premium 1 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123127.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TV2 Sport Premium 2 HD [NO]" tvg-logo="" group-title="Sports",TV2 Sport Premium 2 HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123128.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Sport+ HD [NO]" tvg-logo="" group-title="Sports",Viasat Sport+ HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123129.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel HD [NO]" tvg-logo="" group-title="Sports",Disney Channel HD [NO]
-http://mhav1.com:2095/live/ht2990/742579548/123130.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CBC Sport HD [AZ]" tvg-logo="" group-title="Sports",CBC Sport HD [AZ]
-http://mhav1.com:2095/live/ht2990/742579548/123165.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SNTV HB" tvg-logo="" group-title="Sports",SNTV HB
-http://mhav1.com:2095/live/ht2990/742579548/125516.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SNTV 2" tvg-logo="" group-title="Sports",SNTV 2
-http://mhav1.com:2095/live/ht2990/742579548/125517.ts
 
 
 ################################################################################
