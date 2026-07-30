@@ -584,6 +584,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5141.ts
 #EXTINF:-1 tvg-id="" tvg-name="GG Precinct" tvg-logo="http://images.vega-xt-mh.com:80/images/rigJr2HzQWtANPnj34gIJsM6M3r_big.jpg" group-title="Asian Series",GG Precinct
 http://mhav1.com:2095/series/ht2990/742579548/4314.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="GTO" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/rH24CrEztHtJ2MnQ3m3QTGUYg3s.jpg" group-title="Asian Series",GTO
+http://mhav1.com:2095/series/ht2990/742579548/7222.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Gangnam B-Side" tvg-logo="http://images.vega-xt-mh.com:80/images/8acajpIg9k0ZVjeWlExLUlr2244_big.jpg" group-title="Asian Series",Gangnam B-Side
 http://mhav1.com:2095/series/ht2990/742579548/4799.ts
 
@@ -1993,6 +1996,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5098.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Your Highness Class Monitor" tvg-logo="http://images.vega-xt-mh.com:80/images/zCfD7pD2ypksiDqOsk3kExofTOl_big.jpg" group-title="Asian Series",Your Highness Class Monitor
 http://mhav1.com:2095/series/ht2990/742579548/5244.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Your Love So Invincible" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/tjh1nFPblRHefYdIRi4ZIfrkKkM.jpg" group-title="Asian Series",Your Love So Invincible
+http://mhav1.com:2095/series/ht2990/742579548/7224.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Your Sunshine" tvg-logo="http://images.vega-xt-mh.com:80/images/tUzqgFlLxMOfMg9c7GzI0pTxeu9_big.jpg" group-title="Asian Series",Your Sunshine
 http://mhav1.com:2095/series/ht2990/742579548/6314.ts
@@ -12479,9 +12485,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7017.ts
 #EXTINF:-1 tvg-id="" tvg-name="حين لا يرانا أحد" tvg-logo="http://images.vega-xt-mh.com:80/images/1AFP6mjd2zPhQ64HT6jEhyKBVLZ_big.jpg" group-title="عربي يعرض الان",حين لا يرانا أحد
 http://mhav1.com:2095/series/ht2990/742579548/7145.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="كارما" tvg-logo="http://images.vega-xt-mh.com:80/images/2HrTPRoariHtr0oNgLmVlX85mFK_big.jpg" group-title="عربي يعرض الان",كارما
-http://mhav1.com:2095/series/ht2990/742579548/7151.ts
-
 
 ##### [فوازيرمصريه] #####
 
@@ -15175,6 +15178,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5137.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="كاراته" tvg-logo="http://images.vega-xt-mh.com:80/images/g4p5VjF604VdBUGk5GttlnQ6571_big.jpg" group-title="مسلسلات عربيه 2026",كاراته
 http://mhav1.com:2095/series/ht2990/742579548/6040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="كارما" tvg-logo="http://images.vega-xt-mh.com:80/images/2HrTPRoariHtr0oNgLmVlX85mFK_big.jpg" group-title="مسلسلات عربيه 2026",كارما
+http://mhav1.com:2095/series/ht2990/742579548/7151.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="كان انسان" tvg-logo="http://images.vega-xt-mh.com:80/images/lv1VB33EjOa8gH6mSRZawK44mo7_big.jpg" group-title="مسلسلات عربيه 2026",كان انسان
 http://mhav1.com:2095/series/ht2990/742579548/5931.ts
