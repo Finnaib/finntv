@@ -8129,6 +8129,9 @@ http://mhav1.com:2095/live/ht2990/742579548/72023.ts
 #EXTINF:-1 tvg-id="" tvg-name="AL Rai [KW]" tvg-logo="" group-title="Kuwait - الكويت",AL Rai [KW]
 http://mhav1.com:2095/live/ht2990/742579548/14031.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="AL qurain [KW]" tvg-logo="" group-title="Kuwait - الكويت",AL qurain [KW]
+http://mhav1.com:2095/live/ht2990/742579548/290224.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Maaly [KW]" tvg-logo="" group-title="Kuwait - الكويت",Al Maaly [KW]
 http://mhav1.com:2095/live/ht2990/742579548/14030.ts
 
@@ -8153,11 +8156,11 @@ http://mhav1.com:2095/live/ht2990/742579548/14024.ts
 #EXTINF:-1 tvg-id="" tvg-name="Kuwait AL Arabi [KW]" tvg-logo="" group-title="Kuwait - الكويت",Kuwait AL Arabi [KW]
 http://mhav1.com:2095/live/ht2990/742579548/14027.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Kuwait Drama [KW]" tvg-logo="" group-title="Kuwait - الكويت",Kuwait Drama [KW]
-http://mhav1.com:2095/live/ht2990/742579548/9381.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Kuwait Plus [KW]" tvg-logo="" group-title="Kuwait - الكويت",Kuwait Plus [KW]
 http://mhav1.com:2095/live/ht2990/742579548/3874.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Kuwait Qurain [KW]" tvg-logo="" group-title="Kuwait - الكويت",Kuwait Qurain [KW]
+http://mhav1.com:2095/live/ht2990/742579548/9381.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Kuwait Sports [KW]" tvg-logo="" group-title="Kuwait - الكويت",Kuwait Sports [KW]
 http://mhav1.com:2095/live/ht2990/742579548/14029.ts
