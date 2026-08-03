@@ -6800,6 +6800,12 @@ http://mhav1.com:2095/live/ht2990/742579548/4568.ts
 #EXTINF:-1 tvg-id="" tvg-name="INEWS [IRAQ]" tvg-logo="" group-title="Iraq - العراق",INEWS [IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/53518.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="IQ| Al Baghdadia TV" tvg-logo="" group-title="Iraq - العراق",IQ| Al Baghdadia TV
+http://mhav1.com:2095/live/ht2990/742579548/290663.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IQ| Al Hadath Iraq HD" tvg-logo="" group-title="Iraq - العراق",IQ| Al Hadath Iraq HD
+http://mhav1.com:2095/live/ht2990/742579548/290662.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="IQ| Al Rabiaa Iraq" tvg-logo="" group-title="Iraq - العراق",IQ| Al Rabiaa Iraq
 http://mhav1.com:2095/live/ht2990/742579548/246195.ts
 
