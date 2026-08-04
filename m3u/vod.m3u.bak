@@ -3413,6 +3413,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/271034.mkv
 #EXTINF:-1 tvg-id="" tvg-name="HD الاسكندرانى" tvg-logo="http://images.vega-xt-mh.com:80/images/sO5zLcjpcEN1f6e02oCBgyGwJXD_big.jpg" group-title="Arabic HD 1080",HD الاسكندرانى
 http://mhav1.com:2095/movie/ht2990/742579548/236200.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="HD الاصليين" tvg-logo="http://images.vega-xt-mh.com:80/images/pzgijrtLXzyg3GqL2uqQFlz9v0j_big.jpg" group-title="Arabic HD 1080",HD الاصليين
+http://mhav1.com:2095/movie/ht2990/742579548/290725.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="HD البدلة" tvg-logo="http://images.vega-xt-mh.com:80/images/qYmdApNCqwDN6Q09NQeJBQPUAFs_big.jpg" group-title="Arabic HD 1080",HD البدلة
 http://mhav1.com:2095/movie/ht2990/742579548/241071.mkv
 
@@ -5314,9 +5317,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/20326.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الأخطبوط" tvg-logo="http://images.vega-xt-mh.com:80/images/1aZ0eqkocHg8Xxol79I8EfZuK7A_big.jpg" group-title="Arabic premier",الأخطبوط
 http://mhav1.com:2095/movie/ht2990/742579548/179394.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="الأصليين" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pzgijrtLXzyg3GqL2uqQFlz9v0j.jpg" group-title="Arabic premier",الأصليين
-http://mhav1.com:2095/movie/ht2990/742579548/6335.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الألماني (2012)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9OLRxq3e9INgoIrmAJqUwJiZQul.jpg" group-title="Arabic premier",الألماني (2012)
 http://mhav1.com:2095/movie/ht2990/742579548/26642.mkv
@@ -9583,9 +9583,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/137991.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Shin Godzilla" tvg-logo="http://images.vega-xt-mh.com:80/images/jPNShaWZMpVF0iQ7j1dvTuZLD20_big.jpg" group-title="Best Movies",Shin Godzilla
 http://mhav1.com:2095/movie/ht2990/742579548/166784.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="Shutter Island" tvg-logo="http://images.vega-xt-mh.com:80/images/kve20tXwUZpu4GUX8l6X7Z4jmL6_big.jpg" group-title="Best Movies",Shutter Island
-http://mhav1.com:2095/movie/ht2990/742579548/79126.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Sicario" tvg-logo="http://images.vega-xt-mh.com:80/images/lz8vNyXeidqqOdJW9ZjnDAMb5Vr_big.jpg" group-title="Best Movies",Sicario
 http://mhav1.com:2095/movie/ht2990/742579548/83443.mkv
@@ -19547,6 +19544,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/203751.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Eternals HD" tvg-logo="http://images.vega-xt-mh.com:80/images/lFByFSLV5WDJEv3KabbdAF959F2_big.jpg" group-title="English HD 1080",Eternals HD
 http://mhav1.com:2095/movie/ht2990/742579548/231208.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Evil Dead Burn HD" tvg-logo="http://images.vega-xt-mh.com:80/images/ztadKzIIR0ERYqpHteaPFtk7inP_big.jpg" group-title="English HD 1080",Evil Dead Burn HD
+http://mhav1.com:2095/movie/ht2990/742579548/290721.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Exam 2009 HD" tvg-logo="http://images.vega-xt-mh.com:80/images/i1J2zBCyOQJKsQipqJ0qXERC1Ma_big.jpg" group-title="English HD 1080",Exam 2009 HD
 http://mhav1.com:2095/movie/ht2990/742579548/198078.mkv
 
@@ -19984,6 +19984,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/208349.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Love and Monsters HD" tvg-logo="http://images.vega-xt-mh.com:80/images/718NnyxyQuBQcGWt9sdelA1Zc3h_big.jpg" group-title="English HD 1080",Love and Monsters HD
 http://mhav1.com:2095/movie/ht2990/742579548/210681.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Lucky Strike HD" tvg-logo="http://images.vega-xt-mh.com:80/images/fBniztkLes0lA2CD50j4iWAwX5y_big.jpg" group-title="English HD 1080",Lucky Strike HD
+http://mhav1.com:2095/movie/ht2990/742579548/290722.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Lucy Shimmers and the Prince of Peace HD" tvg-logo="http://images.vega-xt-mh.com:80/images/yfnJ5qIYx7q33fY4jqv9Pu95RSg_big.jpg" group-title="English HD 1080",Lucy Shimmers and the Prince of Peace HD
 http://mhav1.com:2095/movie/ht2990/742579548/237995.mkv
@@ -30031,6 +30034,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/278682.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Soulm8te" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/9ma5UG4RwHgzpZEhpbXTNQ51Tx9.jpg" group-title="English Movies 2026",Soulm8te
 http://mhav1.com:2095/movie/ht2990/742579548/290430.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Spider-Man: Brand New Day (V.2)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iPOn6DinuVyLY17YM9mKuPofV08.jpg" group-title="English Movies 2026",Spider-Man: Brand New Day (V.2)
+http://mhav1.com:2095/movie/ht2990/742579548/290720.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Stop That Train" tvg-logo="http://images.vega-xt-mh.com:80/images/w90dGS6D2lVO4aO5rdQ8QECrUGY_big.jpg" group-title="English Movies 2026",Stop That Train
 http://mhav1.com:2095/movie/ht2990/742579548/288366.mkv
@@ -43277,6 +43283,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/251196.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Romeo + Juliet (1996)" tvg-logo="http://images.vega-xt-mh.com:80/images/zWLZEUE0jrTiLhWQVh8NOJRwIU9_big.jpg" group-title="Leonardo DiCaprio",Romeo + Juliet (1996)
 http://mhav1.com:2095/movie/ht2990/742579548/5773.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Shutter Island" tvg-logo="http://images.vega-xt-mh.com:80/images/kve20tXwUZpu4GUX8l6X7Z4jmL6_big.jpg" group-title="Leonardo DiCaprio",Shutter Island
+http://mhav1.com:2095/movie/ht2990/742579548/79126.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Shutter Island (2010)" tvg-logo="http://images.vega-xt-mh.com:80/images/kve20tXwUZpu4GUX8l6X7Z4jmL6_big.jpg" group-title="Leonardo DiCaprio",Shutter Island (2010)
 http://mhav1.com:2095/movie/ht2990/742579548/19023.mkv
 
@@ -52015,6 +52024,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/24821.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الاختيار HD" tvg-logo="https://img.akwam.co/thumb/260x380/uploads/EQhWG.jpeg" group-title="افلام مصري",الاختيار HD
 http://mhav1.com:2095/movie/ht2990/742579548/24820.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="الاصليين" tvg-logo="http://images.vega-xt-mh.com:80/images/pzgijrtLXzyg3GqL2uqQFlz9v0j_big.jpg" group-title="افلام مصري",الاصليين
+http://mhav1.com:2095/movie/ht2990/742579548/290724.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="الباب الأخضر" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j7D6uXqVa6E162euCt4aLP06VOk.jpg" group-title="افلام مصري",الباب الأخضر
 http://mhav1.com:2095/movie/ht2990/742579548/85420.mkv
