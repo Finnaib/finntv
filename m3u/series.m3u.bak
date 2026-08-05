@@ -2486,9 +2486,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1550.ts
 #EXTINF:-1 tvg-id="" tvg-name="8 Days" tvg-logo="http://images.vega-xt-mh.com:80/images/bi6APA890lIOY50QfPtFttOULs6_big.jpg" group-title="English Series",8 Days
 http://mhav1.com:2095/series/ht2990/742579548/4357.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Accused" tvg-logo="http://images.vega-xt-mh.com:80/images/w0zeTmejqPqVw07jVDkeQqJvxqq_big.jpg" group-title="English Series",Accused
-http://mhav1.com:2095/series/ht2990/742579548/7237.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Agatha Christie s Poirot" tvg-logo="http://images.vega-xt-mh.com:80/images/6f4IVfbn8knb7RjdZlGLuW5guDc_big.jpg" group-title="English Series",Agatha Christie s Poirot
 http://mhav1.com:2095/series/ht2990/742579548/4777.ts
 
@@ -3794,6 +3791,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6400.ts
 #EXTINF:-1 tvg-id="" tvg-name="Steal" tvg-logo="http://images.vega-xt-mh.com:80/images/6KmlaPhsohh3Ki9XJUq0jiUYbf3_big.jpg" group-title="English Series [2026]",Steal
 http://mhav1.com:2095/series/ht2990/742579548/6425.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Sterling Point" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg" group-title="English Series [2026]",Sterling Point
+http://mhav1.com:2095/series/ht2990/742579548/7239.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Stuart Fails to Save the Universe" tvg-logo="http://images.vega-xt-mh.com:80/images/iQbTbwmLX5Nh1nlH21YUJPWt3Zo_big.jpg" group-title="English Series [2026]",Stuart Fails to Save the Universe
 http://mhav1.com:2095/series/ht2990/742579548/7198.ts
 
@@ -3952,6 +3952,9 @@ http://mhav1.com:2095/series/ht2990/742579548/3417.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Acapulco" tvg-logo="http://images.vega-xt-mh.com:80/images/lU0RlcfBx6y0FSmEAq61ztjMgjt_big.jpg" group-title="English Series [حديثه]",Acapulco
 http://mhav1.com:2095/series/ht2990/742579548/5810.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Accused" tvg-logo="http://images.vega-xt-mh.com:80/images/w0zeTmejqPqVw07jVDkeQqJvxqq_big.jpg" group-title="English Series [حديثه]",Accused
+http://mhav1.com:2095/series/ht2990/742579548/7238.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Adolescence" tvg-logo="http://images.vega-xt-mh.com:80/images/tDHWWReefmOOjBCJZUck8cNwssk_big.jpg" group-title="English Series [حديثه]",Adolescence
 http://mhav1.com:2095/series/ht2990/742579548/5442.ts
