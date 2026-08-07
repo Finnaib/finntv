@@ -1145,6 +1145,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7155.ts
 #EXTINF:-1 tvg-id="" tvg-name="Our Movie" tvg-logo="http://images.vega-xt-mh.com:80/images/4tEVuEVaPUvfddItXAEcL8zxOxr_big.jpg" group-title="Asian Series",Our Movie
 http://mhav1.com:2095/series/ht2990/742579548/6871.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Our Sticky Love" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/tSZ4aFpTGc8Oj52SuzPUUZ7WKL0.jpg" group-title="Asian Series",Our Sticky Love
+http://mhav1.com:2095/series/ht2990/742579548/7247.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Our Universe" tvg-logo="http://images.vega-xt-mh.com:80/images/pWyRkjNI9FUMpqJOIK3kSAbbRfQ_big.jpg" group-title="Asian Series",Our Universe
 http://mhav1.com:2095/series/ht2990/742579548/6744.ts
 
@@ -8636,9 +8639,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6607.ts
 #EXTINF:-1 tvg-id="" tvg-name="الحصة الأخيرة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wvZCRrh5WVKT734ZcbSWpsupszX.jpg" group-title="Ramdan Arabic 2026",الحصة الأخيرة
 http://mhav1.com:2095/series/ht2990/742579548/6640.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الحوت" tvg-logo="http://images.vega-xt-mh.com:80/images/5mnvgQhtLidPqCgNe3bPrNC5LgO_big.jpg" group-title="Ramdan Arabic 2026",الحوت
-http://mhav1.com:2095/series/ht2990/742579548/6521.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="الخروج الى البئر" tvg-logo="http://images.vega-xt-mh.com:80/images/2T2giHJo4kYKBGf6HRDVq1Me4Pc_big.jpg" group-title="Ramdan Arabic 2026",الخروج الى البئر
 http://mhav1.com:2095/series/ht2990/742579548/6650.ts
 
@@ -8893,9 +8893,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6506.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="نزيف التراب" tvg-logo="http://images.vega-xt-mh.com:80/images/shA0mDNpoNM52oNPsshSaJGGpDQ_big.jpg" group-title="Ramdan Arabic 2026",نزيف التراب
 http://mhav1.com:2095/series/ht2990/742579548/6726.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="نورية نصيب" tvg-logo="http://images.vega-xt-mh.com:80/images/4Z1LVMWm8hD2StZfqxYFq9FAGN2_big.jpg" group-title="Ramdan Arabic 2026",نورية نصيب
-http://mhav1.com:2095/series/ht2990/742579548/6568.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="هذى اخرتها" tvg-logo="https://i.ibb.co/KjJCH5jS/hazi.jpg" group-title="Ramdan Arabic 2026",هذى اخرتها
 http://mhav1.com:2095/series/ht2990/742579548/6645.ts
@@ -13939,9 +13936,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5165.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="لن يحدث لنا شئ" tvg-logo="http://images.vega-xt-mh.com:80/images/fq4ZJoshHpQ13mtphPxDBcEvLHV_big.jpg" group-title="مسلسلات تركيه حديثه",لن يحدث لنا شئ
 http://mhav1.com:2095/series/ht2990/742579548/6791.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ليلة الخيانة" tvg-logo="https://tse3.mm.bing.net/th/id/OIF.IzabvOY3xav7KvxfSROMvQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="مسلسلات تركيه حديثه",ليلة الخيانة
-http://mhav1.com:2095/series/ht2990/742579548/7246.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ليلى" tvg-logo="http://images.vega-xt-mh.com:80/images/eslZoE8rx5WGSETH7Hxlwz92ZHm_big.jpg" group-title="مسلسلات تركيه حديثه",ليلى
 http://mhav1.com:2095/series/ht2990/742579548/4477.ts
