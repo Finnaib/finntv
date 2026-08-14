@@ -587,6 +587,9 @@ http://mhav1.com:2095/live/ht2990/742579548/24177.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_9_H265_SD" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN Sports",beIN_9_H265_SD
 http://mhav1.com:2095/live/ht2990/742579548/19329.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="beIN Sports",SOLO SPORT HDR 4K
+http://mhav1.com:2095/live/ht2990/742579548/288278.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_1_512K" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN Sports",beIN_1_512K
 http://mhav1.com:2095/live/ht2990/742579548/4905.ts
 

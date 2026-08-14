@@ -1478,9 +1478,6 @@ http://mhav1.com:2095/live/ht2990/742579548/5339.ts
 #EXTINF:-1 tvg-id="" tvg-name="TV 6 [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 6 [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5337.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="TV 7 El Maarifa [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 7 El Maarifa [DZ]
-http://mhav1.com:2095/live/ht2990/742579548/4571.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="TV 8 Edhakira [DZ]" tvg-logo="" group-title="Algeria - الجزائر",TV 8 Edhakira [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5345.ts
 
@@ -14823,12 +14820,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4101.ts
 http://mhav1.com:2095/live/ht2990/742579548/4100.ts
 
 
-##### [Category 3,676] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Category 3,676",SOLO SPORT HDR 4K
-http://mhav1.com:2095/live/ht2990/742579548/288278.ts
-
-
 ##### [WWE LIVE مصارعه] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="USA  WWE Network" tvg-logo="" group-title="WWE LIVE مصارعه",USA  WWE Network
@@ -15850,6 +15841,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3175.ts
 
 
 ##### [beIN SPORTS Low] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="beIN SPORTS Low",SOLO SPORT HDR 4K
+http://mhav1.com:2095/live/ht2990/742579548/288278.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_1_512K" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN SPORTS Low",beIN_1_512K
 http://mhav1.com:2095/live/ht2990/742579548/4905.ts

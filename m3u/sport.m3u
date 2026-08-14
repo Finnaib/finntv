@@ -718,6 +718,15 @@ http://mhav1.com:2095/live/ht2990/742579548/3249.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass 5" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass 5
 http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54578.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass One
 http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 
@@ -726,15 +735,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4510.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass Fuor
 http://mhav1.com:2095/live/ht2990/742579548/4513.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54576.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54578.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Mouritana Arriadia TV [AR]
 http://mhav1.com:2095/live/ht2990/742579548/5348.ts
@@ -1966,6 +1966,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2447.ts
 # beIN SPORTS Low
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="beIN SPORTS Low",SOLO SPORT HDR 4K
+http://mhav1.com:2095/live/ht2990/742579548/288278.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN_1_512K" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN SPORTS Low",beIN_1_512K
 http://mhav1.com:2095/live/ht2990/742579548/4905.ts
 
@@ -2073,6 +2076,9 @@ http://mhav1.com:2095/live/ht2990/742579548/20.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_9_512K" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN SPORTS Low",beIN_9_512K
 http://mhav1.com:2095/live/ht2990/742579548/4903.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="beIN SPORTS Low",SOLO SPORT HDR 4K
+http://mhav1.com:2095/live/ht2990/742579548/288278.ts
 
 
 ################################################################################
@@ -2628,14 +2634,6 @@ http://mhav1.com:2095/live/ht2990/742579548/57473.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
 http://mhav1.com:2095/live/ht2990/742579548/4441.ts
-
-
-################################################################################
-# Category 3,676
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Category 3,676",SOLO SPORT HDR 4K
-http://mhav1.com:2095/live/ht2990/742579548/288278.ts
 
 
 ################################################################################
@@ -7024,14 +7022,6 @@ https://jmp2.uk/stvp-ES1100001MT
 
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
-
-
-################################################################################
-# Sports
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Sports",SOLO SPORT HDR 4K
-http://mhav1.com:2095/live/ht2990/742579548/288278.ts
 
 
 ################################################################################
