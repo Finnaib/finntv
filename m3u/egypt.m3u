@@ -182,29 +182,8 @@ http://mhav1.com:2095/live/ht2990/742579548/49537.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass 5" tvg-logo="" group-title="Arabic Sports",Alkass 5
 http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic Sports",Alkass Fuor
-http://mhav1.com:2095/live/ht2990/742579548/4513.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic Sports",Alkass One
-http://mhav1.com:2095/live/ht2990/742579548/4511.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alkass Two" tvg-logo="" group-title="Arabic Sports",Alkass Two
-http://mhav1.com:2095/live/ht2990/742579548/4510.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="" group-title="Arabic Sports",BeIN Sport NBA HD
 http://mhav1.com:2095/live/ht2990/742579548/3249.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic Sports",Dubai SPORTS 1 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54576.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic Sports",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic Sports",Dubai SPORTS 3 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54578.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic Sports",Mouritana Arriadia TV [AR]
-http://mhav1.com:2095/live/ht2990/742579548/5348.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Nile Sport [EG]" tvg-logo="" group-title="Arabic Sports",Nile Sport [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2734.ts
@@ -587,9 +566,6 @@ http://mhav1.com:2095/live/ht2990/742579548/24177.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_9_H265_SD" tvg-logo="http://images.vega-xt-mh.com/bein/a9.png" group-title="beIN Sports",beIN_9_H265_SD
 http://mhav1.com:2095/live/ht2990/742579548/19329.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="beIN Sports",SOLO SPORT HDR 4K
-http://mhav1.com:2095/live/ht2990/742579548/288278.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_1_512K" tvg-logo="http://images.vega-xt-mh.com/bein/1.png" group-title="beIN Sports",beIN_1_512K
 http://mhav1.com:2095/live/ht2990/742579548/4905.ts
 
@@ -897,197 +873,6 @@ http://mhav1.com:2095/live/ht2990/742579548/214698.ts
 
 
 ################################################################################
-# Egypt
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Askandria [EG]" tvg-logo="" group-title="Egypt",AL Askandria [EG]
-http://mhav1.com:2095/live/ht2990/742579548/30563.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Hayat Egypt [EG]" tvg-logo="" group-title="Egypt",AL Hayat Egypt [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2775.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Kahera [EG]" tvg-logo="" group-title="Egypt",AL Kahera [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2752.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Sa3eed [EG]" tvg-logo="" group-title="Egypt",AL Sa3eed [EG]
-http://mhav1.com:2095/live/ht2990/742579548/30562.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Eiman TV [YA]" tvg-logo="" group-title="Egypt",Al Eiman TV [YA]
-http://mhav1.com:2095/live/ht2990/742579548/4471.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Hayat Muslsalat [EG]" tvg-logo="" group-title="Egypt",Al Hayat Muslsalat [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2773.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Masirah TV[YE]" tvg-logo="" group-title="Egypt",Al Masirah TV[YE]
-http://mhav1.com:2095/live/ht2990/742579548/4445.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Masriya ARB [EG]" tvg-logo="" group-title="Egypt",Al Masriya ARB [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3840.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Nahar Drama [EG]" tvg-logo="" group-title="Egypt",Al Nahar Drama [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2759.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Nahar [EG]" tvg-logo="" group-title="Egypt",Al Nahar [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2763.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Oula Masria [EG]" tvg-logo="" group-title="Egypt",Al Oula Masria [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3860.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Rayyan [QA]" tvg-logo="" group-title="Egypt",Al Rayyan [QA]
-http://mhav1.com:2095/live/ht2990/742579548/29800.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Thania [EG]" tvg-logo="" group-title="Egypt",Al Thania [EG]
-http://mhav1.com:2095/live/ht2990/742579548/4449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Yaum [IQ]" tvg-logo="" group-title="Egypt",Al Yaum [IQ]
-http://mhav1.com:2095/live/ht2990/742579548/48827.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al kahera Wa Lnas 2 [EG]" tvg-logo="" group-title="Egypt",Al kahera Wa Lnas 2 [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2764.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al kahera Wa Lnas [EG]" tvg-logo="" group-title="Egypt",Al kahera Wa Lnas [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2765.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CBC Drama [EG]" tvg-logo="" group-title="Egypt",CBC Drama [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2755.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CBC Sofra [EG]" tvg-logo="" group-title="Egypt",CBC Sofra [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2753.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CBC [EG]" tvg-logo="" group-title="Egypt",CBC [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2757.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Cima TV [EG]" tvg-logo="" group-title="Egypt",Cima TV [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2020.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DMC DRAMA [EG]" tvg-logo="" group-title="Egypt",DMC DRAMA [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3687.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DMC [EG]" tvg-logo="" group-title="Egypt",DMC [EG]
-http://mhav1.com:2095/live/ht2990/742579548/4013.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Education Egypt" tvg-logo="" group-title="Egypt",Education Egypt
-http://mhav1.com:2095/live/ht2990/742579548/5133.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Egyptian [EG]" tvg-logo="" group-title="Egypt",Egyptian [EG]
-http://mhav1.com:2095/live/ht2990/742579548/61726.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Etc [EG]" tvg-logo="" group-title="Egypt",Etc [EG]
-http://mhav1.com:2095/live/ht2990/742579548/5340.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Extra News [EG]" tvg-logo="" group-title="Egypt",Extra News [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2754.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="HYA  [EG]" tvg-logo="" group-title="Egypt",HYA  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Hareem_Elsultan [EG]" tvg-logo="" group-title="Egypt",Hareem_Elsultan [EG]
-http://mhav1.com:2095/live/ht2990/742579548/4448.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="M Cinema[EG]" tvg-logo="" group-title="Egypt",M Cinema[EG]
-http://mhav1.com:2095/live/ht2990/742579548/3598.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="M Classic[EG]" tvg-logo="" group-title="Egypt",M Classic[EG]
-http://mhav1.com:2095/live/ht2990/742579548/22488.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Madrastna" tvg-logo="" group-title="Egypt",Madrastna
-http://mhav1.com:2095/live/ht2990/742579548/5148.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Madrastna 2" tvg-logo="" group-title="Egypt",Madrastna 2
-http://mhav1.com:2095/live/ht2990/742579548/759.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Madrastna 3" tvg-logo="" group-title="Egypt",Madrastna 3
-http://mhav1.com:2095/live/ht2990/742579548/75528.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Maspero Zaman [EG]" tvg-logo="" group-title="Egypt",Maspero Zaman [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3931.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mehwar [EG]" tvg-logo="" group-title="Egypt",Mehwar [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3599.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Misr El Bald [EG]" tvg-logo="" group-title="Egypt",Misr El Bald [EG]
-http://mhav1.com:2095/live/ht2990/742579548/48828.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mix  [EG]" tvg-logo="" group-title="Egypt",Mix  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/61592.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mix Bel Araby  [EG]" tvg-logo="" group-title="Egypt",Mix Bel Araby  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/61591.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mix Hollywood[AR]" tvg-logo="" group-title="Egypt",Mix Hollywood[AR]
-http://mhav1.com:2095/live/ht2990/742579548/3672.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mix One [EG]" tvg-logo="" group-title="Egypt",Mix One [EG]
-http://mhav1.com:2095/live/ht2990/742579548/61593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NILE COMEDY  [EG]" tvg-logo="" group-title="Egypt",NILE COMEDY  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2740.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="National Geo AD [AR]" tvg-logo="" group-title="Egypt",National Geo AD [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3643.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile Cinema  [EG]" tvg-logo="" group-title="Egypt",Nile Cinema  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2741.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile Culture  [EG]" tvg-logo="" group-title="Egypt",Nile Culture  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2739.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile Drama [EG]" tvg-logo="" group-title="Egypt",Nile Drama [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2738.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile Family [EG]" tvg-logo="" group-title="Egypt",Nile Family [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2034.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile Life [EG]" tvg-logo="" group-title="Egypt",Nile Life [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2035.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile News [EG]" tvg-logo="" group-title="Egypt",Nile News [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2036.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile TV [EG]" tvg-logo="" group-title="Egypt",Nile TV [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2760.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON DRAMA[EG]" tvg-logo="" group-title="Egypt",ON DRAMA[EG]
-http://mhav1.com:2095/live/ht2990/742579548/3500.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON E [EG]" tvg-logo="" group-title="Egypt",ON E [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3974.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PNC Drama  [EG]" tvg-logo="" group-title="Egypt",PNC Drama  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2727.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PNC Drama 2  [EG]" tvg-logo="" group-title="Egypt",PNC Drama 2  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2726.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PNC Film [EG]" tvg-logo="" group-title="Egypt",PNC Film [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2725.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Panorama Foot  [EG]" tvg-logo="" group-title="Egypt",Panorama Foot  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2051.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SBC [AR]" tvg-logo="" group-title="Egypt",SBC [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4575.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad  [EG]" tvg-logo="" group-title="Egypt",Sada El Balad  [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2716.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad 2 [EG]" tvg-logo="" group-title="Egypt",Sada El Balad 2 [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3937.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama [EG]" tvg-logo="" group-title="Egypt",Sada El Balad Drama [EG]
-http://mhav1.com:2095/live/ht2990/742579548/3593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt",Shaaer [IRAQ]
-http://mhav1.com:2095/live/ht2990/742579548/4505.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ten [EG]" tvg-logo="" group-title="Egypt",Ten [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2715.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="el shams [EG]" tvg-logo="" group-title="Egypt",el shams [EG]
-http://mhav1.com:2095/live/ht2990/742579548/5112.ts
-
-
-################################################################################
 # Film Box
 ################################################################################
 
@@ -1194,35 +979,11 @@ http://mhav1.com:2095/live/ht2990/742579548/4929.ts
 # Islamic
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="AL IMan [IS]" tvg-logo="" group-title="Islamic",AL IMan [IS]
-http://mhav1.com:2095/live/ht2990/742579548/4586.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ALRAHMA [AR]" tvg-logo="" group-title="Islamic",ALRAHMA [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4468.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Nada TV [IS]" tvg-logo="" group-title="Islamic",Al Nada TV [IS]
-http://mhav1.com:2095/live/ht2990/742579548/53520.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Nas [AR]" tvg-logo="" group-title="Islamic",Al Nas [AR]
-http://mhav1.com:2095/live/ht2990/742579548/2769.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Resala [AR]" tvg-logo="" group-title="Islamic",Al Resala [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4049.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Ali Al-Hudhaifi" tvg-logo="http://en.quran.com.kw/wp-content/uploads/Ali-Alhuzaify-300x300.jpg" group-title="Islamic",Ali Al-Hudhaifi
 http://mhav1.com:2095/live/ht2990/742579548/7041.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alukah - Al-Quran Al-Karim" tvg-logo="" group-title="Islamic",Alukah - Al-Quran Al-Karim
 http://mhav1.com:2095/live/ht2990/742579548/19211.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Azhari [IS]" tvg-logo="" group-title="Islamic",Azhari [IS]
-http://mhav1.com:2095/live/ht2990/742579548/53521.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Bin Othaimeen" tvg-logo="" group-title="Islamic",Bin Othaimeen
-http://mhav1.com:2095/live/ht2990/742579548/8572.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Eg| Menhag Al Nbowa" tvg-logo="" group-title="Islamic",Eg| Menhag Al Nbowa
-http://mhav1.com:2095/live/ht2990/742579548/4622.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Maher Al Muaiqly" tvg-logo="http://en.quran.com.kw/wp-content/uploads/naser-alqatamy.jpg" group-title="Islamic",Maher Al Muaiqly
 http://mhav1.com:2095/live/ht2990/742579548/7040.ts
@@ -1232,9 +993,6 @@ http://mhav1.com:2095/live/ht2990/742579548/47299.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mishary Alafasy 2" tvg-logo="" group-title="Islamic",Mishary Alafasy 2
 http://mhav1.com:2095/live/ht2990/742579548/47300.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Misr Quran Kareem [EG]" tvg-logo="" group-title="Islamic",Misr Quran Kareem [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2022.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Quran - Fares Abbad" tvg-logo="http://quraan.us/en/wp-content/uploads/fares-abbad-220x150.jpg" group-title="Islamic",Quran - Fares Abbad
 http://mhav1.com:2095/live/ht2990/742579548/19203.ts
@@ -1290,37 +1048,16 @@ http://mhav1.com:2095/live/ht2990/742579548/7034.ts
 #EXTINF:-1 tvg-id="" tvg-name="Tawfiq Al-Saigh" tvg-logo="http://en.quran.com.kw/wp-content/uploads/tawfiq-alsaigh.jpg" group-title="Islamic",Tawfiq Al-Saigh
 http://mhav1.com:2095/live/ht2990/742579548/7043.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ZAD TV[AR]" tvg-logo="" group-title="Islamic",ZAD TV[AR]
-http://mhav1.com:2095/live/ht2990/742579548/4665.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[AR]AlMajd-3" tvg-logo="" group-title="Islamic",[AR]AlMajd-3
-http://mhav1.com:2095/live/ht2990/742579548/3600.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[AR]AlMajd_Quran" tvg-logo="" group-title="Islamic",[AR]AlMajd_Quran
-http://mhav1.com:2095/live/ht2990/742579548/8571.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="إبتهالات الشيخ النقشبندى" tvg-logo="" group-title="Islamic",إبتهالات الشيخ النقشبندى
 http://mhav1.com:2095/live/ht2990/742579548/50983.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="إبتهالات الشيخ نصر الدين طوبار" tvg-logo="" group-title="Islamic",إبتهالات الشيخ نصر الدين طوبار
 http://mhav1.com:2095/live/ht2990/742579548/50854.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="احمد النفيس" tvg-logo="" group-title="Islamic",احمد النفيس
-http://mhav1.com:2095/live/ht2990/742579548/136687.ts
-
 
 ################################################################################
 # Kids
 ################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="4kids [EG]" tvg-logo="" group-title="Kids",4kids [EG]
-http://mhav1.com:2095/live/ht2990/742579548/48838.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ATFAL WA MAWAHEB" tvg-logo="" group-title="Kids",ATFAL WA MAWAHEB
-http://mhav1.com:2095/live/ht2990/742579548/4056.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Afarin Kids [AR]" tvg-logo="" group-title="Kids",Afarin Kids [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4591.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="BARAEM [AR]" tvg-logo="" group-title="Kids",BARAEM [AR]
 http://mhav1.com:2095/live/ht2990/742579548/3930.ts
@@ -1339,9 +1076,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4700.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CITV [UK]" tvg-logo="" group-title="Kids",CITV [UK]
 http://mhav1.com:2095/live/ht2990/742579548/72700.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network [AR]" tvg-logo="" group-title="Kids",Cartoon Network [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3640.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Cartoon Network [UK]" tvg-logo="" group-title="Kids",Cartoon Network [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2596.ts
@@ -1367,12 +1101,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2853.ts
 #EXTINF:-1 tvg-id="" tvg-name="Disney_Channel [UK]" tvg-logo="" group-title="Kids",Disney_Channel [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2855.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Karameesh" tvg-logo="" group-title="Kids",Karameesh
-http://mhav1.com:2095/live/ht2990/742579548/3586.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Majid Kids TV" tvg-logo="" group-title="Kids",Majid Kids TV
-http://mhav1.com:2095/live/ht2990/742579548/4641.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="NICKELODEON [UK]" tvg-logo="" group-title="Kids",NICKELODEON [UK]
 http://mhav1.com:2095/live/ht2990/742579548/4450.ts
 
@@ -1397,26 +1125,14 @@ http://mhav1.com:2095/live/ht2990/742579548/3971.ts
 #EXTINF:-1 tvg-id="" tvg-name="Osn Nickelodeon [Vip]" tvg-logo="" group-title="Kids",Osn Nickelodeon [Vip]
 http://mhav1.com:2095/live/ht2990/742579548/3939.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="PBS Kids" tvg-logo="" group-title="Kids",PBS Kids
-http://mhav1.com:2095/live/ht2990/742579548/4516.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ROTANA KIDS" tvg-logo="" group-title="Kids",ROTANA KIDS
 http://mhav1.com:2095/live/ht2990/742579548/69921.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="RTE JUNIOR [UK]" tvg-logo="" group-title="Kids",RTE JUNIOR [UK]
 http://mhav1.com:2095/live/ht2990/742579548/72698.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SPACETOON" tvg-logo="" group-title="Kids",SPACETOON
-http://mhav1.com:2095/live/ht2990/742579548/3639.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="TIJI [GOBX]" tvg-logo="" group-title="Kids",TIJI [GOBX]
 http://mhav1.com:2095/live/ht2990/742579548/5450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Toyor_AlJanah [AR]" tvg-logo="" group-title="Kids",Toyor_AlJanah [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3588.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="WANASA BABY" tvg-logo="" group-title="Kids",WANASA BABY
-http://mhav1.com:2095/live/ht2990/742579548/5455.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN Baby" tvg-logo="" group-title="Kids",beIN Baby
 http://mhav1.com:2095/live/ht2990/742579548/7095.ts
@@ -1879,113 +1595,6 @@ http://mhav1.com:2095/live/ht2990/742579548/113513.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="NETFLIX junior" tvg-logo="" group-title="Netflix Club",NETFLIX junior
 http://mhav1.com:2095/live/ht2990/742579548/113514.ts
-
-
-################################################################################
-# News
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name=" EuroNews [NEWS]" tvg-logo="" group-title="News", EuroNews [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3587.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Aan [News]" tvg-logo="" group-title="News",Al Aan [News]
-http://mhav1.com:2095/live/ht2990/742579548/4719.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Arabiya Al Hadath [NEWS]" tvg-logo="" group-title="News",Al Arabiya Al Hadath [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/188.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Araby Tv [NEWS]" tvg-logo="" group-title="News",Al Araby Tv [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4514.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Ghad AlMushreq[News]" tvg-logo="" group-title="News",Al Ghad AlMushreq[News]
-http://mhav1.com:2095/live/ht2990/742579548/8930.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Ghad [News]" tvg-logo="" group-title="News",Al Ghad [News]
-http://mhav1.com:2095/live/ht2990/742579548/4625.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Hadath AlYoum [NEWS]" tvg-logo="" group-title="News",Al Hadath AlYoum [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/2762.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Hadath [NEWS]" tvg-logo="" group-title="News",Al Hadath [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3856.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Hiwar TV [News]" tvg-logo="" group-title="News",Al Hiwar TV [News]
-http://mhav1.com:2095/live/ht2990/742579548/4518.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Hurra [News]" tvg-logo="" group-title="News",Al Hurra [News]
-http://mhav1.com:2095/live/ht2990/742579548/48837.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Documentary [NEWS]" tvg-logo="" group-title="News",Al Jazeera Documentary [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/2768.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera English [News]" tvg-logo="" group-title="News",Al Jazeera English [News]
-http://mhav1.com:2095/live/ht2990/742579548/4565.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Mubasher [NEWS]" tvg-logo="" group-title="News",Al Jazeera Mubasher [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/2766.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera[NEWS]" tvg-logo="" group-title="News",Al Jazeera[NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/2770.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Qahera News [EG]" tvg-logo="" group-title="News",Al Qahera News [EG]
-http://mhav1.com:2095/live/ht2990/742579548/5150.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Wathaeqya [EG]" tvg-logo="" group-title="News",Al Wathaeqya [EG]
-http://mhav1.com:2095/live/ht2990/742579548/48831.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AlShoub TV [EG]" tvg-logo="" group-title="News",AlShoub TV [EG]
-http://mhav1.com:2095/live/ht2990/742579548/61594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alarabiya HD [NEWS]" tvg-logo="" group-title="News",Alarabiya HD [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3842.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BBC Arabic[NEWS]" tvg-logo="" group-title="News",BBC Arabic[NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/12490.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BBCW [NEWS]" tvg-logo="" group-title="News",BBCW [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3933.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CNBC ARABIYA [NEWS]" tvg-logo="" group-title="News",CNBC ARABIYA [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4551.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CNN [NEWS]" tvg-logo="" group-title="News",CNN [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4550.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DW [NEWS]" tvg-logo="" group-title="News",DW [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4048.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Elsharq TV [NEWS]" tvg-logo="" group-title="News",Elsharq TV [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3932.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="FRANCE 24 [NEWS]" tvg-logo="" group-title="News",FRANCE 24 [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3887.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="I24 News Arabic [EG]" tvg-logo="" group-title="News",I24 News Arabic [EG]
-http://mhav1.com:2095/live/ht2990/742579548/4042.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mayadeen TV[NEWS]" tvg-logo="" group-title="News",Mayadeen TV[NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4128.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mekameleen TV [NEWS]" tvg-logo="" group-title="News",Mekameleen TV [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3709.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Russia Today [News]" tvg-logo="" group-title="News",Russia Today [News]
-http://mhav1.com:2095/live/ht2990/742579548/4612.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SKY NEWS [NEWS]" tvg-logo="" group-title="News",SKY NEWS [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3713.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sharqia [NEWS]" tvg-logo="" group-title="News",Sharqia [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/3322.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TRT ARABIC [NEWS]" tvg-logo="" group-title="News",TRT ARABIC [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/5151.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Watan [NEWS]" tvg-logo="" group-title="News",Watan [NEWS]
-http://mhav1.com:2095/live/ht2990/742579548/4507.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="i24 [News]" tvg-logo="" group-title="News",i24 [News]
-http://mhav1.com:2095/live/ht2990/742579548/48830.ts
 
 
 ################################################################################
