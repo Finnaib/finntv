@@ -12254,9 +12254,6 @@ http://mhav1.com:2095/live/ht2990/742579548/288291.ts
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT F1 HEVC" tvg-logo="" group-title="SOLO SPORT",SOLO SPORT F1 HEVC
 http://mhav1.com:2095/live/ht2990/742579548/288293.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="SOLO SPORT",SOLO SPORT HDR 4K
-http://mhav1.com:2095/live/ht2990/742579548/288278.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT UFC FHD" tvg-logo="" group-title="SOLO SPORT",SOLO SPORT UFC FHD
 http://mhav1.com:2095/live/ht2990/742579548/288289.ts
 
@@ -14821,6 +14818,12 @@ http://mhav1.com:2095/live/ht2990/742579548/4101.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Zee Alwan [AE]" tvg-logo="" group-title="UAE - الامارات",Zee Alwan [AE]
 http://mhav1.com:2095/live/ht2990/742579548/4100.ts
+
+
+##### [Category 3,676] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Category 3,676",SOLO SPORT HDR 4K
+http://mhav1.com:2095/live/ht2990/742579548/288278.ts
 
 
 ##### [WWE LIVE مصارعه] #####
