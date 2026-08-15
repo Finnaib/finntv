@@ -732,20 +732,8 @@ https://cdn-live.mundogo.cl/tvn/tvn.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena.png" group-title="Mixed",ASTRO ARENA
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%202.png" group-title="Mixed",ASTRO ARENA 2
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_ott.mpd?PID=&PAID=5057&deviceIdType=%5BdevIdType%5D&deviceId=71be0d5043f7a2ab1b1b26b5de0c05a5&appId=astrogo.astro.com.my&appName=%5BappName%5D&devModel=%5BdevModel%5D&playerWidth=%5BplayerWidth%5D&playerHeight=%5BplayerHeight%5D&sessionId=abr-linear-2e476fb6-c0c3-462e-836e-0c2f1887d3dd&optin=true&hhid=126ed83851cdc77d641fbbdda3c97d0e&kvp=genre%7EHD%2CSPORTS%2CALL&daiEnabled=true
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Badminton%201.png" group-title="Mixed",ASTRO BADMINTON
 http://217.216.110.49:8000/badminton90
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%201.png" group-title="Mixed",ASTRO ARENA BOLA
-http://217.216.110.49:8000/bola190
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%202.png" group-title="Mixed",ASTRO ARENA BOLA 2
-http://217.216.110.49:8000/bola290
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Cricket.png" group-title="Mixed",ASTRO CRICKET
-https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_ott.mpd?astro=true&aws.sessionId=35e03e2b-470a-4563-a439-0f616424a47a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Football.png" group-title="Mixed",ASTRO FOOTBALL
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_ott.mpd
@@ -754,25 +742,16 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_ott.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/dashiso/2701/default_ott.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE
-http://217.216.110.49:8000/epl190
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE 2
-http://217.216.110.49:8000/epl290
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE 3
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5108/default_ott.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE 4
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5111/default_ott.mpd
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE 5
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5113/default_ott.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5135/default_primary.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Sports%20Plus.png" group-title="Mixed",ASTRO SPORTS PLUS
 https://linearjitp-playback.astro.com.my/dash-wv/dashiso/5171/default_ott.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Sports%20Plus.png" group-title="Mixed",ASTRO SPORTS PLUS 2
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5076/default_primary.mpd
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Sports%20UHD.png" group-title="Mixed",ASTRO SPORTS UHD
-https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_ott.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_primary.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/8TV.png" group-title="Mixed",8TV
 https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
@@ -821,6 +800,9 @@ https://d37ey7ubht2hh2.cloudfront.net/out/v1/2d4a3d04aa404f3f8860da4a3ae25817/in
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6d/VTV_Indonesia_2023.svg/revision/latest/scale-to-width-down/250?cb=20230421133730" group-title="Mixed",VTV HD
 https://flv.intechmedia.net/live/ch107.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Astro_Daebak_%282026%29.png" group-title="Mixed",ASTRO DAEBAK
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5108/default_primary.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KOREA-LOGO/refs/heads/main/KBS%20WORLD.png" group-title="Mixed",KBS WORLD
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2306/default_ott.mpd
