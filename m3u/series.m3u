@@ -11558,8 +11558,11 @@ http://mhav1.com:2095/series/ht2990/742579548/7125.ts
 #EXTINF:-1 tvg-id="" tvg-name="في ايه" tvg-logo="https://tse1.mm.bing.net/th/id/OIP.cRNHfgsZ7ect9WvRYbDxagHaKk?r=0&w=500&h=714&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="TV Shows",في ايه
 http://mhav1.com:2095/series/ht2990/742579548/7211.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب" tvg-logo="http://images.vega-xt-mh.com:80/images/ybg0cRIvMpKBE7ljy6AKWlCzrjQ_big.jpg" group-title="TV Shows",قسمة و نصيب
+#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="TV Shows",قسمة و نصيب
 http://mhav1.com:2095/series/ht2990/742579548/7168.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب : العروس و الحماة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="TV Shows",قسمة و نصيب : العروس و الحماة
+http://mhav1.com:2095/series/ht2990/742579548/7277.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قصتي" tvg-logo="http://images.vega-xt-mh.com:80/images/9u28k7eTmCZ5oYvoem3SoX4kctM_big.jpg" group-title="TV Shows",قصتي
 http://mhav1.com:2095/series/ht2990/742579548/6864.ts
@@ -14731,6 +14734,9 @@ http://mhav1.com:2095/series/ht2990/742579548/989.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عند شارع 9" tvg-logo="http://images.vega-xt-mh.com:80/images/haLmQepxMfcqjH6veM2lG9iTONz_big.jpg" group-title="مسلسلات عربيه",عند شارع 9
 http://mhav1.com:2095/series/ht2990/742579548/1707.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="عندما تشيخ الذئاب" tvg-logo="http://images.vega-xt-mh.com:80/images/u4yImLmgjmyllWIV5jBqc9t9ceg_big.jpg" group-title="مسلسلات عربيه",عندما تشيخ الذئاب
+http://mhav1.com:2095/series/ht2990/742579548/7276.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عنقود" tvg-logo="https://images2.imgbox.com/17/af/JtUQEapV_o.jpg" group-title="مسلسلات عربيه",عنقود
 http://mhav1.com:2095/series/ht2990/742579548/6722.ts
