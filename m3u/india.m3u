@@ -1761,17 +1761,20 @@ http://mhav1.com:2095/live/ht2990/742579548/212432.ts
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59b90d720e4e84324ae1cc0b511a34e7.png" group-title="Bangladesh",IN: Zee Bangla
 http://mhav1.com:2095/live/ht2990/742579548/212463.ts
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Bangladesh",Star Sports 1
-https://cdn5.zohanayaan.com:1686/hls/star1in.m3u8?md5=M57wLtyz8B3D1RVp5g8zYw&expires=1786872016
+https://cdn8.zohanayaan.com:1686/hls/star1in.m3u8?md5=ILMXCy5KCuaaK8N8gccgvQ&expires=1786899017
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Bangladesh",Star Sports 1 Hindi
-https://cdn10.zohanayaan.com:1686/hls/starhindi.m3u8?md5=o1mciWz4Hyo2wKy_LMR0rA&expires=1786872016
+https://cdn7.zohanayaan.com:1686/hls/starhindi.m3u8?md5=ume4Ico4OhQ7vAR9XZUh_w&expires=1786899017
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Bangladesh",PTV Sports
-https://cdn8.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=Fn0mbJKL5Te_QJxLvxKKTg&expires=1786872017
+https://cdn6.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=Z3jI0RUk_p_rGQA2OeFaKA&expires=1786899017
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png" group-title="Bangladesh",Sony Sports3
-https://cdn8.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=BMuMZ2OBVePMSI0_Z91upQ&expires=1786872022
+https://cdn9.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=FFRIYxi9T3H-sK4mrT7C0g&expires=1786899022
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",NTV (720p)
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
@@ -1782,17 +1785,17 @@ http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
-https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors
-https://cdn-2.pishow.tv/live/1461/master.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Anmol TV
 http://103.175.73.12:8080/live/256/256_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
+https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors
+https://cdn-2.pishow.tv/live/1461/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports-1 Hindi
 https://starsportshindiii.pages.dev/index.m3u8
@@ -2459,16 +2462,16 @@ http://mhav1.com:2095/live/ht2990/742579548/212592.ts
 http://mhav1.com:2095/live/ht2990/742579548/4718.ts
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="CRICKET",Willow HD
-https://cdn3.zohanayaan.com:1686/hls/willowusa.m3u8?md5=aGRqLR_bBfnNwd8efY6TFA&expires=1786872017
+https://cdn7.zohanayaan.com:1686/hls/willowusa.m3u8?md5=uAlXMoMJFrFZZ3PenkvdMg&expires=1786899017
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png" group-title="CRICKET",Willow HD 2
-https://cdn8.zohanayaan.com:1686/hls/willowextra.m3u8?md5=u3xdDy4dEnF-I9KzvwQHag&expires=1786872017
+https://cdn2.zohanayaan.com:1686/hls/willowextra.m3u8?md5=XaGNV7BmUDUhZWeEMuqI9w&expires=1786899017
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="CRICKET",Sky Sports Cricket
-https://cdn4.zohanayaan.com:1686/hls/skyscric.m3u8?md5=4swp0eT67qpfbMQgf1hW3w&expires=1786872018
+https://cdn6.zohanayaan.com:1686/hls/skyscric.m3u8?md5=uFgMgRfRz-nsXoFtXr-egQ&expires=1786899018
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png" group-title="CRICKET",Astro Cricket
-https://cdn10.zohanayaan.com:1686/hls/fox501.m3u8?md5=o9btQ6gV7HTGWjby6CtpDQ&expires=1786872021
+https://cdn5.zohanayaan.com:1686/hls/fox501.m3u8?md5=uA2gv7EjYFH0Witto05jlg&expires=1786899021
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="CRICKET",PTV Sports HD
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018
