@@ -1761,20 +1761,17 @@ http://mhav1.com:2095/live/ht2990/742579548/212432.ts
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59b90d720e4e84324ae1cc0b511a34e7.png" group-title="Bangladesh",IN: Zee Bangla
 http://mhav1.com:2095/live/ht2990/742579548/212463.ts
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1/mono.m3u8
-
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Bangladesh",Star Sports 1
-https://cdn2.zohanayaan.com:1686/hls/star1in.m3u8?md5=l4gzuAbrc9_cD6PG5f0QRA&expires=1786982917
+https://cdn3.zohanayaan.com:1686/hls/star1in.m3u8?md5=Th9BxPbmwZxzLY-fjLuiJA&expires=1787014217
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Bangladesh",Star Sports 1 Hindi
-https://cdn2.zohanayaan.com:1686/hls/starhindi.m3u8?md5=99VamAd4R_UsUiZ3VQLwBA&expires=1786982917
+https://cdn6.zohanayaan.com:1686/hls/starhindi.m3u8?md5=pjWzQCf8ni5QWhUW7k--kQ&expires=1787014217
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Bangladesh",PTV Sports
-https://cdn6.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=DoLcE1gkrfml5iBh3l_wUw&expires=1786982917
+https://cdn4.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=qFtwzNJXcmxITJKZEA9GTQ&expires=1787014217
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png" group-title="Bangladesh",Sony Sports3
-https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=g1j8UBXPf1L3hlCRWeeqhw&expires=1786982923
+https://cdn9.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=mKs4qF6_kThxjieXLuB-0w&expires=1787014222
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",NTV (720p)
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
@@ -1785,23 +1782,500 @@ http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors Infinity SD
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
-https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors
-https://cdn-2.pishow.tv/live/1461/master.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Anmol TV
 http://103.175.73.12:8080/live/256/256_0.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
+https://s2.itcnbd.live/server-2/stream/sonyentertainmnt_hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Colors
+https://cdn-2.pishow.tv/live/1461/master.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports-1 Hindi
 https://starsportshindiii.pages.dev/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports-2
 http://power8kse.xyz/s5b6tb5b8/c6a783a669/441103
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS HD [BENGALI]
+http://xown.site/token/stream.php?id=1487889&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS [BENGALI]
+http://xown.site/token/stream.php?id=1487890&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-AATH.png" group-title="Bangladesh",SONY AATH [BENGALI]
+http://xown.site/token/stream.php?id=1487905&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-JALSHA.png" group-title="Bangladesh",STAR JALSHA HD [BENGALI]
+http://xown.site/token/stream.php?id=1487893&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-JALSHA-MOVIES.png" group-title="Bangladesh",STAR JALSHA MOVIES HD [BENGALI]
+http://xown.site/token/stream.php?id=1487891&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-JALSHA-MOVIES.png" group-title="Bangladesh",STAR JALSHA MOVIES [BENGALI]
+http://xown.site/token/stream.php?id=1487892&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-JALSHA.png" group-title="Bangladesh",STAR JALSHA [BENGALI]
+http://xown.site/token/stream.php?id=1487894&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeetv.png" group-title="Bangladesh",ZEE HD [BENGALI]
+http://xown.site/token/stream.php?id=1487887&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TV.png" group-title="Bangladesh",ZEE FHD [BENGALI]
+http://xown.site/token/stream.php?id=1539402&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeecinema.png" group-title="Bangladesh",ZEE CINEMA [BENGALI]
+http://xown.site/token/stream.php?id=1487888&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-24-GHANTA.png" group-title="Bangladesh",ZEE 24 GHANTA TV [BENGALI]
+http://xown.site/token/stream.php?id=1539401&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/24-GHANTA.png" group-title="Bangladesh",24 GHANTA [BENGALI]
+http://xown.site/token/stream.php?id=1487898&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-HD-USA.png" group-title="Bangladesh",SONY TV USA FHD [IN]
+http://xown.site/token/stream.php?id=1483931&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY.png" group-title="Bangladesh",SONY TV FHD [IN]
+http://xown.site/token/stream.php?id=1483930&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY.png" group-title="Bangladesh",SONY TV HD [IN]
+http://xown.site/token/stream.php?id=1483928&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY.png" group-title="Bangladesh",SONY TV FHD (BK) [IN]
+http://xown.site/token/stream.php?id=1483929&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-SAB.png" group-title="Bangladesh",SONY SAB FHD [IN]
+http://xown.site/token/stream.php?id=1483937&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-SAB.png" group-title="Bangladesh",SONY SAB HD [IN]
+http://xown.site/token/stream.php?id=1483936&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-PAL.png" group-title="Bangladesh",SONY PAL [IN]
+http://xown.site/token/stream.php?id=1483972&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-WAH.png" group-title="Bangladesh",SONY WAH [IN]
+http://xown.site/token/stream.php?id=1483973&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-PIX.png" group-title="Bangladesh",SONY PIX FHD [IN]
+http://xown.site/token/stream.php?id=1483971&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX.png" group-title="Bangladesh",SONY MAX FHD [IN]
+http://xown.site/token/stream.php?id=1483932&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX.png" group-title="Bangladesh",SONY MAX FHD (BK) [IN]
+http://xown.site/token/stream.php?id=1483933&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX-2.png" group-title="Bangladesh",SONY MAX 2 [IN]
+http://xown.site/token/stream.php?id=1483935&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX-2.png" group-title="Bangladesh",SONY MAX 2 HD [IN]
+http://xown.site/token/stream.php?id=1483934&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-PLUS.png" group-title="Bangladesh",STAR PLUS FHD [IN]
+http://xown.site/token/stream.php?id=1483923&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-PLUS.png" group-title="Bangladesh",STAR PLUS HD [IN]
+http://xown.site/token/stream.php?id=1483922&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-BHARAT.png" group-title="Bangladesh",STAR BHARAT UK FHD [IN]
+http://xown.site/token/stream.php?id=1483948&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-BHARAT.png" group-title="Bangladesh",STAR BHARAT HD [IN]
+http://xown.site/token/stream.php?id=1483925&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-BHARAT.png" group-title="Bangladesh",STAR BHARAT FHD [IN]
+http://xown.site/token/stream.php?id=1483924&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-UTSAV.png" group-title="Bangladesh",STAR UTSAV HD [IN]
+http://xown.site/token/stream.php?id=1483926&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-UTSAV-MOVIES.png" group-title="Bangladesh",STAR UTSAV MOVIES FHD [IN]
+http://xown.site/token/stream.php?id=1483927&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD.png" group-title="Bangladesh",STAR GOLD FHD [IN]
+http://xown.site/token/stream.php?id=1483918&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD.png" group-title="Bangladesh",STAR GOLD HD [IN]
+http://xown.site/token/stream.php?id=1483917&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-2.png" group-title="Bangladesh",STAR GOLD 2 [IN]
+http://xown.site/token/stream.php?id=1483919&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-2.png" group-title="Bangladesh",STAR GOLD 2 [IN]
+http://xown.site/token/stream.php?id=1545843&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-SELECT.png" group-title="Bangladesh",STAR GOLD SELECT FHD [IN]
+http://xown.site/token/stream.php?id=1483921&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-SELECT.png" group-title="Bangladesh",STAR GOLD SELECT HD [IN]
+http://xown.site/token/stream.php?id=1483920&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-ROMANCE.png" group-title="Bangladesh",STAR GOLD ROMANCE [IN]
+http://xown.site/token/stream.php?id=1484072&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-THRILLS.png" group-title="Bangladesh",STAR GOLD THRILLS [IN]
+http://xown.site/token/stream.php?id=1484069&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-GOLD-THRILLS.png" group-title="Bangladesh",STAR GOLD THRILLS [IN]
+http://xown.site/token/stream.php?id=1545844&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-PRAVAH.png" group-title="Bangladesh",STAR PRAVAH HD [IN]
+http://xown.site/token/stream.php?id=1483946&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-VIJAY.png" group-title="Bangladesh",STAR VIJAY FHD [IN]
+http://xown.site/token/stream.php?id=1483947&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-VIJAY.png" group-title="Bangladesh",STAR VIJAY [IN]
+http://xown.site/token/stream.php?id=1483945&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-JALSHA.png" group-title="Bangladesh",STAR JALSHA FHD [IN]
+http://xown.site/token/stream.php?id=1483943&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-UTSAV.png" group-title="Bangladesh",STAR UTSAV HD [IN]
+http://xown.site/token/stream.php?id=1545810&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/AAPKA-COLORS.png" group-title="Bangladesh",AAPKA COLORS USA HD [IN]
+http://xown.site/token/stream.php?id=1483916&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS FHD [IN]
+http://xown.site/token/stream.php?id=1483914&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS TV HD [IN]
+http://xown.site/token/stream.php?id=1483915&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-CINEPLEX-BOLLYWOOD.png" group-title="Bangladesh",COLORS CINEPLEX BOLLYWOOD [IN]
+http://xown.site/token/stream.php?id=1484162&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-INFINITY.png" group-title="Bangladesh",COLORS INFINITY FHD [IN]
+http://xown.site/token/stream.php?id=1545842&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TV.png" group-title="Bangladesh",ZEE TV FHD [IN]
+http://xown.site/token/stream.php?id=1483906&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TV.png" group-title="Bangladesh",ZEE TV HD [IN]
+http://xown.site/token/stream.php?id=1483905&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeetv.png" group-title="Bangladesh",ZEE TV USA HD [IN]
+http://xown.site/token/stream.php?id=1545805&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ACTION.png" group-title="Bangladesh",ZEE ACTION [IN]
+http://xown.site/token/stream.php?id=1483904&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ANMOL-CINEMA.png" group-title="Bangladesh",ZEE ANMOL CINEMA [IN]
+http://xown.site/token/stream.php?id=1483996&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ANMOL.png" group-title="Bangladesh",ZEE ANMOL HD [IN]
+http://xown.site/token/stream.php?id=1483995&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BIHAR-JHARKHAND.png" group-title="Bangladesh",ZEE BIHAR JHARKHAND [IN]
+http://xown.site/token/stream.php?id=1484169&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BISKOPE.png" group-title="Bangladesh",ZEE BISKOPE [IN]
+http://xown.site/token/stream.php?id=1545806&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BOLLWOOD.png" group-title="Bangladesh",ZEE BOLLWOOD [IN]
+http://xown.site/token/stream.php?id=1483911&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CAFE.png" group-title="Bangladesh",ZEE CAFE HD [IN]
+http://xown.site/token/stream.php?id=1545854&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="Bangladesh",ZEE CINEMA HD [IN]
+http://xown.site/token/stream.php?id=1483909&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/zeecinema.png" group-title="Bangladesh",ZEE CINEMA SD [IN]
+http://xown.site/token/stream.php?id=1545855&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="Bangladesh",ZEE CINEMA FHD [IN]
+http://xown.site/token/stream.php?id=1483910&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CLASSIC.png" group-title="Bangladesh",ZEE CLASSIC FHD [IN]
+http://xown.site/token/stream.php?id=1483912&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-ETC-BOLLYWOOD.png" group-title="Bangladesh",ZEE ETC BOLLYWOOD [IN]
+http://xown.site/token/stream.php?id=1483998&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-HINDUSTAN.png" group-title="Bangladesh",ZEE HINDUSTAN [IN]
+http://xown.site/token/stream.php?id=1483999&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-RAJASTHAN.png" group-title="Bangladesh",ZEE RAJASTHAN [IN]
+http://xown.site/token/stream.php?id=1484029&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-SARTHAK.png" group-title="Bangladesh",ZEE SARTHAK [IN]
+http://xown.site/token/stream.php?id=1545807&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TALKIES.png" group-title="Bangladesh",ZEE TALKIES FHD [IN]
+http://xown.site/token/stream.php?id=1545808&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-THIRAI.png" group-title="Bangladesh",ZEE THIRAI TV [IN]
+http://xown.site/token/stream.php?id=1545809&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-YUVA.png" group-title="Bangladesh",ZEE YUVA [IN]
+http://xown.site/token/stream.php?id=1484028&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ASIANET-PLUS.png" group-title="Bangladesh",ASIANET PLUS [IN]
+http://xown.site/token/stream.php?id=1483960&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ASIANET.png" group-title="Bangladesh",ASIANET TV FHD [IN]
+http://xown.site/token/stream.php?id=1483961&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ETV-CINEMA.png" group-title="Bangladesh",ETV CINEMA [IN]
+http://xown.site/token/stream.php?id=1545859&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/KAIRALI.png" group-title="Bangladesh",KAIRALI TV [IN]
+http://xown.site/token/stream.php?id=1483964&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/MAA-TV.png" group-title="Bangladesh",MAA TV FHD [IN]
+http://xown.site/token/stream.php?id=1483966&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAB-TV-HD-USA.png" group-title="Bangladesh",SAB TV USA FHD [IN]
+http://xown.site/token/stream.php?id=1483969&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SUN%20TV-HD-APAC-ASTRO.png" group-title="Bangladesh",SUN TV [IN]
+http://xown.site/token/stream.php?id=1483953&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SURYA-CINEMA.png" group-title="Bangladesh",SURYA CINEMA FHD [IN]
+http://xown.site/token/stream.php?id=1484146&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SUVARNA.png" group-title="Bangladesh",SUVARNA TV HD [IN]
+http://xown.site/token/stream.php?id=1483967&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY.png" group-title="Bangladesh",SONY TV [IN-UK]
+http://xown.site/token/stream.php?id=1484514&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY.png" group-title="Bangladesh",SONY TV FHD [IN-UK]
+http://xown.site/token/stream.php?id=1484515&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-SAB.png" group-title="Bangladesh",SONY SAB [IN-UK]
+http://xown.site/token/stream.php?id=1484525&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-SAB.png" group-title="Bangladesh",SONY SAB (BK) [IN-UK]
+http://xown.site/token/stream.php?id=1484526&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX.png" group-title="Bangladesh",SONY MAX [IN-UK]
+http://xown.site/token/stream.php?id=1484523&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX.png" group-title="Bangladesh",SONY MAX FHD [IN-UK]
+http://xown.site/token/stream.php?id=1484522&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-MAX-2.png" group-title="Bangladesh",SONY MAX 2 [IN-UK]
+http://xown.site/token/stream.php?id=1484524&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS FHD [IN-UK]
+http://xown.site/token/stream.php?id=1484516&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS HD [IN-UK]
+http://xown.site/token/stream.php?id=1484518&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS [IN-UK]
+http://xown.site/token/stream.php?id=1484517&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-BANGLA.png" group-title="Bangladesh",COLORS BANGLA [IN-UK]
+http://xown.site/token/stream.php?id=1484537&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-CINEPLEX.png" group-title="Bangladesh",COLORS CINEPLEX [IN-UK]
+http://xown.site/token/stream.php?id=1484541&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-CINEPLEX.png" group-title="Bangladesh",COLORS CINEPLEX [IN-UK]
+http://xown.site/token/stream.php?id=1484565&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-GUJRATI.png" group-title="Bangladesh",COLORS GUJRATI [IN-UK]
+http://xown.site/token/stream.php?id=1484519&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-KANNADA.png" group-title="Bangladesh",COLORS KANNADA [IN-UK]
+http://xown.site/token/stream.php?id=1484538&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-MARATHI.png" group-title="Bangladesh",COLORS MARATHI [IN-UK]
+http://xown.site/token/stream.php?id=1484539&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS-RISHTEY.png" group-title="Bangladesh",COLORS RISHTEY [IN-UK]
+http://xown.site/token/stream.php?id=1484536&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TV.png" group-title="Bangladesh",ZEE TV HD [IN-UK]
+http://xown.site/token/stream.php?id=1484542&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-TV.png" group-title="Bangladesh",ZEE TV [IN-UK]
+http://xown.site/token/stream.php?id=1484540&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="Bangladesh",ZEE CINEMA FHD [IN-UK]
+http://xown.site/token/stream.php?id=1484543&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-CINEMA.png" group-title="Bangladesh",ZEE CINEMA [IN-UK]
+http://xown.site/token/stream.php?id=1484544&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ETV.png" group-title="Bangladesh",ETV [IN-UK]
+http://xown.site/token/stream.php?id=1484563&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-BUSINESS.png" group-title="Bangladesh",ZEE BUSINESS [IN]
+http://xown.site/token/stream.php?id=1483997&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-NEWS.png" group-title="Bangladesh",ZEE NEWS [IN]
+http://xown.site/token/stream.php?id=1484027&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ZEE-NEWS-BIHAR.png" group-title="Bangladesh",ZEE NEWS BIHAR [IN]
+http://xown.site/token/stream.php?id=1484000&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/arabic/ZEE-NEWS-MP.png" group-title="Bangladesh",ZEE NEWS MP & CH [IN]
+http://xown.site/token/stream.php?id=1484002&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/arabic/ZEE-NEWS-MP.png" group-title="Bangladesh",ZEE NEWS MP [IN]
+http://xown.site/token/stream.php?id=1484001&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/arabic/ZEE-NEWS-MP.png" group-title="Bangladesh",ZEE NEWS UP [IN]
+http://xown.site/token/stream.php?id=1484003&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-1.png" group-title="Bangladesh",STAR SPORTS 1 ENGLISH HD [SP]
+http://xown.site/token/stream.php?id=1488094&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-HINDI-1.png" group-title="Bangladesh",STAR SPORTS 1 FHD [SP]
+http://xown.site/token/stream.php?id=1488098&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-HINDI-1.png" group-title="Bangladesh",STAR SPORTS 1 HINDI HD [SP]
+http://xown.site/token/stream.php?id=1488096&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-HINDI-1.png" group-title="Bangladesh",STAR SPORTS 1 [SP]
+http://xown.site/token/stream.php?id=1488099&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-2.png" group-title="Bangladesh",STAR SPORTS 2 FHD [SP]
+http://xown.site/token/stream.php?id=1488100&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-2.png" group-title="Bangladesh",STAR SPORTS 2 HD [SP]
+http://xown.site/token/stream.php?id=1488101&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-2.png" group-title="Bangladesh",STAR SPORTS 2 [SP]
+http://xown.site/token/stream.php?id=1488102&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-3.png" group-title="Bangladesh",STAR SPORTS 3 [SP]
+http://xown.site/token/stream.php?id=1488103&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-3.png" group-title="Bangladesh",STAR SPORTS 3 [SP]
+http://xown.site/token/stream.php?id=1488104&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-HINDI-1.png" group-title="Bangladesh",STAR SPORTS HINDI 1 FHD [SP]
+http://xown.site/token/stream.php?id=1488095&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-HINDI-1.png" group-title="Bangladesh",STAR SPORTS HINDI 1 [SP]
+http://xown.site/token/stream.php?id=1488097&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/ASIA/STAR-SPORTS-KANNADA.png" group-title="Bangladesh",STAR SPORTS KANNADA [SP]
+http://xown.site/token/stream.php?id=1488093&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-1.png" group-title="Bangladesh",STAR SPORTS SELECT 1 FHD [SP]
+http://xown.site/token/stream.php?id=1488105&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-1.png" group-title="Bangladesh",STAR SPORTS SELECT 1 HD [SP]
+http://xown.site/token/stream.php?id=1488106&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-1.png" group-title="Bangladesh",STAR SPORTS SELECT 1 [SP]
+http://xown.site/token/stream.php?id=1488107&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-2.png" group-title="Bangladesh",STAR SPORTS SELECT 2 FHD [SP]
+http://xown.site/token/stream.php?id=1488108&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-2.png" group-title="Bangladesh",STAR SPORTS SELECT 2 HD [SP]
+http://xown.site/token/stream.php?id=1488109&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-SELECT-2.png" group-title="Bangladesh",STAR SPORTS SELECT 2 [SP]
+http://xown.site/token/stream.php?id=1488110&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/STAR-SPORTS-TAMIL.png" group-title="Bangladesh",STAR SPORTS TAMIL [SP]
+http://xown.site/token/stream.php?id=1488111&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-NEWS-ASIA.png" group-title="Bangladesh",ARY NEWS (NA) [PK]
+http://xown.site/token/stream.php?id=1488829&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-NEWS-ASIA.png" group-title="Bangladesh",ARY NEWS ASIA [PK]
+http://xown.site/token/stream.php?id=1488828&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DAWN-NEWS.png" group-title="Bangladesh",DAWN NEWS [PK]
+http://xown.site/token/stream.php?id=1488807&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/EXPRESS-NEWS.png" group-title="Bangladesh",EXPRESS NEWS (NA) [PK]
+http://xown.site/token/stream.php?id=1488816&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/EXPRESS-NEWS.png" group-title="Bangladesh",EXPRESS NEWS [PK]
+http://xown.site/token/stream.php?id=1488808&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/geonews.png" group-title="Bangladesh",GEO NEWS (NA) [PK]
+http://xown.site/token/stream.php?id=1488825&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/geonews.png" group-title="Bangladesh",GEO NEWS [PK]
+http://xown.site/token/stream.php?id=1488824&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-GLOBAL.png" group-title="Bangladesh",PTV GLOBAL EU [PK]
+http://xown.site/token/stream.php?id=1488841&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-HOME.png" group-title="Bangladesh",PTV HOME [PK]
+http://xown.site/token/stream.php?id=1488842&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-NATIONAL.png" group-title="Bangladesh",PTV NATIONAL [PK]
+http://xown.site/token/stream.php?id=1488843&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-NEWS.png" group-title="Bangladesh",PTV NEWS [PK]
+http://xown.site/token/stream.php?id=1488803&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-WORLD.png" group-title="Bangladesh",PTV WORLD [PK]
+http://xown.site/token/stream.php?id=1488840&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAMAA-NEWS.png" group-title="Bangladesh",SAMAA NEWS [PK]
+http://xown.site/token/stream.php?id=1488802&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-SPORTS.png" group-title="Bangladesh",PTV SPORTS FHD [PK]
+http://xown.site/token/stream.php?id=1488736&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/PTV-SPORTS.png" group-title="Bangladesh",PTV SPORTS HD [PK]
+http://xown.site/token/stream.php?id=1488737&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-DIGITAL.png" group-title="Bangladesh",ARY DIGITAL (NA) [PK]
+http://xown.site/token/stream.php?id=1488734&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-DIGITAL.png" group-title="Bangladesh",ARY DIGITAL ASIA [PK]
+http://xown.site/token/stream.php?id=1488733&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/ARY-ZINDAGI.png" group-title="Bangladesh",ARY ZINDAGI [PK]
+http://xown.site/token/stream.php?id=1488728&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="Bangladesh",GEO TV (NA) [PK]
+http://xown.site/token/stream.php?id=1488713&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="Bangladesh",GEO TV HD EU [PK]
+http://xown.site/token/stream.php?id=1488714&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO.png" group-title="Bangladesh",GEO TV HD [PK]
+http://xown.site/token/stream.php?id=1488712&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/GEO-TV.png" group-title="Bangladesh",GEO TV [PK]
+http://xown.site/token/stream.php?id=1488709&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="Bangladesh",HUM MASALA (NA) [PK]
+http://xown.site/token/stream.php?id=1488722&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="Bangladesh",HUM MASALA EU [PK]
+http://xown.site/token/stream.php?id=1488715&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="Bangladesh",HUM MASALA EU [PK]
+http://xown.site/token/stream.php?id=1488723&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-MASALA.png" group-title="Bangladesh",HUM MASALA [PK]
+http://xown.site/token/stream.php?id=1488721&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/humeurope.png" group-title="Bangladesh",HUM TV (NA) [PK]
+http://xown.site/token/stream.php?id=1488726&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="Bangladesh",HUM TV EUROPE HD [PK]
+http://xown.site/token/stream.php?id=1488716&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUM-EUROPE.png" group-title="Bangladesh",HUM TV [PK]
+http://xown.site/token/stream.php?id=1488717&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAMAA-EU.png" group-title="Bangladesh",SAMAA EU [PK]
+http://xown.site/token/stream.php?id=1488741&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SAMAA-EU.png" group-title="Bangladesh",SAMAA [PK]
+http://xown.site/token/stream.php?id=1488740&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.net/images/25.png" group-title="Bangladesh",Star Sports 1
 https://edge2.roarzone.net:8447/roarzone/edge1/7/index.m3u8?token=197093de842c506158c750325cbf1bbb0ae8ec85-9261a7ea7959ff6b91911be64991d99f-1786784041-1786773241
@@ -1985,19 +2459,55 @@ http://mhav1.com:2095/live/ht2990/742579548/212592.ts
 http://mhav1.com:2095/live/ht2990/742579548/4718.ts
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="CRICKET",Willow HD
-https://cdn1.zohanayaan.com:1686/hls/willowusa.m3u8?md5=UPLbeT_n0iYzNDhJbgIBVQ&expires=1786982917
+https://cdn6.zohanayaan.com:1686/hls/willowusa.m3u8?md5=jewD9eca0toNbZGBl2yq7w&expires=1787014217
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png" group-title="CRICKET",Willow HD 2
-https://cdn5.zohanayaan.com:1686/hls/willowextra.m3u8?md5=yVslZ0l9uhAbv5lBBMACgg&expires=1786982917
+https://cdn3.zohanayaan.com:1686/hls/willowextra.m3u8?md5=GYeItDQXAB28gpWG-BShwQ&expires=1787014217
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="CRICKET",Sky Sports Cricket
-https://cdn9.zohanayaan.com:1686/hls/skyscric.m3u8?md5=736L5cD2VX_szNXQqtrH1A&expires=1786982918
+https://cdn5.zohanayaan.com:1686/hls/skyscric.m3u8?md5=bAHNsp5nmb-ZzwAxC31csg&expires=1787014218
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png" group-title="CRICKET",Astro Cricket
-https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=nrgvdDsdlHqFO7C7_iesGg&expires=1786982922
+https://cdn8.zohanayaan.com:1686/hls/fox501.m3u8?md5=a5YoCw9--3h2vuWRJviAUg&expires=1787014221
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="CRICKET",PTV Sports HD
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/ASIA/ASTRO-CRICKET.png" group-title="CRICKET",ASTRO CRICKET HD [SP]
+http://xown.site/token/stream.php?id=1488091&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104678.png" group-title="CRICKET",FOX CRICKET HD [AU]
+http://xown.site/token/stream.php?id=1104678&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104670.png" group-title="CRICKET",ASTRO CRICKET HD [SPORTS]
+http://xown.site/token/stream.php?id=1104670&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104671.png" group-title="CRICKET",SONY SIX HD [SPORTS]
+http://xown.site/token/stream.php?id=1104671&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104673.png" group-title="CRICKET",STAR SPORTS 1 ENGLISH HD [SPORTS]
+http://xown.site/token/stream.php?id=1104673&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104672.png" group-title="CRICKET",STAR SPORTS 1 HINDI HD [SPORTS]
+http://xown.site/token/stream.php?id=1104672&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104674.png" group-title="CRICKET",STAR SPORTS 2 HD [SPORTS]
+http://xown.site/token/stream.php?id=1104674&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104675.png" group-title="CRICKET",STAR SPORTS 3 [SPORTS]
+http://xown.site/token/stream.php?id=1104675&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104668.png" group-title="CRICKET",SKY SPORTS CRICKET HD [UK]
+http://xown.site/token/stream.php?id=1104668&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_cricket.png" group-title="CRICKET",SUPERSPORTS CRICKET HD [UK]
+http://xown.site/token/stream.php?id=1104669&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1104677.png" group-title="CRICKET",WILLOW CRICKET [USA]
+http://xown.site/token/stream.php?id=1104677&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/WILLOW-CRICKET-EXTRA.png" group-title="CRICKET",WILLOW CRICKET EXTRA [USA]
+http://xown.site/token/stream.php?id=1142110&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.net/images/ten_cricket.png" group-title="CRICKET",Ten Cricket
 https://edge2.roarzone.net:8447/roarzone/edge1/4/index.m3u8?token=73c6de0322a21ab22777c85955a6876e44db50a1-1041c9a5499ddc688281bb0061eeb0b0-1786784041-1786773241
@@ -3452,6 +3962,72 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Sony Yay
 https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png" group-title="KIDS",SONY YAY [BENGALI]
+http://xown.site/token/stream.php?id=1539406&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/SONY-YAY.png" group-title="KIDS",SONY YAY [IN]
+http://xown.site/token/stream.php?id=1483974&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/TATA-PLAY-FUN-LEARN-JUNIOR.png" group-title="KIDS",TATA PLAY FUN LEARN JUNIOR [IN]
+http://xown.site/token/stream.php?id=1545816&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png" group-title="KIDS",CARTOON NETWORK [IN]
+http://xown.site/token/stream.php?id=1484176&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/disneych.png" group-title="KIDS",DISNEY CHANNEL [IN]
+http://xown.site/token/stream.php?id=1484082&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY-JUNIOR.png" group-title="KIDS",DISNEY JUNIOR [IN]
+http://xown.site/token/stream.php?id=1484083&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DISNEY.png" group-title="KIDS",DISNEY SD [IN]
+http://xown.site/token/stream.php?id=1484081&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/DISCOVERY-KIDS.png" group-title="KIDS",DISCOVERY KIDS HINDI [IN]
+http://xown.site/token/stream.php?id=1545824&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/nickjr.png" group-title="KIDS",NICK HINDI [IN]
+http://xown.site/token/stream.php?id=1545830&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/nickjr.png" group-title="KIDS",NICK JR HINDI [IN]
+http://xown.site/token/stream.php?id=1545831&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png" group-title="KIDS",NICK SONIC HINDI [IN]
+http://xown.site/token/stream.php?id=1545832&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/NICK-PLUS.png" group-title="KIDS",NICK+ FHD [IN]
+http://xown.site/token/stream.php?id=1545833&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/VT-SONIC-KIDS.png" group-title="KIDS",VT SONIC KIDS FHD [IN]
+http://xown.site/token/stream.php?id=1545837&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png" group-title="KIDS",HUNGAMA BOL HADIPA [IN]
+http://xown.site/token/stream.php?id=1484060&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png" group-title="KIDS",HUNGAMA DIL DE HD [IN]
+http://xown.site/token/stream.php?id=1484061&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/HUNGAMA-POP-PATAKA.png" group-title="KIDS",HUNGAMA KADAK HITS [IN]
+http://xown.site/token/stream.php?id=1484062&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/NAZRANA.png" group-title="KIDS",HUNGAMA NAZRANA HD [IN]
+http://xown.site/token/stream.php?id=1484063&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/arabic/HUNGAMA-POP-PATAKA.png" group-title="KIDS",HUNGAMA POP PATAKA [IN]
+http://xown.site/token/stream.php?id=1484064&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/POGO-KIDS.png" group-title="KIDS",POGO KIDS [IN]
+http://xown.site/token/stream.php?id=1484127&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/babytv.png" group-title="KIDS",BABY TV [PK]
+http://xown.site/token/stream.php?id=1488797&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/CARTOON-NETWORK.png" group-title="KIDS",CARTOON NETWORK [PK]
+http://xown.site/token/stream.php?id=1488769&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
+
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/nick.png" group-title="KIDS",NICK [PK]
+http://xown.site/token/stream.php?id=1488755&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.net/images/55.png" group-title="KIDS",Nick
 https://edge2.roarzone.net:8447/roarzone/edge7/nick/index.m3u8?token=46de1b08f735c8f4e52ad7c2581751f7d0ee57eb-103f1f53a9ec1287513a46e1e7b00749-1786784042-1786773242
