@@ -702,9 +702,6 @@ https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serv
 # Mixed
 ################################################################################
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Mixed",Mayday: Disastro Aereo
-https://amg01821-amg01821c38-rakuten-it-10669.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaydisastroaereo-rakutenit/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3NmJZNb/tvn.png" group-title="Mixed",TVN
 https://cdn-live.mundogo.cl/tvn/tvn.mpd
 
