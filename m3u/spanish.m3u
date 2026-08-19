@@ -263,9 +263,6 @@ https://5ff3d9babae13.streamlock.net/gtryhpwpwe/gtryhpwpwe/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vx1F4o5.png" group-title="Spain",Nova
 http://185.189.225.150:85/nova/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Vx1F4o5.png" group-title="Spain",Nova (720p)
-http://40.160.24.55/Nova/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Spain",TVE Star HD
 https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
 
@@ -467,7 +464,7 @@ https://jmp2.uk/stvp-ES2600004BD
 #EXTINF:-1 tvg-chno="679" tvg-id="ES260001081" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260001081_20251230T030900SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 679. En Familia - Rakuten TV
 https://jmp2.uk/stvp-ES260001081
 
-#EXTINF:-1 tvg-chno="1969" tvg-id="ES33000058B" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000058B_20260804T051232SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 1969. RTVE Somos Cine
+#EXTINF:-1 tvg-chno="1969" tvg-id="ES33000058B" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000058B_20260818T050656SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 1969. RTVE Somos Cine
 https://jmp2.uk/stvp-ES33000058B
 
 #EXTINF:-1 tvg-chno="1970" tvg-id="ES500004NO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500004NO_20250408T021816SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 1970. Sci-Fi - Rakuten TV
@@ -491,7 +488,7 @@ https://jmp2.uk/stvp-ES4100002WB
 #EXTINF:-1 tvg-chno="2478" tvg-id="ES4200001MR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4200001MR_20260721T035610SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2478. Moviesphere
 https://jmp2.uk/stvp-ES4200001MR
 
-#EXTINF:-1 tvg-chno="2558" tvg-id="ES500008IU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500008IU_20260224T030754SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2558. FreeTV Clásico
+#EXTINF:-1 tvg-chno="2558" tvg-id="ES500008IU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500008IU_20260818T050616SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2558. FreeTV Clásico
 https://jmp2.uk/stvp-ES500008IU
 
 #EXTINF:-1 tvg-chno="603" tvg-id="ESAJ3800005C5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800005C5_20241022T050710SQUARE.png" tvg-country="ES" group-title="Spain",[Comedia] 603. Comedia Made in Spain
@@ -581,7 +578,7 @@ https://jmp2.uk/stvp-ES1100001MT
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
 
-#EXTINF:-1 tvg-chno="626" tvg-id="ES12000024R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES12000024R_20260421T125616SQUARE.png" tvg-country="ES" group-title="Spain",[Documentales] 626. Historia y Vida
+#EXTINF:-1 tvg-chno="626" tvg-id="ES12000024R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES12000024R_20260818T050625SQUARE.png" tvg-country="ES" group-title="Spain",[Documentales] 626. Historia y Vida
 https://jmp2.uk/stvp-ES12000024R
 
 #EXTINF:-1 tvg-chno="627" tvg-id="ESBD1400003QN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD1400003QN_20260210T035856SQUARE.png" tvg-country="ES" group-title="Spain",[Documentales] 627. Royalworld - Nobleza y Dinastias
@@ -842,7 +839,7 @@ https://jmp2.uk/stvp-ESBA3300024AJ
 #EXTINF:-1 tvg-chno="1861" tvg-id="ES260000968" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES260000968_20260707T050947SQUARE.png" tvg-country="ES" group-title="Spain",[Noticias] 1861. Euronews EN DIRECTO
 https://jmp2.uk/stvp-ES260000968
 
-#EXTINF:-1 tvg-chno="1924" tvg-id="ES300034BT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300034BT_20260804T051205SQUARE.png" tvg-country="ES" group-title="Spain",[Noticias] 1924. Actualidad 360
+#EXTINF:-1 tvg-chno="1924" tvg-id="ES300034BT" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300034BT_20260818T050609SQUARE.png" tvg-country="ES" group-title="Spain",[Noticias] 1924. Actualidad 360
 https://jmp2.uk/stvp-ES300034BT
 
 #EXTINF:-1 tvg-chno="2077" tvg-id="ES3400004SS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3400004SS_20250624T020505SQUARE.png" tvg-country="ES" group-title="Spain",[Noticias] 2077. Sky News International
@@ -866,10 +863,10 @@ https://jmp2.uk/stvp-ES2900001DQ
 #EXTINF:-1 tvg-chno="1934" tvg-id="ES500005BP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500005BP_20250610T010520SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 1934. Águila Roja
 https://jmp2.uk/stvp-ES500005BP
 
-#EXTINF:-1 tvg-chno="1973" tvg-id="ES33000036Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000036Q_20260310T031635SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 1973. RTVE La Moderna
+#EXTINF:-1 tvg-chno="1973" tvg-id="ES33000036Q" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES33000036Q_20260818T050638SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 1973. RTVE La Moderna
 https://jmp2.uk/stvp-ES33000036Q
 
-#EXTINF:-1 tvg-chno="1977" tvg-id="ES3300006QL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3300006QL_20260804T051221SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 1977. RTVE La Promesa
+#EXTINF:-1 tvg-chno="1977" tvg-id="ES3300006QL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3300006QL_20260818T050647SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 1977. RTVE La Promesa
 https://jmp2.uk/stvp-ES3300006QL
 
 #EXTINF:-1 tvg-chno="2190" tvg-id="ES2900002JG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2900002JG_20250923T011554SQUARE.png" tvg-country="ES" group-title="Spain",[Serie] 2190. Los Gipsy Kings - Rakuten TV
@@ -898,9 +895,6 @@ https://jmp2.uk/stvp-ES2900003S3
 
 #EXTINF:-1 tvg-chno="704" tvg-id="ESAJ3800007PC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800007PC_20241022T050753SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 704. Pluto TV Cocina
 https://jmp2.uk/stvp-ESAJ3800007PC
-
-#EXTINF:-1 tvg-chno="705" tvg-id="ESBC27000040I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC27000040I_20250610T010506SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 705. GoUSA TV
-https://jmp2.uk/stvp-ESBC27000040I
 
 #EXTINF:-1 tvg-chno="1925" tvg-id="ES300033TI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300033TI_20250805T005128SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 1925. Viajes & Sabores
 https://jmp2.uk/stvp-ES300033TI
