@@ -689,6 +689,9 @@ https://jmp2.uk/stvp-ES1200005Z1
 #EXTINF:-1 tvg-chno="2800" tvg-id="ES120000498" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES120000498_20260707T051019SQUARE.png" tvg-country="ES" group-title="Spain",[Entretenimiento] 2800. Quantum Makers
 https://jmp2.uk/stvp-ES120000498
 
+#EXTINF:-1 tvg-chno="2865" tvg-id="ES2100003VE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2100003VE_20260818T050632SQUARE.png" tvg-country="ES" group-title="Spain",[Entretenimiento] 2865. Inazuma Eleven
+https://jmp2.uk/stvp-ES2100003VE
+
 #EXTINF:-1 tvg-chno="650" tvg-id="ESBC2100002LV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC2100002LV_20260707T051048SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 650. Vevo Latino
 https://jmp2.uk/stvp-ESBC2100002LV
 
@@ -895,6 +898,9 @@ https://jmp2.uk/stvp-ES2900003S3
 
 #EXTINF:-1 tvg-chno="704" tvg-id="ESAJ3800007PC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800007PC_20241022T050753SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 704. Pluto TV Cocina
 https://jmp2.uk/stvp-ESAJ3800007PC
+
+#EXTINF:-1 tvg-chno="705" tvg-id="ESBC27000040I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC27000040I_20260818T051644SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 705. Journy TV
+https://jmp2.uk/stvp-ESBC27000040I
 
 #EXTINF:-1 tvg-chno="1925" tvg-id="ES300033TI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES300033TI_20250805T005128SQUARE.png" tvg-country="ES" group-title="Spain",[Viajes y Cocina] 1925. Viajes & Sabores
 https://jmp2.uk/stvp-ES300033TI

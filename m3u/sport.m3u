@@ -771,9 +771,6 @@ https://jmp2.uk/stvp-ATBA3300010PU
 #EXTINF:-1 tvg-chno="109" tvg-id="ATBD5000002B1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD5000002B1_20250107T022450SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 109. World of Freesports - WoF
 https://jmp2.uk/stvp-ATBD5000002B1
 
-#EXTINF:-1 tvg-chno="110" tvg-id="ATAJ0500431A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ0500431A_20260818T045601SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 110. just.fishing
-https://jmp2.uk/stvp-ATAJ0500431A
-
 #EXTINF:-1 tvg-chno="111" tvg-id="ATBD290000127" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD290000127_20250107T022447SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 111. World Poker Tour
 https://jmp2.uk/stvp-ATBD290000127
 
@@ -3076,6 +3073,9 @@ https://jmp2.uk/stvp-FR12000040D
 #EXTINF:-1 tvg-chno="2741" tvg-id="FR900002B4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR900002B4_20260528T055414SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2741. Motor Racing
 https://jmp2.uk/stvp-FR900002B4
 
+#EXTINF:-1 tvg-chno="2867" tvg-id="FR1700004PK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1700004PK_20260818T050835SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2867. Red Bull TV
+https://jmp2.uk/stvp-FR1700004PK
+
 
 ################################################################################
 # France فرنسى
@@ -3852,9 +3852,6 @@ https://jmp2.uk/stvp-DEBA3300016EV
 
 #EXTINF:-1 tvg-chno="578" tvg-id="DEBD5000002EW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD5000002EW_20250107T024757SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 578. World of Freesports - WoF
 https://jmp2.uk/stvp-DEBD5000002EW
-
-#EXTINF:-1 tvg-chno="579" tvg-id="DEAJ0500428A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAJ0500428A_20260818T050233SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 579. just.fishing
-https://jmp2.uk/stvp-DEAJ0500428A
 
 #EXTINF:-1 tvg-chno="580" tvg-id="DEBD29000013S" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD29000013S_20250107T024440SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 580. World Poker Tour
 https://jmp2.uk/stvp-DEBD29000013S
@@ -8237,9 +8234,6 @@ https://jmp2.uk/stvp-US2700001QY
 
 #EXTINF:-1 tvg-chno="1801" tvg-id="USBD420002446" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD420002446_20250729T010447SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1801. NBC Sports NOW
 https://jmp2.uk/stvp-USBD420002446
-
-#EXTINF:-1 tvg-chno="1802" tvg-id="US1400012RF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400012RF_20260818T061235SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1802. FanDuel TV Extra
-https://jmp2.uk/stvp-US1400012RF
 
 #EXTINF:-1 tvg-chno="1803" tvg-id="US2900014UU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900014UU_20260421T143243SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 1803. The Jim Rome Show
 https://jmp2.uk/stvp-US2900014UU
