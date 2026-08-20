@@ -713,9 +713,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/182826.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Golden Kamuy" tvg-logo="http://images.vega-xt-mh.com:80/images/sLcRGIJqlJeoGGk88CtA8Ida5aq_big.jpg" group-title="Amazon",Golden Kamuy
 http://mhav1.com:2095/movie/ht2990/742579548/251860.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Good Boy" tvg-logo="http://images.vega-xt-mh.com:80/images/pvMHRi09ur2L1drXh2dXFtuMFgl_big.jpg" group-title="Amazon",Good Boy
-http://mhav1.com:2095/movie/ht2990/742579548/247281.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="Green Street Hooligans" tvg-logo="http://images.vega-xt-mh.com:80/images/oTxHFRSbFcCWdfJB4ozA41Yq57c_big.jpg" group-title="Amazon",Green Street Hooligans
 http://mhav1.com:2095/movie/ht2990/742579548/292325.mkv
 
@@ -20333,6 +20330,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/198510.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Penthouse North HD" tvg-logo="http://images.vega-xt-mh.com:80/images/1CcbRXZMbhZqFoBPqoR9386iqJp_big.jpg" group-title="English HD 1080",Penthouse North HD
 http://mhav1.com:2095/movie/ht2990/742579548/252010.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Pinocchio: Unstrung HD" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/r0hCOPsYHFc7qok51canND9TVoN.jpg" group-title="English HD 1080",Pinocchio: Unstrung HD
+http://mhav1.com:2095/movie/ht2990/742579548/292381.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Plane HD" tvg-logo="http://images.vega-xt-mh.com:80/images/9wpQ5BBav87cPXT89QoLsuPUbp6_big.jpg" group-title="English HD 1080",Plane HD
 http://mhav1.com:2095/movie/ht2990/742579548/236135.mkv
 
@@ -30223,6 +30223,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/287554.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Personhood" tvg-logo="http://images.vega-xt-mh.com:80/images/45pBGAUDZmF5RFlCYAnhvkmDLFi_big.jpg" group-title="English Movies 2026",Personhood
 http://mhav1.com:2095/movie/ht2990/742579548/285900.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Pinocchio: Unstrung" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/r0hCOPsYHFc7qok51canND9TVoN.jpg" group-title="English Movies 2026",Pinocchio: Unstrung
+http://mhav1.com:2095/movie/ht2990/742579548/292380.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Pitfall" tvg-logo="http://images.vega-xt-mh.com:80/images/kIwc4DgHpAQwEKBB6bPEsCRHnNB_big.jpg" group-title="English Movies 2026",Pitfall
 http://mhav1.com:2095/movie/ht2990/742579548/284989.mkv
