@@ -5,6 +5,33 @@
 # India
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/212605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India",IN: Sony Sports Ten 1 (Sony Ten 1)
+http://mhav1.com:2095/live/ht2990/742579548/212600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="India",IN: Sony Sports Ten 2 (Sony Ten 2)
+http://mhav1.com:2095/live/ht2990/742579548/212599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India",IN: Sony Sports Ten 3 (Sony Ten 3)
+http://mhav1.com:2095/live/ht2990/742579548/212598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India",IN: Star Sports 1
+http://mhav1.com:2095/live/ht2990/742579548/212597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="India",IN: Star Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/212596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="India",IN: Star Sports 3
+http://mhav1.com:2095/live/ht2990/742579548/212595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="India",IN: Star Sports Select 1
+http://mhav1.com:2095/live/ht2990/742579548/212594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
+http://mhav1.com:2095/live/ht2990/742579548/212593.ts
+
 #EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260701T005037SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
 https://jmp2.uk/stvp-IN1300001NN
 
@@ -41,6 +68,33 @@ https://jmp2.uk/stvp-IN2100015RL
 #EXTINF:-1 tvg-chno="2809" tvg-id="IN3300004EI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3300004EI_20260708T005956SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2809. WedoTV Cars
 https://jmp2.uk/stvp-IN3300004EI
 
+#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/212605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India",IN: Sony Sports Ten 1 (Sony Ten 1)
+http://mhav1.com:2095/live/ht2990/742579548/212600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="India",IN: Sony Sports Ten 2 (Sony Ten 2)
+http://mhav1.com:2095/live/ht2990/742579548/212599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India",IN: Sony Sports Ten 3 (Sony Ten 3)
+http://mhav1.com:2095/live/ht2990/742579548/212598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India",IN: Star Sports 1
+http://mhav1.com:2095/live/ht2990/742579548/212597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="India",IN: Star Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/212596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="India",IN: Star Sports 3
+http://mhav1.com:2095/live/ht2990/742579548/212595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="India",IN: Star Sports Select 1
+http://mhav1.com:2095/live/ht2990/742579548/212594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
+http://mhav1.com:2095/live/ht2990/742579548/212593.ts
+
 
 ################################################################################
 # Afghan
@@ -51,6 +105,250 @@ http://mhav1.com:2095/live/ht2990/742579548/72605.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Afg: RTA Sports" tvg-logo="" group-title="Afghan",Afg: RTA Sports
 http://mhav1.com:2095/live/ht2990/742579548/72605.ts
+
+
+################################################################################
+# Africa
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="AF: CRTV Sports" tvg-logo="" group-title="Africa",AF: CRTV Sports
+http://mhav1.com:2095/live/ht2990/742579548/209185.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="AF: CRTV Sports" tvg-logo="" group-title="Africa",AF: CRTV Sports
+http://mhav1.com:2095/live/ht2990/742579548/209185.ts
+
+
+################################################################################
+# ALBANIA
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 1 FHD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/71713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 3 FHD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/71711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 4" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/71710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 5" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 5
+http://mhav1.com:2095/live/ht2990/742579548/71709.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 6" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 6
+http://mhav1.com:2095/live/ht2990/742579548/71708.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Eurosport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Eurosport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71732.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Eurosport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Eurosport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71731.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox" tvg-logo="" group-title="ALBANIA",[LB]Fox
+http://mhav1.com:2095/live/ht2990/742579548/71937.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Crime" tvg-logo="" group-title="ALBANIA",[LB]Fox Crime
+http://mhav1.com:2095/live/ht2990/742579548/71936.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Life" tvg-logo="" group-title="ALBANIA",[LB]Fox Life
+http://mhav1.com:2095/live/ht2990/742579548/71935.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Movies" tvg-logo="" group-title="ALBANIA",[LB]Fox Movies
+http://mhav1.com:2095/live/ht2990/742579548/71749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71717.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 2" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/71716.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 4 HD" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/71714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]RTSH Sport HD" tvg-logo="" group-title="ALBANIA",[LB]RTSH Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/71962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Aksion" tvg-logo="" group-title="ALBANIA",[LB]Sky Aksion
+http://mhav1.com:2095/live/ht2990/742579548/71756.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Drame" tvg-logo="" group-title="ALBANIA",[LB]Sky Drame
+http://mhav1.com:2095/live/ht2990/742579548/71750.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Histori" tvg-logo="" group-title="ALBANIA",[LB]Sky Histori
+http://mhav1.com:2095/live/ht2990/742579548/71752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Max" tvg-logo="" group-title="ALBANIA",[LB]Sky Max
+http://mhav1.com:2095/live/ht2990/742579548/71754.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Novela" tvg-logo="" group-title="ALBANIA",[LB]Sky Novela
+http://mhav1.com:2095/live/ht2990/742579548/71755.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Planet" tvg-logo="" group-title="ALBANIA",[LB]Sky Planet
+http://mhav1.com:2095/live/ht2990/742579548/71751.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Shkenc" tvg-logo="" group-title="ALBANIA",[LB]Sky Shkenc
+http://mhav1.com:2095/live/ht2990/742579548/71753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Shqip" tvg-logo="" group-title="ALBANIA",[LB]Sky Shqip
+http://mhav1.com:2095/live/ht2990/742579548/71757.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport  4 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport  4 HD
+http://mhav1.com:2095/live/ht2990/742579548/71727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71730.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71729.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71728.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 5 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/71726.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 6 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/71725.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport Kosova 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport Kosova 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71724.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport Kosova 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport Kosova 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71723.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 1" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 1
+http://mhav1.com:2095/live/ht2990/742579548/71721.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 2" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/71720.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71719.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 4" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/71718.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport News" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport News
+http://mhav1.com:2095/live/ht2990/742579548/71722.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]RTSH Sport HD" tvg-logo="" group-title="ALBANIA",[LB]RTSH Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/71962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox" tvg-logo="" group-title="ALBANIA",[LB]Fox
+http://mhav1.com:2095/live/ht2990/742579548/71937.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Crime" tvg-logo="" group-title="ALBANIA",[LB]Fox Crime
+http://mhav1.com:2095/live/ht2990/742579548/71936.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Life" tvg-logo="" group-title="ALBANIA",[LB]Fox Life
+http://mhav1.com:2095/live/ht2990/742579548/71935.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Shqip" tvg-logo="" group-title="ALBANIA",[LB]Sky Shqip
+http://mhav1.com:2095/live/ht2990/742579548/71757.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Aksion" tvg-logo="" group-title="ALBANIA",[LB]Sky Aksion
+http://mhav1.com:2095/live/ht2990/742579548/71756.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Novela" tvg-logo="" group-title="ALBANIA",[LB]Sky Novela
+http://mhav1.com:2095/live/ht2990/742579548/71755.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Max" tvg-logo="" group-title="ALBANIA",[LB]Sky Max
+http://mhav1.com:2095/live/ht2990/742579548/71754.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Shkenc" tvg-logo="" group-title="ALBANIA",[LB]Sky Shkenc
+http://mhav1.com:2095/live/ht2990/742579548/71753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Histori" tvg-logo="" group-title="ALBANIA",[LB]Sky Histori
+http://mhav1.com:2095/live/ht2990/742579548/71752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Planet" tvg-logo="" group-title="ALBANIA",[LB]Sky Planet
+http://mhav1.com:2095/live/ht2990/742579548/71751.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Sky Drame" tvg-logo="" group-title="ALBANIA",[LB]Sky Drame
+http://mhav1.com:2095/live/ht2990/742579548/71750.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Fox Movies" tvg-logo="" group-title="ALBANIA",[LB]Fox Movies
+http://mhav1.com:2095/live/ht2990/742579548/71749.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Eurosport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Eurosport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71732.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Eurosport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Eurosport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71731.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71730.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71729.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71728.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport  4 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport  4 HD
+http://mhav1.com:2095/live/ht2990/742579548/71727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 5 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/71726.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport 6 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/71725.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport Kosova 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport Kosova 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71724.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Super Sport Kosova 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Super Sport Kosova 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71723.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport News" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport News
+http://mhav1.com:2095/live/ht2990/742579548/71722.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 1" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 1
+http://mhav1.com:2095/live/ht2990/742579548/71721.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 2" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/71720.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71719.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Tring Sport 4" tvg-logo="" group-title="ALBANIA",[LB]Tring Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/71718.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 1 HD" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/71717.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 2" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/71716.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 3" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/71715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Kujtesa Sport 4 HD" tvg-logo="" group-title="ALBANIA",[LB]Kujtesa Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/71714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 1 FHD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/71713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 2 HD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/71712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 3 FHD" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/71711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 4" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/71710.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 5" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 5
+http://mhav1.com:2095/live/ht2990/742579548/71709.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[LB]Art Sport 6" tvg-logo="" group-title="ALBANIA",[LB]Art Sport 6
+http://mhav1.com:2095/live/ht2990/742579548/71708.ts
 
 
 ################################################################################
@@ -420,15 +718,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3249.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass 5" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass 5
 http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54576.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54578.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass One
 http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 
@@ -437,6 +726,15 @@ http://mhav1.com:2095/live/ht2990/742579548/4510.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass Fuor
 http://mhav1.com:2095/live/ht2990/742579548/4513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Mouritana Arriadia TV [AR]
 http://mhav1.com:2095/live/ht2990/742579548/5348.ts
@@ -2020,6 +2318,95 @@ http://mhav1.com:2095/live/ht2990/742579548/214705.ts
 
 
 ################################################################################
+# Brazil
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: BET Being Mary Jane" tvg-logo="" group-title="Brazil",BR: BET Being Mary Jane
+http://mhav1.com:2095/live/ht2990/742579548/206297.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Band Sports" tvg-logo="" group-title="Brazil",BR: Band Sports
+http://mhav1.com:2095/live/ht2990/742579548/206296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="Brazil",BR: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/206326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN" tvg-logo="" group-title="Brazil",BR: ESPN
+http://mhav1.com:2095/live/ht2990/742579548/206329.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 2" tvg-logo="" group-title="Brazil",BR: ESPN 2
+http://mhav1.com:2095/live/ht2990/742579548/206330.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 3" tvg-logo="" group-title="Brazil",BR: ESPN 3
+http://mhav1.com:2095/live/ht2990/742579548/206331.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 4" tvg-logo="" group-title="Brazil",BR: ESPN 4
+http://mhav1.com:2095/live/ht2990/742579548/206332.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN Extra" tvg-logo="" group-title="Brazil",BR: ESPN Extra
+http://mhav1.com:2095/live/ht2990/742579548/206333.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Fox Crime" tvg-logo="" group-title="Brazil",BR: Fox Crime
+http://mhav1.com:2095/live/ht2990/742579548/206339.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Fox Life" tvg-logo="" group-title="Brazil",BR: Fox Life
+http://mhav1.com:2095/live/ht2990/742579548/206340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT" tvg-logo="" group-title="Brazil",BR: SBT
+http://mhav1.com:2095/live/ht2990/742579548/206439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV" tvg-logo="" group-title="Brazil",BR: SPORTV
+http://mhav1.com:2095/live/ht2990/742579548/206442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 2" tvg-logo="" group-title="Brazil",BR: SPORTV 2
+http://mhav1.com:2095/live/ht2990/742579548/206443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 3" tvg-logo="" group-title="Brazil",BR: SPORTV 3
+http://mhav1.com:2095/live/ht2990/742579548/206444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Band Sports" tvg-logo="" group-title="Brazil",BR: Band Sports
+http://mhav1.com:2095/live/ht2990/742579548/206296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: BET Being Mary Jane" tvg-logo="" group-title="Brazil",BR: BET Being Mary Jane
+http://mhav1.com:2095/live/ht2990/742579548/206297.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="Brazil",BR: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/206326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN" tvg-logo="" group-title="Brazil",BR: ESPN
+http://mhav1.com:2095/live/ht2990/742579548/206329.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 2" tvg-logo="" group-title="Brazil",BR: ESPN 2
+http://mhav1.com:2095/live/ht2990/742579548/206330.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 3" tvg-logo="" group-title="Brazil",BR: ESPN 3
+http://mhav1.com:2095/live/ht2990/742579548/206331.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN 4" tvg-logo="" group-title="Brazil",BR: ESPN 4
+http://mhav1.com:2095/live/ht2990/742579548/206332.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ESPN Extra" tvg-logo="" group-title="Brazil",BR: ESPN Extra
+http://mhav1.com:2095/live/ht2990/742579548/206333.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Fox Crime" tvg-logo="" group-title="Brazil",BR: Fox Crime
+http://mhav1.com:2095/live/ht2990/742579548/206339.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Fox Life" tvg-logo="" group-title="Brazil",BR: Fox Life
+http://mhav1.com:2095/live/ht2990/742579548/206340.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SBT" tvg-logo="" group-title="Brazil",BR: SBT
+http://mhav1.com:2095/live/ht2990/742579548/206439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV" tvg-logo="" group-title="Brazil",BR: SPORTV
+http://mhav1.com:2095/live/ht2990/742579548/206442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 2" tvg-logo="" group-title="Brazil",BR: SPORTV 2
+http://mhav1.com:2095/live/ht2990/742579548/206443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 3" tvg-logo="" group-title="Brazil",BR: SPORTV 3
+http://mhav1.com:2095/live/ht2990/742579548/206444.ts
+
+
+################################################################################
 # Canada
 ################################################################################
 
@@ -2028,6 +2415,57 @@ http://mhav1.com:2095/live/ht2990/742579548/110425.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport4" tvg-logo="" group-title="Canada",CAN: TSN Sport4
 http://mhav1.com:2095/live/ht2990/742579548/110459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] DISNEY JR HD" tvg-logo="" group-title="Canada",[CA] DISNEY JR HD
+http://mhav1.com:2095/live/ht2990/742579548/57657.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] MSNBC HD" tvg-logo="" group-title="Canada",[CA] MSNBC HD
+http://mhav1.com:2095/live/ht2990/742579548/57473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] NFL Network HD" tvg-logo="" group-title="Canada",[CA] NFL Network HD
+http://mhav1.com:2095/live/ht2990/742579548/57477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SPORTSNET ONTARIO HD" tvg-logo="" group-title="Canada",[CA] SPORTSNET ONTARIO HD
+http://mhav1.com:2095/live/ht2990/742579548/57541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SUPER SPORTS CH 436" tvg-logo="" group-title="Canada",[CA] SUPER SPORTS CH 436
+http://mhav1.com:2095/live/ht2990/742579548/57518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet 360 HD" tvg-logo="" group-title="Canada",[CA] SportsNet 360 HD
+http://mhav1.com:2095/live/ht2990/742579548/57545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet East HD" tvg-logo="" group-title="Canada",[CA] SportsNet East HD
+http://mhav1.com:2095/live/ht2990/742579548/57544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet One HD" tvg-logo="" group-title="Canada",[CA] SportsNet One HD
+http://mhav1.com:2095/live/ht2990/742579548/57542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet Pacific FHD" tvg-logo="" group-title="Canada",[CA] SportsNet Pacific FHD
+http://mhav1.com:2095/live/ht2990/742579548/57540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] Super Sports CH 432" tvg-logo="" group-title="Canada",[CA] Super Sports CH 432
+http://mhav1.com:2095/live/ht2990/742579548/57520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 1 HD" tvg-logo="" group-title="Canada",[CA] TSN 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/57502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 2 HD" tvg-logo="" group-title="Canada",[CA] TSN 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/57501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 3 HD" tvg-logo="" group-title="Canada",[CA] TSN 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/57500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 5 HD" tvg-logo="" group-title="Canada",[CA] TSN 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/57498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TVA Sports" tvg-logo="" group-title="Canada",[CA] TVA Sports
+http://mhav1.com:2095/live/ht2990/742579548/57493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/4441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] beIN Sports HD" tvg-logo="" group-title="Canada",[CA] beIN Sports HD
+http://mhav1.com:2095/live/ht2990/742579548/57744.ts
 
 #EXTINF:-1 tvg-chno="313" tvg-id="CABC2300004A4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300004A4_20260421T140527SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 313. Top Gear
 https://jmp2.uk/stvp-CABC2300004A4
@@ -2137,6 +2575,57 @@ http://mhav1.com:2095/live/ht2990/742579548/110425.ts
 #EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport4" tvg-logo="" group-title="Canada",CAN: TSN Sport4
 http://mhav1.com:2095/live/ht2990/742579548/110459.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[CA] beIN Sports HD" tvg-logo="" group-title="Canada",[CA] beIN Sports HD
+http://mhav1.com:2095/live/ht2990/742579548/57744.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] DISNEY JR HD" tvg-logo="" group-title="Canada",[CA] DISNEY JR HD
+http://mhav1.com:2095/live/ht2990/742579548/57657.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet 360 HD" tvg-logo="" group-title="Canada",[CA] SportsNet 360 HD
+http://mhav1.com:2095/live/ht2990/742579548/57545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet East HD" tvg-logo="" group-title="Canada",[CA] SportsNet East HD
+http://mhav1.com:2095/live/ht2990/742579548/57544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet One HD" tvg-logo="" group-title="Canada",[CA] SportsNet One HD
+http://mhav1.com:2095/live/ht2990/742579548/57542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SPORTSNET ONTARIO HD" tvg-logo="" group-title="Canada",[CA] SPORTSNET ONTARIO HD
+http://mhav1.com:2095/live/ht2990/742579548/57541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SportsNet Pacific FHD" tvg-logo="" group-title="Canada",[CA] SportsNet Pacific FHD
+http://mhav1.com:2095/live/ht2990/742579548/57540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] Super Sports CH 432" tvg-logo="" group-title="Canada",[CA] Super Sports CH 432
+http://mhav1.com:2095/live/ht2990/742579548/57520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] SUPER SPORTS CH 436" tvg-logo="" group-title="Canada",[CA] SUPER SPORTS CH 436
+http://mhav1.com:2095/live/ht2990/742579548/57518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 1 HD" tvg-logo="" group-title="Canada",[CA] TSN 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/57502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 2 HD" tvg-logo="" group-title="Canada",[CA] TSN 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/57501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 3 HD" tvg-logo="" group-title="Canada",[CA] TSN 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/57500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TSN 5 HD" tvg-logo="" group-title="Canada",[CA] TSN 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/57498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] TVA Sports" tvg-logo="" group-title="Canada",[CA] TVA Sports
+http://mhav1.com:2095/live/ht2990/742579548/57493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] NFL Network HD" tvg-logo="" group-title="Canada",[CA] NFL Network HD
+http://mhav1.com:2095/live/ht2990/742579548/57477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] MSNBC HD" tvg-logo="" group-title="Canada",[CA] MSNBC HD
+http://mhav1.com:2095/live/ht2990/742579548/57473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/4441.ts
+
 
 ################################################################################
 # Category 676,3
@@ -2144,6 +2633,404 @@ http://mhav1.com:2095/live/ht2990/742579548/110459.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Category 676,3",SOLO SPORT HDR 4K
 http://mhav1.com:2095/live/ht2990/742579548/288278.ts
+
+
+################################################################################
+# Czech
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]CT Sport FHD" tvg-logo="" group-title="Czech",[CZ]CT Sport FHD
+http://mhav1.com:2095/live/ht2990/742579548/81287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Disney Channel" tvg-logo="" group-title="Czech",[CZ]Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/81291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Eurosport 1 HD" tvg-logo="" group-title="Czech",[CZ]Eurosport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Eurosport 2 HD" tvg-logo="" group-title="Czech",[CZ]Eurosport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81295.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Golf Channel" tvg-logo="" group-title="Czech",[CZ]Golf Channel
+http://mhav1.com:2095/live/ht2990/742579548/81300.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Nova Sport 1 HD" tvg-logo="" group-title="Czech",[CZ]Nova Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81318.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Nova Sport 2 HD" tvg-logo="" group-title="Czech",[CZ]Nova Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81319.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 1 HD" tvg-logo="" group-title="Czech",[CZ]Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81325.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 2 HD" tvg-logo="" group-title="Czech",[CZ]Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 5" tvg-logo="" group-title="Czech",[CZ]Sport 5
+http://mhav1.com:2095/live/ht2990/742579548/81327.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]CT Sport FHD" tvg-logo="" group-title="Czech",[CZ]CT Sport FHD
+http://mhav1.com:2095/live/ht2990/742579548/81287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Disney Channel" tvg-logo="" group-title="Czech",[CZ]Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/81291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Eurosport 1 HD" tvg-logo="" group-title="Czech",[CZ]Eurosport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Eurosport 2 HD" tvg-logo="" group-title="Czech",[CZ]Eurosport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81295.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Golf Channel" tvg-logo="" group-title="Czech",[CZ]Golf Channel
+http://mhav1.com:2095/live/ht2990/742579548/81300.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Nova Sport 1 HD" tvg-logo="" group-title="Czech",[CZ]Nova Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81318.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Nova Sport 2 HD" tvg-logo="" group-title="Czech",[CZ]Nova Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81319.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 1 HD" tvg-logo="" group-title="Czech",[CZ]Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/81325.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 2 HD" tvg-logo="" group-title="Czech",[CZ]Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/81326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[CZ]Sport 5" tvg-logo="" group-title="Czech",[CZ]Sport 5
+http://mhav1.com:2095/live/ht2990/742579548/81327.ts
+
+
+################################################################################
+# Denmark
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK] V Sport Ultra" tvg-logo="" group-title="Denmark",[DK] V Sport Ultra
+http://mhav1.com:2095/live/ht2990/742579548/9000.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="Denmark",[DK]Disney_Channel
+http://mhav1.com:2095/live/ht2990/742579548/9040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="Denmark",[DK]Disney_XD
+http://mhav1.com:2095/live/ht2990/742579548/9039.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV Sport X" tvg-logo="" group-title="Denmark",[DK]TV Sport X
+http://mhav1.com:2095/live/ht2990/742579548/9011.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV2_Sport" tvg-logo="" group-title="Denmark",[DK]TV2_Sport
+http://mhav1.com:2095/live/ht2990/742579548/9016.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV3_SPORT" tvg-logo="" group-title="Denmark",[DK]TV3_SPORT
+http://mhav1.com:2095/live/ht2990/742579548/9012.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Eurosport 1 HD (D)" tvg-logo="" group-title="Denmark",|DK| Eurosport 1 HD (D)
+http://mhav1.com:2095/live/ht2990/742579548/121479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Eurosport 2" tvg-logo="" group-title="Denmark",|DK| Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/121476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Sport Live" tvg-logo="" group-title="Denmark",|DK| Sport Live
+http://mhav1.com:2095/live/ht2990/742579548/121477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| V sport golf HD" tvg-logo="" group-title="Denmark",|DK| V sport golf HD
+http://mhav1.com:2095/live/ht2990/742579548/121475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| V sport golf HD" tvg-logo="" group-title="Denmark",|DK| V sport golf HD
+http://mhav1.com:2095/live/ht2990/742579548/121475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Eurosport 2" tvg-logo="" group-title="Denmark",|DK| Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/121476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Sport Live" tvg-logo="" group-title="Denmark",|DK| Sport Live
+http://mhav1.com:2095/live/ht2990/742579548/121477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Eurosport 1 HD (D)" tvg-logo="" group-title="Denmark",|DK| Eurosport 1 HD (D)
+http://mhav1.com:2095/live/ht2990/742579548/121479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV3_SPORT" tvg-logo="" group-title="Denmark",[DK]TV3_SPORT
+http://mhav1.com:2095/live/ht2990/742579548/9012.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV Sport X" tvg-logo="" group-title="Denmark",[DK]TV Sport X
+http://mhav1.com:2095/live/ht2990/742579548/9011.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]TV2_Sport" tvg-logo="" group-title="Denmark",[DK]TV2_Sport
+http://mhav1.com:2095/live/ht2990/742579548/9016.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="Denmark",[DK]Disney_Channel
+http://mhav1.com:2095/live/ht2990/742579548/9040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="Denmark",[DK]Disney_XD
+http://mhav1.com:2095/live/ht2990/742579548/9039.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK] V Sport Ultra" tvg-logo="" group-title="Denmark",[DK] V Sport Ultra
+http://mhav1.com:2095/live/ht2990/742579548/9000.ts
+
+
+################################################################################
+# ESPAN
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel [ES]" tvg-logo="" group-title="ESPAN",Disney Channel [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="ESPAN",Disney Junior [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="ESPAN",Disney Junior [ES]
+http://mhav1.com:2095/live/ht2990/742579548/122513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD [ES]" tvg-logo="" group-title="ESPAN",Disney XD [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [ES]" tvg-logo="" group-title="ESPAN",EUROSPORT 1 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/4410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [ES]" tvg-logo="" group-title="ESPAN",EUROSPORT 2 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/4409.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX NEW [ES]" tvg-logo="" group-title="ESPAN",FOX NEW [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12417.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[ES]Fox HD" tvg-logo="" group-title="ESPAN",[ES]Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/3311.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[ES]Fox HD" tvg-logo="" group-title="ESPAN",[ES]Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/3311.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1 [ES]" tvg-logo="" group-title="ESPAN",EUROSPORT 1 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/4410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 2 [ES]" tvg-logo="" group-title="ESPAN",EUROSPORT 2 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/4409.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel [ES]" tvg-logo="" group-title="ESPAN",Disney Channel [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="ESPAN",Disney Junior [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD [ES]" tvg-logo="" group-title="ESPAN",Disney XD [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX NEW [ES]" tvg-logo="" group-title="ESPAN",FOX NEW [ES]
+http://mhav1.com:2095/live/ht2990/742579548/12417.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="ESPAN",Disney Junior [ES]
+http://mhav1.com:2095/live/ht2990/742579548/122513.ts
+
+
+################################################################################
+# EXYU
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Crime  HD
+http://mhav1.com:2095/live/ht2990/742579548/72427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 10 HD
+http://mhav1.com:2095/live/ht2990/742579548/72454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 5
+http://mhav1.com:2095/live/ht2990/742579548/72451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
+http://mhav1.com:2095/live/ht2990/742579548/72453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub Golf HD
+http://mhav1.com:2095/live/ht2990/742579548/72452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 4
+http://mhav1.com:2095/live/ht2990/742579548/72596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub Golf
+http://mhav1.com:2095/live/ht2990/742579548/72597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 1
+http://mhav1.com:2095/live/ht2990/742579548/72593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 2
+http://mhav1.com:2095/live/ht2990/742579548/72594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 3
+http://mhav1.com:2095/live/ht2990/742579548/72595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Crime  HD
+http://mhav1.com:2095/live/ht2990/742579548/72427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 5
+http://mhav1.com:2095/live/ht2990/742579548/72451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub Golf HD
+http://mhav1.com:2095/live/ht2990/742579548/72452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
+http://mhav1.com:2095/live/ht2990/742579548/72453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 10 HD
+http://mhav1.com:2095/live/ht2990/742579548/72454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 1
+http://mhav1.com:2095/live/ht2990/742579548/72593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 2
+http://mhav1.com:2095/live/ht2990/742579548/72594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 3
+http://mhav1.com:2095/live/ht2990/742579548/72595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 4
+http://mhav1.com:2095/live/ht2990/742579548/72596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub Golf
+http://mhav1.com:2095/live/ht2990/742579548/72597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72599.ts
 
 
 ################################################################################
@@ -2801,6 +3688,141 @@ http://mhav1.com:2095/live/ht2990/742579548/8573.ts
 #EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [DE]" tvg-logo="" group-title="Germany",DAZN 2 [DE]
 http://mhav1.com:2095/live/ht2990/742579548/8574.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [DE]" tvg-logo="" group-title="Germany",Disney Junior [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney channel [DE]" tvg-logo="" group-title="Germany",Disney channel [DE]
+http://mhav1.com:2095/live/ht2990/742579548/7030.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 [DE]" tvg-logo="" group-title="Germany",Eurosport 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY CINEMA [DE]" tvg-logo="" group-title="Germany",SKY CINEMA [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY Krimi [DE]" tvg-logo="" group-title="Germany",SKY Krimi [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Action HD [DE]" tvg-logo="" group-title="Germany",Sky Cinema Action HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Best Of |DE|" tvg-logo="" group-title="Germany",Sky Cinema Best Of |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Classics [DE]" tvg-logo="" group-title="Germany",Sky Cinema Classics [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9269.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Comedy [DE]" tvg-logo="" group-title="Germany",Sky Cinema Comedy [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Family [DE]" tvg-logo="" group-title="Germany",Sky Cinema Family [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Hits [DE]" tvg-logo="" group-title="Germany",Sky Cinema Hits [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Premieren +24 |DE|" tvg-logo="" group-title="Germany",Sky Cinema Premieren +24 |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Special [DE]" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/7fbdda6752bbcb91ac1c9de323f8603d.png" group-title="Germany",Sky Cinema Special [DE]
+http://mhav1.com:2095/live/ht2990/742579548/63578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Thriller [DE]" tvg-logo="" group-title="Germany",Sky Cinema Thriller [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36775.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Replay |DE|" tvg-logo="" group-title="Germany",Sky Replay |DE|
+http://mhav1.com:2095/live/ht2990/742579548/63580.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 1 [DE]" tvg-logo="" group-title="Germany",Sky Select 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 2[ DE]" tvg-logo="" group-title="Germany",Sky Select 2[ DE]
+http://mhav1.com:2095/live/ht2990/742579548/3290.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 3 [DE]" tvg-logo="" group-title="Germany",Sky Select 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 4 [DE]" tvg-logo="" group-title="Germany",Sky Select 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 5 [DE]" tvg-logo="" group-title="Germany",Sky Select 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 6 [DE]" tvg-logo="" group-title="Germany",Sky Select 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 1 [DE]" tvg-logo="" group-title="Germany",Sky Sport 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9274.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 10 [DE]" tvg-logo="" group-title="Germany",Sky Sport 10 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9275.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 2 [DE]" tvg-logo="" group-title="Germany",Sky Sport 2 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9276.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 3 [DE]" tvg-logo="" group-title="Germany",Sky Sport 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9277.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 4 [DE]" tvg-logo="" group-title="Germany",Sky Sport 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9278.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 5 [DE]" tvg-logo="" group-title="Germany",Sky Sport 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9279.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 6 [DE]" tvg-logo="" group-title="Germany",Sky Sport 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9280.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 7 [DE]" tvg-logo="" group-title="Germany",Sky Sport 7 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9281.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 8 [DE]" tvg-logo="" group-title="Germany",Sky Sport 8 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9282.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 9 [DE]" tvg-logo="" group-title="Germany",Sky Sport 9 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9283.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Austria [DE]" tvg-logo="" group-title="Germany",Sky Sport Austria [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9284.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 1 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9285.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 10 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 10 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 2 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 2 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 3 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 4 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 5 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33769.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 6 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33770.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 7 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 7 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 8 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 8 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 9 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 9 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport News |DE|" tvg-logo="" group-title="Germany",Sky Sport News |DE|
+http://mhav1.com:2095/live/ht2990/742579548/44615.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
+http://mhav1.com:2095/live/ht2990/742579548/9271.ts
+
 #EXTINF:-1 tvg-chno="569" tvg-id="DEBA2200008NL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA2200008NL_20251125T102245SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 569. Tennis Channel Deutschland
 https://jmp2.uk/stvp-DEBA2200008NL
 
@@ -2854,6 +3876,141 @@ http://mhav1.com:2095/live/ht2990/742579548/8573.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [DE]" tvg-logo="" group-title="Germany",DAZN 2 [DE]
 http://mhav1.com:2095/live/ht2990/742579548/8574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport News |DE|" tvg-logo="" group-title="Germany",Sky Sport News |DE|
+http://mhav1.com:2095/live/ht2990/742579548/44615.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY CINEMA [DE]" tvg-logo="" group-title="Germany",SKY CINEMA [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Premieren +24 |DE|" tvg-logo="" group-title="Germany",Sky Cinema Premieren +24 |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Classics [DE]" tvg-logo="" group-title="Germany",Sky Cinema Classics [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9269.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Hits [DE]" tvg-logo="" group-title="Germany",Sky Cinema Hits [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Comedy [DE]" tvg-logo="" group-title="Germany",Sky Cinema Comedy [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Action HD [DE]" tvg-logo="" group-title="Germany",Sky Cinema Action HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Family [DE]" tvg-logo="" group-title="Germany",Sky Cinema Family [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Thriller [DE]" tvg-logo="" group-title="Germany",Sky Cinema Thriller [DE]
+http://mhav1.com:2095/live/ht2990/742579548/36775.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Best Of |DE|" tvg-logo="" group-title="Germany",Sky Cinema Best Of |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Cinema Special [DE]" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/7fbdda6752bbcb91ac1c9de323f8603d.png" group-title="Germany",Sky Cinema Special [DE]
+http://mhav1.com:2095/live/ht2990/742579548/63578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Replay |DE|" tvg-logo="" group-title="Germany",Sky Replay |DE|
+http://mhav1.com:2095/live/ht2990/742579548/63580.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SKY Krimi [DE]" tvg-logo="" group-title="Germany",SKY Krimi [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 1 [DE]" tvg-logo="" group-title="Germany",Sky Select 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 2[ DE]" tvg-logo="" group-title="Germany",Sky Select 2[ DE]
+http://mhav1.com:2095/live/ht2990/742579548/3290.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 3 [DE]" tvg-logo="" group-title="Germany",Sky Select 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 4 [DE]" tvg-logo="" group-title="Germany",Sky Select 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 5 [DE]" tvg-logo="" group-title="Germany",Sky Select 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Select 6 [DE]" tvg-logo="" group-title="Germany",Sky Select 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior [DE]" tvg-logo="" group-title="Germany",Disney Junior [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney channel [DE]" tvg-logo="" group-title="Germany",Disney channel [DE]
+http://mhav1.com:2095/live/ht2990/742579548/7030.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Eurosport 1 [DE]" tvg-logo="" group-title="Germany",Eurosport 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
+http://mhav1.com:2095/live/ht2990/742579548/9271.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Austria [DE]" tvg-logo="" group-title="Germany",Sky Sport Austria [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9284.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 1 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9285.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 2 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 2 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 3 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/3548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 4 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 5 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33769.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 6 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33770.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 7 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 7 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 8 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 8 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 9 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 9 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Bundesliga 10 [DE]" tvg-logo="" group-title="Germany",Sky Sport Bundesliga 10 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/33774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 1 [DE]" tvg-logo="" group-title="Germany",Sky Sport 1 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9274.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 2 [DE]" tvg-logo="" group-title="Germany",Sky Sport 2 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9276.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 3 [DE]" tvg-logo="" group-title="Germany",Sky Sport 3 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9277.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 4 [DE]" tvg-logo="" group-title="Germany",Sky Sport 4 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9278.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 5 [DE]" tvg-logo="" group-title="Germany",Sky Sport 5 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9279.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 6 [DE]" tvg-logo="" group-title="Germany",Sky Sport 6 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9280.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 7 [DE]" tvg-logo="" group-title="Germany",Sky Sport 7 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9281.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 8 [DE]" tvg-logo="" group-title="Germany",Sky Sport 8 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9282.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 9 [DE]" tvg-logo="" group-title="Germany",Sky Sport 9 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9283.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 10 [DE]" tvg-logo="" group-title="Germany",Sky Sport 10 [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9275.ts
 
 
 ################################################################################
@@ -2931,6 +4088,17 @@ http://mhav1.com:2095/live/ht2990/742579548/32308.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[GR] Cosmote Sport Highlights" tvg-logo="" group-title="GREEK",[GR] Cosmote Sport Highlights
 http://mhav1.com:2095/live/ht2990/742579548/32310.ts
+
+
+################################################################################
+# Iran
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="IR: Persiana Sports" tvg-logo="" group-title="Iran",IR: Persiana Sports
+http://mhav1.com:2095/live/ht2990/742579548/223052.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IR: Persiana Sports" tvg-logo="" group-title="Iran",IR: Persiana Sports
+http://mhav1.com:2095/live/ht2990/742579548/223052.ts
 
 
 ################################################################################
@@ -3270,8 +4438,17 @@ http://mhav1.com:2095/live/ht2990/742579548/36759.ts
 # Kids - اطفال
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel [US]" tvg-logo="" group-title="Kids - اطفال",Disney Channel [US]
+http://mhav1.com:2095/live/ht2990/742579548/4952.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior HD [US]" tvg-logo="" group-title="Kids - اطفال",Disney Junior HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4953.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [UK]" tvg-logo="" group-title="Kids - اطفال",Disney Junior [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD [US]" tvg-logo="" group-title="Kids - اطفال",Disney XD [US]
+http://mhav1.com:2095/live/ht2990/742579548/2853.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney_Channel [UK]" tvg-logo="" group-title="Kids - اطفال",Disney_Channel [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2855.ts
@@ -3323,6 +4500,15 @@ http://mhav1.com:2095/live/ht2990/742579548/2855.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [UK]" tvg-logo="" group-title="Kids - اطفال",Disney Junior [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD [US]" tvg-logo="" group-title="Kids - اطفال",Disney XD [US]
+http://mhav1.com:2095/live/ht2990/742579548/2853.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel [US]" tvg-logo="" group-title="Kids - اطفال",Disney Channel [US]
+http://mhav1.com:2095/live/ht2990/742579548/4952.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney Junior HD [US]" tvg-logo="" group-title="Kids - اطفال",Disney Junior HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4953.ts
 
 
 ################################################################################
@@ -3597,6 +4783,66 @@ http://mhav1.com:2095/live/ht2990/742579548/4687.ts
 #EXTINF:-1 tvg-id="" tvg-name="[FR]_RMC_SPORT_3" tvg-logo="" group-title="Live Sport",[FR]_RMC_SPORT_3
 http://mhav1.com:2095/live/ht2990/742579548/4688.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [ES]" tvg-logo="" group-title="Live Sport",DAZN 2 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/27460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [ES]" tvg-logo="" group-title="Live Sport",DAZN 1 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/65727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dazn F1 [IT]" tvg-logo="" group-title="Live Sport",Dazn F1 [IT]
+http://mhav1.com:2095/live/ht2990/742579548/48824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBA League Pass [US]" tvg-logo="" group-title="Live Sport",NBA League Pass [US]
+http://mhav1.com:2095/live/ht2990/742579548/123499.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TENNIS [US]" tvg-logo="" group-title="Live Sport",TENNIS [US]
+http://mhav1.com:2095/live/ht2990/742579548/12342.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Indianna [US]" tvg-logo="" group-title="Live Sport",Bally Sports Indianna [US]
+http://mhav1.com:2095/live/ht2990/742579548/87907.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Ohio [US]" tvg-logo="" group-title="Live Sport",Bally Sports Ohio [US]
+http://mhav1.com:2095/live/ht2990/742579548/87916.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Sun [US]" tvg-logo="" group-title="Live Sport",Bally Sports Sun [US]
+http://mhav1.com:2095/live/ht2990/742579548/87920.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports South West [US]" tvg-logo="" group-title="Live Sport",Bally Sports South West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87919.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports South [US]" tvg-logo="" group-title="Live Sport",Bally Sports South [US]
+http://mhav1.com:2095/live/ht2990/742579548/87918.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Socal [US]" tvg-logo="" group-title="Live Sport",Bally Sports Socal [US]
+http://mhav1.com:2095/live/ht2990/742579548/87917.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports North [US]" tvg-logo="" group-title="Live Sport",Bally Sports North [US]
+http://mhav1.com:2095/live/ht2990/742579548/87915.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports New Orleans [US]" tvg-logo="" group-title="Live Sport",Bally Sports New Orleans [US]
+http://mhav1.com:2095/live/ht2990/742579548/87914.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Florida [US]" tvg-logo="" group-title="Live Sport",Bally Sports Florida [US]
+http://mhav1.com:2095/live/ht2990/742579548/87913.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Detroit [US]" tvg-logo="" group-title="Live Sport",Bally Sports Detroit [US]
+http://mhav1.com:2095/live/ht2990/742579548/87912.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Arizona [US]" tvg-logo="" group-title="Live Sport",Bally Sports Arizona [US]
+http://mhav1.com:2095/live/ht2990/742579548/87911.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports West [US]" tvg-logo="" group-title="Live Sport",Bally Sports West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87910.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Tennessee [US]" tvg-logo="" group-title="Live Sport",Bally Sports Tennessee [US]
+http://mhav1.com:2095/live/ht2990/742579548/87909.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Mid West [US]" tvg-logo="" group-title="Live Sport",Bally Sports Mid West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87908.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 3 | Event Only |" tvg-logo="" group-title="Live Sport",|US-Vip| MLS LIVE 3 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/673.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="SK: RTVS Sport" tvg-logo="" group-title="Live Sport",SK: RTVS Sport
 http://mhav1.com:2095/live/ht2990/742579548/2021.ts
 
@@ -3604,6 +4850,48 @@ http://mhav1.com:2095/live/ht2990/742579548/2021.ts
 ################################################################################
 # Live Sports
 ################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Arizona [US]" tvg-logo="" group-title="Live Sports",Bally Sports Arizona [US]
+http://mhav1.com:2095/live/ht2990/742579548/87911.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Detroit [US]" tvg-logo="" group-title="Live Sports",Bally Sports Detroit [US]
+http://mhav1.com:2095/live/ht2990/742579548/87912.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Florida [US]" tvg-logo="" group-title="Live Sports",Bally Sports Florida [US]
+http://mhav1.com:2095/live/ht2990/742579548/87913.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Indianna [US]" tvg-logo="" group-title="Live Sports",Bally Sports Indianna [US]
+http://mhav1.com:2095/live/ht2990/742579548/87907.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Mid West [US]" tvg-logo="" group-title="Live Sports",Bally Sports Mid West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87908.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports New Orleans [US]" tvg-logo="" group-title="Live Sports",Bally Sports New Orleans [US]
+http://mhav1.com:2095/live/ht2990/742579548/87914.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports North [US]" tvg-logo="" group-title="Live Sports",Bally Sports North [US]
+http://mhav1.com:2095/live/ht2990/742579548/87915.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Ohio [US]" tvg-logo="" group-title="Live Sports",Bally Sports Ohio [US]
+http://mhav1.com:2095/live/ht2990/742579548/87916.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Socal [US]" tvg-logo="" group-title="Live Sports",Bally Sports Socal [US]
+http://mhav1.com:2095/live/ht2990/742579548/87917.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports South West [US]" tvg-logo="" group-title="Live Sports",Bally Sports South West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87919.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports South [US]" tvg-logo="" group-title="Live Sports",Bally Sports South [US]
+http://mhav1.com:2095/live/ht2990/742579548/87918.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Sun [US]" tvg-logo="" group-title="Live Sports",Bally Sports Sun [US]
+http://mhav1.com:2095/live/ht2990/742579548/87920.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports Tennessee [US]" tvg-logo="" group-title="Live Sports",Bally Sports Tennessee [US]
+http://mhav1.com:2095/live/ht2990/742579548/87909.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Bally Sports West [US]" tvg-logo="" group-title="Live Sports",Bally Sports West [US]
+http://mhav1.com:2095/live/ht2990/742579548/87910.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport 2" tvg-logo="" group-title="Live Sports",CAN: TSN Sport 2
 http://mhav1.com:2095/live/ht2990/742579548/110456.ts
@@ -3614,11 +4902,26 @@ http://mhav1.com:2095/live/ht2990/742579548/110458.ts
 #EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport5" tvg-logo="" group-title="Live Sports",CAN: TSN Sport5
 http://mhav1.com:2095/live/ht2990/742579548/110490.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [ES]" tvg-logo="" group-title="Live Sports",DAZN 1 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/65727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [ES]" tvg-logo="" group-title="Live Sports",DAZN 2 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/27460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dazn F1 [IT]" tvg-logo="" group-title="Live Sports",Dazn F1 [IT]
+http://mhav1.com:2095/live/ht2990/742579548/48824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBA League Pass [US]" tvg-logo="" group-title="Live Sports",NBA League Pass [US]
+http://mhav1.com:2095/live/ht2990/742579548/123499.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="SK: RTVS Sport" tvg-logo="" group-title="Live Sports",SK: RTVS Sport
 http://mhav1.com:2095/live/ht2990/742579548/2021.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Tennis [IT]" tvg-logo="" group-title="Live Sports",Sky Sport Tennis [IT]
 http://mhav1.com:2095/live/ht2990/742579548/108803.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TENNIS [US]" tvg-logo="" group-title="Live Sports",TENNIS [US]
+http://mhav1.com:2095/live/ht2990/742579548/12342.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="US: FOX Sport 2" tvg-logo="" group-title="Live Sports",US: FOX Sport 2
 http://mhav1.com:2095/live/ht2990/742579548/110532.ts
@@ -3634,6 +4937,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4688.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[FR]_RMC_SPORT_HD1" tvg-logo="" group-title="Live Sports",[FR]_RMC_SPORT_HD1
 http://mhav1.com:2095/live/ht2990/742579548/4686.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 3 | Event Only |" tvg-logo="" group-title="Live Sports",|US-Vip| MLS LIVE 3 | Event Only |
+http://mhav1.com:2095/live/ht2990/742579548/673.ts
 
 
 ################################################################################
@@ -4765,6 +6071,41 @@ http://mhav1.com:2095/live/ht2990/742579548/13993.ts
 
 
 ################################################################################
+# Philipine
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Philipine",PH: One Sports
+http://mhav1.com:2095/live/ht2990/742579548/224772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Philipine",PH: One Sports +
+http://mhav1.com:2095/live/ht2990/742579548/224771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Philipine",PH: Premier Sports
+http://mhav1.com:2095/live/ht2990/742579548/224768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Philipine",PH: Premier Tennis
+http://mhav1.com:2095/live/ht2990/742579548/224767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Philipine",PH: TAP Sports
+http://mhav1.com:2095/live/ht2990/742579548/224763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Philipine",PH: One Sports
+http://mhav1.com:2095/live/ht2990/742579548/224772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Philipine",PH: One Sports +
+http://mhav1.com:2095/live/ht2990/742579548/224771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Philipine",PH: Premier Sports
+http://mhav1.com:2095/live/ht2990/742579548/224768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Philipine",PH: Premier Tennis
+http://mhav1.com:2095/live/ht2990/742579548/224767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Philipine",PH: TAP Sports
+http://mhav1.com:2095/live/ht2990/742579548/224763.ts
+
+
+################################################################################
 # polish
 ################################################################################
 
@@ -5031,6 +6372,292 @@ http://mhav1.com:2095/live/ht2990/742579548/78306.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PL: Golf Channel" tvg-logo="" group-title="polish",PL: Golf Channel
 http://mhav1.com:2095/live/ht2990/742579548/78305.ts
+
+
+################################################################################
+# Portugal
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/bb84e5b2c79a322326a2f60d6f4c0ca3.svg" group-title="Portugal",PT: DAZN 1
+http://mhav1.com:2095/live/ht2990/742579548/217156.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/dfc7696cb634a5052ac01491897c1146.svg" group-title="Portugal",PT: DAZN 2
+http://mhav1.com:2095/live/ht2990/742579548/217157.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/f63834b991a4979be7f4120275cc8f46.svg" group-title="Portugal",PT: DAZN 3
+http://mhav1.com:2095/live/ht2990/742579548/217158.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 4" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/aa0291eb5bcf5a3df653e7726d462eb9.svg" group-title="Portugal",PT: DAZN 4
+http://mhav1.com:2095/live/ht2990/742579548/217159.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/c5409550875e0e1b4d38c0167efbf339.png" group-title="Portugal",PT: DAZN 5
+http://mhav1.com:2095/live/ht2990/742579548/217160.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 6" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/089df823b4a66ca080d161cdd412ff1b.png" group-title="Portugal",PT: DAZN 6
+http://mhav1.com:2095/live/ht2990/742579548/217161.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY MARVEL" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: DISNEY MARVEL
+http://mhav1.com:2095/live/ht2990/742579548/217260.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY PIXAR" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: DISNEY PIXAR
+http://mhav1.com:2095/live/ht2990/742579548/217261.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8421402691971ea1c41aecab55b6eaba.png" group-title="Portugal",PT: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/217146.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Junior" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/d8e3dffef846a877bebfee531a9a986e.png" group-title="Portugal",PT: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/217147.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney+ Pixar" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="Portugal",PT: Disney+ Pixar
+http://mhav1.com:2095/live/ht2990/742579548/217148.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eurosport 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/e29ab16dd731b9f11938c24282ed403c.png" group-title="Portugal",PT: Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/217164.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eurosport 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/44e7fcd83142484151969cb5ec092f2c.png" group-title="Portugal",PT: Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/217165.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Kombat Sport" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: Kombat Sport
+http://mhav1.com:2095/live/ht2990/742579548/217265.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: NBA TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/4cefd33fa39d9f718ec85aef91a09896.png" group-title="Portugal",PT: NBA TV
+http://mhav1.com:2095/live/ht2990/742579548/217270.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/22ccb6d1c637d9b6a63d83100af972f3.png" group-title="Portugal",PT: SPORT TV +
+http://mhav1.com:2095/live/ht2990/742579548/217167.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/85b1b813eeaec60854f25192a7d9519c.png" group-title="Portugal",PT: SPORT TV 5
+http://mhav1.com:2095/live/ht2990/742579548/217168.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 6" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/adc5a80016d265446beedb25b16f1610.png" group-title="Portugal",PT: SPORT TV 6
+http://mhav1.com:2095/live/ht2990/742579548/217169.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/fb8e8de4a84598487721068559d42f2c.svg" group-title="Portugal",PT: SPORT TV 7
+http://mhav1.com:2095/live/ht2990/742579548/217170.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV NBA" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/45d618d3296d49449610eccddda0f2b3.png" group-title="Portugal",PT: SPORT TV NBA
+http://mhav1.com:2095/live/ht2990/742579548/217171.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT.TV" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: SPORT.TV
+http://mhav1.com:2095/live/ht2990/742579548/217172.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Sporting TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c3a532ff6be1d4a54129e69cbc6ef5b8.png" group-title="Portugal",PT: Sporting TV
+http://mhav1.com:2095/live/ht2990/742579548/217173.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: W-Sport" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/2dddb7bb0a996822ef9e914e36d97dbe.svg" group-title="Portugal",PT: W-Sport
+http://mhav1.com:2095/live/ht2990/742579548/217174.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport TV 4" tvg-logo="" group-title="Portugal",[PO] Sport TV 4
+http://mhav1.com:2095/live/ht2990/742579548/7690.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 1" tvg-logo="" group-title="Portugal",[PO] Sport Tv 1
+http://mhav1.com:2095/live/ht2990/742579548/7687.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 2" tvg-logo="" group-title="Portugal",[PO] Sport Tv 2
+http://mhav1.com:2095/live/ht2990/742579548/7688.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 3" tvg-logo="" group-title="Portugal",[PO] Sport Tv 3
+http://mhav1.com:2095/live/ht2990/742579548/7689.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 1" tvg-logo="" group-title="Portugal",[PO] Sport Tv 1
+http://mhav1.com:2095/live/ht2990/742579548/7687.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 2" tvg-logo="" group-title="Portugal",[PO] Sport Tv 2
+http://mhav1.com:2095/live/ht2990/742579548/7688.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport Tv 3" tvg-logo="" group-title="Portugal",[PO] Sport Tv 3
+http://mhav1.com:2095/live/ht2990/742579548/7689.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[PO] Sport TV 4" tvg-logo="" group-title="Portugal",[PO] Sport TV 4
+http://mhav1.com:2095/live/ht2990/742579548/7690.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/8421402691971ea1c41aecab55b6eaba.png" group-title="Portugal",PT: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/217146.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney Junior" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/d8e3dffef846a877bebfee531a9a986e.png" group-title="Portugal",PT: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/217147.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Disney+ Pixar" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="Portugal",PT: Disney+ Pixar
+http://mhav1.com:2095/live/ht2990/742579548/217148.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/bb84e5b2c79a322326a2f60d6f4c0ca3.svg" group-title="Portugal",PT: DAZN 1
+http://mhav1.com:2095/live/ht2990/742579548/217156.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/dfc7696cb634a5052ac01491897c1146.svg" group-title="Portugal",PT: DAZN 2
+http://mhav1.com:2095/live/ht2990/742579548/217157.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/f63834b991a4979be7f4120275cc8f46.svg" group-title="Portugal",PT: DAZN 3
+http://mhav1.com:2095/live/ht2990/742579548/217158.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 4" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-12/aa0291eb5bcf5a3df653e7726d462eb9.svg" group-title="Portugal",PT: DAZN 4
+http://mhav1.com:2095/live/ht2990/742579548/217159.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/c5409550875e0e1b4d38c0167efbf339.png" group-title="Portugal",PT: DAZN 5
+http://mhav1.com:2095/live/ht2990/742579548/217160.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DAZN 6" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/089df823b4a66ca080d161cdd412ff1b.png" group-title="Portugal",PT: DAZN 6
+http://mhav1.com:2095/live/ht2990/742579548/217161.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eurosport 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/e29ab16dd731b9f11938c24282ed403c.png" group-title="Portugal",PT: Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/217164.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Eurosport 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/44e7fcd83142484151969cb5ec092f2c.png" group-title="Portugal",PT: Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/217165.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/22ccb6d1c637d9b6a63d83100af972f3.png" group-title="Portugal",PT: SPORT TV +
+http://mhav1.com:2095/live/ht2990/742579548/217167.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/85b1b813eeaec60854f25192a7d9519c.png" group-title="Portugal",PT: SPORT TV 5
+http://mhav1.com:2095/live/ht2990/742579548/217168.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 6" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/adc5a80016d265446beedb25b16f1610.png" group-title="Portugal",PT: SPORT TV 6
+http://mhav1.com:2095/live/ht2990/742579548/217169.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV 7" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/fb8e8de4a84598487721068559d42f2c.svg" group-title="Portugal",PT: SPORT TV 7
+http://mhav1.com:2095/live/ht2990/742579548/217170.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT TV NBA" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/45d618d3296d49449610eccddda0f2b3.png" group-title="Portugal",PT: SPORT TV NBA
+http://mhav1.com:2095/live/ht2990/742579548/217171.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: SPORT.TV" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: SPORT.TV
+http://mhav1.com:2095/live/ht2990/742579548/217172.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Sporting TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/c3a532ff6be1d4a54129e69cbc6ef5b8.png" group-title="Portugal",PT: Sporting TV
+http://mhav1.com:2095/live/ht2990/742579548/217173.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: W-Sport" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/2dddb7bb0a996822ef9e914e36d97dbe.svg" group-title="Portugal",PT: W-Sport
+http://mhav1.com:2095/live/ht2990/742579548/217174.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY MARVEL" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: DISNEY MARVEL
+http://mhav1.com:2095/live/ht2990/742579548/217260.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: DISNEY PIXAR" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: DISNEY PIXAR
+http://mhav1.com:2095/live/ht2990/742579548/217261.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: Kombat Sport" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Portugal",PT: Kombat Sport
+http://mhav1.com:2095/live/ht2990/742579548/217265.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PT: NBA TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/4cefd33fa39d9f718ec85aef91a09896.png" group-title="Portugal",PT: NBA TV
+http://mhav1.com:2095/live/ht2990/742579548/217270.ts
+
+
+################################################################################
+# Romania
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Auto Motor Sport" tvg-logo="" group-title="Romania",[Ro]Auto Motor Sport
+http://mhav1.com:2095/live/ht2990/742579548/73904.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 1 HD" tvg-logo="" group-title="Romania",[Ro]Digi Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/73844.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 2 HD" tvg-logo="" group-title="Romania",[Ro]Digi Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/73842.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 3" tvg-logo="" group-title="Romania",[Ro]Digi Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/73843.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 4" tvg-logo="" group-title="Romania",[Ro]Digi Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/73845.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Disney Channel HD" tvg-logo="" group-title="Romania",[Ro]Disney Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/73914.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Disney Junior HD" tvg-logo="" group-title="Romania",[Ro]Disney Junior HD
+http://mhav1.com:2095/live/ht2990/742579548/73915.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Eurosport 1" tvg-logo="" group-title="Romania",[Ro]Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/73851.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Eurosport 2" tvg-logo="" group-title="Romania",[Ro]Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/73852.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Extreme Sport" tvg-logo="" group-title="Romania",[Ro]Extreme Sport
+http://mhav1.com:2095/live/ht2990/742579548/73910.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport 2" tvg-logo="" group-title="Romania",[Ro]Look Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/73856.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport 3 HD" tvg-logo="" group-title="Romania",[Ro]Look Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/73857.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport HD" tvg-logo="" group-title="Romania",[Ro]Look Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/73854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport Plus" tvg-logo="" group-title="Romania",[Ro]Look Sport Plus
+http://mhav1.com:2095/live/ht2990/742579548/73855.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Sport Extra HD" tvg-logo="" group-title="Romania",[Ro]Sport Extra HD
+http://mhav1.com:2095/live/ht2990/742579548/73939.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 1 HD" tvg-logo="" group-title="Romania",[Ro]Telekom sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/73846.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 2" tvg-logo="" group-title="Romania",[Ro]Telekom sport 2
+http://mhav1.com:2095/live/ht2990/742579548/73847.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 3" tvg-logo="" group-title="Romania",[Ro]Telekom sport 3
+http://mhav1.com:2095/live/ht2990/742579548/73849.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 4" tvg-logo="" group-title="Romania",[Ro]Telekom sport 4
+http://mhav1.com:2095/live/ht2990/742579548/73850.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 2 HD" tvg-logo="" group-title="Romania",[Ro]Digi Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/73842.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 3" tvg-logo="" group-title="Romania",[Ro]Digi Sport 3
+http://mhav1.com:2095/live/ht2990/742579548/73843.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 1 HD" tvg-logo="" group-title="Romania",[Ro]Digi Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/73844.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Digi Sport 4" tvg-logo="" group-title="Romania",[Ro]Digi Sport 4
+http://mhav1.com:2095/live/ht2990/742579548/73845.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 1 HD" tvg-logo="" group-title="Romania",[Ro]Telekom sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/73846.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 2" tvg-logo="" group-title="Romania",[Ro]Telekom sport 2
+http://mhav1.com:2095/live/ht2990/742579548/73847.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 3" tvg-logo="" group-title="Romania",[Ro]Telekom sport 3
+http://mhav1.com:2095/live/ht2990/742579548/73849.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Telekom sport 4" tvg-logo="" group-title="Romania",[Ro]Telekom sport 4
+http://mhav1.com:2095/live/ht2990/742579548/73850.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Eurosport 1" tvg-logo="" group-title="Romania",[Ro]Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/73851.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Eurosport 2" tvg-logo="" group-title="Romania",[Ro]Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/73852.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport HD" tvg-logo="" group-title="Romania",[Ro]Look Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/73854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport Plus" tvg-logo="" group-title="Romania",[Ro]Look Sport Plus
+http://mhav1.com:2095/live/ht2990/742579548/73855.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport 2" tvg-logo="" group-title="Romania",[Ro]Look Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/73856.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Look Sport 3 HD" tvg-logo="" group-title="Romania",[Ro]Look Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/73857.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Auto Motor Sport" tvg-logo="" group-title="Romania",[Ro]Auto Motor Sport
+http://mhav1.com:2095/live/ht2990/742579548/73904.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Extreme Sport" tvg-logo="" group-title="Romania",[Ro]Extreme Sport
+http://mhav1.com:2095/live/ht2990/742579548/73910.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Disney Channel HD" tvg-logo="" group-title="Romania",[Ro]Disney Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/73914.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Disney Junior HD" tvg-logo="" group-title="Romania",[Ro]Disney Junior HD
+http://mhav1.com:2095/live/ht2990/742579548/73915.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Ro]Sport Extra HD" tvg-logo="" group-title="Romania",[Ro]Sport Extra HD
+http://mhav1.com:2095/live/ht2990/742579548/73939.ts
 
 
 ################################################################################
@@ -5474,6 +7101,107 @@ http://mhav1.com:2095/live/ht2990/742579548/4509.ts
 
 
 ################################################################################
+# Sweden
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Channel" tvg-logo="" group-title="Sweden",SE: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/209522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Junior" tvg-logo="" group-title="Sweden",SE: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/209523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Eurosport 1" tvg-logo="" group-title="Sweden",SE: Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/209543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Eurosport 2" tvg-logo="" group-title="Sweden",SE: Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/209544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sport Live 1/C More Sport 1" tvg-logo="" group-title="Sweden",SE: TV4 Sport Live 1/C More Sport 1
+http://mhav1.com:2095/live/ht2990/742579548/209549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sport Live 2/C More Sport 2" tvg-logo="" group-title="Sweden",SE: TV4 Sport Live 2/C More Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/209550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sportkanalen" tvg-logo="" group-title="Sweden",SE: TV4 Sportkanalen
+http://mhav1.com:2095/live/ht2990/742579548/209551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Tennis" tvg-logo="" group-title="Sweden",SE: TV4 Tennis
+http://mhav1.com:2095/live/ht2990/742579548/209552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Extra" tvg-logo="" group-title="Sweden",SE: V Sport Extra
+http://mhav1.com:2095/live/ht2990/742579548/209554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Football" tvg-logo="" group-title="Sweden",SE: V Sport Football
+http://mhav1.com:2095/live/ht2990/742579548/209535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Golf" tvg-logo="" group-title="Sweden",SE: V Sport Golf
+http://mhav1.com:2095/live/ht2990/742579548/209555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Motor" tvg-logo="" group-title="Sweden",SE: V Sport Motor
+http://mhav1.com:2095/live/ht2990/742579548/209556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Premium" tvg-logo="" group-title="Sweden",SE: V Sport Premium
+http://mhav1.com:2095/live/ht2990/742579548/209557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Ultra" tvg-logo="" group-title="Sweden",SE: V Sport Ultra
+http://mhav1.com:2095/live/ht2990/742579548/209558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Vinter" tvg-logo="" group-title="Sweden",SE: V Sport Vinter
+http://mhav1.com:2095/live/ht2990/742579548/209559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V sport 1" tvg-logo="" group-title="Sweden",SE: V sport 1
+http://mhav1.com:2095/live/ht2990/742579548/209553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Channel" tvg-logo="" group-title="Sweden",SE: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/209522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Disney Junior" tvg-logo="" group-title="Sweden",SE: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/209523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Football" tvg-logo="" group-title="Sweden",SE: V Sport Football
+http://mhav1.com:2095/live/ht2990/742579548/209535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Eurosport 1" tvg-logo="" group-title="Sweden",SE: Eurosport 1
+http://mhav1.com:2095/live/ht2990/742579548/209543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: Eurosport 2" tvg-logo="" group-title="Sweden",SE: Eurosport 2
+http://mhav1.com:2095/live/ht2990/742579548/209544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sport Live 1/C More Sport 1" tvg-logo="" group-title="Sweden",SE: TV4 Sport Live 1/C More Sport 1
+http://mhav1.com:2095/live/ht2990/742579548/209549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sport Live 2/C More Sport 2" tvg-logo="" group-title="Sweden",SE: TV4 Sport Live 2/C More Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/209550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Sportkanalen" tvg-logo="" group-title="Sweden",SE: TV4 Sportkanalen
+http://mhav1.com:2095/live/ht2990/742579548/209551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: TV4 Tennis" tvg-logo="" group-title="Sweden",SE: TV4 Tennis
+http://mhav1.com:2095/live/ht2990/742579548/209552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V sport 1" tvg-logo="" group-title="Sweden",SE: V sport 1
+http://mhav1.com:2095/live/ht2990/742579548/209553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Extra" tvg-logo="" group-title="Sweden",SE: V Sport Extra
+http://mhav1.com:2095/live/ht2990/742579548/209554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Golf" tvg-logo="" group-title="Sweden",SE: V Sport Golf
+http://mhav1.com:2095/live/ht2990/742579548/209555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Motor" tvg-logo="" group-title="Sweden",SE: V Sport Motor
+http://mhav1.com:2095/live/ht2990/742579548/209556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Premium" tvg-logo="" group-title="Sweden",SE: V Sport Premium
+http://mhav1.com:2095/live/ht2990/742579548/209557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Ultra" tvg-logo="" group-title="Sweden",SE: V Sport Ultra
+http://mhav1.com:2095/live/ht2990/742579548/209558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Vinter" tvg-logo="" group-title="Sweden",SE: V Sport Vinter
+http://mhav1.com:2095/live/ht2990/742579548/209559.ts
+
+
+################################################################################
 # Switzerland
 ################################################################################
 
@@ -5717,6 +7445,27 @@ http://mhav1.com:2095/live/ht2990/742579548/4597.ts
 # Turkish
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="BEIN BOX OFFICE 2 [TR]" tvg-logo="" group-title="Turkish",BEIN BOX OFFICE 2 [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SERIES COMEDY HD [TR]" tvg-logo="" group-title="Turkish",BEIN SERIES COMEDY HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4163.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SERIES VICE [TR]" tvg-logo="" group-title="Turkish",BEIN SERIES VICE [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4153.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Movies Premiere [TR]" tvg-logo="" group-title="Turkish",BeIN Movies Premiere [TR]
+http://mhav1.com:2095/live/ht2990/742579548/3995.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 1 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 1 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4466.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 2 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 2 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 3 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 3 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4464.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="BeIN_SPORTS_1_HD [TR]" tvg-logo="" group-title="Turkish",BeIN_SPORTS_1_HD [TR]
 http://mhav1.com:2095/live/ht2990/742579548/31047.ts
 
@@ -5729,6 +7478,15 @@ http://mhav1.com:2095/live/ht2990/742579548/31049.ts
 #EXTINF:-1 tvg-id="" tvg-name="BeIN_SPORTS_4_HD [TR]" tvg-logo="" group-title="Turkish",BeIN_SPORTS_4_HD [TR]
 http://mhav1.com:2095/live/ht2990/742579548/31050.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Sports TV [TR]" tvg-logo="" group-title="Turkish",Sports TV [TR]
+http://mhav1.com:2095/live/ht2990/742579548/121192.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN Movies Stars [TR]" tvg-logo="" group-title="Turkish",beIN Movies Stars [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4002.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Haber [TR]" tvg-logo="" group-title="Turkish",beIN Sports Haber [TR]
+http://mhav1.com:2095/live/ht2990/742579548/65341.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="BeIN_SPORTS_1_HD [TR]" tvg-logo="" group-title="Turkish",BeIN_SPORTS_1_HD [TR]
 http://mhav1.com:2095/live/ht2990/742579548/31047.ts
 
@@ -5740,6 +7498,36 @@ http://mhav1.com:2095/live/ht2990/742579548/31049.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="BeIN_SPORTS_4_HD [TR]" tvg-logo="" group-title="Turkish",BeIN_SPORTS_4_HD [TR]
 http://mhav1.com:2095/live/ht2990/742579548/31050.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sports TV [TR]" tvg-logo="" group-title="Turkish",Sports TV [TR]
+http://mhav1.com:2095/live/ht2990/742579548/121192.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 1 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 1 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4466.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 2 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 2 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN SPORTS 3 HD [TR]" tvg-logo="" group-title="Turkish",BeIN SPORTS 3 HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4464.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Haber [TR]" tvg-logo="" group-title="Turkish",beIN Sports Haber [TR]
+http://mhav1.com:2095/live/ht2990/742579548/65341.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN BOX OFFICE 2 [TR]" tvg-logo="" group-title="Turkish",BEIN BOX OFFICE 2 [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SERIES VICE [TR]" tvg-logo="" group-title="Turkish",BEIN SERIES VICE [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4153.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Movies Premiere [TR]" tvg-logo="" group-title="Turkish",BeIN Movies Premiere [TR]
+http://mhav1.com:2095/live/ht2990/742579548/3995.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN Movies Stars [TR]" tvg-logo="" group-title="Turkish",beIN Movies Stars [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4002.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SERIES COMEDY HD [TR]" tvg-logo="" group-title="Turkish",BEIN SERIES COMEDY HD [TR]
+http://mhav1.com:2095/live/ht2990/742579548/4163.ts
 
 
 ################################################################################
@@ -5863,6 +7651,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2546.ts
 #EXTINF:-1 tvg-id="" tvg-name="TNT Sport 4 HD|UK|" tvg-logo="" group-title="U K",TNT Sport 4 HD|UK|
 http://mhav1.com:2095/live/ht2990/742579548/123422.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="TNT Sports 4 [UK]" tvg-logo="" group-title="U K",TNT Sports 4 [UK]
+http://mhav1.com:2095/live/ht2990/742579548/4460.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="|UK| FreeSports HD 1080P" tvg-logo="" group-title="U K",|UK| FreeSports HD 1080P
 http://mhav1.com:2095/live/ht2990/742579548/123417.ts
 
@@ -5986,16 +7777,307 @@ http://mhav1.com:2095/live/ht2990/742579548/123485.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports Racing [UK]" tvg-logo="" group-title="U K",Sky Sports Racing [UK]
 http://mhav1.com:2095/live/ht2990/742579548/136602.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="TNT Sports 4 [UK]" tvg-logo="" group-title="U K",TNT Sports 4 [UK]
+http://mhav1.com:2095/live/ht2990/742579548/4460.ts
+
 
 ################################################################################
 # U S A
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="FOX Sport 1 [US]" tvg-logo="" group-title="U S A",FOX Sport 1 [US]
-http://mhav1.com:2095/live/ht2990/742579548/110491.ts
+#EXTINF:-1 tvg-id="" tvg-name="BTN 2 [US]" tvg-logo="" group-title="U S A",BTN 2 [US]
+http://mhav1.com:2095/live/ht2990/742579548/157158.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BTN [US]" tvg-logo="" group-title="U S A",BTN [US]
+http://mhav1.com:2095/live/ht2990/742579548/4242.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 4 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 4 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 5 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 5 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 6 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 6 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 7 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 7 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 8 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 8 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBS Sports Network [US]" tvg-logo="" group-title="U S A",CBS Sports Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/111558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBSN Bay Area [US]" tvg-logo="" group-title="U S A",CBSN Bay Area [US]
+http://mhav1.com:2095/live/ht2990/742579548/136682.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBSN Boston [US]" tvg-logo="" group-title="U S A",CBSN Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/5002.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD HD [US]" tvg-logo="" group-title="U S A",Disney XD HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4955.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ESPN U [US]" tvg-logo="" group-title="U S A",ESPN U [US]
+http://mhav1.com:2095/live/ht2990/742579548/12375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Espn News [US]" tvg-logo="" group-title="U S A",Espn News [US]
+http://mhav1.com:2095/live/ht2990/742579548/12376.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX 5 NEW YORK [US]" tvg-logo="" group-title="U S A",FOX 5 NEW YORK [US]
+http://mhav1.com:2095/live/ht2990/742579548/12345.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX Boston [US]" tvg-logo="" group-title="U S A",FOX Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/5451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX SPORT 1 [US]" tvg-logo="" group-title="U S A",FOX SPORT 1 [US]
+http://mhav1.com:2095/live/ht2990/742579548/4092.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="FOX Sport 1 [US]" tvg-logo="" group-title="U S A",FOX Sport 1 [US]
 http://mhav1.com:2095/live/ht2990/742579548/110491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Business[US]" tvg-logo="" group-title="U S A",Fox Business[US]
+http://mhav1.com:2095/live/ht2990/742579548/20964.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox News HD [US]" tvg-logo="" group-title="U S A",Fox News HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/12353.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox News Now [US]" tvg-logo="" group-title="U S A",Fox News Now [US]
+http://mhav1.com:2095/live/ht2990/742579548/5011.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Soccer Plus HD[US]" tvg-logo="" group-title="U S A",Fox Soccer Plus HD[US]
+http://mhav1.com:2095/live/ht2990/742579548/68435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Sports 2 [US]" tvg-logo="" group-title="U S A",Fox Sports 2 [US]
+http://mhav1.com:2095/live/ht2990/742579548/4093.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox [US]" tvg-logo="" group-title="U S A",Fox [US]
+http://mhav1.com:2095/live/ht2990/742579548/256131.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox_Sports_Ohio [US]" tvg-logo="" group-title="U S A",Fox_Sports_Ohio [US]
+http://mhav1.com:2095/live/ht2990/742579548/12344.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MLB Network [US]" tvg-logo="" group-title="U S A",MLB Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/6653.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MSNBC [US]" tvg-logo="" group-title="U S A",MSNBC [US]
+http://mhav1.com:2095/live/ht2990/742579548/14116.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBA HD" tvg-logo="" group-title="U S A",NBA HD
+http://mhav1.com:2095/live/ht2990/742579548/57151.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Golf Channel[US]" tvg-logo="" group-title="U S A",NBC Golf Channel[US]
+http://mhav1.com:2095/live/ht2990/742579548/4944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Bay Area [US]" tvg-logo="" group-title="U S A",NBC Sports Bay Area [US]
+http://mhav1.com:2095/live/ht2990/742579548/12369.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Boston [US]" tvg-logo="" group-title="U S A",NBC Sports Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/12368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Northwest [US]" tvg-logo="" group-title="U S A",NBC Sports Northwest [US]
+http://mhav1.com:2095/live/ht2990/742579548/6654.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Washington [US]" tvg-logo="" group-title="U S A",NBC Sports Washington [US]
+http://mhav1.com:2095/live/ht2990/742579548/12364.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBCSN (North West) [US]" tvg-logo="" group-title="U S A",NBCSN (North West) [US]
+http://mhav1.com:2095/live/ht2990/742579548/12365.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NESN [US]" tvg-logo="" group-title="U S A",NESN [US]
+http://mhav1.com:2095/live/ht2990/742579548/12385.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NFL Network HD [US]" tvg-logo="" group-title="U S A",NFL Network HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/5010.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NFL Red Zone HD [US]" tvg-logo="" group-title="U S A",NFL Red Zone HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/118516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Spectrum SportsNet Lakers" tvg-logo="" group-title="U S A",Spectrum SportsNet Lakers
+http://mhav1.com:2095/live/ht2990/742579548/168126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Spectrum SportsNet [US]" tvg-logo="" group-title="U S A",Spectrum SportsNet [US]
+http://mhav1.com:2095/live/ht2990/742579548/156160.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 1[US]" tvg-logo="" group-title="U S A",TSN 1[US]
+http://mhav1.com:2095/live/ht2990/742579548/4091.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 2[US]" tvg-logo="" group-title="U S A",TSN 2[US]
+http://mhav1.com:2095/live/ht2990/742579548/22480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 3[US]" tvg-logo="" group-title="U S A",TSN 3[US]
+http://mhav1.com:2095/live/ht2990/742579548/22481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 4[US]" tvg-logo="" group-title="U S A",TSN 4[US]
+http://mhav1.com:2095/live/ht2990/742579548/22482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 5[US]" tvg-logo="" group-title="U S A",TSN 5[US]
+http://mhav1.com:2095/live/ht2990/742579548/22483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="UFC Sport  1 HD [US]" tvg-logo="" group-title="U S A",UFC Sport  1 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/71447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="WWE Network [US]" tvg-logo="" group-title="U S A",WWE Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/5018.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="WWEHD [US]" tvg-logo="" group-title="U S A",WWEHD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4933.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]Bein_Sports_HD" tvg-logo="" group-title="U S A",[US]Bein_Sports_HD
+http://mhav1.com:2095/live/ht2990/742579548/5007.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]ESPN_1HD" tvg-logo="" group-title="U S A",[US]ESPN_1HD
+http://mhav1.com:2095/live/ht2990/742579548/6655.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]ESPN_2HD" tvg-logo="" group-title="U S A",[US]ESPN_2HD
+http://mhav1.com:2095/live/ht2990/742579548/6656.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX Sport 1 [US]" tvg-logo="" group-title="U S A",FOX Sport 1 [US]
+http://mhav1.com:2095/live/ht2990/742579548/110491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Espn News [US]" tvg-logo="" group-title="U S A",Espn News [US]
+http://mhav1.com:2095/live/ht2990/742579548/12376.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MSNBC [US]" tvg-logo="" group-title="U S A",MSNBC [US]
+http://mhav1.com:2095/live/ht2990/742579548/14116.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox News HD [US]" tvg-logo="" group-title="U S A",Fox News HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/12353.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox News Now [US]" tvg-logo="" group-title="U S A",Fox News Now [US]
+http://mhav1.com:2095/live/ht2990/742579548/5011.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX 5 NEW YORK [US]" tvg-logo="" group-title="U S A",FOX 5 NEW YORK [US]
+http://mhav1.com:2095/live/ht2990/742579548/12345.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Soccer Plus HD[US]" tvg-logo="" group-title="U S A",Fox Soccer Plus HD[US]
+http://mhav1.com:2095/live/ht2990/742579548/68435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBSN Boston [US]" tvg-logo="" group-title="U S A",CBSN Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/5002.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BTN 2 [US]" tvg-logo="" group-title="U S A",BTN 2 [US]
+http://mhav1.com:2095/live/ht2990/742579548/157158.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BTN [US]" tvg-logo="" group-title="U S A",BTN [US]
+http://mhav1.com:2095/live/ht2990/742579548/4242.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Boston [US]" tvg-logo="" group-title="U S A",NBC Sports Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/12368.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Bay Area [US]" tvg-logo="" group-title="U S A",NBC Sports Bay Area [US]
+http://mhav1.com:2095/live/ht2990/742579548/12369.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox_Sports_Ohio [US]" tvg-logo="" group-title="U S A",Fox_Sports_Ohio [US]
+http://mhav1.com:2095/live/ht2990/742579548/12344.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Washington [US]" tvg-logo="" group-title="U S A",NBC Sports Washington [US]
+http://mhav1.com:2095/live/ht2990/742579548/12364.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBCSN (North West) [US]" tvg-logo="" group-title="U S A",NBCSN (North West) [US]
+http://mhav1.com:2095/live/ht2990/742579548/12365.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 8 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 8 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 7 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 7 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 6 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 6 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 5 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 5 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sports 4 HD [US]" tvg-logo="" group-title="U S A",BeIN Sports 4 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/68445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Disney XD HD [US]" tvg-logo="" group-title="U S A",Disney XD HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4955.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MLB Network [US]" tvg-logo="" group-title="U S A",MLB Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/6653.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Sports Northwest [US]" tvg-logo="" group-title="U S A",NBC Sports Northwest [US]
+http://mhav1.com:2095/live/ht2990/742579548/6654.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]ESPN_1HD" tvg-logo="" group-title="U S A",[US]ESPN_1HD
+http://mhav1.com:2095/live/ht2990/742579548/6655.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]ESPN_2HD" tvg-logo="" group-title="U S A",[US]ESPN_2HD
+http://mhav1.com:2095/live/ht2990/742579548/6656.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ESPN U [US]" tvg-logo="" group-title="U S A",ESPN U [US]
+http://mhav1.com:2095/live/ht2990/742579548/12375.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBC Golf Channel[US]" tvg-logo="" group-title="U S A",NBC Golf Channel[US]
+http://mhav1.com:2095/live/ht2990/742579548/4944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 1[US]" tvg-logo="" group-title="U S A",TSN 1[US]
+http://mhav1.com:2095/live/ht2990/742579548/4091.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX SPORT 1 [US]" tvg-logo="" group-title="U S A",FOX SPORT 1 [US]
+http://mhav1.com:2095/live/ht2990/742579548/4092.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Sports 2 [US]" tvg-logo="" group-title="U S A",Fox Sports 2 [US]
+http://mhav1.com:2095/live/ht2990/742579548/4093.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[US]Bein_Sports_HD" tvg-logo="" group-title="U S A",[US]Bein_Sports_HD
+http://mhav1.com:2095/live/ht2990/742579548/5007.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="WWEHD [US]" tvg-logo="" group-title="U S A",WWEHD [US]
+http://mhav1.com:2095/live/ht2990/742579548/4933.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="WWE Network [US]" tvg-logo="" group-title="U S A",WWE Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/5018.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NFL Network HD [US]" tvg-logo="" group-title="U S A",NFL Network HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/5010.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 2[US]" tvg-logo="" group-title="U S A",TSN 2[US]
+http://mhav1.com:2095/live/ht2990/742579548/22480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 3[US]" tvg-logo="" group-title="U S A",TSN 3[US]
+http://mhav1.com:2095/live/ht2990/742579548/22481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 4[US]" tvg-logo="" group-title="U S A",TSN 4[US]
+http://mhav1.com:2095/live/ht2990/742579548/22482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TSN 5[US]" tvg-logo="" group-title="U S A",TSN 5[US]
+http://mhav1.com:2095/live/ht2990/742579548/22483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox Business[US]" tvg-logo="" group-title="U S A",Fox Business[US]
+http://mhav1.com:2095/live/ht2990/742579548/20964.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NFL Red Zone HD [US]" tvg-logo="" group-title="U S A",NFL Red Zone HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/118516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBS Sports Network [US]" tvg-logo="" group-title="U S A",CBS Sports Network [US]
+http://mhav1.com:2095/live/ht2990/742579548/111558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="UFC Sport  1 HD [US]" tvg-logo="" group-title="U S A",UFC Sport  1 HD [US]
+http://mhav1.com:2095/live/ht2990/742579548/71447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="FOX Boston [US]" tvg-logo="" group-title="U S A",FOX Boston [US]
+http://mhav1.com:2095/live/ht2990/742579548/5451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NBA HD" tvg-logo="" group-title="U S A",NBA HD
+http://mhav1.com:2095/live/ht2990/742579548/57151.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Spectrum SportsNet [US]" tvg-logo="" group-title="U S A",Spectrum SportsNet [US]
+http://mhav1.com:2095/live/ht2990/742579548/156160.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Spectrum SportsNet Lakers" tvg-logo="" group-title="U S A",Spectrum SportsNet Lakers
+http://mhav1.com:2095/live/ht2990/742579548/168126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CBSN Bay Area [US]" tvg-logo="" group-title="U S A",CBSN Bay Area [US]
+http://mhav1.com:2095/live/ht2990/742579548/136682.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NESN [US]" tvg-logo="" group-title="U S A",NESN [US]
+http://mhav1.com:2095/live/ht2990/742579548/12385.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fox [US]" tvg-logo="" group-title="U S A",Fox [US]
+http://mhav1.com:2095/live/ht2990/742579548/256131.ts
 
 
 ################################################################################
@@ -6328,8 +8410,140 @@ http://mhav1.com:2095/live/ht2990/742579548/123270.ts
 # Y E S
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 HD" tvg-logo="" group-title="Y E S",Yes Sport 5 HD
-http://mhav1.com:2095/live/ht2990/742579548/229821.ts
+#EXTINF:-1 tvg-id="" tvg-name="Yes 5SPORT HD" tvg-logo="" group-title="Y E S",Yes 5SPORT HD
+http://mhav1.com:2095/live/ht2990/742579548/229763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Disney Channel HD" tvg-logo="" group-title="Y E S",Yes Disney Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/229753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Disney Junior" tvg-logo="" group-title="Y E S",Yes Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/229834.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes DisneyJunior" tvg-logo="" group-title="Y E S",Yes DisneyJunior
+http://mhav1.com:2095/live/ht2990/742579548/229752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes EuroSport 1 HD" tvg-logo="" group-title="Y E S",Yes EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/229748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes EuroSport 2 HD" tvg-logo="" group-title="Y E S",Yes EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/229747.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Eurosport HD" tvg-logo="" group-title="Y E S",Yes Eurosport HD
+http://mhav1.com:2095/live/ht2990/742579548/229783.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Extreme Sports" tvg-logo="" group-title="Y E S",Yes Extreme Sports
+http://mhav1.com:2095/live/ht2990/742579548/229835.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes One 1 Sport HD" tvg-logo="" group-title="Y E S",Yes One 1 Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/229816.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sky News" tvg-logo="" group-title="Y E S",Yes Sky News
+http://mhav1.com:2095/live/ht2990/742579548/229778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 1 FHD" tvg-logo="" group-title="Y E S",Yes Sport 1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229825.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 1 HD" tvg-logo="" group-title="Y E S",Yes Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/229714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 2 FHD" tvg-logo="" group-title="Y E S",Yes Sport 2 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 2 HD" tvg-logo="" group-title="Y E S",Yes Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/229824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 3 FHD" tvg-logo="" group-title="Y E S",Yes Sport 3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229823.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 3 HD" tvg-logo="" group-title="Y E S",Yes Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/229712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 4 FHD" tvg-logo="" group-title="Y E S",Yes Sport 4 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229822.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 4 HD" tvg-logo="" group-title="Y E S",Yes Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/229711.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Gold" tvg-logo="" group-title="Y E S",Yes Sport 5 Gold
+http://mhav1.com:2095/live/ht2990/742579548/229817.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 HD" tvg-logo="" group-title="Y E S",Yes Sport 5 HD
 http://mhav1.com:2095/live/ht2990/742579548/229821.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Live HD [ Live Match ]" tvg-logo="" group-title="Y E S",Yes Sport 5 Live HD [ Live Match ]
+http://mhav1.com:2095/live/ht2990/742579548/229820.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Plus" tvg-logo="" group-title="Y E S",Yes Sport 5 Plus
+http://mhav1.com:2095/live/ht2990/742579548/229819.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Stars HD" tvg-logo="" group-title="Y E S",Yes Sport 5 Stars HD
+http://mhav1.com:2095/live/ht2990/742579548/229818.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 HD" tvg-logo="" group-title="Y E S",Yes Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/229821.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 1 FHD" tvg-logo="" group-title="Y E S",Yes Sport 1 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229825.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 2 HD" tvg-logo="" group-title="Y E S",Yes Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/229824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 3 FHD" tvg-logo="" group-title="Y E S",Yes Sport 3 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229823.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 4 FHD" tvg-logo="" group-title="Y E S",Yes Sport 4 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229822.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Live HD [ Live Match ]" tvg-logo="" group-title="Y E S",Yes Sport 5 Live HD [ Live Match ]
+http://mhav1.com:2095/live/ht2990/742579548/229820.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Plus" tvg-logo="" group-title="Y E S",Yes Sport 5 Plus
+http://mhav1.com:2095/live/ht2990/742579548/229819.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Stars HD" tvg-logo="" group-title="Y E S",Yes Sport 5 Stars HD
+http://mhav1.com:2095/live/ht2990/742579548/229818.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 5 Gold" tvg-logo="" group-title="Y E S",Yes Sport 5 Gold
+http://mhav1.com:2095/live/ht2990/742579548/229817.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes One 1 Sport HD" tvg-logo="" group-title="Y E S",Yes One 1 Sport HD
+http://mhav1.com:2095/live/ht2990/742579548/229816.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Extreme Sports" tvg-logo="" group-title="Y E S",Yes Extreme Sports
+http://mhav1.com:2095/live/ht2990/742579548/229835.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Disney Junior" tvg-logo="" group-title="Y E S",Yes Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/229834.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Eurosport HD" tvg-logo="" group-title="Y E S",Yes Eurosport HD
+http://mhav1.com:2095/live/ht2990/742579548/229783.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sky News" tvg-logo="" group-title="Y E S",Yes Sky News
+http://mhav1.com:2095/live/ht2990/742579548/229778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes 5SPORT HD" tvg-logo="" group-title="Y E S",Yes 5SPORT HD
+http://mhav1.com:2095/live/ht2990/742579548/229763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Disney Channel HD" tvg-logo="" group-title="Y E S",Yes Disney Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/229753.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes DisneyJunior" tvg-logo="" group-title="Y E S",Yes DisneyJunior
+http://mhav1.com:2095/live/ht2990/742579548/229752.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes EuroSport 1 HD" tvg-logo="" group-title="Y E S",Yes EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/229748.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes EuroSport 2 HD" tvg-logo="" group-title="Y E S",Yes EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/229747.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 1 HD" tvg-logo="" group-title="Y E S",Yes Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/229714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 2 FHD" tvg-logo="" group-title="Y E S",Yes Sport 2 FHD
+http://mhav1.com:2095/live/ht2990/742579548/229713.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 3 HD" tvg-logo="" group-title="Y E S",Yes Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/229712.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yes Sport 4 HD" tvg-logo="" group-title="Y E S",Yes Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/229711.ts
