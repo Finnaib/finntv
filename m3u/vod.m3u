@@ -36500,9 +36500,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/17735.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Operation Mayfair" tvg-logo="http://images.vega-xt-mh.com:80/images/riHtNCga1E2jGyZuWI6jxuGNWVh_big.jpg" group-title="English Thriller",Operation Mayfair
 http://mhav1.com:2095/movie/ht2990/742579548/100213.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Operation Napoleon" tvg-logo="http://images.vega-xt-mh.com:80/images/j2Or0w69bpPXrmkE0hpTzw6hzsr_big.jpg" group-title="English Thriller",Operation Napoleon
-http://mhav1.com:2095/movie/ht2990/742579548/113902.mkv
-
 #EXTINF:-1 tvg-id="" tvg-name="Operation Seawolf" tvg-logo="http://images.vega-xt-mh.com:80/images/xd6aO5CANwgG9iZfs1rXjXabbc6_big.jpg" group-title="English Thriller",Operation Seawolf
 http://mhav1.com:2095/movie/ht2990/742579548/79788.mkv
 
@@ -53741,6 +53738,12 @@ http://mhav1.com:2095/movie/ht2990/742579548/284790.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Spider-Man: Brand New Day (CAM)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iPOn6DinuVyLY17YM9mKuPofV08.jpg" group-title="تصوير سينما",Spider-Man: Brand New Day (CAM)
 http://mhav1.com:2095/movie/ht2990/742579548/290428.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="The Brink of War CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/hFborW6HmffKL05GIWlkTFdvVpN_big.jpg" group-title="تصوير سينما",The Brink of War CAM
+http://mhav1.com:2095/movie/ht2990/742579548/292564.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The End of Oak Street CAM" tvg-logo="http://images.vega-xt-mh.com:80/images/fYXqpgPmHMphSF2W30GbTeJVIa5_big.jpg" group-title="تصوير سينما",The End of Oak Street CAM
+http://mhav1.com:2095/movie/ht2990/742579548/292565.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Titisan Genderuwo" tvg-logo="http://images.vega-xt-mh.com:80/images/vyH5RMJCIN45E3ZpT8fhyXzcK1k_big.jpg" group-title="تصوير سينما",Titisan Genderuwo
 http://mhav1.com:2095/movie/ht2990/742579548/199540.mkv
 
@@ -54691,6 +54694,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/191201.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ملخص ليفربول و مانشيستر سيتى" tvg-logo="https://i.ibb.co/PMThnvP/Liver.jpg" group-title="رياضه",ملخص ليفربول و مانشيستر سيتى
 http://mhav1.com:2095/movie/ht2990/742579548/138671.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="ملخص مباراة طرابزون سبور وباشاك شهير" tvg-logo="https://i.ibb.co/nsN84Tnf/Trab.jpg" group-title="رياضه",ملخص مباراة طرابزون سبور وباشاك شهير
+http://mhav1.com:2095/movie/ht2990/742579548/292581.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="ميلان و سلافيا براغ" tvg-logo="https://i.ibb.co/9yqNy7k/Milan.jpg" group-title="رياضه",ميلان و سلافيا براغ
 http://mhav1.com:2095/movie/ht2990/742579548/138405.mkv
