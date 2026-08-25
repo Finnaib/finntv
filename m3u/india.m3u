@@ -1738,6 +1738,9 @@ http://mhav1.com:2095/live/ht2990/742579548/121391.ts
 #EXTINF:-1 tvg-id="" tvg-name="Urdu 1 [PK]" tvg-logo="" group-title="Pakistan",Urdu 1 [PK]
 http://mhav1.com:2095/live/ht2990/742579548/121408.ts
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/R4KtTbJ.jpg" group-title="Pakistan",ARY News
+https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Fpn8VU7.png" group-title="Pakistan",PTV News (1080p)
 http://103.250.28.74:8000/play/a017/index.m3u8
 
