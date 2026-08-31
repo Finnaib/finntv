@@ -1795,19 +1795,16 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 http://103.159.180.34:5001/live/625.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Bangladesh",Star Sports 1
-https://cdn8.zohanayaan.com:1686/hls/star1in.m3u8?md5=0vXtB5IIvgUpVGeqR_uvlQ&expires=1788189917
+https://cdn2.zohanayaan.com:1686/hls/star1in.m3u8?md5=uUEi2mLczbYxQBx7FqbvRg&expires=1788211242
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Bangladesh",Star Sports 1 Hindi
-https://cdn8.zohanayaan.com:1686/hls/starhindi.m3u8?md5=CrbMDEOEdRVCGJyS_mzevw&expires=1788189917
+https://cdn5.zohanayaan.com:1686/hls/starhindi.m3u8?md5=kUwX0sNy6UnOcpdW0mK57g&expires=1788211242
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Bangladesh",PTV Sports
-https://cdn6.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=ytJzFuc5dcFxPrCQsssQKg&expires=1788189917
+https://cdn10.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=BPgsd9SdSLtCbujYEoY52A&expires=1788211242
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png" group-title="Bangladesh",Sony Sports3
-https://cdn5.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=Hi0CCly6ZAMLjsqDaOgEeg&expires=1788189936
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports 1 HD
-http://66.102.126.10:8000/play/a009/index.m3u8
+https://cdn4.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=Va-P66lq6vpIqU5rfBG3yg&expires=1788211248
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png" group-title="Bangladesh",---Live(PTV Sports)---
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018
@@ -2543,16 +2540,16 @@ http://mhav1.com:2095/live/ht2990/742579548/212592.ts
 http://mhav1.com:2095/live/ht2990/742579548/4718.ts
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="CRICKET",Willow HD
-https://cdn6.zohanayaan.com:1686/hls/willowusa.m3u8?md5=g9lPM0Q8Klw-BKuzHaFlbw&expires=1788189918
+https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=JvbjgzBMD9OVKTCQuuUrgQ&expires=1788211242
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png" group-title="CRICKET",Willow HD 2
-https://cdn10.zohanayaan.com:1686/hls/willowextra.m3u8?md5=ugWrGUe6BsPMPScgjGgbPA&expires=1788189919
+https://cdn2.zohanayaan.com:1686/hls/willowextra.m3u8?md5=zyGUKNYsBxQ8AvypZT9M0w&expires=1788211242
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="CRICKET",Sky Sports Cricket
-https://cdn10.zohanayaan.com:1686/hls/skyscric.m3u8?md5=WE1GT61eu2OuicwIDLWKxA&expires=1788189920
+https://cdn2.zohanayaan.com:1686/hls/skyscric.m3u8?md5=ExjQjvG9Mbq3EHoQOEh4jQ&expires=1788211243
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png" group-title="CRICKET",Astro Cricket
-https://cdn6.zohanayaan.com:1686/hls/fox501.m3u8?md5=-KWPxN-saMoj2f9nzXG15w&expires=1788189933
+https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=_CcKTSQ7gh336WSSDI6gRw&expires=1788211247
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788" group-title="CRICKET",Willow TV
 https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa
