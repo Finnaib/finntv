@@ -1162,6 +1162,12 @@ http://mhav1.com:2095/live/ht2990/742579548/284747.ts
 # beIN Movies - بي ان الترفهيه
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",BeIn Box Office 1
+http://mhav1.com:2095/live/ht2990/742579548/4142.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",BeIn Box Office 2
+http://mhav1.com:2095/live/ht2990/742579548/4144.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts
 
@@ -1419,6 +1425,12 @@ http://mhav1.com:2095/live/ht2990/742579548/20440.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",BeIn Box Office 1
+http://mhav1.com:2095/live/ht2990/742579548/4142.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies - بي ان الترفهيه",BeIn Box Office 2
+http://mhav1.com:2095/live/ht2990/742579548/4144.ts
 
 
 ################################################################################
