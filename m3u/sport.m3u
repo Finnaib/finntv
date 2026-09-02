@@ -5,33 +5,6 @@
 # India
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
-http://mhav1.com:2095/live/ht2990/742579548/212605.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India",IN: Sony Sports Ten 1 (Sony Ten 1)
-http://mhav1.com:2095/live/ht2990/742579548/212600.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="India",IN: Sony Sports Ten 2 (Sony Ten 2)
-http://mhav1.com:2095/live/ht2990/742579548/212599.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India",IN: Sony Sports Ten 3 (Sony Ten 3)
-http://mhav1.com:2095/live/ht2990/742579548/212598.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India",IN: Star Sports 1
-http://mhav1.com:2095/live/ht2990/742579548/212597.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="India",IN: Star Sports 2
-http://mhav1.com:2095/live/ht2990/742579548/212596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="India",IN: Star Sports 3
-http://mhav1.com:2095/live/ht2990/742579548/212595.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="India",IN: Star Sports Select 1
-http://mhav1.com:2095/live/ht2990/742579548/212594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
-http://mhav1.com:2095/live/ht2990/742579548/212593.ts
-
 #EXTINF:-1 tvg-chno="1162" tvg-id="IN1300001NN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1300001NN_20260701T005037SQUARE.png" tvg-country="IN" group-title="India",[Sports] 1162. Cricket Gold
 https://jmp2.uk/stvp-IN1300001NN
 
@@ -67,33 +40,6 @@ https://jmp2.uk/stvp-IN2100015RL
 
 #EXTINF:-1 tvg-chno="2809" tvg-id="IN3300004EI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3300004EI_20260708T005956SQUARE.png" tvg-country="IN" group-title="India",[Sports] 2809. WedoTV Cars
 https://jmp2.uk/stvp-IN3300004EI
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="India",IN: Disney Channel
-http://mhav1.com:2095/live/ht2990/742579548/212605.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India",IN: Sony Sports Ten 1 (Sony Ten 1)
-http://mhav1.com:2095/live/ht2990/742579548/212600.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="India",IN: Sony Sports Ten 2 (Sony Ten 2)
-http://mhav1.com:2095/live/ht2990/742579548/212599.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India",IN: Sony Sports Ten 3 (Sony Ten 3)
-http://mhav1.com:2095/live/ht2990/742579548/212598.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India",IN: Star Sports 1
-http://mhav1.com:2095/live/ht2990/742579548/212597.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="India",IN: Star Sports 2
-http://mhav1.com:2095/live/ht2990/742579548/212596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="India",IN: Star Sports 3
-http://mhav1.com:2095/live/ht2990/742579548/212595.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="India",IN: Star Sports Select 1
-http://mhav1.com:2095/live/ht2990/742579548/212594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India",IN: Star Sports Select 2
-http://mhav1.com:2095/live/ht2990/742579548/212593.ts
 
 
 ################################################################################
@@ -2628,6 +2574,168 @@ http://mhav1.com:2095/live/ht2990/742579548/4441.ts
 
 
 ################################################################################
+# Category 35
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Arena Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Fox Crime  HD
+http://mhav1.com:2095/live/ht2990/742579548/72427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 10 HD
+http://mhav1.com:2095/live/ht2990/742579548/72454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 5
+http://mhav1.com:2095/live/ht2990/742579548/72451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
+http://mhav1.com:2095/live/ht2990/742579548/72453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="Category 35",Ex-Yu | Hr: Sport Klub Golf HD
+http://mhav1.com:2095/live/ht2990/742579548/72452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Fox Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub 4
+http://mhav1.com:2095/live/ht2990/742579548/72596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub Golf
+http://mhav1.com:2095/live/ht2990/742579548/72597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub HD 1
+http://mhav1.com:2095/live/ht2990/742579548/72593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub HD 2
+http://mhav1.com:2095/live/ht2990/742579548/72594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="Category 35",Ex-Yu | Srb: Sport Klub HD 3
+http://mhav1.com:2095/live/ht2990/742579548/72595.ts
+
+
+################################################################################
+# Category 37
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="Category 37",IN: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/212605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="Category 37",IN: Sony Sports Ten 1 (Sony Ten 1)
+http://mhav1.com:2095/live/ht2990/742579548/212600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="Category 37",IN: Sony Sports Ten 2 (Sony Ten 2)
+http://mhav1.com:2095/live/ht2990/742579548/212599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="Category 37",IN: Sony Sports Ten 3 (Sony Ten 3)
+http://mhav1.com:2095/live/ht2990/742579548/212598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="Category 37",IN: Star Sports 1
+http://mhav1.com:2095/live/ht2990/742579548/212597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="Category 37",IN: Star Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/212596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="Category 37",IN: Star Sports 3
+http://mhav1.com:2095/live/ht2990/742579548/212595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="Category 37",IN: Star Sports Select 1
+http://mhav1.com:2095/live/ht2990/742579548/212594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="Category 37",IN: Star Sports Select 2
+http://mhav1.com:2095/live/ht2990/742579548/212593.ts
+
+
+################################################################################
+# Category 619
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Category 619",PH: One Sports
+http://mhav1.com:2095/live/ht2990/742579548/224772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Category 619",PH: One Sports +
+http://mhav1.com:2095/live/ht2990/742579548/224771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Category 619",PH: Premier Sports
+http://mhav1.com:2095/live/ht2990/742579548/224768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Category 619",PH: Premier Tennis
+http://mhav1.com:2095/live/ht2990/742579548/224767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Category 619",PH: TAP Sports
+http://mhav1.com:2095/live/ht2990/742579548/224763.ts
+
+
+################################################################################
 # Category 676,3
 ################################################################################
 
@@ -2819,221 +2927,6 @@ http://mhav1.com:2095/live/ht2990/742579548/122513.ts
 
 
 ################################################################################
-# EXYU
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72441.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72442.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72443.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72444.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 5 HD
-http://mhav1.com:2095/live/ht2990/742579548/72445.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 6 HD
-http://mhav1.com:2095/live/ht2990/742579548/72446.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Crime  HD
-http://mhav1.com:2095/live/ht2990/742579548/72427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox HD
-http://mhav1.com:2095/live/ht2990/742579548/72424.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Life HD
-http://mhav1.com:2095/live/ht2990/742579548/72426.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Movies HD
-http://mhav1.com:2095/live/ht2990/742579548/72425.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72447.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 10 HD
-http://mhav1.com:2095/live/ht2990/742579548/72454.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72448.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 5
-http://mhav1.com:2095/live/ht2990/742579548/72451.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
-http://mhav1.com:2095/live/ht2990/742579548/72453.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub Golf HD
-http://mhav1.com:2095/live/ht2990/742579548/72452.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72585.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72586.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72587.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72588.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 5 HD
-http://mhav1.com:2095/live/ht2990/742579548/72589.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72598.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72599.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Crime HD
-http://mhav1.com:2095/live/ht2990/742579548/72541.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox HD
-http://mhav1.com:2095/live/ht2990/742579548/72528.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Life HD
-http://mhav1.com:2095/live/ht2990/742579548/72542.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Movies HD
-http://mhav1.com:2095/live/ht2990/742579548/72543.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 4
-http://mhav1.com:2095/live/ht2990/742579548/72596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 6 HD
-http://mhav1.com:2095/live/ht2990/742579548/72557.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub Golf
-http://mhav1.com:2095/live/ht2990/742579548/72597.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 1
-http://mhav1.com:2095/live/ht2990/742579548/72593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 2
-http://mhav1.com:2095/live/ht2990/742579548/72594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 3
-http://mhav1.com:2095/live/ht2990/742579548/72595.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 5 HD
-http://mhav1.com:2095/live/ht2990/742579548/72445.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox HD
-http://mhav1.com:2095/live/ht2990/742579548/72424.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Movies HD
-http://mhav1.com:2095/live/ht2990/742579548/72425.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Life HD
-http://mhav1.com:2095/live/ht2990/742579548/72426.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Crime  HD
-http://mhav1.com:2095/live/ht2990/742579548/72427.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72441.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72442.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72443.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72444.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 6 HD
-http://mhav1.com:2095/live/ht2990/742579548/72446.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72447.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72448.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 5
-http://mhav1.com:2095/live/ht2990/742579548/72451.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub Golf HD
-http://mhav1.com:2095/live/ht2990/742579548/72452.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
-http://mhav1.com:2095/live/ht2990/742579548/72453.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 10 HD
-http://mhav1.com:2095/live/ht2990/742579548/72454.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox HD
-http://mhav1.com:2095/live/ht2990/742579548/72528.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Crime HD
-http://mhav1.com:2095/live/ht2990/742579548/72541.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Life HD
-http://mhav1.com:2095/live/ht2990/742579548/72542.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Movies HD
-http://mhav1.com:2095/live/ht2990/742579548/72543.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 6 HD
-http://mhav1.com:2095/live/ht2990/742579548/72557.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72585.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72586.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 3 HD
-http://mhav1.com:2095/live/ht2990/742579548/72587.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 4 HD
-http://mhav1.com:2095/live/ht2990/742579548/72588.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 5 HD
-http://mhav1.com:2095/live/ht2990/742579548/72589.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 1
-http://mhav1.com:2095/live/ht2990/742579548/72593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 2
-http://mhav1.com:2095/live/ht2990/742579548/72594.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 3
-http://mhav1.com:2095/live/ht2990/742579548/72595.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 4
-http://mhav1.com:2095/live/ht2990/742579548/72596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub Golf
-http://mhav1.com:2095/live/ht2990/742579548/72597.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/72598.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 2 HD
-http://mhav1.com:2095/live/ht2990/742579548/72599.ts
-
-
-################################################################################
 # France
 ################################################################################
 
@@ -3052,7 +2945,7 @@ https://jmp2.uk/stvp-FRBD3600001BQ
 #EXTINF:-1 tvg-chno="822" tvg-id="FRBD2900001M3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD2900001M3_20241015T040416SQUARE.png" tvg-country="FR" group-title="France",[Sports] 822. World Poker Tour
 https://jmp2.uk/stvp-FRBD2900001M3
 
-#EXTINF:-1 tvg-chno="1867" tvg-id="FR5000002SW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR5000002SW_20260505T035849SQUARE.png" tvg-country="FR" group-title="France",[Sports] 1867. Tennis Channel
+#EXTINF:-1 tvg-chno="1867" tvg-id="FR5000002SW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR5000002SW_20260901T054532SQUARE.png" tvg-country="FR" group-title="France",[Sports] 1867. Tennis Channel
 https://jmp2.uk/stvp-FR5000002SW
 
 #EXTINF:-1 tvg-chno="2028" tvg-id="FR200016Y5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR200016Y5_20250422T103213SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2028. L'Equipe
@@ -4188,7 +4081,7 @@ https://jmp2.uk/stvp-IT2900003UK
 #EXTINF:-1 tvg-chno="2527" tvg-id="IT510000124" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT510000124_20260120T044623SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2527. Rally.TV FAST+
 https://jmp2.uk/stvp-IT510000124
 
-#EXTINF:-1 tvg-chno="2538" tvg-id="IT800003V4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT800003V4_20260818T051133SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2538. SuperTennis
+#EXTINF:-1 tvg-chno="2538" tvg-id="IT800003V4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT800003V4_20260901T054907SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2538. SuperTennis
 https://jmp2.uk/stvp-IT800003V4
 
 #EXTINF:-1 tvg-chno="2761" tvg-id="IT16000070D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT16000070D_20260528T053649SQUARE.png" tvg-country="IT" group-title="Italy",[Sport] 2761. Sportface
@@ -6068,41 +5961,6 @@ http://mhav1.com:2095/live/ht2990/742579548/13993.ts
 
 
 ################################################################################
-# Philipine
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Philipine",PH: One Sports
-http://mhav1.com:2095/live/ht2990/742579548/224772.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Philipine",PH: One Sports +
-http://mhav1.com:2095/live/ht2990/742579548/224771.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Philipine",PH: Premier Sports
-http://mhav1.com:2095/live/ht2990/742579548/224768.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Philipine",PH: Premier Tennis
-http://mhav1.com:2095/live/ht2990/742579548/224767.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Philipine",PH: TAP Sports
-http://mhav1.com:2095/live/ht2990/742579548/224763.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Philipine",PH: One Sports
-http://mhav1.com:2095/live/ht2990/742579548/224772.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Philipine",PH: One Sports +
-http://mhav1.com:2095/live/ht2990/742579548/224771.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Philipine",PH: Premier Sports
-http://mhav1.com:2095/live/ht2990/742579548/224768.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Philipine",PH: Premier Tennis
-http://mhav1.com:2095/live/ht2990/742579548/224767.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Philipine",PH: TAP Sports
-http://mhav1.com:2095/live/ht2990/742579548/224763.ts
-
-
-################################################################################
 # polish
 ################################################################################
 
@@ -7032,6 +6890,153 @@ https://jmp2.uk/stvp-ES31000013F
 
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT HDR 4K" tvg-logo="" group-title="Sports",SOLO SPORT HDR 4K
 http://mhav1.com:2095/live/ht2990/742579548/288278.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Sports",PH: One Sports
+http://mhav1.com:2095/live/ht2990/742579548/224772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Sports",PH: One Sports +
+http://mhav1.com:2095/live/ht2990/742579548/224771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Sports",PH: Premier Sports
+http://mhav1.com:2095/live/ht2990/742579548/224768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Sports",PH: Premier Tennis
+http://mhav1.com:2095/live/ht2990/742579548/224767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Sports",PH: TAP Sports
+http://mhav1.com:2095/live/ht2990/742579548/224763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Disney Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e3681e2dc4800213e1c2c4142afe6108.png" group-title="Sports",IN: Disney Channel
+http://mhav1.com:2095/live/ht2990/742579548/212605.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1 (Sony Ten 1)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="Sports",IN: Sony Sports Ten 1 (Sony Ten 1)
+http://mhav1.com:2095/live/ht2990/742579548/212600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 2 (Sony Ten 2)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/66d71926201b36679fa69b5ad6fa8a7a.png" group-title="Sports",IN: Sony Sports Ten 2 (Sony Ten 2)
+http://mhav1.com:2095/live/ht2990/742579548/212599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3 (Sony Ten 3)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="Sports",IN: Sony Sports Ten 3 (Sony Ten 3)
+http://mhav1.com:2095/live/ht2990/742579548/212598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="Sports",IN: Star Sports 1
+http://mhav1.com:2095/live/ht2990/742579548/212597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8d83db120afcaa7b2d4ef5422fb3ace5.png" group-title="Sports",IN: Star Sports 2
+http://mhav1.com:2095/live/ht2990/742579548/212596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cb6f86b5373ecc7840bd3b57967f37bc.png" group-title="Sports",IN: Star Sports 3
+http://mhav1.com:2095/live/ht2990/742579548/212595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2d7119865b2ca6df10a38de08a4d6644.png" group-title="Sports",IN: Star Sports Select 1
+http://mhav1.com:2095/live/ht2990/742579548/212594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="Sports",IN: Star Sports Select 2
+http://mhav1.com:2095/live/ht2990/742579548/212593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Fox Crime  HD
+http://mhav1.com:2095/live/ht2990/742579548/72427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Arena Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 5
+http://mhav1.com:2095/live/ht2990/742579548/72451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub Golf HD
+http://mhav1.com:2095/live/ht2990/742579548/72452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
+http://mhav1.com:2095/live/ht2990/742579548/72453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="Sports",Ex-Yu | Hr: Sport Klub 10 HD
+http://mhav1.com:2095/live/ht2990/742579548/72454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Fox Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub HD 1
+http://mhav1.com:2095/live/ht2990/742579548/72593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub HD 2
+http://mhav1.com:2095/live/ht2990/742579548/72594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub HD 3
+http://mhav1.com:2095/live/ht2990/742579548/72595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub 4
+http://mhav1.com:2095/live/ht2990/742579548/72596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="Sports",Ex-Yu | Srb: Sport Klub Golf
+http://mhav1.com:2095/live/ht2990/742579548/72597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="Sports",Ex-Yu | Srb: EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72599.ts
 
 
 ################################################################################
