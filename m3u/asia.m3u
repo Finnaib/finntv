@@ -183,10 +183,10 @@ http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN纪录
-https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+https://0472.org/hls/cgtnd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN纪录
-https://0472.org/hls/cgtnd.m3u8
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
