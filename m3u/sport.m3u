@@ -3088,6 +3088,12 @@ https://jmp2.uk/stvp-FR900002B4
 #EXTINF:-1 tvg-chno="2867" tvg-id="FR1700004PK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1700004PK_20260818T050835SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2867. Red Bull TV
 https://jmp2.uk/stvp-FR1700004PK
 
+#EXTINF:-1 tvg-chno="2877" tvg-id="FR1300004LY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1300004LY_20260901T054540SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2877. Tennis+
+https://jmp2.uk/stvp-FR1300004LY
+
+#EXTINF:-1 tvg-chno="2878" tvg-id="FR2000005YM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2000005YM_20260901T054500SQUARE.png" tvg-country="FR" group-title="France",[Sports] 2878. Journal du Golf TV
+https://jmp2.uk/stvp-FR2000005YM
+
 
 ################################################################################
 # France فرنسى
@@ -8172,6 +8178,9 @@ https://jmp2.uk/stvp-GB4700003NV
 
 #EXTINF:-1 tvg-chno="2857" tvg-id="GB2000016YM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2000016YM_20260811T045355SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Sport] 2857. Your Sports News
 https://jmp2.uk/stvp-GB2000016YM
+
+#EXTINF:-1 tvg-chno="2886" tvg-id="GB1500003S4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500003S4_20260901T102446SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Sport] 2886. Golf Life
+https://jmp2.uk/stvp-GB1500003S4
 
 
 ################################################################################
