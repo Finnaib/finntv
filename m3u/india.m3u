@@ -671,20 +671,23 @@ https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_WE/images/LOGO_HD/image.png" group-title="INDIA",Kairali We (576p)
 https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Max (576p) [Geo-blocked]
-http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Max (1080p)
+https://cloudplay-sonyliv.pages.dev/max.m3u8
 
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s179440_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Max 1 (720p)
 http://103.159.180.34:5001/live/3418.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="INDIA",Sony Max 2 (576p)
-http://149.71.34.166:8000/play/a00z/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="INDIA",Sony Max 2 (1080p)
+https://cloudplay-sonyliv.pages.dev/max2.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="INDIA",Sony Pix HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Max HD (1080p)
+https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="INDIA",Sony Wah (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="INDIA",Sony Pix HD (1080p)
+https://cloudplay-sonyliv.pages.dev/pixhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="INDIA",Sony Wah (1080p)
+https://cloudplay-sonyliv.pages.dev/wah.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="INDIA",Star Gold 2 (576p)
 http://66.102.126.10:8000/play/a00g/index.m3u8
@@ -779,17 +782,20 @@ https://cdn-7.pishow.tv/live/1129/master.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png" group-title="INDIA",Raj TV (1080p)
 https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png" group-title="INDIA",Sony Aath (576p)
-http://103.165.93.31:8095/sonyAath/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png" group-title="INDIA",Sony Aath (1080p)
+https://cloudplay-sonyliv.pages.dev/aath.m3u8
 
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Entertainment Television HD (1080p)
 http://38.96.178.205/SONYHD/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" group-title="INDIA",Sony Marathi (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MARATHI/images/LOGO_HD/image.png" group-title="INDIA",Sony Marathi (1080p)
+https://cloudplay-sonyliv.pages.dev/marathi.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png" group-title="INDIA",Sony Pal (576p)
-http://59.103.38.46:8000/play/a0ac/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png" group-title="INDIA",Sony Pal (1080p)
+https://cloudplay-sonyliv.pages.dev/pal.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="INDIA",Sony SAB HD (1080p)
+https://cloudplay-sonyliv.pages.dev/sabhd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="INDIA",Star Jalsha (576p) [Geo-blocked]
 http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV
@@ -851,6 +857,36 @@ https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540" group-title="INDIA",Zee Business (720p)
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 1 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 1 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 2 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 2 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten2hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="INDIA",Sony Sports Ten 3 Hindi (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="INDIA",Sony Sports Ten 3 Hindi HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025T4PV.png?lock=720x540" group-title="INDIA",Sony Sports Ten 4 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s149166_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Sports Ten 4 Telugu (1080p)
+https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 5 (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5.m3u8
+
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 5 HD (1080p)
+https://cloudplay-sonyliv.pages.dev/ten5hd.m3u8
+
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" group-title="INDIA",Star Sports 1 Hindi (576p)
 http://103.253.18.58:8000/play/a03o
 
@@ -871,6 +907,9 @@ http://tvsen7.aynascope.net/sspts1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FtRT73R.png" group-title="INDIA",Star Sports Select 2 HD (720p)
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony BBC Earth HD (1080p)
+https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_Comedy.png" group-title="INDIA",ETV Comedy (1080p)
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
@@ -2689,9 +2728,6 @@ https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EFDsCkH.png" group-title="Documentary",Epic Crimes (1080p)
 https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540" group-title="Documentary",History TV18 (576p)
-http://103.72.101.252:8080/live/1471.m3u8
-
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="Documentary",History TV18 HD (1080p)
 http://103.154.3.101:5001/live/577.m3u8
 
@@ -3306,45 +3342,6 @@ http://mhav1.com:2095/live/ht2990/742579548/153470.ts
 #EXTINF:-1 tvg-id="" tvg-name="4kids [DZ]" tvg-logo="" group-title="KIDS",4kids [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5356.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="KIDS",BR: Baby TV
-http://mhav1.com:2095/live/ht2990/742579548/206293.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="KIDS",BR: Cartoon Network
-http://mhav1.com:2095/live/ht2990/742579548/206305.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="KIDS",BR: Cartoonito
-http://mhav1.com:2095/live/ht2990/742579548/206306.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="KIDS",BR: Discovery Kids
-http://mhav1.com:2095/live/ht2990/742579548/206321.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="KIDS",BR: Disney Junior
-http://mhav1.com:2095/live/ht2990/742579548/206326.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Classico" tvg-logo="" group-title="KIDS",BR: Nick Classico
-http://mhav1.com:2095/live/ht2990/742579548/206402.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior" tvg-logo="" group-title="KIDS",BR: Nick Junior
-http://mhav1.com:2095/live/ht2990/742579548/206403.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior Club" tvg-logo="" group-title="KIDS",BR: Nick Junior Club
-http://mhav1.com:2095/live/ht2990/742579548/206404.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Retro Cartoon" tvg-logo="" group-title="KIDS",BR: Retro Cartoon
-http://mhav1.com:2095/live/ht2990/742579548/206437.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: TeenNick" tvg-logo="" group-title="KIDS",BR: TeenNick
-http://mhav1.com:2095/live/ht2990/742579548/206450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Tooncast" tvg-logo="" group-title="KIDS",BR: Tooncast
-http://mhav1.com:2095/live/ht2990/742579548/206462.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: ZooMoo Kids" tvg-logo="" group-title="KIDS",BR: ZooMoo Kids
-http://mhav1.com:2095/live/ht2990/742579548/206495.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: nickelodeon" tvg-logo="" group-title="KIDS",BR: nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/206405.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Cartoon Network HD" tvg-logo="" group-title="KIDS",[CA] Cartoon Network HD
 http://mhav1.com:2095/live/ht2990/742579548/57728.ts
 
@@ -3359,24 +3356,6 @@ http://mhav1.com:2095/live/ht2990/742579548/81291.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CZ]Nickelodeon" tvg-logo="" group-title="KIDS",[CZ]Nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/81314.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="KIDS",[DK]Disney_Channel
-http://mhav1.com:2095/live/ht2990/742579548/9040.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="KIDS",[DK]Disney_XD
-http://mhav1.com:2095/live/ht2990/742579548/9039.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Nickelodeon" tvg-logo="" group-title="KIDS",[DK]Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/9023.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Cartoon Network" tvg-logo="" group-title="KIDS",|DK| Cartoon Network
-http://mhav1.com:2095/live/ht2990/742579548/121468.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Nickelodeon" tvg-logo="" group-title="KIDS",|DK| Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/121469.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Nicktoons" tvg-logo="" group-title="KIDS",|DK| Nicktoons
-http://mhav1.com:2095/live/ht2990/742579548/121466.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Baby TV Europe [ES]" tvg-logo="" group-title="KIDS",Baby TV Europe [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12421.ts
@@ -3867,18 +3846,6 @@ http://mhav1.com:2095/live/ht2990/742579548/73917.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Ro]Teen Nick" tvg-logo="" group-title="KIDS",[Ro]Teen Nick
 http://mhav1.com:2095/live/ht2990/742579548/73916.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="RU: CARTOON NETWORK HD" tvg-logo="" group-title="KIDS",RU: CARTOON NETWORK HD
-http://mhav1.com:2095/live/ht2990/742579548/188875.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: DISNEY CHANNEL HD" tvg-logo="" group-title="KIDS",RU: DISNEY CHANNEL HD
-http://mhav1.com:2095/live/ht2990/742579548/188957.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: NICK JR. HD" tvg-logo="" group-title="KIDS",RU: NICK JR. HD
-http://mhav1.com:2095/live/ht2990/742579548/188882.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
-http://mhav1.com:2095/live/ht2990/742579548/188958.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="SOLO KIDS FHD" tvg-logo="" group-title="KIDS",SOLO KIDS FHD
 http://mhav1.com:2095/live/ht2990/742579548/288268.ts
 
@@ -3977,6 +3944,75 @@ http://mhav1.com:2095/live/ht2990/742579548/4997.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[US]Nickelodeon_HD-US" tvg-logo="" group-title="KIDS",[US]Nickelodeon_HD-US
 http://mhav1.com:2095/live/ht2990/742579548/4951.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="KIDS",BR: Baby TV
+http://mhav1.com:2095/live/ht2990/742579548/206293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="KIDS",BR: Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/206305.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="KIDS",BR: Cartoonito
+http://mhav1.com:2095/live/ht2990/742579548/206306.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="KIDS",BR: Discovery Kids
+http://mhav1.com:2095/live/ht2990/742579548/206321.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="KIDS",BR: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/206326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Classico" tvg-logo="" group-title="KIDS",BR: Nick Classico
+http://mhav1.com:2095/live/ht2990/742579548/206402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior" tvg-logo="" group-title="KIDS",BR: Nick Junior
+http://mhav1.com:2095/live/ht2990/742579548/206403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior Club" tvg-logo="" group-title="KIDS",BR: Nick Junior Club
+http://mhav1.com:2095/live/ht2990/742579548/206404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Retro Cartoon" tvg-logo="" group-title="KIDS",BR: Retro Cartoon
+http://mhav1.com:2095/live/ht2990/742579548/206437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: TeenNick" tvg-logo="" group-title="KIDS",BR: TeenNick
+http://mhav1.com:2095/live/ht2990/742579548/206450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Tooncast" tvg-logo="" group-title="KIDS",BR: Tooncast
+http://mhav1.com:2095/live/ht2990/742579548/206462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ZooMoo Kids" tvg-logo="" group-title="KIDS",BR: ZooMoo Kids
+http://mhav1.com:2095/live/ht2990/742579548/206495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: nickelodeon" tvg-logo="" group-title="KIDS",BR: nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/206405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CARTOON NETWORK HD" tvg-logo="" group-title="KIDS",RU: CARTOON NETWORK HD
+http://mhav1.com:2095/live/ht2990/742579548/188875.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISNEY CHANNEL HD" tvg-logo="" group-title="KIDS",RU: DISNEY CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188957.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICK JR. HD" tvg-logo="" group-title="KIDS",RU: NICK JR. HD
+http://mhav1.com:2095/live/ht2990/742579548/188882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
+http://mhav1.com:2095/live/ht2990/742579548/188958.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="KIDS",[DK]Disney_Channel
+http://mhav1.com:2095/live/ht2990/742579548/9040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="KIDS",[DK]Disney_XD
+http://mhav1.com:2095/live/ht2990/742579548/9039.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Nickelodeon" tvg-logo="" group-title="KIDS",[DK]Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/9023.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Cartoon Network" tvg-logo="" group-title="KIDS",|DK| Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/121468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Nickelodeon" tvg-logo="" group-title="KIDS",|DK| Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/121469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Nicktoons" tvg-logo="" group-title="KIDS",|DK| Nicktoons
+http://mhav1.com:2095/live/ht2990/742579548/121466.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Watch it Kids" tvg-logo="" group-title="KIDS",Watch it Kids
 http://mhav1.com:2095/live/ht2990/742579548/41034.ts
@@ -4080,8 +4116,8 @@ http://103.185.24.134:3001/SONIC/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="KIDS",ZB Cartoon (1080p)
 https://server.zillarbarta.com/zbcatun/video.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="KIDS",Sony Yay! (576p)
-http://103.165.93.31:8095/sonyYay/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="KIDS",Sony Yay! (1080p)
+https://cloudplay-sonyliv.pages.dev/yay.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="KIDS",Super Hungama (576p)
 http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8
@@ -4434,9 +4470,6 @@ https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies (576p)
 http://103.175.73.12:8080/live/51/51_0.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_J_MOVIES/images/LOGO_HD/image.png" group-title="Movies",J Movie (576p)
-http://103.72.101.252:8080/live/417.m3u8
-
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maha_Movies.png" group-title="Movies",Maha Movie (576p)
 https://cdn-6.pishow.tv/live/10007/master.m3u8
 
@@ -4581,11 +4614,11 @@ https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Music",Epic Music Digital (1080p)
 https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Insync.png" group-title="Music",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Music",Insync (576p)
-http://103.175.73.12:8080/live/160/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Insync.png" group-title="Music",Insync (576p)
+https://mumt04.tangotv.in/m18aqlK4INSYNC/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ISAI_ARUVI/images/LOGO_HD/image.png" group-title="Music",Isai Aruvi (576p)
-http://ptuf.ridsys.in/riptv/live/KALAIGNAR_ISAI_ARUVI/index.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ISAI_ARUVI/images/LOGO_HD/image.png" group-title="Music",Isai Aruvi (396p)
+https://segment.yuppcdn.net/140622/isaiaruvi/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XWXFoJA.png" group-title="Music",Kalika TV (576p)
 http://server.applelive.in/kalikatv/kalikatv.m3u8
@@ -4829,9 +4862,6 @@ https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="News",Good News Today (720p)
 https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/GS_TV.png" group-title="News",GS TV
-https://cdn-4.pishow.tv/live/1462/master.m3u8
-
 #EXTINF:-1 tvg-logo="https://www.thegtcnetwork.com/gtc-news.png" group-title="News",GTC News (1080p)
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
 
@@ -4853,9 +4883,6 @@ https://mumt04.tangotv.in/m18aqlK4HINDIKHABAR/index.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143136_ld_h15_aa.png?lock=720x540" group-title="News",HMTV (720p)
 https://cdn-1.pishow.tv/live/280/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/HNN24x7.png" group-title="News",HNN 24x7 (576p)
-https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8
-
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HORNBILL/images/LOGO_HD/image.png" group-title="News",Hornbill TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3HORNBILLTV/index.m3u8
 
@@ -4870,9 +4897,6 @@ https://mumt05.tangotv.in/87NeALx2INDIAAHEAD/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Daily_24x7.png" group-title="News",India Daily Live (1080p)
 https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_News_MP.png" group-title="News",India News Madhya Pradesh/Chhattisgarh (576p)
-https://livetv.newsx.com/itv/itvnetwork7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png" group-title="News",India Today (720p)
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
@@ -5368,14 +5392,8 @@ https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/c4ItNkB.png" group-title="Religious",Fateh TV (576p)
 http://180.188.254.253/live/FATEHTVHD.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143091_ld_h15_aa.png?lock=720x540" group-title="Religious",Goodness TV (576p)
-https://mumt02.tangotv.in/GOODNESSTV/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOODNEWS_TV/images/LOGO_HD/image.png" group-title="Religious",GoodNews TV (720p)
 https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png" group-title="Religious",Gospel TV India (720p)
-https://server.livelegitpro.in:9899/gospeltv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143102_ld_h15_aa.png?lock=720x540" group-title="Religious",Hare Krsna TV (1080p)
 https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
