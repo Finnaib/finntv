@@ -1831,25 +1831,25 @@ https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 http://103.159.180.34:5001/live/625.m3u8
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Bangladesh",Star Sports 1
-https://cdn10.zohanayaan.com:1686/hls/star1in.m3u8?md5=-h23vL1240Mkk5y3_AlPbA&expires=1788651486
+https://cdn1.zohanayaan.com:1686/hls/star1in.m3u8?md5=hB0SHpXFZmNFXR8pcbb7NQ&expires=1788673967
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Bangladesh",Star Sports 1 Hindi
-https://cdn8.zohanayaan.com:1686/hls/starhindi.m3u8?md5=7RvhHAWEYUhD_s70z5Vr1A&expires=1788651486
+https://cdn8.zohanayaan.com:1686/hls/starhindi.m3u8?md5=KL3TLRNBghv39iKJeiqnHg&expires=1788673967
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Bangladesh",PTV Sports
-https://cdn2.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=uTwsjp8XiKaaOpMeYvBOFQ&expires=1788651486
+https://cdn4.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=1WCtS6mnPYV6jZenOyATkA&expires=1788673967
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png" group-title="Bangladesh",Sony Sports3
-https://cdn5.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=JW5pv8br8px259A4LzE1Ug&expires=1788651491
+https://cdn5.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=HLRJaW7A7Fbk7b9HFh5JMA&expires=1788673973
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Star Sports 1 Hindi HD
 http://41.205.93.154/STARSPORTS1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Sports 5 HD
-https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Sports 2 HD
 https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Sports 5 HD
+https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8" group-title="Bangladesh",Jamuna TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8?e=1784102531&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=d17e86aa2e6745043e84e0547d4fb69a
@@ -1890,20 +1890,17 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
 http://premimum.online:80/live/jen12345/jen54321/98854.ts
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Max HD
-https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Zee TV HD
 https://stream.ottplus.bd/live/zee_tv_hd_abr/live/zee_tv_hd_720/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Max HD
+https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg" group-title="Bangladesh",NEWS | ZEE BUSINESS
 https://dwby15d04agvq.cloudfront.net/index_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg" group-title="Bangladesh",NEWS | ZEE News
 https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony Pix HD
-https://stream.ottplus.bd/live/pix_hd_abr/live/sony_pix_hd_720/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg" group-title="Bangladesh",BD | JAMUNA TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
@@ -2582,16 +2579,16 @@ http://mhav1.com:2095/live/ht2990/742579548/212592.ts
 http://mhav1.com:2095/live/ht2990/742579548/4718.ts
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="CRICKET",Willow HD
-https://cdn8.zohanayaan.com:1686/hls/willowusa.m3u8?md5=a8lzdVO3HZjemEFKeIYMXA&expires=1788651486
+https://cdn6.zohanayaan.com:1686/hls/willowusa.m3u8?md5=bp6fDouxFnBF20YFcP-mFw&expires=1788673967
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png" group-title="CRICKET",Willow HD 2
-https://cdn6.zohanayaan.com:1686/hls/willowextra.m3u8?md5=aJp2hkuFVWG13fMDEY62ug&expires=1788651487
+https://cdn8.zohanayaan.com:1686/hls/willowextra.m3u8?md5=9g4Y40FE6jtw7_n-qNZVIw&expires=1788673968
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="CRICKET",Sky Sports Cricket
-https://cdn8.zohanayaan.com:1686/hls/skyscric.m3u8?md5=Te86X14hv0n705tByZw6cA&expires=1788651487
+https://cdn3.zohanayaan.com:1686/hls/skyscric.m3u8?md5=JbcPOMsAcmd8V9xSwRpG3w&expires=1788673968
 
 #EXTINF:-1 tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png" group-title="CRICKET",Astro Cricket
-https://cdn7.zohanayaan.com:1686/hls/fox501.m3u8?md5=iG5HoOuhBfZRbKA5P_OQpw&expires=1788651490
+https://cdn6.zohanayaan.com:1686/hls/fox501.m3u8?md5=CdzV5ejtJ5Z6BDjAtsoRRg&expires=1788673972
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788" group-title="CRICKET",Willow TV
 https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7058af1b60fb3bcfd7f687bf5b7866aa
@@ -2601,9 +2598,6 @@ https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8?e=1784102529&u=ee5437
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="CRICKET",Willow
 https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="CRICKET",Cricket Gold
-https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png" group-title="CRICKET",CR | Cricket Gold
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8
@@ -3342,6 +3336,45 @@ http://mhav1.com:2095/live/ht2990/742579548/153470.ts
 #EXTINF:-1 tvg-id="" tvg-name="4kids [DZ]" tvg-logo="" group-title="KIDS",4kids [DZ]
 http://mhav1.com:2095/live/ht2990/742579548/5356.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="KIDS",BR: Baby TV
+http://mhav1.com:2095/live/ht2990/742579548/206293.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="KIDS",BR: Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/206305.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="KIDS",BR: Cartoonito
+http://mhav1.com:2095/live/ht2990/742579548/206306.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="KIDS",BR: Discovery Kids
+http://mhav1.com:2095/live/ht2990/742579548/206321.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="KIDS",BR: Disney Junior
+http://mhav1.com:2095/live/ht2990/742579548/206326.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Classico" tvg-logo="" group-title="KIDS",BR: Nick Classico
+http://mhav1.com:2095/live/ht2990/742579548/206402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior" tvg-logo="" group-title="KIDS",BR: Nick Junior
+http://mhav1.com:2095/live/ht2990/742579548/206403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior Club" tvg-logo="" group-title="KIDS",BR: Nick Junior Club
+http://mhav1.com:2095/live/ht2990/742579548/206404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Retro Cartoon" tvg-logo="" group-title="KIDS",BR: Retro Cartoon
+http://mhav1.com:2095/live/ht2990/742579548/206437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: TeenNick" tvg-logo="" group-title="KIDS",BR: TeenNick
+http://mhav1.com:2095/live/ht2990/742579548/206450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: Tooncast" tvg-logo="" group-title="KIDS",BR: Tooncast
+http://mhav1.com:2095/live/ht2990/742579548/206462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: ZooMoo Kids" tvg-logo="" group-title="KIDS",BR: ZooMoo Kids
+http://mhav1.com:2095/live/ht2990/742579548/206495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BR: nickelodeon" tvg-logo="" group-title="KIDS",BR: nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/206405.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Cartoon Network HD" tvg-logo="" group-title="KIDS",[CA] Cartoon Network HD
 http://mhav1.com:2095/live/ht2990/742579548/57728.ts
 
@@ -3356,6 +3389,24 @@ http://mhav1.com:2095/live/ht2990/742579548/81291.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CZ]Nickelodeon" tvg-logo="" group-title="KIDS",[CZ]Nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/81314.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="KIDS",[DK]Disney_Channel
+http://mhav1.com:2095/live/ht2990/742579548/9040.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="KIDS",[DK]Disney_XD
+http://mhav1.com:2095/live/ht2990/742579548/9039.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DK]Nickelodeon" tvg-logo="" group-title="KIDS",[DK]Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/9023.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Cartoon Network" tvg-logo="" group-title="KIDS",|DK| Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/121468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Nickelodeon" tvg-logo="" group-title="KIDS",|DK| Nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/121469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|DK| Nicktoons" tvg-logo="" group-title="KIDS",|DK| Nicktoons
+http://mhav1.com:2095/live/ht2990/742579548/121466.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Baby TV Europe [ES]" tvg-logo="" group-title="KIDS",Baby TV Europe [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12421.ts
@@ -3846,6 +3897,18 @@ http://mhav1.com:2095/live/ht2990/742579548/73917.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Ro]Teen Nick" tvg-logo="" group-title="KIDS",[Ro]Teen Nick
 http://mhav1.com:2095/live/ht2990/742579548/73916.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="RU: CARTOON NETWORK HD" tvg-logo="" group-title="KIDS",RU: CARTOON NETWORK HD
+http://mhav1.com:2095/live/ht2990/742579548/188875.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISNEY CHANNEL HD" tvg-logo="" group-title="KIDS",RU: DISNEY CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188957.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICK JR. HD" tvg-logo="" group-title="KIDS",RU: NICK JR. HD
+http://mhav1.com:2095/live/ht2990/742579548/188882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
+http://mhav1.com:2095/live/ht2990/742579548/188958.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="SOLO KIDS FHD" tvg-logo="" group-title="KIDS",SOLO KIDS FHD
 http://mhav1.com:2095/live/ht2990/742579548/288268.ts
 
@@ -3944,75 +4007,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4997.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[US]Nickelodeon_HD-US" tvg-logo="" group-title="KIDS",[US]Nickelodeon_HD-US
 http://mhav1.com:2095/live/ht2990/742579548/4951.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Baby TV" tvg-logo="" group-title="KIDS",BR: Baby TV
-http://mhav1.com:2095/live/ht2990/742579548/206293.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoon Network" tvg-logo="" group-title="KIDS",BR: Cartoon Network
-http://mhav1.com:2095/live/ht2990/742579548/206305.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Cartoonito" tvg-logo="" group-title="KIDS",BR: Cartoonito
-http://mhav1.com:2095/live/ht2990/742579548/206306.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery Kids" tvg-logo="" group-title="KIDS",BR: Discovery Kids
-http://mhav1.com:2095/live/ht2990/742579548/206321.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Disney Junior" tvg-logo="" group-title="KIDS",BR: Disney Junior
-http://mhav1.com:2095/live/ht2990/742579548/206326.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Classico" tvg-logo="" group-title="KIDS",BR: Nick Classico
-http://mhav1.com:2095/live/ht2990/742579548/206402.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior" tvg-logo="" group-title="KIDS",BR: Nick Junior
-http://mhav1.com:2095/live/ht2990/742579548/206403.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Nick Junior Club" tvg-logo="" group-title="KIDS",BR: Nick Junior Club
-http://mhav1.com:2095/live/ht2990/742579548/206404.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Retro Cartoon" tvg-logo="" group-title="KIDS",BR: Retro Cartoon
-http://mhav1.com:2095/live/ht2990/742579548/206437.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: TeenNick" tvg-logo="" group-title="KIDS",BR: TeenNick
-http://mhav1.com:2095/live/ht2990/742579548/206450.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: Tooncast" tvg-logo="" group-title="KIDS",BR: Tooncast
-http://mhav1.com:2095/live/ht2990/742579548/206462.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: ZooMoo Kids" tvg-logo="" group-title="KIDS",BR: ZooMoo Kids
-http://mhav1.com:2095/live/ht2990/742579548/206495.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BR: nickelodeon" tvg-logo="" group-title="KIDS",BR: nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/206405.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: CARTOON NETWORK HD" tvg-logo="" group-title="KIDS",RU: CARTOON NETWORK HD
-http://mhav1.com:2095/live/ht2990/742579548/188875.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: DISNEY CHANNEL HD" tvg-logo="" group-title="KIDS",RU: DISNEY CHANNEL HD
-http://mhav1.com:2095/live/ht2990/742579548/188957.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: NICK JR. HD" tvg-logo="" group-title="KIDS",RU: NICK JR. HD
-http://mhav1.com:2095/live/ht2990/742579548/188882.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
-http://mhav1.com:2095/live/ht2990/742579548/188958.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_Channel" tvg-logo="" group-title="KIDS",[DK]Disney_Channel
-http://mhav1.com:2095/live/ht2990/742579548/9040.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Disney_XD" tvg-logo="" group-title="KIDS",[DK]Disney_XD
-http://mhav1.com:2095/live/ht2990/742579548/9039.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DK]Nickelodeon" tvg-logo="" group-title="KIDS",[DK]Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/9023.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Cartoon Network" tvg-logo="" group-title="KIDS",|DK| Cartoon Network
-http://mhav1.com:2095/live/ht2990/742579548/121468.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Nickelodeon" tvg-logo="" group-title="KIDS",|DK| Nickelodeon
-http://mhav1.com:2095/live/ht2990/742579548/121469.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|DK| Nicktoons" tvg-logo="" group-title="KIDS",|DK| Nicktoons
-http://mhav1.com:2095/live/ht2990/742579548/121466.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Watch it Kids" tvg-logo="" group-title="KIDS",Watch it Kids
 http://mhav1.com:2095/live/ht2990/742579548/41034.ts
@@ -4176,9 +4170,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Cartoon Network
 https://stream.ottplus.bd/live/cn_hd_abr/live/cn_hd/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Sony Yay
-https://stream.ottplus.bd/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Pogo
 https://stream.ottplus.bd/live/pogo_sd_abr/live/pogo_sd/chunks.m3u8
 
@@ -4189,7 +4180,7 @@ https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/
 https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f0/DISNEYCHANNEL-2025.svg" group-title="KIDS",0. Disney Channel Latin America
-http://15.204.246.24:8080/DisneyHD/index.m3u8
+http://45.166.93.156:9999/play/a0f3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/DisneyJr3Dver.png" group-title="KIDS",0. Disney Jr.
 http://190.93.224.42/DISNEY-JR/index.m3u8
