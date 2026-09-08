@@ -3308,6 +3308,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5510.ts
 #EXTINF:-1 tvg-id="" tvg-name="Smallville" tvg-logo="http://images.stttoegypt2026.com:80/images/mHZSq8LA5Dt48JjaOZ5tcPXQRVN_big.jpg" group-title="English Series",Smallville
 http://mhav1.com:2095/series/ht2990/742579548/6841.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Snowfall" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg" group-title="English Series",Snowfall
+http://mhav1.com:2095/series/ht2990/742579548/7329.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Sons of Anarchy" tvg-logo="http://images.stttoegypt2026.com:80/images/yPLkf4EiCkR0NOvMfmpHMA2zfN3_big.jpg" group-title="English Series",Sons of Anarchy
 http://mhav1.com:2095/series/ht2990/742579548/2919.ts
 
@@ -3667,6 +3670,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7186.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="A Knight of the Seven Kingdoms" tvg-logo="http://images.stttoegypt2026.com:80/images/6igvNs5VJB4ryBLgjjXksDVs0Fm_big.jpg" group-title="English Series [2026]",A Knight of the Seven Kingdoms
 http://mhav1.com:2095/series/ht2990/742579548/6413.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="A Tale of Two Cities" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/ht3OVVRBTrTeVtUVQiKSekjIFVH.jpg" group-title="English Series [2026]",A Tale of Two Cities
+http://mhav1.com:2095/series/ht2990/742579548/7328.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Agatha Christie's Seven Dials" tvg-logo="http://images.stttoegypt2026.com:80/images/3uRQi9HDEAGSadoKee1UHoFCaU9_big.jpg" group-title="English Series [2026]",Agatha Christie's Seven Dials
 http://mhav1.com:2095/series/ht2990/742579548/6404.ts
@@ -5582,7 +5588,7 @@ http://mhav1.com:2095/series/ht2990/742579548/5706.ts
 #EXTINF:-1 tvg-id="" tvg-name="Smothered" tvg-logo="http://images.stttoegypt2026.com:80/images/wGolRiSf6rbIoj2HmwgapJj43DD_big.jpg" group-title="English Series [حديثه]",Smothered
 http://mhav1.com:2095/series/ht2990/742579548/3996.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Snowfall" tvg-logo="http://images.stttoegypt2026.com:80/images/orvFrLzqSeW5qTFpfJEbPfHRPWg_big.jpg" group-title="English Series [حديثه]",Snowfall
+#EXTINF:-1 tvg-id="" tvg-name="Snowfall." tvg-logo="http://images.stttoegypt2026.com:80/images/orvFrLzqSeW5qTFpfJEbPfHRPWg_big.jpg" group-title="English Series [حديثه]",Snowfall.
 http://mhav1.com:2095/series/ht2990/742579548/370.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Snowpiercer" tvg-logo="http://images.stttoegypt2026.com:80/images/exKzfiKzMdQBHrdd7zNmKauJkbg_big.jpg" group-title="English Series [حديثه]",Snowpiercer
@@ -5882,8 +5888,8 @@ http://mhav1.com:2095/series/ht2990/742579548/5686.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Gathering" tvg-logo="http://images.stttoegypt2026.com:80/images/2zGVA6o8YqzlBT4ENDASabaDaxx_big.jpg" group-title="English Series [حديثه]",The Gathering
 http://mhav1.com:2095/series/ht2990/742579548/3839.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Gentlemen" tvg-logo="http://images.stttoegypt2026.com:80/images/tw3tzfXaSpmUZIB8ZNqNEGzMBCy_big.jpg" group-title="English Series [حديثه]",The Gentlemen
-http://mhav1.com:2095/series/ht2990/742579548/3555.ts
+#EXTINF:-1 tvg-id="" tvg-name="The Gentlemen" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg" group-title="English Series [حديثه]",The Gentlemen
+http://mhav1.com:2095/series/ht2990/742579548/7327.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="English Series [حديثه]",The Gilded Age
 http://mhav1.com:2095/series/ht2990/742579548/1056.ts
