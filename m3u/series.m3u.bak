@@ -12629,6 +12629,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7042.ts
 
 ##### [تركي يعرض الان] #####
 
+#EXTINF:-1 tvg-id="" tvg-name="اخى" tvg-logo="http://images.stttoegypt2026.com:80/images/mGnrjWWi6ZeXlt0U3Ky8gzpOhO3_big.jpg" group-title="تركي يعرض الان",اخى
+http://mhav1.com:2095/series/ht2990/742579548/6394.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="اسطنبول رأساً على عقب" tvg-logo="http://images.stttoegypt2026.com:80/images/qnImGr6hA1GJb0IBxulxoOswF6D_big.jpg" group-title="تركي يعرض الان",اسطنبول رأساً على عقب
 http://mhav1.com:2095/series/ht2990/742579548/7114.ts
 
@@ -13738,9 +13741,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3958.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="اخوتي" tvg-logo="http://images.stttoegypt2026.com:80/images/p2wOxI0GAlckcgoGF14r31dYiPr_big.jpg" group-title="مسلسلات تركيه حديثه",اخوتي
 http://mhav1.com:2095/series/ht2990/742579548/1023.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="اخى" tvg-logo="http://images.stttoegypt2026.com:80/images/mGnrjWWi6ZeXlt0U3Ky8gzpOhO3_big.jpg" group-title="مسلسلات تركيه حديثه",اخى
-http://mhav1.com:2095/series/ht2990/742579548/6394.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="اذا خسر الملك" tvg-logo="http://images.stttoegypt2026.com:80/images/u0kk5PUB850OlrVA1w7hgc41E9T_big.jpg" group-title="مسلسلات تركيه حديثه",اذا خسر الملك
 http://mhav1.com:2095/series/ht2990/742579548/5234.ts
