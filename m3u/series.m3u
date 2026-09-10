@@ -1712,6 +1712,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6890.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Oath of Love" tvg-logo="http://images.stttoegypt2026.com:80/images/bdTSCi05uJxfUyyQx2PgV0xIUkE_big.jpg" group-title="Asian Series",The Oath of Love
 http://mhav1.com:2095/series/ht2990/742579548/5077.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Ordinary Jackpot" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/mkHMNq0PUHDVn3w5QPM2hcnOdVb.jpg" group-title="Asian Series",The Ordinary Jackpot
+http://mhav1.com:2095/series/ht2990/742579548/7341.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The Penthouse" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jdLcjIArQKBetHrkXDlb4cj1aEL.jpg" group-title="Asian Series",The Penthouse
 http://mhav1.com:2095/series/ht2990/742579548/6175.ts
 
@@ -3359,6 +3362,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4637.ts
 #EXTINF:-1 tvg-id="" tvg-name="That Dirty Black Bag" tvg-logo="http://images.stttoegypt2026.com:80/images/vSk9On9NPZKX9e4zlu7ribuRIMB_big.jpg" group-title="English Series",That Dirty Black Bag
 http://mhav1.com:2095/series/ht2990/742579548/1219.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The 100" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg" group-title="English Series",The 100
+http://mhav1.com:2095/series/ht2990/742579548/88.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The ABC Murders" tvg-logo="http://images.stttoegypt2026.com:80/images/bYfF6mK8DQIhi96kzOC9ULdDjTp_big.jpg" group-title="English Series",The ABC Murders
 http://mhav1.com:2095/series/ht2990/742579548/2876.ts
 
@@ -3931,9 +3937,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6797.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Pendragon Cycle: Rise of the Merlin" tvg-logo="http://images.stttoegypt2026.com:80/images/jJfk8NXauN4UgFQ1qn9lFzEk7ib_big.jpg" group-title="English Series [2026]",The Pendragon Cycle: Rise of the Merlin
 http://mhav1.com:2095/series/ht2990/742579548/6382.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Perfect Lie" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/a8qjbVX7lo1v7m5Awzhx7Ptk8gO.jpg" group-title="English Series [2026]",The Perfect Lie
-http://mhav1.com:2095/series/ht2990/742579548/7340.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Season" tvg-logo="http://images.stttoegypt2026.com:80/images/kPz9M2hbZVRue9bbZAHKB9RrXox_big.jpg" group-title="English Series [2026]",The Season
 http://mhav1.com:2095/series/ht2990/742579548/7122.ts
@@ -4681,6 +4684,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6032.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Freeridge" tvg-logo="http://images.stttoegypt2026.com:80/images/14dtUdFPXmjLNNOjkYCHCNOg01d_big.jpg" group-title="English Series [حديثه]",Freeridge
 http://mhav1.com:2095/series/ht2990/742579548/2159.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Freud" tvg-logo="http://images.stttoegypt2026.com:80/images/2dvC4h5yFrK9yawvqlegem9ogv3_big.jpg" group-title="English Series [حديثه]",Freud
+http://mhav1.com:2095/series/ht2990/742579548/250.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="From Scratch" tvg-logo="http://images.stttoegypt2026.com:80/images/s8D32MA8NlNgixnAIxVbmt9cazX_big.jpg" group-title="English Series [حديثه]",From Scratch
 http://mhav1.com:2095/series/ht2990/742579548/1882.ts
@@ -6007,6 +6013,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6017.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Madness" tvg-logo="http://images.stttoegypt2026.com:80/images/z3KaWe2r0yBaRbQlH7BPOR5fpnL_big.jpg" group-title="English Series [حديثه]",The Madness
 http://mhav1.com:2095/series/ht2990/742579548/4889.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Man in the High Castle" tvg-logo="http://images.stttoegypt2026.com:80/images/xhoDZbMNeyCA0BGPZQsdIiO43Dp_big.jpg" group-title="English Series [حديثه]",The Man in the High Castle
+http://mhav1.com:2095/series/ht2990/742579548/260.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Mandalorian" tvg-logo="http://images.stttoegypt2026.com:80/images/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA_big.jpg" group-title="English Series [حديثه]",The Mandalorian
 http://mhav1.com:2095/series/ht2990/742579548/2423.ts
@@ -10967,6 +10976,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4834.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Patients of Dr. García" tvg-logo="http://images.stttoegypt2026.com:80/images/y57ND50yq0nPmQpvLmMBKrnAvRB_big.jpg" group-title="Series Variety Vip",The Patients of Dr. García
 http://mhav1.com:2095/series/ht2990/742579548/2459.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Perfect Lie" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/a8qjbVX7lo1v7m5Awzhx7Ptk8gO.jpg" group-title="Series Variety Vip",The Perfect Lie
+http://mhav1.com:2095/series/ht2990/742579548/7340.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The Perfect Miss" tvg-logo="http://images.stttoegypt2026.com:80/images/qfOn8thnjrQWMxq0ypsvpTMBG3C_big.jpg" group-title="Series Variety Vip",The Perfect Miss
 http://mhav1.com:2095/series/ht2990/742579548/4271.ts
 
@@ -12791,6 +12803,9 @@ http://mhav1.com:2095/series/ht2990/742579548/428.ts
 #EXTINF:-1 tvg-id="" tvg-name="أحمد ابن حنبل" tvg-logo="https://i.ytimg.com/vi/95pfw5yPXt4/maxresdefault.jpg" group-title="مسلسلات تاريخية",أحمد ابن حنبل
 http://mhav1.com:2095/series/ht2990/742579548/5503.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="أصحاب الكهف" tvg-logo="https://media0029.elcinema.com/uploads/_640x_31d3048061208e57d13a21e39a6e7cd45a9a2d6c3ea5d872f088e946fb1a232a.jpg" group-title="مسلسلات تاريخية",أصحاب الكهف
+http://mhav1.com:2095/series/ht2990/742579548/256.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="أوراق التوت" tvg-logo="http://images.stttoegypt2026.com:80/images/qIUZbCr6dg0rEniQkjQelNyGhW_big.jpg" group-title="مسلسلات تاريخية",أوراق التوت
 http://mhav1.com:2095/series/ht2990/742579548/4094.ts
 
@@ -13174,6 +13189,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1828.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="العنقاء مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/f5GAhc1hiaVRu39XF1a0bOg83cg_big.jpg" group-title="مسلسلات تركيه",العنقاء مترجم
 http://mhav1.com:2095/series/ht2990/742579548/90.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="العهد مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/xKCGIcvJy5YzQPUqQ06Kmf8dymg_big.jpg" group-title="مسلسلات تركيه",العهد مترجم
+http://mhav1.com:2095/series/ht2990/742579548/247.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الغراب" tvg-logo="http://images.stttoegypt2026.com:80/images/1qANUhdf39TaoO8P7kEDr1Rh7Bc_big.jpg" group-title="مسلسلات تركيه",الغراب
 http://mhav1.com:2095/series/ht2990/742579548/670.ts
@@ -18020,6 +18038,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4174.ts
 #EXTINF:-1 tvg-id="" tvg-name="مليكة" tvg-logo="http://images.stttoegypt2026.com:80/images/cJc42TcBaj25YxYqhH2KI1ldPbR_big.jpg" group-title="مسلسلات مصريه",مليكة
 http://mhav1.com:2095/series/ht2990/742579548/3760.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ممالك النار" tvg-logo="http://images.stttoegypt2026.com:80/images/spEqnWxosKNiEwyX0pTFjyz1r2d_big.jpg" group-title="مسلسلات مصريه",ممالك النار
+http://mhav1.com:2095/series/ht2990/742579548/104.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="مملكة الغجر " tvg-logo="https://th.bing.com/th/id/OIP.8jmAXbyOqkPe2Ftl3JQj_gAAAA?w=116&h=180&c=7&r=0&o=5&pid=1.7" group-title="مسلسلات مصريه",مملكة الغجر
 http://mhav1.com:2095/series/ht2990/742579548/4373.ts
 
@@ -18520,6 +18541,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1823.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ديبو" tvg-logo="http://images.stttoegypt2026.com:80/images/p1aGFQdgi11yWnrRTGjAJ48TYgT_big.jpg" group-title="مسلسلات مصريه حديثه",ديبو
 http://mhav1.com:2095/series/ht2990/742579548/4484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="رجالة البيت" tvg-logo="http://images.stttoegypt2026.com:80/images/jE0slnnIUBiRGYwRH8FTnumncNO_big.jpg" group-title="مسلسلات مصريه حديثه",رجالة البيت
+http://mhav1.com:2095/series/ht2990/742579548/192.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="روحى فيك" tvg-logo="https://i.ibb.co/CPtv0Fz/12.jpg" group-title="مسلسلات مصريه حديثه",روحى فيك
 http://mhav1.com:2095/series/ht2990/742579548/3095.ts
