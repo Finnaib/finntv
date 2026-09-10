@@ -1431,7 +1431,7 @@ http://mhav1.com:2095/live/ht2990/742579548/57744.ts
 #EXTINF:-1 tvg-id="" tvg-name="[CA]Tele Quebec FR" tvg-logo="" group-title="Canada",[CA]Tele Quebec FR
 http://mhav1.com:2095/live/ht2990/742579548/57479.ts
 
-#EXTINF:-1 tvg-chno="112" tvg-id="CA14000121V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000121V_20260908T034820SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 112. Summer Vibes
+#EXTINF:-1 tvg-chno="112" tvg-id="CA14000121V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000121V_20260908T034820SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 112. Fall Vibes
 https://jmp2.uk/stvp-CA14000121V
 
 #EXTINF:-1 tvg-chno="113" tvg-id="CA7000015K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20260727T081657SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 113. Ocean Vibes
@@ -1620,7 +1620,7 @@ https://jmp2.uk/stvp-CABB19000010Y
 #EXTINF:-1 tvg-chno="166" tvg-id="CA2900008Y0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2900008Y0_20260421T141127SQUARE.png" tvg-country="CA" group-title="Canada",[Entertainment] 166. Death Valley Days
 https://jmp2.uk/stvp-CA2900008Y0
 
-#EXTINF:-1 tvg-chno="168" tvg-id="CAAJ2700008QA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700008QA_20260901T055916SQUARE.png" tvg-country="CA" group-title="Canada",[Entertainment] 168. FilmRise Classic TV
+#EXTINF:-1 tvg-chno="168" tvg-id="CAAJ2700008QA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700008QA_20260909T004904SQUARE.png" tvg-country="CA" group-title="Canada",[Entertainment] 168. FilmRise Classic TV
 https://jmp2.uk/stvp-CAAJ2700008QA
 
 #EXTINF:-1 tvg-chno="170" tvg-id="CA34000033Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA34000033Z_20260901T060303SQUARE.png" tvg-country="CA" group-title="Canada",[Entertainment] 170. Hearties
@@ -1715,9 +1715,6 @@ https://jmp2.uk/stvp-CABC5200022N1
 
 #EXTINF:-1 tvg-chno="190" tvg-id="CA1400017PU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20260901T060318SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 190. Property Brothers
 https://jmp2.uk/stvp-CA1400017PU
-
-#EXTINF:-1 tvg-chno="191" tvg-id="CABC5200002OG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200002OG_20260421T141239SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 191. Tastemade Home
-https://jmp2.uk/stvp-CABC5200002OG
 
 #EXTINF:-1 tvg-chno="192" tvg-id="CABB2500030GT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500030GT_20260421T140453SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 192. JOURNY TV
 https://jmp2.uk/stvp-CABB2500030GT
@@ -10773,7 +10770,7 @@ https://jmp2.uk/stvp-US3000006DF
 #EXTINF:-1 tvg-chno="2787" tvg-id="US150000550" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US150000550_20260701T005958SQUARE.png" tvg-country="US" group-title="United States",[Action & Drama] 2787. 50 Cent Action
 https://jmp2.uk/stvp-US150000550
 
-#EXTINF:-1 tvg-chno="1459" tvg-id="US1400010S0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400010S0_20260907T200456SQUARE.png" tvg-country="US" group-title="United States",[Ambiance] 1459. Summer Vibes
+#EXTINF:-1 tvg-chno="1459" tvg-id="US1400010S0" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400010S0_20260907T200456SQUARE.png" tvg-country="US" group-title="United States",[Ambiance] 1459. Fall Vibes
 https://jmp2.uk/stvp-US1400010S0
 
 #EXTINF:-1 tvg-chno="1460" tvg-id="US700012OU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700012OU_20260421T143410SQUARE.png" tvg-country="US" group-title="United States",[Ambiance] 1460. Ocean Vibes
@@ -11793,8 +11790,17 @@ https://jmp2.uk/stvp-USBA30002142
 #EXTINF:-1 tvg-chno="1740" tvg-id="US3300008FX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300008FX_20260421T133803SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 1740. The Hill
 https://jmp2.uk/stvp-US3300008FX
 
-#EXTINF:-1 tvg-chno="1840" tvg-id="USBC1500009LD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1500009LD_20260421T133617SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 1840. WeatherNation
-https://jmp2.uk/stvp-USBC1500009LD
+#EXTINF:-1 tvg-chno="2491" tvg-id="USBC1000017D8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1000017D8_20260421T143646SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2491. WSOC Charlotte
+https://jmp2.uk/stvp-USBC1000017D8
+
+#EXTINF:-1 tvg-chno="2492" tvg-id="US700004OA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700004OA_20260421T143852SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2492. WBTV News
+https://jmp2.uk/stvp-US700004OA
+
+#EXTINF:-1 tvg-chno="2493" tvg-id="US1400004HN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400004HN_20260421T144031SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2493. WCNC
+https://jmp2.uk/stvp-US1400004HN
+
+#EXTINF:-1 tvg-chno="2494" tvg-id="USBC3200001S5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200001S5_20260421T144319SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2494. WN Charlotte
+https://jmp2.uk/stvp-USBC3200001S5
 
 #EXTINF:-1 tvg-chno="2567" tvg-id="US50000551O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US50000551O_20260421T133704SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2567. AccuWeather NOW
 https://jmp2.uk/stvp-US50000551O
