@@ -718,6 +718,15 @@ http://mhav1.com:2095/live/ht2990/742579548/3249.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass 5" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass 5
 http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54578.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass One
 http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 
@@ -726,15 +735,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4510.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Alkass Fuor
 http://mhav1.com:2095/live/ht2990/742579548/4513.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 1 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54576.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 3 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54578.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic SPORTS رياضه عربى",Mouritana Arriadia TV [AR]
 http://mhav1.com:2095/live/ht2990/742579548/5348.ts
@@ -2574,9 +2574,6 @@ https://jmp2.uk/stvp-CA4700011LV
 
 #EXTINF:-1 tvg-chno="2572" tvg-id="CA4100006T3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4100006T3_20260707T040129SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2572. MiLB
 https://jmp2.uk/stvp-CA4100006T3
-
-#EXTINF:-1 tvg-chno="2647" tvg-id="CA200052YY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA200052YY_20260512T070212SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2647. Victory+
-https://jmp2.uk/stvp-CA200052YY
 
 #EXTINF:-1 tvg-chno="2791" tvg-id="CA1800005O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1800005O1_20260721T033237SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2791. Triton Poker
 https://jmp2.uk/stvp-CA1800005O1
@@ -5646,9 +5643,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3064.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Musalsalat_2HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Musalsalat_2HD
 http://mhav1.com:2095/live/ht2990/742579548/3278.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_NEWS" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_NEWS
-http://mhav1.com:2095/live/ht2990/742579548/2558.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
 
@@ -5697,9 +5691,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2207.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Animal_Planet" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Animal_Planet
 http://mhav1.com:2095/live/ht2990/742579548/2227.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_COMEDY_CENTRAL" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_COMEDY_CENTRAL
-http://mhav1.com:2095/live/ht2990/742579548/2559.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Comedy_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Comedy_HD
 http://mhav1.com:2095/live/ht2990/742579548/2211.ts
 
@@ -5715,9 +5706,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4941.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Fann" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Fann
 http://mhav1.com:2095/live/ht2990/742579548/542.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_History_HD
-http://mhav1.com:2095/live/ht2990/742579548/3277.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
 
@@ -5726,9 +5714,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2217.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_NatGeo_Wild_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_NatGeo_Wild_HD
 http://mhav1.com:2095/live/ht2990/742579548/2874.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Nick_Toons
-http://mhav1.com:2095/live/ht2990/742579548/3274.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_YaHala_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_YaHala_HD
 http://mhav1.com:2095/live/ht2990/742579548/2204.ts
@@ -5948,18 +5933,6 @@ http://mhav1.com:2095/live/ht2990/742579548/25193.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN TFC" tvg-logo="" group-title="OSN  HD او اس ان",OSN TFC
 http://mhav1.com:2095/live/ht2990/742579548/25187.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_COMEDY_CENTRAL" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_COMEDY_CENTRAL
-http://mhav1.com:2095/live/ht2990/742579548/2559.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_NEWS" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]OSN_NEWS
-http://mhav1.com:2095/live/ht2990/742579548/2558.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_Nick_Toons
-http://mhav1.com:2095/live/ht2990/742579548/3274.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN  HD او اس ان",[Vip]Osn_History_HD
-http://mhav1.com:2095/live/ht2990/742579548/3277.ts
 
 
 ################################################################################
@@ -8459,9 +8432,6 @@ https://jmp2.uk/stvp-US34000040T
 
 #EXTINF:-1 tvg-chno="2179" tvg-id="US21000043S" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US21000043S_20250909T002823SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2179. MeatEater
 https://jmp2.uk/stvp-US21000043S
-
-#EXTINF:-1 tvg-chno="2307" tvg-id="US300063BQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300063BQ_20260421T143250SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2307. Victory+
-https://jmp2.uk/stvp-US300063BQ
 
 #EXTINF:-1 tvg-chno="2395" tvg-id="US33000154M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US33000154M_20260421T143300SQUARE.png" tvg-country="US" group-title="United States",[Sports & Outdoors] 2395. Overtime
 https://jmp2.uk/stvp-US33000154M
