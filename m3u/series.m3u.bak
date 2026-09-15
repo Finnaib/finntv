@@ -2378,7 +2378,7 @@ http://mhav1.com:2095/series/ht2990/742579548/6212.ts
 #EXTINF:-1 tvg-id="" tvg-name="المسرح العربي" tvg-logo="https://media-cdn.tripadvisor.com/media/photo-s/0e/95/43/0f/la-opera-de-la-calle.jpg" group-title="Documentary  Series",المسرح العربي
 http://mhav1.com:2095/series/ht2990/742579548/6995.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="http://images.stttoegypt2026.com:80/images/xlr1H2HBpsMWUm6jFjAuLTGZ0RF_big.jpg" group-title="Documentary  Series",الهدف
+#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlr1H2HBpsMWUm6jFjAuLTGZ0RF.jpg" group-title="Documentary  Series",الهدف
 http://mhav1.com:2095/series/ht2990/742579548/7350.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="باور 7 أيام في الجزيرة" tvg-logo="https://details.sa/ar/wp-content/uploads/2024/07/%D8%A8%D8%A7%D9%88%D8%B1.webp" group-title="Documentary  Series",باور 7 أيام في الجزيرة
@@ -3407,7 +3407,7 @@ http://mhav1.com:2095/series/ht2990/742579548/2904.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Boarding School: Las Cumbres" tvg-logo="http://images.stttoegypt2026.com:80/images/9KvN6eNNY9kbiWlZ8IS175xj4Ym_big.jpg" group-title="English Series",The Boarding School: Las Cumbres
 http://mhav1.com:2095/series/ht2990/742579548/4915.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Borgias" tvg-logo="http://images.stttoegypt2026.com:80/images/y6CHDkNDhswuaqwQEC0wgC7MMox_big.jpg" group-title="English Series",The Borgias
+#EXTINF:-1 tvg-id="" tvg-name="The Borgias" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/y6CHDkNDhswuaqwQEC0wgC7MMox.jpg" group-title="English Series",The Borgias
 http://mhav1.com:2095/series/ht2990/742579548/7346.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Breakthrough" tvg-logo="http://images.stttoegypt2026.com:80/images/5gYhNl5XAPOw36qjxg3mOXxeKoq_big.jpg" group-title="English Series",The Breakthrough
@@ -12698,7 +12698,7 @@ http://mhav1.com:2095/series/ht2990/742579548/7120.ts
 #EXTINF:-1 tvg-id="" tvg-name="حبك نار" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pmHRDFAZukHw089H58c6b6EUilQ.jpg" group-title="تركي يعرض الان",حبك نار
 http://mhav1.com:2095/series/ht2990/742579548/7334.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="صمود" tvg-logo="http://images.stttoegypt2026.com:80/images/mzxesd7tFSPccrSXZ70oA0fFmyJ_big.jpg" group-title="تركي يعرض الان",صمود
+#EXTINF:-1 tvg-id="" tvg-name="صمود" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mzxesd7tFSPccrSXZ70oA0fFmyJ.jpg" group-title="تركي يعرض الان",صمود
 http://mhav1.com:2095/series/ht2990/742579548/7347.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="على كارا" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/y87872DJHRrmYtM3FkGsgNvbT4j.jpg" group-title="تركي يعرض الان",على كارا
@@ -17482,6 +17482,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5690.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الاختيار" tvg-logo="http://images.stttoegypt2026.com:80/images/6o6qYyegwuTXABK7bqSD32aXzYy_big.jpg" group-title="مسلسلات مصريه",الاختيار
 http://mhav1.com:2095/series/ht2990/742579548/6843.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="الاخوة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wxuPEpKb49hxnFBbPEoVyru4VJA.jpg" group-title="مسلسلات مصريه",الاخوة
+http://mhav1.com:2095/series/ht2990/742579548/7354.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الاسطورة" tvg-logo="http://images.stttoegypt2026.com:80/images/zYydX2bdAbDP6L4ezLT0GZkQSOP_big.jpg" group-title="مسلسلات مصريه",الاسطورة
 http://mhav1.com:2095/series/ht2990/742579548/541.ts
