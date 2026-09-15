@@ -538,6 +538,9 @@ https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="Malaysia",8TV
 http://cdn6.163189.xyz/163189/8tv
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png" group-title="Malaysia",tvN Asia HD (720p)
+http://58.8.186.128:10005/bysid/2518
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jDWR3xI.png" group-title="Malaysia",NTV7
 https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 
