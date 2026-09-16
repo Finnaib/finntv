@@ -12686,6 +12686,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7325.ts
 #EXTINF:-1 tvg-id="" tvg-name="الكرامة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/1N3EctW7cweMUbq3aQZyV0GEEZH.jpg" group-title="تركي يعرض الان",الكرامة
 http://mhav1.com:2095/series/ht2990/742579548/7330.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="المدينة البعيدة" tvg-logo="http://images.stttoegypt2026.com:80/images/lGfzYV5YVCnFPULG5RjsudTPCpm_big.jpg" group-title="تركي يعرض الان",المدينة البعيدة
+http://mhav1.com:2095/series/ht2990/742579548/4825.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الورود" tvg-logo="http://images.stttoegypt2026.com:80/images/t5uM9N0Hz8d5uDuI1dlX3Ce8bWX_big.jpg" group-title="تركي يعرض الان",الورود
 http://mhav1.com:2095/series/ht2990/742579548/6893.ts
 
@@ -12745,6 +12748,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7308.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حين لا يرانا أحد" tvg-logo="http://images.stttoegypt2026.com:80/images/1AFP6mjd2zPhQ64HT6jEhyKBVLZ_big.jpg" group-title="عربي يعرض الان",حين لا يرانا أحد
 http://mhav1.com:2095/series/ht2990/742579548/7145.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="خمسين خمسين" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kqafxAeXY5TTrYHh9rUHO4ju3rN.jpg" group-title="عربي يعرض الان",خمسين خمسين
+http://mhav1.com:2095/series/ht2990/742579548/7355.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سندس" tvg-logo="http://images.stttoegypt2026.com:80/images/mVpg4upIlqscZEGCmWK2zJqimSY_big.jpg" group-title="عربي يعرض الان",سندس
 http://mhav1.com:2095/series/ht2990/742579548/1437.ts
@@ -13957,9 +13963,6 @@ http://mhav1.com:2095/series/ht2990/742579548/4705.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="المحتالون" tvg-logo="http://images.stttoegypt2026.com:80/images/qRO1LkoZznMW17Fjd1C1oPwNnxb_big.jpg" group-title="مسلسلات تركيه حديثه",المحتالون
 http://mhav1.com:2095/series/ht2990/742579548/6051.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="المدينة البعيدة" tvg-logo="http://images.stttoegypt2026.com:80/images/lGfzYV5YVCnFPULG5RjsudTPCpm_big.jpg" group-title="مسلسلات تركيه حديثه",المدينة البعيدة
-http://mhav1.com:2095/series/ht2990/742579548/4825.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="المرأة العصرية " tvg-logo="http://images.stttoegypt2026.com:80/images/8KdwDFFQwtVDEDEqePR3Ble8h1S_big.jpg" group-title="مسلسلات تركيه حديثه",المرأة العصرية
 http://mhav1.com:2095/series/ht2990/742579548/6146.ts
