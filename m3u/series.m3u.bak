@@ -12722,6 +12722,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7306.ts
 #EXTINF:-1 tvg-id="" tvg-name="ليلة الخيانه" tvg-logo="https://i.ibb.co/JRKg1GhV/90626-n.jpg" group-title="تركي يعرض الان",ليلة الخيانه
 http://mhav1.com:2095/series/ht2990/742579548/7233.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="محمد الفاتح سلطان الفتوحات" tvg-logo="http://images.stttoegypt2026.com:80/images/mB2RqeQrvVP4eIiiuNaVDKWw3gO_big.jpg" group-title="تركي يعرض الان",محمد الفاتح سلطان الفتوحات
+http://mhav1.com:2095/series/ht2990/742579548/3525.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ورود وذنوب" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/97zzB1op5ADOGsFpR0k7l6IYYyj.jpg" group-title="تركي يعرض الان",ورود وذنوب
 http://mhav1.com:2095/series/ht2990/742579548/6047.ts
 
@@ -13709,6 +13712,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4797.ts
 #EXTINF:-1 tvg-id="" tvg-name="مرعشلي مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/kembPVdtO9DoD4OLd1EoesK8Qlz_big.jpg" group-title="مسلسلات تركيه",مرعشلي مترجم
 http://mhav1.com:2095/series/ht2990/742579548/466.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="مريم مترجم" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/c/c2/Meryem_Poste%28wikiar%29.jpg?utm_source=ar.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled" group-title="مسلسلات تركيه",مريم مترجم
+http://mhav1.com:2095/series/ht2990/742579548/7356.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="مسار قلبي: البحر الأسود" tvg-logo="http://images.stttoegypt2026.com:80/images/fABEDlVnk8al150KIh66VoApFom_big.jpg" group-title="مسلسلات تركيه",مسار قلبي: البحر الأسود
 http://mhav1.com:2095/series/ht2990/742579548/7311.ts
 
@@ -14188,9 +14194,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6560.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="مثل الحلم" tvg-logo="http://images.stttoegypt2026.com:80/images/ylpluerF3X4QQYBXEwztfYNMkOh_big.jpg" group-title="مسلسلات تركيه حديثه",مثل الحلم
 http://mhav1.com:2095/series/ht2990/742579548/6244.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="محمد الفاتح سلطان الفتوحات" tvg-logo="http://images.stttoegypt2026.com:80/images/mB2RqeQrvVP4eIiiuNaVDKWw3gO_big.jpg" group-title="مسلسلات تركيه حديثه",محمد الفاتح سلطان الفتوحات
-http://mhav1.com:2095/series/ht2990/742579548/3525.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="مدرسة الحرية" tvg-logo="http://images.stttoegypt2026.com:80/images/mYEYM9H0E3O6ruurjhOHxjGHiSW_big.jpg" group-title="مسلسلات تركيه حديثه",مدرسة الحرية
 http://mhav1.com:2095/series/ht2990/742579548/3970.ts
