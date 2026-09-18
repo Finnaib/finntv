@@ -3851,6 +3851,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7191.ts
 #EXTINF:-1 tvg-id="" tvg-name="My Brilliant Career" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/fhpa8B6USatHybK04XBbPAB6Mlz.jpg" group-title="English Series [2026]",My Brilliant Career
 http://mhav1.com:2095/series/ht2990/742579548/7264.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Neagley" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/lKOPmO0ah17ogQ9hWg7lSd40kIr.jpg" group-title="English Series [2026]",Neagley
+http://mhav1.com:2095/series/ht2990/742579548/7361.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Nemesis" tvg-logo="http://images.stttoegypt2026.com:80/images/NY7ZwSMw5PjoJdK2CObqiTj7Bm_big.jpg" group-title="English Series [2026]",Nemesis
 http://mhav1.com:2095/series/ht2990/742579548/6979.ts
 
@@ -10588,9 +10591,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7195.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="My Family" tvg-logo="http://images.stttoegypt2026.com:80/images/zwf6QamivOgzSVeNk7jS3YgnYeR_big.jpg" group-title="Series Variety Vip",My Family
 http://mhav1.com:2095/series/ht2990/742579548/7089.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Neagley" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/lKOPmO0ah17ogQ9hWg7lSd40kIr.jpg" group-title="Series Variety Vip",Neagley
-http://mhav1.com:2095/series/ht2990/742579548/7361.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Nemesis 2023" tvg-logo="http://images.stttoegypt2026.com:80/images/27xjUUv3IXUPCNJlPYh5ftyFHMI_big.jpg" group-title="Series Variety Vip",Nemesis 2023
 http://mhav1.com:2095/series/ht2990/742579548/4676.ts
