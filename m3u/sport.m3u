@@ -900,14 +900,8 @@ http://mhav1.com:2095/live/ht2990/742579548/285159.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_4_VEGA" tvg-logo="" group-title="beIN Max",beIN_Max_4_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/40804.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HD" tvg-logo="" group-title="beIN Max",beIN_Max_5_HD
-http://mhav1.com:2095/live/ht2990/742579548/284748.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HDD" tvg-logo="" group-title="beIN Max",beIN_Max_5_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284746.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_Low" tvg-logo="" group-title="beIN Max",beIN_Max_5_Low
-http://mhav1.com:2095/live/ht2990/742579548/41079.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_SD" tvg-logo="" group-title="beIN Max",beIN_Max_5_SD
 http://mhav1.com:2095/live/ht2990/742579548/41081.ts
@@ -915,14 +909,8 @@ http://mhav1.com:2095/live/ht2990/742579548/41081.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_VEGA" tvg-logo="" group-title="beIN Max",beIN_Max_5_VEGA
 http://mhav1.com:2095/live/ht2990/742579548/41077.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN Max",beIN_Max_6_HD
-http://mhav1.com:2095/live/ht2990/742579548/284749.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HDD" tvg-logo="" group-title="beIN Max",beIN_Max_6_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284747.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_Low" tvg-logo="" group-title="beIN Max",beIN_Max_6_Low
-http://mhav1.com:2095/live/ht2990/742579548/41080.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_SD" tvg-logo="" group-title="beIN Max",beIN_Max_6_SD
 http://mhav1.com:2095/live/ht2990/742579548/41082.ts
@@ -1025,18 +1013,6 @@ http://mhav1.com:2095/live/ht2990/742579548/41081.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_SD" tvg-logo="" group-title="beIN MAX",beIN_Max_6_SD
 http://mhav1.com:2095/live/ht2990/742579548/41082.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_5_Low
-http://mhav1.com:2095/live/ht2990/742579548/41079.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_Low" tvg-logo="" group-title="beIN MAX",beIN_Max_6_Low
-http://mhav1.com:2095/live/ht2990/742579548/41080.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HD" tvg-logo="" group-title="beIN MAX",beIN_Max_5_HD
-http://mhav1.com:2095/live/ht2990/742579548/284748.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Max_6_HD" tvg-logo="" group-title="beIN MAX",beIN_Max_6_HD
-http://mhav1.com:2095/live/ht2990/742579548/284749.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Max_5_HDD" tvg-logo="" group-title="beIN MAX",beIN_Max_5_HDD
 http://mhav1.com:2095/live/ht2990/742579548/284746.ts
