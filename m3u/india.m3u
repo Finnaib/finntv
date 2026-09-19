@@ -3885,9 +3885,6 @@ http://mhav1.com:2095/live/ht2990/742579548/188882.ts
 #EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="KIDS",RU: NICKELODEON HD
 http://mhav1.com:2095/live/ht2990/742579548/188958.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SOLO KIDS FHD" tvg-logo="" group-title="KIDS",SOLO KIDS FHD
-http://mhav1.com:2095/live/ht2990/742579548/288268.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Al Majd KIDS" tvg-logo="" group-title="KIDS",Al Majd KIDS
 http://mhav1.com:2095/live/ht2990/742579548/12151.ts
 
@@ -3899,6 +3896,9 @@ http://mhav1.com:2095/live/ht2990/742579548/25734.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-logo="" group-title="KIDS",Spacetoon
 http://mhav1.com:2095/live/ht2990/742579548/168087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO KIDS FHD" tvg-logo="" group-title="KIDS",SOLO KIDS FHD
+http://mhav1.com:2095/live/ht2990/742579548/288268.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SE: C More Stars" tvg-logo="" group-title="KIDS",SE: C More Stars
 http://mhav1.com:2095/live/ht2990/742579548/209565.ts
