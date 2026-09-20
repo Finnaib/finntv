@@ -12710,6 +12710,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7333.ts
 #EXTINF:-1 tvg-id="" tvg-name="الزواج جميل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kMEUr1CH5fGmeae3rVP4xDfD9t3.jpg" group-title="تركي يعرض الان",الزواج جميل
 http://mhav1.com:2095/series/ht2990/742579548/7325.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="القبيحة" tvg-logo="http://images.stttoegypt2026.com:80/images/nrBNLQUzs6KiqL6nTRfVTQdlVgP_big.jpg" group-title="تركي يعرض الان",القبيحة
+http://mhav1.com:2095/series/ht2990/742579548/6761.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الكرامة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/1N3EctW7cweMUbq3aQZyV0GEEZH.jpg" group-title="تركي يعرض الان",الكرامة
 http://mhav1.com:2095/series/ht2990/742579548/7330.ts
 
@@ -13960,9 +13963,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5263.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="القبعة السوداء" tvg-logo="http://images.stttoegypt2026.com:80/images/cYkQo8L4xx44aZmLeLNTPjICa4q_big.jpg" group-title="مسلسلات تركيه حديثه",القبعة السوداء
 http://mhav1.com:2095/series/ht2990/742579548/5639.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="القبيحة" tvg-logo="http://images.stttoegypt2026.com:80/images/nrBNLQUzs6KiqL6nTRfVTQdlVgP_big.jpg" group-title="مسلسلات تركيه حديثه",القبيحة
-http://mhav1.com:2095/series/ht2990/742579548/6761.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="القضاء" tvg-logo="http://images.stttoegypt2026.com:80/images/gUb3TjQim6m6dFKryqiyrj9DPpL_big.jpg" group-title="مسلسلات تركيه حديثه",القضاء
 http://mhav1.com:2095/series/ht2990/742579548/885.ts
