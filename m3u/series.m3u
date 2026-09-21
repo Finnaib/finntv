@@ -12719,6 +12719,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7330.ts
 #EXTINF:-1 tvg-id="" tvg-name="المدينة البعيدة" tvg-logo="http://images.stttoegypt2026.com:80/images/lGfzYV5YVCnFPULG5RjsudTPCpm_big.jpg" group-title="تركي يعرض الان",المدينة البعيدة
 http://mhav1.com:2095/series/ht2990/742579548/4825.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="المنظمة" tvg-logo="http://images.stttoegypt2026.com:80/images/9RWVezvKaxHqh1LCJqumH8NnGbI_big.jpg" group-title="تركي يعرض الان",المنظمة
+http://mhav1.com:2095/series/ht2990/742579548/531.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الورود" tvg-logo="http://images.stttoegypt2026.com:80/images/t5uM9N0Hz8d5uDuI1dlX3Ce8bWX_big.jpg" group-title="تركي يعرض الان",الورود
 http://mhav1.com:2095/series/ht2990/742579548/6893.ts
 
@@ -14014,9 +14017,6 @@ http://mhav1.com:2095/series/ht2990/742579548/4835.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="المعجبة" tvg-logo="http://images.stttoegypt2026.com:80/images/bk6af4kwnnPCMa5wzWieS6vP3rv_big.jpg" group-title="مسلسلات تركيه حديثه",المعجبة
 http://mhav1.com:2095/series/ht2990/742579548/5538.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="المنظمة" tvg-logo="http://images.stttoegypt2026.com:80/images/9RWVezvKaxHqh1LCJqumH8NnGbI_big.jpg" group-title="مسلسلات تركيه حديثه",المنظمة
-http://mhav1.com:2095/series/ht2990/742579548/531.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="النجوم بعيده" tvg-logo="http://images.stttoegypt2026.com:80/images/vWJyhfRQHi4HsiocR3R4p1tqghh_big.jpg" group-title="مسلسلات تركيه حديثه",النجوم بعيده
 http://mhav1.com:2095/series/ht2990/742579548/3261.ts
