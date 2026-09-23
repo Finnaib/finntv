@@ -2103,6 +2103,12 @@ http://mhav1.com:2095/series/ht2990/742579548/6255.ts
 http://mhav1.com:2095/series/ht2990/742579548/5862.ts
 
 
+##### [Category 600,443] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlr1H2HBpsMWUm6jFjAuLTGZ0RF.jpg" group-title="Category 600,443",الهدف
+http://mhav1.com:2095/series/ht2990/742579548/7350.ts
+
+
 ##### [Documentary  Series] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="Cocaine Air: Smugglers at 30,000 Ft." tvg-logo="http://images.stttoegypt2026.com:80/images/dOfobfSR7b0gCLwfqNMDj5ks42k_big.jpg" group-title="Documentary  Series",Cocaine Air: Smugglers at 30,000 Ft.
@@ -2392,9 +2398,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6212.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="المسرح العربي" tvg-logo="https://media-cdn.tripadvisor.com/media/photo-s/0e/95/43/0f/la-opera-de-la-calle.jpg" group-title="Documentary  Series",المسرح العربي
 http://mhav1.com:2095/series/ht2990/742579548/6995.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlr1H2HBpsMWUm6jFjAuLTGZ0RF.jpg" group-title="Documentary  Series",الهدف
-http://mhav1.com:2095/series/ht2990/742579548/7350.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="باور 7 أيام في الجزيرة" tvg-logo="https://details.sa/ar/wp-content/uploads/2024/07/%D8%A8%D8%A7%D9%88%D8%B1.webp" group-title="Documentary  Series",باور 7 أيام في الجزيرة
 http://mhav1.com:2095/series/ht2990/742579548/6850.ts
@@ -14162,6 +14165,9 @@ http://mhav1.com:2095/series/ht2990/742579548/3891.ts
 #EXTINF:-1 tvg-id="" tvg-name="زمبيلى" tvg-logo="http://images.stttoegypt2026.com:80/images/qPNFf3TFT7dfhWBkNunnS05yvFq_big.jpg" group-title="مسلسلات تركيه حديثه",زمبيلى
 http://mhav1.com:2095/series/ht2990/742579548/5127.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="سجين الحب" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/3q3aEpCxWUe7kUSN5lrPJ5JpYob.jpg" group-title="مسلسلات تركيه حديثه",سجين الحب
+http://mhav1.com:2095/series/ht2990/742579548/7375.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="شاكر باشا و عائلته" tvg-logo="http://images.stttoegypt2026.com:80/images/9OOogOksIBIU4s8p79sNkjRyiCw_big.jpg" group-title="مسلسلات تركيه حديثه",شاكر باشا و عائلته
 http://mhav1.com:2095/series/ht2990/742579548/4973.ts
 
@@ -17057,8 +17063,8 @@ http://mhav1.com:2095/series/ht2990/742579548/4056.ts
 #EXTINF:-1 tvg-id="" tvg-name="زوجه الاب" tvg-logo="http://images.stttoegypt2026.com:80/images/uLNtHu7HKUVD8m6yYM1e5ja0tVQ_big.jpg" group-title="مسلسلات مدبلجه",زوجه الاب
 http://mhav1.com:2095/series/ht2990/742579548/4114.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="سجين الحب" tvg-logo="http://images.stttoegypt2026.com:80/images/vOoTEiKLh6Whk4NLGgDGIDqnNcK_big.jpg" group-title="مسلسلات مدبلجه",سجين الحب
-http://mhav1.com:2095/series/ht2990/742579548/6970.ts
+#EXTINF:-1 tvg-id="" tvg-name="سجين الحب مدبلج" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/3q3aEpCxWUe7kUSN5lrPJ5JpYob.jpg" group-title="مسلسلات مدبلجه",سجين الحب مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/7376.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سجينة الماضي" tvg-logo="https://th.bing.com/th/id/OIP.TXdE5_LNshaJRpQod7oQzgHaEK?rs=1&pid=ImgDetMain" group-title="مسلسلات مدبلجه",سجينة الماضي
 http://mhav1.com:2095/series/ht2990/742579548/4855.ts
