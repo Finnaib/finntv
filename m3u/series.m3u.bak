@@ -12683,6 +12683,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6436.ts
 #EXTINF:-1 tvg-id="" tvg-name="المؤسس اورهان مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/377bu6HOkoVdZFasjnmehrCIOgA_big.jpg" group-title="تركي مدبلج يعرض الان",المؤسس اورهان مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/6190.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="المدينة البعيدة مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/lGfzYV5YVCnFPULG5RjsudTPCpm_big.jpg" group-title="تركي مدبلج يعرض الان",المدينة البعيدة مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/5036.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="المشردين مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/vp5BqsuAQynZr3djRCJhyBcSdYS_big.jpg" group-title="تركي مدبلج يعرض الان",المشردين مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/5552.ts
 
@@ -16808,9 +16811,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1925.ts
 #EXTINF:-1 tvg-id="" tvg-name="المخلوق" tvg-logo="http://images.stttoegypt2026.com:80/images/kINoiBSOfHHVmNwJ4i766j93RR1_big.jpg" group-title="مسلسلات مدبلجه",المخلوق
 http://mhav1.com:2095/series/ht2990/742579548/3030.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="المدينة البعيدة مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/lGfzYV5YVCnFPULG5RjsudTPCpm_big.jpg" group-title="مسلسلات مدبلجه",المدينة البعيدة مدبلج
-http://mhav1.com:2095/series/ht2990/742579548/5036.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="المدينة المفقودة مدبلج" tvg-logo="https://th.bing.com/th/id/OIP.uVRY5CR8N1KODfxFyHvv9QHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" group-title="مسلسلات مدبلجه",المدينة المفقودة مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/4942.ts
 
@@ -17632,9 +17632,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6362.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الشركة الألمانية لمكافحة الخوارق" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/u9VJcOATZy5y3kRAJrtcAOq1LVA.jpg" group-title="مسلسلات مصريه",الشركة الألمانية لمكافحة الخوارق
 http://mhav1.com:2095/series/ht2990/742579548/7377.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الشركة الألمانية لمكافحة الخوارق." tvg-logo="http://images.stttoegypt2026.com:80/images/u9VJcOATZy5y3kRAJrtcAOq1LVA_big.jpg" group-title="مسلسلات مصريه",الشركة الألمانية لمكافحة الخوارق.
-http://mhav1.com:2095/series/ht2990/742579548/6896.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الصياد" tvg-logo="http://images.stttoegypt2026.com:80/images/mwaiqELY7Yp2aOzh0db3iStDGuw_big.jpg" group-title="مسلسلات مصريه",الصياد
 http://mhav1.com:2095/series/ht2990/742579548/6775.ts
