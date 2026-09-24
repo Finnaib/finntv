@@ -1082,7 +1082,7 @@ https://jmp2.uk/stvp-INBC4300010Z6
 #EXTINF:-1 tvg-chno="2283" tvg-id="IN3800004BF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800004BF_20260701T005041SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 2283. AajTak
 https://jmp2.uk/stvp-IN3800004BF
 
-#EXTINF:-1 tvg-chno="2284" tvg-id="IN4600012BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600012BD_20260915T042059SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 2284. ABP News
+#EXTINF:-1 tvg-chno="2284" tvg-id="IN4600012BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600012BD_20260922T204819SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 2284. ABP News
 https://jmp2.uk/stvp-IN4600012BD
 
 #EXTINF:-1 tvg-chno="2287" tvg-id="IN2100008VF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100008VF_20260623T015515SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 2287. News24 MP CG
@@ -4187,9 +4187,6 @@ https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/mJWBVH1.png" group-title="KIDS",Kids Zone (720p)
 http://103.250.28.74:8000/play/a04m/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" group-title="Kids",CBeebies Asia India (576p)
-http://202.70.146.135:8000/play/a0a2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xv9cWSh.png" group-title="Kids",Chithiram (576p)
 https://cdn.pishow.tv/ott/live/1243/master.m3u8
