@@ -10343,6 +10343,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2841.ts
 #EXTINF:-1 tvg-id="" tvg-name="Habeas Corpus" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/cojcROwZe8681XzroVIOE9VK4zV.jpg" group-title="Series Variety Vip",Habeas Corpus
 http://mhav1.com:2095/series/ht2990/742579548/7381.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Has Fallen" tvg-logo="http://images.stttoegypt2026.com:80/images/ei1jnjJ154XN1E4q9JKEpuEImup_big.jpg" group-title="Series Variety Vip",Has Fallen
+http://mhav1.com:2095/series/ht2990/742579548/4572.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Heeramandi: The Diamond Bazaar" tvg-logo="http://images.stttoegypt2026.com:80/images/uSmnvWK3bCPz87jkE0GpZsMnYpT_big.jpg" group-title="Series Variety Vip",Heeramandi: The Diamond Bazaar
 http://mhav1.com:2095/series/ht2990/742579548/3855.ts
 
@@ -10681,9 +10684,6 @@ http://mhav1.com:2095/series/ht2990/742579548/2993.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Paradis City" tvg-logo="http://images.stttoegypt2026.com:80/images/vOwfwNURpCgt3SUbqmzPsrbqHBv_big.jpg" group-title="Series Variety Vip",Paradis City
 http://mhav1.com:2095/series/ht2990/742579548/5419.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Paris Has Fallen" tvg-logo="http://images.stttoegypt2026.com:80/images/ei1jnjJ154XN1E4q9JKEpuEImup_big.jpg" group-title="Series Variety Vip",Paris Has Fallen
-http://mhav1.com:2095/series/ht2990/742579548/4572.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Past Lies" tvg-logo="http://images.stttoegypt2026.com:80/images/pVpw78YLUOqEbqmzDtkFKKAjKL5_big.jpg" group-title="Series Variety Vip",Past Lies
 http://mhav1.com:2095/series/ht2990/742579548/3856.ts
@@ -12752,6 +12752,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6192.ts
 #EXTINF:-1 tvg-id="" tvg-name="الحب والعرش" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/7ffVYsJZKXTRE3CSdu53PnHOhat.jpg" group-title="تركي يعرض الان",الحب والعرش
 http://mhav1.com:2095/series/ht2990/742579548/7333.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="الخليفة" tvg-logo="http://images.stttoegypt2026.com:80/images/cMFN5yal6Kgh60lDDTzgLCc8t8D_big.jpg" group-title="تركي يعرض الان",الخليفة
+http://mhav1.com:2095/series/ht2990/742579548/5990.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="الزواج جميل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kMEUr1CH5fGmeae3rVP4xDfD9t3.jpg" group-title="تركي يعرض الان",الزواج جميل
 http://mhav1.com:2095/series/ht2990/742579548/7325.ts
 
@@ -13942,9 +13945,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6918.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الحياة بعد الطلاق" tvg-logo="http://images.stttoegypt2026.com:80/images/bCoLLuCXN4crruP5tPzagoTb2WH_big.jpg" group-title="مسلسلات تركيه حديثه",الحياة بعد الطلاق
 http://mhav1.com:2095/series/ht2990/742579548/6920.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="الخليفة" tvg-logo="http://images.stttoegypt2026.com:80/images/cMFN5yal6Kgh60lDDTzgLCc8t8D_big.jpg" group-title="مسلسلات تركيه حديثه",الخليفة
-http://mhav1.com:2095/series/ht2990/742579548/5990.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الخيانه" tvg-logo="http://images.stttoegypt2026.com:80/images/2HJTZ7ZfPxxHgkKRXmTppFEYviK_big.jpg" group-title="مسلسلات تركيه حديثه",الخيانه
 http://mhav1.com:2095/series/ht2990/742579548/1822.ts
