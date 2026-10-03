@@ -6647,6 +6647,9 @@ http://mhav1.com:2095/series/ht2990/742579548/300.ts
 #EXTINF:-1 tvg-id="" tvg-name="Angry Birds Stella" tvg-logo="http://images.stttoegypt2026.com:80/images/cHN9uyTgQAdtQTABd6PbC93VUyR_big.jpg" group-title="Kides Series",Angry Birds Stella
 http://mhav1.com:2095/series/ht2990/742579548/2703.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Another" tvg-logo="http://images.stttoegypt2026.com:80/images/h3YyESKtOy7Rrv7zymyF9kfpz7T_big.jpg" group-title="Kides Series",Another
+http://mhav1.com:2095/series/ht2990/742579548/7400.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Arcane مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/abf8tHznhSvl9BAElD2cQeRr7do_big.jpg" group-title="Kides Series",Arcane مترجم
 http://mhav1.com:2095/series/ht2990/742579548/4888.ts
 
@@ -11856,12 +11859,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6415.ts
 http://mhav1.com:2095/series/ht2990/742579548/4947.ts
 
 
-##### [Category 600,443] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlr1H2HBpsMWUm6jFjAuLTGZ0RF.jpg" group-title="Category 600,443",الهدف
-http://mhav1.com:2095/series/ht2990/742579548/7350.ts
-
-
 ##### [أطفال عربى] #####
 
 #EXTINF:-1 tvg-id="" tvg-name=" Belle And Sebastian | بيل وسبستيان [ مدبلج ] " tvg-logo="http://images.stttoegypt2026.com:80/images/yJ0xM73STVS0H81zdWEhfFKEvJm_big.jpg" group-title="أطفال عربى", Belle And Sebastian | بيل وسبستيان [ مدبلج ] 
@@ -12844,6 +12841,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7294.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الكلان" tvg-logo="http://images.stttoegypt2026.com:80/images/i3FqhvAEhTYlSsR3R8iPVCdPK3Y_big.jpg" group-title="عربي يعرض الان",الكلان
 http://mhav1.com:2095/series/ht2990/742579548/7148.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="الهدف" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xlr1H2HBpsMWUm6jFjAuLTGZ0RF.jpg" group-title="عربي يعرض الان",الهدف
+http://mhav1.com:2095/series/ht2990/742579548/7350.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="حب ع ورق" tvg-logo="http://images.stttoegypt2026.com:80/images/kB9Td5xoWr2fSozBM2YCPZWe2mJ_big.jpg" group-title="عربي يعرض الان",حب ع ورق
 http://mhav1.com:2095/series/ht2990/742579548/7017.ts
