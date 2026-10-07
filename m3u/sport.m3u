@@ -592,12 +592,6 @@ http://mhav1.com:2095/live/ht2990/742579548/241387.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 4K" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 1 4K
 http://mhav1.com:2095/live/ht2990/742579548/241376.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/241389.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/241395.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 10 4K" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 10 4K
 http://mhav1.com:2095/live/ht2990/742579548/241385.ts
 
@@ -658,9 +652,6 @@ http://mhav1.com:2095/live/ht2990/742579548/241384.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alwan UFC 4K" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan UFC 4K
 http://mhav1.com:2095/live/ht2990/742579548/241386.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/241389.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 2 HD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 2 HD
 http://mhav1.com:2095/live/ht2990/742579548/241390.ts
 
@@ -675,9 +666,6 @@ http://mhav1.com:2095/live/ht2990/742579548/241393.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 6 HD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 6 HD
 http://mhav1.com:2095/live/ht2990/742579548/241394.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/241395.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 2 SD" tvg-logo="" group-title="Alwan ألوان الرياضية",Alwan Sport 2 SD
 http://mhav1.com:2095/live/ht2990/742579548/241396.ts
@@ -2376,6 +2364,28 @@ http://mhav1.com:2095/live/ht2990/742579548/57473.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[CA] Tva Sports 2" tvg-logo="" group-title="Canada",[CA] Tva Sports 2
 http://mhav1.com:2095/live/ht2990/742579548/4441.ts
+
+
+################################################################################
+# Category 621,654
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/241389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/241395.ts
+
+
+################################################################################
+# Category 676,654
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/288296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 
 ################################################################################
@@ -6358,14 +6368,8 @@ http://mhav1.com:2095/live/ht2990/742579548/288274.ts
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 FHD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 FHD
 http://mhav1.com:2095/live/ht2990/742579548/288307.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/288296.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HEVC" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 HEVC
 http://mhav1.com:2095/live/ht2990/742579548/288297.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 2 FHD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 2 FHD
 http://mhav1.com:2095/live/ht2990/742579548/288304.ts
@@ -6450,12 +6454,6 @@ http://mhav1.com:2095/live/ht2990/742579548/288297.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 FHD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 FHD
 http://mhav1.com:2095/live/ht2990/742579548/288307.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/288296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Solo Sports",SOLO SPORT 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 2 HEVC" tvg-logo="" group-title="Solo Sports",SOLO SPORT 2 HEVC
 http://mhav1.com:2095/live/ht2990/742579548/288305.ts
@@ -6589,6 +6587,23 @@ https://jmp2.uk/stvp-ES1100001MT
 
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
+
+
+################################################################################
+# Sports
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Sports",Alwan Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/241389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Sports",Alwan Sport 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/241395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Sports",SOLO SPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/288296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Sports",SOLO SPORT 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 
 ################################################################################
