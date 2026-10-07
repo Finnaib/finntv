@@ -785,9 +785,6 @@ https://mumt03.tangotv.in/Dsly5z3HSHUBHSANDESH/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Wv7MOzg.png" group-title="INDIA",Asianet (576p)
 http://51.75.127.199:3141/asianet/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Wv7MOzg.png" group-title="INDIA",Asianet HD (720p)
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M8uCJ0D.png" group-title="INDIA",Colors (576p)
 http://51.75.127.199:3141/colorssd/index.m3u8
 
@@ -1127,7 +1124,7 @@ https://jmp2.uk/stvp-IN4900004LP
 #EXTINF:-1 tvg-chno="2151" tvg-id="IN24000030L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN24000030L_20260623T014729SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2151. Crime Scene TV
 https://jmp2.uk/stvp-IN24000030L
 
-#EXTINF:-1 tvg-chno="2153" tvg-id="IN3000010V5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000010V5_20260929T041345SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2153. Mr. Bean Animated
+#EXTINF:-1 tvg-chno="2153" tvg-id="IN3000010V5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000010V5_20261006T042406SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2153. Mr. Bean Animated
 https://jmp2.uk/stvp-IN3000010V5
 
 #EXTINF:-1 tvg-chno="2195" tvg-id="IN49000103E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN49000103E_20260915T042048SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2195. CJ ENM K-Reality
@@ -1157,7 +1154,7 @@ https://jmp2.uk/stvp-IN400000830
 #EXTINF:-1 tvg-chno="2449" tvg-id="IN2100007QM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100007QM_20260623T014701SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2449. Cine Jomjomat
 https://jmp2.uk/stvp-IN2100007QM
 
-#EXTINF:-1 tvg-chno="2522" tvg-id="IN46000184H" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000184H_20260929T041339SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2522. Kings Of Comedy
+#EXTINF:-1 tvg-chno="2522" tvg-id="IN46000184H" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN46000184H_20261006T042400SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2522. Kings Of Comedy
 https://jmp2.uk/stvp-IN46000184H
 
 #EXTINF:-1 tvg-chno="2523" tvg-id="IN4600019L1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4600019L1_20260623T015640SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2523. Series K BY MBC
@@ -1187,7 +1184,7 @@ https://jmp2.uk/stvp-IN4000635D
 #EXTINF:-1 tvg-chno="2752" tvg-id="IN400064VZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400064VZ_20260623T015554SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2752. Punjabi Shorts
 https://jmp2.uk/stvp-IN400064VZ
 
-#EXTINF:-1 tvg-chno="2837" tvg-id="IN3900027S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900027S7_20260915T042106SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2837. Aashirwad TV
+#EXTINF:-1 tvg-chno="2837" tvg-id="IN3900027S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900027S7_20261006T042350SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2837. Aashirwad TV
 https://jmp2.uk/stvp-IN3900027S7
 
 #EXTINF:-1 tvg-chno="2858" tvg-id="IN2200002GZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2200002GZ_20260818T082711SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2858. The Cube
@@ -1205,7 +1202,7 @@ https://jmp2.uk/stvp-IN4600016DM
 #EXTINF:-1 tvg-chno="2888" tvg-id="IN3000022R9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3000022R9_20260915T042127SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2888. Fifth Gear
 https://jmp2.uk/stvp-IN3000022R9
 
-#EXTINF:-1 tvg-chno="2912" tvg-id="IN800016BA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800016BA_20260929T041334SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2912. JOJO TV
+#EXTINF:-1 tvg-chno="2912" tvg-id="IN800016BA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN800016BA_20261006T042355SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2912. JOJO TV
 https://jmp2.uk/stvp-IN800016BA
 
 #EXTINF:-1 tvg-chno="1062" tvg-id="IN3800001ZH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800001ZH_20260623T013556SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1062. Aaj Tak HD
@@ -1331,10 +1328,10 @@ https://jmp2.uk/stvp-IN8000186A
 #EXTINF:-1 tvg-chno="2838" tvg-id="IN3300003TW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3300003TW_20260805T004048SQUARE.png" tvg-country="IN" group-title="India",[Infotainment] 2838. WedoTV Get Factual
 https://jmp2.uk/stvp-IN3300003TW
 
-#EXTINF:-1 tvg-chno="1086" tvg-id="IN25000020M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN25000020M_20260929T041406SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1086. The Jungle Book
+#EXTINF:-1 tvg-chno="1086" tvg-id="IN25000020M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN25000020M_20261006T042427SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1086. The Jungle Book
 https://jmp2.uk/stvp-IN25000020M
 
-#EXTINF:-1 tvg-chno="1088" tvg-id="IN2500003JW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2500003JW_20260623T015548SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1088. Powerkids Kartoon Channel
+#EXTINF:-1 tvg-chno="1088" tvg-id="IN2500003JW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2500003JW_20261006T042333SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1088. Powerkids Kartoon Channel
 https://jmp2.uk/stvp-IN2500003JW
 
 #EXTINF:-1 tvg-chno="1091" tvg-id="INBA4900026FJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900026FJ_20260623T010624SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1091. Toon Goggles
@@ -1478,7 +1475,7 @@ https://jmp2.uk/stvp-IN39000282A
 #EXTINF:-1 tvg-chno="1122" tvg-id="IN3800006RD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800006RD_20260915T042040SQUARE.png" tvg-country="IN" group-title="India",[Music] 1122. CJ ENM K-POP
 https://jmp2.uk/stvp-IN3800006RD
 
-#EXTINF:-1 tvg-chno="1126" tvg-id="IN38000050P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000050P_20260929T041317SQUARE.png" tvg-country="IN" group-title="India",[Music] 1126. 9XM
+#EXTINF:-1 tvg-chno="1126" tvg-id="IN38000050P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000050P_20261006T042338SQUARE.png" tvg-country="IN" group-title="India",[Music] 1126. 9XM
 https://jmp2.uk/stvp-IN38000050P
 
 #EXTINF:-1 tvg-chno="1127" tvg-id="INBC2800013L6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800013L6_20260623T013459SQUARE.png" tvg-country="IN" group-title="India",[Music] 1127. 9X Jalwa
@@ -1550,7 +1547,7 @@ https://jmp2.uk/stvp-INBD2500009DK
 #EXTINF:-1 tvg-chno="1142" tvg-id="INBD400010BD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD400010BD_20260623T013536SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1142. ABP Asmita
 https://jmp2.uk/stvp-INBD400010BD
 
-#EXTINF:-1 tvg-chno="1143" tvg-id="INBD1300012GJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300012GJ_20260623T015727SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1143. TV9 Gujarati
+#EXTINF:-1 tvg-chno="1143" tvg-id="INBD1300012GJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300012GJ_20261006T042421SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1143. TV9 Gujarati
 https://jmp2.uk/stvp-INBD1300012GJ
 
 #EXTINF:-1 tvg-chno="1144" tvg-id="INBD2500015H5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500015H5_20260623T014635SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1144. CNBC Bajar
@@ -1565,7 +1562,7 @@ https://jmp2.uk/stvp-INBD400003GE
 #EXTINF:-1 tvg-chno="1148" tvg-id="INBD25000081V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD25000081V_20260623T015422SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1148. News18 Bangla
 https://jmp2.uk/stvp-INBD25000081V
 
-#EXTINF:-1 tvg-chno="1149" tvg-id="INBD2500016OR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500016OR_20260623T015558SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1149. R Bangla
+#EXTINF:-1 tvg-chno="1149" tvg-id="INBD2500016OR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD2500016OR_20261006T042413SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1149. R Bangla
 https://jmp2.uk/stvp-INBD2500016OR
 
 #EXTINF:-1 tvg-chno="1150" tvg-id="INBD4000027E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD4000027E_20260623T013305SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 1150. Zee 24 Kalak
@@ -1607,7 +1604,7 @@ https://jmp2.uk/stvp-IN40000048N
 #EXTINF:-1 tvg-chno="2431" tvg-id="IN4000005BW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000005BW_20260623T013543SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 2431. ABP Majha
 https://jmp2.uk/stvp-IN4000005BW
 
-#EXTINF:-1 tvg-chno="2432" tvg-id="IN4000006CF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000006CF_20260623T013530SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 2432. ABP Ananda
+#EXTINF:-1 tvg-chno="2432" tvg-id="IN4000006CF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000006CF_20261006T042343SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 2432. ABP Ananda
 https://jmp2.uk/stvp-IN4000006CF
 
 #EXTINF:-1 tvg-chno="2450" tvg-id="IN3900003LA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900003LA_20260623T015237SQUARE.png" tvg-country="IN" group-title="India",[Regional News] 2450. Malai Murasu Seithikal
@@ -2824,6 +2821,9 @@ https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IM4D8Wz.png" group-title="Entertainment",Apna Punjab TV (720p)
 https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Wv7MOzg.png" group-title="Entertainment",Asianet HD (720p) [Not 24/7]
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8
+
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Entertainment",Big Magic (576p)
 http://51.75.127.199:3141/bigmagic/index.m3u8
 
@@ -3177,7 +3177,7 @@ https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MAKKAL_TV/images/LOGO_HD/image.png" group-title="General",Makkal TV (576i)
 https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s135691_ld_h15_aa.png?lock=720x540" group-title="General",MBC TV (India) (576p)
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s135691_ld_h15_aa.png?lock=720x540" group-title="General",MBC TV (576p)
 https://mumbai-edge.smartplaytv.in/MBCTV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.meialai.in/assets/meialai-DBaBUZTH.png" group-title="General",Mei Alai TV (576p)
@@ -3984,7 +3984,7 @@ http://mhav1.com:2095/live/ht2990/742579548/78272.ts
 http://mhav1.com:2095/live/ht2990/742579548/78367.ts
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="KIDS",Disney Channel (India) (576p)
-http://202.70.146.135:8000/play/a01q/index.m3u8
+http://51.75.127.199:3141/disneychannel/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png" group-title="KIDS",Disney Channel (India) HD (1080p)
 http://66.102.126.10:8000/play/a013/index.m3u8
