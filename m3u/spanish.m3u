@@ -626,6 +626,9 @@ https://jmp2.uk/stvp-ES2800002MM
 #EXTINF:-1 tvg-chno="2650" tvg-id="ES7000088K" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES7000088K_20260901T054146SQUARE.png" tvg-country="ES" group-title="Spain",[Documentales] 2650. Space Live
 https://jmp2.uk/stvp-ES7000088K
 
+#EXTINF:-1 tvg-chno="2924" tvg-id="ES1800005H2" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1800005H2_20261006T033919SQUARE.png" tvg-country="ES" group-title="Spain",[Documentales] 2924. BBC Historia
+https://jmp2.uk/stvp-ES1800005H2
+
 #EXTINF:-1 tvg-chno="633" tvg-id="ES26000068D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES26000068D_20260707T050942SQUARE.png" tvg-country="ES" group-title="Spain",[Entretenimiento] 633. Estilo y Vida – Rakuten TV
 https://jmp2.uk/stvp-ES26000068D
 
@@ -755,7 +758,7 @@ https://jmp2.uk/stvp-ES1900003JT
 #EXTINF:-1 tvg-chno="2727" tvg-id="ES1800006ZS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1800006ZS_20260528T055835SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2727. Rainy Day Vibes
 https://jmp2.uk/stvp-ES1800006ZS
 
-#EXTINF:-1 tvg-chno="2728" tvg-id="ES1800009VX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1800009VX_20261006T033907SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2728. Spring Vibes
+#EXTINF:-1 tvg-chno="2728" tvg-id="ES1800009VX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1800009VX_20261006T033907SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2728. Fall Vibes
 https://jmp2.uk/stvp-ES1800009VX
 
 #EXTINF:-1 tvg-chno="2729" tvg-id="ES1800007GH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1800007GH_20260528T055756SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2729. Island Vibes

@@ -1103,6 +1103,9 @@ https://jmp2.uk/stvp-KRBB420000769
 #EXTINF:-1 tvg-chno="1372" tvg-id="KRBC40000010R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC40000010R_20261006T042815SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 1372. EBS 극한 직업
 https://jmp2.uk/stvp-KRBC40000010R
 
+#EXTINF:-1 tvg-chno="1401" tvg-id="KRBD4300003MW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD4300003MW_20261006T042833SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 1401. JTBC 차이나는 클라스
+https://jmp2.uk/stvp-KRBD4300003MW
+
 #EXTINF:-1 tvg-chno="2293" tvg-id="KR3600006FN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR3600006FN_20251106T195327SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 2293. 아리랑TV
 https://jmp2.uk/stvp-KR3600006FN
 
@@ -1157,7 +1160,7 @@ https://jmp2.uk/stvp-KR12000017G
 #EXTINF:-1 tvg-chno="1383" tvg-id="KRBC3200004D1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200004D1_20260422T013754SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 1383. PLAYGRAM MOVIES
 https://jmp2.uk/stvp-KRBC3200004D1
 
-#EXTINF:-1 tvg-chno="2171" tvg-id="KR2000012AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000012AI_20261006T042803SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 2171. Genie 한가위 특집
+#EXTINF:-1 tvg-chno="2171" tvg-id="KR2000012AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000012AI_20261006T042803SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 2171. Genie 어워드 특집
 https://jmp2.uk/stvp-KR2000012AI
 
 #EXTINF:-1 tvg-chno="1334" tvg-id="KRBC3200029C4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200029C4_20260728T033454SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1334. tvN 스트리트푸드파이터 1~2 이어보기
@@ -1222,9 +1225,6 @@ https://jmp2.uk/stvp-KRBD2700001QR
 
 #EXTINF:-1 tvg-chno="1400" tvg-id="KRBD2700002IV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD2700002IV_20261006T042919SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1400. TV조선 미스트롯4
 https://jmp2.uk/stvp-KRBD2700002IV
-
-#EXTINF:-1 tvg-chno="1401" tvg-id="KRBD4300003MW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD4300003MW_20261006T042833SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1401. JTBC 크라임씬3
-https://jmp2.uk/stvp-KRBD4300003MW
 
 #EXTINF:-1 tvg-chno="1402" tvg-id="KRBC5000019FB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC5000019FB_20260422T013605SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1402. JTBC 이혼숙려캠프
 https://jmp2.uk/stvp-KRBC5000019FB
