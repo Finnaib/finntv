@@ -2367,28 +2367,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4441.ts
 
 
 ################################################################################
-# Category 621,654
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/241389.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/241395.ts
-
-
-################################################################################
-# Category 676,654
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/288296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/288295.ts
-
-
-################################################################################
 # Czech
 ################################################################################
 
@@ -4542,6 +4520,35 @@ http://mhav1.com:2095/live/ht2990/742579548/20075.ts
 
 
 ################################################################################
+# MH TV Search
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/241389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/241395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/288296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/288295.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/241389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/241395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/288296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/288295.ts
+
+
+################################################################################
 # Netherland
 ################################################################################
 
@@ -6587,23 +6594,6 @@ https://jmp2.uk/stvp-ES1100001MT
 
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
-
-
-################################################################################
-# Sports
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Sports",Alwan Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/241389.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Sports",Alwan Sport 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/241395.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Sports",SOLO SPORT 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/288296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Sports",SOLO SPORT 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 
 ################################################################################

@@ -8748,6 +8748,21 @@ http://mhav1.com:2095/live/ht2990/742579548/47927.ts
 http://mhav1.com:2095/live/ht2990/742579548/47926.ts
 
 
+##### [MH TV Search] #####
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/241389.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="MH TV Search",Alwan Sport 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/241395.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/288296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="MH TV Search",SOLO SPORT 1 SD
+http://mhav1.com:2095/live/ht2990/742579548/288295.ts
+
+
 ##### [Morocco - المغرب] #####
 
 #EXTINF:-1 tvg-id="" tvg-name="2M Maroc [MA]" tvg-logo="" group-title="Morocco - المغرب",2M Maroc [MA]
@@ -14701,24 +14716,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4101.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Zee Alwan [AE]" tvg-logo="" group-title="UAE - الامارات",Zee Alwan [AE]
 http://mhav1.com:2095/live/ht2990/742579548/4100.ts
-
-
-##### [Category 621,654] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 HD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/241389.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alwan Sport 1 SD" tvg-logo="" group-title="Category 621,654",Alwan Sport 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/241395.ts
-
-
-##### [Category 676,654] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 HD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 HD
-http://mhav1.com:2095/live/ht2990/742579548/288296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SOLO SPORT 1 SD" tvg-logo="" group-title="Category 676,654",SOLO SPORT 1 SD
-http://mhav1.com:2095/live/ht2990/742579548/288295.ts
 
 
 ##### [WWE Live مصارعة] #####
