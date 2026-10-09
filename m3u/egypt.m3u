@@ -735,6 +735,9 @@ http://mhav1.com:2095/live/ht2990/742579548/136687.ts
 # MBC
 ################################################################################
 
+#EXTINF:-1 tvg-id="" tvg-name="MBC  ELIFE HD" tvg-logo="" group-title="MBC",MBC  ELIFE HD
+http://mhav1.com:2095/live/ht2990/742579548/7031.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="MBC 1" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/1205.jpg" group-title="MBC",MBC 1
 http://mhav1.com:2095/live/ht2990/742579548/2751.ts
 
@@ -923,6 +926,9 @@ http://mhav1.com:2095/live/ht2990/742579548/261596.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC VARIETY FHD" tvg-logo="" group-title="MBC",MBC VARIETY FHD
 http://mhav1.com:2095/live/ht2990/742579548/32402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC WANASH FHD " tvg-logo="" group-title="MBC",MBC WANASH FHD 
+http://mhav1.com:2095/live/ht2990/742579548/32405.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC ZOOM" tvg-logo="" group-title="MBC",MBC ZOOM
 http://mhav1.com:2095/live/ht2990/742579548/261604.ts
