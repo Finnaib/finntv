@@ -2327,6 +2327,9 @@ http://mhav1.com:2095/live/ht2990/742579548/121472.ts
 #EXTINF:-1 tvg-id="" tvg-name="|DK| MOTORVISION TV HD" tvg-logo="" group-title="Denmark",|DK| MOTORVISION TV HD
 http://mhav1.com:2095/live/ht2990/742579548/121478.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="|DK| MTV 80s" tvg-logo="" group-title="Denmark",|DK| MTV 80s
+http://mhav1.com:2095/live/ht2990/742579548/121480.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="|DK| Nickelodeon" tvg-logo="" group-title="Denmark",|DK| Nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/121469.ts
 
@@ -2374,6 +2377,632 @@ http://mhav1.com:2095/live/ht2990/742579548/121457.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|DK| V sport golf HD" tvg-logo="" group-title="Denmark",|DK| V sport golf HD
 http://mhav1.com:2095/live/ht2990/742579548/121475.ts
+
+
+################################################################################
+# EXYU
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="===EXYU===" tvg-logo="" group-title="EXYU",===EXYU===
+http://mhav1.com:2095/live/ht2990/742579548/4335.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: 24 Kitchen HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: 24 Kitchen HD
+http://mhav1.com:2095/live/ht2990/742579548/72429.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: AXN Adria HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: AXN Adria HD
+http://mhav1.com:2095/live/ht2990/742579548/72415.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Animal Planet HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Animal Planet HD
+http://mhav1.com:2095/live/ht2990/742579548/72416.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72441.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72442.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72444.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Arena Sport 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Arena Sport 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72446.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Baby TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Baby TV
+http://mhav1.com:2095/live/ht2990/742579548/72467.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CMC HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CMC HD
+http://mhav1.com:2095/live/ht2990/742579548/72430.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineMax 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineMax 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72439.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineStar Action" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineStar Action
+http://mhav1.com:2095/live/ht2990/742579548/72456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineStar Action TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineStar Action TV
+http://mhav1.com:2095/live/ht2990/742579548/72440.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineStar Fantasy HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineStar Fantasy HD
+http://mhav1.com:2095/live/ht2990/742579548/72438.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineStar Premiere 1" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineStar Premiere 1
+http://mhav1.com:2095/live/ht2990/742579548/72457.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CineStar Premiere 2" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CineStar Premiere 2
+http://mhav1.com:2095/live/ht2990/742579548/72458.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Cinemax 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Cinemax 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72455.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CroMax Select 7 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CroMax Select 7 HD
+http://mhav1.com:2095/live/ht2990/742579548/72470.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: CroMax Select 8 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: CroMax Select 8 HD
+http://mhav1.com:2095/live/ht2990/742579548/72471.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Discovery Channel HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Discovery Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/72417.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Diva HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Diva HD
+http://mhav1.com:2095/live/ht2990/742579548/72422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Doma TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Doma TV
+http://mhav1.com:2095/live/ht2990/742579548/72423.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Crime  HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Crime  HD
+http://mhav1.com:2095/live/ht2990/742579548/72427.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72424.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72426.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72425.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HBO 2" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HBO 2
+http://mhav1.com:2095/live/ht2990/742579548/72459.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HBO 3" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HBO 3
+http://mhav1.com:2095/live/ht2990/742579548/72460.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HBO Adria HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HBO Adria HD
+http://mhav1.com:2095/live/ht2990/742579548/72428.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HNTV HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HNTV HD
+http://mhav1.com:2095/live/ht2990/742579548/72403.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HRT 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HRT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72398.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HRT 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HRT 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72399.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HRT 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HRT 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72400.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HRT 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HRT 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72401.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: HRT International HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: HRT International HD
+http://mhav1.com:2095/live/ht2990/742579548/72402.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: History Channel" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: History Channel
+http://mhav1.com:2095/live/ht2990/742579548/72461.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Investigation Discovery HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Investigation Discovery HD
+http://mhav1.com:2095/live/ht2990/742579548/72411.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Jugoton TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Jugoton TV
+http://mhav1.com:2095/live/ht2990/742579548/72432.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Kino TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Kino TV
+http://mhav1.com:2095/live/ht2990/742579548/72462.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Laudato TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Laudato TV
+http://mhav1.com:2095/live/ht2990/742579548/72463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Mini TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Mini TV
+http://mhav1.com:2095/live/ht2990/742579548/72431.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: N1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: N1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72410.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Narodna TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Narodna TV
+http://mhav1.com:2095/live/ht2990/742579548/72433.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nat Geo HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Nat Geo HD
+http://mhav1.com:2095/live/ht2990/742579548/72413.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nat Geo Wild HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Nat Geo Wild HD
+http://mhav1.com:2095/live/ht2990/742579548/72437.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nick Junior HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Nick Junior HD
+http://mhav1.com:2095/live/ht2990/742579548/72468.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nickelodeon HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Nickelodeon HD
+http://mhav1.com:2095/live/ht2990/742579548/72412.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Nova HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Nova HD
+http://mhav1.com:2095/live/ht2990/742579548/72414.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Osjecka TV" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Osjecka TV
+http://mhav1.com:2095/live/ht2990/742579548/72434.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Pikaboo" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Pikaboo
+http://mhav1.com:2095/live/ht2990/742579548/72464.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72405.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72406.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL HD
+http://mhav1.com:2095/live/ht2990/742579548/72404.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL Kockica HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL Kockica HD
+http://mhav1.com:2095/live/ht2990/742579548/72407.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL Living HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL Living HD
+http://mhav1.com:2095/live/ht2990/742579548/72408.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL Passion HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL Passion HD
+http://mhav1.com:2095/live/ht2990/742579548/72409.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: RTL Televizija" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: RTL Televizija
+http://mhav1.com:2095/live/ht2990/742579548/72465.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: STV Slavonija" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: STV Slavonija
+http://mhav1.com:2095/live/ht2990/742579548/72466.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72447.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 10 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 10 HD
+http://mhav1.com:2095/live/ht2990/742579548/72454.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72448.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72449.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72450.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 5" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 5
+http://mhav1.com:2095/live/ht2990/742579548/72451.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub 7 HD [ Live ]" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub 7 HD [ Live ]
+http://mhav1.com:2095/live/ht2990/742579548/72453.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Sport Klub Golf HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Sport Klub Golf HD
+http://mhav1.com:2095/live/ht2990/742579548/72452.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Srce" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Srce
+http://mhav1.com:2095/live/ht2990/742579548/72469.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: TV 1000 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: TV 1000 HD
+http://mhav1.com:2095/live/ht2990/742579548/72435.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Viasat Explorer HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Viasat Explorer HD
+http://mhav1.com:2095/live/ht2990/742579548/72421.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Viasat History HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Viasat History HD
+http://mhav1.com:2095/live/ht2990/742579548/72419.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Viasat Nature HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Viasat Nature HD
+http://mhav1.com:2095/live/ht2990/742579548/72420.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Hr: Z1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Hr: Z1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72436.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: 24 Kitchen HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: 24 Kitchen HD
+http://mhav1.com:2095/live/ht2990/742579548/72579.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: ATV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: ATV
+http://mhav1.com:2095/live/ht2990/742579548/72530.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: AXN HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: AXN HD
+http://mhav1.com:2095/live/ht2990/742579548/72538.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: AXN Spin" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: AXN Spin
+http://mhav1.com:2095/live/ht2990/742579548/72544.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Premium 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Premium 1
+http://mhav1.com:2095/live/ht2990/742579548/72590.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Premium 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Premium 2
+http://mhav1.com:2095/live/ht2990/742579548/72591.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Premium 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Premium 3
+http://mhav1.com:2095/live/ht2990/742579548/72592.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72585.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72587.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 4 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 4 HD
+http://mhav1.com:2095/live/ht2990/742579548/72588.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Arena Sport 5 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Arena Sport 5 HD
+http://mhav1.com:2095/live/ht2990/742579548/72589.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: B92" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: B92
+http://mhav1.com:2095/live/ht2990/742579548/72513.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Baby TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Baby TV
+http://mhav1.com:2095/live/ht2990/742579548/72580.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Belle Amie" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Belle Amie
+http://mhav1.com:2095/live/ht2990/742579548/72545.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Boomerang HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Boomerang HD
+http://mhav1.com:2095/live/ht2990/742579548/72581.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: CMC Music HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: CMC Music HD
+http://mhav1.com:2095/live/ht2990/742579548/72582.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: CineStar Premiere 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: CineStar Premiere 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72546.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: CineStar Premiere 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: CineStar Premiere 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: CineStar TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: CineStar TV
+http://mhav1.com:2095/live/ht2990/742579548/72548.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Cinemania" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Cinemania
+http://mhav1.com:2095/live/ht2990/742579548/72564.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Cinemax 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Cinemax 1
+http://mhav1.com:2095/live/ht2990/742579548/72565.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Cinemax 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Cinemax 2
+http://mhav1.com:2095/live/ht2990/742579548/72566.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Cinestar Premiere 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Cinestar Premiere 1
+http://mhav1.com:2095/live/ht2990/742579548/72567.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Cinestar Premiere 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Cinestar Premiere 2
+http://mhav1.com:2095/live/ht2990/742579548/72568.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Crime+ Investigation" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Crime+ Investigation
+http://mhav1.com:2095/live/ht2990/742579548/72549.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: DM Sat" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: DM Sat
+http://mhav1.com:2095/live/ht2990/742579548/72540.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Discovery Channel HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Discovery Channel HD
+http://mhav1.com:2095/live/ht2990/742579548/72524.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Discovery ID HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Discovery ID HD
+http://mhav1.com:2095/live/ht2990/742579548/72526.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Discovery Science HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Discovery Science HD
+http://mhav1.com:2095/live/ht2990/742579548/72418.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Duga TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Duga TV
+http://mhav1.com:2095/live/ht2990/742579548/72574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72598.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: EuroSport 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: EuroSport 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72599.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Filmbox Extra" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Filmbox Extra
+http://mhav1.com:2095/live/ht2990/742579548/72531.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Filmbox Plus" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Filmbox Plus
+http://mhav1.com:2095/live/ht2990/742579548/72532.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Food Network" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Food Network
+http://mhav1.com:2095/live/ht2990/742579548/72550.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Crime HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Crime HD
+http://mhav1.com:2095/live/ht2990/742579548/72541.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox HD
+http://mhav1.com:2095/live/ht2990/742579548/72528.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Life HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Life HD
+http://mhav1.com:2095/live/ht2990/742579548/72542.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Fox Movies HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Fox Movies HD
+http://mhav1.com:2095/live/ht2990/742579548/72543.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: GRAND TV 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: GRAND TV 2
+http://mhav1.com:2095/live/ht2990/742579548/72551.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Grand 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Grand 1
+http://mhav1.com:2095/live/ht2990/742579548/72584.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: HAPPY" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: HAPPY
+http://mhav1.com:2095/live/ht2990/742579548/72552.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: HBO 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: HBO 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72533.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: HBO 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: HBO 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: HBO 3 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: HBO 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/72535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: HBO Adria" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: HBO Adria
+http://mhav1.com:2095/live/ht2990/742579548/72569.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: IDJ TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: IDJ TV
+http://mhav1.com:2095/live/ht2990/742579548/72553.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: KCN 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: KCN 1
+http://mhav1.com:2095/live/ht2990/742579548/72561.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: KCN 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: KCN 2
+http://mhav1.com:2095/live/ht2990/742579548/72554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: KCN 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: KCN 3
+http://mhav1.com:2095/live/ht2990/742579548/72562.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Klasik TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Klasik TV
+http://mhav1.com:2095/live/ht2990/742579548/72525.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Lov i Ribolov" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Lov i Ribolov
+http://mhav1.com:2095/live/ht2990/742579548/72555.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: M1 Film" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: M1 Film
+http://mhav1.com:2095/live/ht2990/742579548/72570.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Mini Ultra TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Mini Ultra TV
+http://mhav1.com:2095/live/ht2990/742579548/72571.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: MiniMax TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: MiniMax TV
+http://mhav1.com:2095/live/ht2990/742579548/72578.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: N1 TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: N1 TV
+http://mhav1.com:2095/live/ht2990/742579548/72556.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nat Geo" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Nat Geo
+http://mhav1.com:2095/live/ht2990/742579548/72572.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nat Geo Wild HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Nat Geo Wild HD
+http://mhav1.com:2095/live/ht2990/742579548/72529.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nickelodeon HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Nickelodeon HD
+http://mhav1.com:2095/live/ht2990/742579548/72527.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nova HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Nova HD
+http://mhav1.com:2095/live/ht2990/742579548/72512.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Nova S HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Nova S HD
+http://mhav1.com:2095/live/ht2990/742579548/72583.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink 1
+http://mhav1.com:2095/live/ht2990/742579548/72472.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink 2
+http://mhav1.com:2095/live/ht2990/742579548/72473.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink 3
+http://mhav1.com:2095/live/ht2990/742579548/72474.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Action" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Action
+http://mhav1.com:2095/live/ht2990/742579548/72475.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Classic" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Classic
+http://mhav1.com:2095/live/ht2990/742579548/72476.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Comedy" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Comedy
+http://mhav1.com:2095/live/ht2990/742579548/72477.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Crime & Mystery" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Crime & Mystery
+http://mhav1.com:2095/live/ht2990/742579548/72478.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Extra" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Extra
+http://mhav1.com:2095/live/ht2990/742579548/72479.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Family" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Family
+http://mhav1.com:2095/live/ht2990/742579548/72480.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Film" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Film
+http://mhav1.com:2095/live/ht2990/742579548/72481.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Folk 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Folk 1
+http://mhav1.com:2095/live/ht2990/742579548/72482.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Folk 2 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Folk 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/72483.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink HAHA" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink HAHA
+http://mhav1.com:2095/live/ht2990/742579548/72484.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Hits 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Hits 2
+http://mhav1.com:2095/live/ht2990/742579548/72485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Horror" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Horror
+http://mhav1.com:2095/live/ht2990/742579548/72486.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Kids" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Kids
+http://mhav1.com:2095/live/ht2990/742579548/72487.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Kuvar" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Kuvar
+http://mhav1.com:2095/live/ht2990/742579548/72488.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink LOL SRB" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink LOL SRB
+http://mhav1.com:2095/live/ht2990/742579548/72489.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Movies" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Movies
+http://mhav1.com:2095/live/ht2990/742579548/72490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Music 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Music 1
+http://mhav1.com:2095/live/ht2990/742579548/72491.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Music 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Music 2
+http://mhav1.com:2095/live/ht2990/742579548/72492.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Pedia" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Pedia
+http://mhav1.com:2095/live/ht2990/742579548/72493.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Plus" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Plus
+http://mhav1.com:2095/live/ht2990/742579548/72494.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Premium" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Premium
+http://mhav1.com:2095/live/ht2990/742579548/72495.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Reality" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Reality
+http://mhav1.com:2095/live/ht2990/742579548/72496.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Romance" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Romance
+http://mhav1.com:2095/live/ht2990/742579548/72497.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Sci Fi & Fantasy" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Sci Fi & Fantasy
+http://mhav1.com:2095/live/ht2990/742579548/72498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Serije" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Serije
+http://mhav1.com:2095/live/ht2990/742579548/72499.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Show" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Show
+http://mhav1.com:2095/live/ht2990/742579548/72500.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Soap" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Soap
+http://mhav1.com:2095/live/ht2990/742579548/72501.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Style" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Style
+http://mhav1.com:2095/live/ht2990/742579548/72502.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Thriler" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Thriler
+http://mhav1.com:2095/live/ht2990/742579548/72503.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Western" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Western
+http://mhav1.com:2095/live/ht2990/742579548/72504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink World" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink World
+http://mhav1.com:2095/live/ht2990/742579548/72505.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Pink Zabava" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Pink Zabava
+http://mhav1.com:2095/live/ht2990/742579548/72506.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Prva 1 TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Prva 1 TV
+http://mhav1.com:2095/live/ht2990/742579548/72514.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Prva Max" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Prva Max
+http://mhav1.com:2095/live/ht2990/742579548/72517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Prva Plus" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Prva Plus
+http://mhav1.com:2095/live/ht2990/742579548/72515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Prva World" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Prva World
+http://mhav1.com:2095/live/ht2990/742579548/72516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTCG 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTCG 1
+http://mhav1.com:2095/live/ht2990/742579548/72518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTL Kockica" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTL Kockica
+http://mhav1.com:2095/live/ht2990/742579548/72519.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTRS" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTRS
+http://mhav1.com:2095/live/ht2990/742579548/72510.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTS 1 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTS 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/72507.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTS 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTS 2
+http://mhav1.com:2095/live/ht2990/742579548/72509.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTS 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTS 3
+http://mhav1.com:2095/live/ht2990/742579548/72508.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTS Satelit" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTS Satelit
+http://mhav1.com:2095/live/ht2990/742579548/72511.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTV 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTV 1
+http://mhav1.com:2095/live/ht2990/742579548/72520.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTV MLAVA" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTV MLAVA
+http://mhav1.com:2095/live/ht2990/742579548/72521.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTV Pazar" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTV Pazar
+http://mhav1.com:2095/live/ht2990/742579548/72522.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: RTV Vojvodina" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: RTV Vojvodina
+http://mhav1.com:2095/live/ht2990/742579548/72539.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Roma Tv" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Roma Tv
+http://mhav1.com:2095/live/ht2990/742579548/72563.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: SUPERSTAR TV" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: SUPERSTAR TV
+http://mhav1.com:2095/live/ht2990/742579548/72559.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sandzak TV HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sandzak TV HD
+http://mhav1.com:2095/live/ht2990/742579548/72523.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: SciFi" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: SciFi
+http://mhav1.com:2095/live/ht2990/742579548/72536.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 4
+http://mhav1.com:2095/live/ht2990/742579548/72596.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub 6 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub 6 HD
+http://mhav1.com:2095/live/ht2990/742579548/72557.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub Golf" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub Golf
+http://mhav1.com:2095/live/ht2990/742579548/72597.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 1
+http://mhav1.com:2095/live/ht2990/742579548/72593.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 2
+http://mhav1.com:2095/live/ht2990/742579548/72594.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Sport Klub HD 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Sport Klub HD 3
+http://mhav1.com:2095/live/ht2990/742579548/72595.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Studio B" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Studio B
+http://mhav1.com:2095/live/ht2990/742579548/72558.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: TLC HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: TLC HD
+http://mhav1.com:2095/live/ht2990/742579548/72560.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: TV 1000 HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: TV 1000 HD
+http://mhav1.com:2095/live/ht2990/742579548/72537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: TV Hram" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: TV Hram
+http://mhav1.com:2095/live/ht2990/742579548/72575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: TV ISTOK 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: TV ISTOK 1
+http://mhav1.com:2095/live/ht2990/742579548/72576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: TV ISTOK 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: TV ISTOK 2
+http://mhav1.com:2095/live/ht2990/742579548/72577.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Tom And Jerry HD" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Tom And Jerry HD
+http://mhav1.com:2095/live/ht2990/742579548/72573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Zadruga Live 1" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Zadruga Live 1
+http://mhav1.com:2095/live/ht2990/742579548/72600.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Zadruga Live 2" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Zadruga Live 2
+http://mhav1.com:2095/live/ht2990/742579548/72601.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Zadruga Live 3" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Zadruga Live 3
+http://mhav1.com:2095/live/ht2990/742579548/72602.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Ex-Yu | Srb: Zadruga Live 4" tvg-logo="" group-title="EXYU",Ex-Yu | Srb: Zadruga Live 4
+http://mhav1.com:2095/live/ht2990/742579548/72603.ts
 
 
 ################################################################################
@@ -3087,6 +3716,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3518.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sat 1 HD [DE]" tvg-logo="" group-title="Germany",Sat 1 HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3520.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Sky 1 |DE|" tvg-logo="" group-title="Germany",Sky 1 |DE|
+http://mhav1.com:2095/live/ht2990/742579548/3534.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3553.ts
 
@@ -3237,6 +3869,27 @@ http://mhav1.com:2095/live/ht2990/742579548/30565.ts
 #EXTINF:-1 tvg-id="" tvg-name="Super RTL HD [DE]" tvg-logo="" group-title="Germany",Super RTL HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3519.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 1 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 1 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9287.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 2 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 2 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9288.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 3 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 3 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9289.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 4 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 4 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9290.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 5 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 5 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9291.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 6 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 6 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 7 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 7 HD [DE]
+http://mhav1.com:2095/live/ht2990/742579548/9293.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="TLC[DE]" tvg-logo="" group-title="Germany",TLC[DE]
 http://mhav1.com:2095/live/ht2990/742579548/3533.ts
 
@@ -3276,6 +3929,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4461.ts
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_HD_DE
+http://mhav1.com:2095/live/ht2990/742579548/9273.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Heimatkanal" tvg-logo="" group-title="Germany",[DE]Heimatkanal
 http://mhav1.com:2095/live/ht2990/742579548/3384.ts
 
@@ -3287,6 +3943,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3287.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Spiegel_Geschichte_HD_DE" tvg-logo="" group-title="Germany",[DE]Spiegel_Geschichte_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9265.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[DE]TELECOM SPORT 8 HD" tvg-logo="" group-title="Germany",[DE]TELECOM SPORT 8 HD
+http://mhav1.com:2095/live/ht2990/742579548/9286.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="kabel eins Doku  [DE]" tvg-logo="" group-title="Germany",kabel eins Doku  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/63547.ts
@@ -4833,6 +5492,9 @@ http://mhav1.com:2095/live/ht2990/742579548/121511.ts
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Aljazeera English" tvg-logo="" group-title="Netherlands",|NL| Aljazeera English
 http://mhav1.com:2095/live/ht2990/742579548/121516.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="|NL| Animal Planet HD" tvg-logo="" group-title="Netherlands",|NL| Animal Planet HD
+http://mhav1.com:2095/live/ht2990/742579548/121565.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Arte" tvg-logo="" group-title="Netherlands",|NL| Arte
 http://mhav1.com:2095/live/ht2990/742579548/121506.ts
 
@@ -4964,6 +5626,12 @@ http://mhav1.com:2095/live/ht2990/742579548/121579.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TRT T?rk" tvg-logo="" group-title="Netherlands",|NL| TRT T?rk
 http://mhav1.com:2095/live/ht2990/742579548/121504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Gelderland 720P" tvg-logo="" group-title="Netherlands",|NL| TV Gelderland 720P
+http://mhav1.com:2095/live/ht2990/742579548/121529.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oost 720P" tvg-logo="" group-title="Netherlands",|NL| TV Oost 720P
+http://mhav1.com:2095/live/ht2990/742579548/121530.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oranje" tvg-logo="" group-title="Netherlands",|NL| TV Oranje
 http://mhav1.com:2095/live/ht2990/742579548/121540.ts
@@ -5170,6 +5838,176 @@ http://mhav1.com:2095/live/ht2990/742579548/123129.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Vox HD [NO]" tvg-logo="" group-title="Norway",Vox HD [NO]
 http://mhav1.com:2095/live/ht2990/742579548/123088.ts
+
+
+################################################################################
+# Philippines
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: A2Z Channel 11" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/e63eb0eb23fe856c15ad341dc31a3298.png" group-title="Philippines",PH: A2Z Channel 11
+http://mhav1.com:2095/live/ht2990/742579548/224811.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: ABS CBN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/6dc9f619fd0473b5f58a3e58930e6bd3.png" group-title="Philippines",PH: ABS CBN
+http://mhav1.com:2095/live/ht2990/742579548/224810.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: ANC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3fa89a31358f97bba2dd61f63734bba0.png" group-title="Philippines",PH: ANC
+http://mhav1.com:2095/live/ht2990/742579548/224809.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: AXN" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/79163a3883ff4c56864552f4f799b120.png" group-title="Philippines",PH: AXN
+http://mhav1.com:2095/live/ht2990/742579548/224805.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Animal Planet" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/977e497d79d8efea35f180aa4f732b09.svg" group-title="Philippines",PH: Animal Planet
+http://mhav1.com:2095/live/ht2990/742579548/224808.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Animax Philippines" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/6f994d0864737b77a93c0797eb8f9180.png" group-title="Philippines",PH: Animax Philippines
+http://mhav1.com:2095/live/ht2990/742579548/224807.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Asian Food Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/5f4729e5cbd903399d4f58fbf7553f8b.jpg" group-title="Philippines",PH: Asian Food Network
+http://mhav1.com:2095/live/ht2990/742579548/224806.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Bloomberg TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2020-12/bf74ed1331c9f4c7190a9e2a13881e2d.png" group-title="Philippines",PH: Bloomberg TV
+http://mhav1.com:2095/live/ht2990/742579548/224804.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: BuKo Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/17f8b620b5a1b26f3f11b3ca14013705.png" group-title="Philippines",PH: BuKo Channel
+http://mhav1.com:2095/live/ht2990/742579548/224803.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Cartoon Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/a7e076dc55f6f28f063d81b51eeacedc.png" group-title="Philippines",PH: Cartoon Network
+http://mhav1.com:2095/live/ht2990/742579548/224802.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Cine Mo!" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/133884a64c6b5b9cb5cf313d11b4ac29.svg" group-title="Philippines",PH: Cine Mo!
+http://mhav1.com:2095/live/ht2990/742579548/224801.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Cinema One Global" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/abf46081bda2ee5c8221b6ec7a850675.png" group-title="Philippines",PH: Cinema One Global
+http://mhav1.com:2095/live/ht2990/742579548/224800.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: DZBB 594 Super Radyo" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/a3a10b36137b1afc082b2161a98c0a3c.png" group-title="Philippines",PH: DZBB 594 Super Radyo
+http://mhav1.com:2095/live/ht2990/742579548/224796.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: DZRH TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/061c21c8fdd77b9eb21c463692965012.png" group-title="Philippines",PH: DZRH TV
+http://mhav1.com:2095/live/ht2990/742579548/224795.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: DepEd TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/dcdd001ac0d14e0f1bfb3ad8db9e0456.png" group-title="Philippines",PH: DepEd TV
+http://mhav1.com:2095/live/ht2990/742579548/224799.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Discovery Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-02/821d8306196e8b062b261cf8be4b9eaa.png" group-title="Philippines",PH: Discovery Asia
+http://mhav1.com:2095/live/ht2990/742579548/224798.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Discovery Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-02/7a74d63d8c405d8db07a68145a43a895.png" group-title="Philippines",PH: Discovery Channel
+http://mhav1.com:2095/live/ht2990/742579548/224797.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Fashion TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-08/91151ad415defcff5edd37fe76f95fa0.svg" group-title="Philippines",PH: Fashion TV
+http://mhav1.com:2095/live/ht2990/742579548/224794.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Food Network" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/7b1c1bb5666c2a68410784a321cc7f2e.png" group-title="Philippines",PH: Food Network
+http://mhav1.com:2095/live/ht2990/742579548/224793.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: GMA Life TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/ff00b1703c149f37c84fbe2d162075df.png" group-title="Philippines",PH: GMA Life TV
+http://mhav1.com:2095/live/ht2990/742579548/224792.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: GMA News TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-08/20fd546935c0ac5386dbc81309c5ef82.png" group-title="Philippines",PH: GMA News TV
+http://mhav1.com:2095/live/ht2990/742579548/224791.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: GMA Pinoy TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-01/f9fe2c041454b56a4c56c605e3937a7e.png" group-title="Philippines",PH: GMA Pinoy TV
+http://mhav1.com:2095/live/ht2990/742579548/224790.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Great Commission TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/7056365d48133ed08a9a44cdb4059ae8.png" group-title="Philippines",PH: Great Commission TV
+http://mhav1.com:2095/live/ht2990/742579548/224789.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: HITS" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/ed443b244296a383cec03e00d8ff0d59.png" group-title="Philippines",PH: HITS
+http://mhav1.com:2095/live/ht2990/742579548/224787.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: HITS Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/b5441d5267592cb28cda65639ec25d10.png" group-title="Philippines",PH: HITS Movies
+http://mhav1.com:2095/live/ht2990/742579548/224786.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: History" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/25a947de7468f737681c69be85513c35.svg" group-title="Philippines",PH: History
+http://mhav1.com:2095/live/ht2990/742579548/224788.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: IBC 13" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/9a59aa523340e00a9e2ec670ff310ec5.png" group-title="Philippines",PH: IBC 13
+http://mhav1.com:2095/live/ht2990/742579548/224785.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: INC TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/5cc77d7abcb47383b8192c72df51c7db.png" group-title="Philippines",PH: INC TV
+http://mhav1.com:2095/live/ht2990/742579548/224784.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: KIX" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-12/e5a2f150aa65bc36de50f90cc532f0db.png" group-title="Philippines",PH: KIX
+http://mhav1.com:2095/live/ht2990/742579548/224782.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Kapamilya Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/941ed3ead68bd7d7b0c871444b5593a1.png" group-title="Philippines",PH: Kapamilya Channel
+http://mhav1.com:2095/live/ht2990/742579548/224783.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Knowledge Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/36b3f519082856af7537cb298f13c3f1.png" group-title="Philippines",PH: Knowledge Channel
+http://mhav1.com:2095/live/ht2990/742579548/224781.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Lifetime" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/0b9679d26965a50aeeac957d139d619c.png" group-title="Philippines",PH: Lifetime
+http://mhav1.com:2095/live/ht2990/742579548/224780.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: MTV Live" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="Philippines",PH: MTV Live
+http://mhav1.com:2095/live/ht2990/742579548/224778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Moonbug" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-02/0d8a170d88a7e620ca1e3554fbb8e679.png" group-title="Philippines",PH: Moonbug
+http://mhav1.com:2095/live/ht2990/742579548/224779.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Myx Philippines" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/d186d8314289e501ee10a47be41838b4.png" group-title="Philippines",PH: Myx Philippines
+http://mhav1.com:2095/live/ht2990/742579548/224777.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Nick Junior" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/638b1d821ff28c444b3d9dfa622d1c62.png" group-title="Philippines",PH: Nick Junior
+http://mhav1.com:2095/live/ht2990/742579548/224776.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/fa4b132918cc8bfbd6ed83bbbaf05ace.png" group-title="Philippines",PH: One
+http://mhav1.com:2095/live/ht2990/742579548/224774.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/b0ab767d8d461e6dc1b58853ae134af9.png" group-title="Philippines",PH: One News
+http://mhav1.com:2095/live/ht2990/742579548/224773.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/1a5a6455992a466b4c14a8b7ff1ebe11.png" group-title="Philippines",PH: One Sports
+http://mhav1.com:2095/live/ht2990/742579548/224772.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/aa72ca0d8a5e61e9837c52901b14ee0e.png" group-title="Philippines",PH: One Sports +
+http://mhav1.com:2095/live/ht2990/742579548/224771.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: PBA Rush" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/7c7aeee2dbed0093c5c1c3c2bada1d8f.png" group-title="Philippines",PH: PBA Rush
+http://mhav1.com:2095/live/ht2990/742579548/224770.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: PTV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2025-02/f50190a49e78f82305afd37d1a657757.svg" group-title="Philippines",PH: PTV
+http://mhav1.com:2095/live/ht2990/742579548/224766.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Pinoy Box Office" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-09/169475f82594e726b5a83f5c3f19a073.png" group-title="Philippines",PH: Pinoy Box Office
+http://mhav1.com:2095/live/ht2990/742579548/224769.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/eeae95849f20e46f51df7d31083b3b2f.png" group-title="Philippines",PH: Premier Sports
+http://mhav1.com:2095/live/ht2990/742579548/224768.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Tennis" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/06863d46f1e6641d28f2bc9615cfec97.png" group-title="Philippines",PH: Premier Tennis
+http://mhav1.com:2095/live/ht2990/742579548/224767.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Sari Sari" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/b80884ea3fd2cc60d9d7fe0cbaeb194c.png" group-title="Philippines",PH: Sari Sari
+http://mhav1.com:2095/live/ht2990/742579548/224765.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TAP Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/a5fb7457f89a0ba8f978cfbcf777af83.png" group-title="Philippines",PH: TAP Sports
+http://mhav1.com:2095/live/ht2990/742579548/224763.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TFC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/85c9b1c6344b0bcfa1fb76b21cb8a376.png" group-title="Philippines",PH: TFC
+http://mhav1.com:2095/live/ht2990/742579548/224762.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: TLC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/da1bef7ad90b7af523080f303903ee17.png" group-title="Philippines",PH: TLC
+http://mhav1.com:2095/live/ht2990/742579548/224761.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Edge" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-05/8fcd2d946876de05e7a3fc9a14bc3e31.png" group-title="Philippines",PH: Tap Edge
+http://mhav1.com:2095/live/ht2990/742579548/224764.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Travel Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/3256b4b3d72c80424d9c34f63208ca9a.svg" group-title="Philippines",PH: Travel Channel
+http://mhav1.com:2095/live/ht2990/742579548/224760.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: UAAP Varsity Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/e11524ae8e1e56af300a50556f9e6d56.png" group-title="Philippines",PH: UAAP Varsity Channel
+http://mhav1.com:2095/live/ht2990/742579548/224759.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Viva Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/39367655f3636dab5287864ea572de01.png" group-title="Philippines",PH: Viva Cinema
+http://mhav1.com:2095/live/ht2990/742579548/224758.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: Warner TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/050dfc679295d4887b15bacffd627f4d.png" group-title="Philippines",PH: Warner TV
+http://mhav1.com:2095/live/ht2990/742579548/224757.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="PH: nickelodeon" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-01/1c7ab06cbf7585369cd9b05e358fa0cd.png" group-title="Philippines",PH: nickelodeon
+http://mhav1.com:2095/live/ht2990/742579548/224775.ts
 
 
 ################################################################################
@@ -6212,6 +7050,686 @@ http://mhav1.com:2095/live/ht2990/742579548/7689.ts
 
 
 ################################################################################
+# Russia
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 1 HD" tvg-logo="" group-title="Russia",RU: 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/188991.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 24 TECHNO" tvg-logo="" group-title="Russia",RU: 24 TECHNO
+http://mhav1.com:2095/live/ht2990/742579548/188863.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 2X2" tvg-logo="" group-title="Russia",RU: 2X2
+http://mhav1.com:2095/live/ht2990/742579548/188906.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 365 DNEI" tvg-logo="" group-title="Russia",RU: 365 DNEI
+http://mhav1.com:2095/live/ht2990/742579548/188905.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 5 KANAL HD" tvg-logo="" group-title="Russia",RU: 5 KANAL HD
+http://mhav1.com:2095/live/ht2990/742579548/188895.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: 8 KANAL HD" tvg-logo="" group-title="Russia",RU: 8 KANAL HD
+http://mhav1.com:2095/live/ht2990/742579548/188880.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: A HOME OF HBO 2 HD" tvg-logo="" group-title="Russia",RU: A HOME OF HBO 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188976.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: A1 TV" tvg-logo="" group-title="Russia",RU: A1 TV
+http://mhav1.com:2095/live/ht2990/742579548/188903.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: A2 TV" tvg-logo="" group-title="Russia",RU: A2 TV
+http://mhav1.com:2095/live/ht2990/742579548/188902.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ABTO 24" tvg-logo="" group-title="Russia",RU: ABTO 24
+http://mhav1.com:2095/live/ht2990/742579548/188881.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMC" tvg-logo="" group-title="Russia",RU: AMC
+http://mhav1.com:2095/live/ht2990/742579548/188888.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMEDIA 1 HD" tvg-logo="" group-title="Russia",RU: AMEDIA 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/188997.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMEDIA 2 HD" tvg-logo="" group-title="Russia",RU: AMEDIA 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188996.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMEDIA HIT HD" tvg-logo="" group-title="Russia",RU: AMEDIA HIT HD
+http://mhav1.com:2095/live/ht2990/742579548/188876.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMEDIA HOME OF HBO 1 HD" tvg-logo="" group-title="Russia",RU: AMEDIA HOME OF HBO 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/188994.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AMEDIA PREMIUM HD" tvg-logo="" group-title="Russia",RU: AMEDIA PREMIUM HD
+http://mhav1.com:2095/live/ht2990/742579548/188995.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ANI" tvg-logo="" group-title="Russia",RU: ANI
+http://mhav1.com:2095/live/ht2990/742579548/188901.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ANIMAL FAMILY HD" tvg-logo="" group-title="Russia",RU: ANIMAL FAMILY HD
+http://mhav1.com:2095/live/ht2990/742579548/188893.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ANIMAL PLANET HD" tvg-logo="" group-title="Russia",RU: ANIMAL PLANET HD
+http://mhav1.com:2095/live/ht2990/742579548/188945.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AUTO 24" tvg-logo="" group-title="Russia",RU: AUTO 24
+http://mhav1.com:2095/live/ht2990/742579548/188884.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: AUTO PLUS" tvg-logo="" group-title="Russia",RU: AUTO PLUS
+http://mhav1.com:2095/live/ht2990/742579548/188866.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BOBER TV" tvg-logo="" group-title="Russia",RU: BOBER TV
+http://mhav1.com:2095/live/ht2990/742579548/188867.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BOKS TV" tvg-logo="" group-title="Russia",RU: BOKS TV
+http://mhav1.com:2095/live/ht2990/742579548/188916.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BOLLYWOOD HD" tvg-logo="" group-title="Russia",RU: BOLLYWOOD HD
+http://mhav1.com:2095/live/ht2990/742579548/188878.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BOOMERANG TV" tvg-logo="" group-title="Russia",RU: BOOMERANG TV
+http://mhav1.com:2095/live/ht2990/742579548/188892.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BOX TV" tvg-logo="" group-title="Russia",RU: BOX TV
+http://mhav1.com:2095/live/ht2990/742579548/188981.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BRIDGE TV" tvg-logo="" group-title="Russia",RU: BRIDGE TV
+http://mhav1.com:2095/live/ht2990/742579548/188900.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: BRIDGE TV RUSSKIY HIT" tvg-logo="" group-title="Russia",RU: BRIDGE TV RUSSKIY HIT
+http://mhav1.com:2095/live/ht2990/742579548/189018.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CARTOON NETWORK HD" tvg-logo="" group-title="Russia",RU: CARTOON NETWORK HD
+http://mhav1.com:2095/live/ht2990/742579548/188875.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CHANNEL ONE" tvg-logo="" group-title="Russia",RU: CHANNEL ONE
+http://mhav1.com:2095/live/ht2990/742579548/188962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CHE" tvg-logo="" group-title="Russia",RU: CHE
+http://mhav1.com:2095/live/ht2990/742579548/188899.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CINEMA" tvg-logo="" group-title="Russia",RU: CINEMA
+http://mhav1.com:2095/live/ht2990/742579548/188861.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: CTC LOVE" tvg-logo="" group-title="Russia",RU: CTC LOVE
+http://mhav1.com:2095/live/ht2990/742579548/188992.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DA VINCI LEARNING" tvg-logo="" group-title="Russia",RU: DA VINCI LEARNING
+http://mhav1.com:2095/live/ht2990/742579548/188896.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DANGE" tvg-logo="" group-title="Russia",RU: DANGE
+http://mhav1.com:2095/live/ht2990/742579548/188984.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DETSKIJ" tvg-logo="" group-title="Russia",RU: DETSKIJ
+http://mhav1.com:2095/live/ht2990/742579548/188980.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DETSKIY HD" tvg-logo="" group-title="Russia",RU: DETSKIY HD
+http://mhav1.com:2095/live/ht2990/742579548/188979.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DETSKIY MIR" tvg-logo="" group-title="Russia",RU: DETSKIY MIR
+http://mhav1.com:2095/live/ht2990/742579548/188978.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DIKAYA OKHOTA" tvg-logo="" group-title="Russia",RU: DIKAYA OKHOTA
+http://mhav1.com:2095/live/ht2990/742579548/188912.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DIKAYA RYBALKA" tvg-logo="" group-title="Russia",RU: DIKAYA RYBALKA
+http://mhav1.com:2095/live/ht2990/742579548/188911.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISCOVERY CHANNEL HD" tvg-logo="" group-title="Russia",RU: DISCOVERY CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188944.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISCOVERY DTX HD" tvg-logo="" group-title="Russia",RU: DISCOVERY DTX HD
+http://mhav1.com:2095/live/ht2990/742579548/188942.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISCOVERY SCIENCE HD" tvg-logo="" group-title="Russia",RU: DISCOVERY SCIENCE HD
+http://mhav1.com:2095/live/ht2990/742579548/188943.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DISNEY CHANNEL HD" tvg-logo="" group-title="Russia",RU: DISNEY CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188957.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DOCTOR HD" tvg-logo="" group-title="Russia",RU: DOCTOR HD
+http://mhav1.com:2095/live/ht2990/742579548/188860.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DOCUBOX HD" tvg-logo="" group-title="Russia",RU: DOCUBOX HD
+http://mhav1.com:2095/live/ht2990/742579548/188859.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DOM KINO" tvg-logo="" group-title="Russia",RU: DOM KINO
+http://mhav1.com:2095/live/ht2990/742579548/188964.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DOM KINO PREMIUM HD" tvg-logo="" group-title="Russia",RU: DOM KINO PREMIUM HD
+http://mhav1.com:2095/live/ht2990/742579548/188963.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: DOMASHNIY" tvg-logo="" group-title="Russia",RU: DOMASHNIY
+http://mhav1.com:2095/live/ht2990/742579548/188965.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: E TV" tvg-logo="" group-title="Russia",RU: E TV
+http://mhav1.com:2095/live/ht2990/742579548/188820.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EDA HD" tvg-logo="" group-title="Russia",RU: EDA HD
+http://mhav1.com:2095/live/ht2990/742579548/188819.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EURONEWS HD" tvg-logo="" group-title="Russia",RU: EURONEWS HD
+http://mhav1.com:2095/live/ht2990/742579548/188877.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EUROPA PLUS HD" tvg-logo="" group-title="Russia",RU: EUROPA PLUS HD
+http://mhav1.com:2095/live/ht2990/742579548/188990.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EUROSPORT 1 HD" tvg-logo="" group-title="Russia",RU: EUROSPORT 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/188933.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EUROSPORT 2 HD" tvg-logo="" group-title="Russia",RU: EUROSPORT 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188932.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EVROKINO" tvg-logo="" group-title="Russia",RU: EVROKINO
+http://mhav1.com:2095/live/ht2990/742579548/188977.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: EXTREME SPORTS HD" tvg-logo="" group-title="Russia",RU: EXTREME SPORTS HD
+http://mhav1.com:2095/live/ht2990/742579548/188851.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: FASHION TV" tvg-logo="" group-title="Russia",RU: FASHION TV
+http://mhav1.com:2095/live/ht2990/742579548/188935.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: FENIKS + KINO" tvg-logo="" group-title="Russia",RU: FENIKS + KINO
+http://mhav1.com:2095/live/ht2990/742579548/188818.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: FOOD NETWORK HD" tvg-logo="" group-title="Russia",RU: FOOD NETWORK HD
+http://mhav1.com:2095/live/ht2990/742579548/188939.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: FOX HD" tvg-logo="" group-title="Russia",RU: FOX HD
+http://mhav1.com:2095/live/ht2990/742579548/188961.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: FOX LIFE HD" tvg-logo="" group-title="Russia",RU: FOX LIFE HD
+http://mhav1.com:2095/live/ht2990/742579548/188960.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: GLAZELLA" tvg-logo="" group-title="Russia",RU: GLAZELLA
+http://mhav1.com:2095/live/ht2990/742579548/188817.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: GOSTIAH U SKAZKI" tvg-logo="" group-title="Russia",RU: GOSTIAH U SKAZKI
+http://mhav1.com:2095/live/ht2990/742579548/188816.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: GROZNY TV" tvg-logo="" group-title="Russia",RU: GROZNY TV
+http://mhav1.com:2095/live/ht2990/742579548/188873.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: GULLI" tvg-logo="" group-title="Russia",RU: GULLI
+http://mhav1.com:2095/live/ht2990/742579548/188815.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: HISTORY HD" tvg-logo="" group-title="Russia",RU: HISTORY HD
+http://mhav1.com:2095/live/ht2990/742579548/188951.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: HIT HD" tvg-logo="" group-title="Russia",RU: HIT HD
+http://mhav1.com:2095/live/ht2990/742579548/188814.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: HTB HD" tvg-logo="" group-title="Russia",RU: HTB HD
+http://mhav1.com:2095/live/ht2990/742579548/188868.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ICONCERTS" tvg-logo="" group-title="Russia",RU: ICONCERTS
+http://mhav1.com:2095/live/ht2990/742579548/188813.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ILLUSION+" tvg-logo="" group-title="Russia",RU: ILLUSION+
+http://mhav1.com:2095/live/ht2990/742579548/188937.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: INDIJSKOE KINO" tvg-logo="" group-title="Russia",RU: INDIJSKOE KINO
+http://mhav1.com:2095/live/ht2990/742579548/188811.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: JIMJAM" tvg-logo="" group-title="Russia",RU: JIMJAM
+http://mhav1.com:2095/live/ht2990/742579548/188956.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KARUSEL" tvg-logo="" group-title="Russia",RU: KARUSEL
+http://mhav1.com:2095/live/ht2990/742579548/188810.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KHL HD" tvg-logo="" group-title="Russia",RU: KHL HD
+http://mhav1.com:2095/live/ht2990/742579548/188975.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINO HIT HD" tvg-logo="" group-title="Russia",RU: KINO HIT HD
+http://mhav1.com:2095/live/ht2990/742579548/188973.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINO KOMEDIJA TV" tvg-logo="" group-title="Russia",RU: KINO KOMEDIJA TV
+http://mhav1.com:2095/live/ht2990/742579548/188971.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINO SVIDANIE HD" tvg-logo="" group-title="Russia",RU: KINO SVIDANIE HD
+http://mhav1.com:2095/live/ht2990/742579548/188970.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINO TV" tvg-logo="" group-title="Russia",RU: KINO TV
+http://mhav1.com:2095/live/ht2990/742579548/188974.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOMIKS" tvg-logo="" group-title="Russia",RU: KINOMIKS
+http://mhav1.com:2095/live/ht2990/742579548/188985.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOMIX" tvg-logo="" group-title="Russia",RU: KINOMIX
+http://mhav1.com:2095/live/ht2990/742579548/188858.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOPOKAZ 2 HD" tvg-logo="" group-title="Russia",RU: KINOPOKAZ 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188969.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOSEM JA" tvg-logo="" group-title="Russia",RU: KINOSEM JA
+http://mhav1.com:2095/live/ht2990/742579548/188812.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOSERIJA" tvg-logo="" group-title="Russia",RU: KINOSERIJA
+http://mhav1.com:2095/live/ht2990/742579548/188952.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KINOSVIDANIE" tvg-logo="" group-title="Russia",RU: KINOSVIDANIE
+http://mhav1.com:2095/live/ht2990/742579548/188850.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KOMEDIJA TV" tvg-logo="" group-title="Russia",RU: KOMEDIJA TV
+http://mhav1.com:2095/live/ht2990/742579548/188857.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KONNIY MIR HD" tvg-logo="" group-title="Russia",RU: KONNIY MIR HD
+http://mhav1.com:2095/live/ht2990/742579548/188890.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KRIK TV" tvg-logo="" group-title="Russia",RU: KRIK TV
+http://mhav1.com:2095/live/ht2990/742579548/188849.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KTO EST KTO" tvg-logo="" group-title="Russia",RU: KTO EST KTO
+http://mhav1.com:2095/live/ht2990/742579548/188936.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KUCHNIA TV" tvg-logo="" group-title="Russia",RU: KUCHNIA TV
+http://mhav1.com:2095/live/ht2990/742579548/188848.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KUHNYA TV" tvg-logo="" group-title="Russia",RU: KUHNYA TV
+http://mhav1.com:2095/live/ht2990/742579548/188847.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: KVN TV" tvg-logo="" group-title="Russia",RU: KVN TV
+http://mhav1.com:2095/live/ht2990/742579548/188989.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: LA MINOR" tvg-logo="" group-title="Russia",RU: LA MINOR
+http://mhav1.com:2095/live/ht2990/742579548/188988.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: LIFE HD" tvg-logo="" group-title="Russia",RU: LIFE HD
+http://mhav1.com:2095/live/ht2990/742579548/188889.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: LUBIMOE KINO" tvg-logo="" group-title="Russia",RU: LUBIMOE KINO
+http://mhav1.com:2095/live/ht2990/742579548/188846.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: M1 GLOBAL" tvg-logo="" group-title="Russia",RU: M1 GLOBAL
+http://mhav1.com:2095/live/ht2990/742579548/188856.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MAMA" tvg-logo="" group-title="Russia",RU: MAMA
+http://mhav1.com:2095/live/ht2990/742579548/188898.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH ARENA HD" tvg-logo="" group-title="Russia",RU: MATCH ARENA HD
+http://mhav1.com:2095/live/ht2990/742579548/188925.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH BOEC" tvg-logo="" group-title="Russia",RU: MATCH BOEC
+http://mhav1.com:2095/live/ht2990/742579548/188920.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH FOOTBALL 1" tvg-logo="" group-title="Russia",RU: MATCH FOOTBALL 1
+http://mhav1.com:2095/live/ht2990/742579548/188931.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH FOOTBALL 2 HD" tvg-logo="" group-title="Russia",RU: MATCH FOOTBALL 2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188930.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH FOOTBALL 3 HD" tvg-logo="" group-title="Russia",RU: MATCH FOOTBALL 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/188929.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH NASH SPORT" tvg-logo="" group-title="Russia",RU: MATCH NASH SPORT
+http://mhav1.com:2095/live/ht2990/742579548/188923.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH PREMIERE HD" tvg-logo="" group-title="Russia",RU: MATCH PREMIERE HD
+http://mhav1.com:2095/live/ht2990/742579548/188924.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH STRANA" tvg-logo="" group-title="Russia",RU: MATCH STRANA
+http://mhav1.com:2095/live/ht2990/742579548/188919.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH! FUTBOL  2 HD" tvg-logo="" group-title="Russia",RU: MATCH! FUTBOL  2 HD
+http://mhav1.com:2095/live/ht2990/742579548/188928.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH! FUTBOL 1 HD" tvg-logo="" group-title="Russia",RU: MATCH! FUTBOL 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/188927.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH! FUTBOL 3 HD" tvg-logo="" group-title="Russia",RU: MATCH! FUTBOL 3 HD
+http://mhav1.com:2095/live/ht2990/742579548/188926.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH! IGRA HD" tvg-logo="" group-title="Russia",RU: MATCH! IGRA HD
+http://mhav1.com:2095/live/ht2990/742579548/188922.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH! PLANETA" tvg-logo="" group-title="Russia",RU: MATCH! PLANETA
+http://mhav1.com:2095/live/ht2990/742579548/188987.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH_HD" tvg-logo="" group-title="Russia",RU: MATCH_HD
+http://mhav1.com:2095/live/ht2990/742579548/188921.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MATCH_HD" tvg-logo="" group-title="Russia",RU: MATCH_HD
+http://mhav1.com:2095/live/ht2990/742579548/1784.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MEGAHIT HD" tvg-logo="" group-title="Russia",RU: MEGAHIT HD
+http://mhav1.com:2095/live/ht2990/742579548/188886.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MEZZO LIVE HD" tvg-logo="" group-title="Russia",RU: MEZZO LIVE HD
+http://mhav1.com:2095/live/ht2990/742579548/188887.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MIR" tvg-logo="" group-title="Russia",RU: MIR
+http://mhav1.com:2095/live/ht2990/742579548/188844.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MIR SERIALA" tvg-logo="" group-title="Russia",RU: MIR SERIALA
+http://mhav1.com:2095/live/ht2990/742579548/188843.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MOSKVA 24" tvg-logo="" group-title="Russia",RU: MOSKVA 24
+http://mhav1.com:2095/live/ht2990/742579548/188855.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MOVIE PREMIERES" tvg-logo="" group-title="Russia",RU: MOVIE PREMIERES
+http://mhav1.com:2095/live/ht2990/742579548/188972.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MTV LIVE HD" tvg-logo="" group-title="Russia",RU: MTV LIVE HD
+http://mhav1.com:2095/live/ht2990/742579548/188953.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MTV РОССИЯ" tvg-logo="" group-title="Russia",RU: MTV РОССИЯ
+http://mhav1.com:2095/live/ht2990/742579548/188907.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MULT" tvg-logo="" group-title="Russia",RU: MULT
+http://mhav1.com:2095/live/ht2990/742579548/188842.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MULT I MUZIKA" tvg-logo="" group-title="Russia",RU: MULT I MUZIKA
+http://mhav1.com:2095/live/ht2990/742579548/188841.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MULYTIMANIYA" tvg-logo="" group-title="Russia",RU: MULYTIMANIYA
+http://mhav1.com:2095/live/ht2990/742579548/188968.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MUZ" tvg-logo="" group-title="Russia",RU: MUZ
+http://mhav1.com:2095/live/ht2990/742579548/188967.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MUZHSKOE KINO HD" tvg-logo="" group-title="Russia",RU: MUZHSKOE KINO HD
+http://mhav1.com:2095/live/ht2990/742579548/188885.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MUZIKA PERVOGO" tvg-logo="" group-title="Russia",RU: MUZIKA PERVOGO
+http://mhav1.com:2095/live/ht2990/742579548/188966.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: MYZEN TV HD" tvg-logo="" group-title="Russia",RU: MYZEN TV HD
+http://mhav1.com:2095/live/ht2990/742579548/188840.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NASH KINOROMAN" tvg-logo="" group-title="Russia",RU: NASH KINOROMAN
+http://mhav1.com:2095/live/ht2990/742579548/189001.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NASHE KRUTOE" tvg-logo="" group-title="Russia",RU: NASHE KRUTOE
+http://mhav1.com:2095/live/ht2990/742579548/189000.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NASHE LIUBIMOJE KINO" tvg-logo="" group-title="Russia",RU: NASHE LIUBIMOJE KINO
+http://mhav1.com:2095/live/ht2990/742579548/188999.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NASHE NOVOE KINO HD" tvg-logo="" group-title="Russia",RU: NASHE NOVOE KINO HD
+http://mhav1.com:2095/live/ht2990/742579548/188998.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NAT GEO HD" tvg-logo="" group-title="Russia",RU: NAT GEO HD
+http://mhav1.com:2095/live/ht2990/742579548/188947.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NAT GEO WILD HD" tvg-logo="" group-title="Russia",RU: NAT GEO WILD HD
+http://mhav1.com:2095/live/ht2990/742579548/188946.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NAUKA 2 0" tvg-logo="" group-title="Russia",RU: NAUKA 2 0
+http://mhav1.com:2095/live/ht2990/742579548/188909.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICK JR. HD" tvg-logo="" group-title="Russia",RU: NICK JR. HD
+http://mhav1.com:2095/live/ht2990/742579548/188882.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NICKELODEON HD" tvg-logo="" group-title="Russia",RU: NICKELODEON HD
+http://mhav1.com:2095/live/ht2990/742579548/188958.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NOSTALGIJA" tvg-logo="" group-title="Russia",RU: NOSTALGIJA
+http://mhav1.com:2095/live/ht2990/742579548/188910.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NST TV" tvg-logo="" group-title="Russia",RU: NST TV
+http://mhav1.com:2095/live/ht2990/742579548/188839.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NTV 4K" tvg-logo="" group-title="Russia",RU: NTV 4K
+http://mhav1.com:2095/live/ht2990/742579548/189003.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NTV FOOTBALL 2" tvg-logo="" group-title="Russia",RU: NTV FOOTBALL 2
+http://mhav1.com:2095/live/ht2990/742579548/188809.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NTV FOOTBALL 3" tvg-logo="" group-title="Russia",RU: NTV FOOTBALL 3
+http://mhav1.com:2095/live/ht2990/742579548/188908.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: NTV HD" tvg-logo="" group-title="Russia",RU: NTV HD
+http://mhav1.com:2095/live/ht2990/742579548/189002.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: OCEAN" tvg-logo="" group-title="Russia",RU: OCEAN
+http://mhav1.com:2095/live/ht2990/742579548/188821.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: OHOTA I RYBALKA" tvg-logo="" group-title="Russia",RU: OHOTA I RYBALKA
+http://mhav1.com:2095/live/ht2990/742579548/188913.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: OHOTNIK I RYBOLOV HD" tvg-logo="" group-title="Russia",RU: OHOTNIK I RYBOLOV HD
+http://mhav1.com:2095/live/ht2990/742579548/188838.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ORUZHIE" tvg-logo="" group-title="Russia",RU: ORUZHIE
+http://mhav1.com:2095/live/ht2990/742579548/188837.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: OSTROSYUZHETNOYE KINO HD" tvg-logo="" group-title="Russia",RU: OSTROSYUZHETNOYE KINO HD
+http://mhav1.com:2095/live/ht2990/742579548/188836.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: OUTDOOR CHANNEL HD" tvg-logo="" group-title="Russia",RU: OUTDOOR CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188879.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PARAMOUNT COMEDY HD" tvg-logo="" group-title="Russia",RU: PARAMOUNT COMEDY HD
+http://mhav1.com:2095/live/ht2990/742579548/188959.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PEH TB" tvg-logo="" group-title="Russia",RU: PEH TB
+http://mhav1.com:2095/live/ht2990/742579548/188835.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PERVIY KANAL  HD" tvg-logo="" group-title="Russia",RU: PERVIY KANAL  HD
+http://mhav1.com:2095/live/ht2990/742579548/189006.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PERVIY KANAL EUROPE" tvg-logo="" group-title="Russia",RU: PERVIY KANAL EUROPE
+http://mhav1.com:2095/live/ht2990/742579548/189005.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PERVIY OBRAZOVATELNIY" tvg-logo="" group-title="Russia",RU: PERVIY OBRAZOVATELNIY
+http://mhav1.com:2095/live/ht2990/742579548/189004.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PLANETA RTR 4K" tvg-logo="" group-title="Russia",RU: PLANETA RTR 4K
+http://mhav1.com:2095/live/ht2990/742579548/189013.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PLANETA RTR HD" tvg-logo="" group-title="Russia",RU: PLANETA RTR HD
+http://mhav1.com:2095/live/ht2990/742579548/189012.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PRIKLYUCHENIYA HD" tvg-logo="" group-title="Russia",RU: PRIKLYUCHENIYA HD
+http://mhav1.com:2095/live/ht2990/742579548/188833.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PSIKHOLOGIYA 21" tvg-logo="" group-title="Russia",RU: PSIKHOLOGIYA 21
+http://mhav1.com:2095/live/ht2990/742579548/188832.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: PYATNITSA!" tvg-logo="" group-title="Russia",RU: PYATNITSA!
+http://mhav1.com:2095/live/ht2990/742579548/189007.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RBK HD" tvg-logo="" group-title="Russia",RU: RBK HD
+http://mhav1.com:2095/live/ht2990/742579548/188918.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: REN TV" tvg-logo="" group-title="Russia",RU: REN TV
+http://mhav1.com:2095/live/ht2990/742579548/188993.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RODNOE KINO HD" tvg-logo="" group-title="Russia",RU: RODNOE KINO HD
+http://mhav1.com:2095/live/ht2990/742579548/188883.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ROSSIYA 1 4K" tvg-logo="" group-title="Russia",RU: ROSSIYA 1 4K
+http://mhav1.com:2095/live/ht2990/742579548/189010.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ROSSIYA 1 HD" tvg-logo="" group-title="Russia",RU: ROSSIYA 1 HD
+http://mhav1.com:2095/live/ht2990/742579548/189009.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ROSSIYA 24" tvg-logo="" group-title="Russia",RU: ROSSIYA 24
+http://mhav1.com:2095/live/ht2990/742579548/189008.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RT DOC" tvg-logo="" group-title="Russia",RU: RT DOC
+http://mhav1.com:2095/live/ht2990/742579548/188854.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RT HD" tvg-logo="" group-title="Russia",RU: RT HD
+http://mhav1.com:2095/live/ht2990/742579548/189011.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RTG HD" tvg-logo="" group-title="Russia",RU: RTG HD
+http://mhav1.com:2095/live/ht2990/742579548/188938.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RTVI" tvg-logo="" group-title="Russia",RU: RTVI
+http://mhav1.com:2095/live/ht2990/742579548/188874.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RU TV" tvg-logo="" group-title="Russia",RU: RU TV
+http://mhav1.com:2095/live/ht2990/742579548/188831.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSIA K" tvg-logo="" group-title="Russia",RU: RUSSIA K
+http://mhav1.com:2095/live/ht2990/742579548/188853.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSIAN MUSICBOX" tvg-logo="" group-title="Russia",RU: RUSSIAN MUSICBOX
+http://mhav1.com:2095/live/ht2990/742579548/188954.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSKIJ BESTSELLER" tvg-logo="" group-title="Russia",RU: RUSSKIJ BESTSELLER
+http://mhav1.com:2095/live/ht2990/742579548/189014.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSKIJ ILLUZION HD" tvg-logo="" group-title="Russia",RU: RUSSKIJ ILLUZION HD
+http://mhav1.com:2095/live/ht2990/742579548/189017.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSKIJ ROMAN" tvg-logo="" group-title="Russia",RU: RUSSKIJ ROMAN
+http://mhav1.com:2095/live/ht2990/742579548/189016.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSKIJ ROMAN HD" tvg-logo="" group-title="Russia",RU: RUSSKIJ ROMAN HD
+http://mhav1.com:2095/live/ht2990/742579548/189015.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: RUSSKIY EXTRIM HD" tvg-logo="" group-title="Russia",RU: RUSSKIY EXTRIM HD
+http://mhav1.com:2095/live/ht2990/742579548/189019.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SARAFAN" tvg-logo="" group-title="Russia",RU: SARAFAN
+http://mhav1.com:2095/live/ht2990/742579548/188915.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SET HD" tvg-logo="" group-title="Russia",RU: SET HD
+http://mhav1.com:2095/live/ht2990/742579548/188830.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SETANTA SPORT HD" tvg-logo="" group-title="Russia",RU: SETANTA SPORT HD
+http://mhav1.com:2095/live/ht2990/742579548/188904.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SHANSON TV" tvg-logo="" group-title="Russia",RU: SHANSON TV
+http://mhav1.com:2095/live/ht2990/742579548/188872.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SHOKIRUYUSCHEE" tvg-logo="" group-title="Russia",RU: SHOKIRUYUSCHEE
+http://mhav1.com:2095/live/ht2990/742579548/188829.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SONY CHANNEL" tvg-logo="" group-title="Russia",RU: SONY CHANNEL
+http://mhav1.com:2095/live/ht2990/742579548/188828.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SONY SCI FI" tvg-logo="" group-title="Russia",RU: SONY SCI FI
+http://mhav1.com:2095/live/ht2990/742579548/188871.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SONY TURBO" tvg-logo="" group-title="Russia",RU: SONY TURBO
+http://mhav1.com:2095/live/ht2990/742579548/188870.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: SOVERSHENNO SEKRETNO" tvg-logo="" group-title="Russia",RU: SOVERSHENNO SEKRETNO
+http://mhav1.com:2095/live/ht2990/742579548/188914.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: START TV" tvg-logo="" group-title="Russia",RU: START TV
+http://mhav1.com:2095/live/ht2990/742579548/188891.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: STB" tvg-logo="" group-title="Russia",RU: STB
+http://mhav1.com:2095/live/ht2990/742579548/188869.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: STRASHNOE" tvg-logo="" group-title="Russia",RU: STRASHNOE
+http://mhav1.com:2095/live/ht2990/742579548/188986.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: STS" tvg-logo="" group-title="Russia",RU: STS
+http://mhav1.com:2095/live/ht2990/742579548/188897.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: STS BALTIC" tvg-logo="" group-title="Russia",RU: STS BALTIC
+http://mhav1.com:2095/live/ht2990/742579548/188827.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: STYLE" tvg-logo="" group-title="Russia",RU: STYLE
+http://mhav1.com:2095/live/ht2990/742579548/188826.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TELEKAFE" tvg-logo="" group-title="Russia",RU: TELEKAFE
+http://mhav1.com:2095/live/ht2990/742579548/188825.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TELEKANAL FUTBOL" tvg-logo="" group-title="Russia",RU: TELEKANAL FUTBOL
+http://mhav1.com:2095/live/ht2990/742579548/188824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: THT HD" tvg-logo="" group-title="Russia",RU: THT HD
+http://mhav1.com:2095/live/ht2990/742579548/188955.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TLC" tvg-logo="" group-title="Russia",RU: TLC
+http://mhav1.com:2095/live/ht2990/742579548/189020.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TNT" tvg-logo="" group-title="Russia",RU: TNT
+http://mhav1.com:2095/live/ht2990/742579548/189022.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TNT +7" tvg-logo="" group-title="Russia",RU: TNT +7
+http://mhav1.com:2095/live/ht2990/742579548/189021.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TRAVEL CHANNEL HD" tvg-logo="" group-title="Russia",RU: TRAVEL CHANNEL HD
+http://mhav1.com:2095/live/ht2990/742579548/188941.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TRAVEL+ADVENTURE HD" tvg-logo="" group-title="Russia",RU: TRAVEL+ADVENTURE HD
+http://mhav1.com:2095/live/ht2990/742579548/188940.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV 1000 HD" tvg-logo="" group-title="Russia",RU: TV 1000 HD
+http://mhav1.com:2095/live/ht2990/742579548/189027.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV 3" tvg-logo="" group-title="Russia",RU: TV 3
+http://mhav1.com:2095/live/ht2990/742579548/188983.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV-XXI" tvg-logo="" group-title="Russia",RU: TV-XXI
+http://mhav1.com:2095/live/ht2990/742579548/188865.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV1000 ACTION HD" tvg-logo="" group-title="Russia",RU: TV1000 ACTION HD
+http://mhav1.com:2095/live/ht2990/742579548/189028.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV1000 COMEDY HD" tvg-logo="" group-title="Russia",RU: TV1000 COMEDY HD
+http://mhav1.com:2095/live/ht2990/742579548/189026.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV1000 PREMIUM HD" tvg-logo="" group-title="Russia",RU: TV1000 PREMIUM HD
+http://mhav1.com:2095/live/ht2990/742579548/189025.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV1000 RUSKOE KINO" tvg-logo="" group-title="Russia",RU: TV1000 RUSKOE KINO
+http://mhav1.com:2095/live/ht2990/742579548/189024.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TV1000 RUSSKOJE KINO" tvg-logo="" group-title="Russia",RU: TV1000 RUSSKOJE KINO
+http://mhav1.com:2095/live/ht2990/742579548/189023.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: TVCI" tvg-logo="" group-title="Russia",RU: TVCI
+http://mhav1.com:2095/live/ht2990/742579548/189029.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: USADBA TV" tvg-logo="" group-title="Russia",RU: USADBA TV
+http://mhav1.com:2095/live/ht2990/742579548/188823.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: UTV" tvg-logo="" group-title="Russia",RU: UTV
+http://mhav1.com:2095/live/ht2990/742579548/188864.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIASAT EXPLORER HD" tvg-logo="" group-title="Russia",RU: VIASAT EXPLORER HD
+http://mhav1.com:2095/live/ht2990/742579548/188949.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIASAT HISTORY HD" tvg-logo="" group-title="Russia",RU: VIASAT HISTORY HD
+http://mhav1.com:2095/live/ht2990/742579548/188950.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIASAT NATURE HD" tvg-logo="" group-title="Russia",RU: VIASAT NATURE HD
+http://mhav1.com:2095/live/ht2990/742579548/188948.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIASAT SPORT" tvg-logo="" group-title="Russia",RU: VIASAT SPORT
+http://mhav1.com:2095/live/ht2990/742579548/188862.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIASAT TV1000 RUSSKOE KINO" tvg-logo="" group-title="Russia",RU: VIASAT TV1000 RUSSKOE KINO
+http://mhav1.com:2095/live/ht2990/742579548/188852.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIP COMEDY HD" tvg-logo="" group-title="Russia",RU: VIP COMEDY HD
+http://mhav1.com:2095/live/ht2990/742579548/189032.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIP PREMIERE" tvg-logo="" group-title="Russia",RU: VIP PREMIERE
+http://mhav1.com:2095/live/ht2990/742579548/189031.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VIP SERIAL" tvg-logo="" group-title="Russia",RU: VIP SERIAL
+http://mhav1.com:2095/live/ht2990/742579548/189030.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: VREMYA" tvg-logo="" group-title="Russia",RU: VREMYA
+http://mhav1.com:2095/live/ht2990/742579548/188917.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: WORLD FASHION" tvg-logo="" group-title="Russia",RU: WORLD FASHION
+http://mhav1.com:2095/live/ht2990/742579548/188934.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ZAGORODNAYA ZHIZN" tvg-logo="" group-title="Russia",RU: ZAGORODNAYA ZHIZN
+http://mhav1.com:2095/live/ht2990/742579548/188822.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ZEE TV" tvg-logo="" group-title="Russia",RU: ZEE TV
+http://mhav1.com:2095/live/ht2990/742579548/188982.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ZHIVAYA PLANETA" tvg-logo="" group-title="Russia",RU: ZHIVAYA PLANETA
+http://mhav1.com:2095/live/ht2990/742579548/188894.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ZVEZDA" tvg-logo="" group-title="Russia",RU: ZVEZDA
+http://mhav1.com:2095/live/ht2990/742579548/189033.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="RU: ПРАВО PRAVO" tvg-logo="" group-title="Russia",RU: ПРАВО PRAVO
+http://mhav1.com:2095/live/ht2990/742579548/188834.ts
+
+
+################################################################################
 # Sweden
 ################################################################################
 
@@ -6467,6 +7985,9 @@ http://mhav1.com:2095/live/ht2990/742579548/209555.ts
 #EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Motor" tvg-logo="" group-title="Sweden",SE: V Sport Motor
 http://mhav1.com:2095/live/ht2990/742579548/209556.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Premium" tvg-logo="" group-title="Sweden",SE: V Sport Premium
+http://mhav1.com:2095/live/ht2990/742579548/209557.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="SE: V Sport Ultra" tvg-logo="" group-title="Sweden",SE: V Sport Ultra
 http://mhav1.com:2095/live/ht2990/742579548/209558.ts
 
@@ -6708,6 +8229,18 @@ http://mhav1.com:2095/live/ht2990/742579548/215783.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="CH: nickelodeon" tvg-logo="" group-title="Switzerland",CH: nickelodeon
 http://mhav1.com:2095/live/ht2990/742579548/215714.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[SW]3+ FHD" tvg-logo="" group-title="Switzerland",[SW]3+ FHD
+http://mhav1.com:2095/live/ht2990/742579548/85238.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[SW]4+ FHD" tvg-logo="" group-title="Switzerland",[SW]4+ FHD
+http://mhav1.com:2095/live/ht2990/742579548/85239.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[SW]5+ FHD" tvg-logo="" group-title="Switzerland",[SW]5+ FHD
+http://mhav1.com:2095/live/ht2990/742579548/85240.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[SW]6+ FHD" tvg-logo="" group-title="Switzerland",[SW]6+ FHD
+http://mhav1.com:2095/live/ht2990/742579548/85241.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[SW]Comedy Central/Viva FHD" tvg-logo="" group-title="Switzerland",[SW]Comedy Central/Viva FHD
 http://mhav1.com:2095/live/ht2990/742579548/85243.ts
@@ -7925,7 +9458,7 @@ https://jmp2.uk/stvp-USBC1000004G8
 #EXTINF:-1 tvg-chno="1448" tvg-id="USAJ26000015Y" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000015Y_20260901T055719SQUARE.png" tvg-country="US" group-title="United States",[Action & Drama] 1448. Supernatural Drama
 https://jmp2.uk/stvp-USAJ26000015Y
 
-#EXTINF:-1 tvg-chno="1449" tvg-id="USBB2900003O3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261002T181850SQUARE.png" tvg-country="US" group-title="United States",[Action & Drama] 1449. Heartland
+#EXTINF:-1 tvg-chno="1449" tvg-id="USBB2900003O3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261008T213504SQUARE.png" tvg-country="US" group-title="United States",[Action & Drama] 1449. Heartland
 https://jmp2.uk/stvp-USBB2900003O3
 
 #EXTINF:-1 tvg-chno="1450" tvg-id="USBA2000001BR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA2000001BR_20260811T043347SQUARE.png" tvg-country="US" group-title="United States",[Action & Drama] 1450. Baywatch
@@ -8141,7 +9674,7 @@ https://jmp2.uk/stvp-US2100007V7
 #EXTINF:-1 tvg-chno="2242" tvg-id="US2000016LF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2000016LF_20260421T143226SQUARE.png" tvg-country="US" group-title="United States",[Comedy] 2242. The Try Guys
 https://jmp2.uk/stvp-US2000016LF
 
-#EXTINF:-1 tvg-chno="2243" tvg-id="US2500009PQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2500009PQ_20261002T181943SQUARE.png" tvg-country="US" group-title="United States",[Comedy] 2243. BET x Tyler Perry Comedy
+#EXTINF:-1 tvg-chno="2243" tvg-id="US2500009PQ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2500009PQ_20261008T213604SQUARE.png" tvg-country="US" group-title="United States",[Comedy] 2243. BET x Tyler Perry Comedy
 https://jmp2.uk/stvp-US2500009PQ
 
 #EXTINF:-1 tvg-chno="2426" tvg-id="US4100039PO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100039PO_20251125T030910SQUARE.png" tvg-country="US" group-title="United States",[Comedy] 2426. America’s Funniest Home Videos
@@ -8162,7 +9695,7 @@ https://jmp2.uk/stvp-US3700007E4
 #EXTINF:-1 tvg-chno="1521" tvg-id="USBC24000134A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000134A_20241014T232251SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1521. Midsomer Murders
 https://jmp2.uk/stvp-USBC24000134A
 
-#EXTINF:-1 tvg-chno="1522" tvg-id="USAK3508703A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508703A_20251202T005850SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1522. Crime 24/7
+#EXTINF:-1 tvg-chno="1522" tvg-id="USAK3508703A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508703A_20261009T160516SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1522. Crime 24/7
 https://jmp2.uk/stvp-USAK3508703A
 
 #EXTINF:-1 tvg-chno="1523" tvg-id="USBD1700008H9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700008H9_20250805T005807SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1523. I Survived…
@@ -8177,7 +9710,7 @@ https://jmp2.uk/stvp-USBC1000002NP
 #EXTINF:-1 tvg-chno="1526" tvg-id="USBD42000073E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD42000073E_20250520T211334SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1526. 60 Days In by A&E
 https://jmp2.uk/stvp-USBD42000073E
 
-#EXTINF:-1 tvg-chno="1527" tvg-id="US3300011V9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20261002T182026SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1527. The First 48
+#EXTINF:-1 tvg-chno="1527" tvg-id="US3300011V9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20261008T213644SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1527. The First 48
 https://jmp2.uk/stvp-US3300011V9
 
 #EXTINF:-1 tvg-chno="1528" tvg-id="US700010XK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700010XK_20250915T233927SQUARE.png" tvg-country="US" group-title="United States",[Crime] 1528. Witness to Justice
@@ -8270,7 +9803,7 @@ https://jmp2.uk/stvp-US7000229B
 #EXTINF:-1 tvg-chno="2592" tvg-id="US5000052H1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US5000052H1_20260421T143111SQUARE.png" tvg-country="US" group-title="United States",[Game Shows] 2592. Price is Right
 https://jmp2.uk/stvp-US5000052H1
 
-#EXTINF:-1 tvg-chno="2593" tvg-id="US5000053YV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US5000053YV_20260907T200513SQUARE.png" tvg-country="US" group-title="United States",[Game Shows] 2593. Family Feud
+#EXTINF:-1 tvg-chno="2593" tvg-id="US5000053YV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US5000053YV_20261009T160624SQUARE.png" tvg-country="US" group-title="United States",[Game Shows] 2593. Family Feud
 https://jmp2.uk/stvp-US5000053YV
 
 #EXTINF:-1 tvg-chno="2594" tvg-id="US490000330" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US490000330_20260421T141754SQUARE.png" tvg-country="US" group-title="United States",[Game Shows] 2594. Family Feud Classic
@@ -8711,7 +10244,7 @@ https://jmp2.uk/stvp-USBD17000117B
 #EXTINF:-1 tvg-chno="1668" tvg-id="USBA300017PK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300017PK_20261002T181921SQUARE.png" tvg-country="US" group-title="United States",[Movies] 1668. Pluto TV Fantastic
 https://jmp2.uk/stvp-USBA300017PK
 
-#EXTINF:-1 tvg-chno="1669" tvg-id="US18000163F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20260707T035902SQUARE.png" tvg-country="US" group-title="United States",[Movies] 1669. Miramax Movie Channel
+#EXTINF:-1 tvg-chno="1669" tvg-id="US18000163F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20261009T160639SQUARE.png" tvg-country="US" group-title="United States",[Movies] 1669. Miramax Movie Channel
 https://jmp2.uk/stvp-US18000163F
 
 #EXTINF:-1 tvg-chno="1670" tvg-id="USAJ26000054W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ26000054W_20260804T045743SQUARE.png" tvg-country="US" group-title="United States",[Movies] 1670. Paramount Movie Channel
@@ -9218,7 +10751,7 @@ https://jmp2.uk/stvp-USBB10000047W
 #EXTINF:-1 tvg-chno="1789" tvg-id="US700011JL" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700011JL_20260818T061352SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 1789. The UnXplained with William Shatner
 https://jmp2.uk/stvp-US700011JL
 
-#EXTINF:-1 tvg-chno="1790" tvg-id="US3300010F5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300010F5_20260421T142025SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 1790. Ancient Aliens
+#EXTINF:-1 tvg-chno="1790" tvg-id="US3300010F5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300010F5_20261009T160610SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 1790. Ancient Aliens
 https://jmp2.uk/stvp-US3300010F5
 
 #EXTINF:-1 tvg-chno="1791" tvg-id="USAJ17000014C" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ17000014C_20260421T141813SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 1791. The Asylum
@@ -9239,7 +10772,7 @@ https://jmp2.uk/stvp-US200111SU
 #EXTINF:-1 tvg-chno="2644" tvg-id="US800014B2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US800014B2_20260421T141808SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 2644. Z Nation
 https://jmp2.uk/stvp-US800014B2
 
-#EXTINF:-1 tvg-chno="1832" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20260901T055725SQUARE.png" tvg-country="US" group-title="United States",[Western & Classic TV] 1832. Classic Movie Westerns
+#EXTINF:-1 tvg-chno="1832" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20261009T160511SQUARE.png" tvg-country="US" group-title="United States",[Western & Classic TV] 1832. Classic Movie Westerns
 https://jmp2.uk/stvp-USBA300005MK
 
 #EXTINF:-1 tvg-chno="1833" tvg-id="USBB32000196O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20260421T133834SQUARE.png" tvg-country="US" group-title="United States",[Western & Classic TV] 1833. FilmRise Western

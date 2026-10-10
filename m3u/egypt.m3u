@@ -372,6 +372,9 @@ http://mhav1.com:2095/live/ht2990/742579548/30562.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Eiman TV [YA]" tvg-logo="" group-title="Egypt",Al Eiman TV [YA]
 http://mhav1.com:2095/live/ht2990/742579548/4471.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Hayat 2 [EG]" tvg-logo="" group-title="Egypt",Al Hayat 2 [EG]
+http://mhav1.com:2095/live/ht2990/742579548/2774.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Hayat Muslsalat [EG]" tvg-logo="" group-title="Egypt",Al Hayat Muslsalat [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2773.ts
 
@@ -507,6 +510,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2036.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nile TV [EG]" tvg-logo="" group-title="Egypt",Nile TV [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2760.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OMG TV [AR]" tvg-logo="" group-title="Egypt",OMG TV [AR]
+http://mhav1.com:2095/live/ht2990/742579548/7100.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON DRAMA[EG]" tvg-logo="" group-title="Egypt",ON DRAMA[EG]
 http://mhav1.com:2095/live/ht2990/742579548/3500.ts
 
@@ -540,8 +546,14 @@ http://mhav1.com:2095/live/ht2990/742579548/3593.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt",Shaaer [IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/4505.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Egypt",Taghier |AR|
+http://mhav1.com:2095/live/ht2990/742579548/3832.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Ten [EG]" tvg-logo="" group-title="Egypt",Ten [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[AR]Alerth Alnbawi" tvg-logo="" group-title="Egypt",[AR]Alerth Alnbawi
+http://mhav1.com:2095/live/ht2990/742579548/5149.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="el shams [EG]" tvg-logo="" group-title="Egypt",el shams [EG]
 http://mhav1.com:2095/live/ht2990/742579548/5112.ts
@@ -1076,6 +1088,9 @@ http://mhav1.com:2095/live/ht2990/742579548/5376.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sultan Aflam" tvg-logo="" group-title="MH Club",Sultan Aflam
 http://mhav1.com:2095/live/ht2990/742579548/30663.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Tom_Jerry" tvg-logo="" group-title="MH Club",Tom_Jerry
+http://mhav1.com:2095/live/ht2990/742579548/6570.ts
+
 
 ################################################################################
 # Netflix Club
@@ -1131,6 +1146,9 @@ http://mhav1.com:2095/live/ht2990/742579548/12265.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="NETFLIX HORROR SD" tvg-logo="" group-title="Netflix Club",NETFLIX HORROR SD
 http://mhav1.com:2095/live/ht2990/742579548/15744.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="NETFLIX MOVIES" tvg-logo="" group-title="Netflix Club",NETFLIX MOVIES
+http://mhav1.com:2095/live/ht2990/742579548/12275.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="NETFLIX MOVIES SD" tvg-logo="" group-title="Netflix Club",NETFLIX MOVIES SD
 http://mhav1.com:2095/live/ht2990/742579548/15743.ts
@@ -1259,6 +1277,9 @@ http://mhav1.com:2095/live/ht2990/742579548/48830.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN Bloomberg" tvg-logo="" group-title="OSN",OSN Bloomberg
 http://mhav1.com:2095/live/ht2990/742579548/25201.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN FashionTV" tvg-logo="" group-title="OSN",OSN FashionTV
+http://mhav1.com:2095/live/ht2990/742579548/25188.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN MTV 00S" tvg-logo="" group-title="OSN",OSN MTV 00S
 http://mhav1.com:2095/live/ht2990/742579548/25193.ts
 
@@ -1328,11 +1349,17 @@ http://mhav1.com:2095/live/ht2990/742579548/19388.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Alyoum_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Alyoum_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19383.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Baby_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Baby_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19402.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_1HD" tvg-logo="" group-title="OSN",[Vip]OSN_Cinema_1HD
 http://mhav1.com:2095/live/ht2990/742579548/1780.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_2HD" tvg-logo="" group-title="OSN",[Vip]OSN_Cinema_2HD
 http://mhav1.com:2095/live/ht2990/742579548/1781.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Cinema_FHD off" tvg-logo="" group-title="OSN",[Vip]OSN_Cinema_FHD off
+http://mhav1.com:2095/live/ht2990/742579548/19356.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Comedy_Central_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Comedy_Central_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19377.ts
@@ -1343,11 +1370,23 @@ http://mhav1.com:2095/live/ht2990/742579548/19375.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery ID_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Discovery ID_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19397.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery SC_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Discovery SC_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19398.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_Channel_HD" tvg-logo="" group-title="OSN",[Vip]OSN_Discovery_Channel_HD
 http://mhav1.com:2095/live/ht2990/742579548/3275.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Discovery_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19396.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Discovery_ID_X" tvg-logo="" group-title="OSN",[Vip]OSN_Discovery_ID_X
+http://mhav1.com:2095/live/ht2990/742579548/3947.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney XD_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Disney XD_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19400.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_Junior" tvg-logo="" group-title="OSN",[Vip]OSN_Disney_Junior
+http://mhav1.com:2095/live/ht2990/742579548/676.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_E!_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_E!_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19378.ts
@@ -1370,11 +1409,20 @@ http://mhav1.com:2095/live/ht2990/742579548/19369.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="OSN",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_LIVING" tvg-logo="" group-title="OSN",[Vip]OSN_LIVING
+http://mhav1.com:2095/live/ht2990/742579548/4939.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Living_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Living_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19379.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_MEZZE" tvg-logo="" group-title="OSN",[Vip]OSN_MEZZE
+http://mhav1.com:2095/live/ht2990/742579548/7097.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Meezze_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Meezze_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19380.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Disney_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Movies Disney_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19367.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Movies Hollywood_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Movies Hollywood_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19364.ts
@@ -1394,6 +1442,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2558.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat Geo Wild_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat Geo Wild_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19395.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Nat People_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Nat People_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19394.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_News_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_News_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19390.ts
 
@@ -1408,6 +1459,9 @@ http://mhav1.com:2095/live/ht2990/742579548/19406.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Series Comedy_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Series Comedy_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19371.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Series First_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_Series First_FHD
+http://mhav1.com:2095/live/ht2990/742579548/19370.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_TLC_FHD" tvg-logo="" group-title="OSN",[Vip]OSN_TLC_FHD
 http://mhav1.com:2095/live/ht2990/742579548/19374.ts
@@ -1460,6 +1514,9 @@ http://mhav1.com:2095/live/ht2990/742579548/542.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_History_HD" tvg-logo="" group-title="OSN",[Vip]Osn_History_HD
 http://mhav1.com:2095/live/ht2990/742579548/3277.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Kids_Zone" tvg-logo="" group-title="OSN",[Vip]Osn_Kids_Zone
+http://mhav1.com:2095/live/ht2990/742579548/4940.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Movies_Hollywood_HD" tvg-logo="" group-title="OSN",[Vip]Osn_Movies_Hollywood_HD
 http://mhav1.com:2095/live/ht2990/742579548/2208.ts
 
@@ -1487,11 +1544,17 @@ http://mhav1.com:2095/live/ht2990/742579548/12182.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Animal_Planet_SD" tvg-logo="" group-title="OSN",OSN_Animal_Planet_SD
 http://mhav1.com:2095/live/ht2990/742579548/2873.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Baby_SD" tvg-logo="" group-title="OSN",OSN_Baby_SD
+http://mhav1.com:2095/live/ht2990/742579548/19457.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_1_SD" tvg-logo="" group-title="OSN",OSN_CINEMA_1_SD
 http://mhav1.com:2095/live/ht2990/742579548/4119.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_2_SD" tvg-logo="" group-title="OSN",OSN_CINEMA_2_SD
 http://mhav1.com:2095/live/ht2990/742579548/4120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN",OSN_Cinema_SD
+http://mhav1.com:2095/live/ht2990/742579548/6110.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN",OSN_Crime Investigation_SD
 http://mhav1.com:2095/live/ht2990/742579548/19455.ts
