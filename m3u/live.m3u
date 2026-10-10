@@ -4211,9 +4211,6 @@ http://mhav1.com:2095/live/ht2990/742579548/123475.ts
 #EXTINF:-1 tvg-id="" tvg-name="Animal Planet |UK|" tvg-logo="" group-title="England",Animal Planet |UK|
 http://mhav1.com:2095/live/ht2990/742579548/123469.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BBC ALBA [UK]" tvg-logo="" group-title="England",BBC ALBA [UK]
-http://mhav1.com:2095/live/ht2990/742579548/2846.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="BBC Entertainment [UK]" tvg-logo="" group-title="England",BBC Entertainment [UK]
 http://mhav1.com:2095/live/ht2990/742579548/71347.ts
 
@@ -4559,9 +4556,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4127.ts
 #EXTINF:-1 tvg-id="" tvg-name="[UK]BBC Two Northern Ireland" tvg-logo="" group-title="England",[UK]BBC Two Northern Ireland
 http://mhav1.com:2095/live/ht2990/742579548/2843.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="|UK| Cartoonito" tvg-logo="" group-title="England",|UK| Cartoonito
-http://mhav1.com:2095/live/ht2990/742579548/123406.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="|UK| Challenge" tvg-logo="" group-title="England",|UK| Challenge
 http://mhav1.com:2095/live/ht2990/742579548/123455.ts
 
@@ -4637,9 +4631,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2794.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nickelodeon Junior" tvg-logo="" group-title="France",Nickelodeon Junior
 http://mhav1.com:2095/live/ht2990/742579548/115309.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Olympic [FR]" tvg-logo="" group-title="France",Olympic [FR]
-http://mhav1.com:2095/live/ht2990/742579548/12340.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[FR]  Toute L'Histoire HD" tvg-logo="" group-title="France",[FR]  Toute L'Histoire HD
 http://mhav1.com:2095/live/ht2990/742579548/4851.ts
 
@@ -4699,9 +4690,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2489.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[FR] Nickelodeon Teen" tvg-logo="" group-title="France",[FR] Nickelodeon Teen
 http://mhav1.com:2095/live/ht2990/742579548/4857.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[FR] OCS MAax" tvg-logo="" group-title="France",[FR] OCS MAax
-http://mhav1.com:2095/live/ht2990/742579548/2925.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[FR] Planete +" tvg-logo="" group-title="France",[FR] Planete +
 http://mhav1.com:2095/live/ht2990/742579548/2924.ts
@@ -5048,12 +5036,6 @@ http://mhav1.com:2095/live/ht2990/742579548/24397.ts
 #EXTINF:-1 tvg-id="" tvg-name="Comedy Central HD [DE]" tvg-logo="" group-title="Germany",Comedy Central HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3530.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [DE]" tvg-logo="" group-title="Germany",DAZN 1 [DE]
-http://mhav1.com:2095/live/ht2990/742579548/8573.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [DE]" tvg-logo="" group-title="Germany",DAZN 2 [DE]
-http://mhav1.com:2095/live/ht2990/742579548/8574.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="DMAX HD [DE]" tvg-logo="" group-title="Germany",DMAX HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3251.ts
 
@@ -5246,9 +5228,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3518.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sat 1 HD [DE]" tvg-logo="" group-title="Germany",Sat 1 HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3520.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Sky 1 |DE|" tvg-logo="" group-title="Germany",Sky 1 |DE|
-http://mhav1.com:2095/live/ht2990/742579548/3534.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3553.ts
 
@@ -5399,27 +5378,6 @@ http://mhav1.com:2095/live/ht2990/742579548/30565.ts
 #EXTINF:-1 tvg-id="" tvg-name="Super RTL HD [DE]" tvg-logo="" group-title="Germany",Super RTL HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3519.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 1 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 1 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9287.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 2 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 2 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9288.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 3 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 3 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9289.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 4 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 4 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9290.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 5 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 5 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9291.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 6 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 6 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 7 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 7 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9293.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="TLC[DE]" tvg-logo="" group-title="Germany",TLC[DE]
 http://mhav1.com:2095/live/ht2990/742579548/3533.ts
 
@@ -5459,9 +5417,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4461.ts
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_HD_DE
-http://mhav1.com:2095/live/ht2990/742579548/9273.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Heimatkanal" tvg-logo="" group-title="Germany",[DE]Heimatkanal
 http://mhav1.com:2095/live/ht2990/742579548/3384.ts
 
@@ -5473,9 +5428,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3287.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Spiegel_Geschichte_HD_DE" tvg-logo="" group-title="Germany",[DE]Spiegel_Geschichte_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9265.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DE]TELECOM SPORT 8 HD" tvg-logo="" group-title="Germany",[DE]TELECOM SPORT 8 HD
-http://mhav1.com:2095/live/ht2990/742579548/9286.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="kabel eins Doku  [DE]" tvg-logo="" group-title="Germany",kabel eins Doku  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/63547.ts
@@ -9299,9 +9251,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121486.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Racing HD |NL|" tvg-logo="" group-title="Netherland",Ziggo Sport Racing HD |NL|
 http://mhav1.com:2095/live/ht2990/742579548/121490.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Select HD" tvg-logo="" group-title="Netherland",Ziggo Sport Select HD
-http://mhav1.com:2095/live/ht2990/742579548/77961.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Select HD |NL|" tvg-logo="" group-title="Netherland",Ziggo Sport Select HD |NL|
 http://mhav1.com:2095/live/ht2990/742579548/121487.ts
 
@@ -9376,9 +9325,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121511.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Aljazeera English" tvg-logo="" group-title="Netherland",|NL| Aljazeera English
 http://mhav1.com:2095/live/ht2990/742579548/121516.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| Animal Planet HD" tvg-logo="" group-title="Netherland",|NL| Animal Planet HD
-http://mhav1.com:2095/live/ht2990/742579548/121565.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Arte" tvg-logo="" group-title="Netherland",|NL| Arte
 http://mhav1.com:2095/live/ht2990/742579548/121506.ts
@@ -9511,12 +9457,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121579.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TRT T?rk" tvg-logo="" group-title="Netherland",|NL| TRT T?rk
 http://mhav1.com:2095/live/ht2990/742579548/121504.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Gelderland 720P" tvg-logo="" group-title="Netherland",|NL| TV Gelderland 720P
-http://mhav1.com:2095/live/ht2990/742579548/121529.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oost 720P" tvg-logo="" group-title="Netherland",|NL| TV Oost 720P
-http://mhav1.com:2095/live/ht2990/742579548/121530.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oranje" tvg-logo="" group-title="Netherland",|NL| TV Oranje
 http://mhav1.com:2095/live/ht2990/742579548/121540.ts
@@ -9882,10 +9822,10 @@ http://mhav1.com:2095/live/ht2990/742579548/120292.ts
 http://mhav1.com:2095/live/ht2990/742579548/5456.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max LOW
-http://mhav1.com:2095/live/ht2990/742579548/248962.ts
+http://mhav1.com:2095/live/ht2990/742579548/267087.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max LOW
-http://mhav1.com:2095/live/ht2990/742579548/267087.ts
+http://mhav1.com:2095/live/ht2990/742579548/248962.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max SD
 http://mhav1.com:2095/live/ht2990/742579548/49535.ts
@@ -11314,12 +11254,6 @@ http://mhav1.com:2095/live/ht2990/742579548/78339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PL:Polsat Viasat Explore FHD" tvg-logo="" group-title="Polish",PL:Polsat Viasat Explore FHD
 http://mhav1.com:2095/live/ht2990/742579548/78343.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 1" tvg-logo="" group-title="Polish",Polsat Sport Premium 1
-http://mhav1.com:2095/live/ht2990/742579548/77956.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="" group-title="Polish",Polsat Sport Premium 2
-http://mhav1.com:2095/live/ht2990/742579548/77958.ts
 
 
 ##### [Portugal] #####
@@ -13583,14 +13517,8 @@ http://mhav1.com:2095/live/ht2990/742579548/125518.ts
 #EXTINF:-1 tvg-id="" tvg-name="24 HORAS [ES]" tvg-logo="" group-title="Spain",24 HORAS [ES]
 http://mhav1.com:2095/live/ht2990/742579548/1247.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="3CAT TV [ES]" tvg-logo="" group-title="Spain",3CAT TV [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2551.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="A3s Series [ES]" tvg-logo="" group-title="Spain",A3s Series [ES]
 http://mhav1.com:2095/live/ht2990/742579548/2426.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AMC Break [ES]" tvg-logo="" group-title="Spain",AMC Break [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2550.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="AMC HD [ES]" tvg-logo="" group-title="Spain",AMC HD [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12418.ts
@@ -13656,10 +13584,10 @@ http://mhav1.com:2095/live/ht2990/742579548/122492.ts
 http://mhav1.com:2095/live/ht2990/742579548/12408.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Clan TVE [ES]" tvg-logo="" group-title="Spain",Clan TVE [ES]
-http://mhav1.com:2095/live/ht2990/742579548/122496.ts
+http://mhav1.com:2095/live/ht2990/742579548/12410.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Clan TVE [ES]" tvg-logo="" group-title="Spain",Clan TVE [ES]
-http://mhav1.com:2095/live/ht2990/742579548/12410.ts
+http://mhav1.com:2095/live/ht2990/742579548/122496.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Comedy Central [ES]" tvg-logo="" group-title="Spain",Comedy Central [ES]
 http://mhav1.com:2095/live/ht2990/742579548/122487.ts
@@ -13674,10 +13602,10 @@ http://mhav1.com:2095/live/ht2990/742579548/12402.ts
 http://mhav1.com:2095/live/ht2990/742579548/12403.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="Spain",Disney Junior [ES]
-http://mhav1.com:2095/live/ht2990/742579548/122513.ts
+http://mhav1.com:2095/live/ht2990/742579548/12404.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="Spain",Disney Junior [ES]
-http://mhav1.com:2095/live/ht2990/742579548/12404.ts
+http://mhav1.com:2095/live/ht2990/742579548/122513.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney XD [ES]" tvg-logo="" group-title="Spain",Disney XD [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12405.ts
@@ -13781,17 +13709,14 @@ http://mhav1.com:2095/live/ht2990/742579548/2399.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild [ES]" tvg-logo="" group-title="Spain",Nat Geo Wild [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12413.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="National Geographic Wild [ES]" tvg-logo="" group-title="Spain",National Geographic Wild [ES]
-http://mhav1.com:2095/live/ht2990/742579548/3272.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="National Geographic [ES]" tvg-logo="" group-title="Spain",National Geographic [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12412.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Neox [ES]" tvg-logo="" group-title="Spain",Neox [ES]
-http://mhav1.com:2095/live/ht2990/742579548/122498.ts
+http://mhav1.com:2095/live/ht2990/742579548/12414.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Neox [ES]" tvg-logo="" group-title="Spain",Neox [ES]
-http://mhav1.com:2095/live/ht2990/742579548/12414.ts
+http://mhav1.com:2095/live/ht2990/742579548/122498.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Nickelodeon Iberia [ES]" tvg-logo="" group-title="Spain",Nickelodeon Iberia [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12415.ts
@@ -13804,9 +13729,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3302.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Runtime Cine y Series [ES]" tvg-logo="" group-title="Spain",Runtime Cine y Series [ES]
 http://mhav1.com:2095/live/ht2990/742579548/122512.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sat1  [ES]" tvg-logo="" group-title="Spain",Sat1  [ES]
-http://mhav1.com:2095/live/ht2990/742579548/121508.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Star TVE [ES]" tvg-logo="" group-title="Spain",Star TVE [ES]
 http://mhav1.com:2095/live/ht2990/742579548/14032.ts
@@ -13829,18 +13751,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3306.ts
 #EXTINF:-1 tvg-id="" tvg-name="TV Galicia [ES]" tvg-logo="" group-title="Spain",TV Galicia [ES]
 http://mhav1.com:2095/live/ht2990/742579548/122499.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Taquilla 6 [ES]" tvg-logo="" group-title="Spain",Taquilla 6 [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2554.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Taquilla 7 [ES]" tvg-logo="" group-title="Spain",Taquilla 7 [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2555.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Taquilla 8 [ES]" tvg-logo="" group-title="Spain",Taquilla 8 [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2556.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Teledeporte HD [ES]" tvg-logo="" group-title="Spain",Teledeporte HD [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2552.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Telemax [ES]" tvg-logo="" group-title="Spain",Telemax [ES]
 http://mhav1.com:2095/live/ht2990/742579548/3365.ts
 
@@ -13849,9 +13759,6 @@ http://mhav1.com:2095/live/ht2990/742579548/25855.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="VAMOS HD [ES]" tvg-logo="" group-title="Spain",VAMOS HD [ES]
 http://mhav1.com:2095/live/ht2990/742579548/122510.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="XTRM [ES]" tvg-logo="" group-title="Spain",XTRM [ES]
-http://mhav1.com:2095/live/ht2990/742579548/2549.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[ES] Canal Cocina" tvg-logo="" group-title="Spain",[ES] Canal Cocina
 http://mhav1.com:2095/live/ht2990/742579548/3301.ts
@@ -15586,168 +15493,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4946.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[US]Nickelodeon_HD-US" tvg-logo="" group-title="USA",[US]Nickelodeon_HD-US
 http://mhav1.com:2095/live/ht2990/742579548/4951.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Aghani" tvg-logo="" group-title="Category 587",AL Aghani
-http://mhav1.com:2095/live/ht2990/742579548/113660.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Bernameg AL Aam" tvg-logo="" group-title="Category 587",AL Bernameg AL Aam
-http://mhav1.com:2095/live/ht2990/742579548/113664.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Bernameg AL Moussekey" tvg-logo="" group-title="Category 587",AL Bernameg AL Moussekey
-http://mhav1.com:2095/live/ht2990/742579548/113658.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Bernameg AL Orobi" tvg-logo="" group-title="Category 587",AL Bernameg AL Orobi
-http://mhav1.com:2095/live/ht2990/742579548/113665.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Kahera Al Kobra" tvg-logo="" group-title="Category 587",AL Kahera Al Kobra
-http://mhav1.com:2095/live/ht2990/742579548/113662.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Menia" tvg-logo="" group-title="Category 587",AL Menia
-http://mhav1.com:2095/live/ht2990/742579548/113663.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Shabab W Al Reyadah" tvg-logo="" group-title="Category 587",AL Shabab W Al Reyadah
-http://mhav1.com:2095/live/ht2990/742579548/113666.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="AL Sharg AL Awsat" tvg-logo="" group-title="Category 587",AL Sharg AL Awsat
-http://mhav1.com:2095/live/ht2990/742579548/113659.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Beur" tvg-logo="" group-title="Category 588",Beur
-http://mhav1.com:2095/live/ht2990/742579548/54779.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Chante" tvg-logo="" group-title="Category 588",Chante
-http://mhav1.com:2095/live/ht2990/742579548/54794.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Cherie" tvg-logo="" group-title="Category 588",Cherie
-http://mhav1.com:2095/live/ht2990/742579548/54793.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Culture" tvg-logo="" group-title="Category 588",Culture
-http://mhav1.com:2095/live/ht2990/742579548/54791.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Eductional" tvg-logo="" group-title="Category 587",Eductional
-http://mhav1.com:2095/live/ht2990/742579548/113667.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Evasion" tvg-logo="" group-title="Category 588",Evasion
-http://mhav1.com:2095/live/ht2990/742579548/54790.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="France Internationale" tvg-logo="" group-title="Category 588",France Internationale
-http://mhav1.com:2095/live/ht2990/742579548/54795.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="M Radio" tvg-logo="" group-title="Category 588",M Radio
-http://mhav1.com:2095/live/ht2990/742579548/54777.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="MBS" tvg-logo="" group-title="Category 588",MBS
-http://mhav1.com:2095/live/ht2990/742579548/54788.ts
-
-
-##### [Category 654] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="MH TV Search" tvg-logo="http://search.webhypertv.xyz/search/images/506682076.png" group-title="Category 654",MH TV Search
-http://mhav1.com:2095/live/ht2990/742579548/155830.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Mouv" tvg-logo="" group-title="Category 588",Mouv
-http://mhav1.com:2095/live/ht2990/742579548/54792.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="NRJ" tvg-logo="" group-title="Category 588",NRJ
-http://mhav1.com:2095/live/ht2990/742579548/54781.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Nagham FM" tvg-logo="" group-title="Category 587",Nagham FM
-http://mhav1.com:2095/live/ht2990/742579548/113655.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Neo" tvg-logo="" group-title="Category 588",Neo
-http://mhav1.com:2095/live/ht2990/742579548/54785.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Nile FM" tvg-logo="" group-title="Category 587",Nile FM
-http://mhav1.com:2095/live/ht2990/742579548/113656.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Nova" tvg-logo="" group-title="Category 588",Nova
-http://mhav1.com:2095/live/ht2990/742579548/54780.ts
-
-
-##### [Uncategorized] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Quran kareem" tvg-logo="" group-title="Uncategorized",Quran kareem
-http://mhav1.com:2095/live/ht2990/742579548/113661.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="RTL2" tvg-logo="" group-title="Category 588",RTL2
-http://mhav1.com:2095/live/ht2990/742579548/54778.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Radio 9090" tvg-logo="" group-title="Category 587",Radio 9090
-http://mhav1.com:2095/live/ht2990/742579548/113654.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Radio FG" tvg-logo="" group-title="Category 588",Radio FG
-http://mhav1.com:2095/live/ht2990/742579548/54782.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Radio Masr" tvg-logo="" group-title="Category 587",Radio Masr
-http://mhav1.com:2095/live/ht2990/742579548/113657.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Skyrock" tvg-logo="" group-title="Category 588",Skyrock
-http://mhav1.com:2095/live/ht2990/742579548/54784.ts
-
-
-##### [Category 587] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Sout AL Arab" tvg-logo="" group-title="Category 587",Sout AL Arab
-http://mhav1.com:2095/live/ht2990/742579548/113668.ts
-
-
-##### [Category 588] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="Tropiques" tvg-logo="" group-title="Category 588",Tropiques
-http://mhav1.com:2095/live/ht2990/742579548/54789.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Urban Hit" tvg-logo="" group-title="Category 588",Urban Hit
-http://mhav1.com:2095/live/ht2990/742579548/54786.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Voltage" tvg-logo="" group-title="Category 588",Voltage
-http://mhav1.com:2095/live/ht2990/742579548/54783.ts
-
-
-##### [Category 614] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="[AF]TVC" tvg-logo="" group-title="Category 614",[AF]TVC
-http://mhav1.com:2095/live/ht2990/742579548/4743.ts
 
 
 ##### [WWE Live مصارعة] #####

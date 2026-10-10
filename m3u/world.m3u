@@ -3518,12 +3518,6 @@ http://mhav1.com:2095/live/ht2990/742579548/24397.ts
 #EXTINF:-1 tvg-id="" tvg-name="Comedy Central HD [DE]" tvg-logo="" group-title="Germany",Comedy Central HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3530.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [DE]" tvg-logo="" group-title="Germany",DAZN 1 [DE]
-http://mhav1.com:2095/live/ht2990/742579548/8573.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [DE]" tvg-logo="" group-title="Germany",DAZN 2 [DE]
-http://mhav1.com:2095/live/ht2990/742579548/8574.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="DMAX HD [DE]" tvg-logo="" group-title="Germany",DMAX HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3251.ts
 
@@ -3716,9 +3710,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3518.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sat 1 HD [DE]" tvg-logo="" group-title="Germany",Sat 1 HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3520.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Sky 1 |DE|" tvg-logo="" group-title="Germany",Sky 1 |DE|
-http://mhav1.com:2095/live/ht2990/742579548/3534.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Sky Atlantic HD  [DE]" tvg-logo="" group-title="Germany",Sky Atlantic HD  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3553.ts
 
@@ -3869,27 +3860,6 @@ http://mhav1.com:2095/live/ht2990/742579548/30565.ts
 #EXTINF:-1 tvg-id="" tvg-name="Super RTL HD [DE]" tvg-logo="" group-title="Germany",Super RTL HD [DE]
 http://mhav1.com:2095/live/ht2990/742579548/3519.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 1 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 1 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9287.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 2 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 2 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9288.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 3 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 3 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9289.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 4 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 4 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9290.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 5 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 5 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9291.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 6 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 6 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TELECOM SPORT 7 HD [DE]" tvg-logo="" group-title="Germany",TELECOM SPORT 7 HD [DE]
-http://mhav1.com:2095/live/ht2990/742579548/9293.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="TLC[DE]" tvg-logo="" group-title="Germany",TLC[DE]
 http://mhav1.com:2095/live/ht2990/742579548/3533.ts
 
@@ -3929,9 +3899,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4461.ts
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_2_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_2_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9271.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[DE]Eurosport_HD_DE" tvg-logo="" group-title="Germany",[DE]Eurosport_HD_DE
-http://mhav1.com:2095/live/ht2990/742579548/9273.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Heimatkanal" tvg-logo="" group-title="Germany",[DE]Heimatkanal
 http://mhav1.com:2095/live/ht2990/742579548/3384.ts
 
@@ -3943,9 +3910,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3287.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[DE]Spiegel_Geschichte_HD_DE" tvg-logo="" group-title="Germany",[DE]Spiegel_Geschichte_HD_DE
 http://mhav1.com:2095/live/ht2990/742579548/9265.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[DE]TELECOM SPORT 8 HD" tvg-logo="" group-title="Germany",[DE]TELECOM SPORT 8 HD
-http://mhav1.com:2095/live/ht2990/742579548/9286.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="kabel eins Doku  [DE]" tvg-logo="" group-title="Germany",kabel eins Doku  [DE]
 http://mhav1.com:2095/live/ht2990/742579548/63547.ts
@@ -5414,9 +5378,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121486.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Racing HD |NL|" tvg-logo="" group-title="Netherlands",Ziggo Sport Racing HD |NL|
 http://mhav1.com:2095/live/ht2990/742579548/121490.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Select HD" tvg-logo="" group-title="Netherlands",Ziggo Sport Select HD
-http://mhav1.com:2095/live/ht2990/742579548/77961.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Select HD |NL|" tvg-logo="" group-title="Netherlands",Ziggo Sport Select HD |NL|
 http://mhav1.com:2095/live/ht2990/742579548/121487.ts
 
@@ -5491,9 +5452,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121511.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Aljazeera English" tvg-logo="" group-title="Netherlands",|NL| Aljazeera English
 http://mhav1.com:2095/live/ht2990/742579548/121516.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| Animal Planet HD" tvg-logo="" group-title="Netherlands",|NL| Animal Planet HD
-http://mhav1.com:2095/live/ht2990/742579548/121565.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| Arte" tvg-logo="" group-title="Netherlands",|NL| Arte
 http://mhav1.com:2095/live/ht2990/742579548/121506.ts
@@ -5626,12 +5584,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121579.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TRT T?rk" tvg-logo="" group-title="Netherlands",|NL| TRT T?rk
 http://mhav1.com:2095/live/ht2990/742579548/121504.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Gelderland 720P" tvg-logo="" group-title="Netherlands",|NL| TV Gelderland 720P
-http://mhav1.com:2095/live/ht2990/742579548/121529.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oost 720P" tvg-logo="" group-title="Netherlands",|NL| TV Oost 720P
-http://mhav1.com:2095/live/ht2990/742579548/121530.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|NL| TV Oranje" tvg-logo="" group-title="Netherlands",|NL| TV Oranje
 http://mhav1.com:2095/live/ht2990/742579548/121540.ts
@@ -6598,12 +6550,6 @@ http://mhav1.com:2095/live/ht2990/742579548/78339.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="PL:Polsat Viasat Explore FHD" tvg-logo="" group-title="Poland",PL:Polsat Viasat Explore FHD
 http://mhav1.com:2095/live/ht2990/742579548/78343.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 1" tvg-logo="" group-title="Poland",Polsat Sport Premium 1
-http://mhav1.com:2095/live/ht2990/742579548/77956.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Polsat Sport Premium 2" tvg-logo="" group-title="Poland",Polsat Sport Premium 2
-http://mhav1.com:2095/live/ht2990/742579548/77958.ts
 
 
 ################################################################################
