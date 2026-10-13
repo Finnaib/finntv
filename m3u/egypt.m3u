@@ -393,17 +393,11 @@ http://mhav1.com:2095/live/ht2990/742579548/2763.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Oula Masria [EG]" tvg-logo="" group-title="Egypt",Al Oula Masria [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3860.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Al Rayyan [QA]" tvg-logo="" group-title="Egypt",Al Rayyan [QA]
-http://mhav1.com:2095/live/ht2990/742579548/29800.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Al Shams Drama  [EG]" tvg-logo="" group-title="Egypt",Al Shams Drama  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/292776.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Thania [EG]" tvg-logo="" group-title="Egypt",Al Thania [EG]
 http://mhav1.com:2095/live/ht2990/742579548/4449.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Yaum [IQ]" tvg-logo="" group-title="Egypt",Al Yaum [IQ]
-http://mhav1.com:2095/live/ht2990/742579548/48827.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al kahera Wa Lnas 2 [EG]" tvg-logo="" group-title="Egypt",Al kahera Wa Lnas 2 [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2764.ts
@@ -510,9 +504,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2036.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nile TV [EG]" tvg-logo="" group-title="Egypt",Nile TV [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2760.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OMG TV [AR]" tvg-logo="" group-title="Egypt",OMG TV [AR]
-http://mhav1.com:2095/live/ht2990/742579548/7100.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ON DRAMA[EG]" tvg-logo="" group-title="Egypt",ON DRAMA[EG]
 http://mhav1.com:2095/live/ht2990/742579548/3500.ts
 
@@ -542,9 +533,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3937.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama [EG]" tvg-logo="" group-title="Egypt",Sada El Balad Drama [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt",Shaaer [IRAQ]
-http://mhav1.com:2095/live/ht2990/742579548/4505.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Egypt",Taghier |AR|
 http://mhav1.com:2095/live/ht2990/742579548/3832.ts
@@ -723,9 +711,6 @@ http://mhav1.com:2095/live/ht2990/742579548/7034.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Tawfiq Al-Saigh" tvg-logo="http://en.quran.com.kw/wp-content/uploads/tawfiq-alsaigh.jpg" group-title="Islamic",Tawfiq Al-Saigh
 http://mhav1.com:2095/live/ht2990/742579548/7043.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ZAD TV[AR]" tvg-logo="" group-title="Islamic",ZAD TV[AR]
-http://mhav1.com:2095/live/ht2990/742579548/4665.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[AR]AlMajd-3" tvg-logo="" group-title="Islamic",[AR]AlMajd-3
 http://mhav1.com:2095/live/ht2990/742579548/3600.ts

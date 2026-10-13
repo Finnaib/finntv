@@ -149,6 +149,9 @@ https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5
 http://gmxw.7766.org:808/hls/93/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5+
+http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV8
 http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 
@@ -495,6 +498,12 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Badminton%201.png" group-title="Mixed",ASTRO BADMINTON
 http://217.216.110.49:8000/badminton90
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%201.png" group-title="Mixed",ASTRO ARENA BOLA
+https://linears2-playback.astro.com.my/vsg/41QdVYCc5b3gVH9iGA8SkH4wtubIbleVIDrbcGHXOdh14=SVwc/dash-wv/jitp-linearwm/5099/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%202.png" group-title="Mixed",ASTRO ARENA BOLA 2
+https://linears2-playback.astro.com.my/vsg/41g9wGbhoHkVencQhlAU-DeWWrL2GHxvsWe3U2huq2bOE=NpzN/dash-wv/jitp-linearwm/5100/default_ott.mpd
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Football.png" group-title="Mixed",ASTRO FOOTBALL
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_ott.mpd
 
@@ -516,8 +525,23 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_primary.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/8TV.png" group-title="Mixed",8TV
 https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Aura.png" group-title="Mixed",ASTRO AURA
+https://linears2-playback.astro.com.my/vsg/41llhE6qRZrhahKj901LfCpYjNGzT7r-hMNPhLDDm46_8=Xof1/dash-wv/jitp-linearwm/609/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Citra.png" group-title="Mixed",ASTRO CITRA
+https://linears2-playback.astro.com.my/vsg/413_xny-fjvBZzNZ74GODR8q1-mwavWlwwPUfEvMIrvaQ=5Yvm/dash-wv/jitp-linearwm/2700/default_ott.mpd
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Oasis.png" group-title="Mixed",ASTRO OASIS HD
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Prima.png" group-title="Mixed",ASTRO PRIMA
+https://linears2-playback.astro.com.my/vsg/418roZ9Lems5qCKdepdqGq-9NFvGFiNQnl5ejsiXFonR0=Ym0j/dash-wv/jitp-linearwm/1000/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Rania.png" group-title="Mixed",ASTRO RANIA
+https://linears2-playback.astro.com.my/vsg/41o_bLgViAllclUGF_t9hHI11l7s3UgOmeehsjPwqRPTA=55nh/dash-wv/jitp-linearwm/608/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Ria.png" group-title="Mixed",ASTRO RIA
+https://linears2-playback.astro.com.my/vsg/41CD1vVad00ijGR5JcU6t8k4gq-sBNbiBNNPSzANpGP_4=FtXN/dash-wv/jitp-linearwm/1004/default_ott.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/MALAYSIA-LOGO-NEW/refs/heads/main/Astro%20Tutor%20TV.png" group-title="Mixed",ASTRO TUTOR TV
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5071/default_ott.mpd
@@ -562,7 +586,7 @@ https://d37ey7ubht2hh2.cloudfront.net/out/v1/2d4a3d04aa404f3f8860da4a3ae25817/in
 https://flv.intechmedia.net/live/ch107.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Astro_Daebak_%282026%29.png" group-title="Mixed",ASTRO DAEBAK
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5108/default_primary.mpd
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5211/default_primary.mpd|user-agent=Mozilla/5.0 (Linux; Android 14; SMRV076G Build/UKQ1.240805.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.6950.85 Mobile Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KOREA-LOGO/refs/heads/main/KBS%20WORLD.png" group-title="Mixed",KBS WORLD
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2306/default_ott.mpd
@@ -580,7 +604,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5018/default_primary.mpd
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5119/default_primary.mpd
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/KIDS-LOGO/refs/heads/main/ASTRO%20CERIA.png" group-title="Mixed",ASTRO CERIA
-http://217.216.110.49:8000/ceriap90
+https://linears2-playback.astro.com.my/vsg/41DkG5MB3_MADERyazNLxgW4UuFRNFMY-0pfaffoXmywk=kZKV/dash-wv/jitp-linearwm/2606/default_ott.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Astro_FAM_Time_%282026%29.png" group-title="Mixed",ASTRO FAM TIME
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5186/default_primary.mpd
@@ -1500,6 +1524,9 @@ https://vips-livecdn.fptplay.net/live/media/vtv9/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/960px-VTV10_logo_2026.png" group-title="Vietnam",VTV10 (1080p)
 https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png" group-title="Vietnam",HTV4 (1080p)
+https://freem3u.xyz/api/live/play.m3u8?vid=9
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp" group-title="Vietnam",HTV9 (720p)
 https://dethich.pw/htv9/index.m3u8
 
@@ -1508,9 +1535,6 @@ https://dethich.pw/htv2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/HTV3-2018.png" group-title="Vietnam",HTV3 (720p)
 https://dethich.pw/htv3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png" group-title="Vietnam",HTV4 (1080p)
-https://freem3u.xyz/api/live/play.m3u8?vid=9
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" group-title="Vietnam",HTV Sports
 https://dethich.pw/htvthethao/index.m3u8
