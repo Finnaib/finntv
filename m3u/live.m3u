@@ -10115,9 +10115,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4120.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Cinema_SD
 http://mhav1.com:2095/live/ht2990/742579548/6110.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime Investigation_SD
-http://mhav1.com:2095/live/ht2990/742579548/19455.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Crime_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime_SD
 http://mhav1.com:2095/live/ht2990/742579548/19446.ts
 
@@ -16108,12 +16105,6 @@ http://mhav1.com:2095/live/ht2990/742579548/8934.ts
 
 
 ##### [beIN Movies بي إن الترفيهية] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 1
-http://mhav1.com:2095/live/ht2990/742579548/4142.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 2
-http://mhav1.com:2095/live/ht2990/742579548/4144.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts

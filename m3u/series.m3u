@@ -11333,6 +11333,9 @@ http://mhav1.com:2095/series/ht2990/742579548/3667.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Surrogacy" tvg-logo="http://images.stttoegypt2026.com:80/images/iQwiJfi7kov1DH147k8EGCm14q2_big.jpg" group-title="Series Variety Vip",The Surrogacy
 http://mhav1.com:2095/series/ht2990/742579548/2731.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Trap" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/dkLTaC44QqnCAgzCf180TxMmmG5.jpg" group-title="Series Variety Vip",The Trap
+http://mhav1.com:2095/series/ht2990/742579548/7428.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The War Next-door" tvg-logo="http://images.stttoegypt2026.com:80/images/btZ7EjWaap6bdPTGKefn9rsc4Ok_big.jpg" group-title="Series Variety Vip",The War Next-door
 http://mhav1.com:2095/series/ht2990/742579548/1558.ts
 
@@ -12103,12 +12106,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6415.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="يو بودكاست" tvg-logo="https://i.ibb.co/P56PMgP/189749.jpg" group-title="TV Shows",يو بودكاست
 http://mhav1.com:2095/series/ht2990/742579548/4947.ts
-
-
-##### [Uncategorized] #####
-
-#EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة: ما لم يُحكَ عن بني مزار" tvg-logo="http://25.mhpro1.xyz:80/images/b6q8NhGQDxv9PQ4bSGqhkyEVppq_big.jpg" group-title="Uncategorized",القصة الكاملة: ما لم يُحكَ عن بني مزار
-http://mhav1.com:2095/series/ht2990/742579548/7427.ts
 
 
 ##### [أطفال عربى] #####
@@ -13151,8 +13148,11 @@ http://mhav1.com:2095/series/ht2990/742579548/7263.ts
 #EXTINF:-1 tvg-id="" tvg-name="السفارة ٨٧" tvg-logo="http://images.stttoegypt2026.com:80/images/5MP0AspDpVQidR4RHpoX8AsLdLp_big.jpg" group-title="عربي يعرض الان",السفارة ٨٧
 http://mhav1.com:2095/series/ht2990/742579548/7019.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة" tvg-logo="https://lh3.googleusercontent.com/-ZV8_eSmEQOc/apDK3XUP9cI/AAAAAAAAkkw/ZnsGbCppFOE8osR0K-UbGALR0JpUnD_OACNcBGAsYHQ/0.jpg" group-title="عربي يعرض الان",القصة الكاملة
+#EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة" tvg-logo="http://images.stttoegypt2026.com:80/images/A8eRW5kNsIcGuj7ZTiOovijuokl_big.jpg" group-title="عربي يعرض الان",القصة الكاملة
 http://mhav1.com:2095/series/ht2990/742579548/7294.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة: ما لم يُحكَ عن بني مزار" tvg-logo="http://images.stttoegypt2026.com:80/images/b6q8NhGQDxv9PQ4bSGqhkyEVppq_big.jpg" group-title="عربي يعرض الان",القصة الكاملة: ما لم يُحكَ عن بني مزار
+http://mhav1.com:2095/series/ht2990/742579548/7427.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الكلان" tvg-logo="http://images.stttoegypt2026.com:80/images/i3FqhvAEhTYlSsR3R8iPVCdPK3Y_big.jpg" group-title="عربي يعرض الان",الكلان
 http://mhav1.com:2095/series/ht2990/742579548/7148.ts

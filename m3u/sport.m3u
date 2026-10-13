@@ -914,12 +914,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4643.ts
 # beIN Movies بي إن الترفيهية
 ################################################################################
 
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 1
-http://mhav1.com:2095/live/ht2990/742579548/4142.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 2
-http://mhav1.com:2095/live/ht2990/742579548/4144.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts
 
@@ -1052,11 +1046,68 @@ http://mhav1.com:2095/live/ht2990/742579548/4132.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Series
 http://mhav1.com:2095/live/ht2990/742579548/4026.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action [H265]
-http://mhav1.com:2095/live/ht2990/742579548/22573.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Premiere
+http://mhav1.com:2095/live/ht2990/742579548/514.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action
+http://mhav1.com:2095/live/ht2990/742579548/515.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama
+http://mhav1.com:2095/live/ht2990/742579548/516.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family
+http://mhav1.com:2095/live/ht2990/742579548/517.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series
+http://mhav1.com:2095/live/ht2990/742579548/4143.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Series2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series2
+http://mhav1.com:2095/live/ht2990/742579548/3980.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_LIFE" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_LIFE
+http://mhav1.com:2095/live/ht2990/742579548/4132.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Series
+http://mhav1.com:2095/live/ht2990/742579548/4026.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_FILMS
+http://mhav1.com:2095/live/ht2990/742579548/4109.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_JEEM" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_JEEM
+http://mhav1.com:2095/live/ht2990/742579548/3352.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Drama" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Drama
+http://mhav1.com:2095/live/ht2990/742579548/5154.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN FataFeat" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN FataFeat
+http://mhav1.com:2095/live/ht2990/742579548/3871.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Food Network" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Food Network
+http://mhav1.com:2095/live/ht2990/742579548/3655.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_GURME" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_GURME
+http://mhav1.com:2095/live/ht2990/742579548/4126.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_BBC Earth HD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_BBC Earth HD
+http://mhav1.com:2095/live/ht2990/742579548/12199.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Cartoonito" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Cartoonito
+http://mhav1.com:2095/live/ht2990/742579548/12202.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Action" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Action
+http://mhav1.com:2095/live/ht2990/742579548/4141.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Premiere [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22574.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action [H265]
+http://mhav1.com:2095/live/ht2990/742579548/22573.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama [H265]
+http://mhav1.com:2095/live/ht2990/742579548/22575.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family [H265]
+http://mhav1.com:2095/live/ht2990/742579548/22576.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Series1 [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series1 [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22578.ts
@@ -1076,23 +1127,8 @@ http://mhav1.com:2095/live/ht2990/742579548/22583.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Baraem [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Baraem [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22580.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_BBC Earth HD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_BBC Earth HD
-http://mhav1.com:2095/live/ht2990/742579548/12199.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Drama [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Drama [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22582.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Series2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series2
-http://mhav1.com:2095/live/ht2990/742579548/3980.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Drama" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Drama
-http://mhav1.com:2095/live/ht2990/742579548/5154.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama [H265]
-http://mhav1.com:2095/live/ht2990/742579548/22575.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_FILMS
-http://mhav1.com:2095/live/ht2990/742579548/4109.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_FILMS [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22585.ts
@@ -1100,17 +1136,17 @@ http://mhav1.com:2095/live/ht2990/742579548/22585.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Action [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Action [H265]
 http://mhav1.com:2095/live/ht2990/742579548/22584.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_LIFE" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_LIFE
-http://mhav1.com:2095/live/ht2990/742579548/4132.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere_1SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Premiere_1SD
+http://mhav1.com:2095/live/ht2990/742579548/20418.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Series
-http://mhav1.com:2095/live/ht2990/742579548/4026.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family_4SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family_4SD
+http://mhav1.com:2095/live/ht2990/742579548/20421.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_JEEM" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_JEEM
-http://mhav1.com:2095/live/ht2990/742579548/3352.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama_3SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama_3SD
+http://mhav1.com:2095/live/ht2990/742579548/20420.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_GURME" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_GURME
-http://mhav1.com:2095/live/ht2990/742579548/4126.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action_2SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action_2SD
+http://mhav1.com:2095/live/ht2990/742579548/20419.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_JUNIOR_SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_JUNIOR_SD
 http://mhav1.com:2095/live/ht2990/742579548/20440.ts
@@ -1136,59 +1172,11 @@ http://mhav1.com:2095/live/ht2990/742579548/20423.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Series1_SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series1_SD
 http://mhav1.com:2095/live/ht2990/742579548/20422.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family_4SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family_4SD
-http://mhav1.com:2095/live/ht2990/742579548/20421.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama_3SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama_3SD
-http://mhav1.com:2095/live/ht2990/742579548/20420.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action_2SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action_2SD
-http://mhav1.com:2095/live/ht2990/742579548/20419.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS_SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_FILMS_SD
 http://mhav1.com:2095/live/ht2990/742579548/20425.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN FataFeat" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN FataFeat
-http://mhav1.com:2095/live/ht2990/742579548/3871.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family [H265]" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family [H265]
-http://mhav1.com:2095/live/ht2990/742579548/22576.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Premiere
-http://mhav1.com:2095/live/ht2990/742579548/514.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Action" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Action
-http://mhav1.com:2095/live/ht2990/742579548/515.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Drama" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Drama
-http://mhav1.com:2095/live/ht2990/742579548/516.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Family" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Family
-http://mhav1.com:2095/live/ht2990/742579548/517.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Movies_Premiere_1SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Movies_Premiere_1SD
-http://mhav1.com:2095/live/ht2990/742579548/20418.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Food Network" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Food Network
-http://mhav1.com:2095/live/ht2990/742579548/3655.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Cartoonito" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Cartoonito
-http://mhav1.com:2095/live/ht2990/742579548/12202.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Series
-http://mhav1.com:2095/live/ht2990/742579548/4143.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Action" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Action
-http://mhav1.com:2095/live/ht2990/742579548/4141.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 1
-http://mhav1.com:2095/live/ht2990/742579548/4142.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 2
-http://mhav1.com:2095/live/ht2990/742579548/4144.ts
 
 
 ################################################################################
@@ -4602,8 +4590,23 @@ http://mhav1.com:2095/live/ht2990/742579548/7095.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Baraem_HD" tvg-logo="" group-title="Kids - أطفال",beIN_Baraem_HD
 http://mhav1.com:2095/live/ht2990/742579548/3351.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="beIN Baby" tvg-logo="" group-title="Kids - أطفال",beIN Baby
+http://mhav1.com:2095/live/ht2990/742579548/7095.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Baraem_HD" tvg-logo="" group-title="Kids - أطفال",beIN_Baraem_HD
+http://mhav1.com:2095/live/ht2990/742579548/3351.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Osn Nickelodeon [Vip]" tvg-logo="" group-title="Kids - أطفال",Osn Nickelodeon [Vip]
 http://mhav1.com:2095/live/ht2990/742579548/3939.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Osn Nick Jr [Vip]" tvg-logo="" group-title="Kids - أطفال",Osn Nick Jr [Vip]
+http://mhav1.com:2095/live/ht2990/742579548/3971.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Moonbug Kids [Vip]" tvg-logo="" group-title="Kids - أطفال",OSN Moonbug Kids [Vip]
+http://mhav1.com:2095/live/ht2990/742579548/3279.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN Cartoon Network [Vip]" tvg-logo="" group-title="Kids - أطفال",OSN Cartoon Network [Vip]
+http://mhav1.com:2095/live/ht2990/742579548/4117.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior HD [US]" tvg-logo="" group-title="Kids - أطفال",Disney Junior HD [US]
 http://mhav1.com:2095/live/ht2990/742579548/4953.ts
@@ -4611,32 +4614,17 @@ http://mhav1.com:2095/live/ht2990/742579548/4953.ts
 #EXTINF:-1 tvg-id="" tvg-name="Disney XD [US]" tvg-logo="" group-title="Kids - أطفال",Disney XD [US]
 http://mhav1.com:2095/live/ht2990/742579548/2853.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Baraem_HD" tvg-logo="" group-title="Kids - أطفال",beIN_Baraem_HD
-http://mhav1.com:2095/live/ht2990/742579548/3351.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Moonbug Kids [Vip]" tvg-logo="" group-title="Kids - أطفال",OSN Moonbug Kids [Vip]
-http://mhav1.com:2095/live/ht2990/742579548/3279.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Osn Nick Jr [Vip]" tvg-logo="" group-title="Kids - أطفال",Osn Nick Jr [Vip]
-http://mhav1.com:2095/live/ht2990/742579548/3971.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN Baby" tvg-logo="" group-title="Kids - أطفال",beIN Baby
-http://mhav1.com:2095/live/ht2990/742579548/7095.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN Cartoon Network [Vip]" tvg-logo="" group-title="Kids - أطفال",OSN Cartoon Network [Vip]
-http://mhav1.com:2095/live/ht2990/742579548/4117.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel [US]" tvg-logo="" group-title="Kids - أطفال",Disney Channel [US]
 http://mhav1.com:2095/live/ht2990/742579548/4952.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Osn Disney Channel HD [Vip]" tvg-logo="" group-title="Kids - أطفال",Osn Disney Channel HD [Vip]
+http://mhav1.com:2095/live/ht2990/742579548/532.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [UK]" tvg-logo="" group-title="Kids - أطفال",Disney Junior [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2854.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney_Channel [UK]" tvg-logo="" group-title="Kids - أطفال",Disney_Channel [UK]
 http://mhav1.com:2095/live/ht2990/742579548/2855.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Osn Disney Channel HD [Vip]" tvg-logo="" group-title="Kids - أطفال",Osn Disney Channel HD [Vip]
-http://mhav1.com:2095/live/ht2990/742579548/532.ts
 
 
 ################################################################################
@@ -5117,8 +5105,56 @@ http://mhav1.com:2095/live/ht2990/742579548/267084.ts
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus SD
 http://mhav1.com:2095/live/ht2990/742579548/278700.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport LOW
+http://mhav1.com:2095/live/ht2990/742579548/248961.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport SD" tvg-logo="" group-title="ON Sports اون سبورت",ON  Sport SD
+http://mhav1.com:2095/live/ht2990/742579548/12313.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON  Sport HD 720" tvg-logo="" group-title="ON Sports اون سبورت",ON  Sport HD 720
+http://mhav1.com:2095/live/ht2990/742579548/3498.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/677.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport 4K" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport 4K
+http://mhav1.com:2095/live/ht2990/742579548/2181.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max LOW
 http://mhav1.com:2095/live/ht2990/742579548/267087.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max LOW
+http://mhav1.com:2095/live/ht2990/742579548/248962.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max SD
+http://mhav1.com:2095/live/ht2990/742579548/49535.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD
+http://mhav1.com:2095/live/ht2990/742579548/267086.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 720" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD 720
+http://mhav1.com:2095/live/ht2990/742579548/5456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/120292.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max 4K" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max 4K
+http://mhav1.com:2095/live/ht2990/742579548/24235.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus LOW
+http://mhav1.com:2095/live/ht2990/742579548/267084.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus SD
+http://mhav1.com:2095/live/ht2990/742579548/278700.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus HD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus HD
+http://mhav1.com:2095/live/ht2990/742579548/267083.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus  HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus  HD 1080
+http://mhav1.com:2095/live/ht2990/742579548/278699.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON Sports اون سبورت",Modern mti
+http://mhav1.com:2095/live/ht2990/742579548/274110.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event1" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Event1
 http://mhav1.com:2095/live/ht2990/742579548/267867.ts
@@ -5143,54 +5179,6 @@ http://mhav1.com:2095/live/ht2990/742579548/267874.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ON Sport Event2" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Event2
 http://mhav1.com:2095/live/ht2990/742579548/267868.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Modern mti" tvg-logo="" group-title="ON Sports اون سبورت",Modern mti
-http://mhav1.com:2095/live/ht2990/742579548/274110.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/677.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport HD 720" tvg-logo="" group-title="ON Sports اون سبورت",ON  Sport HD 720
-http://mhav1.com:2095/live/ht2990/742579548/3498.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max SD
-http://mhav1.com:2095/live/ht2990/742579548/49535.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON  Sport SD" tvg-logo="" group-title="ON Sports اون سبورت",ON  Sport SD
-http://mhav1.com:2095/live/ht2990/742579548/12313.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport LOW
-http://mhav1.com:2095/live/ht2990/742579548/248961.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/120292.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max 4K" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max 4K
-http://mhav1.com:2095/live/ht2990/742579548/24235.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport 4K" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport 4K
-http://mhav1.com:2095/live/ht2990/742579548/2181.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD
-http://mhav1.com:2095/live/ht2990/742579548/267086.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus  HD 1080" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus  HD 1080
-http://mhav1.com:2095/live/ht2990/742579548/278699.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max LOW
-http://mhav1.com:2095/live/ht2990/742579548/248962.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Max HD 720" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Max HD 720
-http://mhav1.com:2095/live/ht2990/742579548/5456.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus HD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus HD
-http://mhav1.com:2095/live/ht2990/742579548/267083.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus LOW" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus LOW
-http://mhav1.com:2095/live/ht2990/742579548/267084.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="ON Sport Plus SD" tvg-logo="" group-title="ON Sports اون سبورت",ON Sport Plus SD
-http://mhav1.com:2095/live/ht2990/742579548/278700.ts
 
 
 ################################################################################
@@ -5739,9 +5727,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4120.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Cinema_SD
 http://mhav1.com:2095/live/ht2990/742579548/6110.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime Investigation_SD
-http://mhav1.com:2095/live/ht2990/742579548/19455.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Crime_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime_SD
 http://mhav1.com:2095/live/ht2990/742579548/19446.ts
 
@@ -5823,26 +5808,50 @@ http://mhav1.com:2095/live/ht2990/742579548/4140.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Yahala_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Yahala_SD
 http://mhav1.com:2095/live/ht2990/742579548/526.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_ALYOM_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_ALYOM_SD
+http://mhav1.com:2095/live/ht2990/742579548/3954.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_AlSafwa_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_AlSafwa_SD
+http://mhav1.com:2095/live/ht2990/742579548/12182.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Fann_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Fann_SD
+http://mhav1.com:2095/live/ht2990/742579548/12181.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_1_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_1_SD
+http://mhav1.com:2095/live/ht2990/742579548/4119.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_2_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_2_SD
+http://mhav1.com:2095/live/ht2990/742579548/4120.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_YaHala_AlOula_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_YaHala_AlOula_SD
+http://mhav1.com:2095/live/ht2990/742579548/527.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Yahala_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Yahala_SD
+http://mhav1.com:2095/live/ht2990/742579548/526.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_YaHala_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_YaHala_Cinema_SD
+http://mhav1.com:2095/live/ht2990/742579548/4140.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Musalsalat_SD
+http://mhav1.com:2095/live/ht2990/742579548/5986.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_2_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Musalsalat_2_SD
 http://mhav1.com:2095/live/ht2990/742579548/525.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Action_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Action_SD
+http://mhav1.com:2095/live/ht2990/742579548/4484.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Cinema_SD
 http://mhav1.com:2095/live/ht2990/742579548/6110.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Premiere_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Premiere_SD
+http://mhav1.com:2095/live/ht2990/742579548/2212.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nat_Geo_Wild_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nat_Geo_Wild_SD
 http://mhav1.com:2095/live/ht2990/742579548/4923.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nick_Jr_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nick_Jr_SD
 http://mhav1.com:2095/live/ht2990/742579548/19458.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Musalsalat_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Musalsalat_SD
-http://mhav1.com:2095/live/ht2990/742579548/5986.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Action_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Action_SD
-http://mhav1.com:2095/live/ht2990/742579548/4484.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_1_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_1_SD
-http://mhav1.com:2095/live/ht2990/742579548/4119.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Nick_Toon_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Nick_Toon_SD
 http://mhav1.com:2095/live/ht2990/742579548/19459.ts
@@ -5859,32 +5868,11 @@ http://mhav1.com:2095/live/ht2990/742579548/19460.ts
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Showcase Classic_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Showcase Classic_SD
 http://mhav1.com:2095/live/ht2990/742579548/19456.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Crime Investigation_SD
-http://mhav1.com:2095/live/ht2990/742579548/19455.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Discovery_ID_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Discovery_ID_SD
 http://mhav1.com:2095/live/ht2990/742579548/19454.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="OSN_CINEMA_2_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_CINEMA_2_SD
-http://mhav1.com:2095/live/ht2990/742579548/4120.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_ALYOM_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_ALYOM_SD
-http://mhav1.com:2095/live/ht2990/742579548/3954.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Disney_Junior_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Disney_Junior_SD
 http://mhav1.com:2095/live/ht2990/742579548/3605.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Movies_Premiere_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Movies_Premiere_SD
-http://mhav1.com:2095/live/ht2990/742579548/2212.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_YaHala_AlOula_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_YaHala_AlOula_SD
-http://mhav1.com:2095/live/ht2990/742579548/527.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Yahala_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Yahala_SD
-http://mhav1.com:2095/live/ht2990/742579548/526.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_YaHala_Cinema_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_YaHala_Cinema_SD
-http://mhav1.com:2095/live/ht2990/742579548/4140.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_News_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_News_SD
 http://mhav1.com:2095/live/ht2990/742579548/4121.ts
@@ -5909,12 +5897,6 @@ http://mhav1.com:2095/live/ht2990/742579548/19446.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_TLC_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_TLC_SD
 http://mhav1.com:2095/live/ht2990/742579548/19445.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_AlSafwa_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_AlSafwa_SD
-http://mhav1.com:2095/live/ht2990/742579548/12182.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Fann_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Fann_SD
-http://mhav1.com:2095/live/ht2990/742579548/12181.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Animal_Planet_SD" tvg-logo="" group-title="OSN  SD او اس ان",OSN_Animal_Planet_SD
 http://mhav1.com:2095/live/ht2990/742579548/2873.ts
