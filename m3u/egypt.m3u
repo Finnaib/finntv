@@ -471,9 +471,6 @@ http://mhav1.com:2095/live/ht2990/742579548/61593.ts
 #EXTINF:-1 tvg-id="" tvg-name="NILE COMEDY  [EG]" tvg-logo="" group-title="Egypt",NILE COMEDY  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2740.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="National Geo AD [AR]" tvg-logo="" group-title="Egypt",National Geo AD [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3643.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Nile Cinema  [EG]" tvg-logo="" group-title="Egypt",Nile Cinema  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2741.ts
 
@@ -510,11 +507,8 @@ http://mhav1.com:2095/live/ht2990/742579548/2726.ts
 #EXTINF:-1 tvg-id="" tvg-name="PNC Film [EG]" tvg-logo="" group-title="Egypt",PNC Film [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2725.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Panorama Foot  [EG]" tvg-logo="" group-title="Egypt",Panorama Foot  [EG]
+#EXTINF:-1 tvg-id="" tvg-name="PNC Foot  [EG]" tvg-logo="" group-title="Egypt",PNC Foot  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2051.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SBC [AR]" tvg-logo="" group-title="Egypt",SBC [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4575.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad  [EG]" tvg-logo="" group-title="Egypt",Sada El Balad  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2716.ts
@@ -524,12 +518,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3937.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama [EG]" tvg-logo="" group-title="Egypt",Sada El Balad Drama [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt",Shaaer [IRAQ]
-http://mhav1.com:2095/live/ht2990/742579548/4505.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Egypt",Taghier |AR|
-http://mhav1.com:2095/live/ht2990/742579548/3832.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ten [EG]" tvg-logo="" group-title="Egypt",Ten [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2715.ts

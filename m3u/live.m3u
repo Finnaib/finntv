@@ -4100,9 +4100,6 @@ http://mhav1.com:2095/live/ht2990/742579548/61593.ts
 #EXTINF:-1 tvg-id="" tvg-name="NILE COMEDY  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",NILE COMEDY  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2740.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="National Geo AD [AR]" tvg-logo="" group-title="Egypt - قنوات مصريه",National Geo AD [AR]
-http://mhav1.com:2095/live/ht2990/742579548/3643.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Nile Cinema  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Nile Cinema  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2741.ts
 
@@ -4139,11 +4136,8 @@ http://mhav1.com:2095/live/ht2990/742579548/2726.ts
 #EXTINF:-1 tvg-id="" tvg-name="PNC Film [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",PNC Film [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2725.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Panorama Foot  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Panorama Foot  [EG]
+#EXTINF:-1 tvg-id="" tvg-name="PNC Foot  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",PNC Foot  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2051.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="SBC [AR]" tvg-logo="" group-title="Egypt - قنوات مصريه",SBC [AR]
-http://mhav1.com:2095/live/ht2990/742579548/4575.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Sada El Balad  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2716.ts
@@ -4153,12 +4147,6 @@ http://mhav1.com:2095/live/ht2990/742579548/3937.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Sada El Balad Drama [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3593.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt - قنوات مصريه",Shaaer [IRAQ]
-http://mhav1.com:2095/live/ht2990/742579548/4505.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Egypt - قنوات مصريه",Taghier |AR|
-http://mhav1.com:2095/live/ht2990/742579548/3832.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ten [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Ten [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2715.ts
@@ -7112,11 +7100,17 @@ http://mhav1.com:2095/live/ht2990/742579548/3403.ts
 #EXTINF:-1 tvg-id="" tvg-name="Samraa [IQ]" tvg-logo="" group-title="Iraq - العراق",Samraa [IQ]
 http://mhav1.com:2095/live/ht2990/742579548/3877.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Iraq - العراق",Shaaer [IRAQ]
+http://mhav1.com:2095/live/ht2990/742579548/4505.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Sharqiya From Kalba [IRAQ]" tvg-logo="" group-title="Iraq - العراق",Sharqiya From Kalba [IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/17577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Suroyo [IRAQ]" tvg-logo="" group-title="Iraq - العراق",Suroyo [IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/4504.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Iraq - العراق",Taghier |AR|
+http://mhav1.com:2095/live/ht2990/742579548/3832.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="UTV Iraq HD [IQ]" tvg-logo="" group-title="Iraq - العراق",UTV Iraq HD [IQ]
 http://mhav1.com:2095/live/ht2990/742579548/4574.ts
@@ -12983,6 +12977,9 @@ http://mhav1.com:2095/live/ht2990/742579548/674.ts
 #EXTINF:-1 tvg-id="" tvg-name="Iqraa tv [Ksa]" tvg-logo="" group-title="Saudi  - السعوديه",Iqraa tv [Ksa]
 http://mhav1.com:2095/live/ht2990/742579548/3684.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="SBC [AR]" tvg-logo="" group-title="Saudi  - السعوديه",SBC [AR]
+http://mhav1.com:2095/live/ht2990/742579548/4575.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="SBC [Ksa]" tvg-logo="" group-title="Saudi  - السعوديه",SBC [Ksa]
 http://mhav1.com:2095/live/ht2990/742579548/4620.ts
 
@@ -15016,6 +15013,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3689.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Emarat [AE]" tvg-logo="" group-title="UAE - الامارات",Emarat [AE]
 http://mhav1.com:2095/live/ht2990/742579548/3691.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="National Geo AD [AR]" tvg-logo="" group-title="UAE - الامارات",National Geo AD [AR]
+http://mhav1.com:2095/live/ht2990/742579548/3643.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Noor Dubai [AE]" tvg-logo="" group-title="UAE - الامارات",Noor Dubai [AE]
 http://mhav1.com:2095/live/ht2990/742579548/4621.ts
