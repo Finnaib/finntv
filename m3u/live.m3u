@@ -3998,17 +3998,11 @@ http://mhav1.com:2095/live/ht2990/742579548/2752.ts
 #EXTINF:-1 tvg-id="" tvg-name="AL Sa3eed [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",AL Sa3eed [EG]
 http://mhav1.com:2095/live/ht2990/742579548/30562.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Al Eiman TV [YA]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Eiman TV [YA]
-http://mhav1.com:2095/live/ht2990/742579548/4471.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Al Hayat 2 [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Hayat 2 [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2774.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Hayat Muslsalat [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Hayat Muslsalat [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2773.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Masirah TV[YE]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Masirah TV[YE]
-http://mhav1.com:2095/live/ht2990/742579548/4445.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Masriya ARB [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Masriya ARB [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3840.ts
@@ -4066,9 +4060,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2754.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="HYA  [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",HYA  [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3596.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Hareem_Elsultan [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Hareem_Elsultan [EG]
-http://mhav1.com:2095/live/ht2990/742579548/4448.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="M Cinema[EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",M Cinema[EG]
 http://mhav1.com:2095/live/ht2990/742579548/3598.ts
@@ -4163,14 +4154,14 @@ http://mhav1.com:2095/live/ht2990/742579548/3937.ts
 #EXTINF:-1 tvg-id="" tvg-name="Sada El Balad Drama [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Sada El Balad Drama [EG]
 http://mhav1.com:2095/live/ht2990/742579548/3593.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Shaaer [IRAQ]" tvg-logo="" group-title="Egypt - قنوات مصريه",Shaaer [IRAQ]
+http://mhav1.com:2095/live/ht2990/742579548/4505.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Taghier |AR|" tvg-logo="" group-title="Egypt - قنوات مصريه",Taghier |AR|
 http://mhav1.com:2095/live/ht2990/742579548/3832.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ten [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Ten [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2715.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[AR]Alerth Alnbawi" tvg-logo="" group-title="Egypt - قنوات مصريه",[AR]Alerth Alnbawi
-http://mhav1.com:2095/live/ht2990/742579548/5149.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="el shams [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",el shams [EG]
 http://mhav1.com:2095/live/ht2990/742579548/5112.ts
@@ -6977,6 +6968,9 @@ http://mhav1.com:2095/live/ht2990/742579548/48834.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Basira [IRAQ]" tvg-logo="" group-title="Iraq - العراق",Al Basira [IRAQ]
 http://mhav1.com:2095/live/ht2990/742579548/17581.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Eiman TV [YA]" tvg-logo="" group-title="Iraq - العراق",Al Eiman TV [YA]
+http://mhav1.com:2095/live/ht2990/742579548/4471.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Forat [IQ]" tvg-logo="" group-title="Iraq - العراق",Al Forat [IQ]
 http://mhav1.com:2095/live/ht2990/742579548/3393.ts
 
@@ -7150,6 +7144,9 @@ http://mhav1.com:2095/live/ht2990/742579548/2769.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Resala [AR]" tvg-logo="" group-title="Islamic - اسلامي",Al Resala [AR]
 http://mhav1.com:2095/live/ht2990/742579548/4049.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alerth Alnbawi" tvg-logo="" group-title="Islamic - اسلامي",Alerth Alnbawi
+http://mhav1.com:2095/live/ht2990/742579548/5149.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ali Al-Hudhaifi" tvg-logo="http://en.quran.com.kw/wp-content/uploads/Ali-Alhuzaify-300x300.jpg" group-title="Islamic - اسلامي",Ali Al-Hudhaifi
 http://mhav1.com:2095/live/ht2990/742579548/7041.ts
@@ -9511,6 +9508,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3856.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Hiwar TV [News]" tvg-logo="" group-title="News - اخبار",Al Hiwar TV [News]
 http://mhav1.com:2095/live/ht2990/742579548/4518.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera 2" tvg-logo="" group-title="News - اخبار",Al Jazeera 2
+http://mhav1.com:2095/live/ht2990/742579548/4448.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Documentary [NEWS]" tvg-logo="" group-title="News - اخبار",Al Jazeera Documentary [NEWS]
 http://mhav1.com:2095/live/ht2990/742579548/2768.ts
@@ -16075,6 +16075,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4043.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Masirah Mubasher TV [YE]" tvg-logo="" group-title="Yemen - اليمن",Al Masirah Mubasher TV [YE]
 http://mhav1.com:2095/live/ht2990/742579548/4050.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Masirah TV[YE]" tvg-logo="" group-title="Yemen - اليمن",Al Masirah TV[YE]
+http://mhav1.com:2095/live/ht2990/742579548/4445.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Al Saeeda [YE]" tvg-logo="" group-title="Yemen - اليمن",Al Saeeda [YE]
 http://mhav1.com:2095/live/ht2990/742579548/8929.ts

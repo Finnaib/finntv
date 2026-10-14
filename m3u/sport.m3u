@@ -2509,17 +2509,6 @@ http://mhav1.com:2095/live/ht2990/742579548/121476.ts
 
 
 ################################################################################
-# Egypt - قنوات مصريه
-################################################################################
-
-#EXTINF:-1 tvg-id="" tvg-name="[AR]Alerth Alnbawi" tvg-logo="" group-title="Egypt - قنوات مصريه",[AR]Alerth Alnbawi
-http://mhav1.com:2095/live/ht2990/742579548/5149.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="[AR]Alerth Alnbawi" tvg-logo="" group-title="Egypt - قنوات مصريه",[AR]Alerth Alnbawi
-http://mhav1.com:2095/live/ht2990/742579548/5149.ts
-
-
-################################################################################
 # England
 ################################################################################
 
@@ -4207,6 +4196,17 @@ http://mhav1.com:2095/live/ht2990/742579548/246198.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="IQ| Al Rabiaa Sport +2" tvg-logo="" group-title="Iraq - العراق",IQ| Al Rabiaa Sport +2
 http://mhav1.com:2095/live/ht2990/742579548/246199.ts
+
+
+################################################################################
+# Islamic - اسلامي
+################################################################################
+
+#EXTINF:-1 tvg-id="" tvg-name="Alerth Alnbawi" tvg-logo="" group-title="Islamic - اسلامي",Alerth Alnbawi
+http://mhav1.com:2095/live/ht2990/742579548/5149.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Alerth Alnbawi" tvg-logo="" group-title="Islamic - اسلامي",Alerth Alnbawi
+http://mhav1.com:2095/live/ht2990/742579548/5149.ts
 
 
 ################################################################################
