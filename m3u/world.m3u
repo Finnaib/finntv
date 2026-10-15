@@ -185,6 +185,9 @@ https://jmp2.uk/stvp-AT1800008KG
 #EXTINF:-1 tvg-chno="2899" tvg-id="AT280000324" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT280000324_20260929T035652SQUARE.png" tvg-country="AT" group-title="Austria",[Entertainment] 2899. BBC Lifestyle
 https://jmp2.uk/stvp-AT280000324
 
+#EXTINF:-1 tvg-chno="2929" tvg-id="AT27000035R" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT27000035R_20261013T052613SQUARE.png" tvg-country="AT" group-title="Austria",[Entertainment] 2929. ZDF Zuhause
+https://jmp2.uk/stvp-AT27000035R
+
 #EXTINF:-1 tvg-chno="41" tvg-id="ATBA330002946" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBA330002946_20250117T111941SQUARE.png" tvg-country="AT" group-title="Austria",[Filme] 41. Moviedome Family
 https://jmp2.uk/stvp-ATBA330002946
 
@@ -263,6 +266,9 @@ https://jmp2.uk/stvp-AT1500005K6
 #EXTINF:-1 tvg-chno="2846" tvg-id="AT2200009YO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2200009YO_20260811T045216SQUARE.png" tvg-country="AT" group-title="Austria",[Filme] 2846. Amasia
 https://jmp2.uk/stvp-AT2200009YO
 
+#EXTINF:-1 tvg-chno="2930" tvg-id="AT3800003H7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT3800003H7_20261013T052605SQUARE.png" tvg-country="AT" group-title="Austria",[Filme] 2930. Weihnachtskino
+https://jmp2.uk/stvp-AT3800003H7
+
 #EXTINF:-1 tvg-chno="64" tvg-id="AT2000029T" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20261013T052553SQUARE.png" tvg-country="AT" group-title="Austria",[Food & Travel] 64. The Jamie Oliver Channel
 https://jmp2.uk/stvp-AT2000029T
 
@@ -292,6 +298,9 @@ https://jmp2.uk/stvp-AT1100003X6
 
 #EXTINF:-1 tvg-chno="2609" tvg-id="AT3000009D6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT3000009D6_20260324T040404SQUARE.png" tvg-country="AT" group-title="Austria",[Fußball] 2609. INTER 24/7
 https://jmp2.uk/stvp-AT3000009D6
+
+#EXTINF:-1 tvg-chno="2931" tvg-id="AT3600001W4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT3600001W4_20261013T052539SQUARE.png" tvg-country="AT" group-title="Austria",[Fußball] 2931. Real Madrid TV
+https://jmp2.uk/stvp-AT3600001W4
 
 #EXTINF:-1 tvg-chno="72" tvg-id="AT400001GG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT400001GG_20250107T022142SQUARE.png" tvg-country="AT" group-title="Austria",[Kids] 72. LooLoo Kids
 https://jmp2.uk/stvp-AT400001GG
@@ -1449,7 +1458,7 @@ http://mhav1.com:2095/live/ht2990/742579548/57744.ts
 #EXTINF:-1 tvg-id="" tvg-name="[CA]Tele Quebec FR" tvg-logo="" group-title="Canada",[CA]Tele Quebec FR
 http://mhav1.com:2095/live/ht2990/742579548/57479.ts
 
-#EXTINF:-1 tvg-chno="112" tvg-id="CA14000121V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000121V_20260929T044622SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 112. Fall Vibes
+#EXTINF:-1 tvg-chno="112" tvg-id="CA14000121V" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000121V_20261013T224411SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 112. Fall Vibes
 https://jmp2.uk/stvp-CA14000121V
 
 #EXTINF:-1 tvg-chno="113" tvg-id="CA7000015K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20260727T081657SQUARE.png" tvg-country="CA" group-title="Canada",[Ambiance] 113. Ocean Vibes
@@ -1566,7 +1575,7 @@ https://jmp2.uk/stvp-CA3100001IB
 #EXTINF:-1 tvg-chno="2184" tvg-id="CA1700005X1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1700005X1_20250826T234708SQUARE.png" tvg-country="CA" group-title="Canada",[Comedy] 2184. Mr. Bean Animated
 https://jmp2.uk/stvp-CA1700005X1
 
-#EXTINF:-1 tvg-chno="2231" tvg-id="CA21000060M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA21000060M_20260929T044707SQUARE.png" tvg-country="CA" group-title="Canada",[Comedy] 2231. Smosh
+#EXTINF:-1 tvg-chno="2231" tvg-id="CA21000060M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA21000060M_20261013T224444SQUARE.png" tvg-country="CA" group-title="Canada",[Comedy] 2231. Smosh
 https://jmp2.uk/stvp-CA21000060M
 
 #EXTINF:-1 tvg-chno="2232" tvg-id="CA2000010EM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2000010EM_20251021T192258SQUARE.png" tvg-country="CA" group-title="Canada",[Comedy] 2232. The Try Guys
@@ -1611,7 +1620,7 @@ https://jmp2.uk/stvp-CA1400006BZ
 #EXTINF:-1 tvg-chno="2345" tvg-id="CA2600003M4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2600003M4_20251110T235230SQUARE.png" tvg-country="CA" group-title="Canada",[Crime] 2345. BuzzFeed Unsolved
 https://jmp2.uk/stvp-CA2600003M4
 
-#EXTINF:-1 tvg-chno="2539" tvg-id="CA4700015P1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700015P1_20260915T034550SQUARE.png" tvg-country="CA" group-title="Canada",[Crime] 2539. Crime 360
+#EXTINF:-1 tvg-chno="2539" tvg-id="CA4700015P1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700015P1_20261013T224358SQUARE.png" tvg-country="CA" group-title="Canada",[Crime] 2539. Crime 360
 https://jmp2.uk/stvp-CA4700015P1
 
 #EXTINF:-1 tvg-chno="2540" tvg-id="CA4700017S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4700017S7_20260727T081710SQUARE.png" tvg-country="CA" group-title="Canada",[Crime] 2540. The First 48
@@ -1737,7 +1746,7 @@ https://jmp2.uk/stvp-CABD1700001QB
 #EXTINF:-1 tvg-chno="189" tvg-id="CABC5200022N1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20260421T140631SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 189. Homeful
 https://jmp2.uk/stvp-CABC5200022N1
 
-#EXTINF:-1 tvg-chno="190" tvg-id="CA1400017PU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20260901T060318SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 190. Property Brothers
+#EXTINF:-1 tvg-chno="190" tvg-id="CA1400017PU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20261013T224440SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 190. Property Brothers
 https://jmp2.uk/stvp-CA1400017PU
 
 #EXTINF:-1 tvg-chno="192" tvg-id="CABB2500030GT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500030GT_20260421T140453SQUARE.png" tvg-country="CA" group-title="Canada",[Home & Food] 192. JOURNY TV
@@ -1863,7 +1872,7 @@ https://jmp2.uk/stvp-CABC2300019UD
 #EXTINF:-1 tvg-chno="213" tvg-id="CABD1200001SY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200001SY_20260616T032306SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 213. Gravitas Movies
 https://jmp2.uk/stvp-CABD1200001SY
 
-#EXTINF:-1 tvg-chno="214" tvg-id="CAAJ27000159K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000159K_20251125T191326SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 214. FilmRise Western
+#EXTINF:-1 tvg-chno="214" tvg-id="CAAJ27000159K" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000159K_20261013T224318SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 214. FilmRise Western
 https://jmp2.uk/stvp-CAAJ27000159K
 
 #EXTINF:-1 tvg-chno="1890" tvg-id="CA44000025P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA44000025P_20250819T224258SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 1890. Grjngo
@@ -1875,7 +1884,7 @@ https://jmp2.uk/stvp-CA2000005K2
 #EXTINF:-1 tvg-chno="2280" tvg-id="CA18000032W" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA18000032W_20260922T055944SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 2280. NEW KMOVIES
 https://jmp2.uk/stvp-CA18000032W
 
-#EXTINF:-1 tvg-chno="2774" tvg-id="CA1500004OB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500004OB_20260929T044643SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 2774. MovieSphere
+#EXTINF:-1 tvg-chno="2774" tvg-id="CA1500004OB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500004OB_20261013T224428SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 2774. MovieSphere
 https://jmp2.uk/stvp-CA1500004OB
 
 #EXTINF:-1 tvg-chno="215" tvg-id="CABB2600017ZU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2600017ZU_20260512T070144SQUARE.png" tvg-country="CA" group-title="Canada",[Music] 215. XITE 80s Flashback
@@ -2034,7 +2043,7 @@ https://jmp2.uk/stvp-CA3400002KP
 #EXTINF:-1 tvg-chno="1931" tvg-id="CA300017ZS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA300017ZS_20260421T140708SQUARE.png" tvg-country="CA" group-title="Canada",[Nature, History & Science] 1931. Love Pets
 https://jmp2.uk/stvp-CA300017ZS
 
-#EXTINF:-1 tvg-chno="2053" tvg-id="CA500011P3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA500011P3_20260811T043131SQUARE.png" tvg-country="CA" group-title="Canada",[Nature, History & Science] 2053. Lucky Dog
+#EXTINF:-1 tvg-chno="2053" tvg-id="CA500011P3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA500011P3_20261013T224415SQUARE.png" tvg-country="CA" group-title="Canada",[Nature, History & Science] 2053. Lucky Dog
 https://jmp2.uk/stvp-CA500011P3
 
 #EXTINF:-1 tvg-chno="2343" tvg-id="CA2100007GY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2100007GY_20260428T032048SQUARE.png" tvg-country="CA" group-title="Canada",[Nature, History & Science] 2343. Brave Wilderness
@@ -3153,6 +3162,9 @@ https://jmp2.uk/stvp-FR130000539
 #EXTINF:-1 tvg-chno="2875" tvg-id="FR1600003GH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1600003GH_20260901T054509SQUARE.png" tvg-country="FR" group-title="France",[Cinéma] 2875. Monstres et Créatures TV
 https://jmp2.uk/stvp-FR1600003GH
 
+#EXTINF:-1 tvg-chno="2938" tvg-id="FR2100004D7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2100004D7_20261013T053835SQUARE.png" tvg-country="FR" group-title="France",[Cinéma] 2938. 100% Romance
+https://jmp2.uk/stvp-FR2100004D7
+
 #EXTINF:-1 tvg-chno="742" tvg-id="FR1400002XF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400002XF_20251111T012047SQUARE.png" tvg-country="FR" group-title="France",[Crime] 742. Faites entrer l'accusé
 https://jmp2.uk/stvp-FR1400002XF
 
@@ -4214,6 +4226,9 @@ https://jmp2.uk/stvp-DE33000025Y
 #EXTINF:-1 tvg-chno="2850" tvg-id="DE200042LW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE200042LW_20260811T045251SQUARE.png" tvg-country="DE" group-title="Germany",[Filme] 2850. Amasia
 https://jmp2.uk/stvp-DE200042LW
 
+#EXTINF:-1 tvg-chno="2935" tvg-id="DE3800005AU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE3800005AU_20261013T053356SQUARE.png" tvg-country="DE" group-title="Germany",[Filme] 2935. Weihnachtskino
+https://jmp2.uk/stvp-DE3800005AU
+
 #EXTINF:-1 tvg-chno="514" tvg-id="DE200003PX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE200003PX_20260901T053618SQUARE.png" tvg-country="DE" group-title="Germany",[Food & Travel] 514. The Jamie Oliver Channel
 https://jmp2.uk/stvp-DE200003PX
 
@@ -4243,6 +4258,9 @@ https://jmp2.uk/stvp-DE1100003YR
 
 #EXTINF:-1 tvg-chno="2615" tvg-id="DE310000218" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE310000218_20260324T034624SQUARE.png" tvg-country="DE" group-title="Germany",[Fußball] 2615. INTER 24/7
 https://jmp2.uk/stvp-DE310000218
+
+#EXTINF:-1 tvg-chno="2936" tvg-id="DE35000030P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE35000030P_20261013T053330SQUARE.png" tvg-country="DE" group-title="Germany",[Fußball] 2936. Real Madrid TV
+https://jmp2.uk/stvp-DE35000030P
 
 #EXTINF:-1 tvg-chno="525" tvg-id="DEBD4700001UN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD4700001UN_20250107T024337SQUARE.png" tvg-country="DE" group-title="Germany",[Kids] 525. LooLoo Kids
 https://jmp2.uk/stvp-DEBD4700001UN
@@ -5054,6 +5072,9 @@ https://jmp2.uk/stvp-IT300001586
 
 #EXTINF:-1 tvg-chno="2841" tvg-id="IT3000016RH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000016RH_20260915T041832SQUARE.png" tvg-country="IT" group-title="Italy",[Intrattenimento] 2841. RTL 102.5 Radio Zeta
 https://jmp2.uk/stvp-IT3000016RH
+
+#EXTINF:-1 tvg-chno="2942" tvg-id="IT700005C9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT700005C9_20261013T054248SQUARE.png" tvg-country="IT" group-title="Italy",[Intrattenimento] 2942. Studio Uno
+https://jmp2.uk/stvp-IT700005C9
 
 #EXTINF:-1 tvg-chno="1270" tvg-id="ITBC2100001G9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC2100001G9_20241022T043927SQUARE.png" tvg-country="IT" group-title="Italy",[Musica e Ambient] 1270. Vevo Pop
 https://jmp2.uk/stvp-ITBC2100001G9
@@ -8407,6 +8428,9 @@ https://jmp2.uk/stvp-CH180000916
 #EXTINF:-1 tvg-chno="2904" tvg-id="CH2800003OL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH2800003OL_20260929T040021SQUARE.png" tvg-country="CH" group-title="Switzerland",[Entertainment] 2904. BBC Lifestyle
 https://jmp2.uk/stvp-CH2800003OL
 
+#EXTINF:-1 tvg-chno="2932" tvg-id="CH270000346" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH270000346_20261013T052940SQUARE.png" tvg-country="CH" group-title="Switzerland",[Entertainment] 2932. ZDF Zuhause
+https://jmp2.uk/stvp-CH270000346
+
 #EXTINF:-1 tvg-chno="362" tvg-id="CHBA3300030AJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300030AJ_20250117T134626SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 362. Moviedome Family
 https://jmp2.uk/stvp-CHBA3300030AJ
 
@@ -8500,6 +8524,9 @@ https://jmp2.uk/stvp-CH2900003UZ
 #EXTINF:-1 tvg-chno="2893" tvg-id="CH3000009FR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3000009FR_20261013T052810SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 2893. Dragon TV
 https://jmp2.uk/stvp-CH3000009FR
 
+#EXTINF:-1 tvg-chno="2933" tvg-id="CH3800004T5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3800004T5_20261013T052933SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 2933. Weihnachtskino
+https://jmp2.uk/stvp-CH3800004T5
+
 #EXTINF:-1 tvg-chno="389" tvg-id="CH20000288" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH20000288_20261013T052923SQUARE.png" tvg-country="CH" group-title="Switzerland",[Food & Travel] 389. The Jamie Oliver Channel
 https://jmp2.uk/stvp-CH20000288
 
@@ -8529,6 +8556,9 @@ https://jmp2.uk/stvp-CH1100002FH
 
 #EXTINF:-1 tvg-chno="2612" tvg-id="CH3100001XL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3100001XL_20260324T040524SQUARE.png" tvg-country="CH" group-title="Switzerland",[Fußball] 2612. INTER 24/7
 https://jmp2.uk/stvp-CH3100001XL
+
+#EXTINF:-1 tvg-chno="2934" tvg-id="CH3500001HE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3500001HE_20261013T052912SQUARE.png" tvg-country="CH" group-title="Switzerland",[Fußball] 2934. Real Madrid TV
+https://jmp2.uk/stvp-CH3500001HE
 
 #EXTINF:-1 tvg-chno="397" tvg-id="CHBD4700001DY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD4700001DY_20250107T025532SQUARE.png" tvg-country="CH" group-title="Switzerland",[Kids] 397. LooLoo Kids
 https://jmp2.uk/stvp-CHBD4700001DY
@@ -8847,6 +8877,9 @@ https://jmp2.uk/stvp-GB4600003RY
 #EXTINF:-1 tvg-chno="2853" tvg-id="GB1200011U5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200011U5_20260811T045340SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Documentaries] 2853. Obsessive Compulsive Cleaners
 https://jmp2.uk/stvp-GB1200011U5
 
+#EXTINF:-1 tvg-chno="2939" tvg-id="GB3900004ZS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3900004ZS_20261013T054951SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Documentaries] 2939. Deadliest Roads
+https://jmp2.uk/stvp-GB3900004ZS
+
 #EXTINF:-1 tvg-chno="890" tvg-id="GBBC400000345" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC400000345_20261006T034143SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Entertainment] 890. Festive Hub
 https://jmp2.uk/stvp-GBBC400000345
 
@@ -8924,6 +8957,9 @@ https://jmp2.uk/stvp-GB2700017IP
 
 #EXTINF:-1 tvg-chno="2881" tvg-id="GB1500005UP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500005UP_20260901T102504SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Entertainment] 2881. Joe Media
 https://jmp2.uk/stvp-GB1500005UP
+
+#EXTINF:-1 tvg-chno="2940" tvg-id="GB1500006PK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500006PK_20261013T055036SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Entertainment] 2940. Trevor Noah
+https://jmp2.uk/stvp-GB1500006PK
 
 #EXTINF:-1 tvg-chno="912" tvg-id="GBBC4000002H3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4000002H3_20260915T041642SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Food & Travel] 912. The Jamie Oliver Channel
 https://jmp2.uk/stvp-GBBC4000002H3
@@ -9084,7 +9120,7 @@ https://jmp2.uk/stvp-GB21000038X
 #EXTINF:-1 tvg-chno="2271" tvg-id="GB1700007PK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1700007PK_20251013T054402SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Movies] 2271. NEW K-MOVIES
 https://jmp2.uk/stvp-GB1700007PK
 
-#EXTINF:-1 tvg-chno="2441" tvg-id="GB4100003VP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4100003VP_20261013T054944SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Movies] 2441. Thrillers - Rakuten TV
+#EXTINF:-1 tvg-chno="2441" tvg-id="GB4100003VP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4100003VP_20261013T054944SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Movies] 2441. Halloween - Rakuten TV
 https://jmp2.uk/stvp-GB4100003VP
 
 #EXTINF:-1 tvg-chno="961" tvg-id="GBBC19000017V" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20250107T025833SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Music & Ambient] 961. Vevo Pop
