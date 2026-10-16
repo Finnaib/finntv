@@ -674,6 +674,9 @@ https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_WE/images/LOGO_HD/image.png" group-title="INDIA",Kairali We (576p)
 https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s179440_ld_h15_aa.png?lock=720x540" group-title="INDIA",Sony Max 1
+http://27.116.22.53:5001/live/3418.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="INDIA",Sony Max 2 (576p)
 http://107.167.16.138/sonymax2/index.m3u8?token=test
 
