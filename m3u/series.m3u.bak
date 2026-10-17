@@ -704,6 +704,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4881.ts
 #EXTINF:-1 tvg-id="" tvg-name="Head Over Heels" tvg-logo="http://images.stttoegypt2026.com:80/images/ijDyO36wQhMYPd04XKXB73eyAbS_big.jpg" group-title="Asian Series",Head Over Heels
 http://mhav1.com:2095/series/ht2990/742579548/5695.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Heart Signal" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg" group-title="Asian Series",Heart Signal
+http://mhav1.com:2095/series/ht2990/742579548/4854.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Heavenly Ever After" tvg-logo="http://images.stttoegypt2026.com:80/images/pQ3fDmgQ9GbmntzPY6vOOttSi6J_big.jpg" group-title="Asian Series",Heavenly Ever After
 http://mhav1.com:2095/series/ht2990/742579548/5509.ts
 
@@ -1441,9 +1444,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3341.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Shooting Stars" tvg-logo="http://images.stttoegypt2026.com:80/images/voYCbAvZVZ5brUzYv2V2WdfPhr7_big.jpg" group-title="Asian Series",Shooting Stars
 http://mhav1.com:2095/series/ht2990/742579548/1564.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Signal " tvg-logo="https://th.bing.com/th/id/R.2bcff5b3f8a5963d44d862abba164ea2?rik=y7tfrCrvCQio0A&pid=ImgRaw&r=0" group-title="Asian Series",Signal 
-http://mhav1.com:2095/series/ht2990/742579548/4854.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Sins of Kujo" tvg-logo="http://images.stttoegypt2026.com:80/images/jgmYNLdKLNBN5p2vPKuqlpLfeDS_big.jpg" group-title="Asian Series",Sins of Kujo
 http://mhav1.com:2095/series/ht2990/742579548/6783.ts
