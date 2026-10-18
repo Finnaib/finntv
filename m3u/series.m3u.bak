@@ -13109,9 +13109,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7049.ts
 #EXTINF:-1 tvg-id="" tvg-name="قانون الطبيعة" tvg-logo="http://images.stttoegypt2026.com:80/images/o3vgpapS2DzwwpKQCdFWmk3r3rb_big.jpg" group-title="تركي يعرض الان",قانون الطبيعة
 http://mhav1.com:2095/series/ht2990/742579548/7092.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="قصر المرجان" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/opo5rNOpt9ii8MZuzyqjO8qNT0.jpg" group-title="تركي يعرض الان",قصر المرجان
-http://mhav1.com:2095/series/ht2990/742579548/7323.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="قهوة مالحة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iXgalcTI4nBc4Dw0Ef4LevCz1Qp.jpg" group-title="تركي يعرض الان",قهوة مالحة
 http://mhav1.com:2095/series/ht2990/742579548/7306.ts
 
@@ -14623,6 +14620,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5085.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فرحة حياتى" tvg-logo="http://images.stttoegypt2026.com:80/images/4iiMiam1380LqoRiutgu7IZJEmy_big.jpg" group-title="مسلسلات تركيه حديثه",فرحة حياتى
 http://mhav1.com:2095/series/ht2990/742579548/5987.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="قصر المرجان" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/opo5rNOpt9ii8MZuzyqjO8qNT0.jpg" group-title="مسلسلات تركيه حديثه",قصر المرجان
+http://mhav1.com:2095/series/ht2990/742579548/7323.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قصر رمضان بك" tvg-logo="http://images.stttoegypt2026.com:80/images/qIbWkAO35hUgBHc665JfLwt5iIl_big.jpg" group-title="مسلسلات تركيه حديثه",قصر رمضان بك
 http://mhav1.com:2095/series/ht2990/742579548/6462.ts
