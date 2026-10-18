@@ -8654,9 +8654,6 @@ http://mhav1.com:2095/series/ht2990/742579548/2382.ts
 #EXTINF:-1 tvg-id="" tvg-name="سقط سهوا" tvg-logo="http://images.stttoegypt2026.com:80/images/ui70o1tnfixzgVYX0pnxpI5DU4i_big.jpg" group-title="Ramdan Arabic",سقط سهوا
 http://mhav1.com:2095/series/ht2990/742579548/2243.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="سقف الوالد" tvg-logo="https://i.ibb.co/QCQSnn0/b83496.jpg" group-title="Ramdan Arabic",سقف الوالد
-http://mhav1.com:2095/series/ht2990/742579548/3562.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="سكة سفر" tvg-logo="https://media0011.elcinema.comx/uploads/_315x420_f6f027c2f5e53122ff8d40622ced26cdb24dac49027f0caecfbe3cc047432ff7.jpg" group-title="Ramdan Arabic",سكة سفر
 http://mhav1.com:2095/series/ht2990/742579548/1284.ts
 
@@ -13160,6 +13157,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7350.ts
 #EXTINF:-1 tvg-id="" tvg-name="بهو الست لميا " tvg-logo="https://i.ibb.co/QFLy6dx6/a6628.jpg" group-title="عربي يعرض الان",بهو الست لميا
 http://mhav1.com:2095/series/ht2990/742579548/7420.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="حب أسود" tvg-logo="http://images.stttoegypt2026.com:80/images/vBdqNzcB9QaFQ2xjhyMH0OrX7vf_big.jpg" group-title="عربي يعرض الان",حب أسود
+http://mhav1.com:2095/series/ht2990/742579548/7441.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="حب ع ورق" tvg-logo="http://images.stttoegypt2026.com:80/images/kB9Td5xoWr2fSozBM2YCPZWe2mJ_big.jpg" group-title="عربي يعرض الان",حب ع ورق
 http://mhav1.com:2095/series/ht2990/742579548/7017.ts
 
@@ -13171,6 +13171,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7145.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="خمسين خمسين" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kqafxAeXY5TTrYHh9rUHO4ju3rN.jpg" group-title="عربي يعرض الان",خمسين خمسين
 http://mhav1.com:2095/series/ht2990/742579548/7355.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="سقف الوالد" tvg-logo="https://i.ibb.co/QCQSnn0/b83496.jpg" group-title="عربي يعرض الان",سقف الوالد
+http://mhav1.com:2095/series/ht2990/742579548/3562.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سندس" tvg-logo="http://images.stttoegypt2026.com:80/images/mVpg4upIlqscZEGCmWK2zJqimSY_big.jpg" group-title="عربي يعرض الان",سندس
 http://mhav1.com:2095/series/ht2990/742579548/1437.ts
