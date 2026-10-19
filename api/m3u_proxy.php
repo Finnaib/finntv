@@ -4,6 +4,9 @@
  * Fetches and proxies external M3U playlists to bypass CORS and Mixed Content issues.
  */
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
@@ -44,5 +47,4 @@ if ($content === false || $http_code >= 400) {
     die("Error reaching the playlist source (HTTP $http_code).");
 }
 
-curl_close($ch);
 echo $content;

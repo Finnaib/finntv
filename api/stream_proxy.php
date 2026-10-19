@@ -4,6 +4,9 @@
  * Optimized for Vercel & PS Vita
  */
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 // Global CORS Headers
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
@@ -82,7 +85,6 @@ if ($is_direct_stream) {
     header("Content-Type: " . $content_type);
     header("Cache-Control: public, max-age=3600");
     curl_exec($ch);
-    curl_close($ch);
     exit;
 }
 
@@ -92,7 +94,6 @@ $response = curl_exec($ch);
 $info = curl_getinfo($ch);
 $content_type = strtolower($info['content_type']);
 $final_url = $info['url'];
-curl_close($ch);
 
 if (!$response) {
     http_response_code(504);

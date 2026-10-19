@@ -8,7 +8,7 @@ export class XtreamAPI {
     }
 
     getProxyUrl(actionUrl) {
-        return `../api/xtream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(actionUrl))))}`;
+        return `/api/xtream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(actionUrl))))}`;
     }
 
     async authenticate() {

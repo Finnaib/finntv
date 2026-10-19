@@ -5,6 +5,9 @@
  * Separate from stream_proxy.php which handles video streams.
  */
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, OPTIONS");
 header("Access-Control-Allow-Headers: *");
@@ -44,7 +47,6 @@ curl_setopt_array($ch, [
 $response = curl_exec($ch);
 $info     = curl_getinfo($ch);
 $err      = curl_error($ch);
-curl_close($ch);
 
 if ($err || !$response) {
     http_response_code(502);

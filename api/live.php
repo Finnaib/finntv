@@ -4,6 +4,9 @@
  * Falls back to upstream when stream ID is not in local id_map
  */
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 $uri = $_SERVER['REQUEST_URI'];
 $parts = explode('/', trim(parse_url($uri, PHP_URL_PATH), '/'));
 

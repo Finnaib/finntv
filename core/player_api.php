@@ -288,7 +288,6 @@ if ($action === '' || $action === 'get_panel_info') {
         curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
         $result = curl_exec($ch);
         $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
 
         if ($status == 200 && $result) {
             $data_json = json_decode($result, true);

@@ -8,8 +8,8 @@
  */
 
 // Basic Security & Headers
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+error_reporting(0);
+ini_set('display_errors', '0');
 ini_set('memory_limit', '512M'); // Heavy lifting for 23,000+ items
 // header("Access-Control-Allow-Origin: *"); // Moved to player_api.php
 

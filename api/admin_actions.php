@@ -3,6 +3,9 @@
  * Admin Actions API for FinnTV
  */
 
+error_reporting(0);
+ini_set('display_errors', '0');
+
 require_once __DIR__ . '/../config.php';
 header('Content-Type: application/json');
 
@@ -38,9 +41,7 @@ function push_any_to_github($path, $content, $token, $repo, $message)
     curl_setopt($ch, CURLOPT_HTTPHEADER, [
         "Authorization: token $token",
         "User-Agent: FinnTV-Admin"
-    ]);
     $resp = json_decode(curl_exec($ch), true);
-    curl_close($ch);
 
     $sha = $resp['sha'] ?? null;
 
@@ -61,7 +62,6 @@ function push_any_to_github($path, $content, $token, $repo, $message)
         "Content-Type: application/json"
     ]);
     $resp_put = json_decode(curl_exec($ch), true);
-    curl_close($ch);
 
     if (isset($resp_put['content'])) {
         return ['success' => true];

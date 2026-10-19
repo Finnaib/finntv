@@ -349,7 +349,7 @@ class App {
                     this.m3uChannels = await M3UParser.fetchAndParse(url);
                 } catch (err) {
                     console.warn("Direct fetch failed, attempting proxy...", err);
-                    const proxyUrl = `../api/m3u_proxy.php?url=${encodeURIComponent(url)}`;
+                    const proxyUrl = `/api/m3u_proxy.php?url=${encodeURIComponent(url)}`;
                     this.m3uChannels = await M3UParser.fetchAndParse(proxyUrl);
                 }
                 
@@ -589,7 +589,7 @@ class App {
             // Use video_proxy.js (Edge function) for VOD/Series to stream huge MP4/MKV files without freezing
             let proxyUrl;
             if (isLive) {
-                proxyUrl = `../api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
+                proxyUrl = `/api/stream_proxy.php?url=${encodeURIComponent(btoa(unescape(encodeURIComponent(streamUrl))))}`;
                 if (streamUrl.includes('jmp2.uk') || streamUrl.includes('samsungtvplus')) {
                     proxyUrl += '&noprx=1';
                 }
