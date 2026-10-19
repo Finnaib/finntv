@@ -63,7 +63,7 @@
     },
     {
       "source": "/panel_api.php",
-      "destination": "/api/panel_api.php"
+      "destination": "/api/player_api.php"
     },
     {
       "source": "/xmltv.php",

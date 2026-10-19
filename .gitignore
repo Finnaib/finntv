@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 *.bak
 finntv-main/
+
+.vercel
