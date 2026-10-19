@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinnTV Premium Admin</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg: #030712;
+            /* Very dark blue */
+            --sidebar: #111827;
+            --surface: #1f2937;
+            --primary: #6366f1;
+            /* Indigo */
+            --primary-hover: #4f46e5;
+            --text: #f9fafb;
+            --text-muted: #9ca3af;
+            --danger: #ef4444;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --border: #374151;
+            --glass: rgba(31, 41, 55, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            overflow: hidden;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar */
+        aside {
+            width: 260px;
+            background: var(--sidebar);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            color: var(--primary);
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            flex-grow: 1;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+        }
+
+        .nav-item.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .sidebar-footer {
+            margin-top: auto;
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+        }
+
+        /* Main Content */
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            height: 70px;
+            border-bottom: 1px solid var(--border);
+            background: var(--sidebar);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 2rem;
+            z-index: 10;
+        }
+
+        .search-bar {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            width: 300px;
+        }
+
+        .search-bar input {
+            background: transparent;
+            border: none;
+            color: white;
+            outline: none;
+            width: 100%;
+            font-size: 0.875rem;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .sync-badge {
+            background: var(--warning);
+            color: black;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: none;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.6;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .view-container {
+            flex-grow: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .view-container.active {
+            display: block;
+        }
+
+        /* Dashboard View */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .stat-card .label {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .stat-card .value {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        /* Users View */
+        .table-container {
+            background: var(--surface);
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+
+        .table-header {
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            padding: 1rem 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.875rem;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .status-pill {
+            padding: 0.25rem 0.625rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .status-pill.active {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 0.625rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+        }
+
+        .btn-danger {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+        }
+
+        .btn-danger:hover {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-warning {
+            background: var(--warning);
+            color: black;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border-color: var(--border);
+            color: var(--text);
+        }
+
+        .btn-outline:hover {
+            background: var(--border);
+        }
+
+        /* M3U Editor View */
+        .editor-layout {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+            height: calc(100vh - 180px);
+        }
+
+        .file-list {
+            background: var(--surface);
+            border-radius: 1rem;
+            border: 1px solid var(--border);
+            padding: 1rem;
+            overflow-y: auto;
+        }
+
+        .file-item {
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .file-item:hover {
+            background: var(--border);
+        }
+
+        .file-item.active {
+            background: var(--primary);
+        }
+
+        .file-item .info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .file-item .name {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .file-item .size {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .editor-main {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #m3uEditor {
+            flex-grow: 1;
+            background: #010409;
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            color: #d1d5db;
+            padding: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            resize: none;
+            outline: none;
+            line-height: 1.5;
+        }
+
+        /* Modals */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--sidebar);
+            border: 1px solid var(--border);
+            border-radius: 1.5rem;
+            width: 100%;
+            max-width: 500px;
+            padding: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            color: white;
+            outline: none;
+        }
+
+        .form-group input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+        }
+
+        /* Login Overlay */
+        #loginOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-card {
+            background: var(--sidebar);
+            padding: 3rem;
+            border-radius: 2rem;
+            width: 400px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1rem 1.5rem;
+            border-radius: 1rem;
+            display: none;
+            align-items: center;
+            gap: 0.75rem;
+            animation: slideIn 0.3s ease-out;
+            z-index: 3000;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* Mobile Adjustments */
+        .mobile-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 99;
+            display: none;
+            backdrop-filter: blur(2px);
+        }
+
+        .mobile-overlay.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                position: relative;
+            }
+
+            aside {
+                position: fixed;
+                left: -260px;
+                top: 0;
+                height: 100%;
+                z-index: 100;
+            }
+
+            aside.active {
+                left: 0;
+            }
+
+            header {
+                padding: 0 1rem;
+                justify-content: space-between;
+            }
+
+            .search-bar {
+                display: none;
+            }
+
+            .header-actions {
+                font-size: 0.75rem;
+                gap: 0.75rem;
+            }
+
+            .hamburger {
+                display: flex !important;
+                background: none;
+                border: none;
+                color: var(--text);
+                padding: 0.5rem;
+                cursor: pointer;
+            }
+
+            .view-container {
+                padding: 1rem;
+            }
+
+            .editor-layout {
+                grid-template-columns: 1fr;
+                height: auto;
+            }
+
+            .file-list {
+                max-height: 250px;
+            }
+
+            #m3uEditor {
+                height: 400px;
+            }
+
+            .table-container {
+                overflow-x: auto;
+            }
+
+            .login-card {
+                width: 90%;
+                padding: 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Login -->
+    <div id="loginOverlay">
+        <div class="login-card">
+            <div class="logo" style="justify-content:center">
+                <i data-lucide="zap"></i>
+                FinnTV Admin
+            </div>
+            <p style="color:var(--text-muted); margin-bottom:2rem">Secure Access Required</p>
+            <div id="loginErr" style="color:var(--danger); margin-bottom:1rem; display:none; font-size: 0.875rem;">
+                Invalid credentials.</div>
+            <div class="form-group">
+                <input type="text" id="admUser" placeholder="Admin Email">
+            </div>
+            <div class="form-group">
+                <input type="password" id="admPass" placeholder="Password">
+            </div>
+            <button class="btn btn-primary" style="width:100%; justify-content:center" onclick="doLogin()">
+                Login to Dashboard
+            </button>
+        </div>
+    </div>
+
+    <div class="mobile-overlay" id="mobileOverlay" onclick="toggleSidebar()"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+        <div class="logo">
+            <i data-lucide="zap"></i>
+            FinnTV Admin
+        </div>
+        <nav>
+            <div class="nav-item active" onclick="showView('dashboard')" id="nav-dashboard">
+                <i data-lucide="layout-dashboard"></i> Dashboard
+            </div>
+            <div class="nav-item" onclick="showView('users')" id="nav-users">
+                <i data-lucide="users"></i> User Management
+            </div>
+            <div class="nav-item" onclick="showView('m3u')" id="nav-m3u">
+                <i data-lucide="file-text"></i> Playlist Editor
+            </div>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="nav-item" onclick="logout()">
+                <i data-lucide="log-out"></i> Logout
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <header>
+            <div style="display:flex; align-items:center; gap:0.5rem">
+                <button class="hamburger" style="display:none;" onclick="toggleSidebar()">
+                    <i data-lucide="menu"></i>
+                </button>
+                <div class="search-bar">
+                    <i data-lucide="search" style="color:var(--text-muted); width: 16px;"></i>
+                    <input type="text" placeholder="Search data...">
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="sync-badge" id="unsavedBadge">
+                    <i data-lucide="alert-circle" style="width: 12px; display:inline"></i>
+                    Unsaved Changes
+                </div>
+                <button class="btn btn-warning" id="gitSyncBtn" onclick="syncUsersToGit()" style="display:none">
+                    <i data-lucide="github"></i> Push to GitHub
+                </button>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <span id="userNameDisplay" style="font-size: 0.875rem; font-weight: 500">Admin</span>
+                    <div
+                        style="width:36px; height:36px; background:var(--primary); border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700">
+                        A</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Dashboard View -->
+        <div id="view-dashboard" class="view-container active">
+            <h2 style="margin-bottom: 2rem">Dashboard Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="label">Total Users</span>
+                    <span class="value" id="statUsers">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Live Channels</span>
+                    <span class="value" id="statLive">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">VOD Content</span>
+                    <span class="value" id="statVod">...</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Series</span>
+                    <span class="value" id="statSeries">...</span>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-header">
+                    <h3>Recent Activity / Playing Now</h3>
+                    <button class="btn btn-outline" onclick="regenerateCache()" id="regenBtn">
+                        <i data-lucide="refresh-cw"></i> Refresh System Cache
+                    </button>
+                </div>
+                <div id="activityTable">
+                    <div style="padding: 3rem; text-align: center; color: var(--text-muted)">
+                        <i data-lucide="loader" class="spin"></i> Detecting active streams...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Users View -->
+        <div id="view-users" class="view-container">
+            <h2 style="margin-bottom: 2rem">User Management</h2>
+            <div class="table-container">
+                <div class="table-header">
+                    <h3>Authenticated Users</h3>
+                    <button class="btn btn-primary" onclick="showAddUserModal()">
+                        <i data-lucide="user-plus"></i> Add New User
+                    </button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Created at</th>
+                            <th>Expiry</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userTableBody">
+                        <!-- Data injected here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- M3U View -->
+        <div id="view-m3u" class="view-container">
+            <h2 style="margin-bottom: 2rem">Playlist Editor (M3U)</h2>
+            <div class="editor-layout">
+                <div class="file-list">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+                        <h4 style="font-size: 0.875rem; color: var(--text-muted)">Project Files</h4>
+                        <button class="btn btn-outline" style="padding: 0.2rem 0.5rem"
+                            onclick="createNewM3U()">+</button>
+                    </div>
+                    <div id="m3uFileList">
+                        <!-- File items injected here -->
+                    </div>
+                </div>
+                <div class="editor-main">
+                    <div style="display:flex; justify-content:space-between; align-items:center">
+                        <div id="currentFileName" style="font-weight: 600; color: var(--text-muted)">Select a file to
+                            edit</div>
+                        <button class="btn btn-primary" id="saveM3UBtn" onclick="saveM3UToGit()" disabled>
+                            <i data-lucide="save"></i> Save File & Push
+                        </button>
+                    </div>
+                    <textarea id="m3uEditor" spellcheck="false" placeholder="#EXTM3U ..."></textarea>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal: Add User -->
+    <div class="modal-overlay" id="addUserModal">
+        <div class="modal">
+            <h2>New Subscription</h2>
+            <p style="color:var(--text-muted); font-size:0.875rem; margin-bottom: 1.5rem">Create a managed user account.
+            </p>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="newUsername" placeholder="e.g. john_doe">
+            </div>
+            <div class="form-group">
+                <label>Access Password</label>
+                <input type="text" id="newPassword" placeholder="e.g. secret123">
+            </div>
+            <div class="form-group">
+                <label>Connections Count</label>
+                <input type="number" id="newMaxConn" value="5">
+            </div>
+            <div class="form-group">
+                <label>Expiration Date</label>
+                <input type="date" id="newExpDate">
+            </div>
+            <div style="display:flex; gap:1rem; margin-top:2rem;">
+                <button class="btn btn-outline" style="flex:1; justify-content:center"
+                    onclick="closeModal('addUserModal')">Cancel</button>
+                <button class="btn btn-primary" style="flex:1; justify-content:center"
+                    onclick="saveUserStaged()">Staging Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="mainToast">
+        <i data-lucide="check-circle" id="toastIcon"></i>
+        <span id="toastMsg">Action successful</span>
+    </div>
+
+    <script>
+        const API = '/api/admin_actions.php';
+        const PROVIDER_API = '/player_api.php';
+
+        let currentUser = null;
+        let currentPass = null;
+        let usersBuffer = []; // Local staging of users
+        let originalUsers = []; // What's currently on Git
+        let currentEditingFile = null;
+        let stagedFiles = {}; // { 'm3u/filename.m3u': 'content' }
+
+        // --- Auth & Startup ---
+        window.onload = () => {
+            const savedU = localStorage.getItem('finntv_admin_email');
+            const savedP = localStorage.getItem('finntv_admin_pass');
+            if (savedU && savedP) {
+                document.getElementById('admUser').value = savedU;
+                document.getElementById('admPass').value = savedP;
+                doLogin();
+            }
+        };
+
+        function doLogin() {
+            const u = document.getElementById('admUser').value;
+            const p = document.getElementById('admPass').value;
+
+            // Check credentials via get_stats
+            fetch(`${PROVIDER_API}?username=${encodeURIComponent(u)}&password=${encodeURIComponent(p)}&action=get_stats`)
+                .then(r => r.json())
+                .then(data => {
+                    if (data.error) throw new Error();
+
+                    currentUser = u;
+                    currentPass = p;
+                    // Persist
+                    localStorage.setItem('finntv_admin_email', u);
+                    localStorage.setItem('finntv_admin_pass', p);
+
+                    document.getElementById('loginOverlay').style.display = 'none';
+                    initApp(data);
+                })
+                .catch(() => {
+                    document.getElementById('loginErr').style.display = 'block';
+                });
+        }
+
+        function initApp(stats) {
+            lucide.createIcons();
+            document.getElementById('userNameDisplay').innerText = "Administrator";
+            loadDashboard(stats);
+            fetchUsersFromServer();
+            loadM3UFiles();
+            loadActivity();
+            setInterval(loadActivity, 10000);
+        }
+
+        function logout() {
+            localStorage.clear();
+            location.reload();
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('active');
+            document.getElementById('mobileOverlay').classList.toggle('active');
+        }
+
+        // --- Navigation ---
+        function showView(view) {
+            document.querySelectorAll('.view-container').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+
+            document.getElementById(`view-${view}`).classList.add('active');
+            document.getElementById(`nav-${view}`).classList.add('active');
+
+            if (window.innerWidth <= 768) {
+                document.getElementById('sidebar').classList.remove('active');
+                document.getElementById('mobileOverlay').classList.remove('active');
+            }
+        }
+
+        // --- Data Fetching ---
+        function loadDashboard(stats) {
+            document.getElementById('statUsers').innerText = stats.users;
+            document.getElementById('statLive').innerText = stats.live_streams;
+            document.getElementById('statVod').innerText = stats.vod_streams;
+            document.getElementById('statSeries').innerText = stats.series;
+        }
+
+        function fetchUsersFromServer() {
+            fetch(`${PROVIDER_API}?username=${currentUser}&password=${currentPass}&action=get_users`)
+                .then(r => r.json())
+                .then(data => {
+                    originalUsers = JSON.parse(JSON.stringify(data)); // Deep copy
+                    usersBuffer = JSON.parse(JSON.stringify(data));
+                    renderUserTable();
+                });
+        }
+
+        function loadM3UFiles() {
+            fetch(`${API}?auth_user=${currentUser}&auth_pass=${currentPass}&action=get_m3us`)
+                .then(r => r.json())
+                .then(data => {
+                    const list = document.getElementById('m3uFileList');
+                    list.innerHTML = '';
+                    data.forEach(f => {
+                        const div = document.createElement('div');
+                        div.className = `file-item ${currentEditingFile === f.name ? 'active' : ''}`;
+                        div.onclick = () => loadM3UContent(f.name);
+                        div.innerHTML = `
+                            <div class="info">
+                                <span class="name">${f.name}</span>
+                                <span class="size">${(f.size / 1024).toFixed(1)} KB</span>
+                            </div>
+                            <i data-lucide="chevron-right" style="width:14px"></i>
+                        `;
+                        list.appendChild(div);
+                    });
+                    lucide.createIcons();
+                });
+        }
+
+        // --- User Actions (Staging) ---
+        function renderUserTable() {
+            const tbody = document.getElementById('userTableBody');
+            tbody.innerHTML = '';
+
+            usersBuffer.forEach((u, idx) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><b>${u.username}</b></td>
+                    <td style="font-family:monospace">••••••</td>
+                    <td>${u.created || 'N/A'}</td>
+                    <td>${u.exp || 'N/A'}</td>
+                    <td><span class="status-pill active">Active</span></td>
+                    <td>
+                        <button class="btn btn-danger btn-outline" style="padding: 0.3rem 0.6rem" onclick="deleteUserStaged(${idx})">
+                            <i data-lucide="trash-2" style="width:14px"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+            lucide.createIcons();
+            checkChanges();
+        }
+
+        function checkChanges() {
+            const usersChanged = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+            const filesChanged = Object.keys(stagedFiles).length > 0;
+
+            const badge = document.getElementById('unsavedBadge');
+            const syncBtn = document.getElementById('gitSyncBtn');
+            const saveM3UBtn = document.getElementById('saveM3UBtn');
+
+            if (usersChanged || filesChanged) {
+                badge.style.display = 'inline-flex';
+                syncBtn.style.display = 'inline-flex';
+            } else {
+                badge.style.display = 'none';
+                syncBtn.style.display = 'none';
+            }
+
+            // Highlight the M3U save button if current file is staged
+            if (currentEditingFile && stagedFiles[`m3u/${currentEditingFile}`]) {
+                saveM3UBtn.classList.remove('btn-primary');
+                saveM3UBtn.classList.add('btn-warning');
+                saveM3UBtn.innerHTML = '<i data-lucide="check-circle"></i> Changes Staged';
+            } else if (currentEditingFile) {
+                saveM3UBtn.classList.remove('btn-warning');
+                saveM3UBtn.classList.add('btn-primary');
+                saveM3UBtn.innerHTML = '<i data-lucide="save"></i> Stage File Update';
+            }
+            lucide.createIcons();
+        }
+
+        function showAddUserModal() {
+            document.getElementById('addUserModal').classList.add('active');
+            const d = new Date();
+            d.setFullYear(d.getFullYear() + 1);
+            document.getElementById('newExpDate').value = d.toISOString().split('T')[0];
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+
+        function saveUserStaged() {
+            const u = document.getElementById('newUsername').value;
+            const p = document.getElementById('newPassword').value;
+            const m = document.getElementById('newMaxConn').value;
+            const e = document.getElementById('newExpDate').value;
+
+            if (!u || !p) return;
+
+            usersBuffer.push({
+                username: u,
+                password: p,
+                max_connections: m,
+                exp_date: Math.floor(new Date(e).getTime() / 1000),
+                created_at: Math.floor(Date.now() / 1000),
+                created: new Date().toISOString().split('T')[0],
+                exp: e,
+                status: 'Active'
+            });
+
+            closeModal('addUserModal');
+            renderUserTable();
+            showToast("User added to staging area");
+        }
+
+        function deleteUserStaged(idx) {
+            if (!confirm("Remove this user?")) return;
+            usersBuffer.splice(idx, 1);
+            renderUserTable();
+        }
+
+        // --- Production Sync (GitHub) ---
+        async function syncUsersToGit() {
+            const btn = document.getElementById('gitSyncBtn');
+            const originalText = btn.innerHTML;
+            btn.disabled = true;
+            btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Pushing All Changes...';
+            lucide.createIcons();
+
+            try {
+                // 1. Sync Users if changed
+                const usersChanged = JSON.stringify(usersBuffer) !== JSON.stringify(originalUsers);
+                if (usersChanged) {
+                    const res = await fetch(API + '?action=sync_users_git&auth_user=' + encodeURIComponent(currentUser) + '&auth_pass=' + encodeURIComponent(currentPass), {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ users: usersBuffer })
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error("User Sync Failed: " + data.error);
+                }
+
+                // 2. Sync Files if changed
+                for (const path in stagedFiles) {
+                    const formData = new FormData();
+                    formData.append('auth_user', currentUser);
+                    formData.append('auth_pass', currentPass);
+                    formData.append('action', 'save_m3u_git');
+                    formData.append('file', path.replace('m3u/', ''));
+                    formData.append('content', stagedFiles[path]);
+
+                    const res = await fetch(API, { method: 'POST', body: formData });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(`File Sync Failed (${path}): ` + data.error);
+                }
+
+                // 3. Force Cache Regen & Push to Git
+                const cacheRes = await fetch(`${API}?action=push_cache_git&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const cacheData = await cacheRes.json();
+                if (!cacheData.success) throw new Error("System Cache Sync Failed: " + cacheData.error);
+
+                showToast("GitHub Synchronized & Cache Updated!", "success");
+                originalUsers = JSON.parse(JSON.stringify(usersBuffer));
+                stagedFiles = {};
+                checkChanges();
+
+                // Refresh dashboard stats
+                fetch(`${PROVIDER_API}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_stats`)
+                    .then(r => r.json()).then(d => loadDashboard(d));
+
+            } catch (err) {
+                alert(err.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+                lucide.createIcons();
+            }
+        }
+
+        async function loadActivity() {
+            const container = document.getElementById('activityTable');
+            try {
+                const res = await fetch(`${API}?action=get_activity&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const data = await res.json();
+
+                if (!data || data.length === 0) {
+                    container.innerHTML = `<div style="padding: 3rem; text-align: center; color: var(--text-muted)">
+                         <i data-lucide="activity" style="opacity: 0.5"></i>
+                         <p>No active streams detected. Check back later.</p>
+                     </div>`;
+                    lucide.createIcons();
+                    return;
+                }
+
+                let html = `<table>
+                     <thead>
+                         <tr>
+                             <th>User</th>
+                             <th>Content ID</th>
+                             <th>Type</th>
+                             <th>Time</th>
+                         </tr>
+                     </thead>
+                     <tbody>`;
+
+                data.forEach(log => {
+                    const time = new Date(log.time * 1000).toLocaleTimeString();
+                    const ago = Math.floor((Date.now() / 1000) - log.time);
+                    let agoStr = ago < 60 ? 'Just now' : Math.floor(ago / 60) + 'm ago';
+
+                    html += `<tr>
+                         <td><strong>${log.user}</strong></td>
+                         <td><code>${log.stream_id}</code></td>
+                         <td><span class="badge ${log.type === 'live' ? '' : 'yellow'}">${log.type.toUpperCase()}</span></td>
+                         <td>${agoStr} <small style="opacity:0.5">(${time})</small></td>
+                     </tr>`;
+                });
+
+                html += '</tbody></table>';
+                container.innerHTML = html;
+
+            } catch (e) {
+                container.innerHTML = `<div style="padding: 1rem; color: var(--danger)">Failed to load activity.</div>`;
+            }
+        }
+
+        async function regenerateCache(silent = false) {
+            const btn = document.getElementById('regenBtn');
+            const originalText = btn.innerHTML;
+            if (!silent) {
+                btn.disabled = true;
+                btn.innerHTML = '<i data-lucide="loader" class="spin"></i> Refreshing...';
+            }
+
+            try {
+                const res = await fetch(`${API}?action=push_cache_git&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`);
+                const data = await res.json();
+                if (data.success) {
+                    if (!silent) showToast(`Cache refreshed and pushed to GitHub!`, "success");
+                    // Refresh stats
+                    fetch(`${PROVIDER_API}?username=${encodeURIComponent(currentUser)}&password=${encodeURIComponent(currentPass)}&action=get_stats`)
+                        .then(r => r.json()).then(d => loadDashboard(d));
+                } else {
+                    if (!silent) alert(data.error);
+                }
+            } catch (e) {
+                if (!silent) alert("Cache refresh failed. Probably Vercel permissions block.");
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+                lucide.createIcons();
+            }
+        }
+
+        // --- M3U Editor Actions ---
+        function loadM3UContent(file) {
+            currentEditingFile = file;
+            document.getElementById('currentFileName').innerText = file;
+
+            // If already staged, show staged content
+            if (stagedFiles[`m3u/${file}`]) {
+                document.getElementById('m3uEditor').value = stagedFiles[`m3u/${file}`];
+                document.getElementById('saveM3UBtn').disabled = false;
+                checkChanges();
+                return;
+            }
+
+            document.getElementById('m3uEditor').value = "Loading from server...";
+
+            fetch(`${API}?action=read_m3u&file=${encodeURIComponent(file)}&auth_user=${encodeURIComponent(currentUser)}&auth_pass=${encodeURIComponent(currentPass)}`)
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('m3uEditor').value = data.content || '';
+                    document.getElementById('saveM3UBtn').disabled = false;
+                    loadM3UFiles(); // Refresh list active state
+                    checkChanges();
+                });
+        }
+
+        function saveM3UToGit() {
+            if (!currentEditingFile) return;
+            const content = document.getElementById('m3uEditor').value;
+            stagedFiles[`m3u/${currentEditingFile}`] = content;
+            showToast(`Revision of ${currentEditingFile} staged.`, "info");
+            checkChanges();
+        }
+
+        function createNewM3U() {
+            const name = prompt("Enter new filename (e.g. custom.m3u):");
+            if (!name || !name.endsWith('.m3u')) return;
+
+            const formData = new FormData();
+            formData.append('auth_user', currentUser);
+            formData.append('auth_pass', currentPass);
+            formData.append('action', 'create_m3u_git');
+            formData.append('file', name);
+
+            fetch(API, { method: 'POST', body: formData })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        showToast(`File ${name} created!`, "success");
+                        loadM3UFiles();
+                    } else {
+                        alert(data.error);
+                    }
+                });
+        }
+
+        // --- Helpers ---
+        function showToast(msg, type = "info") {
+            const t = document.getElementById('mainToast');
+            document.getElementById('toastMsg').innerText = msg;
+            t.style.display = 'flex';
+            setTimeout(() => t.style.display = 'none', 3000);
+        }
+
+        // Auto-refresh icons if changed
+        document.addEventListener('click', () => { setTimeout(() => lucide.createIcons(), 50); });
+
+    </script>
+</body>
+
+</html>

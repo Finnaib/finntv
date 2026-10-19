@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinnTV - Premium Streaming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --disney-bg: #040714;
+            --disney-nav: rgba(4, 7, 20, 0.95);
+            --disney-card: rgba(26, 29, 41, 0.6);
+            --disney-hover: rgba(37, 40, 64, 0.5);
+            --disney-blue: #0063e5;
+            --disney-blue-hover: #0483ee;
+            --disney-accent: #f9f9f9;
+            --text-main: #f9f9f9;
+            --text-muted: #a8a8b3;
+        }
+
+        * {
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--disney-bg);
+            color: var(--text-main);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* ─── TOP NAV (Disney+ style) ─────────────────────── */
+        header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: 72px;
+            background: linear-gradient(to bottom, rgba(4,7,20,0.98) 0%, rgba(4,7,20,0.6) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            display: flex;
+            align-items: center;
+            padding: 0 60px;
+            z-index: 100;
+            gap: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .brand-logo {
+            font-size: 28px;
+            font-weight: 900;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: -0.8px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+
+        .logo-badge {
+            background: linear-gradient(135deg, #0063e5 0%, #0483ee 100%);
+            color: #fff;
+            padding: 3px 9px;
+            border-radius: 6px;
+            font-size: 0.62em;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            box-shadow: 0 0 15px rgba(0, 99, 229, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            flex: 1;
+        }
+
+        nav a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 700;
+            transition: all 0.25s ease;
+            letter-spacing: 0.8px;
+            position: relative;
+            padding: 6px 0;
+            text-transform: uppercase;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 2px;
+            background: #fff;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.25s ease-out;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        nav a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .btn-nav {
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 800;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .btn-nav-outline {
+            color: #fff;
+            background: rgba(255,255,255,0.03);
+            border: 1.5px solid rgba(255,255,255,0.2);
+        }
+
+        .btn-nav-outline:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.6);
+            box-shadow: 0 4px 15px rgba(255,255,255,0.05);
+        }
+
+        .btn-nav-solid {
+            background: var(--disney-blue);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 99, 229, 0.3);
+        }
+
+        .btn-nav-solid:hover {
+            background: var(--disney-blue-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 99, 229, 0.5);
+        }
+
+        /* ─── HERO BANNER (Disney+ Style Backdrop) ────────── */
+        .hero {
+            position: relative;
+            height: 90vh;
+            min-height: 600px;
+            display: flex;
+            align-items: flex-end;
+            padding: 0 6% 100px;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 70% 80% at 85% 20%, rgba(0,99,229,0.3) 0%, transparent 60%),
+                radial-gradient(ellipse 70% 60% at 15% 80%, rgba(37,40,64,0.4) 0%, transparent 70%),
+                linear-gradient(to bottom, rgba(4,7,20,0.1) 0%, rgba(4,7,20,0.7) 70%, rgba(4,7,20,1) 100%);
+            z-index: 1;
+        }
+
+        .hero-bg::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+            background-size: 180px 180px, 120px 120px;
+            background-position: 0 0, 60px 60px;
+            opacity: 0.15;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 5;
+            max-width: 650px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #0063e5 0%, #0483ee 100%);
+            color: #fff;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 16px;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 4px 10px rgba(0, 99, 229, 0.2);
+        }
+
+        .hero-title {
+            font-size: 5rem;
+            font-weight: 900;
+            line-height: 1.0;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+            color: #fff;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+        }
+
+        .hero-desc {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            line-height: 1.7;
+            font-weight: 500;
+            max-width: 540px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+
+        .btn-hero {
+            padding: 16px 40px;
+            font-size: 15px;
+            font-weight: 800;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-hero-primary {
+            background: #fff;
+            color: #040714;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-hero-primary:hover {
+            background: #fff;
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-hero-secondary {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .btn-hero-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.6);
+            transform: scale(1.05);
+        }
+
+        /* ─── DISNEY+ BRAND HUBS OVERHAUL ────────────────── */
+        .brands-section {
+            padding: 0 6% 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .brand-hub {
+            position: relative;
+            height: 100px;
+            border-radius: 16px;
+            background: radial-gradient(circle at center, rgba(26,29,41,0.85) 0%, rgba(12,14,21,0.95) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.06);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            text-decoration: none;
+        }
+
+        .brand-hub:hover {
+            transform: scale(1.08) translateY(-4px);
+            border-color: rgba(249, 249, 249, 0.8);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 20px var(--glow-color);
+        }
+
+        .brand-hub span {
+            position: relative;
+            z-index: 5;
+            font-size: 1.35rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(to right, #ffffff 0%, #e2e8f0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+
+        /* SVG Crest behind text */
+        .brand-svg {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            z-index: 1;
+            opacity: 0.05;
+            fill: #fff;
+            transition: all 0.4s ease;
+            pointer-events: none;
+        }
+
+        .brand-hub:hover .brand-svg {
+            opacity: 0.16;
+            transform: scale(1.2);
+            fill: var(--glow-color);
+            filter: drop-shadow(0 0 10px var(--glow-color));
+        }
+
+        /* Ambient colored pulse glow on hover */
+        .brand-hub::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle, var(--glow-color) 0%, transparent 65%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .brand-hub:hover::before {
+            opacity: 0.22;
+        }
+
+        /* Define brand glow colors */
+        .hub-world { --glow-color: #3b82f6; }
+        .hub-india { --glow-color: #f97316; }
+        .hub-sport { --glow-color: #10b981; }
+        .hub-egypt { --glow-color: #facc15; }
+        .hub-asia  { --glow-color: #ec4899; }
+        .hub-spain { --glow-color: #a855f7; }
+
+        /* ─── M3U PLAYLISTS SECTION ──────────────────────── */
+        .section {
+            padding: 60px 6%;
+            position: relative;
+            z-index: 10;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .section-divider {
+            width: 6px;
+            height: 32px;
+            background: linear-gradient(to bottom, #0063e5, #0483ee);
+            border-radius: 4px;
+            flex-shrink: 0;
+            box-shadow: 0 0 10px rgba(0, 99, 229, 0.5);
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: -0.5px;
+            color: #fff;
+        }
+
+        .section-sub {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-left: auto;
+            font-weight: 600;
+        }
+
+        /* Glassmorphic Playlists Grid */
+        .playlist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .playlist-card {
+            background: linear-gradient(145deg, rgba(26, 29, 41, 0.8) 0%, rgba(15, 17, 26, 0.9) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.05);
+            padding: 35px 30px;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+
+        /* Top Accent Line */
+        .playlist-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
+            background: var(--accent-text);
+            opacity: 0.8;
+            box-shadow: 0 0 20px var(--accent-text);
+            transition: opacity 0.4s ease;
+        }
+
+        /* Ambient Glow based on accent */
+        .playlist-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top right, var(--accent-text) 0%, transparent 60%);
+            opacity: 0.05;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+        }
+
+        .playlist-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0,0,0,0.3);
+            border-color: rgba(255,255,255,0.1);
+        }
+        
+        .playlist-card:hover::after {
+            opacity: 0.15;
+        }
+
+        .playlist-card:hover::before {
+            opacity: 1;
+        }
+
+        .card-content {
+            position: relative;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Big watermark abbreviation */
+        .card-watermark {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 8rem;
+            font-weight: 900;
+            color: var(--accent-text);
+            opacity: 0.05;
+            line-height: 1;
+            z-index: 0;
+            user-select: none;
+            transition: all 0.5s ease;
+        }
+
+        .playlist-card:hover .card-watermark {
+            transform: scale(1.1) rotate(5deg);
+            opacity: 0.1;
+        }
+
+        .card-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            z-index: 5;
+        }
+
+        .card-title::before {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--accent-text);
+            box-shadow: 0 0 10px var(--accent-text);
+        }
+
+        .card-link-text {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 30px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            word-break: break-all;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.05);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.5);
+            z-index: 5;
+        }
+
+        .copy-btn {
+            background: rgba(255,255,255,0.05);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-top: auto;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            backdrop-filter: blur(10px);
+            z-index: 5;
+        }
+
+        .copy-btn:hover {
+            background: var(--accent-text);
+            color: #000;
+            border-color: var(--accent-text);
+            box-shadow: 0 5px 20px var(--accent-text);
+            transform: translateY(-2px);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        .copy-btn.copied {
+            background: #10b981;
+            color: #fff;
+            border-color: #10b981;
+            box-shadow: 0 5px 20px rgba(16, 185, 129, 0.4);
+        }
+
+        .copy-icon {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+            transition: transform 0.2s;
+        }
+
+        .copy-btn:hover .copy-icon {
+            transform: scale(1.1);
+        }
+
+        /* ─── FOOTER ────────────────────────────────────────── */
+        footer {
+            padding: 60px 6% 40px;
+            background: #0b0e17;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            position: relative;
+            z-index: 10;
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 600;
+            transition: color 0.25s;
+        }
+
+        footer a:hover { color: #fff; }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 30px; right: 30px;
+            background: #1a1d29;
+            color: #fff;
+            padding: 16px 24px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 14px;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+            z-index: 9999;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .toast.show { opacity: 1; transform: translateY(0); }
+
+        /* ─── Mobile ────────────────────────────────────────── */
+        @media (max-width: 768px) {
+            header { padding: 0 24px; gap: 16px; }
+            .hero { padding: 0 6% 80px; height: 80vh; }
+            .hero-title { font-size: 3.2rem; }
+            .hero-desc { font-size: 1rem; }
+            .brands-section { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+            .brand-hub { height: 75px; border-radius: 12px; }
+            .brand-hub span { font-size: 0.95rem; letter-spacing: 1px; }
+            .brand-svg { width: 45px; height: 45px; }
+            .section { padding: 40px 6%; }
+        }
+        @media (max-width: 480px) {
+            .brands-section { grid-template-columns: repeat(2, 1fr); }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#" class="brand-logo">Finn<span class="logo-badge">TV</span></a>
+    <nav>
+        <a href="#playlists">Channels</a>
+        <a href="user_portal.html">My Account</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+    <div class="nav-right">
+        <a href="player/index.php" class="btn-nav btn-nav-outline">Web Player</a>
+        <a href="user_portal.html" class="btn-nav btn-nav-solid">Sign In</a>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-badge">Premium Live TV</div>
+        <h1 class="hero-title">Stream Without Limits</h1>
+        <p class="hero-desc">Thousands of live channels from India, Spain, Asia, Egypt and worldwide — sports, news, entertainment. All in one place, any device.</p>
+        <div class="hero-buttons">
+            <a href="player/index.php" class="btn-hero btn-hero-primary">Launch Player</a>
+            <a href="#playlists" class="btn-hero btn-hero-secondary">View Channels</a>
+        </div>
+    </div>
+</section>
+
+<!-- Overhauled Brand Hubs (Disney+ style) -->
+<div class="brands-section">
+    <a href="player/index.php?m3u=../m3u/world.m3u" class="brand-hub hub-world">
+        <!-- Globe SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/></svg>
+        <span>World</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/india.m3u" class="brand-hub hub-india">
+        <!-- Dharma Chakra SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 2v20M2 12h20M5 5l14 14M5 19L19 5" stroke="currentColor" stroke-width="1.5"/></svg>
+        <span>India</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/sport.m3u" class="brand-hub hub-sport">
+        <!-- Trophy SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v3c0 2.44 1.72 4.48 4 4.88v2.12c0 2.2 1.8 4 4 4h2v2H9v2h6v-2h-2v-2h2c2.2 0 4-1.8 4-4v-2.12c2.28-.4 4-2.44 4-4.88V7c0-1.1-.9-2-2-2zM5 10V7h2v3H5zm14 0h-2V7h2v3z"/></svg>
+        <span>Sports</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/egypt.m3u" class="brand-hub hub-egypt">
+        <!-- Pyramid SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2L2 20h20L12 2zm0 4.8L18.6 18H5.4L12 6.8z"/></svg>
+        <span>Egypt</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/asia.m3u" class="brand-hub hub-asia">
+        <!-- Pagoda/Temple SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2L1 7h22L12 2zm0 4v3M3 11h18v2H3v-2zm2 4h14v2H5v-2zm-3 6h20v2H2v-2z" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+        <span>Asia</span>
+    </a>
+    <a href="player/index.php?m3u=../m3u/spanish.m3u" class="brand-hub hub-spain">
+        <!-- Shield/Crown SVG -->
+        <svg class="brand-svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 4.5 9 10 10s10-4 10-10c0-5.5-4.5-10-10-10zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm-2-11h4v6h-4z"/></svg>
+        <span>Spain</span>
+    </a>
+</div>
+
+<!-- M3U Playlists -->
+<section class="section" id="playlists">
+    <div class="section-header">
+        <div class="section-divider"></div>
+        <h2>Direct M3U Links</h2>
+        <span class="section-sub">Paste into VLC, Apple TV, or any IPTV player</span>
+    </div>
+    <div class="playlist-grid">
+
+        <div class="playlist-card" data-url="/m3u/world.m3u" style="--accent-text: #7986cb;">
+            <div class="card-watermark">WO</div>
+            <div class="card-content">
+                <div class="card-title">World Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="playlist-card" data-url="/m3u/india.m3u" style="--accent-text: #ef5350;">
+            <div class="card-watermark">IN</div>
+            <div class="card-content">
+                <div class="card-title">India Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="playlist-card" data-url="/m3u/sport.m3u" style="--accent-text: #66bb6a;">
+            <div class="card-watermark">SP</div>
+            <div class="card-content">
+                <div class="card-title">Sport Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="playlist-card" data-url="/m3u/egypt.m3u" style="--accent-text: #ffa726;">
+            <div class="card-watermark">EG</div>
+            <div class="card-content">
+                <div class="card-title">Egypt Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="playlist-card" data-url="/m3u/asia.m3u" style="--accent-text: #ec407a;">
+            <div class="card-watermark">AS</div>
+            <div class="card-content">
+                <div class="card-title">Asia Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="playlist-card" data-url="/m3u/spanish.m3u" style="--accent-text: #ab47bc;">
+            <div class="card-watermark">ES</div>
+            <div class="card-content">
+                <div class="card-title">Spain Channels</div>
+                <div class="card-link-text">Loading link...</div>
+                <button class="copy-btn">
+                    <svg class="copy-icon" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                    <span>COPY LINK</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-links">
+        <a href="player/index.php">Web Player</a>
+        <a href="user_portal.html">User Portal</a>
+        <a href="admin.html">Admin</a>
+        <a href="mailto:customer-care@finnaib.odoo.com">Contact</a>
+    </div>
+    <p>&copy; 2026 FinnTV. All rights reserved.</p>
+</footer>
+
+<script>
+    function showToast(message) {
+        var old = document.querySelector('.toast');
+        if (old && old.parentNode) old.parentNode.removeChild(old);
+
+        var t = document.createElement('div');
+        t.className = 'toast';
+        t.innerHTML = '<span style="color:#10b981;font-size:1.1em">&#10003;</span> ' + message;
+        document.body.appendChild(t);
+
+        setTimeout(function(){ t.classList.add('show'); }, 10);
+        setTimeout(function(){
+            t.classList.remove('show');
+            setTimeout(function(){ if (t.parentNode) t.parentNode.removeChild(t); }, 400);
+        }, 3000);
+    }
+
+    // Set dynamic URLs and setup Copy logic
+    document.querySelectorAll('.playlist-card').forEach(function(card) {
+        var btn = card.querySelector('.copy-btn');
+        var path = card.getAttribute('data-url');
+        var fullUrl = window.location.origin + path;
+        
+        var linkTextEl = card.querySelector('.card-link-text');
+        if (linkTextEl) {
+            linkTextEl.innerText = fullUrl;
+        }
+
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(fullUrl)
+                    .then(handleSuccess)
+                    .catch(fallbackCopy);
+            } else {
+                fallbackCopy();
+            }
+
+            function fallbackCopy() {
+                var tempInput = document.createElement('input');
+                tempInput.value = fullUrl;
+                tempInput.style.position = 'absolute';
+                tempInput.style.left = '-9999px';
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                try {
+                    document.execCommand('copy');
+                    handleSuccess();
+                } catch (err) {
+                    showToast('Failed to copy. Please manually copy the link.');
+                }
+                document.body.removeChild(tempInput);
+            }
+
+            function handleSuccess() {
+                var label = btn.querySelector('span');
+                
+                btn.classList.add('copied');
+                label.innerText = 'COPIED!';
+                
+                showToast('Copied to clipboard!');
+                
+                setTimeout(function() {
+                    btn.classList.remove('copied');
+                    label.innerText = 'COPY LINK';
+                }, 2000);
+            }
+        });
+    });
+
+    // Fade nav on scroll
+    var header = document.querySelector('header');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 60) {
+            header.style.background = 'rgba(4,7,20,0.98)';
+        } else {
+            header.style.background = '';
+        }
+    });
+</script>
+</body>
+</html>
