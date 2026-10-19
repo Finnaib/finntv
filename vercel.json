@@ -1,12 +1,8 @@
 {
-  "": "https://openapi.vercel.sh/vercel.json",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.9.0",
-      "includeFiles": "{core/**,data/**,m3u/**,config.php,xtream_config.json}"
-    },
-    "player/index.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
@@ -77,6 +73,10 @@
     },
     {
       "source": "/player/",
+      "destination": "/player/index.html"
+    },
+    {
+      "source": "/player/index.php",
       "destination": "/player/index.html"
     }
   ]
