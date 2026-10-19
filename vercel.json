@@ -1,97 +1,88 @@
 {
-    "version":  2,
-    "builds":  [
-                   {
-                       "src":  "api/*.php",
-                       "use":  "vercel-php@0.7.1",
-                       "config":  {
-                                      "includeFiles":  [
-                                                           "core/**",
-                                                           "data/data.json",
-                                                           "data/id_map.json",
-                                                           "config.php",
-                                                           "xtream_config.json"
-                                                       ]
-                                  }
-                   },
-                   {
-                       "src":  "player/index.php",
-                       "use":  "vercel-php@0.7.1"
-                   },
-                   {
-                       "src":  "api/*.js",
-                       "use":  "@vercel/node"
-                   },
-                   {
-                       "src":  "!(api/**)",
-                       "use":  "@vercel/static"
-                   }
-               ],
-    "routes":  [
-                   {
-                       "src":  "/api/m3u.php",
-                       "dest":  "/api/m3u.php"
-                   },
-                   {
-                       "src":  "/api/xtream_proxy.php",
-                       "dest":  "/api/xtream_proxy.php"
-                   },
-                   {
-                       "src":  "/m3u/(.*\\.m3u)",
-                       "dest":  "/m3u/$1",
-                       "headers":  {
-                                       "Content-Type":  "application/x-mpegurl",
-                                       "Cache-Control":  "public, max-age=0, must-revalidate"
-                                   }
-                   },
-
-                   {
-                       "src":  "/player_api.php",
-                       "dest":  "/api/player_api.php"
-                   },
-                   {
-                       "src":  "/get.php",
-                       "dest":  "/api/get.php"
-                   },
-                   {
-                       "src":  "/live/(.*)",
-                       "dest":  "/api/live.php?type=live"
-                   },
-                   {
-                       "src":  "/movie/(.*)",
-                       "dest":  "/api/live.php?type=movie"
-                   },
-                   {
-                       "src":  "/series/(.*)",
-                       "dest":  "/api/live.php?type=series"
-                   },
-                   {
-                       "src":  "/panel_api.php",
-                       "dest":  "/api/panel_api.php"
-                   },
-                   {
-                       "src":  "/xmltv.php",
-                       "dest":  "/api/xmltv.php"
-                   },
-                   {
-                       "src":  "/user_portal.html",
-                       "dest":  "/user_portal.html"
-                   },
-                   {
-                       "src":  "/admin.html",
-                       "dest":  "/admin.html"
-                   },
-                   {
-                       "src":  "/player/(.*)",
-                       "dest":  "/player/$1"
-                   },
-                   {
-                       "src":  "/",
-                       "dest":  "/index.html"
-                   },
-                   {
-                       "src":  "/player/index.html",
-                       "dest":  "/player/index.php"
-                   }
-               ]
+  "version": 2,
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.9.0",
+      "includeFiles": [
+        "core/**",
+        "data/**",
+        "m3u/**",
+        "config.php",
+        "xtream_config.json"
+      ]
+    },
+    "player/index.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  },
+  "headers": [
+    {
+      "source": "/m3u/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/x-mpegurl"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "/player/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/player_api.php",
+      "destination": "/api/player_api.php"
+    },
+    {
+      "source": "/get.php",
+      "destination": "/api/get.php"
+    },
+    {
+      "source": "/live/:path*",
+      "destination": "/api/live.php?type=live"
+    },
+    {
+      "source": "/movie/:path*",
+      "destination": "/api/live.php?type=movie"
+    },
+    {
+      "source": "/series/:path*",
+      "destination": "/api/live.php?type=series"
+    },
+    {
+      "source": "/panel_api.php",
+      "destination": "/api/panel_api.php"
+    },
+    {
+      "source": "/xmltv.php",
+      "destination": "/api/xmltv.php"
+    },
+    {
+      "source": "/player",
+      "destination": "/player/index.html"
+    },
+    {
+      "source": "/player/",
+      "destination": "/player/index.html"
+    }
+  ]
 }

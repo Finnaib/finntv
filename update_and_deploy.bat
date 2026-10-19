@@ -8,7 +8,7 @@ echo [1/4] Syncing with Provider (M3U Import)...
 python import_xtream.py
 if %errorlevel% neq 0 (
     echo Error: Failed to fetch data from provider!
-    pause
+    if /i "%~1" neq "/auto" pause
     exit /b %errorlevel%
 )
 echo.
@@ -67,7 +67,7 @@ echo [4/4] Building Optimized Data Cache ^& ID Map...
 python build_data.py
 if %errorlevel% neq 0 (
     echo Error: Failed to build data cache!
-    pause
+    if /i "%~1" neq "/auto" pause
     exit /b %errorlevel%
 )
 
@@ -103,7 +103,7 @@ REM Add all changes
 git add -A
 if %errorlevel% neq 0 (
     echo Error: Failed to stage changes!
-    pause
+    if /i "%~1" neq "/auto" pause
     exit /b %errorlevel%
 )
 
@@ -118,7 +118,7 @@ REM Pull latest changes to avoid non-fast-forward errors
 git pull origin main --rebase
 if %errorlevel% neq 0 (
     echo Error: Failed to pull from GitHub! You may have conflicts to resolve.
-    pause
+    if /i "%~1" neq "/auto" pause
     exit /b %errorlevel%
 )
 
@@ -127,7 +127,7 @@ git push origin main
 if %errorlevel% neq 0 (
     echo Error: Failed to push to GitHub!
     echo Please check your internet connection and Git credentials.
-    pause
+    if /i "%~1" neq "/auto" pause
     exit /b %errorlevel%
 )
 
