@@ -1,14 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 2,
   "functions": {
-    "api/*.php": {
+    "api/**/*.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
   "headers": [
     {
-      "source": "/m3u/(.*)",
+      "source": "/m3u/:path*",
       "headers": [
         {
           "key": "Content-Type",
@@ -25,7 +24,7 @@
       ]
     },
     {
-      "source": "/player/(.*)",
+      "source": "/player/:path*",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
