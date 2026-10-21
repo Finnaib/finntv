@@ -3202,14 +3202,35 @@ http://mhav1.com:2095/live/ht2990/742579548/2943.ts
 # General
 ################################################################################
 
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://Tdo@fulbollibre.top/live/espn2/high.m3u8
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://Tdo@instreams.xyz/live3/SSF47/index.m3u8?st=Q894FMoD_7e9bqqWjU2GSg&e=1792618782
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://customer-v4n77b7tsunuc58z.cloudflarestream.com/ba37fa24fd8f0e505544ca095efb815d/manifest/video.m3u8?@ateneaxlx_ac
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://cablered.iptvperu.tv:1936/cablered/espn_new/playlist.m3u8?@ateneaxlx_ac
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://cablered.iptvperu.tv:1936/cablered/espn2_new/playlist.m3u8?@ateneaxlx_ac
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://Tdo@sharkstreams.cc/live/essoo/high.m3u8
+
+#EXTINF:-1 group-title="General",ESPN 🇦🇷
+https://Tdo@dog.zonalivetv.biz/playstream.php?stream_tv=https%3A%2F%2F58b33x.awqb0f40a9yo.net%3A8443%2Fhls%2Faiif5sr0kjzo8qe.m3u8%3Fs%3DzY7ItP1QbINkcR6wF3SBXw%26e%3D1792622422
+
+#EXTINF:-1 group-title="General",BEIN 1 🇶🇦
+https://cp11.adabmedia.com/hls2/bein1.m3u8
+
 #EXTINF:-1 group-title="General",BEIN 1 🇶🇦
 https://22soso.s3.us-east-2.amazonaws.com/bein1/master.m3u8
 
 #EXTINF:-1 group-title="General",BEIN 1 🇶🇦
 https://22soso.s3.us-east-2.amazonaws.com/bein1/720p/manifest.m3u8
-
-#EXTINF:-1 group-title="General",BEIN 1 🇶🇦
-https://cp11.adabmedia.com/hls2/bein1.m3u8
 
 #EXTINF:-1 group-title="General",BEIN 1 🇶🇦
 https://balance.footballii.ir/hls2/bein1.m3u8
