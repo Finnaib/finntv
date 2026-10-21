@@ -65,9 +65,6 @@ https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-11 (720p)
 http://74.91.26.218:82/live/cctv11hd.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-11
-https://xykt-fix.github.io/play/a02b/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-12 (720p)
 http://74.91.26.218:82/live/cctv12hd.m3u8
 
@@ -79,9 +76,6 @@ http://74.91.26.218:82/live/cctv13hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-14 (1080p)
 http://74.91.26.218:82/live/cctv14hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-15 (1080p)
-https://xykt-fix.github.io/play/a02e/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV-15 (720p)
 http://74.91.26.218:82/live/cctv15hd.m3u8
@@ -140,35 +134,17 @@ http://gmxw.7766.org:808/hls/102/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV16
 http://gmxw.7766.org:808/hls/169/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV17
-https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV17
-https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV3
+http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5
 http://gmxw.7766.org:808/hls/93/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5+
-http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV8
 http://gmxw.7766.org:808/hls/96/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV8
 http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV怀旧剧场
-https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV文化精品
-https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV第一剧场
-https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV第一剧场
-https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
@@ -177,10 +153,10 @@ http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN纪录
-https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+https://0472.org/hls/cgtnd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN纪录
-https://0472.org/hls/cgtnd.m3u8
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
@@ -872,10 +848,10 @@ https://jmp2.uk/stvp-KR400003IP
 #EXTINF:-1 tvg-chno="1332" tvg-id="KRBC4400002AO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4400002AO_20260506T053640SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1332. KBS 최고다 이순신
 https://jmp2.uk/stvp-KRBC4400002AO
 
-#EXTINF:-1 tvg-chno="1333" tvg-id="KRBC3200031KO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200031KO_20260901T054054SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1333. tvN 인급동
+#EXTINF:-1 tvg-chno="1333" tvg-id="KRBC3200031KO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200031KO_20261020T053330SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1333. tvN 인급동
 https://jmp2.uk/stvp-KRBC3200031KO
 
-#EXTINF:-1 tvg-chno="1335" tvg-id="KRBC3200018FU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200018FU_20261006T042948SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1335. tvN 서초동
+#EXTINF:-1 tvg-chno="1335" tvg-id="KRBC3200018FU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200018FU_20261020T053333SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1335. tvN 서초동
 https://jmp2.uk/stvp-KRBC3200018FU
 
 #EXTINF:-1 tvg-chno="1337" tvg-id="KR7000023Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR7000023Z_20261006T042846SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1337. KBS 오월의 청춘
@@ -911,7 +887,7 @@ https://jmp2.uk/stvp-KRBC4500003W6
 #EXTINF:-1 tvg-chno="2046" tvg-id="KRBC3200016H1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200016H1_20261006T042954SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2046. tvN 언젠가는 슬기로울 전공의생활
 https://jmp2.uk/stvp-KRBC3200016H1
 
-#EXTINF:-1 tvg-chno="2047" tvg-id="KRBC4500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500002Q4_20260901T054059SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2047. tvN 정년이
+#EXTINF:-1 tvg-chno="2047" tvg-id="KRBC4500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500002Q4_20261020T053336SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2047. tvN 정년이
 https://jmp2.uk/stvp-KRBC4500002Q4
 
 #EXTINF:-1 tvg-chno="2048" tvg-id="KRBC4500001A5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500001A5_20260728T033458SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2048. tvN 어느날 우리집 현관으로 멸망이 들어왔다 4K
@@ -1031,7 +1007,7 @@ https://jmp2.uk/stvp-KRBB420000769
 #EXTINF:-1 tvg-chno="1372" tvg-id="KRBC40000010R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC40000010R_20261006T042815SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 1372. EBS 극한 직업
 https://jmp2.uk/stvp-KRBC40000010R
 
-#EXTINF:-1 tvg-chno="1401" tvg-id="KRBD4300003MW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD4300003MW_20261006T042833SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 1401. JTBC 차이나는 클라스
+#EXTINF:-1 tvg-chno="1401" tvg-id="KRBD4300003MW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBD4300003MW_20261020T053326SQUARE.png" tvg-country="KR" group-title="South Korea",[시사/교양] 1401. JTBC 차이나는 클라스
 https://jmp2.uk/stvp-KRBD4300003MW
 
 #EXTINF:-1 tvg-chno="2296" tvg-id="KR3700002JT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR3700002JT_20260901T053954SQUARE.png" tvg-country="KR" group-title="South Korea",[실시간] 2296. TV조선
@@ -1079,7 +1055,7 @@ https://jmp2.uk/stvp-KR12000017G
 #EXTINF:-1 tvg-chno="1383" tvg-id="KRBC3200004D1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200004D1_20260422T013754SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 1383. PLAYGRAM MOVIES
 https://jmp2.uk/stvp-KRBC3200004D1
 
-#EXTINF:-1 tvg-chno="2171" tvg-id="KR2000012AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000012AI_20261006T042803SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 2171. Genie 어워드 특집
+#EXTINF:-1 tvg-chno="2171" tvg-id="KR2000012AI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR2000012AI_20261020T053321SQUARE.png" tvg-country="KR" group-title="South Korea",[영화] 2171. Genie 어워드 특집
 https://jmp2.uk/stvp-KR2000012AI
 
 #EXTINF:-1 tvg-chno="1334" tvg-id="KRBC3200029C4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200029C4_20260728T033454SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1334. tvN 스트리트푸드파이터 1~2 이어보기
@@ -1475,6 +1451,12 @@ https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Vnnna1C.png" group-title="Vietnam",VTV5 HD (1080p)
 https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xiuHjEQ.png" group-title="Vietnam",VTV5 Tay Nam Bo HD
+https://dethich.pw/vtv5tnb/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Hlcnqqt.png" group-title="Vietnam",VTV5 Tay Nguyen HD
+http://dethich.pw/vtv5tn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZwoP823.png" group-title="Vietnam",VTV7 HD (1080p)
 https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/index.m3u8

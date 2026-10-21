@@ -887,9 +887,6 @@ http://103.151.60.162:2122/play/a021/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="INDIA",Sony Sports Ten 5 (576p)
 http://103.151.60.162:2122/play/a028/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="INDIA",Star Sports 1 (576p)
-http://103.151.60.162:2122/play/a01a/index.m3u8?hls
-
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png" group-title="INDIA",Star Sports 2 (576p)
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
 
@@ -1067,7 +1064,7 @@ https://jmp2.uk/stvp-IN4000635D
 #EXTINF:-1 tvg-chno="2752" tvg-id="IN400064VZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400064VZ_20260623T015554SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2752. Punjabi Shorts
 https://jmp2.uk/stvp-IN400064VZ
 
-#EXTINF:-1 tvg-chno="2837" tvg-id="IN3900027S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900027S7_20261013T051753SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2837. Aashirwad TV
+#EXTINF:-1 tvg-chno="2837" tvg-id="IN3900027S7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900027S7_20261020T052417SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2837. Aashirwad TV
 https://jmp2.uk/stvp-IN3900027S7
 
 #EXTINF:-1 tvg-chno="2858" tvg-id="IN2200002GZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2200002GZ_20260818T082711SQUARE.png" tvg-country="IN" group-title="India",[Entertainment] 2858. The Cube
@@ -1094,13 +1091,13 @@ https://jmp2.uk/stvp-IN3800001ZH
 #EXTINF:-1 tvg-chno="1063" tvg-id="INBC2800002WJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800002WJ_20260715T005755SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1063. NDTV India
 https://jmp2.uk/stvp-INBC2800002WJ
 
-#EXTINF:-1 tvg-chno="1064" tvg-id="INBA490002119" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA490002119_20261013T051702SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1064. Republic Bharat
+#EXTINF:-1 tvg-chno="1064" tvg-id="INBA490002119" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA490002119_20261020T052351SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1064. Republic Bharat
 https://jmp2.uk/stvp-INBA490002119
 
 #EXTINF:-1 tvg-chno="1065" tvg-id="IN3900001YE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3900001YE_20260623T015508SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1065. News24
 https://jmp2.uk/stvp-IN3900001YE
 
-#EXTINF:-1 tvg-chno="1067" tvg-id="INBD1300010WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300010WP_20260929T041352SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1067. News18 India
+#EXTINF:-1 tvg-chno="1067" tvg-id="INBD1300010WP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD1300010WP_20261020T052426SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1067. News18 India
 https://jmp2.uk/stvp-INBD1300010WP
 
 #EXTINF:-1 tvg-chno="1069" tvg-id="IN3800003SV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800003SV_20261013T051816SQUARE.png" tvg-country="IN" group-title="India",[Hindi News] 1069. TV9 Bharatvarsh
@@ -1211,7 +1208,7 @@ https://jmp2.uk/stvp-IN8000186A
 #EXTINF:-1 tvg-chno="2838" tvg-id="IN3300003TW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3300003TW_20260805T004048SQUARE.png" tvg-country="IN" group-title="India",[Infotainment] 2838. WedoTV Get Factual
 https://jmp2.uk/stvp-IN3300003TW
 
-#EXTINF:-1 tvg-chno="1086" tvg-id="IN25000020M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN25000020M_20261006T042427SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1086. The Jungle Book
+#EXTINF:-1 tvg-chno="1086" tvg-id="IN25000020M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN25000020M_20261020T052431SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1086. The Jungle Book
 https://jmp2.uk/stvp-IN25000020M
 
 #EXTINF:-1 tvg-chno="1088" tvg-id="IN2500003JW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2500003JW_20261006T042333SQUARE.png" tvg-country="IN" group-title="India",[Kids] 1088. PowerKids TV
@@ -1298,7 +1295,7 @@ https://jmp2.uk/stvp-IN22000039Q
 #EXTINF:-1 tvg-chno="2862" tvg-id="IN22000018J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN22000018J_20260901T055403SQUARE.png" tvg-country="IN" group-title="India",[Lifestyle] 2862. Homes Under the Hammer
 https://jmp2.uk/stvp-IN22000018J
 
-#EXTINF:-1 tvg-chno="1114" tvg-id="IN38000072R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260929T041413SQUARE.png" tvg-country="IN" group-title="India",[Movies] 1114. The Movie Club
+#EXTINF:-1 tvg-chno="1114" tvg-id="IN38000072R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20261020T052437SQUARE.png" tvg-country="IN" group-title="India",[Movies] 1114. The Movie Club
 https://jmp2.uk/stvp-IN38000072R
 
 #EXTINF:-1 tvg-chno="1117" tvg-id="IN1600011DE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN1600011DE_20260623T015202SQUARE.png" tvg-country="IN" group-title="India",[Movies] 1117. KCM
@@ -1337,7 +1334,7 @@ https://jmp2.uk/stvp-IN21000014R
 #EXTINF:-1 tvg-chno="2604" tvg-id="IN2100005T2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100005T2_20260623T013351SQUARE.png" tvg-country="IN" group-title="India",[Movies] 2604. Zee South Flix
 https://jmp2.uk/stvp-IN2100005T2
 
-#EXTINF:-1 tvg-chno="2639" tvg-id="IN4000600Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20261013T051758SQUARE.png" tvg-country="IN" group-title="India",[Movies] 2639. Bollygold
+#EXTINF:-1 tvg-chno="2639" tvg-id="IN4000600Q" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20261020T052421SQUARE.png" tvg-country="IN" group-title="India",[Movies] 2639. Bollygold
 https://jmp2.uk/stvp-IN4000600Q
 
 #EXTINF:-1 tvg-chno="2656" tvg-id="IN400061DB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN400061DB_20260623T015348SQUARE.png" tvg-country="IN" group-title="India",[Movies] 2656. NH Tamil Gold
@@ -1358,7 +1355,7 @@ https://jmp2.uk/stvp-IN39000282A
 #EXTINF:-1 tvg-chno="1122" tvg-id="IN3800006RD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800006RD_20260915T042040SQUARE.png" tvg-country="IN" group-title="India",[Music] 1122. CJ ENM K-POP
 https://jmp2.uk/stvp-IN3800006RD
 
-#EXTINF:-1 tvg-chno="1126" tvg-id="IN38000050P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000050P_20261006T042338SQUARE.png" tvg-country="IN" group-title="India",[Music] 1126. 9XM
+#EXTINF:-1 tvg-chno="1126" tvg-id="IN38000050P" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000050P_20261020T052412SQUARE.png" tvg-country="IN" group-title="India",[Music] 1126. 9XM
 https://jmp2.uk/stvp-IN38000050P
 
 #EXTINF:-1 tvg-chno="1127" tvg-id="INBC2800013L6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC2800013L6_20260623T013459SQUARE.png" tvg-country="IN" group-title="India",[Music] 1127. 9X Jalwa
@@ -1818,9 +1815,6 @@ https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg" group-title="Bangladesh",Colors Bangla HD (Ads only)
 https://iptvcable.netlify.app/Altogether-007/Kolkata/ColorsBanglaHD.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/NTV_logo_with_slogan_%28Bangladesh%29.png" group-title="Bangladesh",NTV HD
-https://tvsen5.aynaott.com/JHPxHAWonztVucyc4GzF/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/NTV_logo_with_slogan_%28Bangladesh%29.png" group-title="Bangladesh",NTV TV UK
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8
 
@@ -1866,8 +1860,8 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Sony TV HD
 http://premimum.online:80/live/jen12345/jen54321/98854.ts
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg" group-title="Bangladesh",NEWS | ZEE News
-https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg" group-title="Bangladesh",NEWS | ZEE BUSINESS
+https://dwby15d04agvq.cloudfront.net/index_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg" group-title="Bangladesh",BD | JAMUNA TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
@@ -3882,9 +3876,6 @@ http://mhav1.com:2095/live/ht2990/742579548/20440.ts
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK/images/LOGO_HD/image.png" group-title="KIDS",Cartoon Network (India) (720p)
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png" group-title="KIDS",Cartoon Network HD+ (720p)
-https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s159100_ld_h15_aa.png?lock=720x540" group-title="KIDS",Sony Yay! (576p)
 http://103.165.93.31:8095/sonyYay/index.m3u8
 
@@ -3924,11 +3915,17 @@ http://103.185.24.134:3001/SONIC/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="KIDS",ZB Cartoon (1080p)
 https://server.zillarbarta.com/zbcatun/video.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.epg.best/cn/StarSports1.cn.png" group-title="KIDS",---Live(Star Sports 1 HD)---
+https://tvsen3.aynaott.com/Sports1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png" group-title="KIDS",---Live(STAR SPORTS SELECT 2 HD)---
 http://tvsen7.aynascope.net/ssport2hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.epg.best/cn/StarSports1.cn.png" group-title="KIDS",CR | Star Sports 1 Hindi
 https://starsportshindiii.pages.dev/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg" group-title="KIDS",MIXER | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb" group-title="KIDS",Cartoon Network
 https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1784102579&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=9563d33da06516fd262e9156a110a8d8
@@ -3976,7 +3973,7 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png" group-title="KIDS",0. Cartoon Network
 https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8
@@ -4061,6 +4058,9 @@ https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png" group-title="KIDS",PBS Kids (Hawaii Feed)
 https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/564x/e5/65/b0/e565b090b34dc756072aff0584f6cbab.jpg" group-title="KIDS",Toonami Aftermath East
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e5/Pinoyextremechannel.png" group-title="KIDS",Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
