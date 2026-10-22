@@ -1836,6 +1836,9 @@ https://jmp2.uk/stvp-CABB1900002SS
 #EXTINF:-1 tvg-chno="164" tvg-id="CABC5200008Q6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200008Q6_20260421T140609SQUARE.png" tvg-country="CA" group-title="Canada",[Lifestyle & Pop Culture] 164. Divorce Court
 https://jmp2.uk/stvp-CABC5200008Q6
 
+#EXTINF:-1 tvg-chno="167" tvg-id="CA800002TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA800002TN_20261020T093635SQUARE.png" tvg-country="CA" group-title="Canada",[Lifestyle & Pop Culture] 167. OUTflix Proud
+https://jmp2.uk/stvp-CA800002TN
+
 #EXTINF:-1 tvg-chno="174" tvg-id="CABC23000035R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000035R_20260421T140523SQUARE.png" tvg-country="CA" group-title="Canada",[Lifestyle & Pop Culture] 174. Hollywire
 https://jmp2.uk/stvp-CABC23000035R
 
@@ -1853,9 +1856,6 @@ https://jmp2.uk/stvp-CA4000007K0
 
 #EXTINF:-1 tvg-chno="2835" tvg-id="CA390001798" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA390001798_20260922T060004SQUARE.png" tvg-country="CA" group-title="Canada",[Lifestyle & Pop Culture] 2835. The Judge Judy Channel
 https://jmp2.uk/stvp-CA390001798
-
-#EXTINF:-1 tvg-chno="167" tvg-id="CA800002TN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA800002TN_20261020T093635SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 167. OUTflix Movies
-https://jmp2.uk/stvp-CA800002TN
 
 #EXTINF:-1 tvg-chno="209" tvg-id="CAAJ40000077N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20260701T010156SQUARE.png" tvg-country="CA" group-title="Canada",[Movies] 209. FilmRise Free Movies
 https://jmp2.uk/stvp-CAAJ40000077N
@@ -1917,7 +1917,7 @@ https://jmp2.uk/stvp-CABB26000054K
 #EXTINF:-1 tvg-chno="224" tvg-id="CABB2600004RZ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2600004RZ_20260421T140500SQUARE.png" tvg-country="CA" group-title="Canada",[Music] 224. XITE Just Chill
 https://jmp2.uk/stvp-CABB2600004RZ
 
-#EXTINF:-1 tvg-chno="225" tvg-id="CABD17000043J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD17000043J_20261020T093625SQUARE.png" tvg-country="CA" group-title="Canada",[Music] 225. XITE The Beatles
+#EXTINF:-1 tvg-chno="225" tvg-id="CABD17000043J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD17000043J_20261020T093625SQUARE.png" tvg-country="CA" group-title="Canada",[Music] 225. XITE Celebrates
 https://jmp2.uk/stvp-CABD17000043J
 
 #EXTINF:-1 tvg-chno="234" tvg-id="CABC52000165E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000165E_20260303T094846SQUARE.png" tvg-country="CA" group-title="Canada",[Music] 234. Vevo Country
@@ -3258,6 +3258,9 @@ https://jmp2.uk/stvp-FR70000809
 #EXTINF:-1 tvg-chno="2802" tvg-id="FR1200002PC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1200002PC_20260707T051726SQUARE.png" tvg-country="FR" group-title="France",[Divertissement] 2802. Quantum Makers
 https://jmp2.uk/stvp-FR1200002PC
 
+#EXTINF:-1 tvg-chno="2946" tvg-id="FR3000017Y1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3000017Y1_20261020T053542SQUARE.png" tvg-country="FR" group-title="France",[Divertissement] 2946. Confessions Intimes
+https://jmp2.uk/stvp-FR3000017Y1
+
 #EXTINF:-1 tvg-chno="770" tvg-id="FRBC4000001IO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC4000001IO_20260818T050804SQUARE.png" tvg-country="FR" group-title="France",[Documentaires] 770. Destination Nature
 https://jmp2.uk/stvp-FRBC4000001IO
 
@@ -4343,14 +4346,8 @@ https://jmp2.uk/stvp-DEAK0500445A
 #EXTINF:-1 tvg-chno="547" tvg-id="DE3900002R1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE3900002R1_20260915T035250SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 547. CJ ENM K-POP
 https://jmp2.uk/stvp-DE3900002R1
 
-#EXTINF:-1 tvg-chno="548" tvg-id="DEAH3904006A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAH3904006A_20261020T135417SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 548. Deluxe Lounge HD
-https://jmp2.uk/stvp-DEAH3904006A
-
 #EXTINF:-1 tvg-chno="2023" tvg-id="DE1300001XL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1300001XL_20250422T045303SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2023. XITE R&B Classic Jams
 https://jmp2.uk/stvp-DE1300001XL
-
-#EXTINF:-1 tvg-chno="2106" tvg-id="DE22000012Y" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE22000012Y_20261020T135512SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2106. Fireplace Vibes
-https://jmp2.uk/stvp-DE22000012Y
 
 #EXTINF:-1 tvg-chno="2252" tvg-id="DE340000678" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE340000678_20260929T040348SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2252. Deluxe Winter
 https://jmp2.uk/stvp-DE340000678
@@ -4360,24 +4357,6 @@ https://jmp2.uk/stvp-DE17000032I
 
 #EXTINF:-1 tvg-chno="2715" tvg-id="DE700004H4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE700004H4_20260707T052825SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2715. Rolling Stones Takeover
 https://jmp2.uk/stvp-DE700004H4
-
-#EXTINF:-1 tvg-chno="2716" tvg-id="DE19000024P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE19000024P_20261020T135454SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2716. Cozy Vibes
-https://jmp2.uk/stvp-DE19000024P
-
-#EXTINF:-1 tvg-chno="2717" tvg-id="DE1900003LE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1900003LE_20261020T135446SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2717. Storm Vibes
-https://jmp2.uk/stvp-DE1900003LE
-
-#EXTINF:-1 tvg-chno="2718" tvg-id="DE1800009MU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800009MU_20261020T135430SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2718. Rainy Day Vibes
-https://jmp2.uk/stvp-DE1800009MU
-
-#EXTINF:-1 tvg-chno="2719" tvg-id="DE1800012WI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800012WI_20261020T135440SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2719. Fall Vibes
-https://jmp2.uk/stvp-DE1800012WI
-
-#EXTINF:-1 tvg-chno="2720" tvg-id="DE18000103J" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE18000103J_20261020T135502SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2720. Island Vibes
-https://jmp2.uk/stvp-DE18000103J
-
-#EXTINF:-1 tvg-chno="2721" tvg-id="DE1800011L9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800011L9_20261020T135422SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2721. Ocean Vibes
-https://jmp2.uk/stvp-DE1800011L9
 
 #EXTINF:-1 tvg-chno="2782" tvg-id="DE4400001TO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4400001TO_20260609T042521SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2782. Metal.Rocks
 https://jmp2.uk/stvp-DE4400001TO
@@ -4411,6 +4390,30 @@ https://jmp2.uk/stvp-DE4300003MR
 
 #EXTINF:-1 tvg-chno="2616" tvg-id="DE2200005GX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE2200005GX_20260804T050816SQUARE.png" tvg-country="DE" group-title="Germany",[News] 2616. Welt
 https://jmp2.uk/stvp-DE2200005GX
+
+#EXTINF:-1 tvg-chno="548" tvg-id="DEAH3904006A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAH3904006A_20261020T135417SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 548. Deluxe Lounge HD
+https://jmp2.uk/stvp-DEAH3904006A
+
+#EXTINF:-1 tvg-chno="2106" tvg-id="DE22000012Y" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE22000012Y_20261020T135512SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2106. Fireplace Vibes
+https://jmp2.uk/stvp-DE22000012Y
+
+#EXTINF:-1 tvg-chno="2716" tvg-id="DE19000024P" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE19000024P_20261020T135454SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2716. Cozy Vibes
+https://jmp2.uk/stvp-DE19000024P
+
+#EXTINF:-1 tvg-chno="2717" tvg-id="DE1900003LE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1900003LE_20261020T135446SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2717. Storm Vibes
+https://jmp2.uk/stvp-DE1900003LE
+
+#EXTINF:-1 tvg-chno="2718" tvg-id="DE1800009MU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800009MU_20261020T135430SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2718. Rainy Day Vibes
+https://jmp2.uk/stvp-DE1800009MU
+
+#EXTINF:-1 tvg-chno="2719" tvg-id="DE1800012WI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800012WI_20261020T135440SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2719. Fall Vibes
+https://jmp2.uk/stvp-DE1800012WI
+
+#EXTINF:-1 tvg-chno="2720" tvg-id="DE18000103J" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE18000103J_20261020T135502SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2720. Island Vibes
+https://jmp2.uk/stvp-DE18000103J
+
+#EXTINF:-1 tvg-chno="2721" tvg-id="DE1800011L9" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE1800011L9_20261020T135422SQUARE.png" tvg-country="DE" group-title="Germany",[Relax] 2721. Ocean Vibes
+https://jmp2.uk/stvp-DE1800011L9
 
 #EXTINF:-1 tvg-chno="560" tvg-id="DEAJ2900003CN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEAJ2900003CN_20251013T054836SQUARE.png" tvg-country="DE" group-title="Germany",[Serien] 560. Zee One
 https://jmp2.uk/stvp-DEAJ2900003CN
@@ -8431,6 +8434,9 @@ https://jmp2.uk/stvp-CH2800003OL
 #EXTINF:-1 tvg-chno="2932" tvg-id="CH270000346" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH270000346_20261013T052940SQUARE.png" tvg-country="CH" group-title="Switzerland",[Entertainment] 2932. ZDF Zuhause
 https://jmp2.uk/stvp-CH270000346
 
+#EXTINF:-1 tvg-chno="2943" tvg-id="CH4000005UZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH4000005UZ_20261020T053434SQUARE.png" tvg-country="CH" group-title="Switzerland",[Entertainment] 2943. Confessions Intimes
+https://jmp2.uk/stvp-CH4000005UZ
+
 #EXTINF:-1 tvg-chno="362" tvg-id="CHBA3300030AJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBA3300030AJ_20250117T134626SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 362. Moviedome Family
 https://jmp2.uk/stvp-CHBA3300030AJ
 
@@ -8526,6 +8532,9 @@ https://jmp2.uk/stvp-CH3000009FR
 
 #EXTINF:-1 tvg-chno="2933" tvg-id="CH3800004T5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3800004T5_20261013T052933SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 2933. Weihnachtskino
 https://jmp2.uk/stvp-CH3800004T5
+
+#EXTINF:-1 tvg-chno="2944" tvg-id="CH3800003CG" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH3800003CG_20261020T053440SQUARE.png" tvg-country="CH" group-title="Switzerland",[Filme] 2944. Monstres et Créatures TV
+https://jmp2.uk/stvp-CH3800003CG
 
 #EXTINF:-1 tvg-chno="389" tvg-id="CH20000288" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CH20000288_20261013T052923SQUARE.png" tvg-country="CH" group-title="Switzerland",[Food & Travel] 389. The Jamie Oliver Channel
 https://jmp2.uk/stvp-CH20000288
@@ -10148,7 +10157,7 @@ https://jmp2.uk/stvp-USAJ3504714A
 #EXTINF:-1 tvg-chno="1643" tvg-id="USBB1500001GD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20250325T020255SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 1643. USA Today
 https://jmp2.uk/stvp-USBB1500001GD
 
-#EXTINF:-1 tvg-chno="1645" tvg-id="USAJ34000022E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ34000022E_20260609T214522SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 1645. Nosey
+#EXTINF:-1 tvg-chno="1645" tvg-id="USAJ34000022E" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ34000022E_20261021T010920SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 1645. Nosey
 https://jmp2.uk/stvp-USAJ34000022E
 
 #EXTINF:-1 tvg-chno="1646" tvg-id="USBD300006A6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300006A6_20260421T141839SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 1646. Divorce Court
@@ -10211,6 +10220,9 @@ https://jmp2.uk/stvp-US3900016OI
 #EXTINF:-1 tvg-chno="2864" tvg-id="US4600011ZJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4600011ZJ_20260811T043644SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 2864. TV One Stars & Stories
 https://jmp2.uk/stvp-US4600011ZJ
 
+#EXTINF:-1 tvg-chno="2947" tvg-id="US2300002A6" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2300002A6_20261020T100515SQUARE.png" tvg-country="US" group-title="United States",[Lifestyle & Pop Culture] 2947. Confess by Nosey
+https://jmp2.uk/stvp-US2300002A6
+
 #EXTINF:-1 tvg-chno="1653" tvg-id="US8000024G" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US8000024G_20260915T035051SQUARE.png" tvg-country="US" group-title="United States",[Movies] 1653. OUTflix Movies
 https://jmp2.uk/stvp-US8000024G
 
@@ -10250,7 +10262,7 @@ https://jmp2.uk/stvp-US1600002OK
 #EXTINF:-1 tvg-chno="2176" tvg-id="US200001137" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US200001137_20260819T010646SQUARE.png" tvg-country="US" group-title="United States",[Movies] 2176. Genie K-Movie
 https://jmp2.uk/stvp-US200001137
 
-#EXTINF:-1 tvg-chno="1675" tvg-id="USBD350003932" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20261020T100511SQUARE.png" tvg-country="US" group-title="United States",[Music] 1675. XITE The Beatles
+#EXTINF:-1 tvg-chno="1675" tvg-id="USBD350003932" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20261020T100511SQUARE.png" tvg-country="US" group-title="United States",[Music] 1675. XITE Celebrates
 https://jmp2.uk/stvp-USBD350003932
 
 #EXTINF:-1 tvg-chno="1676" tvg-id="USBB320000647" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000647_20260512T070257SQUARE.png" tvg-country="US" group-title="United States",[Music] 1676. XITE 80s Flashback
@@ -10535,17 +10547,8 @@ https://jmp2.uk/stvp-USBA30002142
 #EXTINF:-1 tvg-chno="1740" tvg-id="US3300008FX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300008FX_20260421T133803SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 1740. The Hill
 https://jmp2.uk/stvp-US3300008FX
 
-#EXTINF:-1 tvg-chno="2491" tvg-id="USBC1000017D8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1000017D8_20260421T143646SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2491. WSOC Charlotte
-https://jmp2.uk/stvp-USBC1000017D8
-
-#EXTINF:-1 tvg-chno="2492" tvg-id="US700004OA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700004OA_20260421T143852SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2492. WBTV News
-https://jmp2.uk/stvp-US700004OA
-
-#EXTINF:-1 tvg-chno="2493" tvg-id="US1400004HN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400004HN_20260421T144031SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2493. WCNC
-https://jmp2.uk/stvp-US1400004HN
-
-#EXTINF:-1 tvg-chno="2494" tvg-id="USBC3200001S5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3200001S5_20260421T144319SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2494. WN Charlotte
-https://jmp2.uk/stvp-USBC3200001S5
+#EXTINF:-1 tvg-chno="1840" tvg-id="USBC1500009LD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1500009LD_20260421T133617SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 1840. WeatherNation
+https://jmp2.uk/stvp-USBC1500009LD
 
 #EXTINF:-1 tvg-chno="2567" tvg-id="US50000551O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US50000551O_20260421T133704SQUARE.png" tvg-country="US" group-title="United States",[News & Opinion] 2567. AccuWeather NOW
 https://jmp2.uk/stvp-US50000551O

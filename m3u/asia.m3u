@@ -128,20 +128,11 @@ http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV13
 http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV15
-http://gmxw.7766.org:808/hls/102/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV16
-http://gmxw.7766.org:808/hls/169/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV3
 http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5
-http://gmxw.7766.org:808/hls/93/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV8
-http://gmxw.7766.org:808/hls/96/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV5+
+http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="China",CCTV8
 http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -851,9 +842,6 @@ https://jmp2.uk/stvp-KRBC4400002AO
 #EXTINF:-1 tvg-chno="1333" tvg-id="KRBC3200031KO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200031KO_20261020T053330SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1333. tvN 인급동
 https://jmp2.uk/stvp-KRBC3200031KO
 
-#EXTINF:-1 tvg-chno="1335" tvg-id="KRBC3200018FU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200018FU_20261020T053333SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1335. tvN 서초동
-https://jmp2.uk/stvp-KRBC3200018FU
-
 #EXTINF:-1 tvg-chno="1337" tvg-id="KR7000023Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KR7000023Z_20261006T042846SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 1337. KBS 오월의 청춘
 https://jmp2.uk/stvp-KR7000023Z
 
@@ -887,7 +875,7 @@ https://jmp2.uk/stvp-KRBC4500003W6
 #EXTINF:-1 tvg-chno="2046" tvg-id="KRBC3200016H1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200016H1_20261006T042954SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2046. tvN 언젠가는 슬기로울 전공의생활
 https://jmp2.uk/stvp-KRBC3200016H1
 
-#EXTINF:-1 tvg-chno="2047" tvg-id="KRBC4500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500002Q4_20261020T053336SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2047. tvN 정년이
+#EXTINF:-1 tvg-chno="2047" tvg-id="KRBC4500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500002Q4_20261020T053336SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2047. tvN 폭군의 셰프
 https://jmp2.uk/stvp-KRBC4500002Q4
 
 #EXTINF:-1 tvg-chno="2048" tvg-id="KRBC4500001A5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC4500001A5_20260728T033458SQUARE.png" tvg-country="KR" group-title="South Korea",[드라마] 2048. tvN 어느날 우리집 현관으로 멸망이 들어왔다 4K
@@ -1060,6 +1048,9 @@ https://jmp2.uk/stvp-KR2000012AI
 
 #EXTINF:-1 tvg-chno="1334" tvg-id="KRBC3200029C4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200029C4_20260728T033454SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1334. tvN 스트리트푸드파이터 1~2 이어보기
 https://jmp2.uk/stvp-KRBC3200029C4
+
+#EXTINF:-1 tvg-chno="1335" tvg-id="KRBC3200018FU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC3200018FU_20261020T053333SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1335. 채널십오야
+https://jmp2.uk/stvp-KRBC3200018FU
 
 #EXTINF:-1 tvg-chno="1336" tvg-id="KRBC320002200" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/KRBC320002200_20260728T033444SQUARE.png" tvg-country="KR" group-title="South Korea",[예능] 1336. tvN STORY 김창옥쇼 3-4 이어보기
 https://jmp2.uk/stvp-KRBC320002200
