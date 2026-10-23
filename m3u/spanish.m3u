@@ -934,6 +934,9 @@ https://jmp2.uk/stvp-ES1800003JN
 # Spain - Kids
 ################################################################################
 
+#EXTINF:-1 tvg-id="Boing.es@SD" tvg-logo="https://i.imgur.com/nUYuCAP.png" group-title="Spain - Kids",Boing (Spain)
+http://digisat.ddns.net:4022/udp/239.0.5.177:8208
+
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Spain - Kids",Clan (1080p)
 https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8
 
