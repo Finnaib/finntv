@@ -5186,7 +5186,7 @@ http://mhav1.com:2095/series/ht2990/742579548/2357.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ludwig" tvg-logo="http://images.stttoegypt2026.com:80/images/okPERzZxAiVWbd3B9qFepxa2Vfq_big.jpg" group-title="English Series [حديثه]",Ludwig
 http://mhav1.com:2095/series/ht2990/742579548/4603.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Lupin" tvg-logo="http://images.stttoegypt2026.com:80/images/sgxawbFB5Vi5OkPWQLNfl3dvkNJ_big.jpg" group-title="English Series [حديثه]",Lupin
+#EXTINF:-1 tvg-id="" tvg-name="Lupin." tvg-logo="http://images.stttoegypt2026.com:80/images/sgxawbFB5Vi5OkPWQLNfl3dvkNJ_big.jpg" group-title="English Series [حديثه]",Lupin.
 http://mhav1.com:2095/series/ht2990/742579548/467.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Lynley" tvg-logo="http://images.stttoegypt2026.com:80/images/nBwCKjg3CNonSWMmE7VghNc4qBm_big.jpg" group-title="English Series [حديثه]",Lynley
@@ -13264,6 +13264,9 @@ http://mhav1.com:2095/series/ht2990/742579548/3814.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Doc" tvg-logo="http://images.stttoegypt2026.com:80/images/tuZULS39M5QtqY5fBaVHR3F5qOP_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Doc
 http://mhav1.com:2095/series/ht2990/742579548/5047.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Lupin" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg" group-title="مسلسلات أجنبى تعرض الان",Lupin
+http://mhav1.com:2095/series/ht2990/742579548/7459.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Marshals" tvg-logo="http://images.stttoegypt2026.com:80/images/nInfaveN1iFpRIcMGNKENoVVUT2_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Marshals
 http://mhav1.com:2095/series/ht2990/742579548/6689.ts
