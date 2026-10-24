@@ -257,11 +257,11 @@ http://mhav1.com:2095/live/ht2990/742579548/212578.ts
 #EXTINF:-1 tvg-id="" tvg-name="IN: Makkal TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a73303ebc567327995e09bd0ec800d84.png" group-title="INDIA",IN: Makkal TV
 http://mhav1.com:2095/live/ht2990/742579548/212443.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/3adc09632057276277142fd9eace65dd.png" group-title="INDIA",IN: Manoranjan TV
-http://mhav1.com:2095/live/ht2990/742579548/212442.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/48333081d77a1ad518fe6534678f6d4e.png" group-title="INDIA",IN: Manoranjan TV
 http://mhav1.com:2095/live/ht2990/742579548/212586.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Manoranjan TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-04/3adc09632057276277142fd9eace65dd.png" group-title="INDIA",IN: Manoranjan TV
+http://mhav1.com:2095/live/ht2990/742579548/212442.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: Mazhavil Manorama" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6152d276473cb4c4f893ddb43ad27b0b.png" group-title="INDIA",IN: Mazhavil Manorama
 http://mhav1.com:2095/live/ht2990/742579548/212494.ts
@@ -3233,6 +3233,9 @@ http://mhav1.com:2095/live/ht2990/742579548/123411.ts
 #EXTINF:-1 tvg-id="" tvg-name="Nicktoons |UK|" tvg-logo="" group-title="KIDS",Nicktoons |UK|
 http://mhav1.com:2095/live/ht2990/742579548/123410.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="|UK| Cartoonito" tvg-logo="" group-title="KIDS",|UK| Cartoonito
+http://mhav1.com:2095/live/ht2990/742579548/123406.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="|UK| Nick Jr. HD" tvg-logo="" group-title="KIDS",|UK| Nick Jr. HD
 http://mhav1.com:2095/live/ht2990/742579548/123409.ts
 
@@ -3774,10 +3777,10 @@ http://mhav1.com:2095/live/ht2990/742579548/12421.ts
 http://mhav1.com:2095/live/ht2990/742579548/12403.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="KIDS",Disney Junior [ES]
-http://mhav1.com:2095/live/ht2990/742579548/12404.ts
+http://mhav1.com:2095/live/ht2990/742579548/122513.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="KIDS",Disney Junior [ES]
-http://mhav1.com:2095/live/ht2990/742579548/122513.ts
+http://mhav1.com:2095/live/ht2990/742579548/12404.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney XD [ES]" tvg-logo="" group-title="KIDS",Disney XD [ES]
 http://mhav1.com:2095/live/ht2990/742579548/12405.ts

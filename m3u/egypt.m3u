@@ -694,6 +694,9 @@ http://mhav1.com:2095/live/ht2990/742579548/7034.ts
 #EXTINF:-1 tvg-id="" tvg-name="Tawfiq Al-Saigh" tvg-logo="http://en.quran.com.kw/wp-content/uploads/tawfiq-alsaigh.jpg" group-title="Islamic",Tawfiq Al-Saigh
 http://mhav1.com:2095/live/ht2990/742579548/7043.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ZAD TV[AR]" tvg-logo="" group-title="Islamic",ZAD TV[AR]
+http://mhav1.com:2095/live/ht2990/742579548/4665.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="[AR]AlMajd-3" tvg-logo="" group-title="Islamic",[AR]AlMajd-3
 http://mhav1.com:2095/live/ht2990/742579548/3600.ts
 
@@ -1522,6 +1525,9 @@ http://mhav1.com:2095/live/ht2990/742579548/4120.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Cinema_SD" tvg-logo="" group-title="OSN",OSN_Cinema_SD
 http://mhav1.com:2095/live/ht2990/742579548/6110.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="OSN_Crime Investigation_SD" tvg-logo="" group-title="OSN",OSN_Crime Investigation_SD
+http://mhav1.com:2095/live/ht2990/742579548/19455.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Crime_SD" tvg-logo="" group-title="OSN",OSN_Crime_SD
 http://mhav1.com:2095/live/ht2990/742579548/19446.ts
