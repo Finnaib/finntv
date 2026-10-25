@@ -786,20 +786,35 @@ http://mhav1.com:2095/live/ht2990/742579548/2534.ts
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_News" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_Sport_News
 http://mhav1.com:2095/live/ht2990/742579548/2799.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Ahly [HD]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Al Ahly [HD]
+http://mhav1.com:2095/live/ht2990/742579548/3601.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Al Ahly [SD]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Al Ahly [SD]
+http://mhav1.com:2095/live/ht2990/742579548/49537.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Zamalik Sport [EG]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Zamalik Sport [EG]
+http://mhav1.com:2095/live/ht2990/742579548/2714.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Nile Sport [EG]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Nile Sport [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2734.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_News" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_Sport_News
+http://mhav1.com:2095/live/ht2990/742579548/2799.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_SPORTS_HD
+http://mhav1.com:2095/live/ht2990/742579548/2534.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",BeIN Sport NBA HD
+http://mhav1.com:2095/live/ht2990/742579548/3249.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="beIN_Global HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_Global HD
+http://mhav1.com:2095/live/ht2990/742579548/49536.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Fuor" tvg-logo="" group-title="Arabic Sports رياضة عربى",Alkass Fuor
 http://mhav1.com:2095/live/ht2990/742579548/4513.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass Two" tvg-logo="" group-title="Arabic Sports رياضة عربى",Alkass Two
 http://mhav1.com:2095/live/ht2990/742579548/4510.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Dubai SPORTS 2 [AE]
-http://mhav1.com:2095/live/ht2990/742579548/54577.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Ahly [HD]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Al Ahly [HD]
-http://mhav1.com:2095/live/ht2990/742579548/3601.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alkass three" tvg-logo="" group-title="Arabic Sports رياضة عربى",Alkass three
 http://mhav1.com:2095/live/ht2990/742579548/56164.ts
@@ -810,32 +825,17 @@ http://mhav1.com:2095/live/ht2990/742579548/82664.ts
 #EXTINF:-1 tvg-id="" tvg-name="Alkass One" tvg-logo="" group-title="Arabic Sports رياضة عربى",Alkass One
 http://mhav1.com:2095/live/ht2990/742579548/4511.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="BeIN Sport NBA HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",BeIN Sport NBA HD
-http://mhav1.com:2095/live/ht2990/742579548/3249.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Global HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_Global HD
-http://mhav1.com:2095/live/ht2990/742579548/49536.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Zamalik Sport [EG]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Zamalik Sport [EG]
-http://mhav1.com:2095/live/ht2990/742579548/2714.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Al Ahly [SD]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Al Ahly [SD]
-http://mhav1.com:2095/live/ht2990/742579548/49537.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Mouritana Arriadia TV [AR]
-http://mhav1.com:2095/live/ht2990/742579548/5348.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_SPORTS_HD" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_SPORTS_HD
-http://mhav1.com:2095/live/ht2990/742579548/2534.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 1 [AE]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Dubai SPORTS 1 [AE]
 http://mhav1.com:2095/live/ht2990/742579548/54576.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 2 [AE]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Dubai SPORTS 2 [AE]
+http://mhav1.com:2095/live/ht2990/742579548/54577.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Dubai SPORTS 3 [AE]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Dubai SPORTS 3 [AE]
 http://mhav1.com:2095/live/ht2990/742579548/54578.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Sport_News" tvg-logo="" group-title="Arabic Sports رياضة عربى",beIN_Sport_News
-http://mhav1.com:2095/live/ht2990/742579548/2799.ts
+#EXTINF:-1 tvg-id="" tvg-name="Mouritana Arriadia TV [AR]" tvg-logo="" group-title="Arabic Sports رياضة عربى",Mouritana Arriadia TV [AR]
+http://mhav1.com:2095/live/ht2990/742579548/5348.ts
 
 
 ################################################################################
