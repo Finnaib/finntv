@@ -8283,6 +8283,30 @@ http://mhav1.com:2095/live/ht2990/742579548/2214.ts
 #EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 8 | Event Only |" tvg-logo="" group-title="World Sports",|US-Vip| MLS LIVE 8 | Event Only |
 http://mhav1.com:2095/live/ht2990/742579548/2215.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="TENNIS [US]" tvg-logo="" group-title="World Sports",TENNIS [US]
+http://mhav1.com:2095/live/ht2990/742579548/12342.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Tennis [IT]" tvg-logo="" group-title="World Sports",Sky Sport Tennis [IT]
+http://mhav1.com:2095/live/ht2990/742579548/108803.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport 2" tvg-logo="" group-title="World Sports",CAN: TSN Sport 2
+http://mhav1.com:2095/live/ht2990/742579548/110456.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport3" tvg-logo="" group-title="World Sports",CAN: TSN Sport3
+http://mhav1.com:2095/live/ht2990/742579548/110458.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport5" tvg-logo="" group-title="World Sports",CAN: TSN Sport5
+http://mhav1.com:2095/live/ht2990/742579548/110490.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [ES]" tvg-logo="" group-title="World Sports",DAZN 1 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/65727.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dazn F1 [IT]" tvg-logo="" group-title="World Sports",Dazn F1 [IT]
+http://mhav1.com:2095/live/ht2990/742579548/48824.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [ES]" tvg-logo="" group-title="World Sports",DAZN 2 [ES]
+http://mhav1.com:2095/live/ht2990/742579548/27460.ts
+
 #EXTINF:-1 tvg-id="" tvg-name=" [US] Bally Sports Arizona" tvg-logo="" group-title="World Sports", [US] Bally Sports Arizona
 http://mhav1.com:2095/live/ht2990/742579548/87911.ts
 
@@ -8322,15 +8346,6 @@ http://mhav1.com:2095/live/ht2990/742579548/87914.ts
 #EXTINF:-1 tvg-id="" tvg-name="Bally Sports Socal [US]" tvg-logo="" group-title="World Sports",Bally Sports Socal [US]
 http://mhav1.com:2095/live/ht2990/742579548/87917.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport5" tvg-logo="" group-title="World Sports",CAN: TSN Sport5
-http://mhav1.com:2095/live/ht2990/742579548/110490.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport3" tvg-logo="" group-title="World Sports",CAN: TSN Sport3
-http://mhav1.com:2095/live/ht2990/742579548/110458.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport 2" tvg-logo="" group-title="World Sports",CAN: TSN Sport 2
-http://mhav1.com:2095/live/ht2990/742579548/110456.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Bally Sports Florida [US]" tvg-logo="" group-title="World Sports",Bally Sports Florida [US]
 http://mhav1.com:2095/live/ht2990/742579548/87913.ts
 
@@ -8345,12 +8360,6 @@ http://mhav1.com:2095/live/ht2990/742579548/2021.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ziggo Sport Tennis HD |NL|" tvg-logo="" group-title="World Sports",Ziggo Sport Tennis HD |NL|
 http://mhav1.com:2095/live/ht2990/742579548/121492.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Sky Sport Tennis [IT]" tvg-logo="" group-title="World Sports",Sky Sport Tennis [IT]
-http://mhav1.com:2095/live/ht2990/742579548/108803.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="TENNIS [US]" tvg-logo="" group-title="World Sports",TENNIS [US]
-http://mhav1.com:2095/live/ht2990/742579548/12342.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[FR]_RMC_SPORT_2" tvg-logo="" group-title="World Sports",[FR]_RMC_SPORT_2
 http://mhav1.com:2095/live/ht2990/742579548/4687.ts
@@ -8381,15 +8390,6 @@ http://mhav1.com:2095/live/ht2990/742579548/111524.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="|US-Vip| MLS LIVE 2 | Event Only |" tvg-logo="" group-title="World Sports",|US-Vip| MLS LIVE 2 | Event Only |
 http://mhav1.com:2095/live/ht2990/742579548/111525.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 1 [ES]" tvg-logo="" group-title="World Sports",DAZN 1 [ES]
-http://mhav1.com:2095/live/ht2990/742579548/65727.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Dazn F1 [IT]" tvg-logo="" group-title="World Sports",Dazn F1 [IT]
-http://mhav1.com:2095/live/ht2990/742579548/48824.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="DAZN 2 [ES]" tvg-logo="" group-title="World Sports",DAZN 2 [ES]
-http://mhav1.com:2095/live/ht2990/742579548/27460.ts
 
 
 ################################################################################
