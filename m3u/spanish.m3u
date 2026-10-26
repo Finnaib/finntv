@@ -20,9 +20,6 @@ http://38.252.238.18:8000/play/a04a/index.m3u8
 #EXTINF:-1 tvg-id="CanalSur2.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png" group-title="Spain",Canal Sur 2 (720p)
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CanalSur.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/960px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png" group-title="Spain",Canal Sur
-https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd
-
 #EXTINF:-1 tvg-id="CanalSurAndalucia.es@SD" tvg-logo="https://i.imgur.com/lznnA4v.png" group-title="Spain",Canal Sur Andalucia (1080p)
 https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
 
@@ -403,6 +400,9 @@ http://oha.to/play/1826839470/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Golf ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
 http://oha.to/play/2703480816/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/960px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png" group-title="Spain",Canal Sur
+https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd
 
 #EXTINF:-1 tvg-chno="581" tvg-id="ES700004C8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20260127T040120SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 581. Runtime Familia
 https://jmp2.uk/stvp-ES700004C8
@@ -999,7 +999,7 @@ https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 
 #EXTINF:-1 tvg-id="RealMadridTVEnglish.es@SD" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Spain - Sports",Real Madrid TV English
-http://88.212.15.17/live/real_madrid_tv/index.m3u8
+http://88.212.15.50/live/real_madrid_tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yU5LqTL.png" group-title="Spain - Sports",CDN Deportes
 https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/bc949011-1dd8-4d10-596c-f6910d4a9cf7.m3u8
@@ -1030,6 +1030,9 @@ https://seo.tv.bo/tv/SEOtv_5sd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Spain - Sports",World of Freesports
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Spain - Sports",Real Madrid TV English
+http://88.212.15.17/live/real_madrid_tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Spain - Sports",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
