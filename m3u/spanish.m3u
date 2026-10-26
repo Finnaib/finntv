@@ -401,9 +401,6 @@ http://oha.to/play/1826839470/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Golf ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
 http://oha.to/play/2703480816/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg/960px-Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg.png" group-title="Spain",Canal Sur
-https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd
-
 #EXTINF:-1 tvg-chno="581" tvg-id="ES700004C8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20260127T040120SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 581. Runtime Familia
 https://jmp2.uk/stvp-ES700004C8
 
@@ -1030,9 +1027,6 @@ https://seo.tv.bo/tv/SEOtv_5sd.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Spain - Sports",World of Freesports
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="Spain - Sports",Real Madrid TV English
-http://88.212.15.17/live/real_madrid_tv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Spain - Sports",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
