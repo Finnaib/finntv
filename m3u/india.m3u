@@ -1792,16 +1792,13 @@ https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8?e=1784102562&u=ee5437
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8?e=1784102570&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=78b23c868a34420397be9c985d04db9b
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9d/Channel_i_HD_logo_2021.png" group-title="Bangladesh",CHANNEL I
-https://tv.kbhub.online/Ayna-OTT/Channel-I.m3u8
+https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg" group-title="Bangladesh",Colors Bangla
 http://103.172.29.30:9991/stream/channelid/1759751142
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3e/Colors_Bangla_HD.jpg" group-title="Bangladesh",Colors Bangla HD
 https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/2/27/Desh_TV_on-screen_logo_2022.png" group-title="Bangladesh",DESH TV
-https://tv.kbhub.online/Bangladesh/Desh-TV.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2d/Colors-Bangla-Logo-new.jpg" group-title="Bangladesh",MOV | COLORS BANGLA CINEMA
 http://103.172.29.30:9991/stream/channelid/14180834
@@ -1842,11 +1839,11 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Channel I
 https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
-https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Ekushe ETV
 https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",Desh TV
+https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Bangladesh",NTV
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
@@ -1861,7 +1858,7 @@ http://103.135.253.32:8080/Color-HD/index.m3u8
 https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg" group-title="Bangladesh",BD | JAMUNA TV
-https://tv.kbhub.online/Ayna-OTT/Jamuna.m3u8
+http://103.135.253.32:8080/Jamuna-TV/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/Zee_24_Ghanta_2025_Logo_2025.png" group-title="Bangladesh",IN | Zee 24 Ghanta
 https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
@@ -4010,7 +4007,7 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Pinkfong_Baby_Shark.svg" group-title="KIDS",0. Baby Shark TV
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f0/DISNEYCHANNEL-2025.svg" group-title="KIDS",0. Disney Channel Latin America
 http://15.204.246.24:8080/DisneyHD/index.m3u8
@@ -4080,9 +4077,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cartoon-network-ca.png" group-title="KIDS",Cartoon Network (Retro Blast)
 https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/Disney_Channel_2022.svg" group-title="KIDS",Disney Channel
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6965/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900015RO_20250217T210812SQUARE.png" group-title="KIDS",Kartoon Channel!
 https://d2z0ysa6dgxhlc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ajxyy4yaic6nq/kchan.m3u8
@@ -4254,12 +4248,6 @@ https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",All Time Movies (576p)
 https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Anmol Cinema 2 (576p)
-https://fta.ektv.in/live/257/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00260YG8.png?lock=720x540" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Anmol Cinema (576p)
-https://fta.ektv.in/live/271/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Movies",B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
