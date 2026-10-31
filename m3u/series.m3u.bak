@@ -4655,9 +4655,6 @@ http://mhav1.com:2095/series/ht2990/742579548/4753.ts
 #EXTINF:-1 tvg-id="" tvg-name="Dexter Original Sin" tvg-logo="http://images.stttoegypt2026.com:80/images/jmbtI8hhNkw5Hpksr34x3gCCmjS_big.jpg" group-title="English Series [حديثه]",Dexter Original Sin
 http://mhav1.com:2095/series/ht2990/742579548/4966.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Dexter Resurrection" tvg-logo="http://images.stttoegypt2026.com:80/images/hIawSocuwqgNeRf3JuKuxgMHmSC_big.jpg" group-title="English Series [حديثه]",Dexter Resurrection
-http://mhav1.com:2095/series/ht2990/742579548/5773.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Dexter: New Blood" tvg-logo="http://images.stttoegypt2026.com:80/images/9EBKgrFIsCFSV1RZKWhYUdbtGiv_big.jpg" group-title="English Series [حديثه]",Dexter: New Blood
 http://mhav1.com:2095/series/ht2990/742579548/1006.ts
 
@@ -13324,6 +13321,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7378.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Dark Matter" tvg-logo="http://images.stttoegypt2026.com:80/images/c6MRUtPk0nEPQ9FBD9RdRKt2rIm_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Dark Matter
 http://mhav1.com:2095/series/ht2990/742579548/3814.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Dexter Resurrection" tvg-logo="http://images.stttoegypt2026.com:80/images/hIawSocuwqgNeRf3JuKuxgMHmSC_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Dexter Resurrection
+http://mhav1.com:2095/series/ht2990/742579548/5773.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Doc" tvg-logo="http://images.stttoegypt2026.com:80/images/tuZULS39M5QtqY5fBaVHR3F5qOP_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Doc
 http://mhav1.com:2095/series/ht2990/742579548/5047.ts
