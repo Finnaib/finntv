@@ -1826,6 +1826,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6175.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Perfect Deal " tvg-logo="http://images.stttoegypt2026.com:80/images/7tmUwuWYLtaBXHdUo6UpBbtt31W_big.jpg" group-title="Asian Series",The Perfect Deal
 http://mhav1.com:2095/series/ht2990/742579548/5551.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Perfect Lie" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/thXJkiBByDitV7iFSv1hU1sg7ij.jpg" group-title="Asian Series",The Perfect Lie
+http://mhav1.com:2095/series/ht2990/742579548/7495.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The Potato Lab" tvg-logo="http://images.stttoegypt2026.com:80/images/c20CqgsCKKEFBKNOknL6GFSgL35_big.jpg" group-title="Asian Series",The Potato Lab
 http://mhav1.com:2095/series/ht2990/742579548/5616.ts
 
@@ -11312,7 +11315,7 @@ http://mhav1.com:2095/series/ht2990/742579548/4834.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Patients of Dr. García" tvg-logo="http://images.stttoegypt2026.com:80/images/y57ND50yq0nPmQpvLmMBKrnAvRB_big.jpg" group-title="Series Variety Vip",The Patients of Dr. García
 http://mhav1.com:2095/series/ht2990/742579548/2459.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Perfect Lie" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/a8qjbVX7lo1v7m5Awzhx7Ptk8gO.jpg" group-title="Series Variety Vip",The Perfect Lie
+#EXTINF:-1 tvg-id="" tvg-name="The Perfect Lie." tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/a8qjbVX7lo1v7m5Awzhx7Ptk8gO.jpg" group-title="Series Variety Vip",The Perfect Lie.
 http://mhav1.com:2095/series/ht2990/742579548/7340.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Perfect Miss" tvg-logo="http://images.stttoegypt2026.com:80/images/qfOn8thnjrQWMxq0ypsvpTMBG3C_big.jpg" group-title="Series Variety Vip",The Perfect Miss
