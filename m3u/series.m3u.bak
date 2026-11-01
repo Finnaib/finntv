@@ -5450,9 +5450,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5020.ts
 #EXTINF:-1 tvg-id="" tvg-name="Outer Banks" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg" group-title="English Series [حديثه]",Outer Banks
 http://mhav1.com:2095/series/ht2990/742579548/7285.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Outlander: Blood of My Blood" tvg-logo="http://images.stttoegypt2026.com:80/images/hlwZbEKXLbZvgdfxCT1j54pRyE4_big.jpg" group-title="English Series [حديثه]",Outlander: Blood of My Blood
-http://mhav1.com:2095/series/ht2990/742579548/5858.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Outlast" tvg-logo="http://images.stttoegypt2026.com:80/images/xPvFth5XCdF7TfpPOFvMUXYOpsQ_big.jpg" group-title="English Series [حديثه]",Outlast
 http://mhav1.com:2095/series/ht2990/742579548/4485.ts
 
@@ -12701,6 +12698,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2666.ts
 #EXTINF:-1 tvg-id="" tvg-name="ديسكفرى مدبلج مصرى" tvg-logo="http://images.stttoegypt2026.com:80/images/82aRtoJ52HBcnI5DU6axcHYdyMa_big.jpg" group-title="أطفال عربى",ديسكفرى مدبلج مصرى
 http://mhav1.com:2095/series/ht2990/742579548/2896.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="زولا والأصدقاء" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/UZZ2U-Ozi-IpKnJriD4i6w/1200x675.jpg" group-title="أطفال عربى",زولا والأصدقاء
+http://mhav1.com:2095/series/ht2990/742579548/7498.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="زيد و العلوم" tvg-logo="http://images.stttoegypt2026.com:80/images/7tXoGSNnqRodNMTvwYDsLJrXuRo_big.jpg" group-title="أطفال عربى",زيد و العلوم
 http://mhav1.com:2095/series/ht2990/742579548/6210.ts
 
@@ -12769,6 +12769,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2944.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عهد الأصدقاء" tvg-logo="http://images.stttoegypt2026.com:80/images/r4HYMeXhK2Rx8tYVaF2xCfbVdhB_big.jpg" group-title="أطفال عربى",عهد الأصدقاء
 http://mhav1.com:2095/series/ht2990/742579548/6296.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="عيلة مودة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/sPr8ZUW6PB8j2gY1ygeh84AludY.jpg" group-title="أطفال عربى",عيلة مودة
+http://mhav1.com:2095/series/ht2990/742579548/7497.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فابيو" tvg-logo="https://media0026.elcinema.com/uploads/_640x_b46ae52084d45b375bfb185778b146f878760bee546e48a16d049e7bf0043994.jpg" group-title="أطفال عربى",فابيو
 http://mhav1.com:2095/series/ht2990/742579548/1751.ts
@@ -13342,6 +13345,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5438.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Nocturne" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg" group-title="مسلسلات أجنبى تعرض الان",Nocturne
 http://mhav1.com:2095/series/ht2990/742579548/7485.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Outlander: Blood of My Blood" tvg-logo="http://images.stttoegypt2026.com:80/images/hlwZbEKXLbZvgdfxCT1j54pRyE4_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Outlander: Blood of My Blood
+http://mhav1.com:2095/series/ht2990/742579548/5858.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Phony" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iCyQc8cSSHkxUHbkvzbC77owALt.jpg" group-title="مسلسلات أجنبى تعرض الان",Phony
 http://mhav1.com:2095/series/ht2990/742579548/7468.ts
