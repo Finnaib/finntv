@@ -4172,6 +4172,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6785.ts
 #EXTINF:-1 tvg-id="" tvg-name="Young Sherlock" tvg-logo="http://images.stttoegypt2026.com:80/images/bb3XIgEUKSboZzDVYbfAi1w381A_big.jpg" group-title="English Series [2026]",Young Sherlock
 http://mhav1.com:2095/series/ht2990/742579548/6691.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Youth " tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg" group-title="English Series [2026]",Youth 
+http://mhav1.com:2095/series/ht2990/742579548/7369.ts
+
 
 ##### [English Series [حديثه]] #####
 
@@ -4891,9 +4894,6 @@ http://mhav1.com:2095/series/ht2990/742579548/4691.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Get Millie Black" tvg-logo="http://images.stttoegypt2026.com:80/images/ytXuD2ZP9Q82OzalMaGYoKUUPCG_big.jpg" group-title="English Series [حديثه]",Get Millie Black
 http://mhav1.com:2095/series/ht2990/742579548/4875.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Ghosts" tvg-logo="http://images.stttoegypt2026.com:80/images/pmmvsHj6gTOxRheVoiHSPq4ldhk_big.jpg" group-title="English Series [حديثه]",Ghosts
-http://mhav1.com:2095/series/ht2990/742579548/1845.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ghosts of Beirut" tvg-logo="http://images.stttoegypt2026.com:80/images/ne0hOxVORItq0sNNDx8D8MNORxq_big.jpg" group-title="English Series [حديثه]",Ghosts of Beirut
 http://mhav1.com:2095/series/ht2990/742579548/2508.ts
@@ -6082,9 +6082,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3839.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Gentlemen" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg" group-title="English Series [حديثه]",The Gentlemen
 http://mhav1.com:2095/series/ht2990/742579548/7327.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="English Series [حديثه]",The Gilded Age
-http://mhav1.com:2095/series/ht2990/742579548/1056.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Girls on the Bus" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/w2ZqWIqf0hbxshHoRY9bJtXAY67.jpg" group-title="English Series [حديثه]",The Girls on the Bus
 http://mhav1.com:2095/series/ht2990/742579548/3619.ts
@@ -13193,6 +13190,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7019.ts
 #EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة" tvg-logo="http://images.stttoegypt2026.com:80/images/A8eRW5kNsIcGuj7ZTiOovijuokl_big.jpg" group-title="عربي يعرض الان",القصة الكاملة
 http://mhav1.com:2095/series/ht2990/742579548/7294.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة: جريمة في الزمالك" tvg-logo="http://images.stttoegypt2026.com:80/images/u1quoJsa1prHqr5Epx50JSJzEZd_big.jpg" group-title="عربي يعرض الان",القصة الكاملة: جريمة في الزمالك
+http://mhav1.com:2095/series/ht2990/742579548/7499.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="القصة الكاملة: ما لم يُحكَ عن بني مزار" tvg-logo="http://images.stttoegypt2026.com:80/images/b6q8NhGQDxv9PQ4bSGqhkyEVppq_big.jpg" group-title="عربي يعرض الان",القصة الكاملة: ما لم يُحكَ عن بني مزار
 http://mhav1.com:2095/series/ht2990/742579548/7427.ts
 
@@ -13337,6 +13337,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5773.ts
 #EXTINF:-1 tvg-id="" tvg-name="Doc" tvg-logo="http://images.stttoegypt2026.com:80/images/tuZULS39M5QtqY5fBaVHR3F5qOP_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Doc
 http://mhav1.com:2095/series/ht2990/742579548/5047.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Ghosts" tvg-logo="http://images.stttoegypt2026.com:80/images/pmmvsHj6gTOxRheVoiHSPq4ldhk_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Ghosts
+http://mhav1.com:2095/series/ht2990/742579548/1845.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Marshals" tvg-logo="http://images.stttoegypt2026.com:80/images/nInfaveN1iFpRIcMGNKENoVVUT2_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Marshals
 http://mhav1.com:2095/series/ht2990/742579548/6689.ts
 
@@ -13367,6 +13370,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6677.ts
 #EXTINF:-1 tvg-id="" tvg-name="Small Prophets" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/hbWv5sI8vHGSlw4nGhTc7DK5Kjg.jpg" group-title="مسلسلات أجنبى تعرض الان",Small Prophets
 http://mhav1.com:2095/series/ht2990/742579548/7407.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Gilded Age
+http://mhav1.com:2095/series/ht2990/742579548/1056.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Tracker" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ivhqGQa4ndqDatKiASIfSMJIJuh.jpg" group-title="مسلسلات أجنبى تعرض الان",Tracker
 http://mhav1.com:2095/series/ht2990/742579548/3428.ts
 
@@ -13378,9 +13384,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7432.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="YAGA" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/2kxIViR7g3e08ZHLlvNFFJkgJtI.jpg" group-title="مسلسلات أجنبى تعرض الان",YAGA
 http://mhav1.com:2095/series/ht2990/742579548/7463.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Youth " tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg" group-title="مسلسلات أجنبى تعرض الان",Youth 
-http://mhav1.com:2095/series/ht2990/742579548/7369.ts
 
 
 ##### [مسلسلات تاريخية] #####
@@ -17089,6 +17092,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4054.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="اغنيه الحب" tvg-logo="http://images.stttoegypt2026.com:80/images/nAk1nNpgsvUJElfTlHObhUosbgx_big.jpg" group-title="مسلسلات مدبلجه",اغنيه الحب
 http://mhav1.com:2095/series/ht2990/742579548/2702.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="الأرض الطيبة" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v6d5Nivg3GjI76Qf3zOGjQNUkfK.jpg" group-title="مسلسلات مدبلجه",الأرض الطيبة
+http://mhav1.com:2095/series/ht2990/742579548/7500.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الأزهار البرية" tvg-logo="http://images.stttoegypt2026.com:80/images/qI47yRnIlB1f6qReedLIFYBpUBn_big.jpg" group-title="مسلسلات مدبلجه",الأزهار البرية
 http://mhav1.com:2095/series/ht2990/742579548/4145.ts
