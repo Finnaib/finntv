@@ -2411,6 +2411,9 @@ http://mhav1.com:2095/series/ht2990/742579548/278.ts
 #EXTINF:-1 tvg-id="" tvg-name="TYSON" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg" group-title="Documentary  Series",TYSON
 http://mhav1.com:2095/series/ht2990/742579548/7504.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Taken: Natalee Holloway" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lo1CMPtIlvI66w0PHjQ5s4TDSFx.jpg" group-title="Documentary  Series",Taken: Natalee Holloway
+http://mhav1.com:2095/series/ht2990/742579548/7510.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Testament: The Story of Moses" tvg-logo="http://images.stttoegypt2026.com:80/images/1ylraenvcOtKBP5bp5cTC365fAV_big.jpg" group-title="Documentary  Series",Testament: The Story of Moses
 http://mhav1.com:2095/series/ht2990/742579548/3725.ts
 
@@ -3884,6 +3887,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6545.ts
 #EXTINF:-1 tvg-id="" tvg-name="Big Mistakes" tvg-logo="http://images.stttoegypt2026.com:80/images/mgXTCQ86lV3oudr2KXXO5zGEqIb_big.jpg" group-title="English Series [2026]",Big Mistakes
 http://mhav1.com:2095/series/ht2990/742579548/6821.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Brothers" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg" group-title="English Series [2026]",Brothers
+http://mhav1.com:2095/series/ht2990/742579548/7378.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="CIA" tvg-logo="http://images.stttoegypt2026.com:80/images/8XbgWv137Umc8resTDeWh9ff7Y0_big.jpg" group-title="English Series [2026]",CIA
 http://mhav1.com:2095/series/ht2990/742579548/6673.ts
 
@@ -4112,6 +4118,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7434.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Faithful" tvg-logo="http://images.stttoegypt2026.com:80/images/6wookNIDx4IEQmpu0920qFDuRyI_big.jpg" group-title="English Series [2026]",The Faithful
 http://mhav1.com:2095/series/ht2990/742579548/6787.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="The Greatest" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/hu4jco5AOs8NSIctuc9KsRyuSg8.jpg" group-title="English Series [2026]",The Greatest
+http://mhav1.com:2095/series/ht2990/742579548/7507.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="The House of the Spirits" tvg-logo="http://images.stttoegypt2026.com:80/images/yb682O0KCZlS5qRydxOytO5A6co_big.jpg" group-title="English Series [2026]",The House of the Spirits
 http://mhav1.com:2095/series/ht2990/742579548/6936.ts
 
@@ -4300,9 +4309,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3071.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Allegiance" tvg-logo="http://images.stttoegypt2026.com:80/images/bQUA3OL7blpkkrtot1ThaXVSgc3_big.jpg" group-title="English Series [حديثه]",Allegiance
 http://mhav1.com:2095/series/ht2990/742579548/3366.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Alls Fair" tvg-logo="http://images.stttoegypt2026.com:80/images/n7wkrQNHaVygVc0Z8EsuZZaoKQG_big.jpg" group-title="English Series [حديثه]",Alls Fair
-http://mhav1.com:2095/series/ht2990/742579548/6116.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Altered Carbon" tvg-logo="http://images.stttoegypt2026.com:80/images/95IsiH4p5937YXQHaOS2W2dWYOG_big.jpg" group-title="English Series [حديثه]",Altered Carbon
 http://mhav1.com:2095/series/ht2990/742579548/113.ts
@@ -5824,9 +5830,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1785.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="State of the Union" tvg-logo="http://images.stttoegypt2026.com:80/images/qnmj4XMt5z3EMfeb1tPMFXQuS9d_big.jpg" group-title="English Series [حديثه]",State of the Union
 http://mhav1.com:2095/series/ht2990/742579548/296.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Stick" tvg-logo="http://images.stttoegypt2026.com:80/images/y8EWrf5Ry1WmYksWT7MOPWexvr5_big.jpg" group-title="English Series [حديثه]",Stick
-http://mhav1.com:2095/series/ht2990/742579548/5646.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Still Up" tvg-logo="http://images.stttoegypt2026.com:80/images/zuLPqkFVDKwbtLobpHzJTCGP13B_big.jpg" group-title="English Series [حديثه]",Still Up
 http://mhav1.com:2095/series/ht2990/742579548/2959.ts
@@ -13250,6 +13253,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7414.ts
 #EXTINF:-1 tvg-id="" tvg-name="طالع نازل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/9RpMgQpEnW4f6XhawbaIPZXZgHX.jpg" group-title="عربي يعرض الان",طالع نازل
 http://mhav1.com:2095/series/ht2990/742579548/7418.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="ليل خرمس" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pQcc44KM71aDoKUPz39iFhtb5Af.jpg" group-title="عربي يعرض الان",ليل خرمس
+http://mhav1.com:2095/series/ht2990/742579548/7509.ts
+
 
 ##### [فوازيرمصريه] #####
 
@@ -13331,14 +13337,14 @@ http://mhav1.com:2095/series/ht2990/742579548/117.ts
 #EXTINF:-1 tvg-id="" tvg-name="9-1-1 Nashville" tvg-logo="http://images.stttoegypt2026.com:80/images/gtUI04nGfq3AsoG6bNahPrT4Lrm_big.jpg" group-title="مسلسلات أجنبى تعرض الان",9-1-1 Nashville
 http://mhav1.com:2095/series/ht2990/742579548/6041.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="All's Fair" tvg-logo="http://images.stttoegypt2026.com:80/images/n7wkrQNHaVygVc0Z8EsuZZaoKQG_big.jpg" group-title="مسلسلات أجنبى تعرض الان",All's Fair
+http://mhav1.com:2095/series/ht2990/742579548/6116.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="American Horror Story" tvg-logo="http://images.stttoegypt2026.com:80/images/5LLG9bjq0i7V5N4UfRhnab8zHK4_big.jpg" group-title="مسلسلات أجنبى تعرض الان",American Horror Story
 http://mhav1.com:2095/series/ht2990/742579548/3005.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="American Hostage" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kVXkBIJw4eW9KC8VZvYvoS6Qg0j.jpg" group-title="مسلسلات أجنبى تعرض الان",American Hostage
 http://mhav1.com:2095/series/ht2990/742579548/7371.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Brothers" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/jD7ZQpDEZzAVReJzkOtmuFoIl2m.jpg" group-title="مسلسلات أجنبى تعرض الان",Brothers
-http://mhav1.com:2095/series/ht2990/742579548/7378.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Dark Matter" tvg-logo="http://images.stttoegypt2026.com:80/images/c6MRUtPk0nEPQ9FBD9RdRKt2rIm_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Dark Matter
 http://mhav1.com:2095/series/ht2990/742579548/3814.ts
@@ -13381,6 +13387,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6677.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Small Prophets" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/hbWv5sI8vHGSlw4nGhTc7DK5Kjg.jpg" group-title="مسلسلات أجنبى تعرض الان",Small Prophets
 http://mhav1.com:2095/series/ht2990/742579548/7407.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Stick" tvg-logo="http://images.stttoegypt2026.com:80/images/y8EWrf5Ry1WmYksWT7MOPWexvr5_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Stick
+http://mhav1.com:2095/series/ht2990/742579548/5646.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Gilded Age
 http://mhav1.com:2095/series/ht2990/742579548/1056.ts
@@ -14402,9 +14411,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3974.ts
 #EXTINF:-1 tvg-id="" tvg-name="Kubra" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/amlpVWYgv1KXiFfZKvY2t0fqvMf.jpg" group-title="مسلسلات تركيه حديثه",Kubra
 http://mhav1.com:2095/series/ht2990/742579548/3316.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Money Trap" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg" group-title="مسلسلات تركيه حديثه",Money Trap
-http://mhav1.com:2095/series/ht2990/742579548/7436.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Platonik" tvg-logo="http://images.stttoegypt2026.com:80/images/dj8A4dX6oC7DFD2RWLqvMLMPVQ3_big.jpg" group-title="مسلسلات تركيه حديثه",Platonik
 http://mhav1.com:2095/series/ht2990/742579548/5986.ts
 
@@ -14788,6 +14794,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4481.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="كم من السفن أحرقت مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/qvyqsw21TycQqY4VPN6xapZmc0e_big.jpg" group-title="مسلسلات تركيه حديثه",كم من السفن أحرقت مترجم
 http://mhav1.com:2095/series/ht2990/742579548/3195.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="كنز قارون" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg" group-title="مسلسلات تركيه حديثه",كنز قارون
+http://mhav1.com:2095/series/ht2990/742579548/7436.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="لا تبكى اسطنبول" tvg-logo="http://images.stttoegypt2026.com:80/images/kao4Mq8r4SoofQ8ILWdXk5BXAGf_big.jpg" group-title="مسلسلات تركيه حديثه",لا تبكى اسطنبول
 http://mhav1.com:2095/series/ht2990/742579548/4958.ts
@@ -17485,6 +17494,9 @@ http://mhav1.com:2095/series/ht2990/742579548/4780.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="بين نارين مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/tPm4rkVkMNTLwkVCiKr5Tld2ECg_big.jpg" group-title="مسلسلات مدبلجه",بين نارين مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/7258.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="تجارة منظمة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg" group-title="مسلسلات مدبلجه",تجارة منظمة
+http://mhav1.com:2095/series/ht2990/742579548/7508.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="تذكر الحب مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/aID893ooBbZ4fxy2rQvb7MYIlv8_big.jpg" group-title="مسلسلات مدبلجه",تذكر الحب مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/5700.ts
