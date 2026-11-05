@@ -4139,6 +4139,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/83330.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Dinosaur ديناصور" tvg-logo="http://images.stttoegypt2026.com:80/images/rSje3FS7ycJSglowlngjsvDt7vO_big.jpg" group-title="Arabic Kids",Dinosaur ديناصور
 http://mhav1.com:2095/movie/ht2990/742579548/69863.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Dolphin Boy 2" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cQC0IPTc3I1gP9CAmJThm3wAQ42.jpg" group-title="Arabic Kids",Dolphin Boy 2
+http://mhav1.com:2095/movie/ht2990/742579548/298935.mp4
+
 #EXTINF:-1 tvg-id="" tvg-name="Donkey X" tvg-logo="http://images.stttoegypt2026.com:80/images/fGYgPrTEwux7yUvIs3Xfe12R3M9_big.jpg" group-title="Arabic Kids",Donkey X
 http://mhav1.com:2095/movie/ht2990/742579548/174823.mkv
 
@@ -21142,6 +21145,15 @@ http://mhav1.com:2095/movie/ht2990/742579548/282872.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Invisible Sister HD" tvg-logo="http://images.stttoegypt2026.com:80/images/seWQvVIzb5xBjHW0Y1h4jvokxZN_big.jpg" group-title="English HD 1080",Invisible Sister HD
 http://mhav1.com:2095/movie/ht2990/742579548/224834.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 1 HD" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/78lPtwv72eTNqFW9COBYI0dWDJa.jpg" group-title="English HD 1080",Iron Man 1 HD
+http://mhav1.com:2095/movie/ht2990/742579548/298929.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 2 HD" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg" group-title="English HD 1080",Iron Man 2 HD
+http://mhav1.com:2095/movie/ht2990/742579548/298928.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 3 HD" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg" group-title="English HD 1080",Iron Man 3 HD
+http://mhav1.com:2095/movie/ht2990/742579548/298927.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Islands HD" tvg-logo="http://images.stttoegypt2026.com:80/images/a5CewSvoMsfAdg093AKzovKfVHd_big.jpg" group-title="English HD 1080",Islands HD
 http://mhav1.com:2095/movie/ht2990/742579548/244158.mkv
@@ -47267,8 +47279,14 @@ http://mhav1.com:2095/movie/ht2990/742579548/6872.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Hulk" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/UllIft2jLSBaay3zQyMV4GNdfy.jpg" group-title="Marvel",Hulk
 http://mhav1.com:2095/movie/ht2990/742579548/292209.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Iron Man (2008)Marvel" tvg-logo="http://images.stttoegypt2026.com:80/images/78lPtwv72eTNqFW9COBYI0dWDJa_big.jpg" group-title="Marvel",Iron Man (2008)Marvel
-http://mhav1.com:2095/movie/ht2990/742579548/6575.mkv
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 1" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/78lPtwv72eTNqFW9COBYI0dWDJa.jpg" group-title="Marvel",Iron Man 1
+http://mhav1.com:2095/movie/ht2990/742579548/298926.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 2" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg" group-title="Marvel",Iron Man 2
+http://mhav1.com:2095/movie/ht2990/742579548/298925.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Iron Man 3" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg" group-title="Marvel",Iron Man 3
+http://mhav1.com:2095/movie/ht2990/742579548/298924.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Spider-Man" tvg-logo="http://images.stttoegypt2026.com:80/images/gh4cZbhZxyTbgxQPxD0dOudNPTn_big.jpg" group-title="Marvel",Spider-Man
 http://mhav1.com:2095/movie/ht2990/742579548/15704.mkv
