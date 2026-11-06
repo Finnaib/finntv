@@ -13259,9 +13259,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1437.ts
 #EXTINF:-1 tvg-id="" tvg-name="سيدو وحورية" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/sWQE606Mgh6WnEsSRDAnybH11cc.jpg" group-title="عربي يعرض الان",سيدو وحورية
 http://mhav1.com:2095/series/ht2990/742579548/7414.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="طالع نازل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/9RpMgQpEnW4f6XhawbaIPZXZgHX.jpg" group-title="عربي يعرض الان",طالع نازل
-http://mhav1.com:2095/series/ht2990/742579548/7418.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ليل خرمس" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pQcc44KM71aDoKUPz39iFhtb5Af.jpg" group-title="عربي يعرض الان",ليل خرمس
 http://mhav1.com:2095/series/ht2990/742579548/7509.ts
 
@@ -18922,6 +18919,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6095.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="صفحة بيضا" tvg-logo="http://images.stttoegypt2026.com:80/images/hfBjEQGGjtCUy5HOMn7q3vZL26i_big.jpg" group-title="مسلسلات مصريه 2026",صفحة بيضا
 http://mhav1.com:2095/series/ht2990/742579548/5101.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="طالع نازل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/9RpMgQpEnW4f6XhawbaIPZXZgHX.jpg" group-title="مسلسلات مصريه 2026",طالع نازل
+http://mhav1.com:2095/series/ht2990/742579548/7418.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عهد انيس" tvg-logo="http://images.stttoegypt2026.com:80/images/iXuUsDNtRS2Ur7pnO5F1BoA7UkN_big.jpg" group-title="مسلسلات مصريه 2026",عهد انيس
 http://mhav1.com:2095/series/ht2990/742579548/5574.ts
