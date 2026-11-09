@@ -16355,12 +16355,6 @@ http://mhav1.com:2095/live/ht2990/742579548/8934.ts
 
 ##### [beIN Movies بي إن الترفيهية] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 1" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 1
-http://mhav1.com:2095/live/ht2990/742579548/4142.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="BeIn Box Office 2" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",BeIn Box Office 2
-http://mhav1.com:2095/live/ht2990/742579548/4144.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Box Office" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",Box Office
 http://mhav1.com:2095/live/ht2990/742579548/20442.ts
 
@@ -16486,9 +16480,6 @@ http://mhav1.com:2095/live/ht2990/742579548/22585.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_FILMS_SD" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_FILMS_SD
 http://mhav1.com:2095/live/ht2990/742579548/20425.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN_Star_LIFE" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_LIFE
-http://mhav1.com:2095/live/ht2990/742579548/4132.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="beIN_Star_Series" tvg-logo="" group-title="beIN Movies بي إن الترفيهية",beIN_Star_Series
 http://mhav1.com:2095/live/ht2990/742579548/4026.ts

@@ -3881,6 +3881,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7086.ts
 #EXTINF:-1 tvg-id="" tvg-name="American Classic" tvg-logo="http://images.stttoegypt2026.com:80/images/nQoTcFVB9xO6tLnoSARRViitPQF_big.jpg" group-title="English Series [2026]",American Classic
 http://mhav1.com:2095/series/ht2990/742579548/6687.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="American Hostage" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kVXkBIJw4eW9KC8VZvYvoS6Qg0j.jpg" group-title="English Series [2026]",American Hostage
+http://mhav1.com:2095/series/ht2990/742579548/7371.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Anna Pigeon" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/qQ7nkSvxqFyILu0h2q0hNI6bZTi.jpg" group-title="English Series [2026]",Anna Pigeon
 http://mhav1.com:2095/series/ht2990/742579548/7275.ts
 
@@ -4069,6 +4072,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7331.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Prisoner" tvg-logo="http://images.stttoegypt2026.com:80/images/n1PFo7FwGNmb6rNchmerpyXI40X_big.jpg" group-title="English Series [2026]",Prisoner
 http://mhav1.com:2095/series/ht2990/742579548/6912.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="R.J. Decker" tvg-logo="http://images.stttoegypt2026.com:80/images/dRkqrB2pk7qCcfPYNta9ZOnDd1T_big.jpg" group-title="English Series [2026]",R.J. Decker
+http://mhav1.com:2095/series/ht2990/742579548/6697.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Ride or Die" tvg-logo="http://images.stttoegypt2026.com:80/images/uWqEnvpwa2U28QheMdUdEcr4U0M_big.jpg" group-title="English Series [2026]",Ride or Die
 http://mhav1.com:2095/series/ht2990/742579548/7172.ts
@@ -6148,9 +6154,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5801.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Imperfects" tvg-logo="http://images.stttoegypt2026.com:80/images/67UBGyIMMhf3eoykTNoWb8sErTO_big.jpg" group-title="English Series [حديثه]",The Imperfects
 http://mhav1.com:2095/series/ht2990/742579548/1750.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Institute" tvg-logo="http://images.stttoegypt2026.com:80/images/7JXZdWifaa6wL0XLRi0GJOlOA8y_big.jpg" group-title="English Series [حديثه]",The Institute
-http://mhav1.com:2095/series/ht2990/742579548/5778.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Irrational" tvg-logo="http://images.stttoegypt2026.com:80/images/jJtOpfgV4iPu9RtxllHwZgn9dqI_big.jpg" group-title="English Series [حديثه]",The Irrational
 http://mhav1.com:2095/series/ht2990/742579548/2970.ts
@@ -12032,12 +12035,6 @@ http://mhav1.com:2095/series/ht2990/742579548/7125.ts
 #EXTINF:-1 tvg-id="" tvg-name="في ايه" tvg-logo="https://tse1.mm.bing.net/th/id/OIP.cRNHfgsZ7ect9WvRYbDxagHaKk?r=0&w=500&h=714&rs=1&pid=ImgDetMain&o=7&rm=3" group-title="TV Shows",في ايه
 http://mhav1.com:2095/series/ht2990/742579548/7211.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="TV Shows",قسمة و نصيب
-http://mhav1.com:2095/series/ht2990/742579548/7168.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب : العروس و الحماة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="TV Shows",قسمة و نصيب : العروس و الحماة
-http://mhav1.com:2095/series/ht2990/742579548/7277.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="قصتي" tvg-logo="http://images.stttoegypt2026.com:80/images/9u28k7eTmCZ5oYvoem3SoX4kctM_big.jpg" group-title="TV Shows",قصتي
 http://mhav1.com:2095/series/ht2990/742579548/6864.ts
 
@@ -13265,6 +13262,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7414.ts
 #EXTINF:-1 tvg-id="" tvg-name="طالع نازل" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/9RpMgQpEnW4f6XhawbaIPZXZgHX.jpg" group-title="عربي يعرض الان",طالع نازل
 http://mhav1.com:2095/series/ht2990/742579548/7418.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب : العروس و الحماة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="عربي يعرض الان",قسمة و نصيب : العروس و الحماة
+http://mhav1.com:2095/series/ht2990/742579548/7277.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="ليل خرمس" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pQcc44KM71aDoKUPz39iFhtb5Af.jpg" group-title="عربي يعرض الان",ليل خرمس
 http://mhav1.com:2095/series/ht2990/742579548/7509.ts
 
@@ -13358,9 +13358,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6116.ts
 #EXTINF:-1 tvg-id="" tvg-name="American Horror Story" tvg-logo="http://images.stttoegypt2026.com:80/images/5LLG9bjq0i7V5N4UfRhnab8zHK4_big.jpg" group-title="مسلسلات أجنبى تعرض الان",American Horror Story
 http://mhav1.com:2095/series/ht2990/742579548/3005.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="American Hostage" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/kVXkBIJw4eW9KC8VZvYvoS6Qg0j.jpg" group-title="مسلسلات أجنبى تعرض الان",American Hostage
-http://mhav1.com:2095/series/ht2990/742579548/7371.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Cupertino" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/70AhJpOqU2oKyQF2paJA764CSje.jpg" group-title="مسلسلات أجنبى تعرض الان",Cupertino
 http://mhav1.com:2095/series/ht2990/742579548/7515.ts
 
@@ -13391,9 +13388,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5858.ts
 #EXTINF:-1 tvg-id="" tvg-name="Phony" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iCyQc8cSSHkxUHbkvzbC77owALt.jpg" group-title="مسلسلات أجنبى تعرض الان",Phony
 http://mhav1.com:2095/series/ht2990/742579548/7468.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="R.J. Decker" tvg-logo="http://images.stttoegypt2026.com:80/images/dRkqrB2pk7qCcfPYNta9ZOnDd1T_big.jpg" group-title="مسلسلات أجنبى تعرض الان",R.J. Decker
-http://mhav1.com:2095/series/ht2990/742579548/6697.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Reasonable Doubt" tvg-logo="http://images.stttoegypt2026.com:80/images/7eGwjRFFbF7ADUn6tsaypNrIlkh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Reasonable Doubt
 http://mhav1.com:2095/series/ht2990/742579548/4445.ts
 
@@ -13411,6 +13405,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5646.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Gilded Age
 http://mhav1.com:2095/series/ht2990/742579548/1056.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Institute" tvg-logo="http://images.stttoegypt2026.com:80/images/7JXZdWifaa6wL0XLRi0GJOlOA8y_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Institute
+http://mhav1.com:2095/series/ht2990/742579548/5778.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Tracker" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ivhqGQa4ndqDatKiASIfSMJIJuh.jpg" group-title="مسلسلات أجنبى تعرض الان",Tracker
 http://mhav1.com:2095/series/ht2990/742579548/3428.ts
