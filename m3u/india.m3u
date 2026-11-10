@@ -1750,7 +1750,7 @@ https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8?e=1784102562&u=ee5437
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8?e=1784102570&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=78b23c868a34420397be9c985d04db9b
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/channel_i.png" group-title="Bangladesh",CHANNEL I
-https://iptv-proxy.ahmed-bd-org.workers.dev/channel-i/index.m3u8
+https://iptvlive.ahmed-bd-org.workers.dev/channel-i-hd-1/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/colors_bangla_hd.png" group-title="Bangladesh",Colors Bangla HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
@@ -1776,14 +1776,11 @@ https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b8960
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/colors_bangla_cinema.png" group-title="Bangladesh",Colors Bangla Cinema
 http://103.172.29.30:9991/stream/channelid/14180834
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/zee_bangla_sonar.png" group-title="Bangladesh",Zee Bangla Sonar
-https://drk6xq0vhn.gpcdn.net/live/zee_bangla_cinema_abr/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/cr_star_sports_1_hindi.png" group-title="Bangladesh",CR | Star Sports 1 Hindi
 https://starsportshindiii.pages.dev/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/ptv_sports.png" group-title="Bangladesh",PTV Sports HD
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/247170.ts
+https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102651&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/Ptvsportslogo2023.png" group-title="Bangladesh",---Live(PTV Sports)---
 https://s1.itcnbd.live/PTV-Sports/tracks-v1a1/mono.m3u8?nocache=1785582200018
@@ -1799,6 +1796,9 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/1701.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b" group-title="Bangladesh",Nat Geo TV
 https://tvsen6.aynaott.com/natgeo/index.m3u8?e=1784102611&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=be23b688e0d8482e77b3a038a220a900
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%C3%93%C4%8Dko_Star_logo.png/960px-%C3%93%C4%8Dko_Star_logo.png" group-title="Bangladesh",Ocko Star
+https://dash4.antik.sk/live/test_ocko_star/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596" group-title="Bangladesh",Geo ENT
 https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
@@ -1831,10 +1831,7 @@ https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 http://premimum.online:80/live/jen12345/jen54321/98854.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/ent_colors_hd.jpg" group-title="Bangladesh",COLORS HD
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/911289.ts
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sony_sab.png" group-title="Bangladesh",Sony SAB
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/911319.ts
+http://tv.cloudcdn.me:80/live.ts?channelId=160&uid=6154&deviceMac=00%3A1A%3A79%3A51%3A31%3A21
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/star_bharat.png" group-title="Bangladesh",Star Bharat HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8
@@ -1843,22 +1840,13 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/salaam_tv.png" group-title="Bangladesh",Zee Salaam
-https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
+https://d2o3r1shda7xvv.cloudfront.net/index_4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/zee_tv.png" group-title="Bangladesh",Zee TV
-http://41.205.93.154/ZEE-TV/index.m3u8
+https://d47ddb99.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/colors_cineplex.png" group-title="Bangladesh",Colors Cineplex
 https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sony_max.png" group-title="Bangladesh",Sony Max
-https://drk6xq0vhn.gpcdn.net/live/sony_max_sd_abr/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sony_max_2.png" group-title="Bangladesh",Sony Max 2
-https://drk6xq0vhn.gpcdn.net/live/max_2_abr/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://live.dinesh29.com.np/logos/jiotvplus/stargoldselecthd.png" group-title="Bangladesh",Star Gold Select HD
-https://livetv.shamon-cable.net:8443/StarGoldSelect/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/star_gold_thrills.png" group-title="Bangladesh",Star Gold Thrills
 http://rgkkw.live:8080/live/4dfoydR2gZ/clever3still/773735.ts
@@ -1870,19 +1858,19 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeBharat.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/news_zee_business.png" group-title="Bangladesh",ZEE BUSINESS
-https://dwby15d04agvq.cloudfront.net/index_5.m3u8
+https://dwby15d04agvq.cloudfront.net/index_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/news_zee_news.png" group-title="Bangladesh",ZEE News
 https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/Zee_Uttar_Pradesh-Uttarakhand_2025_Logo.png/revision/latest/scale-to-width-down/1000?cb=20250614131808" group-title="Bangladesh",Zee UP UK
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeUPUttarakhand.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/bd_jamuna_tv.png" group-title="Bangladesh",Jamuna TV
 https://iptvlive.ahmed-bd-org.workers.dev/jamuna-tv-1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/Somoy_Television.svg" group-title="Bangladesh",Somoy News
-https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/zee_24_ghanta.png" group-title="Bangladesh",Zee 24 Ghanta
-https://d2dsoyvkr33m05.cloudfront.net/index_5.m3u8
+https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/hum_masala.png" group-title="Bangladesh",Hum Masala
 http://38.101.217.46/HumMasala/index.m3u8
@@ -1896,17 +1884,14 @@ https://arynewsm.aryzap.com/v1/0183ea205add0b8ed5941a38bc6f/018ad63928611ea50695
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sony_movies.png" group-title="Bangladesh",Sony Movies
 https://a-cdn.klowdtv.com/live1/smc_720p/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Bangladesh",Star Channel Latin America
-http://15.204.246.24:8080/STARCHANNELHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/star_movies.png" group-title="Bangladesh",Star Movies
+http://tv.cloudcdn.me:80/live.ts?channelId=198&uid=4166&deviceMac=00%3A1A%3A79%3AF3%3A9F%3AF5
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/star_movies_select.png" group-title="Bangladesh",Star Movies Select
 https://livetv.shamon-cable.net:8443/Star-movies-select/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b" group-title="Bangladesh",Nat Geo TV
 https://tvsen6.aynaott.com/natgeo/index.m3u8?e=1779178091&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sony_bbc_earth_hd.png" group-title="Bangladesh",Sony BBC Earth HD
-https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="Bangladesh",COLORS HD [BENGALI]
 http://xown.site/token/stream.php?id=1487889&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
@@ -2675,33 +2660,6 @@ https://fta.ektv.in/live/410/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/BVG.png" group-title="Education",BVG (576p)
 https://mumt05.tangotv.in/87NeALx2BVG/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 4 (576p)
-http://103.72.101.252:8080/live/406.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 5 (576p)
-http://103.72.101.252:8080/live/407.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 6 (576p)
-http://103.72.101.252:8080/live/408.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 7 (576p)
-http://103.72.101.252:8080/live/404.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 8 (576p)
-http://103.72.101.252:8080/live/409.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 9 (576p)
-http://103.72.101.252:8080/live/410.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 10 (576p)
-http://103.72.101.252:8080/live/411.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 11 (576p)
-http://103.72.101.252:8080/live/1410.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 12 (576p)
-http://103.72.101.252:8080/live/1532.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GYANDARSHAN/images/LOGO_HD/image.png" group-title="Education",Gyandarshan (720p)
 https://cdn.pishow.tv/ott/live/14/master.m3u8
@@ -4006,6 +3964,9 @@ https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-logo="https://static.epg.best/in/StarSports2.in.png" group-title="KIDS",Star Sports 2 HD
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg" group-title="KIDS",Trace Sport Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.epg.best/cn/StarSports1.cn.png" group-title="KIDS",---Live(Star Sports 1 HD)---
 https://tvsen3.aynaott.com/Sports1/mono.m3u8
 
@@ -4055,10 +4016,7 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/baby_shark_tv_2.png" group-title="KIDS",0. Baby Shark TV
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/0_disney_channel_latin_america.svg" group-title="KIDS",0. Disney Channel Latin America
-http://15.204.246.24:8080/DisneyHD/index.m3u8
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",0. LooLoo Kids TV
 https://amg02757-amg02757c3-rakuten-de-6135.playouts.now.amagi.tv/playlist/amg02757-loolookids-llkdefast-rakutende/playlist.m3u8
@@ -4114,20 +4072,26 @@ https://cc-j2qrmdlg5y7lg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/baby_shark_tv_2.png" group-title="KIDS",Baby Shark TV 2
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/Motu-patlu-cover.jpg" group-title="KIDS",Cartoon Anima
-https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23195/cartoon-classics/logo_20241119_223053_61.png" group-title="KIDS",Cartoon Classics
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/cartoon_network.png" group-title="KIDS",Cartoon Network
+https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/cartoon_network_retro_blast.png" group-title="KIDS",Cartoon Network (Retro Blast)
-http://fonte.lista.luxe:80/iptvgood/101011/4038
+https://retroblast.tv/hls/0/stream.m3u8?cachebust=f224d41f
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/discovery_kids.png" group-title="KIDS",Discovery Kids Hindi
+https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/Disney_Channel_2022.svg" group-title="KIDS",Disney Channel
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/disney_channel_east.png" group-title="KIDS",Disney Channel East
 http://fortv.cc:8080/live/yd6H5yb2kK/nrkVd2ex3X/2206.ts
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/0_disney_channel_latin_america.svg" group-title="KIDS",Disney Channel Latin America
+http://45.166.93.156:9999/play/a0f3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/13/Logo_disney_xd.svg" group-title="KIDS",Disney XD
 http://185.227.34.179:8080/disney-xd/index.m3u8
@@ -4140,6 +4104,9 @@ https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/pbs-kids-us.png" group-title="KIDS",PBS Kids (Hawaii Feed)
 https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/sonic_bangla.png" group-title="KIDS",Sonic Bangla
+http://bosstv.click:8080/live/18012689/77561563/92412.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/teennick.png" group-title="KIDS",Teen Nick
 http://tvsen7.aynascope.net/teennick/index.m3u8
@@ -4156,6 +4123,9 @@ http://190.61.42.218:9000/play/a06i/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/xtrema_cartoons.png" group-title="KIDS",Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lW3WIBD.png" group-title="KIDS",Baby Time
+http://178.134.1.158:8081/babytime/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://babyfirsttv.com/wp-content/uploads/2024/03/babyfirst_logo_2022-1024x202.png" group-title="KIDS",BabyFirst
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 
@@ -4165,11 +4135,26 @@ http://149.100.11.252:8000/play/a056/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="KIDS",Cartoon Network CEE Ukraine
 http://45.132.87.69:8080/cartoon_network/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png" group-title="KIDS",Cartoonito Latin America
+http://45.173.12.70:8000/play/a0hh
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="KIDS",Discovery Kids Latin America
+http://181.224.200.5:2277/play/a00o/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="KIDS",Discovery Kids Latin America Chile
+http://38.224.231.176:8000/play/a01j/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="KIDS",Discovery Kids Latin America Colombia
+http://38.134.250.110:8000/play/a003/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://shorturl.at/rx4HL" group-title="KIDS",Disney Channel HD Hindi
 http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/19741.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/0_disney_jr.png" group-title="KIDS",Disney JR
 http://190.93.224.42/DISNEY-JR/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="KIDS",Disney Jr. Latin America North HD
+http://181.78.14.26:4000/play/a073/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="KIDS",EBS kids
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
@@ -4180,9 +4165,6 @@ https://d3go3d9yw1x2sb.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/0_moonbug.jpg" group-title="KIDS",Moonbug Kids
 https://dq2a9ghraf7sw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zxq18dopv0o6q/Moonbug.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/nick_bangla.png" group-title="KIDS",Nick Bangla
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/519972.ts
-
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/Nick_Jr_%28formerly_Noggin%29_New_Logo.jpg" group-title="KIDS",Nickelodeon
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 
@@ -4192,8 +4174,14 @@ http://stream.mcquack.net/220/index.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/49/Nicktoons_2004.svg" group-title="KIDS",Nicktoons
 http://41.205.93.154/NICKTOONS/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DrHsNin.png" group-title="KIDS",Niki Junior
+http://stream.mcquack.net/262/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HH4HZ2J.png" group-title="KIDS",Niki Kids
+http://stream.mcquack.net/271/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/pogo.png" group-title="KIDS",Pogo
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/320.ts
+https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" group-title="KIDS",Spacetoon Arabic
 https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
@@ -4201,8 +4189,8 @@ https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2b/Spacetoon_logo.png" group-title="KIDS",Spacetoon Turkey
 https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="KIDS",Super Hungama
-http://filex.me:8080/live/03098001921RDB/03098001921RDB/1389561.ts
+#EXTINF:-1 tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="KIDS",Starz Kids & Family
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xFm2co6.png" group-title="KIDS",Akili Kids!
 https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
@@ -4381,20 +4369,20 @@ https://fta.ektv.in/live/467/master.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540" group-title="Movies",Epic Bhojpuri Digital (1080p)
 https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines 2 (576p)
-https://fta.ektv.in/live/46/46_0.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Movies",Goldmines 2 (576p)
+https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines (576p)
-https://fta.ektv.in/live/53/53_0.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines (576p)
+https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Action (576p)
 https://fta.ektv.in/live/584/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Bollywood (576p)
-https://fta.ektv.in/live/52/52_0.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies",Goldmines Bollywood (576p)
+https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="Movies",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies (576p)
-http://103.175.73.12:8080/live/51/51_0.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="Movies",Goldmines Movies (576p)
+https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png" group-title="Movies",India Talkies (360p)
 https://samitaorigin.tangotv.in/INDIATALKIES/SAMITAORIGIN/index.m3u8
@@ -5342,6 +5330,9 @@ https://mumt03.tangotv.in/Dsly5z3HSAHANANEWS/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAKSHI_TV/images/LOGO_HD/image.png" group-title="News",Sakshi TV (1080p)
 https://stream.ottlive.co.in/sakshitv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s144466_ld_h15_aa.png?lock=720x540" group-title="News",Salaam TV (720p)
+https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samachar_Plus.png" group-title="News",like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="News",Samachar Plus 24x7 (576p)
 https://fta.ektv.in/live/589/master.m3u8

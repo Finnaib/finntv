@@ -3893,9 +3893,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6748.ts
 #EXTINF:-1 tvg-id="" tvg-name="Below" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/qadm9To9UfMVenVzGVLt0m0iuxv.jpg" group-title="English Series [2026]",Below
 http://mhav1.com:2095/series/ht2990/742579548/7413.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Best Medicine" tvg-logo="http://images.stttoegypt2026.com:80/images/q7SCSZfDaNDRPL3Xt4TiGSZQQht_big.jpg" group-title="English Series [2026]",Best Medicine
-http://mhav1.com:2095/series/ht2990/742579548/6381.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Betrayal" tvg-logo="http://images.stttoegypt2026.com:80/images/3Niu8rDeZCWQ8R70UK6Yv4bJCCk_big.jpg" group-title="English Series [2026]",Betrayal
 http://mhav1.com:2095/series/ht2990/742579548/6545.ts
 
@@ -13354,6 +13351,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6116.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="American Horror Story" tvg-logo="http://images.stttoegypt2026.com:80/images/5LLG9bjq0i7V5N4UfRhnab8zHK4_big.jpg" group-title="مسلسلات أجنبى تعرض الان",American Horror Story
 http://mhav1.com:2095/series/ht2990/742579548/3005.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Best Medicine" tvg-logo="http://images.stttoegypt2026.com:80/images/q7SCSZfDaNDRPL3Xt4TiGSZQQht_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Best Medicine
+http://mhav1.com:2095/series/ht2990/742579548/6381.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Cupertino" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/70AhJpOqU2oKyQF2paJA764CSje.jpg" group-title="مسلسلات أجنبى تعرض الان",Cupertino
 http://mhav1.com:2095/series/ht2990/742579548/7515.ts
