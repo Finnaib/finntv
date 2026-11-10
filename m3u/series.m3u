@@ -5819,9 +5819,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6258.ts
 #EXTINF:-1 tvg-id="" tvg-name="Squid Game  The Challenge" tvg-logo="http://images.stttoegypt2026.com:80/images/eAjXAgdjPMZH9Ugub7XYPowFoS1_big.jpg" group-title="English Series [حديثه]",Squid Game  The Challenge
 http://mhav1.com:2095/series/ht2990/742579548/3160.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="St. Denis Medical" tvg-logo="http://images.stttoegypt2026.com:80/images/8tUjI21ZcfSynLCk3Zr0Gs5BQwz_big.jpg" group-title="English Series [حديثه]",St. Denis Medical
-http://mhav1.com:2095/series/ht2990/742579548/6444.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Stags" tvg-logo="http://images.stttoegypt2026.com:80/images/zCH2UYQP0XX6bPzQMfhUBxZMLor_big.jpg" group-title="English Series [حديثه]",Stags
 http://mhav1.com:2095/series/ht2990/742579548/4270.ts
 
@@ -13399,6 +13396,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6677.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Small Prophets" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/hbWv5sI8vHGSlw4nGhTc7DK5Kjg.jpg" group-title="مسلسلات أجنبى تعرض الان",Small Prophets
 http://mhav1.com:2095/series/ht2990/742579548/7407.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="St. Denis Medical" tvg-logo="http://images.stttoegypt2026.com:80/images/8tUjI21ZcfSynLCk3Zr0Gs5BQwz_big.jpg" group-title="مسلسلات أجنبى تعرض الان",St. Denis Medical
+http://mhav1.com:2095/series/ht2990/742579548/6444.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stick" tvg-logo="http://images.stttoegypt2026.com:80/images/y8EWrf5Ry1WmYksWT7MOPWexvr5_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Stick
 http://mhav1.com:2095/series/ht2990/742579548/5646.ts
