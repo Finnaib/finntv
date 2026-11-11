@@ -6188,9 +6188,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1452.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Long Shadow" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oBwzo60yQvK6xdhon4LF6oi6sMi.jpg" group-title="English Series [حديثه]",The Long Shadow
 http://mhav1.com:2095/series/ht2990/742579548/3014.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Lord of the Rings: The Rings of Power" tvg-logo="http://images.stttoegypt2026.com:80/images/65DUg8EWQclOnDfNWWdL5Xp6H8F_big.jpg" group-title="English Series [حديثه]",The Lord of the Rings: The Rings of Power
-http://mhav1.com:2095/series/ht2990/742579548/1733.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="The Lost Flowers of Alice Hart" tvg-logo="http://images.stttoegypt2026.com:80/images/sNeGAamuke1a2I4ndcaE0bnukh4_big.jpg" group-title="English Series [حديثه]",The Lost Flowers of Alice Hart
 http://mhav1.com:2095/series/ht2990/742579548/2798.ts
 
@@ -13411,6 +13408,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1056.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Institute" tvg-logo="http://images.stttoegypt2026.com:80/images/7JXZdWifaa6wL0XLRi0GJOlOA8y_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Institute
 http://mhav1.com:2095/series/ht2990/742579548/5778.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Lord of the Rings: The Rings of Power" tvg-logo="http://images.stttoegypt2026.com:80/images/65DUg8EWQclOnDfNWWdL5Xp6H8F_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Lord of the Rings: The Rings of Power
+http://mhav1.com:2095/series/ht2990/742579548/1733.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Tracker" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ivhqGQa4ndqDatKiASIfSMJIJuh.jpg" group-title="مسلسلات أجنبى تعرض الان",Tracker
 http://mhav1.com:2095/series/ht2990/742579548/3428.ts
