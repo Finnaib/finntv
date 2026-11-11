@@ -1049,6 +1049,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/292483.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Man vs. Bigfoot" tvg-logo="http://images.stttoegypt2026.com:80/images/eNMnJb4M2JF6Da1jV614kJanfzE_big.jpg" group-title="Amazon",Man vs. Bigfoot
 http://mhav1.com:2095/movie/ht2990/742579548/45490.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Man's Best Friend" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/dRDOrszc2X9bWsE2LhJuJ6WbVEp.jpg" group-title="Amazon",Man's Best Friend
+http://mhav1.com:2095/movie/ht2990/742579548/299298.mp4
+
 #EXTINF:-1 tvg-id="" tvg-name="Margin Call" tvg-logo="http://images.stttoegypt2026.com:80/images/qtO57obCJuUBS0en3HLgFgZ19Xk_big.jpg" group-title="Amazon",Margin Call
 http://mhav1.com:2095/movie/ht2990/742579548/289366.mkv
 
@@ -1621,9 +1624,6 @@ http://mhav1.com:2095/movie/ht2990/742579548/182886.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Icebreaker" tvg-logo="http://images.stttoegypt2026.com:80/images/_big.jpg" group-title="Amazon",The Icebreaker
 http://mhav1.com:2095/movie/ht2990/742579548/182889.mkv
-
-#EXTINF:-1 tvg-id="" tvg-name="The Intern" tvg-logo="http://images.stttoegypt2026.com:80/images/9UoAC9tu8kIyRy8AcJnGhnH0gOH_big.jpg" group-title="Amazon",The Intern
-http://mhav1.com:2095/movie/ht2990/742579548/174571.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The King's Man" tvg-logo="http://images.stttoegypt2026.com:80/images/aq4Pwv5Xeuvj6HZKtxyd23e6bE9_big.jpg" group-title="Amazon",The King's Man
 http://mhav1.com:2095/movie/ht2990/742579548/174866.mkv
@@ -8983,6 +8983,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/119376.mp4
 
 #EXTINF:-1 tvg-id="" tvg-name="The Hypnosis" tvg-logo="http://images.stttoegypt2026.com:80/images/basTHSgrqoKieDn6XmBwtViVjHR_big.jpg" group-title="Asia  Movies",The Hypnosis
 http://mhav1.com:2095/movie/ht2990/742579548/74654.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Intern" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/w7MwNPpZCOWRDYKHt22YygCIjCa.jpg" group-title="Asia  Movies",The Intern
+http://mhav1.com:2095/movie/ht2990/742579548/299377.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Invincible Dragon" tvg-logo="http://images.stttoegypt2026.com:80/images/15GQh5pUXzPSvZ0GmqsYeUSlhUw_big.jpg" group-title="Asia  Movies",The Invincible Dragon
 http://mhav1.com:2095/movie/ht2990/742579548/175360.mkv
@@ -29384,7 +29387,7 @@ http://mhav1.com:2095/movie/ht2990/742579548/18554.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Atomic Blonde" tvg-logo="http://images.stttoegypt2026.com:80/images/jdL6isPaY13aWFzLUdpbctgArO6_big.jpg" group-title="English Movies",Atomic Blonde
 http://mhav1.com:2095/movie/ht2990/742579548/6859.mkv
 
-#EXTINF:-1 tvg-id="" tvg-name="Atonement" tvg-logo="http://images.stttoegypt2026.com:80/images/hMRIyBjPzxaSXWM06se3OcNjIQa_big.jpg" group-title="English Movies",Atonement
+#EXTINF:-1 tvg-id="" tvg-name="Atonement." tvg-logo="http://images.stttoegypt2026.com:80/images/hMRIyBjPzxaSXWM06se3OcNjIQa_big.jpg" group-title="English Movies",Atonement.
 http://mhav1.com:2095/movie/ht2990/742579548/141256.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Attraction" tvg-logo="http://images.stttoegypt2026.com:80/images/uMr2lXCh8PuGBhCIosjknQRv1iT_big.jpg" group-title="English Movies",Attraction
@@ -31430,6 +31433,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/295693.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Atlas King" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/cUtCYEoM0DzqQ5gXnFbf2Ma7Nck.jpg" group-title="English Movies 2026",Atlas King
 http://mhav1.com:2095/movie/ht2990/742579548/292464.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Atonement" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/zQPB0tL1sH1r54EDlqMugYqmcuu.jpg" group-title="English Movies 2026",Atonement
+http://mhav1.com:2095/movie/ht2990/742579548/299369.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Auri" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/dDt7E6pdoJAE6JvQtorCBvFhHtW.jpg" group-title="English Movies 2026",Auri
 http://mhav1.com:2095/movie/ht2990/742579548/297211.mkv
 
@@ -31597,6 +31603,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/286040.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Colors of Evil: Black" tvg-logo="http://images.stttoegypt2026.com:80/images/wIubCZKpnTiQmlC5DehgU1LNFip_big.jpg" group-title="English Movies 2026",Colors of Evil: Black
 http://mhav1.com:2095/movie/ht2990/742579548/285155.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Come Away With Me" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/1R2FdGierfRMDA0SEmIEturmUrW.jpg" group-title="English Movies 2026",Come Away With Me
+http://mhav1.com:2095/movie/ht2990/742579548/299370.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Come with Me" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/l9NTjlassidebSv9sAyaBQSSGEa.jpg" group-title="English Movies 2026",Come with Me
 http://mhav1.com:2095/movie/ht2990/742579548/293527.mkv
@@ -32210,6 +32219,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/294577.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Nina Roza" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/46qX7uLcu0XcQajVxizR2RYC45H.jpg" group-title="English Movies 2026",Nina Roza
 http://mhav1.com:2095/movie/ht2990/742579548/296349.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="No One Leaves" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/ddkahholu2Dd3mdFsBBTasOE1PG.jpg" group-title="English Movies 2026",No One Leaves
+http://mhav1.com:2095/movie/ht2990/742579548/299371.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="No Ordinary Heist" tvg-logo="http://images.stttoegypt2026.com:80/images/eA2uQxSMqyljAtt920084tDrw6G_big.jpg" group-title="English Movies 2026",No Ordinary Heist
 http://mhav1.com:2095/movie/ht2990/742579548/277962.mkv
 
@@ -32309,6 +32321,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/298391.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Prison" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/87kLBPMeQN4NDKt3BrozsQunnXP.jpg" group-title="English Movies 2026",Prison
 http://mhav1.com:2095/movie/ht2990/742579548/297666.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="Project Assault" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/gbQbWLWoMAKWpYfuMgvwL52bI9W.jpg" group-title="English Movies 2026",Project Assault
+http://mhav1.com:2095/movie/ht2990/742579548/299372.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="Project Hail Mary" tvg-logo="http://images.stttoegypt2026.com:80/images/yihdXomYb5kTeSivtFndMy5iDmf_big.jpg" group-title="English Movies 2026",Project Hail Mary
 http://mhav1.com:2095/movie/ht2990/742579548/274489.mkv
 
@@ -32332,6 +32347,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/297002.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Racewalkers" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pIjr6zMhT7k7NHa06rYTSgyc6C2.jpg" group-title="English Movies 2026",Racewalkers
 http://mhav1.com:2095/movie/ht2990/742579548/295482.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="Ralph's Perfekt Christmas" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/mwL1QWY5ZWL4HXEwBXxYzZCioQk.jpg" group-title="English Movies 2026",Ralph's Perfekt Christmas
+http://mhav1.com:2095/movie/ht2990/742579548/299373.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="Ramy Youssef: In Love" tvg-logo="http://images.stttoegypt2026.com:80/images/1wDb1KuGESqDs0flyqZ2wYE2Zg_big.jpg" group-title="English Movies 2026",Ramy Youssef: In Love
 http://mhav1.com:2095/movie/ht2990/742579548/275880.mkv
@@ -32597,6 +32615,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/297313.mkv
 #EXTINF:-1 tvg-id="" tvg-name="The Fix" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/yopXjun3ICFfJci2ukcEzceZjUs.jpg" group-title="English Movies 2026",The Fix
 http://mhav1.com:2095/movie/ht2990/742579548/294662.mkv
 
+#EXTINF:-1 tvg-id="" tvg-name="The Floaters" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/6VHAOIOO4MJXv19EtW5WFVRWztH.jpg" group-title="English Movies 2026",The Floaters
+http://mhav1.com:2095/movie/ht2990/742579548/299374.mkv
+
 #EXTINF:-1 tvg-id="" tvg-name="The Florist " tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg" group-title="English Movies 2026",The Florist 
 http://mhav1.com:2095/movie/ht2990/742579548/296452.mkv
 
@@ -32626,6 +32647,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/293535.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Good Lawyer" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/5gLUXJZzyL1GQAAGdfnz1KEH8gj.jpg" group-title="English Movies 2026",The Good Lawyer
 http://mhav1.com:2095/movie/ht2990/742579548/299155.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Gospel of Christmas" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/k5OOd5sMEqPlKKhgFnkj1jBhNTf.jpg" group-title="English Movies 2026",The Gospel of Christmas
+http://mhav1.com:2095/movie/ht2990/742579548/299375.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Holiday Spark (2026)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/mVNyp3H28aSULZB4gUrmkZTClgJ.jpg" group-title="English Movies 2026",The Holiday Spark (2026)
 http://mhav1.com:2095/movie/ht2990/742579548/298306.mkv
@@ -32779,6 +32803,9 @@ http://mhav1.com:2095/movie/ht2990/742579548/297670.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Teenage Vampire" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/hhbcC4lUcaU7YW3Miq4XzUVEJY8.jpg" group-title="English Movies 2026",The Teenage Vampire
 http://mhav1.com:2095/movie/ht2990/742579548/297671.mkv
+
+#EXTINF:-1 tvg-id="" tvg-name="The Train" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/rnWuI5SzLv0ANvQoJKhTv5pAbLg.jpg" group-title="English Movies 2026",The Train
+http://mhav1.com:2095/movie/ht2990/742579548/299376.mkv
 
 #EXTINF:-1 tvg-id="" tvg-name="The Trinitarians" tvg-logo="http://images.stttoegypt2026.com:80/images/_big.jpg" group-title="English Movies 2026",The Trinitarians
 http://mhav1.com:2095/movie/ht2990/742579548/296593.mkv
