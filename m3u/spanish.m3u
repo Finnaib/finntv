@@ -14,9 +14,6 @@ https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="Antena3.es@National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png" group-title="Spain",Antena 3
 https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 
-#EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="Spain",Antena 3 Internacional (1080p)
-http://38.252.238.18:8000/play/a04a/index.m3u8
-
 #EXTINF:-1 tvg-id="CanalSur2.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png" group-title="Spain",Canal Sur 2 (720p)
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 
@@ -84,7 +81,7 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_1080.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 
 #EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Spain",TVE Star HD (1080p)
-http://38.252.238.18:8000/play/a01h/index.m3u8
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4BSKCQT.png" group-title="Spain",Alfa & Omega Vision
 https://srv.panelcast.net/dorian/dorian/playlist.m3u8
@@ -206,6 +203,9 @@ https://oha.to/play/238901671/index.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/EEF4B033-EED9-4711-A947-1DD2A5A49984.jpeg?raw=true" group-title="Spain",Canal Sur Andalucía
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="Spain",Antena 3 Internacional (1080p)
+http://38.252.238.18:8000/play/a04a/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99vVbTd.png" group-title="Spain",E Ten TV
 https://iptvbd.live/test/1080.m3u8
 
@@ -268,6 +268,9 @@ http://185.189.225.150:85/nova/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/zsCZHMh.png" group-title="Spain",TVE Star HD
 https://rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Spain",TVE Star HD (1080p)
+http://38.252.238.18:8000/play/a01h/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/512px-Big_Ten_Network_Logo.svg.png" group-title="Spain",Big Ten Network
 http://fl3.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
