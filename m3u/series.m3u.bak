@@ -4073,9 +4073,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6697.ts
 #EXTINF:-1 tvg-id="" tvg-name="Ride or Die" tvg-logo="http://images.stttoegypt2026.com:80/images/uWqEnvpwa2U28QheMdUdEcr4U0M_big.jpg" group-title="English Series [2026]",Ride or Die
 http://mhav1.com:2095/series/ht2990/742579548/7172.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Rivals" tvg-logo="http://images.stttoegypt2026.com:80/images/3p9t1KDo5iXAn1zsSPn8sdtakWs_big.jpg" group-title="English Series [2026]",Rivals
-http://mhav1.com:2095/series/ht2990/742579548/6985.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Rooster" tvg-logo="http://images.stttoegypt2026.com:80/images/aikvD4Nu7N6ekbrXNua8vJlO8JU_big.jpg" group-title="English Series [2026]",Rooster
 http://mhav1.com:2095/series/ht2990/742579548/6713.ts
 
@@ -13396,6 +13393,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7468.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Reasonable Doubt" tvg-logo="http://images.stttoegypt2026.com:80/images/7eGwjRFFbF7ADUn6tsaypNrIlkh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Reasonable Doubt
 http://mhav1.com:2095/series/ht2990/742579548/4445.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Rivals" tvg-logo="http://images.stttoegypt2026.com:80/images/3p9t1KDo5iXAn1zsSPn8sdtakWs_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Rivals
+http://mhav1.com:2095/series/ht2990/742579548/6985.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="S.W.A.T. Exiles" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pPiEujhVa2MBSowmvnNWqEzxH0x.jpg" group-title="مسلسلات أجنبى تعرض الان",S.W.A.T. Exiles
 http://mhav1.com:2095/series/ht2990/742579548/7391.ts
