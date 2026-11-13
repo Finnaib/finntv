@@ -200,9 +200,6 @@ https://oha.to/play/238901671/index.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/EEF4B033-EED9-4711-A947-1DD2A5A49984.jpeg?raw=true" group-title="Spain",Canal Sur Andalucía
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png" group-title="Spain",Antena 3
-https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99vVbTd.png" group-title="Spain",E Ten TV
 https://iptvbd.live/test/1080.m3u8
 
