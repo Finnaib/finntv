@@ -13166,6 +13166,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1908.ts
 #EXTINF:-1 tvg-id="" tvg-name="صمود" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mzxesd7tFSPccrSXZ70oA0fFmyJ.jpg" group-title="تركي يعرض الان",صمود
 http://mhav1.com:2095/series/ht2990/742579548/7347.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="طيف اسطنبول" tvg-logo="http://images.stttoegypt2026.com:80/images/80xsUbpereUwUGaaMwcM9e2QLCq_big.jpg" group-title="تركي يعرض الان",طيف اسطنبول
+http://mhav1.com:2095/series/ht2990/742579548/4926.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="على كارا" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/y87872DJHRrmYtM3FkGsgNvbT4j.jpg" group-title="تركي يعرض الان",على كارا
 http://mhav1.com:2095/series/ht2990/742579548/7342.ts
 
@@ -14212,9 +14215,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3217.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="طبيب البلدة" tvg-logo="http://images.stttoegypt2026.com:80/images/snaKsrV9Y1D1xjfxr5JylgOhH62_big.jpg" group-title="مسلسلات تركيه",طبيب البلدة
 http://mhav1.com:2095/series/ht2990/742579548/6064.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="طيف اسطنبول مترجم" tvg-logo="http://images.stttoegypt2026.com:80/images/80xsUbpereUwUGaaMwcM9e2QLCq_big.jpg" group-title="مسلسلات تركيه",طيف اسطنبول مترجم
-http://mhav1.com:2095/series/ht2990/742579548/4926.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عائلة اصلان" tvg-logo="http://images.stttoegypt2026.com:80/images/oePz2d9DOCWGJfvQ3j5SGXizwTI_big.jpg" group-title="مسلسلات تركيه",عائلة اصلان
 http://mhav1.com:2095/series/ht2990/742579548/4275.ts
@@ -17750,7 +17750,7 @@ http://mhav1.com:2095/series/ht2990/742579548/1798.ts
 #EXTINF:-1 tvg-id="" tvg-name="طلاب في مهمة عسكرية" tvg-logo="http://images.stttoegypt2026.com:80/images/1eQMpFt73KliOP94p2Ip70CxzRp_big.jpg" group-title="مسلسلات مدبلجه",طلاب في مهمة عسكرية
 http://mhav1.com:2095/series/ht2990/742579548/6799.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="طيف اسطنبول" tvg-logo="http://images.stttoegypt2026.com:80/images/yTnLzpnWRnIbKw5MfrRX6qem0LX_big.jpg" group-title="مسلسلات مدبلجه",طيف اسطنبول
+#EXTINF:-1 tvg-id="" tvg-name="طيف اسطنبول مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/yTnLzpnWRnIbKw5MfrRX6qem0LX_big.jpg" group-title="مسلسلات مدبلجه",طيف اسطنبول مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/4924.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="عرائس هاربه" tvg-logo="http://images.stttoegypt2026.com:80/images/jnsdL6sGOubahj3YC1cbEx6Bw7N_big.jpg" group-title="مسلسلات مدبلجه",عرائس هاربه

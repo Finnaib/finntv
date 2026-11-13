@@ -11,9 +11,6 @@ https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
 #EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-logo="https://i.imgur.com/49ZENis.png" group-title="Spain",3Cat Plats bruts (1080p)
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 
-#EXTINF:-1 tvg-id="Antena3.es@National" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png" group-title="Spain",Antena 3
-https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
-
 #EXTINF:-1 tvg-id="CanalSur2.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png" group-title="Spain",Canal Sur 2 (720p)
 https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
 
@@ -202,6 +199,9 @@ https://oha.to/play/238901671/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://github.com/Sunstar16/FULL-IPTV-CHANNEL-PLAYLIST/blob/main/Channels/Images/EEF4B033-EED9-4711-A947-1DD2A5A49984.jpeg?raw=true" group-title="Spain",Canal Sur Andalucía
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png" group-title="Spain",Antena 3
+https://cdn.stmify.com/zapitv/stream/ANTENA_3/test.mpd
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99vVbTd.png" group-title="Spain",E Ten TV
 https://iptvbd.live/test/1080.m3u8
