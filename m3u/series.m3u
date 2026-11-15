@@ -3590,9 +3590,6 @@ http://mhav1.com:2095/series/ht2990/742579548/5093.ts
 #EXTINF:-1 tvg-id="" tvg-name="The Chi" tvg-logo="http://images.stttoegypt2026.com:80/images/niD8X5pEXpmRUDhSPdDOgI3Gw5Q_big.jpg" group-title="English Series",The Chi
 http://mhav1.com:2095/series/ht2990/742579548/4937.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Chosen" tvg-logo="http://images.stttoegypt2026.com:80/images/dqVUFuNrMFWt7uGNWlpo91VKYOI_big.jpg" group-title="English Series",The Chosen
-http://mhav1.com:2095/series/ht2990/742579548/6817.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="The Consultant" tvg-logo="http://images.stttoegypt2026.com:80/images/dbmnbPdDIgH9RR1Cs0SkG4DaYgF_big.jpg" group-title="English Series",The Consultant
 http://mhav1.com:2095/series/ht2990/742579548/5478.ts
 
@@ -13429,6 +13426,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6444.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stick" tvg-logo="http://images.stttoegypt2026.com:80/images/y8EWrf5Ry1WmYksWT7MOPWexvr5_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Stick
 http://mhav1.com:2095/series/ht2990/742579548/5646.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Chosen" tvg-logo="http://images.stttoegypt2026.com:80/images/dqVUFuNrMFWt7uGNWlpo91VKYOI_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Chosen
+http://mhav1.com:2095/series/ht2990/742579548/6817.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Gilded Age" tvg-logo="http://images.stttoegypt2026.com:80/images/lBsDmxBI4ELLmgF5uhUCvjgpQxh_big.jpg" group-title="مسلسلات أجنبى تعرض الان",The Gilded Age
 http://mhav1.com:2095/series/ht2990/742579548/1056.ts
