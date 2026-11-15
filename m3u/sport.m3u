@@ -851,9 +851,6 @@ https://jmp2.uk/stvp-ATBD1500003ES
 #EXTINF:-1 tvg-chno="103" tvg-id="ATAJ0500433A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ0500433A_20250527T015549SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 103. Sportdigital Free
 https://jmp2.uk/stvp-ATAJ0500433A
 
-#EXTINF:-1 tvg-chno="104" tvg-id="ATBD2300001PY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2300001PY_20250107T022216SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 104. Sport 1 Motor
-https://jmp2.uk/stvp-ATBD2300001PY
-
 #EXTINF:-1 tvg-chno="105" tvg-id="ATBD2600011EO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600011EO_20250107T022147SQUARE.png" tvg-country="AT" group-title="Austria",[Sport] 105. Motorvision
 https://jmp2.uk/stvp-ATBD2600011EO
 
@@ -2215,7 +2212,7 @@ http://mhav1.com:2095/live/ht2990/742579548/4441.ts
 #EXTINF:-1 tvg-id="" tvg-name="[CA] beIN Sports HD" tvg-logo="" group-title="Canada",[CA] beIN Sports HD
 http://mhav1.com:2095/live/ht2990/742579548/57744.ts
 
-#EXTINF:-1 tvg-chno="313" tvg-id="CABC2300004A4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300004A4_20260421T140527SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 313. Top Gear
+#EXTINF:-1 tvg-chno="313" tvg-id="CABC2300004A4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300004A4_20261109T015845SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 313. Top Gear
 https://jmp2.uk/stvp-CABC2300004A4
 
 #EXTINF:-1 tvg-chno="314" tvg-id="CABD1200015FS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20260825T040526SQUARE.png" tvg-country="CA" group-title="Canada",[Motor Sports] 314. RACER Select
@@ -2311,7 +2308,7 @@ https://jmp2.uk/stvp-CA4700011LV
 #EXTINF:-1 tvg-chno="2572" tvg-id="CA4100006T3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4100006T3_20260707T040129SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2572. MiLB
 https://jmp2.uk/stvp-CA4100006T3
 
-#EXTINF:-1 tvg-chno="2791" tvg-id="CA1800005O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1800005O1_20260721T033237SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2791. Triton Poker
+#EXTINF:-1 tvg-chno="2791" tvg-id="CA1800005O1" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1800005O1_20261109T015851SQUARE.png" tvg-country="CA" group-title="Canada",[Sports & Outdoors] 2791. Triton Poker
 https://jmp2.uk/stvp-CA1800005O1
 
 #EXTINF:-1 tvg-id="" tvg-name="CAN: TSN Sport4" tvg-logo="" group-title="Canada",CAN: TSN Sport4
@@ -3898,9 +3895,6 @@ https://jmp2.uk/stvp-DEAJ0500429A
 
 #EXTINF:-1 tvg-chno="572" tvg-id="DE2400002VA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE2400002VA_20250107T024431SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 572. Top Gear
 https://jmp2.uk/stvp-DE2400002VA
-
-#EXTINF:-1 tvg-chno="573" tvg-id="DEBD2300001ND" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD2300001ND_20250107T024414SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 573. Sport 1 Motor
-https://jmp2.uk/stvp-DEBD2300001ND
 
 #EXTINF:-1 tvg-chno="574" tvg-id="DEBD2600005U6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD2600005U6_20250107T024347SQUARE.png" tvg-country="DE" group-title="Germany",[Sport] 574. Motorvision
 https://jmp2.uk/stvp-DEBD2600005U6
@@ -7046,7 +7040,7 @@ https://jmp2.uk/stvp-ES1100001MT
 #EXTINF:-1 tvg-chno="2618" tvg-id="ES31000013F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES31000013F_20260324T034829SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2618. INTER 24/7
 https://jmp2.uk/stvp-ES31000013F
 
-#EXTINF:-1 tvg-chno="2937" tvg-id="ES3500003JZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3500003JZ_20261013T054816SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2937. Real Madrid TV
+#EXTINF:-1 tvg-chno="2937" tvg-id="ES3500003JZ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3500003JZ_20261110T043519SQUARE.png" tvg-country="ES" group-title="Spain",[Deporte] 2937. Real Madrid TV
 https://jmp2.uk/stvp-ES3500003JZ
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Junior [ES]" tvg-logo="" group-title="Spain",Disney Junior [ES]
@@ -7315,9 +7309,6 @@ https://jmp2.uk/stvp-CHBA22000080G
 
 #EXTINF:-1 tvg-chno="432" tvg-id="CHAJ0500433A" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHAJ0500433A_20250527T015644SQUARE.png" tvg-country="CH" group-title="Switzerland",[Sport] 432. Sportdigital Free
 https://jmp2.uk/stvp-CHAJ0500433A
-
-#EXTINF:-1 tvg-chno="433" tvg-id="CHBD2300001ZB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD2300001ZB_20250107T025556SQUARE.png" tvg-country="CH" group-title="Switzerland",[Sport] 433. Sport 1 Motor
-https://jmp2.uk/stvp-CHBD2300001ZB
 
 #EXTINF:-1 tvg-chno="434" tvg-id="CHBD26000130C" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CHBD26000130C_20250107T025537SQUARE.png" tvg-country="CH" group-title="Switzerland",[Sport] 434. Motorvision
 https://jmp2.uk/stvp-CHBD26000130C
@@ -7658,7 +7649,7 @@ https://jmp2.uk/stvp-GB4000015BP
 # United States
 ################################################################################
 
-#EXTINF:-1 tvg-chno="1657" tvg-id="USBC2400027NG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2400027NG_20260421T143428SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 1657. Top Gear
+#EXTINF:-1 tvg-chno="1657" tvg-id="USBC2400027NG" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2400027NG_20261106T175046SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 1657. Top Gear
 https://jmp2.uk/stvp-USBC2400027NG
 
 #EXTINF:-1 tvg-chno="1658" tvg-id="USBB5200027Z5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200027Z5_20260117T020411SQUARE.png" tvg-country="US" group-title="United States",[Motor Sports] 1658. Torque
