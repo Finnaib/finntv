@@ -13097,6 +13097,9 @@ http://mhav1.com:2095/series/ht2990/742579548/3050.ts
 #EXTINF:-1 tvg-id="" tvg-name="فى السابعة عشر مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/x6eZSRWgt6lwyWIDy3BLuzR24My_big.jpg" group-title="تركي مدبلج يعرض الان",فى السابعة عشر مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/7177.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="فى الظل" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ayq0UtwoQkAJW7eVCYlQEhGx50t.jpg" group-title="تركي مدبلج يعرض الان",فى الظل
+http://mhav1.com:2095/series/ht2990/742579548/6746.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="قانون الطبيعة مدبلج" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/8sggydBSBxIaB7MH1Fp2uTpTGSt.jpg" group-title="تركي مدبلج يعرض الان",قانون الطبيعة مدبلج
 http://mhav1.com:2095/series/ht2990/742579548/7282.ts
 
@@ -17833,9 +17836,6 @@ http://mhav1.com:2095/series/ht2990/742579548/4126.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فى السراء و الضراء" tvg-logo="http://images.stttoegypt2026.com:80/images/xvYt2H3WoCaOjj7Jc8BOpMDiT4T_big.jpg" group-title="مسلسلات مدبلجه",فى السراء و الضراء
 http://mhav1.com:2095/series/ht2990/742579548/2559.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="فى الظل" tvg-logo="http://images.stttoegypt2026.com:80/images/ayq0UtwoQkAJW7eVCYlQEhGx50t_big.jpg" group-title="مسلسلات مدبلجه",فى الظل
-http://mhav1.com:2095/series/ht2990/742579548/6746.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="فيلينتا" tvg-logo="http://images.stttoegypt2026.com:80/images/v2WXNBzsXcL21s5V76cBI0uKKlp_big.jpg" group-title="مسلسلات مدبلجه",فيلينتا
 http://mhav1.com:2095/series/ht2990/742579548/5103.ts
