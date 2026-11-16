@@ -6239,7 +6239,10 @@ http://mhav1.com:2095/series/ht2990/742579548/6038.ts
 #EXTINF:-1 tvg-id="" tvg-name="The New Look" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/aQBpF8VmEIgow41OL9h4nU4WN6v.jpg" group-title="English Series [حديثه]",The New Look
 http://mhav1.com:2095/series/ht2990/742579548/3436.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="The Night Agent" tvg-logo="http://images.stttoegypt2026.com:80/images/xjsx6rGEgHl2tUqkimo6Bz2KzVo_big.jpg" group-title="English Series [حديثه]",The Night Agent
+#EXTINF:-1 tvg-id="" tvg-name="The Night Agent" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/4c5yUNcaff4W4aPrkXE6zr7papX.jpg" group-title="English Series [حديثه]",The Night Agent
+http://mhav1.com:2095/series/ht2990/742579548/7530.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="The Night Agent delete" tvg-logo="http://images.stttoegypt2026.com:80/images/xjsx6rGEgHl2tUqkimo6Bz2KzVo_big.jpg" group-title="English Series [حديثه]",The Night Agent delete
 http://mhav1.com:2095/series/ht2990/742579548/2403.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Night Caller" tvg-logo="http://images.stttoegypt2026.com:80/images/4uze0PYRLKtU43BS1lD82OAH6TG_big.jpg" group-title="English Series [حديثه]",The Night Caller
