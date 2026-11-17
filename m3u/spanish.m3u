@@ -967,8 +967,8 @@ https://jmp2.uk/stvp-ES1800003JN
 # Spain - Kids
 ################################################################################
 
-#EXTINF:-1 tvg-id="Boing.es@SD" tvg-logo="https://i.imgur.com/nUYuCAP.png" group-title="Spain - Kids",Boing (Spain)
-http://digisat.ddns.net:4022/udp/239.0.5.177:8208
+#EXTINF:-1 tvg-id="Boing.es@SD" tvg-logo="https://i.imgur.com/nUYuCAP.png" group-title="Spain - Kids",Boing (Spain) (1080p)
+http://90.170.214.40:9700/stream/avatel/boing/master.m3u8
 
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Spain - Kids",Clan (1080p)
 https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8
@@ -984,6 +984,9 @@ https://rtvelivestream.akamaized.net/rtvesec/int/clan_int_main.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/X5VcCXI.png" group-title="Spain - Kids",Megavision Canal 19
 https://mgv-channel19.akamaized.net/hls/live/2093190/MGV_CHANNEL19/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/nUYuCAP.png" group-title="Spain - Kids",Boing (Spain)
+http://digisat.ddns.net:4022/udp/239.0.5.177:8208
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Boing_2020.svg/1200px-Boing_2020.svg.png" group-title="Spain - Kids",Boing ᴱˢ (In VPNSuperUnlimitedProxy use server: "Switzerland17")
 https://oha.to/play/3971769720/index.m3u8
