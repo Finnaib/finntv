@@ -623,6 +623,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5120.ts
 #EXTINF:-1 tvg-id="" tvg-name="Four Hands Two Sonatas" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/a7p6htiJKx68USDAcilJ5rzKAWB.jpg" group-title="Asian Series",Four Hands Two Sonatas
 http://mhav1.com:2095/series/ht2990/742579548/7303.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Francesca Next Door (2026)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/xiB4NaaTssLxFEIao3IOb9MOHHB.jpg" group-title="Asian Series",Francesca Next Door (2026)
+http://mhav1.com:2095/series/ht2990/742579548/7536.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Frankly Speaking" tvg-logo="http://images.stttoegypt2026.com:80/images/x6SBFzYpcg7JTvJoGe11E2TaGjr_big.jpg" group-title="Asian Series",Frankly Speaking
 http://mhav1.com:2095/series/ht2990/742579548/3799.ts
 
@@ -1549,6 +1552,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2513.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Still Shining" tvg-logo="http://images.stttoegypt2026.com:80/images/tVOq3YkCTnbrycnXHmth9f6qYs7_big.jpg" group-title="Asian Series",Still Shining
 http://mhav1.com:2095/series/ht2990/742579548/6715.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Still a Family (2026)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/wiglT0zCNobWYj0ZSk6enGe4nKo.jpg" group-title="Asian Series",Still a Family (2026)
+http://mhav1.com:2095/series/ht2990/742579548/7537.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Stove League" tvg-logo="http://images.stttoegypt2026.com:80/images/6C69xR1hMM66pZmlEAKeIDXpssh_big.jpg" group-title="Asian Series",Stove League
 http://mhav1.com:2095/series/ht2990/742579548/4529.ts
@@ -6244,9 +6250,6 @@ http://mhav1.com:2095/series/ht2990/742579548/3436.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Night Agent" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/4c5yUNcaff4W4aPrkXE6zr7papX.jpg" group-title="English Series [حديثه]",The Night Agent
 http://mhav1.com:2095/series/ht2990/742579548/7530.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="The Night Agent delete" tvg-logo="http://images.stttoegypt2026.com:80/images/xjsx6rGEgHl2tUqkimo6Bz2KzVo_big.jpg" group-title="English Series [حديثه]",The Night Agent delete
-http://mhav1.com:2095/series/ht2990/742579548/2403.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="The Night Caller" tvg-logo="http://images.stttoegypt2026.com:80/images/4uze0PYRLKtU43BS1lD82OAH6TG_big.jpg" group-title="English Series [حديثه]",The Night Caller
 http://mhav1.com:2095/series/ht2990/742579548/4012.ts
