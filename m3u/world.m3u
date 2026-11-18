@@ -3069,6 +3069,9 @@ https://jmp2.uk/stvp-FR23000013B
 #EXTINF:-1 tvg-chno="2690" tvg-id="FR700007HY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR700007HY_20260804T051433SQUARE.png" tvg-country="FR" group-title="France",[Actualités] 2690. Brut.
 https://jmp2.uk/stvp-FR700007HY
 
+#EXTINF:-1 tvg-chno="2975" tvg-id="FR2600013P5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2600013P5_20261117T042244SQUARE.png" tvg-country="FR" group-title="France",[Actualités] 2975. France 24
+https://jmp2.uk/stvp-FR2600013P5
+
 #EXTINF:-1 tvg-chno="716" tvg-id="FRBD5100001ZA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD5100001ZA_20260721T035849SQUARE.png" tvg-country="FR" group-title="France",[Anime] 716. ADN
 https://jmp2.uk/stvp-FRBD5100001ZA
 
@@ -3425,6 +3428,9 @@ https://jmp2.uk/stvp-FR1800009U0
 
 #EXTINF:-1 tvg-chno="2784" tvg-id="FR44000015M" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR44000015M_20260609T043411SQUARE.png" tvg-country="FR" group-title="France",[Musique et ambiance] 2784. Metal.Rocks
 https://jmp2.uk/stvp-FR44000015M
+
+#EXTINF:-1 tvg-chno="2976" tvg-id="FR3600009YQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3600009YQ_20261117T042258SQUARE.png" tvg-country="FR" group-title="France",[Musique et ambiance] 2976. Vevo Noël
+https://jmp2.uk/stvp-FR3600009YQ
 
 #EXTINF:-1 tvg-chno="795" tvg-id="FR90000160" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR90000160_20251028T011422SQUARE.png" tvg-country="FR" group-title="France",[Séries TV] 795. Mr Bean Animated
 https://jmp2.uk/stvp-FR90000160
@@ -4415,6 +4421,9 @@ https://jmp2.uk/stvp-DE700004H4
 #EXTINF:-1 tvg-chno="2782" tvg-id="DE4400001TO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE4400001TO_20260609T042521SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2782. Metal.Rocks
 https://jmp2.uk/stvp-DE4400001TO
 
+#EXTINF:-1 tvg-chno="2969" tvg-id="DE3600001DU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DE3600001DU_20261117T041709SQUARE.png" tvg-country="DE" group-title="Germany",[Musik] 2969. Vevo Weihnachten
+https://jmp2.uk/stvp-DE3600001DU
+
 #EXTINF:-1 tvg-chno="550" tvg-id="DEBD800001S4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBD800001S4_20260609T042503SQUARE.png" tvg-country="DE" group-title="Germany",[News] 550. CNN
 https://jmp2.uk/stvp-DEBD800001S4
 
@@ -4881,6 +4890,9 @@ https://jmp2.uk/stvp-IT2200011IA
 #EXTINF:-1 tvg-chno="2889" tvg-id="IT2100003OJ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2100003OJ_20260901T055006SQUARE.png" tvg-country="IT" group-title="Italy",[Bambini] 2889. Pingu
 https://jmp2.uk/stvp-IT2100003OJ
 
+#EXTINF:-1 tvg-chno="2980" tvg-id="IT2600014Z6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600014Z6_20261117T041850SQUARE.png" tvg-country="IT" group-title="Italy",[Bambini] 2980. BeJoy Kids
+https://jmp2.uk/stvp-IT2600014Z6
+
 #EXTINF:-1 tvg-chno="1192" tvg-id="ITBD1000002HF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000002HF_20250513T010658SQUARE.png" tvg-country="IT" group-title="Italy",[Calcio] 1192. FIFA+
 https://jmp2.uk/stvp-ITBD1000002HF
 
@@ -5043,7 +5055,7 @@ https://jmp2.uk/stvp-ITBA3300048YJ
 #EXTINF:-1 tvg-chno="1241" tvg-id="ITBD3200002DU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3200002DU_20250708T031020SQUARE.png" tvg-country="IT" group-title="Italy",[Film] 1241. Cine Thriller
 https://jmp2.uk/stvp-ITBD3200002DU
 
-#EXTINF:-1 tvg-chno="1243" tvg-id="ITBD3200001VR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3200001VR_20261117T042327SQUARE.png" tvg-country="IT" group-title="Italy",[Film] 1243. Supercinema
+#EXTINF:-1 tvg-chno="1243" tvg-id="ITBD3200001VR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD3200001VR_20261117T042327SQUARE.png" tvg-country="IT" group-title="Italy",[Film] 1243. Christmas Time
 https://jmp2.uk/stvp-ITBD3200001VR
 
 #EXTINF:-1 tvg-chno="1245" tvg-id="ITBC400001LX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC400001LX_20250107T022411SQUARE.png" tvg-country="IT" group-title="Italy",[Film] 1245. Action Movie Channel
@@ -5214,6 +5226,12 @@ https://jmp2.uk/stvp-IT3000014RV
 #EXTINF:-1 tvg-chno="2926" tvg-id="IT3000019ZM" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000019ZM_20261006T034258SQUARE.png" tvg-country="IT" group-title="Italy",[Musica e Ambient] 2926. Concerto
 https://jmp2.uk/stvp-IT3000019ZM
 
+#EXTINF:-1 tvg-chno="2981" tvg-id="IT3600009KN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3600009KN_20261117T041922SQUARE.png" tvg-country="IT" group-title="Italy",[Musica e Ambient] 2981. Vevo Natale
+https://jmp2.uk/stvp-IT3600009KN
+
+#EXTINF:-1 tvg-chno="2982" tvg-id="IT2600011K1" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600011K1_20261117T041909SQUARE.png" tvg-country="IT" group-title="Italy",[Musica e Ambient] 2982. Radio Italianissima
+https://jmp2.uk/stvp-IT2600011K1
+
 #EXTINF:-1 tvg-chno="1287" tvg-id="ITBD1500002NL" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1500002NL_20260929T042031SQUARE.png" tvg-country="IT" group-title="Italy",[News] 1287. La 7
 https://jmp2.uk/stvp-ITBD1500002NL
 
@@ -5261,6 +5279,9 @@ https://jmp2.uk/stvp-IT2700002ZN
 
 #EXTINF:-1 tvg-chno="2425" tvg-id="IT3300001G3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3300001G3_20251125T102453SQUARE.png" tvg-country="IT" group-title="Italy",[News] 2425. Il Sole 24 Ore TV
 https://jmp2.uk/stvp-IT3300001G3
+
+#EXTINF:-1 tvg-chno="2983" tvg-id="IT2700004G4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2700004G4_20261117T041916SQUARE.png" tvg-country="IT" group-title="Italy",[News] 2983. Value 24
+https://jmp2.uk/stvp-IT2700004G4
 
 #EXTINF:-1 tvg-chno="1185" tvg-id="IT900001A7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900001A7_20250923T010547SQUARE.png" tvg-country="IT" group-title="Italy",[Serie TV] 1185. Mr Bean Animated
 https://jmp2.uk/stvp-IT900001A7
@@ -9291,6 +9312,9 @@ https://jmp2.uk/stvp-GB180001295
 #EXTINF:-1 tvg-chno="2785" tvg-id="GB4400002TN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4400002TN_20260609T043724SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Music & Ambient] 2785. Metal.Rocks
 https://jmp2.uk/stvp-GB4400002TN
 
+#EXTINF:-1 tvg-chno="2977" tvg-id="GB36000101C" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB36000101C_20261117T041810SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Music & Ambient] 2977. Vevo Christmas
+https://jmp2.uk/stvp-GB36000101C
+
 #EXTINF:-1 tvg-chno="884" tvg-id="GB270001473" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB270001473_20260407T040237SQUARE.png" tvg-country="GB" group-title="United Kingdom",[Nature] 884. PICK Monkey Rescue
 https://jmp2.uk/stvp-GB270001473
 
@@ -9336,7 +9360,7 @@ https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 tvg-chno="986" tvg-id="GB3300002NF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3300002NF_20260707T052102SQUARE.png" tvg-country="GB" group-title="United Kingdom",[News] 986. Sky News
 https://jmp2.uk/stvp-GB3300002NF
 
-#EXTINF:-1 tvg-chno="987" tvg-id="GBBB1600008R3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600008R3_20250107T022831SQUARE.png" tvg-country="GB" group-title="United Kingdom",[News] 987. GB News
+#EXTINF:-1 tvg-chno="987" tvg-id="GBBB1600008R3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600008R3_20261118T005901SQUARE.png" tvg-country="GB" group-title="United Kingdom",[News] 987. GB News
 https://jmp2.uk/stvp-GBBB1600008R3
 
 #EXTINF:-1 tvg-chno="988" tvg-id="GBBD1900008O3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900008O3_20260331T032346SQUARE.png" tvg-country="GB" group-title="United Kingdom",[News] 988. CNN Headlines International
@@ -10115,6 +10139,9 @@ https://jmp2.uk/stvp-US2000024KD
 #EXTINF:-1 tvg-chno="2895" tvg-id="US1600011FY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1600011FY_20260915T035200SQUARE.png" tvg-country="US" group-title="United States",[Kids] 2895. Barney and Friends
 https://jmp2.uk/stvp-US1600011FY
 
+#EXTINF:-1 tvg-chno="2985" tvg-id="US3600009PP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3600009PP_20261117T052547SQUARE.png" tvg-country="US" group-title="United States",[Kids] 2985. Sesame Street
+https://jmp2.uk/stvp-US3600009PP
+
 #EXTINF:-1 tvg-chno="1603" tvg-id="USBD7000017L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD7000017L_20251125T030853SQUARE.png" tvg-country="US" group-title="United States",[Latino] 1603. AMC en Español
 https://jmp2.uk/stvp-USBD7000017L
 
@@ -10861,6 +10888,9 @@ https://jmp2.uk/stvp-US200111SU
 
 #EXTINF:-1 tvg-chno="2644" tvg-id="US800014B2" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US800014B2_20261103T171639SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 2644. Z Nation
 https://jmp2.uk/stvp-US800014B2
+
+#EXTINF:-1 tvg-chno="2986" tvg-id="US39000221B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US39000221B_20261117T052553SQUARE.png" tvg-country="US" group-title="United States",[Sci-Fi & Horror] 2986. Tales from the Crypt
+https://jmp2.uk/stvp-US39000221B
 
 #EXTINF:-1 tvg-chno="1832" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20261016T175548SQUARE.png" tvg-country="US" group-title="United States",[Western & Classic TV] 1832. Classic Movie Westerns
 https://jmp2.uk/stvp-USBA300005MK

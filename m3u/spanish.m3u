@@ -524,6 +524,18 @@ https://jmp2.uk/stvp-ES4200001MR
 #EXTINF:-1 tvg-chno="2558" tvg-id="ES500008IU" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES500008IU_20260901T054052SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2558. FreeTV Clásico
 https://jmp2.uk/stvp-ES500008IU
 
+#EXTINF:-1 tvg-chno="2970" tvg-id="ES1300005HE" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1300005HE_20261117T041725SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2970. Alma
+https://jmp2.uk/stvp-ES1300005HE
+
+#EXTINF:-1 tvg-chno="2971" tvg-id="ES13000040O" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES13000040O_20261117T041732SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2971. Books
+https://jmp2.uk/stvp-ES13000040O
+
+#EXTINF:-1 tvg-chno="2972" tvg-id="ES1300006Z3" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1300006Z3_20261117T041740SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2972. Epic
+https://jmp2.uk/stvp-ES1300006Z3
+
+#EXTINF:-1 tvg-chno="2973" tvg-id="ES1300002TA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES1300002TA_20261117T041718SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 2973. Acción+
+https://jmp2.uk/stvp-ES1300002TA
+
 #EXTINF:-1 tvg-chno="603" tvg-id="ESAJ3800005C5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESAJ3800005C5_20241022T050710SQUARE.png" tvg-country="ES" group-title="Spain",[Comedia] 603. Comedia Made in Spain
 https://jmp2.uk/stvp-ESAJ3800005C5
 
@@ -805,6 +817,9 @@ https://jmp2.uk/stvp-ES1800008X7
 
 #EXTINF:-1 tvg-chno="2783" tvg-id="ES4400004OX" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES4400004OX_20260609T043006SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2783. Metal.Rocks
 https://jmp2.uk/stvp-ES4400004OX
+
+#EXTINF:-1 tvg-chno="2974" tvg-id="ES3600002W5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES3600002W5_20261117T041748SQUARE.png" tvg-country="ES" group-title="Spain",[Música & ambiente] 2974. Vevo Navidad
+https://jmp2.uk/stvp-ES3600002W5
 
 #EXTINF:-1 tvg-chno="663" tvg-id="ESBD130000205" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD130000205_20241022T050609SQUARE.png" tvg-country="ES" group-title="Spain",[Niños] 663. Pitufo TV
 https://jmp2.uk/stvp-ESBD130000205
