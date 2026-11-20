@@ -4010,6 +4010,9 @@ http://mhav1.com:2095/live/ht2990/742579548/3840.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Nahar Drama [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Nahar Drama [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2759.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Nahar Live [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Nahar Live [EG]
+http://mhav1.com:2095/live/ht2990/742579548/300045.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Al Nahar [EG]" tvg-logo="" group-title="Egypt - قنوات مصريه",Al Nahar [EG]
 http://mhav1.com:2095/live/ht2990/742579548/2763.ts
 
