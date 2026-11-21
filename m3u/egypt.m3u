@@ -1749,11 +1749,14 @@ http://mhav1.com:2095/live/ht2990/742579548/168130.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Hadath" tvg-logo="" group-title="Shahid",Al Hadath
 http://mhav1.com:2095/live/ht2990/742579548/168129.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Kabeer Awy Channel" tvg-logo="" group-title="Shahid",Al Kabeer Awy Channel
+http://mhav1.com:2095/live/ht2990/742579548/168082.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Alikhbariya" tvg-logo="" group-title="Shahid",Alikhbariya
 http://mhav1.com:2095/live/ht2990/742579548/168128.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Arabs-Got-Talent" tvg-logo="" group-title="Shahid",Arabs-Got-Talent
-http://mhav1.com:2095/live/ht2990/742579548/168103.ts
+#EXTINF:-1 tvg-id="" tvg-name="Arabic programs" tvg-logo="" group-title="Shahid",Arabic programs
+http://mhav1.com:2095/live/ht2990/742579548/168087.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Asharq" tvg-logo="" group-title="Shahid",Asharq
 http://mhav1.com:2095/live/ht2990/742579548/168125.ts
@@ -1763,6 +1766,9 @@ http://mhav1.com:2095/live/ht2990/742579548/168096.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="El Leba Channel" tvg-logo="" group-title="Shahid",El Leba Channel
 http://mhav1.com:2095/live/ht2990/742579548/168105.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fairouz" tvg-logo="" group-title="Shahid",Fairouz
+http://mhav1.com:2095/live/ht2990/742579548/168103.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC 4" tvg-logo="" group-title="Shahid",MBC 4
 http://mhav1.com:2095/live/ht2990/742579548/168137.ts
@@ -1781,6 +1787,9 @@ http://mhav1.com:2095/live/ht2990/742579548/168142.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Masr2 1080" tvg-logo="" group-title="Shahid",MBC Masr2 1080
 http://mhav1.com:2095/live/ht2990/742579548/168092.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC Mood" tvg-logo="" group-title="Shahid",MBC Mood
+http://mhav1.com:2095/live/ht2990/742579548/300212.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Plus Drama" tvg-logo="" group-title="Shahid",MBC Plus Drama
 http://mhav1.com:2095/live/ht2990/742579548/168138.ts
@@ -1851,14 +1860,11 @@ http://mhav1.com:2095/live/ht2990/742579548/79414.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_mtv-lebanon" tvg-logo="" group-title="Shahid",Shahid_mtv-lebanon
 http://mhav1.com:2095/live/ht2990/742579548/79428.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-logo="" group-title="Shahid",Spacetoon
-http://mhav1.com:2095/live/ht2990/742579548/168087.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Wanasa" tvg-logo="" group-title="Shahid",Wanasa
-http://mhav1.com:2095/live/ht2990/742579548/168082.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="maraya" tvg-logo="" group-title="Shahid",maraya
 http://mhav1.com:2095/live/ht2990/742579548/79422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="mbc-masr-drama" tvg-logo="" group-title="Shahid",mbc-masr-drama
+http://mhav1.com:2095/live/ht2990/742579548/300213.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="BUNDESLIGA 1 HD" tvg-logo="" group-title="Shahid",BUNDESLIGA 1 HD
 http://mhav1.com:2095/live/ht2990/742579548/242209.ts

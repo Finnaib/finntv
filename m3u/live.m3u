@@ -13034,6 +13034,9 @@ http://mhav1.com:2095/live/ht2990/742579548/299990.ts
 #EXTINF:-1 tvg-id="" tvg-name="Asharq Bloomberg  [SA]" tvg-logo="" group-title="Saudi  - السعوديه",Asharq Bloomberg  [SA]
 http://mhav1.com:2095/live/ht2990/742579548/292890.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Asharq Discovery [SA]" tvg-logo="" group-title="Saudi  - السعوديه",Asharq Discovery [SA]
+http://mhav1.com:2095/live/ht2990/742579548/300211.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Asharq Documentary [SA]" tvg-logo="" group-title="Saudi  - السعوديه",Asharq Documentary [SA]
 http://mhav1.com:2095/live/ht2990/742579548/4587.ts
 
@@ -13181,11 +13184,14 @@ http://mhav1.com:2095/live/ht2990/742579548/168130.ts
 #EXTINF:-1 tvg-id="" tvg-name="Al Hadath" tvg-logo="" group-title="Shahid Live شاهد لايف",Al Hadath
 http://mhav1.com:2095/live/ht2990/742579548/168129.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Al Kabeer Awy Channel" tvg-logo="" group-title="Shahid Live شاهد لايف",Al Kabeer Awy Channel
+http://mhav1.com:2095/live/ht2990/742579548/168082.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Alikhbariya" tvg-logo="" group-title="Shahid Live شاهد لايف",Alikhbariya
 http://mhav1.com:2095/live/ht2990/742579548/168128.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Arabs-Got-Talent" tvg-logo="" group-title="Shahid Live شاهد لايف",Arabs-Got-Talent
-http://mhav1.com:2095/live/ht2990/742579548/168103.ts
+#EXTINF:-1 tvg-id="" tvg-name="Arabic programs" tvg-logo="" group-title="Shahid Live شاهد لايف",Arabic programs
+http://mhav1.com:2095/live/ht2990/742579548/168087.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Asharq" tvg-logo="" group-title="Shahid Live شاهد لايف",Asharq
 http://mhav1.com:2095/live/ht2990/742579548/168125.ts
@@ -13195,6 +13201,9 @@ http://mhav1.com:2095/live/ht2990/742579548/168096.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="El Leba Channel" tvg-logo="" group-title="Shahid Live شاهد لايف",El Leba Channel
 http://mhav1.com:2095/live/ht2990/742579548/168105.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Fairouz" tvg-logo="" group-title="Shahid Live شاهد لايف",Fairouz
+http://mhav1.com:2095/live/ht2990/742579548/168103.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC 4" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC 4
 http://mhav1.com:2095/live/ht2990/742579548/168137.ts
@@ -13213,6 +13222,9 @@ http://mhav1.com:2095/live/ht2990/742579548/168142.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Masr2 1080" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Masr2 1080
 http://mhav1.com:2095/live/ht2990/742579548/168092.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="MBC Mood" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Mood
+http://mhav1.com:2095/live/ht2990/742579548/300212.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="MBC Plus Drama" tvg-logo="" group-title="Shahid Live شاهد لايف",MBC Plus Drama
 http://mhav1.com:2095/live/ht2990/742579548/168138.ts
@@ -13283,14 +13295,11 @@ http://mhav1.com:2095/live/ht2990/742579548/79414.ts
 #EXTINF:-1 tvg-id="" tvg-name="Shahid_mtv-lebanon" tvg-logo="" group-title="Shahid Live شاهد لايف",Shahid_mtv-lebanon
 http://mhav1.com:2095/live/ht2990/742579548/79428.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-logo="" group-title="Shahid Live شاهد لايف",Spacetoon
-http://mhav1.com:2095/live/ht2990/742579548/168087.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="Wanasa" tvg-logo="" group-title="Shahid Live شاهد لايف",Wanasa
-http://mhav1.com:2095/live/ht2990/742579548/168082.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="maraya" tvg-logo="" group-title="Shahid Live شاهد لايف",maraya
 http://mhav1.com:2095/live/ht2990/742579548/79422.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="mbc-masr-drama" tvg-logo="" group-title="Shahid Live شاهد لايف",mbc-masr-drama
+http://mhav1.com:2095/live/ht2990/742579548/300213.ts
 
 
 ##### [Shahid VIP] #####
