@@ -6701,9 +6701,6 @@ http://mhav1.com:2095/series/ht2990/742579548/1492.ts
 #EXTINF:-1 tvg-id="" tvg-name="Y: The Last Man" tvg-logo="http://images.stttoegypt2026.com:80/images/xcqV8XIAP6vhFFNW2ICV6a0qIJ2_big.jpg" group-title="English Series [حديثه]",Y: The Last Man
 http://mhav1.com:2095/series/ht2990/742579548/872.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="Yellowjackets" tvg-logo="http://images.stttoegypt2026.com:80/images/bYr4kBf26aa1eEtOnOLpjDmKPVX_big.jpg" group-title="English Series [حديثه]",Yellowjackets
-http://mhav1.com:2095/series/ht2990/742579548/5269.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="Yellowstone" tvg-logo="http://images.stttoegypt2026.com:80/images/peNC0eyc3TQJa6x4TdKcBPNP4t0_big.jpg" group-title="English Series [حديثه]",Yellowstone
 http://mhav1.com:2095/series/ht2990/742579548/2068.ts
 
@@ -7015,6 +7012,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5767.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Green Eggs and Ham" tvg-logo="http://images.stttoegypt2026.com:80/images/sPbNUuCOD2ilcVWf5yjjkMqyoxs_big.jpg" group-title="Kides Series",Green Eggs and Ham
 http://mhav1.com:2095/series/ht2990/742579548/2049.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Grendizer" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/u4ymZQgSjhJppwm38D8OFjY2mGb.jpg" group-title="Kides Series",Grendizer
+http://mhav1.com:2095/series/ht2990/742579548/7546.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Hammer and Bolter" tvg-logo="http://images.stttoegypt2026.com:80/images/i3DCi6ZXo0ISp8cIUHBJGmZggmy_big.jpg" group-title="Kides Series",Hammer and Bolter
 http://mhav1.com:2095/series/ht2990/742579548/1132.ts
@@ -13486,6 +13486,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7501.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="YAGA" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/2kxIViR7g3e08ZHLlvNFFJkgJtI.jpg" group-title="مسلسلات أجنبى تعرض الان",YAGA
 http://mhav1.com:2095/series/ht2990/742579548/7463.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Yellowjackets" tvg-logo="http://images.stttoegypt2026.com:80/images/bYr4kBf26aa1eEtOnOLpjDmKPVX_big.jpg" group-title="مسلسلات أجنبى تعرض الان",Yellowjackets
+http://mhav1.com:2095/series/ht2990/742579548/5269.ts
 
 
 ##### [مسلسلات تاريخية] #####
