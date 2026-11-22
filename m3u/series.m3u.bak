@@ -13094,7 +13094,10 @@ http://mhav1.com:2095/series/ht2990/742579548/4081.ts
 
 ##### [تركي مدبلج يعرض الان] #####
 
-#EXTINF:-1 tvg-id="" tvg-name="اسطنبول رأساً على عقب مدبلج" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/34t3R6lcFsOAPLSYLMmYEYBynKs.jpg" group-title="تركي مدبلج يعرض الان",اسطنبول رأساً على عقب مدبلج
+#EXTINF:-1 tvg-id="" tvg-name="اسطنبول رأسا على عقب مدبلج" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/34t3R6lcFsOAPLSYLMmYEYBynKs.jpg" group-title="تركي مدبلج يعرض الان",اسطنبول رأسا على عقب مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/7547.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="اسطنبول رأساً على عقب مدبلج OLD" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/34t3R6lcFsOAPLSYLMmYEYBynKs.jpg" group-title="تركي مدبلج يعرض الان",اسطنبول رأساً على عقب مدبلج OLD
 http://mhav1.com:2095/series/ht2990/742579548/7322.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الاعراف مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/4yYZoYgeNshoS2aODwUvCXIa8yn_big.jpg" group-title="تركي مدبلج يعرض الان",الاعراف مدبلج
@@ -13303,6 +13306,9 @@ http://mhav1.com:2095/series/ht2990/742579548/1437.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="سيدو وحورية" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/sWQE606Mgh6WnEsSRDAnybH11cc.jpg" group-title="عربي يعرض الان",سيدو وحورية
 http://mhav1.com:2095/series/ht2990/742579548/7414.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="شلة منتجة" tvg-logo="https://images4.imgbox.com/58/ba/48FkDGoK_o.jpg" group-title="عربي يعرض الان",شلة منتجة
+http://mhav1.com:2095/series/ht2990/742579548/7548.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ضلع ثالث" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/heKQ7ytGoX0jb72LOFr8BHEnJFs.jpg" group-title="عربي يعرض الان",ضلع ثالث
 http://mhav1.com:2095/series/ht2990/742579548/7543.ts
