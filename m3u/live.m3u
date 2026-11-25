@@ -593,11 +593,20 @@ http://mhav1.com:2095/live/ht2990/742579548/246794.ts
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 6 HD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 6 HD
 http://mhav1.com:2095/live/ht2990/742579548/89783.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 6 SD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 6 SD
+http://mhav1.com:2095/live/ht2990/742579548/300528.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 7 HD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 7 HD
 http://mhav1.com:2095/live/ht2990/742579548/185024.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 7 SD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 7 SD
+http://mhav1.com:2095/live/ht2990/742579548/300529.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 8 HD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 8 HD
 http://mhav1.com:2095/live/ht2990/742579548/185025.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="BeIN Alkass 8 SD" tvg-logo="" group-title="AlKass قطر",BeIN Alkass 8 SD
+http://mhav1.com:2095/live/ht2990/742579548/300530.ts
 
 
 ##### [Albania] #####
