@@ -466,8 +466,23 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_ott.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Badminton%201.png" group-title="Mixed",ASTRO BADMINTON
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5170/default_primary.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%201.png" group-title="Mixed",ASTRO ARENA BOLA
+http://iptv12k.com:35461/live/ahlkz1175/111111/20630.ts
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Arena%20Bola%202.png" group-title="Mixed",ASTRO ARENA BOLA 2
+http://iptv12k.com:35461/live/ahlkz1175/111111/20628.ts
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Football.png" group-title="Mixed",ASTRO FOOTBALL
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_ott.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Grandstand.png" group-title="Mixed",ASTRO GRANDSTAND
+http://iptv12k.com:35461/live/ahlkz1175/111111/43914.ts
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE
+http://iptv12k.com:35461/live/ahlkz1175/111111/43909.ts
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Premier%20League%201.png" group-title="Mixed",ASTRO PREMIER LEAGUE 2
+http://iptv12k.com:35461/live/ahlkz1175/111111/43915.ts
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Astro%20Sports%20Plus.png" group-title="Mixed",ASTRO SPORTS PLUS
 https://linearjitp-playback.astro.com.my/dash-wv/dashiso/5171/default_ott.mpd
