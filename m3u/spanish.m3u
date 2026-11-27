@@ -413,18 +413,6 @@ http://oha.to/play/1826839470/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="Spain",Movistar Golf ᴱˢ(In VPNSuperUnlimitedProxy use server: "Switzerland17")
 http://oha.to/play/2703480816/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Spain",La 1 (1086p)
-https://cdn.stmify.com/zapitv/stream/LA_1/la1_4k.mpd
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Spain",La 1 UHD (2160p)
-http://185.47.212.25:8080/tdp_HD/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Spain",La 1 Canarias (720p)
-https://ztnr.rtve.es/ztnr/5190066.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Spain",La 1 Catalunya (720p)
-https://ztnr.rtve.es/ztnr/3293681.m3u8
-
 #EXTINF:-1 tvg-chno="581" tvg-id="ES700004C8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES700004C8_20261124T074029SQUARE.png" tvg-country="ES" group-title="Spain",[Cine] 581. Runtime Christmas
 https://jmp2.uk/stvp-ES700004C8
 
