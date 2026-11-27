@@ -9332,9 +9332,6 @@ http://mhav1.com:2095/series/ht2990/742579548/6655.ts
 #EXTINF:-1 tvg-id="" tvg-name="لوبى الغرام" tvg-logo="http://images.stttoegypt2026.com:80/images/ozK13I5S3ZBKAmnqDHOKAhHU3ug_big.jpg" group-title="Ramdan Arabic 2026",لوبى الغرام
 http://mhav1.com:2095/series/ht2990/742579548/6507.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="ليل البنفسج" tvg-logo="http://images.stttoegypt2026.com:80/images/aikuhUfTpCsb4azPRaQkArOKdbx_big.jpg" group-title="Ramdan Arabic 2026",ليل البنفسج
-http://mhav1.com:2095/series/ht2990/742579548/6679.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="ما اختلفنا 3" tvg-logo="http://images.stttoegypt2026.com:80/images/3pP8AzBXpkDTbiEias3xfDXD0Fe_big.jpg" group-title="Ramdan Arabic 2026",ما اختلفنا 3
 http://mhav1.com:2095/series/ht2990/742579548/6610.ts
 
@@ -10228,6 +10225,9 @@ http://mhav1.com:2095/series/ht2990/742579548/5089.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Alpha Males" tvg-logo="http://images.stttoegypt2026.com:80/images/NqID21yImku6B7kq0oCQTxX2rm_big.jpg" group-title="Series Variety Vip",Alpha Males
 http://mhav1.com:2095/series/ht2990/742579548/6443.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Always on Call (2026)" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/oQUJId55qF6YZ3bhPZ12WP1c5m4.jpg" group-title="Series Variety Vip",Always on Call (2026)
+http://mhav1.com:2095/series/ht2990/742579548/7557.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Amsterdam Empire" tvg-logo="http://images.stttoegypt2026.com:80/images/26SiShdhcZto61SQxVuxHqysF1f_big.jpg" group-title="Series Variety Vip",Amsterdam Empire
 http://mhav1.com:2095/series/ht2990/742579548/6102.ts
@@ -11458,6 +11458,9 @@ http://mhav1.com:2095/series/ht2990/742579548/2023.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="To Cook a Bear" tvg-logo="http://images.stttoegypt2026.com:80/images/71dqddtGqtCWLJApvZuznxvIzvj_big.jpg" group-title="Series Variety Vip",To Cook a Bear
 http://mhav1.com:2095/series/ht2990/742579548/6061.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="Toos: The Van der Valk Kidnapping" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/wVMnb4zWFeLGUJF7y6SqNbXSgV6.jpg" group-title="Series Variety Vip",Toos: The Van der Valk Kidnapping
+http://mhav1.com:2095/series/ht2990/742579548/7558.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="Tooth Pari: When Love Bites" tvg-logo="http://images.stttoegypt2026.com:80/images/aZIV0NIwDoa0vIfBW29zsmPderU_big.jpg" group-title="Series Variety Vip",Tooth Pari: When Love Bites
 http://mhav1.com:2095/series/ht2990/742579548/2449.ts
@@ -13297,6 +13300,9 @@ http://mhav1.com:2095/series/ht2990/742579548/7550.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="قسمة و نصيب : العروس و الحماة" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/iigxfTv80RDApF3pozha19uA4kz.jpg" group-title="عربي يعرض الان",قسمة و نصيب : العروس و الحماة
 http://mhav1.com:2095/series/ht2990/742579548/7277.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="ليل البنفسج" tvg-logo="http://images.stttoegypt2026.com:80/images/aikuhUfTpCsb4azPRaQkArOKdbx_big.jpg" group-title="عربي يعرض الان",ليل البنفسج
+http://mhav1.com:2095/series/ht2990/742579548/6679.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="ليل خرمس" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/pQcc44KM71aDoKUPz39iFhtb5Af.jpg" group-title="عربي يعرض الان",ليل خرمس
 http://mhav1.com:2095/series/ht2990/742579548/7509.ts
