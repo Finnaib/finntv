@@ -3191,6 +3191,9 @@ http://mhav1.com:2095/series/ht2990/742579548/6956.ts
 #EXTINF:-1 tvg-id="" tvg-name="King of Stonks" tvg-logo="http://images.stttoegypt2026.com:80/images/setZ7RH7OpsEDJT54llXgV6YPsC_big.jpg" group-title="English Series",King of Stonks
 http://mhav1.com:2095/series/ht2990/742579548/1605.ts
 
+#EXTINF:-1 tvg-id="" tvg-name="Knokke off" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jTRGw9gQY7gs244hcwWqjIWu06F.jpg" group-title="English Series",Knokke off
+http://mhav1.com:2095/series/ht2990/742579548/7553.ts
+
 #EXTINF:-1 tvg-id="" tvg-name="Kyle XY" tvg-logo="http://images.stttoegypt2026.com:80/images/4omwjf3HgGx4nZXcA0Avmd9bQny_big.jpg" group-title="English Series",Kyle XY
 http://mhav1.com:2095/series/ht2990/742579548/3476.ts
 
@@ -17270,7 +17273,10 @@ http://mhav1.com:2095/series/ht2990/742579548/6279.ts
 #EXTINF:-1 tvg-id="" tvg-name="التحقيق" tvg-logo="http://images.stttoegypt2026.com:80/images/durttKJqTFY1Yh2YoVVaqP5pinY_big.jpg" group-title="مسلسلات مدبلجه",التحقيق
 http://mhav1.com:2095/series/ht2990/742579548/4663.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="التفاح الحرام مدبلج" tvg-logo="http://images.stttoegypt2026.com:80/images/zo4YlJ63C6ffsIo2pr3lsh6otdy_big.jpg" group-title="مسلسلات مدبلجه",التفاح الحرام مدبلج
+#EXTINF:-1 tvg-id="" tvg-name="التفاح الحرام مدبلج" tvg-logo="http://image.tmdb.org/t/p/w600_and_h900_bestv2/aloYtdx49FeeF2YTbGwo2J3OUr9.jpg" group-title="مسلسلات مدبلجه",التفاح الحرام مدبلج
+http://mhav1.com:2095/series/ht2990/742579548/7554.ts
+
+#EXTINF:-1 tvg-id="" tvg-name="التفاح الحرام مدبلج Old" tvg-logo="http://images.stttoegypt2026.com:80/images/zo4YlJ63C6ffsIo2pr3lsh6otdy_big.jpg" group-title="مسلسلات مدبلجه",التفاح الحرام مدبلج Old
 http://mhav1.com:2095/series/ht2990/742579548/2525.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="الجيل الثالث" tvg-logo="http://images.stttoegypt2026.com:80/images/yIuXNHjsmPXzQvaV4R1MQryuUFw_big.jpg" group-title="مسلسلات مدبلجه",الجيل الثالث
