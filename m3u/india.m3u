@@ -3675,9 +3675,6 @@ http://mhav1.com:2095/live/ht2990/742579548/300737.ts
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN Disney Junior" tvg-logo="" group-title="KIDS",[Vip]OSN Disney Junior
 http://mhav1.com:2095/live/ht2990/742579548/19401.ts
 
-#EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Disney_Junior" tvg-logo="" group-title="KIDS",[Vip]OSN_Disney_Junior
-http://mhav1.com:2095/live/ht2990/742579548/676.ts
-
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]OSN_Kids_HD" tvg-logo="" group-title="KIDS",[Vip]OSN_Kids_HD
 http://mhav1.com:2095/live/ht2990/742579548/2213.ts
 
@@ -3686,9 +3683,6 @@ http://mhav1.com:2095/live/ht2990/742579548/4940.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="[Vip]Osn_Nick_Toons" tvg-logo="" group-title="KIDS",[Vip]Osn_Nick_Toons
 http://mhav1.com:2095/live/ht2990/742579548/3274.ts
-
-#EXTINF:-1 tvg-id="" tvg-name="OSN_Baby_SD" tvg-logo="" group-title="KIDS",OSN_Baby_SD
-http://mhav1.com:2095/live/ht2990/742579548/19457.ts
 
 #EXTINF:-1 tvg-id="" tvg-name="OSN_Disney_Junior_SD" tvg-logo="" group-title="KIDS",OSN_Disney_Junior_SD
 http://mhav1.com:2095/live/ht2990/742579548/3605.ts
